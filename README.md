@@ -6,12 +6,20 @@ Get NVD data via [go-cve-dictionary](https://github.com/vulsio/go-cve-dictionary
 ## Python
 
 - Check target
-  - Python Official
-    - `https://github.com/python/cpython/tree/{XXX}/Misc/NEWS.d`
-    - `https://github.com/python/cpython/tree/{XXX}/Misc/NEWS`
-    - `https://github.com/python/cpython/tree/{XXX}/Misc/HISTORY`
-  - CPE
-    - `cpe:/a:python_software_foundation`
-    - `cpe:/a:python:python`
+  - Python
+    - Official
+      - `https://github.com/python/cpython/tree/{XXX}/Misc/NEWS.d`
+      - `https://github.com/python/cpython/tree/{XXX}/Misc/NEWS`
+      - `https://github.com/python/cpython/tree/{XXX}/Misc/HISTORY`
+    - CPE
+      - `cpe:/a:python:python`
+      - `cpe:/a:python_software_foundation:python`
+  - MariaDB
+    - Official
+      - `https://mariadb.com/kb/en/security/`
+      - `https://mariadb.com/kb/en/mariadb-server-release-dates/`
+    - CPE
+      - `cpe:/a:mariadb:mariadb`
+      - `cpe:/a:mariadb_project:mariadb`
 
 ## TBD
