@@ -268,6 +268,34 @@
                     }
                 }
             },
+            "2.5.5": {
+                "source": [
+                    "https://github.com/python/cpython/blob/2.5/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo7673": {
+                        "ID": "bpo7673",
+                        "url": "https://bugs.python.org/issue7673",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    }
+                }
+            },
+            "2.5.5c2": {
+                "source": [
+                    "https://github.com/python/cpython/blob/2.5/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo7673": {
+                        "ID": "bpo7673",
+                        "url": "https://bugs.python.org/issue7673",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    }
+                }
+            },
             "2.6.6rc1": {
                 "source": [
                     "https://github.com/python/cpython/blob/2.6/Misc/NEWS"
@@ -299,34 +327,6 @@
             "3.2a1": {
                 "source": [
                     "https://github.com/python/cpython/blob/3.2/Misc/NEWS"
-                ],
-                "BTS": {
-                    "bpo7673": {
-                        "ID": "bpo7673",
-                        "url": "https://bugs.python.org/issue7673",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    }
-                }
-            },
-            "2.5.5": {
-                "source": [
-                    "https://github.com/python/cpython/blob/2.5/Misc/NEWS"
-                ],
-                "BTS": {
-                    "bpo7673": {
-                        "ID": "bpo7673",
-                        "url": "https://bugs.python.org/issue7673",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    }
-                }
-            },
-            "2.5.5c2": {
-                "source": [
-                    "https://github.com/python/cpython/blob/2.5/Misc/NEWS"
                 ],
                 "BTS": {
                     "bpo7673": {
@@ -3602,20 +3602,6 @@
                     }
                 }
             },
-            "3.2.6": {
-                "source": [
-                    "https://github.com/python/cpython/blob/3.2/Misc/NEWS"
-                ],
-                "BTS": {
-                    "bpo18709": {
-                        "ID": "bpo18709",
-                        "url": "https://bugs.python.org/issue18709",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    }
-                }
-            },
             "2.6.8": {
                 "source": [
                     "https://github.com/python/cpython/blob/2.6/Misc/NEWS"
@@ -3633,6 +3619,20 @@
             "2.6.8rc2": {
                 "source": [
                     "https://github.com/python/cpython/blob/2.6/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo18709": {
+                        "ID": "bpo18709",
+                        "url": "https://bugs.python.org/issue18709",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    }
+                }
+            },
+            "3.2.6": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.2/Misc/NEWS"
                 ],
                 "BTS": {
                     "bpo18709": {
@@ -17668,6 +17668,20 @@
                     }
                 }
             },
+            "2.6.8rc1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/2.6/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo14234": {
+                        "ID": "bpo14234",
+                        "url": "https://bugs.python.org/issue14234",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    }
+                }
+            },
             "3.1.5": {
                 "source": [
                     "https://github.com/python/cpython/blob/3.1/Misc/NEWS"
@@ -17685,34 +17699,6 @@
             "3.2.3rc2": {
                 "source": [
                     "https://github.com/python/cpython/blob/3.2/Misc/NEWS"
-                ],
-                "BTS": {
-                    "bpo14234": {
-                        "ID": "bpo14234",
-                        "url": "https://bugs.python.org/issue14234",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    }
-                }
-            },
-            "2.7.14rc1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v2.7.14rc1/Misc/NEWS"
-                ],
-                "BTS": {
-                    "bpo30694": {
-                        "ID": "bpo30694",
-                        "url": "https://bugs.python.org/issue30694",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    }
-                }
-            },
-            "2.6.8rc1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/2.6/Misc/NEWS"
                 ],
                 "BTS": {
                     "bpo14234": {
@@ -17746,6 +17732,20 @@
                     "bpo14234": {
                         "ID": "bpo14234",
                         "url": "https://bugs.python.org/issue14234",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    }
+                }
+            },
+            "2.7.14rc1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v2.7.14rc1/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo30694": {
+                        "ID": "bpo30694",
+                        "url": "https://bugs.python.org/issue30694",
                         "date": "",
                         "nonce": "",
                         "section": ""
@@ -18535,34 +18535,6 @@
                     }
                 }
             },
-            "3.1.5": {
-                "source": [
-                    "https://github.com/python/cpython/blob/3.1/Misc/NEWS"
-                ],
-                "BTS": {
-                    "bpo13885": {
-                        "ID": "bpo13885",
-                        "url": "https://bugs.python.org/issue13885",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    }
-                }
-            },
-            "3.2.3rc1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/3.2/Misc/NEWS"
-                ],
-                "BTS": {
-                    "bpo13885": {
-                        "ID": "bpo13885",
-                        "url": "https://bugs.python.org/issue13885",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    }
-                }
-            },
             "2.6.7": {
                 "source": [
                     "https://github.com/python/cpython/blob/2.6/Misc/NEWS"
@@ -18580,6 +18552,34 @@
             "2.6.7rc2": {
                 "source": [
                     "https://github.com/python/cpython/blob/2.6/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo13885": {
+                        "ID": "bpo13885",
+                        "url": "https://bugs.python.org/issue13885",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    }
+                }
+            },
+            "3.1.5": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.1/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo13885": {
+                        "ID": "bpo13885",
+                        "url": "https://bugs.python.org/issue13885",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    }
+                }
+            },
+            "3.2.3rc1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.2/Misc/NEWS"
                 ],
                 "BTS": {
                     "bpo13885": {
@@ -18802,6 +18802,20 @@
                     }
                 }
             },
+            "2.7.7": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v2.7.8/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo21671": {
+                        "ID": "bpo21671",
+                        "url": "https://bugs.python.org/issue21671",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    }
+                }
+            },
             "3.4.2": {
                 "source": [
                     "https://github.com/python/cpython/blob/v3.4.2rc1/Misc/NEWS"
@@ -18817,20 +18831,6 @@
                     "bpo22160": {
                         "ID": "bpo22160",
                         "url": "https://bugs.python.org/issue22160",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    }
-                }
-            },
-            "2.7.7": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v2.7.8/Misc/NEWS"
-                ],
-                "BTS": {
-                    "bpo21671": {
-                        "ID": "bpo21671",
-                        "url": "https://bugs.python.org/issue21671",
                         "date": "",
                         "nonce": "",
                         "section": ""
@@ -18865,6 +18865,11 @@
                 ]
             },
             "2.5.5c2": {
+                "source": [
+                    "https://github.com/python/cpython/blob/2.5/Misc/NEWS"
+                ]
+            },
+            "2.5.5c1": {
                 "source": [
                     "https://github.com/python/cpython/blob/2.5/Misc/NEWS"
                 ]
