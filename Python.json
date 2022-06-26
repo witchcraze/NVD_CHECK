@@ -19583,5 +19583,15 @@
                 }
             }
         }
+    },
+    "CAN-2005-2491": {
+        "CVE-ID": "CAN-2005-2491",
+        "Official": {
+            "2.3.6c1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/2.3/Misc/NEWS"
+                ]
+            }
+        }
     }
 }
