@@ -22,6 +22,7 @@ Get NVD data via [go-cve-dictionary](https://github.com/vulsio/go-cve-dictionary
   - `https://github.com/python/cpython/blob/*/Misc/NEWS.d/*.rst`
   - `https://github.com/python/cpython/blob/*/Misc/NEWS`
   - `https://github.com/python/cpython/blob/*/Misc/HISTORY`
+  - `https://bugs.python.org/` (title)
 - CPE
   - `cpe:/a:python:python`
   - `cpe:/a:python_software_foundation:python`
