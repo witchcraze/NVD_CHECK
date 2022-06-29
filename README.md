@@ -27,6 +27,13 @@ Get NVD data via [go-cve-dictionary](https://github.com/vulsio/go-cve-dictionary
   - `cpe:/a:python:python`
   - `cpe:/a:python_software_foundation:python`
 
+#### Ruby
+
+- Official
+  - `https://www.ruby-lang.org/en/downloads/releases/`
+- CPE
+  - `cpe:/a:ruby-lang:ruby`
+
 ### Database
 
 #### MariaDB
