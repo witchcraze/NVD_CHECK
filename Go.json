@@ -1,504 +1,4 @@
 {
-    "CVE-2019-9634": {
-        "CVE-ID": "CVE-2019-9634",
-        "NVD": {
-            "Descriptions": "Go through 1.12 on Windows misuses certain LoadLibrary functionality, leading to DLL injection.",
-            "Cvss2_BaseScore": 6.8,
-            "Cvss3_BaseScore": 7.8,
-            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:golang:go",
-                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "1.12"
-                }
-            ]
-        },
-        "Official": {
-            "1.13": {
-                "source": {
-                    "30642": "https://github.com/golang/go/issues/30642"
-                }
-            }
-        }
-    },
-    "CVE-2019-11888": {
-        "CVE-ID": "CVE-2019-11888",
-        "NVD": {
-            "Descriptions": "Go through 1.12.5 on Windows mishandles process creation with a nil environment in conjunction with a non-nil token, which allows attackers to obtain sensitive information or gain privileges.",
-            "Cvss2_BaseScore": 7.5,
-            "Cvss3_BaseScore": 9.8,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:golang:go",
-                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "1.12.5"
-                }
-            ]
-        },
-        "Official": {
-            "1.12.6": {
-                "source": {
-                    "32081": "https://github.com/golang/go/issues/32081"
-                }
-            }
-        }
-    },
-    "CVE-2021-38297": {
-        "CVE-ID": "CVE-2021-38297",
-        "NVD": {
-            "Descriptions": "Go before 1.16.9 and 1.17.x before 1.17.2 has a Buffer Overflow via large arguments in a function invocation from a WASM module, when GOARCH=wasm GOOS=js is used.",
-            "Cvss2_BaseScore": 7.5,
-            "Cvss3_BaseScore": 9.8,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/o:fedoraproject:fedora:35",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:fedoraproject:fedora:34",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:34:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:golang:go",
-                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "1.16.9",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:golang:go",
-                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "1.17.0",
-                    "VersionEndExcluding": "1.17.2",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        },
-        "Official": {
-            "1.18": {
-                "source": {
-                    "48797": "https://github.com/golang/go/issues/48797"
-                }
-            },
-            "1.17.2": {
-                "source": {
-                    "48800": "https://github.com/golang/go/issues/48800"
-                }
-            },
-            "1.16.9": {
-                "source": {
-                    "48799": "https://github.com/golang/go/issues/48799"
-                }
-            }
-        }
-    },
-    "CVE-2022-1962": {
-        "CVE-ID": "CVE-2022-1962",
-        "Official": {
-            "1.19": {
-                "source": {
-                    "53616": "https://github.com/golang/go/issues/53616"
-                }
-            },
-            "1.17.12": {
-                "source": {
-                    "53707": "https://github.com/golang/go/issues/53707"
-                }
-            },
-            "1.18.4": {
-                "source": {
-                    "53708": "https://github.com/golang/go/issues/53708"
-                }
-            }
-        }
-    },
-    "CVE-2022-30635": {
-        "CVE-ID": "CVE-2022-30635",
-        "Official": {
-            "1.19": {
-                "source": {
-                    "53615": "https://github.com/golang/go/issues/53615"
-                }
-            },
-            "1.17.12": {
-                "source": {
-                    "53709": "https://github.com/golang/go/issues/53709"
-                }
-            },
-            "1.18.4": {
-                "source": {
-                    "53710": "https://github.com/golang/go/issues/53710"
-                }
-            }
-        }
-    },
-    "CVE-2022-28131": {
-        "CVE-ID": "CVE-2022-28131",
-        "Official": {
-            "1.19": {
-                "source": {
-                    "53614": "https://github.com/golang/go/issues/53614"
-                }
-            },
-            "1.17.12": {
-                "source": {
-                    "53711": "https://github.com/golang/go/issues/53711"
-                }
-            },
-            "1.18.4": {
-                "source": {
-                    "53712": "https://github.com/golang/go/issues/53712"
-                }
-            }
-        }
-    },
-    "CVE-2022-30633": {
-        "CVE-ID": "CVE-2022-30633",
-        "Official": {
-            "1.19": {
-                "source": {
-                    "53611": "https://github.com/golang/go/issues/53611"
-                }
-            },
-            "1.17.12": {
-                "source": {
-                    "53715": "https://github.com/golang/go/issues/53715"
-                }
-            },
-            "1.18.4": {
-                "source": {
-                    "53716": "https://github.com/golang/go/issues/53716"
-                }
-            }
-        }
-    },
-    "CVE-2022-30632": {
-        "CVE-ID": "CVE-2022-30632",
-        "Official": {
-            "1.19": {
-                "source": {
-                    "53416": "https://github.com/golang/go/issues/53416"
-                }
-            },
-            "1.17.12": {
-                "source": {
-                    "53713": "https://github.com/golang/go/issues/53713"
-                }
-            },
-            "1.18.4": {
-                "source": {
-                    "53714": "https://github.com/golang/go/issues/53714"
-                }
-            }
-        }
-    },
-    "CVE-2022-30630": {
-        "CVE-ID": "CVE-2022-30630",
-        "Official": {
-            "1.19": {
-                "source": {
-                    "53415": "https://github.com/golang/go/issues/53415"
-                }
-            },
-            "1.17.12": {
-                "source": {
-                    "53719": "https://github.com/golang/go/issues/53719"
-                }
-            },
-            "1.18.4": {
-                "source": {
-                    "53720": "https://github.com/golang/go/issues/53720"
-                }
-            }
-        }
-    },
-    "CVE-2022-30631": {
-        "CVE-ID": "CVE-2022-30631",
-        "Official": {
-            "1.19": {
-                "source": {
-                    "53168": "https://github.com/golang/go/issues/53168"
-                }
-            },
-            "1.17.12": {
-                "source": {
-                    "53717": "https://github.com/golang/go/issues/53717"
-                }
-            },
-            "1.18.4": {
-                "source": {
-                    "53718": "https://github.com/golang/go/issues/53718"
-                }
-            }
-        }
-    },
-    "CVE-2021-33195": {
-        "CVE-ID": "CVE-2021-33195",
-        "NVD": {
-            "Descriptions": "Go before 1.15.13 and 1.16.x before 1.16.5 has functions for DNS lookups that do not validate replies from DNS servers, and thus a return value may contain an unsafe injection (e.g., XSS) that does not conform to the RFC1035 format.",
-            "Cvss2_BaseScore": 7.5,
-            "Cvss3_BaseScore": 7.3,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:netapp:cloud_insights_telegraf_agent:-",
-                    "FormattedString": "cpe:2.3:a:netapp:cloud_insights_telegraf_agent:-:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:golang:go",
-                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "1.15.13",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:golang:go",
-                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "1.16.0",
-                    "VersionEndExcluding": "1.16.5",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        },
-        "Official": {
-            "1.16.5": {
-                "source": {
-                    "46530": "https://github.com/golang/go/issues/46530"
-                }
-            },
-            "1.15.13": {
-                "source": {
-                    "46531": "https://github.com/golang/go/issues/46531"
-                }
-            },
-            "1.17": {
-                "source": {
-                    "46504": "https://github.com/golang/go/issues/46504"
-                }
-            }
-        }
-    },
-    "CVE-2021-34558": {
-        "CVE-ID": "CVE-2021-34558",
-        "NVD": {
-            "Descriptions": "The crypto/tls package of Go through 1.16.5 does not properly assert that the type of public key in an X.509 certificate matches the expected type when doing a RSA based key exchange, allowing a malicious TLS server to cause a TLS client to panic.",
-            "Cvss2_BaseScore": 2.6,
-            "Cvss3_BaseScore": 6.5,
-            "Cvss2_VectorString": "AV:N/AC:H/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/o:fedoraproject:fedora:34",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:34:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:fedoraproject:fedora:33",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:33:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:oracle:timesten_in-memory_database",
-                    "FormattedString": "cpe:2.3:a:oracle:timesten_in-memory_database:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "21.1.1.1.0",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:netapp:trident:-",
-                    "FormattedString": "cpe:2.3:a:netapp:trident:-:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:netapp:storagegrid:-",
-                    "FormattedString": "cpe:2.3:a:netapp:storagegrid:-:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:netapp:cloud_insights_telegraf:-",
-                    "FormattedString": "cpe:2.3:a:netapp:cloud_insights_telegraf:-:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:golang:go",
-                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "1.16.5"
-                }
-            ]
-        },
-        "Official": {
-            "1.16.6": {
-                "source": {
-                    "47145": "https://github.com/golang/go/issues/47145"
-                }
-            },
-            "1.15.14": {
-                "source": {
-                    "47144": "https://github.com/golang/go/issues/47144"
-                }
-            },
-            "1.17": {
-                "source": {
-                    "47143": "https://github.com/golang/go/issues/47143"
-                }
-            }
-        }
-    },
-    "CVE-2022-28327": {
-        "CVE-ID": "CVE-2022-28327",
-        "NVD": {
-            "Descriptions": "The generic P-256 feature in crypto/elliptic in Go before 1.17.9 and 1.18.x before 1.18.1 allows a panic via long scalar input.",
-            "Cvss2_BaseScore": 5,
-            "Cvss3_BaseScore": 7.5,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:golang:go",
-                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "1.17.9",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:golang:go",
-                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "1.18.0",
-                    "VersionEndExcluding": "1.18.1",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        },
-        "Official": {
-            "1.17.9": {
-                "source": {
-                    "52076": "https://github.com/golang/go/issues/52076"
-                }
-            },
-            "1.18.1": {
-                "source": {
-                    "52077": "https://github.com/golang/go/issues/52077"
-                }
-            }
-        }
-    },
-    "CVE-2022-24675": {
-        "CVE-ID": "CVE-2022-24675",
-        "NVD": {
-            "Descriptions": "encoding/pem in Go before 1.17.9 and 1.18.x before 1.18.1 has a Decode stack overflow via a large amount of PEM data.",
-            "Cvss2_BaseScore": 5,
-            "Cvss3_BaseScore": 7.5,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:golang:go",
-                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "1.17.9",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:golang:go",
-                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "1.18.0",
-                    "VersionEndExcluding": "1.18.1",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        },
-        "Official": {
-            "1.17.9": {
-                "source": {
-                    "52036": "https://github.com/golang/go/issues/52036"
-                }
-            },
-            "1.18.1": {
-                "source": {
-                    "52037": "https://github.com/golang/go/issues/52037"
-                }
-            }
-        }
-    },
-    "CVE-2022-27536": {
-        "CVE-ID": "CVE-2022-27536",
-        "NVD": {
-            "Descriptions": "Certificate.Verify in crypto/x509 in Go 1.18.x before 1.18.1 can be caused to panic on macOS when presented with certain malformed certificates. This allows a remote TLS server to cause a TLS client to panic.",
-            "Cvss2_BaseScore": 5,
-            "Cvss3_BaseScore": 7.5,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:golang:go",
-                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "1.18.0",
-                    "VersionEndExcluding": "1.18.1",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        },
-        "Official": {
-            "1.18.1": {
-                "source": {
-                    "51763": "https://github.com/golang/go/issues/51763"
-                }
-            }
-        }
-    },
     "CVE-2012-2666": {
         "CVE-ID": "CVE-2012-2666",
         "NVD": {
@@ -733,6 +233,13 @@
                     "VersionEndIncluding": "1.4.2"
                 }
             ]
+        },
+        "Official": {
+            "1.4.3": {
+                "source": {
+                    "12741": "https://github.com/golang/go/issues/12741"
+                }
+            }
         }
     },
     "CVE-2015-5740": {
@@ -873,6 +380,13 @@
                     "VersionEndIncluding": "1.4.2"
                 }
             ]
+        },
+        "Official": {
+            "1.4.3": {
+                "source": {
+                    "12741": "https://github.com/golang/go/issues/12741"
+                }
+            }
         }
     },
     "CVE-2015-5741": {
@@ -917,6 +431,13 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.4.3": {
+                "source": {
+                    "12741": "https://github.com/golang/go/issues/12741"
+                }
+            }
         }
     },
     "CVE-2015-8618": {
@@ -1063,6 +584,13 @@
                     "VersionEndIncluding": "1.5"
                 }
             ]
+        },
+        "Official": {
+            "1.6.1": {
+                "source": {
+                    "15184": "https://github.com/golang/go/issues/15184"
+                }
+            }
         }
     },
     "CVE-2016-5386": {
@@ -1131,6 +659,13 @@
                     "VersionEndIncluding": "1.6"
                 }
             ]
+        },
+        "Official": {
+            "1.6.3": {
+                "source": {
+                    "16405": "https://github.com/golang/go/issues/16405"
+                }
+            }
         }
     },
     "CVE-2017-1000097": {
@@ -1194,6 +729,13 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.7.4": {
+                "source": {
+                    "17965": "https://github.com/golang/go/issues/17965"
+                }
+            }
         }
     },
     "CVE-2017-15041": {
@@ -1489,6 +1031,23 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.12": {
+                "source": {
+                    "29230": "https://github.com/golang/go/issues/29230"
+                }
+            },
+            "1.11.3": {
+                "source": {
+                    "29232": "https://github.com/golang/go/issues/29232"
+                }
+            },
+            "1.10.6": {
+                "source": {
+                    "29234": "https://github.com/golang/go/issues/29234"
+                }
+            }
         }
     },
     "CVE-2018-16874": {
@@ -1565,6 +1124,23 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.12": {
+                "source": {
+                    "29231": "https://github.com/golang/go/issues/29231"
+                }
+            },
+            "1.11.3": {
+                "source": {
+                    "29235": "https://github.com/golang/go/issues/29235"
+                }
+            },
+            "1.10.6": {
+                "source": {
+                    "29236": "https://github.com/golang/go/issues/29236"
+                }
+            }
         }
     },
     "CVE-2018-16875": {
@@ -1601,6 +1177,13 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.12": {
+                "source": {
+                    "29233": "https://github.com/golang/go/issues/29233"
+                }
+            }
         }
     },
     "CVE-2018-6574": {
@@ -1780,6 +1363,33 @@
             "1.9.5": {
                 "source": {
                     "24567": "https://github.com/golang/go/issues/24567"
+                }
+            }
+        }
+    },
+    "CVE-2019-11888": {
+        "CVE-ID": "CVE-2019-11888",
+        "NVD": {
+            "Descriptions": "Go through 1.12.5 on Windows mishandles process creation with a nil environment in conjunction with a non-nil token, which allows attackers to obtain sensitive information or gain privileges.",
+            "Cvss2_BaseScore": 7.5,
+            "Cvss3_BaseScore": 9.8,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "1.12.5"
+                }
+            ]
+        },
+        "Official": {
+            "1.12.6": {
+                "source": {
+                    "32081": "https://github.com/golang/go/issues/32081"
                 }
             }
         }
@@ -2212,6 +1822,43 @@
             }
         }
     },
+    "CVE-2019-9634": {
+        "CVE-ID": "CVE-2019-9634",
+        "NVD": {
+            "Descriptions": "Go through 1.12 on Windows misuses certain LoadLibrary functionality, leading to DLL injection.",
+            "Cvss2_BaseScore": 6.8,
+            "Cvss3_BaseScore": 7.8,
+            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "1.12"
+                }
+            ]
+        },
+        "Official": {
+            "1.13": {
+                "source": {
+                    "30642": "https://github.com/golang/go/issues/30642"
+                }
+            },
+            "1.12.2": {
+                "source": {
+                    "30666": "https://github.com/golang/go/issues/30666"
+                }
+            },
+            "1.11.10": {
+                "source": {
+                    "30989": "https://github.com/golang/go/issues/30989"
+                }
+            }
+        }
+    },
     "CVE-2019-9741": {
         "CVE-ID": "CVE-2019-9741",
         "NVD": {
@@ -2489,6 +2136,23 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.15": {
+                "source": {
+                    "40618": "https://github.com/golang/go/issues/40618"
+                }
+            },
+            "1.14.7": {
+                "source": {
+                    "40619": "https://github.com/golang/go/issues/40619"
+                }
+            },
+            "1.13.15": {
+                "source": {
+                    "40620": "https://github.com/golang/go/issues/40620"
+                }
+            }
         }
     },
     "CVE-2020-24553": {
@@ -2549,6 +2213,23 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.14.8": {
+                "source": {
+                    "41164": "https://github.com/golang/go/issues/41164"
+                }
+            },
+            "1.15.1": {
+                "source": {
+                    "41165": "https://github.com/golang/go/issues/41165"
+                }
+            },
+            "1.16": {
+                "source": {
+                    "40928": "https://github.com/golang/go/issues/40928"
+                }
+            }
         }
     },
     "CVE-2020-28362": {
@@ -2609,6 +2290,23 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.14.12": {
+                "source": {
+                    "42553": "https://github.com/golang/go/issues/42553"
+                }
+            },
+            "1.15.5": {
+                "source": {
+                    "42554": "https://github.com/golang/go/issues/42554"
+                }
+            },
+            "1.16": {
+                "source": {
+                    "42552": "https://github.com/golang/go/issues/42552"
+                }
+            }
         }
     },
     "CVE-2020-28366": {
@@ -2647,11 +2345,6 @@
             ]
         },
         "Official": {
-            "1.16": {
-                "source": {
-                    "42559": "https://github.com/golang/go/issues/42559"
-                }
-            },
             "1.14.12": {
                 "source": {
                     "42560": "https://github.com/golang/go/issues/42560"
@@ -2660,6 +2353,11 @@
             "1.15.5": {
                 "source": {
                     "42562": "https://github.com/golang/go/issues/42562"
+                }
+            },
+            "1.16": {
+                "source": {
+                    "42559": "https://github.com/golang/go/issues/42559"
                 }
             }
         }
@@ -2708,12 +2406,6 @@
             ]
         },
         "Official": {
-            "1.16": {
-                "source": {
-                    "42556": "https://github.com/golang/go/issues/42556",
-                    "42555": "https://github.com/golang/go/issues/42555"
-                }
-            },
             "1.14.12": {
                 "source": {
                     "42557": "https://github.com/golang/go/issues/42557"
@@ -2722,6 +2414,12 @@
             "1.15.5": {
                 "source": {
                     "42558": "https://github.com/golang/go/issues/42558"
+                }
+            },
+            "1.16": {
+                "source": {
+                    "42556": "https://github.com/golang/go/issues/42556",
+                    "42555": "https://github.com/golang/go/issues/42555"
                 }
             }
         }
@@ -2907,6 +2605,23 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.14": {
+                "source": {
+                    "36837": "https://github.com/golang/go/issues/36837"
+                }
+            },
+            "1.12.16": {
+                "source": {
+                    "36839": "https://github.com/golang/go/issues/36839"
+                }
+            },
+            "1.13.7": {
+                "source": {
+                    "36838": "https://github.com/golang/go/issues/36838"
+                }
+            }
         }
     },
     "CVE-2021-27918": {
@@ -2935,6 +2650,23 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.15.9": {
+                "source": {
+                    "44914": "https://github.com/golang/go/issues/44914"
+                }
+            },
+            "1.16.1": {
+                "source": {
+                    "44915": "https://github.com/golang/go/issues/44915"
+                }
+            },
+            "1.17": {
+                "source": {
+                    "44913": "https://github.com/golang/go/issues/44913"
+                }
+            }
         }
     },
     "CVE-2021-27919": {
@@ -2971,6 +2703,18 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.16.1": {
+                "source": {
+                    "44917": "https://github.com/golang/go/issues/44917"
+                }
+            },
+            "1.17": {
+                "source": {
+                    "44916": "https://github.com/golang/go/issues/44916"
+                }
+            }
         }
     },
     "CVE-2021-29923": {
@@ -3087,6 +2831,23 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.15.7": {
+                "source": {
+                    "43788": "https://github.com/golang/go/issues/43788"
+                }
+            },
+            "1.14.14": {
+                "source": {
+                    "43787": "https://github.com/golang/go/issues/43787"
+                }
+            },
+            "1.16": {
+                "source": {
+                    "43786": "https://github.com/golang/go/issues/43786"
+                }
+            }
         }
     },
     "CVE-2021-3115": {
@@ -3139,6 +2900,23 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.15.7": {
+                "source": {
+                    "43785": "https://github.com/golang/go/issues/43785"
+                }
+            },
+            "1.14.14": {
+                "source": {
+                    "43784": "https://github.com/golang/go/issues/43784"
+                }
+            },
+            "1.16": {
+                "source": {
+                    "43783": "https://github.com/golang/go/issues/43783"
+                }
+            }
         }
     },
     "CVE-2021-31525": {
@@ -3220,6 +2998,62 @@
             ]
         }
     },
+    "CVE-2021-33195": {
+        "CVE-ID": "CVE-2021-33195",
+        "NVD": {
+            "Descriptions": "Go before 1.15.13 and 1.16.x before 1.16.5 has functions for DNS lookups that do not validate replies from DNS servers, and thus a return value may contain an unsafe injection (e.g., XSS) that does not conform to the RFC1035 format.",
+            "Cvss2_BaseScore": 7.5,
+            "Cvss3_BaseScore": 7.3,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:netapp:cloud_insights_telegraf_agent:-",
+                    "FormattedString": "cpe:2.3:a:netapp:cloud_insights_telegraf_agent:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.15.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.16.0",
+                    "VersionEndExcluding": "1.16.5",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.16.5": {
+                "source": {
+                    "46530": "https://github.com/golang/go/issues/46530",
+                    "46357": "https://github.com/golang/go/issues/46357"
+                }
+            },
+            "1.15.13": {
+                "source": {
+                    "46531": "https://github.com/golang/go/issues/46531",
+                    "46356": "https://github.com/golang/go/issues/46356"
+                }
+            },
+            "1.17": {
+                "source": {
+                    "46504": "https://github.com/golang/go/issues/46504",
+                    "46241": "https://github.com/golang/go/issues/46241"
+                }
+            }
+        }
+    },
     "CVE-2021-33196": {
         "CVE-ID": "CVE-2021-33196",
         "NVD": {
@@ -3254,6 +3088,23 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.17": {
+                "source": {
+                    "46242": "https://github.com/golang/go/issues/46242"
+                }
+            },
+            "1.16.5": {
+                "source": {
+                    "46397": "https://github.com/golang/go/issues/46397"
+                }
+            },
+            "1.15.13": {
+                "source": {
+                    "46396": "https://github.com/golang/go/issues/46396"
+                }
+            }
         }
     },
     "CVE-2021-33197": {
@@ -3282,6 +3133,23 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.17": {
+                "source": {
+                    "46313": "https://github.com/golang/go/issues/46313"
+                }
+            },
+            "1.16.5": {
+                "source": {
+                    "46315": "https://github.com/golang/go/issues/46315"
+                }
+            },
+            "1.15.13": {
+                "source": {
+                    "46314": "https://github.com/golang/go/issues/46314"
+                }
+            }
         }
     },
     "CVE-2021-33198": {
@@ -3310,6 +3178,91 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        }
+    },
+    "CVE-2021-34558": {
+        "CVE-ID": "CVE-2021-34558",
+        "NVD": {
+            "Descriptions": "The crypto/tls package of Go through 1.16.5 does not properly assert that the type of public key in an X.509 certificate matches the expected type when doing a RSA based key exchange, allowing a malicious TLS server to cause a TLS client to panic.",
+            "Cvss2_BaseScore": 2.6,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "AV:N/AC:H/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:34",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:34:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:33",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:33:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:timesten_in-memory_database",
+                    "FormattedString": "cpe:2.3:a:oracle:timesten_in-memory_database:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "21.1.1.1.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:trident:-",
+                    "FormattedString": "cpe:2.3:a:netapp:trident:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:storagegrid:-",
+                    "FormattedString": "cpe:2.3:a:netapp:storagegrid:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:cloud_insights_telegraf:-",
+                    "FormattedString": "cpe:2.3:a:netapp:cloud_insights_telegraf:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "1.16.5"
+                }
+            ]
+        },
+        "Official": {
+            "1.16.6": {
+                "source": {
+                    "47145": "https://github.com/golang/go/issues/47145"
+                }
+            },
+            "1.15.14": {
+                "source": {
+                    "47144": "https://github.com/golang/go/issues/47144"
+                }
+            },
+            "1.17": {
+                "source": {
+                    "47143": "https://github.com/golang/go/issues/47143"
+                }
+            }
         }
     },
     "CVE-2021-36221": {
@@ -3378,6 +3331,67 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        }
+    },
+    "CVE-2021-38297": {
+        "CVE-ID": "CVE-2021-38297",
+        "NVD": {
+            "Descriptions": "Go before 1.16.9 and 1.17.x before 1.17.2 has a Buffer Overflow via large arguments in a function invocation from a WASM module, when GOARCH=wasm GOOS=js is used.",
+            "Cvss2_BaseScore": 7.5,
+            "Cvss3_BaseScore": 9.8,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:35",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:34",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:34:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.16.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.17.0",
+                    "VersionEndExcluding": "1.17.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.18": {
+                "source": {
+                    "48797": "https://github.com/golang/go/issues/48797"
+                }
+            },
+            "1.17.2": {
+                "source": {
+                    "48800": "https://github.com/golang/go/issues/48800"
+                }
+            },
+            "1.16.9": {
+                "source": {
+                    "48799": "https://github.com/golang/go/issues/48799"
+                }
+            }
         }
     },
     "CVE-2021-39293": {
@@ -3554,6 +3568,23 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.18": {
+                "source": {
+                    "50058": "https://github.com/golang/go/issues/50058"
+                }
+            },
+            "1.16.12": {
+                "source": {
+                    "50064": "https://github.com/golang/go/issues/50064"
+                }
+            },
+            "1.17.5": {
+                "source": {
+                    "50065": "https://github.com/golang/go/issues/50065"
+                }
+            }
         }
     },
     "CVE-2021-44717": {
@@ -3590,6 +3621,23 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.18": {
+                "source": {
+                    "50057": "https://github.com/golang/go/issues/50057"
+                }
+            },
+            "1.16.12": {
+                "source": {
+                    "50066": "https://github.com/golang/go/issues/50066"
+                }
+            },
+            "1.17.5": {
+                "source": {
+                    "50067": "https://github.com/golang/go/issues/50067"
+                }
+            }
         }
     },
     "CVE-2022-23772": {
@@ -3658,6 +3706,23 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.18": {
+                "source": {
+                    "50699": "https://github.com/golang/go/issues/50699"
+                }
+            },
+            "1.17.7": {
+                "source": {
+                    "50701": "https://github.com/golang/go/issues/50701"
+                }
+            },
+            "1.16.14": {
+                "source": {
+                    "50700": "https://github.com/golang/go/issues/50700"
+                }
+            }
         }
     },
     "CVE-2022-23773": {
@@ -3786,6 +3851,68 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.18": {
+                "source": {
+                    "50974": "https://github.com/golang/go/issues/50974"
+                }
+            },
+            "1.17.7": {
+                "source": {
+                    "50978": "https://github.com/golang/go/issues/50978"
+                }
+            },
+            "1.16.14": {
+                "source": {
+                    "50977": "https://github.com/golang/go/issues/50977"
+                }
+            }
+        }
+    },
+    "CVE-2022-24675": {
+        "CVE-ID": "CVE-2022-24675",
+        "NVD": {
+            "Descriptions": "encoding/pem in Go before 1.17.9 and 1.18.x before 1.18.1 has a Decode stack overflow via a large amount of PEM data.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.17.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.18.0",
+                    "VersionEndExcluding": "1.18.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.19": {
+                "source": {
+                    "51853": "https://github.com/golang/go/issues/51853"
+                }
+            },
+            "1.17.9": {
+                "source": {
+                    "52036": "https://github.com/golang/go/issues/52036"
+                }
+            },
+            "1.18.1": {
+                "source": {
+                    "52037": "https://github.com/golang/go/issues/52037"
+                }
+            }
         }
     },
     "CVE-2022-24921": {
@@ -3832,6 +3959,83 @@
             ]
         }
     },
+    "CVE-2022-27536": {
+        "CVE-ID": "CVE-2022-27536",
+        "NVD": {
+            "Descriptions": "Certificate.Verify in crypto/x509 in Go 1.18.x before 1.18.1 can be caused to panic on macOS when presented with certain malformed certificates. This allows a remote TLS server to cause a TLS client to panic.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.18.0",
+                    "VersionEndExcluding": "1.18.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.18.1": {
+                "source": {
+                    "51763": "https://github.com/golang/go/issues/51763"
+                }
+            },
+            "1.19": {
+                "source": {
+                    "51759": "https://github.com/golang/go/issues/51759"
+                }
+            }
+        }
+    },
+    "CVE-2022-28327": {
+        "CVE-ID": "CVE-2022-28327",
+        "NVD": {
+            "Descriptions": "The generic P-256 feature in crypto/elliptic in Go before 1.17.9 and 1.18.x before 1.18.1 allows a panic via long scalar input.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.17.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.18.0",
+                    "VersionEndExcluding": "1.18.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.17.9": {
+                "source": {
+                    "52076": "https://github.com/golang/go/issues/52076"
+                }
+            },
+            "1.18.1": {
+                "source": {
+                    "52077": "https://github.com/golang/go/issues/52077"
+                }
+            },
+            "1.19": {
+                "source": {
+                    "52075": "https://github.com/golang/go/issues/52075"
+                }
+            }
+        }
+    },
     "CVE-2022-29526": {
         "CVE-ID": "CVE-2022-29526",
         "NVD": {
@@ -3873,6 +4077,974 @@
             "1.17.10": {
                 "source": {
                     "52439": "https://github.com/golang/go/issues/52439"
+                }
+            }
+        }
+    },
+    "CVE-2022-1962": {
+        "CVE-ID": "CVE-2022-1962",
+        "Official": {
+            "1.19": {
+                "source": {
+                    "53616": "https://github.com/golang/go/issues/53616"
+                }
+            },
+            "1.17.12": {
+                "source": {
+                    "53707": "https://github.com/golang/go/issues/53707"
+                }
+            },
+            "1.18.4": {
+                "source": {
+                    "53708": "https://github.com/golang/go/issues/53708"
+                }
+            }
+        }
+    },
+    "CVE-2022-30635": {
+        "CVE-ID": "CVE-2022-30635",
+        "Official": {
+            "1.19": {
+                "source": {
+                    "53615": "https://github.com/golang/go/issues/53615"
+                }
+            },
+            "1.17.12": {
+                "source": {
+                    "53709": "https://github.com/golang/go/issues/53709"
+                }
+            },
+            "1.18.4": {
+                "source": {
+                    "53710": "https://github.com/golang/go/issues/53710"
+                }
+            }
+        }
+    },
+    "CVE-2022-28131": {
+        "CVE-ID": "CVE-2022-28131",
+        "Official": {
+            "1.19": {
+                "source": {
+                    "53614": "https://github.com/golang/go/issues/53614"
+                }
+            },
+            "1.17.12": {
+                "source": {
+                    "53711": "https://github.com/golang/go/issues/53711"
+                }
+            },
+            "1.18.4": {
+                "source": {
+                    "53712": "https://github.com/golang/go/issues/53712"
+                }
+            }
+        }
+    },
+    "CVE-2022-30633": {
+        "CVE-ID": "CVE-2022-30633",
+        "Official": {
+            "1.19": {
+                "source": {
+                    "53611": "https://github.com/golang/go/issues/53611"
+                }
+            },
+            "1.17.12": {
+                "source": {
+                    "53715": "https://github.com/golang/go/issues/53715"
+                }
+            },
+            "1.18.4": {
+                "source": {
+                    "53716": "https://github.com/golang/go/issues/53716"
+                }
+            }
+        }
+    },
+    "CVE-2022-30632": {
+        "CVE-ID": "CVE-2022-30632",
+        "Official": {
+            "1.19": {
+                "source": {
+                    "53416": "https://github.com/golang/go/issues/53416"
+                }
+            },
+            "1.17.12": {
+                "source": {
+                    "53713": "https://github.com/golang/go/issues/53713"
+                }
+            },
+            "1.18.4": {
+                "source": {
+                    "53714": "https://github.com/golang/go/issues/53714"
+                }
+            }
+        }
+    },
+    "CVE-2022-30630": {
+        "CVE-ID": "CVE-2022-30630",
+        "Official": {
+            "1.19": {
+                "source": {
+                    "53415": "https://github.com/golang/go/issues/53415"
+                }
+            },
+            "1.17.12": {
+                "source": {
+                    "53719": "https://github.com/golang/go/issues/53719"
+                }
+            },
+            "1.18.4": {
+                "source": {
+                    "53720": "https://github.com/golang/go/issues/53720"
+                }
+            }
+        }
+    },
+    "CVE-2022-30631": {
+        "CVE-ID": "CVE-2022-30631",
+        "Official": {
+            "1.19": {
+                "source": {
+                    "53168": "https://github.com/golang/go/issues/53168"
+                }
+            },
+            "1.17.12": {
+                "source": {
+                    "53717": "https://github.com/golang/go/issues/53717"
+                }
+            },
+            "1.18.4": {
+                "source": {
+                    "53718": "https://github.com/golang/go/issues/53718"
+                }
+            }
+        }
+    },
+    "CVE-2022-30634": {
+        "CVE-ID": "CVE-2022-30634",
+        "Official": {
+            "1.19": {
+                "source": {
+                    "52561": "https://github.com/golang/go/issues/52561"
+                }
+            },
+            "1.17.11": {
+                "source": {
+                    "52932": "https://github.com/golang/go/issues/52932"
+                }
+            },
+            "1.18.3": {
+                "source": {
+                    "52933": "https://github.com/golang/go/issues/52933"
+                }
+            }
+        }
+    },
+    "CVE-2016-2183": {
+        "CVE-ID": "CVE-2016-2183",
+        "NVD": {
+            "Descriptions": "The DES and Triple DES ciphers, as used in the TLS, SSH, and IPSec protocols and other protocols and products, have a birthday bound of approximately four billion blocks, which makes it easier for remote attackers to obtain cleartext data via a birthday attack against a long-duration encrypted session, as demonstrated by an HTTPS session using Triple DES in CBC mode, aka a \"Sweet32\" attack.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux:6.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:jboss_web_server:3.0",
+                    "FormattedString": "cpe:2.3:a:redhat:jboss_web_server:3.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:jboss_enterprise_web_server:2.0.0",
+                    "FormattedString": "cpe:2.3:a:redhat:jboss_enterprise_web_server:2.0.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:jboss_enterprise_web_server:1.0.0",
+                    "FormattedString": "cpe:2.3:a:redhat:jboss_enterprise_web_server:1.0.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:jboss_enterprise_application_platform:6.0.0",
+                    "FormattedString": "cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.0.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.6.0",
+                    "FormattedString": "cpe:2.3:a:python:python:3.6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.5.0",
+                    "FormattedString": "cpe:2.3:a:python:python:3.5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.4.0",
+                    "FormattedString": "cpe:2.3:a:python:python:3.4.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.3",
+                    "FormattedString": "cpe:2.3:a:python:python:3.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:database:12.1.0.2",
+                    "FormattedString": "cpe:2.3:a:oracle:database:12.1.0.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:database:11.2.0.4",
+                    "FormattedString": "cpe:2.3:a:oracle:database:11.2.0.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2h",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2h:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2f",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2f:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2e",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2e:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2d",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2d:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2c",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2c:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2b",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2b:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2a",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2a:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1t",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1t:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1r",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1r:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1q",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1q:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1p",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1p:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1o",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1o:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1n",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1n:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1m",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1m:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1l",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1l:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1k",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1k:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1j",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1j:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1i",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1i:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1h",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1h:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1g",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1g:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1f",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1f:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1e",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1e:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1d",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1d:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1c",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1c:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1b",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1b:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1a",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1a:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:content_security_management_appliance:9.7.0-006",
+                    "FormattedString": "cpe:2.3:a:cisco:content_security_management_appliance:9.7.0-006:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:content_security_management_appliance:9.6.6-068",
+                    "FormattedString": "cpe:2.3:a:cisco:content_security_management_appliance:9.6.6-068:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.10": {
+                "source": {
+                    "21144": "https://github.com/golang/go/issues/21144"
+                }
+            },
+            "1.17": {
+                "source": {
+                    "41476": "https://github.com/golang/go/issues/41476"
+                }
+            }
+        }
+    },
+    "CVE-2016-8610": {
+        "CVE-ID": "CVE-2016-8610",
+        "NVD": {
+            "Descriptions": "A denial of service flaw was found in OpenSSL 0.9.8, 1.0.1, 1.0.2 through 1.0.2h, and 1.1.0 in the way the TLS/SSL protocol defined processing of ALERT packets during a connection handshake. A remote attacker could use this flaw to make a TLS/SSL server consume an excessive amount of CPU and fail to accept connections from other clients.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:6.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_eus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_eus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_eus:7.5",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_eus:7.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_eus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_eus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_eus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_eus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:6.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:6.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:netapp:cn1610_firmware:-",
+                    "FormattedString": "cpe:2.3:o:netapp:cn1610_firmware:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:netapp:clustered_data_ontap:-",
+                    "FormattedString": "cpe:2.3:o:netapp:clustered_data_ontap:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:8.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:jboss_enterprise_application_platform:6.4.0",
+                    "FormattedString": "cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.4.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:jboss_enterprise_application_platform:6.0.0",
+                    "FormattedString": "cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.0.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.1.0",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.1",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:0.9.8",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:0.9.8:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.0.2",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "1.0.2h"
+                },
+                {
+                    "URI": "cpe:/a:netapp:storagegrid_webscale:-",
+                    "FormattedString": "cpe:2.3:a:netapp:storagegrid_webscale:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:storagegrid:-",
+                    "FormattedString": "cpe:2.3:a:netapp:storagegrid:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:snapdrive:-::~~~unix~~",
+                    "FormattedString": "cpe:2.3:a:netapp:snapdrive:-:*:*:*:*:unix:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:snapcenter_server:-",
+                    "FormattedString": "cpe:2.3:a:netapp:snapcenter_server:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:smi-s_provider:-",
+                    "FormattedString": "cpe:2.3:a:netapp:smi-s_provider:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:service_processor:-",
+                    "FormattedString": "cpe:2.3:a:netapp:service_processor:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:ontap_select_deploy:-",
+                    "FormattedString": "cpe:2.3:a:netapp:ontap_select_deploy:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:oncommand_workflow_automation:-",
+                    "FormattedString": "cpe:2.3:a:netapp:oncommand_workflow_automation:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:oncommand_unified_manager:-::~~~7-mode~~",
+                    "FormattedString": "cpe:2.3:a:netapp:oncommand_unified_manager:-:*:*:*:*:7-mode:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:oncommand_balance:-",
+                    "FormattedString": "cpe:2.3:a:netapp:oncommand_balance:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:host_agent:-",
+                    "FormattedString": "cpe:2.3:a:netapp:host_agent:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:e-series_santricity_os_controller",
+                    "FormattedString": "cpe:2.3:a:netapp:e-series_santricity_os_controller:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "11.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "11.40"
+                },
+                {
+                    "URI": "cpe:/a:netapp:data_ontap_edge:-",
+                    "FormattedString": "cpe:2.3:a:netapp:data_ontap_edge:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:data_ontap:-::~~~7-mode~~",
+                    "FormattedString": "cpe:2.3:a:netapp:data_ontap:-:*:*:*:*:7-mode:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:clustered_data_ontap_antivirus_connector:-",
+                    "FormattedString": "cpe:2.3:a:netapp:clustered_data_ontap_antivirus_connector:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.11": {
+                "source": {
+                    "22543": "https://github.com/golang/go/issues/22543"
+                }
+            }
+        }
+    },
+    "CVE-2020-0601": {
+        "CVE-ID": "CVE-2020-0601",
+        "NVD": {
+            "Descriptions": "A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) validates Elliptic Curve Cryptography (ECC) certificates.An attacker could exploit the vulnerability by using a spoofed code-signing certificate to sign a malicious executable, making it appear the file was from a trusted, legitimate source, aka 'Windows CryptoAPI Spoofing Vulnerability'.",
+            "Cvss2_BaseScore": 5.8,
+            "Cvss3_BaseScore": 8.1,
+            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:N",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2019:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2019:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2016:1909",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2016:1909:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2016:1903",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2016:1903:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2016:1803",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2016:1803:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2016:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2016:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10:1909",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:1909:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10:1903",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:1903:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10:1809",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:1809:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10:1803",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:1803:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10:1709",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:1709:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10:1607",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:1607:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.14": {
+                "source": {
+                    "36834": "https://github.com/golang/go/issues/36834"
+                }
+            },
+            "1.12.16": {
+                "source": {
+                    "36836": "https://github.com/golang/go/issues/36836"
+                }
+            },
+            "1.13.7": {
+                "source": {
+                    "36835": "https://github.com/golang/go/issues/36835"
                 }
             }
         }
