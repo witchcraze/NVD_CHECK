@@ -7701,6 +7701,20 @@
                         "section": "Library"
                     }
                 }
+            },
+            "3.11.0b4": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.11.0b4/Misc/NEWS.d/3.11.0b4.rst"
+                ],
+                "BTS": {
+                    "gh-issue68966": {
+                        "ID": "gh-issue68966",
+                        "url": "https://github.com/python/cpython/issues/68966",
+                        "date": "2022-07-08-16-44-11",
+                        "nonce": "gjS8zs",
+                        "section": "Security"
+                    }
+                }
             }
         }
     },
