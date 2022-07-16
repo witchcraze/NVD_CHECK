@@ -4257,6 +4257,14 @@
     },
     "CVE-2022-30634": {
         "CVE-ID": "CVE-2022-30634",
+        "NVD": {
+            "Descriptions": "Infinite loop in Read in crypto/rand before Go 1.17.11 and Go 1.18.3 on Windows allows attacker to cause an indefinite hang by passing a buffer larger than 1 << 32 - 1 bytes.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.19": {
                 "source": {
