@@ -41,6 +41,17 @@ Get NVD data via [go-cve-dictionary](https://github.com/vulsio/go-cve-dictionary
 - CPE
   - `cpe:/a:ruby-lang:ruby`
 
+### Midleware
+
+#### nginx
+
+- Official
+  - `http://nginx.org/en/security_advisories.html`
+  - `https://nginx.org/en/CHANGES*`
+- CPE
+  - `cpe:/a:f5:nginx`
+  - `cpe:/a:nginx:nginx`
+
 ### Database
 
 #### MariaDB
