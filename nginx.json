@@ -8831,45 +8831,5 @@
                 }
             ]
         }
-    },
-    "CVE-2022-31307": {
-        "CVE-ID": "CVE-2022-31307",
-        "NVD": {
-            "Descriptions": "Nginx NJS v0.7.2 was discovered to contain a segmentation violation in the function njs_string_offset at src/njs_string.c.",
-            "Cvss2_BaseScore": 4.3,
-            "Cvss3_BaseScore": 5.5,
-            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:f5:nginx:0.7.2",
-                    "FormattedString": "cpe:2.3:a:f5:nginx:0.7.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        }
-    },
-    "CVE-2022-32414": {
-        "CVE-ID": "CVE-2022-32414",
-        "NVD": {
-            "Descriptions": "Nginx NJS v0.7.2 was discovered to contain a segmentation violation in the function njs_vmcode_interpreter at src/njs_vmcode.c.",
-            "Cvss2_BaseScore": 4.3,
-            "Cvss3_BaseScore": 5.5,
-            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:f5:nginx:0.7.2",
-                    "FormattedString": "cpe:2.3:a:f5:nginx:0.7.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        }
     }
 }

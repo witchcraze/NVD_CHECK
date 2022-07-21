@@ -4419,6 +4419,16 @@
             }
         }
     },
+    "CVE-2022-27664": {
+        "CVE-ID": "CVE-2022-27664",
+        "Official": {
+            "1.18.5": {
+                "source": {
+                    "53977": "https://github.com/golang/go/issues/53977"
+                }
+            }
+        }
+    },
     "CVE-2016-2183": {
         "CVE-ID": "CVE-2016-2183",
         "NVD": {
