@@ -4251,6 +4251,51 @@
             }
         }
     },
+    "CVE-2022-30634": {
+        "CVE-ID": "CVE-2022-30634",
+        "NVD": {
+            "Descriptions": "Infinite loop in Read in crypto/rand before Go 1.17.11 and Go 1.18.3 on Windows allows attacker to cause an indefinite hang by passing a buffer larger than 1 << 32 - 1 bytes.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.17.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.18.0",
+                    "VersionEndExcluding": "1.18.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.19": {
+                "source": {
+                    "52561": "https://github.com/golang/go/issues/52561"
+                }
+            },
+            "1.17.11": {
+                "source": {
+                    "52932": "https://github.com/golang/go/issues/52932"
+                }
+            },
+            "1.18.3": {
+                "source": {
+                    "52933": "https://github.com/golang/go/issues/52933"
+                }
+            }
+        }
+    },
     "CVE-2022-1962": {
         "CVE-ID": "CVE-2022-1962",
         "Official": {
@@ -4387,34 +4432,6 @@
             "1.18.4": {
                 "source": {
                     "53718": "https://github.com/golang/go/issues/53718"
-                }
-            }
-        }
-    },
-    "CVE-2022-30634": {
-        "CVE-ID": "CVE-2022-30634",
-        "NVD": {
-            "Descriptions": "Infinite loop in Read in crypto/rand before Go 1.17.11 and Go 1.18.3 on Windows allows attacker to cause an indefinite hang by passing a buffer larger than 1 << 32 - 1 bytes.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.19": {
-                "source": {
-                    "52561": "https://github.com/golang/go/issues/52561"
-                }
-            },
-            "1.17.11": {
-                "source": {
-                    "52932": "https://github.com/golang/go/issues/52932"
-                }
-            },
-            "1.18.3": {
-                "source": {
-                    "52933": "https://github.com/golang/go/issues/52933"
                 }
             }
         }
