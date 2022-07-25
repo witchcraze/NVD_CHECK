@@ -12,7 +12,16 @@ Get NVD data via [go-cve-dictionary](https://github.com/vulsio/go-cve-dictionary
 - Official
   - `https://github.com/golang/go/milestones/*`
 - CPE
-  - `cpe:/a:golang:go:`
+  - `cpe:/a:golang:go`
+
+#### Node.js
+
+- Official
+  - `https://github.com/nodejs/node/tree/main/doc/changelogs/*`
+- CPE
+  - `cpe:/a:iojs:io.js`
+  - `cpe:/a:nodejs:node.js`
+
 
 #### PHP
 
