@@ -93,12 +93,12 @@
         "Official": {
             "2.3.4": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_IOJS.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md"
                 ]
             },
             "1.8.4": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_IOJS.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md"
                 ]
             }
         }
@@ -477,12 +477,12 @@
         "Official": {
             "1.8.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_IOJS.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md"
                 ]
             },
             "2.3.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_IOJS.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md"
                 ]
             }
         }
@@ -701,17 +701,17 @@
         "Official": {
             "0.10.48": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V010.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md"
                 ]
             },
             "0.12.17": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V012.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
                 ]
             },
             "4.6.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             }
         }
@@ -1514,22 +1514,22 @@
         "Official": {
             "0.10.47": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V010.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md"
                 ]
             },
             "0.12.16": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V012.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
                 ]
             },
             "4.6.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "6.7.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             }
         }
@@ -1852,22 +1852,22 @@
         "Official": {
             "0.10.47": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V010.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md"
                 ]
             },
             "0.12.16": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V012.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
                 ]
             },
             "4.6.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "6.7.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             }
         }
@@ -2214,22 +2214,22 @@
         "Official": {
             "0.10.47": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V010.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md"
                 ]
             },
             "0.12.16": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V012.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
                 ]
             },
             "4.6.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "6.7.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             }
         }
@@ -2536,22 +2536,22 @@
         "Official": {
             "0.10.47": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V010.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md"
                 ]
             },
             "0.12.16": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V012.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
                 ]
             },
             "4.6.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "6.7.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             }
         }
@@ -2906,22 +2906,22 @@
         "Official": {
             "0.10.47": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V010.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md"
                 ]
             },
             "0.12.16": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V012.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
                 ]
             },
             "4.6.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "6.7.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             }
         }
@@ -3724,22 +3724,22 @@
         "Official": {
             "0.10.47": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V010.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md"
                 ]
             },
             "0.12.16": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V012.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
                 ]
             },
             "4.6.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "6.7.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             }
         }
@@ -3766,12 +3766,12 @@
         "Official": {
             "0.10.46": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V010.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md"
                 ]
             },
             "0.12.15": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V012.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
                 ]
             }
         }
@@ -3822,17 +3822,17 @@
         "Official": {
             "0.10.46": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V010.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md"
                 ]
             },
             "0.12.15": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V012.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
                 ]
             },
             "4.4.6": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             }
         }
@@ -4243,12 +4243,12 @@
         "Official": {
             "0.10.45": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V010.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md"
                 ]
             },
             "0.12.14": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V012.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
                 ]
             }
         }
@@ -4859,22 +4859,22 @@
         "Official": {
             "0.10.42": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V010.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md"
                 ]
             },
             "0.12.10": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V012.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
                 ]
             },
             "4.3.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "5.6.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V5.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md"
                 ]
             }
         }
@@ -5573,22 +5573,22 @@
         "Official": {
             "0.10.42": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V010.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md"
                 ]
             },
             "0.12.10": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V012.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
                 ]
             },
             "4.3.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "5.6.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V5.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md"
                 ]
             }
         }
@@ -5831,22 +5831,22 @@
         "Official": {
             "0.10.41": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V010.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md"
                 ]
             },
             "0.12.9": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V012.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
                 ]
             },
             "4.2.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "5.1.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V5.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md"
                 ]
             }
         }
@@ -5881,7 +5881,7 @@
         "Official": {
             "0.10.37": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V010.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md"
                 ]
             }
         }
@@ -7036,7 +7036,7 @@
         "Official": {
             "0.10.36": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V010.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md"
                 ]
             }
         }
@@ -7223,7 +7223,7 @@
         "Official": {
             "0.10.36": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V010.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md"
                 ]
             }
         }
@@ -7810,7 +7810,7 @@
         "Official": {
             "0.10.36": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V010.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md"
                 ]
             }
         }
@@ -8077,12 +8077,12 @@
         "Official": {
             "0.12.16": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V012.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
                 ]
             },
             "4.6.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             }
         }
@@ -8541,7 +8541,7 @@
         "Official": {
             "0.12.14": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V012.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
                 ]
             }
         }
@@ -8672,17 +8672,17 @@
         "Official": {
             "0.12.9": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V012.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
                 ]
             },
             "4.2.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "5.1.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V5.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md"
                 ]
             }
         }
@@ -9069,22 +9069,22 @@
         "Official": {
             "10.24.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.22.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.16.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "15.14.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
                 ]
             }
         }
@@ -10143,22 +10143,22 @@
         "Official": {
             "10.24.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.22.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.16.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "15.14.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
                 ]
             }
         }
@@ -10233,22 +10233,22 @@
         "Official": {
             "10.24.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.22.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.16.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "15.14.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
                 ]
             }
         }
@@ -10403,22 +10403,22 @@
         "Official": {
             "10.24.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.21.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.16.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "15.10.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
                 ]
             }
         }
@@ -10613,22 +10613,22 @@
         "Official": {
             "10.24.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.21.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.16.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "15.10.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
                 ]
             }
         }
@@ -10663,37 +10663,37 @@
         "Official": {
             "10.24.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.21.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.16.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "15.10.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
                 ]
             },
             "6.14.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "8.11.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             },
             "9.10.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
                 ]
             }
         }
@@ -11096,22 +11096,22 @@
         "Official": {
             "10.24.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.21.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.16.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "15.10.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
                 ]
             }
         }
@@ -11210,22 +11210,22 @@
         "Official": {
             "10.23.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.20.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.15.4": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "15.5.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
                 ]
             }
         }
@@ -11324,22 +11324,22 @@
         "Official": {
             "10.23.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.20.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.15.4": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "15.5.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
                 ]
             }
         }
@@ -11886,22 +11886,22 @@
         "Official": {
             "10.23.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.20.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.15.4": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "15.5.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
                 ]
             }
         }
@@ -11960,12 +11960,12 @@
         "Official": {
             "10.22.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.18.4": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             }
         }
@@ -12152,17 +12152,17 @@
         "Official": {
             "10.21.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.18.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.4.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             }
         }
@@ -12333,7 +12333,7 @@
         "Official": {
             "10.21.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             }
         }
@@ -12496,17 +12496,17 @@
         "Official": {
             "10.21.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.18.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.4.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             }
         }
@@ -12597,17 +12597,17 @@
         "Official": {
             "10.19.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.15.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "13.8.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V13.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V13.md"
                 ]
             }
         }
@@ -12650,17 +12650,17 @@
         "Official": {
             "10.19.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.15.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "13.8.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V13.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V13.md"
                 ]
             }
         }
@@ -12703,17 +12703,17 @@
         "Official": {
             "10.19.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.15.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "13.8.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V13.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V13.md"
                 ]
             }
         }
@@ -12980,17 +12980,17 @@
         "Official": {
             "10.16.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.8.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "8.16.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -13049,17 +13049,17 @@
         "Official": {
             "10.16.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.8.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "8.16.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -13350,17 +13350,17 @@
         "Official": {
             "10.16.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.8.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "8.16.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -13755,17 +13755,17 @@
         "Official": {
             "10.16.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.8.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "8.16.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -14072,17 +14072,17 @@
         "Official": {
             "10.16.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.8.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "8.16.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -14365,17 +14365,17 @@
         "Official": {
             "10.16.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.8.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "8.16.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -14666,17 +14666,17 @@
         "Official": {
             "10.16.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.8.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "8.16.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -14911,17 +14911,17 @@
         "Official": {
             "10.16.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "12.8.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "8.16.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -14980,22 +14980,22 @@
         "Official": {
             "10.15.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "11.10.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V11.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V11.md"
                 ]
             },
             "6.17.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "8.15.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -15046,22 +15046,22 @@
         "Official": {
             "10.14.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "11.3.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V11.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V11.md"
                 ]
             },
             "6.15.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "8.14.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -15152,27 +15152,27 @@
         "Official": {
             "10.14.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "11.3.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V11.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V11.md"
                 ]
             },
             "6.15.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "6.15.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "8.14.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -15223,22 +15223,22 @@
         "Official": {
             "10.14.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "11.3.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V11.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V11.md"
                 ]
             },
             "6.15.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "8.14.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -15577,27 +15577,27 @@
         "Official": {
             "10.14.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "11.3.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V11.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V11.md"
                 ]
             },
             "12.0.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "6.15.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "8.14.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -15760,12 +15760,12 @@
         "Official": {
             "10.14.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "11.3.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V11.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V11.md"
                 ]
             }
         }
@@ -15848,22 +15848,22 @@
         "Official": {
             "10.9.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "10.5.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "6.14.4": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "8.11.4": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -15890,7 +15890,7 @@
         "Official": {
             "10.9.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             }
         }
@@ -15941,17 +15941,17 @@
         "Official": {
             "10.9.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "6.14.4": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "8.11.4": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -15978,12 +15978,12 @@
         "Official": {
             "10.4.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "9.11.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
                 ]
             }
         }
@@ -16026,17 +16026,17 @@
         "Official": {
             "10.4.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "8.11.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             },
             "9.11.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
                 ]
             }
         }
@@ -16095,17 +16095,17 @@
         "Official": {
             "10.4.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "8.11.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             },
             "9.11.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
                 ]
             }
         }
@@ -16140,12 +16140,12 @@
         "Official": {
             "10.4.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
             },
             "9.11.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
                 ]
             }
         }
@@ -16348,22 +16348,22 @@
         "Official": {
             "12.22.11": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.19.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "16.14.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
                 ]
             },
             "17.7.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V17.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md"
                 ]
             }
         }
@@ -16414,22 +16414,22 @@
         "Official": {
             "12.22.9": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.18.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "16.13.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
                 ]
             },
             "17.3.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V17.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md"
                 ]
             }
         }
@@ -16480,22 +16480,22 @@
         "Official": {
             "12.22.9": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.18.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "16.13.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
                 ]
             },
             "17.3.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V17.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md"
                 ]
             }
         }
@@ -16546,22 +16546,22 @@
         "Official": {
             "12.22.9": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.18.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "16.13.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
                 ]
             },
             "17.3.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V17.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md"
                 ]
             }
         }
@@ -16612,22 +16612,22 @@
         "Official": {
             "12.22.9": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.18.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "16.13.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
                 ]
             },
             "17.3.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V17.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md"
                 ]
             }
         }
@@ -16678,17 +16678,17 @@
         "Official": {
             "12.22.7": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.18.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "16.11.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
                 ]
             }
         }
@@ -16739,17 +16739,17 @@
         "Official": {
             "12.22.7": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.18.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "16.11.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
                 ]
             }
         }
@@ -16824,12 +16824,12 @@
         "Official": {
             "12.22.6": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.17.6": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             }
         }
@@ -16904,12 +16904,12 @@
         "Official": {
             "12.22.6": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.17.6": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             }
         }
@@ -16984,12 +16984,12 @@
         "Official": {
             "12.22.6": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.17.6": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             }
         }
@@ -17064,12 +17064,12 @@
         "Official": {
             "12.22.6": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.17.6": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             }
         }
@@ -17136,12 +17136,12 @@
         "Official": {
             "12.22.6": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.17.6": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             }
         }
@@ -17192,12 +17192,12 @@
         "Official": {
             "12.22.6": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.17.6": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             }
         }
@@ -17248,12 +17248,12 @@
         "Official": {
             "12.22.6": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.17.6": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             }
         }
@@ -17504,17 +17504,17 @@
         "Official": {
             "12.22.5": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.17.5": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "16.6.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
                 ]
             }
         }
@@ -17661,17 +17661,17 @@
         "Official": {
             "12.22.5": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.17.5": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "16.6.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
                 ]
             }
         }
@@ -17770,22 +17770,22 @@
         "Official": {
             "12.22.5": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.17.5": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "16.11.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
                 ]
             },
             "16.6.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
                 ]
             }
         }
@@ -17844,32 +17844,32 @@
         "Official": {
             "12.22.5": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "12.22.4": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.17.5": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "14.17.4": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "16.6.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
                 ]
             },
             "16.6.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
                 ]
             }
         }
@@ -17976,17 +17976,17 @@
         "Official": {
             "12.22.5": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.17.5": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "16.6.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
                 ]
             }
         }
@@ -18037,17 +18037,17 @@
         "Official": {
             "12.22.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.17.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "16.4.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
                 ]
             }
         }
@@ -18098,17 +18098,17 @@
         "Official": {
             "12.22.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.17.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "16.4.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
                 ]
             }
         }
@@ -18167,7 +18167,7 @@
         "Official": {
             "12.22.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             }
         }
@@ -18210,7 +18210,7 @@
         "Official": {
             "12.22.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             }
         }
@@ -18349,17 +18349,17 @@
         "Official": {
             "12.19.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.15.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             },
             "15.2.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
                 ]
             }
         }
@@ -18410,12 +18410,12 @@
         "Official": {
             "12.18.4": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.11.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             }
         }
@@ -18530,12 +18530,12 @@
         "Official": {
             "12.18.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             },
             "14.4.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             }
         }
@@ -18914,7 +18914,7 @@
         "Official": {
             "12.0.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
                 ]
             }
         }
@@ -18965,7 +18965,7 @@
         "Official": {
             "14.15.5": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             }
         }
@@ -19000,7 +19000,7 @@
         "Official": {
             "14.11.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
                 ]
             }
         }
@@ -19155,7 +19155,7 @@
         "Official": {
             "17.3.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V17.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md"
                 ]
             }
         }
@@ -19198,7 +19198,7 @@
         "Official": {
             "18.5.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V18.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
                 ]
             }
         }
@@ -19241,7 +19241,7 @@
         "Official": {
             "18.5.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V18.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
                 ]
             }
         }
@@ -19300,7 +19300,7 @@
         "Official": {
             "18.5.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V18.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
                 ]
             }
         }
@@ -19359,7 +19359,7 @@
         "Official": {
             "18.5.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V18.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
                 ]
             }
         }
@@ -19418,7 +19418,7 @@
         "Official": {
             "18.5.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V18.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
                 ]
             }
         }
@@ -19445,7 +19445,7 @@
         "Official": {
             "18.5.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V18.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
                 ]
             }
         }
@@ -19480,7 +19480,7 @@
         "Official": {
             "18.5.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V18.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
                 ]
             }
         }
@@ -19515,22 +19515,22 @@
         "Official": {
             "4.9.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "6.14.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "8.11.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             },
             "9.10.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
                 ]
             }
         }
@@ -19605,22 +19605,22 @@
         "Official": {
             "4.9.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "6.14.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "8.11.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             },
             "9.10.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
                 ]
             }
         }
@@ -19823,22 +19823,22 @@
         "Official": {
             "4.8.7": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "6.12.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "8.9.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             },
             "9.2.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
                 ]
             }
         }
@@ -20065,22 +20065,22 @@
         "Official": {
             "4.8.7": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "6.12.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "8.9.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             },
             "9.2.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
                 ]
             }
         }
@@ -20283,17 +20283,17 @@
         "Official": {
             "4.8.5": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "6.11.5": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "8.8.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -20368,22 +20368,22 @@
         "Official": {
             "4.8.4": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "6.11.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "7.10.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V7.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V7.md"
                 ]
             },
             "8.1.4": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -20418,12 +20418,12 @@
         "Official": {
             "4.6.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "6.7.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             }
         }
@@ -20930,12 +20930,12 @@
         "Official": {
             "4.3.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "5.7.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V5.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md"
                 ]
             }
         }
@@ -21210,12 +21210,12 @@
         "Official": {
             "4.3.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "5.7.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V5.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md"
                 ]
             }
         }
@@ -21490,12 +21490,12 @@
         "Official": {
             "4.3.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "5.7.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V5.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md"
                 ]
             }
         }
@@ -21554,12 +21554,12 @@
         "Official": {
             "4.2.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "5.1.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V5.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md"
                 ]
             }
         }
@@ -21586,12 +21586,12 @@
         "Official": {
             "4.2.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             },
             "5.1.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V5.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md"
                 ]
             }
         }
@@ -21634,7 +21634,7 @@
         "Official": {
             "4.1.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
                 ]
             }
         }
@@ -21741,7 +21741,7 @@
         "Official": {
             "5.12.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V5.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md"
                 ]
             }
         }
@@ -21776,7 +21776,7 @@
         "Official": {
             "6.17.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             }
         }
@@ -23115,12 +23115,12 @@
         "Official": {
             "6.17.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "8.15.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -23147,7 +23147,7 @@
         "Official": {
             "6.15.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             }
         }
@@ -23238,12 +23238,12 @@
         "Official": {
             "6.15.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "8.14.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -23590,12 +23590,12 @@
         "Official": {
             "6.15.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "8.14.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             }
         }
@@ -23638,17 +23638,17 @@
         "Official": {
             "6.14.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             },
             "8.11.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             },
             "9.11.2": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
                 ]
             }
         }
@@ -23675,7 +23675,7 @@
         "Official": {
             "6.9.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
                 ]
             }
         }
@@ -23685,7 +23685,7 @@
         "Official": {
             "7.2.0": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V7.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V7.md"
                 ]
             }
         }
@@ -23888,12 +23888,12 @@
         "Official": {
             "8.9.3": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
                 ]
             },
             "9.2.1": {
                 "source": [
-                    "https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
                 ]
             }
         }
