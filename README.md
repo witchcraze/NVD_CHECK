@@ -55,7 +55,7 @@ Get NVD data via [go-cve-dictionary](https://github.com/vulsio/go-cve-dictionary
 #### nginx
 
 - Official
-  - `http://nginx.org/en/security_advisories.html`
+  - `https://nginx.org/en/security_advisories.html`
   - `https://nginx.org/en/CHANGES*`
 - CPE
   - `cpe:/a:f5:nginx`
