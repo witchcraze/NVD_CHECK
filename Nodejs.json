@@ -701,17 +701,20 @@
         "Official": {
             "0.10.48": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V010.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/8.json"
                 ]
             },
             "0.12.17": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/8.json"
                 ]
             },
             "4.6.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/8.json"
                 ]
             }
         }
@@ -1524,12 +1527,14 @@
             },
             "4.6.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/18.json"
                 ]
             },
             "6.7.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/18.json"
                 ]
             }
         }
@@ -1862,12 +1867,14 @@
             },
             "4.6.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/12.json"
                 ]
             },
             "6.7.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/12.json"
                 ]
             }
         }
@@ -1879,7 +1886,7 @@
             "Cvss2_BaseScore": 5,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
-            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/o:redhat:enterprise_linux:7.0",
@@ -1938,35 +1945,27 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:python:python:3.6.0",
-                    "FormattedString": "cpe:2.3:a:python:python:3.6.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionStartIncluding": "2.7.0",
+                    "VersionEndExcluding": "2.7.13",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:python:python:3.5.0",
-                    "FormattedString": "cpe:2.3:a:python:python:3.5.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionStartIncluding": "3.4.0",
+                    "VersionEndExcluding": "3.4.7",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:python:python:3.4.0",
-                    "FormattedString": "cpe:2.3:a:python:python:3.4.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python:python:3.3",
-                    "FormattedString": "cpe:2.3:a:python:python:3.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionStartIncluding": "3.5.0",
+                    "VersionEndExcluding": "3.5.3",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -2224,12 +2223,14 @@
             },
             "4.6.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/13.json"
                 ]
             },
             "6.7.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/13.json"
                 ]
             }
         }
@@ -2546,12 +2547,14 @@
             },
             "4.6.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/15.json"
                 ]
             },
             "6.7.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/15.json"
                 ]
             }
         }
@@ -2916,12 +2919,14 @@
             },
             "4.6.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/16.json"
                 ]
             },
             "6.7.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/16.json"
                 ]
             }
         }
@@ -3734,12 +3739,14 @@
             },
             "4.6.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/19.json"
                 ]
             },
             "6.7.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/19.json"
                 ]
             }
         }
@@ -3832,7 +3839,13 @@
             },
             "4.4.6": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/24.json"
+                ]
+            },
+            "5.12.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/24.json"
                 ]
             }
         }
@@ -4249,6 +4262,21 @@
             "0.12.14": {
                 "source": [
                     "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
+                ]
+            },
+            "4.4.4": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/22.json"
+                ]
+            },
+            "5.11.1": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/22.json"
+                ]
+            },
+            "6.1.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/22.json"
                 ]
             }
         }
@@ -4869,12 +4897,14 @@
             },
             "4.3.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/27.json"
                 ]
             },
             "5.6.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/27.json"
                 ]
             }
         }
@@ -5583,12 +5613,14 @@
             },
             "4.3.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/28.json"
                 ]
             },
             "5.6.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/28.json"
                 ]
             }
         }
@@ -5841,12 +5873,14 @@
             },
             "4.2.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/37.json"
                 ]
             },
             "5.1.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/37.json"
                 ]
             }
         }
@@ -8082,7 +8116,13 @@
             },
             "4.6.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/14.json"
+                ]
+            },
+            "6.7.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/14.json"
                 ]
             }
         }
@@ -8543,6 +8583,21 @@
                 "source": [
                     "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V012.md"
                 ]
+            },
+            "4.4.4": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/23.json"
+                ]
+            },
+            "5.11.1": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/23.json"
+                ]
+            },
+            "6.1.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/23.json"
+                ]
             }
         }
     },
@@ -8677,12 +8732,14 @@
             },
             "4.2.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/34.json"
                 ]
             },
             "5.1.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/34.json"
                 ]
             }
         }
@@ -9069,12 +9126,14 @@
         "Official": {
             "10.24.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/76.json"
                 ]
             },
             "12.22.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/76.json"
                 ]
             },
             "14.16.1": {
@@ -9084,7 +9143,13 @@
             },
             "15.14.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/76.json"
+                ]
+            },
+            "14.16.1,": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/76.json"
                 ]
             }
         }
@@ -10143,12 +10208,14 @@
         "Official": {
             "10.24.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/77.json"
                 ]
             },
             "12.22.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/77.json"
                 ]
             },
             "14.16.1": {
@@ -10158,7 +10225,13 @@
             },
             "15.14.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/77.json"
+                ]
+            },
+            "14.16.1,": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/77.json"
                 ]
             }
         }
@@ -10233,17 +10306,20 @@
         "Official": {
             "10.24.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/78.json"
                 ]
             },
             "12.22.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/78.json"
                 ]
             },
             "14.16.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/78.json"
                 ]
             },
             "15.14.0": {
@@ -10403,12 +10479,14 @@
         "Official": {
             "10.24.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/73.json"
                 ]
             },
             "12.21.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/73.json"
                 ]
             },
             "14.16.0": {
@@ -10418,7 +10496,13 @@
             },
             "15.10.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/73.json"
+                ]
+            },
+            "14.16.0,": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/73.json"
                 ]
             }
         }
@@ -10613,12 +10697,14 @@
         "Official": {
             "10.24.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/74.json"
                 ]
             },
             "12.21.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/74.json"
                 ]
             },
             "14.16.0": {
@@ -10628,7 +10714,13 @@
             },
             "15.10.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/74.json"
+                ]
+            },
+            "14.16.0,": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/74.json"
                 ]
             }
         }
@@ -10683,17 +10775,20 @@
             },
             "6.14.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/48.json"
                 ]
             },
             "8.11.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/48.json"
                 ]
             },
             "9.10.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/48.json"
                 ]
             }
         }
@@ -11096,12 +11191,14 @@
         "Official": {
             "10.24.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/75.json"
                 ]
             },
             "12.21.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/75.json"
                 ]
             },
             "14.16.0": {
@@ -11111,7 +11208,13 @@
             },
             "15.10.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/75.json"
+                ]
+            },
+            "14.16.0,": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/75.json"
                 ]
             }
         }
@@ -11210,12 +11313,14 @@
         "Official": {
             "10.23.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/70.json"
                 ]
             },
             "12.20.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/70.json"
                 ]
             },
             "14.15.4": {
@@ -11225,7 +11330,13 @@
             },
             "15.5.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/70.json"
+                ]
+            },
+            "14.15.4,": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/70.json"
                 ]
             }
         }
@@ -11324,12 +11435,14 @@
         "Official": {
             "10.23.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/71.json"
                 ]
             },
             "12.20.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/71.json"
                 ]
             },
             "14.15.4": {
@@ -11339,7 +11452,13 @@
             },
             "15.5.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/71.json"
+                ]
+            },
+            "14.15.4,": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/71.json"
                 ]
             }
         }
@@ -11886,12 +12005,14 @@
         "Official": {
             "10.23.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/72.json"
                 ]
             },
             "12.20.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/72.json"
                 ]
             },
             "14.15.4": {
@@ -11901,7 +12022,13 @@
             },
             "15.5.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/72.json"
+                ]
+            },
+            "14.15.4,": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/72.json"
                 ]
             }
         }
@@ -11960,12 +12087,19 @@
         "Official": {
             "10.22.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/68.json"
                 ]
             },
             "12.18.4": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/68.json"
+                ]
+            },
+            "14.9.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/68.json"
                 ]
             }
         }
@@ -12597,17 +12731,20 @@
         "Official": {
             "10.19.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/65.json"
                 ]
             },
             "12.15.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/65.json"
                 ]
             },
             "13.8.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V13.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V13.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/65.json"
                 ]
             }
         }
@@ -12650,17 +12787,20 @@
         "Official": {
             "10.19.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/64.json"
                 ]
             },
             "12.15.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/64.json"
                 ]
             },
             "13.8.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V13.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V13.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/64.json"
                 ]
             }
         }
@@ -12703,17 +12843,20 @@
         "Official": {
             "10.19.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/63.json"
                 ]
             },
             "12.15.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/63.json"
                 ]
             },
             "13.8.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V13.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V13.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/63.json"
                 ]
             }
         }
@@ -12980,17 +13123,20 @@
         "Official": {
             "10.16.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             },
             "12.8.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             },
             "8.16.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             }
         }
@@ -13049,17 +13195,20 @@
         "Official": {
             "10.16.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             },
             "12.8.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             },
             "8.16.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             }
         }
@@ -13350,17 +13499,20 @@
         "Official": {
             "10.16.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             },
             "12.8.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             },
             "8.16.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             }
         }
@@ -13755,17 +13907,20 @@
         "Official": {
             "10.16.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             },
             "12.8.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             },
             "8.16.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             }
         }
@@ -14072,17 +14227,20 @@
         "Official": {
             "10.16.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             },
             "12.8.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             },
             "8.16.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             }
         }
@@ -14365,17 +14523,20 @@
         "Official": {
             "10.16.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             },
             "12.8.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             },
             "8.16.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             }
         }
@@ -14666,17 +14827,20 @@
         "Official": {
             "10.16.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             },
             "12.8.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             },
             "8.16.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             }
         }
@@ -14911,17 +15075,20 @@
         "Official": {
             "10.16.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             },
             "12.8.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             },
             "8.16.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/62.json"
                 ]
             }
         }
@@ -14980,22 +15147,26 @@
         "Official": {
             "10.15.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/60.json"
                 ]
             },
             "11.10.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V11.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V11.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/60.json"
                 ]
             },
             "6.17.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/60.json"
                 ]
             },
             "8.15.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/60.json"
                 ]
             }
         }
@@ -15046,22 +15217,26 @@
         "Official": {
             "10.14.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/57.json"
                 ]
             },
             "11.3.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V11.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V11.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/57.json"
                 ]
             },
             "6.15.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/57.json"
                 ]
             },
             "8.14.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/57.json"
                 ]
             }
         }
@@ -15152,12 +15327,14 @@
         "Official": {
             "10.14.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/58.json"
                 ]
             },
             "11.3.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V11.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V11.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/58.json"
                 ]
             },
             "6.15.1": {
@@ -15167,12 +15344,14 @@
             },
             "6.15.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/58.json"
                 ]
             },
             "8.14.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/58.json"
                 ]
             }
         }
@@ -15223,22 +15402,26 @@
         "Official": {
             "10.14.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/59.json"
                 ]
             },
             "11.3.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V11.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V11.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/59.json"
                 ]
             },
             "6.15.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/59.json"
                 ]
             },
             "8.14.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/59.json"
                 ]
             }
         }
@@ -15892,6 +16075,11 @@
                 "source": [
                     "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
                 ]
+            },
+            ">= 10.9.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/53.json"
+                ]
             }
         }
     },
@@ -15946,12 +16134,19 @@
             },
             "6.14.4": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/54.json"
                 ]
             },
             "8.11.4": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/54.json"
+                ]
+            },
+            ">= 10.9.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/54.json"
                 ]
             }
         }
@@ -15978,12 +16173,14 @@
         "Official": {
             "10.4.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/51.json"
                 ]
             },
             "9.11.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/51.json"
                 ]
             }
         }
@@ -16026,17 +16223,20 @@
         "Official": {
             "10.4.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/49.json"
                 ]
             },
             "8.11.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/49.json"
                 ]
             },
             "9.11.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/49.json"
                 ]
             }
         }
@@ -16140,12 +16340,14 @@
         "Official": {
             "10.4.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V10.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/50.json"
                 ]
             },
             "9.11.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/50.json"
                 ]
             }
         }
@@ -16348,22 +16550,26 @@
         "Official": {
             "12.22.11": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/93.json"
                 ]
             },
             "14.19.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/93.json"
                 ]
             },
             "16.14.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/93.json"
                 ]
             },
             "17.7.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/93.json"
                 ]
             }
         }
@@ -16414,22 +16620,26 @@
         "Official": {
             "12.22.9": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/89.json"
                 ]
             },
             "14.18.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/89.json"
                 ]
             },
             "16.13.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/89.json"
                 ]
             },
             "17.3.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/89.json"
                 ]
             }
         }
@@ -16480,22 +16690,26 @@
         "Official": {
             "12.22.9": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/90.json"
                 ]
             },
             "14.18.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/90.json"
                 ]
             },
             "16.13.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/90.json"
                 ]
             },
             "17.3.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/90.json"
                 ]
             }
         }
@@ -16546,22 +16760,26 @@
         "Official": {
             "12.22.9": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/91.json"
                 ]
             },
             "14.18.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/91.json"
                 ]
             },
             "16.13.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/91.json"
                 ]
             },
             "17.3.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/91.json"
                 ]
             }
         }
@@ -16612,22 +16830,26 @@
         "Official": {
             "12.22.9": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/92.json"
                 ]
             },
             "14.18.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/92.json"
                 ]
             },
             "16.13.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/92.json"
                 ]
             },
             "17.3.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/92.json"
                 ]
             }
         }
@@ -16678,17 +16900,20 @@
         "Official": {
             "12.22.7": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/88.json"
                 ]
             },
             "14.18.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/88.json"
                 ]
             },
             "16.11.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/88.json"
                 ]
             }
         }
@@ -16739,17 +16964,20 @@
         "Official": {
             "12.22.7": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/88.json"
                 ]
             },
             "14.18.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/88.json"
                 ]
             },
             "16.11.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/88.json"
                 ]
             }
         }
@@ -16984,12 +17212,14 @@
         "Official": {
             "12.22.6": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/87.json"
                 ]
             },
             "14.17.6": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/87.json"
                 ]
             }
         }
@@ -17064,12 +17294,14 @@
         "Official": {
             "12.22.6": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/87.json"
                 ]
             },
             "14.17.6": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/87.json"
                 ]
             }
         }
@@ -17136,12 +17368,14 @@
         "Official": {
             "12.22.6": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/87.json"
                 ]
             },
             "14.17.6": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/87.json"
                 ]
             }
         }
@@ -17192,12 +17426,14 @@
         "Official": {
             "12.22.6": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/87.json"
                 ]
             },
             "14.17.6": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/87.json"
                 ]
             }
         }
@@ -17248,12 +17484,14 @@
         "Official": {
             "12.22.6": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/87.json"
                 ]
             },
             "14.17.6": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/87.json"
                 ]
             }
         }
@@ -17661,17 +17899,20 @@
         "Official": {
             "12.22.5": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/84.json"
                 ]
             },
             "14.17.5": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/84.json"
                 ]
             },
             "16.6.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/84.json"
                 ]
             }
         }
@@ -17770,12 +18011,14 @@
         "Official": {
             "12.22.5": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/85.json"
                 ]
             },
             "14.17.5": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/85.json"
                 ]
             },
             "16.11.0": {
@@ -17785,7 +18028,8 @@
             },
             "16.6.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/85.json"
                 ]
             }
         }
@@ -17849,7 +18093,8 @@
             },
             "12.22.4": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/79.json"
                 ]
             },
             "14.17.5": {
@@ -17859,7 +18104,8 @@
             },
             "14.17.4": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/79.json"
                 ]
             },
             "16.6.2": {
@@ -17869,7 +18115,8 @@
             },
             "16.6.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/79.json"
                 ]
             }
         }
@@ -17976,17 +18223,20 @@
         "Official": {
             "12.22.5": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/86.json"
                 ]
             },
             "14.17.5": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/86.json"
                 ]
             },
             "16.6.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/86.json"
                 ]
             }
         }
@@ -18037,17 +18287,20 @@
         "Official": {
             "12.22.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/83.json"
                 ]
             },
             "14.17.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/83.json"
                 ]
             },
             "16.4.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/83.json"
                 ]
             }
         }
@@ -18098,17 +18351,20 @@
         "Official": {
             "12.22.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/80.json"
                 ]
             },
             "14.17.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/80.json"
                 ]
             },
             "16.4.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/80.json"
                 ]
             }
         }
@@ -18167,7 +18423,8 @@
         "Official": {
             "12.22.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/81.json"
                 ]
             }
         }
@@ -18210,7 +18467,8 @@
         "Official": {
             "12.22.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/82.json"
                 ]
             }
         }
@@ -18349,17 +18607,20 @@
         "Official": {
             "12.19.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/69.json"
                 ]
             },
             "14.15.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/69.json"
                 ]
             },
             "15.2.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/69.json"
                 ]
             }
         }
@@ -18410,12 +18671,14 @@
         "Official": {
             "12.18.4": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V12.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/66.json"
                 ]
             },
             "14.11.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/66.json"
                 ]
             }
         }
@@ -19000,7 +19263,8 @@
         "Official": {
             "14.11.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/67.json"
                 ]
             }
         }
@@ -19241,7 +19505,18 @@
         "Official": {
             "18.5.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/96.json"
+                ]
+            },
+            "14.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/96.json"
+                ]
+            },
+            "16.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/96.json"
                 ]
             }
         }
@@ -19256,24 +19531,40 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
             "CPEs": [
                 {
-                    "URI": "cpe:/a:nodejs:node.js",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "14.0.0",
+                    "VersionStartIncluding": "14.15.0",
                     "VersionEndExcluding": "14.20.0",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:nodejs:node.js",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "16.0.0",
-                    "VersionEndExcluding": "16.20.0",
+                    "VersionStartIncluding": "16.13.0",
+                    "VersionEndExcluding": "16.16.0",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:nodejs:node.js",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.14.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.12.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "18.0.0",
                     "VersionEndExcluding": "18.5.0",
@@ -19300,7 +19591,18 @@
         "Official": {
             "18.5.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/97.json"
+                ]
+            },
+            "14.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/97.json"
+                ]
+            },
+            "16.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/97.json"
                 ]
             }
         }
@@ -19315,24 +19617,40 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
             "CPEs": [
                 {
-                    "URI": "cpe:/a:nodejs:node.js",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "14.0.0",
+                    "VersionStartIncluding": "14.15.0",
                     "VersionEndExcluding": "14.20.0",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:nodejs:node.js",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "16.0.0",
-                    "VersionEndExcluding": "16.20.0",
+                    "VersionStartIncluding": "16.13.0",
+                    "VersionEndExcluding": "16.16.0",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:nodejs:node.js",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.14.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.12.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "18.0.0",
                     "VersionEndExcluding": "18.5.0",
@@ -19359,7 +19677,18 @@
         "Official": {
             "18.5.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/95.json"
+                ]
+            },
+            "14.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/95.json"
+                ]
+            },
+            "16.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/95.json"
                 ]
             }
         }
@@ -19374,24 +19703,40 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
             "CPEs": [
                 {
-                    "URI": "cpe:/a:nodejs:node.js",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "14.0.0",
+                    "VersionStartIncluding": "14.15.0",
                     "VersionEndExcluding": "14.20.0",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:nodejs:node.js",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "16.0.0",
-                    "VersionEndExcluding": "16.20.0",
+                    "VersionStartIncluding": "16.13.0",
+                    "VersionEndExcluding": "16.16.0",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:nodejs:node.js",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.14.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.12.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "18.0.0",
                     "VersionEndExcluding": "18.5.0",
@@ -19418,7 +19763,18 @@
         "Official": {
             "18.5.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/94.json"
+                ]
+            },
+            "14.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/94.json"
+                ]
+            },
+            "16.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/94.json"
                 ]
             }
         }
@@ -19445,7 +19801,18 @@
         "Official": {
             "18.5.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/99.json"
+                ]
+            },
+            "14.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/99.json"
+                ]
+            },
+            "16.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/99.json"
                 ]
             }
         }
@@ -19460,27 +19827,54 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
-                    "URI": "cpe:/a:nodejs:node.js",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "14.0.0",
+                    "VersionStartIncluding": "14.14.0",
                     "VersionEndExcluding": "14.20.0",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:nodejs:node.js",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.13.0",
+                    "VersionEndExcluding": "16.16.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.14.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "16.0.0",
-                    "VersionEndExcluding": "16.20.0",
-                    "VersionEndIncluding": ""
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.12.0"
                 }
             ]
         },
         "Official": {
             "18.5.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/98.json"
+                ]
+            },
+            "14.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/98.json"
+                ]
+            },
+            "16.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/98.json"
                 ]
             }
         }
@@ -19515,7 +19909,8 @@
         "Official": {
             "4.9.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/46.json"
                 ]
             },
             "6.14.0": {
@@ -19605,22 +20000,26 @@
         "Official": {
             "4.9.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/47.json"
                 ]
             },
             "6.14.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/47.json"
                 ]
             },
             "8.11.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/47.json"
                 ]
             },
             "9.10.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/47.json"
                 ]
             }
         }
@@ -19823,22 +20222,26 @@
         "Official": {
             "4.8.7": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/44.json"
                 ]
             },
             "6.12.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/44.json"
                 ]
             },
             "8.9.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/44.json"
                 ]
             },
             "9.2.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/44.json"
                 ]
             }
         }
@@ -20283,17 +20686,20 @@
         "Official": {
             "4.8.5": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/43.json"
                 ]
             },
             "6.11.5": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/43.json"
                 ]
             },
             "8.8.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/43.json"
                 ]
             }
         }
@@ -20368,22 +20774,26 @@
         "Official": {
             "4.8.4": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/1.json"
                 ]
             },
             "6.11.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/1.json"
                 ]
             },
             "7.10.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V7.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V7.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/1.json"
                 ]
             },
             "8.1.4": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/1.json"
                 ]
             }
         }
@@ -21210,12 +21620,14 @@
         "Official": {
             "4.3.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/31.json"
                 ]
             },
             "5.7.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/31.json"
                 ]
             }
         }
@@ -21490,12 +21902,14 @@
         "Official": {
             "4.3.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/32.json"
                 ]
             },
             "5.7.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/32.json"
                 ]
             }
         }
@@ -21554,12 +21968,14 @@
         "Official": {
             "4.2.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/36.json"
                 ]
             },
             "5.1.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/36.json"
                 ]
             }
         }
@@ -21586,12 +22002,14 @@
         "Official": {
             "4.2.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/35.json"
                 ]
             },
             "5.1.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V5.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/35.json"
                 ]
             }
         }
@@ -21634,7 +22052,8 @@
         "Official": {
             "4.1.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V4.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/40.json"
                 ]
             }
         }
@@ -21776,7 +22195,8 @@
         "Official": {
             "6.17.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/61.json"
                 ]
             }
         }
@@ -23147,7 +23567,13 @@
         "Official": {
             "6.15.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/56.json"
+                ]
+            },
+            "8.14.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/56.json"
                 ]
             }
         }
@@ -23238,12 +23664,14 @@
         "Official": {
             "6.15.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/55.json"
                 ]
             },
             "8.14.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/55.json"
                 ]
             }
         }
@@ -23638,17 +24066,20 @@
         "Official": {
             "6.14.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/52.json"
                 ]
             },
             "8.11.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/52.json"
                 ]
             },
             "9.11.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/52.json"
                 ]
             }
         }
@@ -23675,7 +24106,8 @@
         "Official": {
             "6.9.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V6.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/10.json"
                 ]
             }
         }
@@ -23685,7 +24117,8 @@
         "Official": {
             "7.2.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V7.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V7.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/6.json"
                 ]
             }
         }
@@ -23888,12 +24321,1788 @@
         "Official": {
             "8.9.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V8.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/45.json"
                 ]
             },
             "9.2.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V9.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/45.json"
+                ]
+            }
+        }
+    },
+    "CVE-2017-3731": {
+        "CVE-ID": "CVE-2017-3731",
+        "NVD": {
+            "Descriptions": "If an SSL/TLS server or client is running on a 32-bit host, and a specific cipher is being used, then a truncated packet can cause that server or client to perform an out-of-bounds read, usually resulting in a crash. For OpenSSL 1.1.0, the crash can be triggered when using CHACHA20/POLY1305; users should upgrade to 1.1.0d. For Openssl 1.0.2, the crash can be triggered when using RC4-MD5; users who have not disabled that algorithm should update to 1.0.2k.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.1.0c",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.1.0c:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.1.0b",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.1.0b:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.1.0a",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.1.0a:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2j",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2j:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2i",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2i:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2h",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2h:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2f",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2f:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2e",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2e:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2d",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2d:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2c",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2c:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2b",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2b:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2a",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2a:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2:beta3",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2:beta3:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2:beta2",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2:beta2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2:beta1",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2:beta1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.7.3": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/3.json"
+                ]
+            },
+            "6.9.5": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/3.json"
+                ]
+            },
+            "7.5.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/3.json"
+                ]
+            }
+        }
+    },
+    "CVE-2017-3732": {
+        "CVE-ID": "CVE-2017-3732",
+        "NVD": {
+            "Descriptions": "There is a carry propagating bug in the x86_64 Montgomery squaring procedure in OpenSSL 1.0.2 before 1.0.2k and 1.1.0 before 1.1.0d. No EC algorithms are affected. Analysis suggests that attacks against RSA and DSA as a result of this defect would be very difficult to perform and are not believed likely. Attacks against DH are considered just feasible (although very difficult) because most of the work necessary to deduce information about a private key may be performed offline. The amount of resources required for such an attack would be very significant and likely only accessible to a limited number of attackers. An attacker would additionally need online access to an unpatched system using the target private key in a scenario with persistent DH parameters and a private key that is shared between multiple clients. For example this can occur by default in OpenSSL DHE based SSL/TLS ciphersuites. Note: This issue is very similar to CVE-2015-3193 but must be treated as a separate problem.",
+            "Cvss2_BaseScore": 4.3,
+            "Cvss3_BaseScore": 5.9,
+            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.1.0c",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.1.0c:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.1.0b",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.1.0b:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.1.0a",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.1.0a:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2i",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2i:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2h",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2h:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2f",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2f:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2e",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2e:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2d",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2d:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2c",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2c:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2b",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2b:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2a",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2a:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2:beta3",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2:beta3:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2:beta2",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2:beta2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2:beta1",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2:beta1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl:1.0.2",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:1.0.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.7.3": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/4.json"
+                ]
+            },
+            "6.9.5": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/4.json"
+                ]
+            },
+            "7.5.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/4.json"
+                ]
+            }
+        }
+    },
+    "CVE-2017-14849": {
+        "CVE-ID": "CVE-2017-14849",
+        "NVD": {
+            "Descriptions": "Node.js 8.5.0 before 8.6.0 allows remote attackers to access unintended files, because a change to \"..\" handling was incompatible with the pathname validation used by unspecified community modules.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:nodejs:node.js:8.5.0",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:8.5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "8.6.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/42.json"
+                ]
+            }
+        }
+    },
+    "CVE-2016-7055": {
+        "CVE-ID": "CVE-2016-7055",
+        "NVD": {
+            "Descriptions": "There is a carry propagating bug in the Broadwell-specific Montgomery multiplication procedure in OpenSSL 1.0.2 and 1.1.0 before 1.1.0c that handles input lengths divisible by, but longer than 256 bits. Analysis suggests that attacks against RSA, DSA and DH private keys are impossible. This is because the subroutine in question is not used in operations with the private key itself and an input of the attacker's direct choice. Otherwise the bug can manifest itself as transient authentication and key negotiation failures or reproducible erroneous outcome of public-key operations with specially crafted input. Among EC algorithms only Brainpool P-512 curves are affected and one presumably can attack ECDH key negotiation. Impact was not analyzed in detail, because pre-requisites for attack are considered unlikely. Namely multiple clients have to choose the curve in question and the server has to share the private key among them, neither of which is default behaviour. Even then only clients that chose the curve will be affected.",
+            "Cvss2_BaseScore": 2.6,
+            "Cvss3_BaseScore": 5.9,
+            "Cvss2_VectorString": "AV:N/AC:H/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:openssl:openssl",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.0.2",
+                    "VersionEndExcluding": "1.0.2k",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:openssl:openssl",
+                    "FormattedString": "cpe:2.3:a:openssl:openssl:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.1.0",
+                    "VersionEndExcluding": "1.1.0c",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.7.3": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/5.json"
+                ]
+            },
+            "6.9.5": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/5.json"
+                ]
+            },
+            "7.5.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/5.json"
+                ]
+            }
+        }
+    },
+    "CVE-2016-9840": {
+        "CVE-ID": "CVE-2016-9840",
+        "NVD": {
+            "Descriptions": "inftrees.c in zlib 1.2.8 might allow context-dependent attackers to have unspecified impact by leveraging improper pointer arithmetic.",
+            "Cvss2_BaseScore": 6.8,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:6.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:6.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.5",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:6.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.2",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:leap:42.2",
+                    "FormattedString": "cpe:2.3:o:opensuse:leap:42.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:leap:42.1",
+                    "FormattedString": "cpe:2.3:o:opensuse:leap:42.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:8.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:18.04::~~lts~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:18.04:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:16.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:16.04:*:*:*:esm:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:apple:watchos",
+                    "FormattedString": "cpe:2.3:o:apple:watchos:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:apple:tvos",
+                    "FormattedString": "cpe:2.3:o:apple:tvos:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "11.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:apple:mac_os_x",
+                    "FormattedString": "cpe:2.3:o:apple:mac_os_x:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.13.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:apple:iphone_os",
+                    "FormattedString": "cpe:2.3:o:apple:iphone_os:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:zlib:zlib",
+                    "FormattedString": "cpe:2.3:a:zlib:zlib:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.2.0.6",
+                    "VersionEndExcluding": "1.2.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:satellite:5.8",
+                    "FormattedString": "cpe:2.3:a:redhat:satellite:5.8:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "5.5.61"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.6.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "5.6.41"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.7.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "5.7.23"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.0.12"
+                },
+                {
+                    "URI": "cpe:/a:oracle:jre:1.8.0:update144",
+                    "FormattedString": "cpe:2.3:a:oracle:jre:1.8.0:update144:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jre:1.7.0:update151",
+                    "FormattedString": "cpe:2.3:a:oracle:jre:1.7.0:update151:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jre:1.6.0:update161",
+                    "FormattedString": "cpe:2.3:a:oracle:jre:1.6.0:update161:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jdk:1.8.0:update144",
+                    "FormattedString": "cpe:2.3:a:oracle:jdk:1.8.0:update144:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jdk:1.7.0:update151",
+                    "FormattedString": "cpe:2.3:a:oracle:jdk:1.7.0:update151:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jdk:1.6.0:update161",
+                    "FormattedString": "cpe:2.3:a:oracle:jdk:1.6.0:update161:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:database_server:18c",
+                    "FormattedString": "cpe:2.3:a:oracle:database_server:18c:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.8.2": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/7.json"
+                ]
+            },
+            "6.10.2": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/7.json"
+                ]
+            },
+            "7.6.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/7.json"
+                ]
+            }
+        }
+    },
+    "CVE-2016-9841": {
+        "CVE-ID": "CVE-2016-9841",
+        "NVD": {
+            "Descriptions": "inffast.c in zlib 1.2.8 might allow context-dependent attackers to have unspecified impact by leveraging improper pointer arithmetic.",
+            "Cvss2_BaseScore": 7.5,
+            "Cvss3_BaseScore": 9.8,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:6.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:6.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.5",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:6.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.2",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:leap:42.2",
+                    "FormattedString": "cpe:2.3:o:opensuse:leap:42.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:leap:42.1",
+                    "FormattedString": "cpe:2.3:o:opensuse:leap:42.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:8.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:18.04::~~lts~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:18.04:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:16.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:16.04:*:*:*:esm:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:apple:watchos",
+                    "FormattedString": "cpe:2.3:o:apple:watchos:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:apple:tvos",
+                    "FormattedString": "cpe:2.3:o:apple:tvos:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "11.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:apple:mac_os_x",
+                    "FormattedString": "cpe:2.3:o:apple:mac_os_x:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.13.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:apple:iphone_os",
+                    "FormattedString": "cpe:2.3:o:apple:iphone_os:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/h:netapp:hci_storage_node:-",
+                    "FormattedString": "cpe:2.3:h:netapp:hci_storage_node:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:zlib:zlib",
+                    "FormattedString": "cpe:2.3:a:zlib:zlib:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.2.0",
+                    "VersionEndExcluding": "1.2.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:satellite:5.8",
+                    "FormattedString": "cpe:2.3:a:redhat:satellite:5.8:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "5.5.61"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.6.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "5.6.41"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.7.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "5.7.23"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.0.12"
+                },
+                {
+                    "URI": "cpe:/a:oracle:jre:1.8.0:update144",
+                    "FormattedString": "cpe:2.3:a:oracle:jre:1.8.0:update144:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jre:1.7.0:update151",
+                    "FormattedString": "cpe:2.3:a:oracle:jre:1.7.0:update151:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jre:1.6.0:update161",
+                    "FormattedString": "cpe:2.3:a:oracle:jre:1.6.0:update161:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jdk:1.8.0:update144",
+                    "FormattedString": "cpe:2.3:a:oracle:jdk:1.8.0:update144:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jdk:1.7.0:update151",
+                    "FormattedString": "cpe:2.3:a:oracle:jdk:1.7.0:update151:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jdk:1.6.0:update161",
+                    "FormattedString": "cpe:2.3:a:oracle:jdk:1.6.0:update161:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:database_server:18c",
+                    "FormattedString": "cpe:2.3:a:oracle:database_server:18c:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:virtual_storage_console:-::~~~vmware_vsphere~~",
+                    "FormattedString": "cpe:2.3:a:netapp:virtual_storage_console:-:*:*:*:*:vmware_vsphere:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:vasa_provider_for_clustered_data_ontap",
+                    "FormattedString": "cpe:2.3:a:netapp:vasa_provider_for_clustered_data_ontap:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.2",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:symantec_netbackup:-",
+                    "FormattedString": "cpe:2.3:a:netapp:symantec_netbackup:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:storage_replication_adapter_for_clustered_data_ontap:-::~~~vmware_vsphere~~",
+                    "FormattedString": "cpe:2.3:a:netapp:storage_replication_adapter_for_clustered_data_ontap:-:*:*:*:*:vmware_vsphere:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:steelstore_cloud_integrated_storage:-",
+                    "FormattedString": "cpe:2.3:a:netapp:steelstore_cloud_integrated_storage:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:solidfire:-",
+                    "FormattedString": "cpe:2.3:a:netapp:solidfire:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:snapmanager:-::~~~sap~~",
+                    "FormattedString": "cpe:2.3:a:netapp:snapmanager:-:*:*:*:*:sap:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:snapmanager:-::~~~oracle~~",
+                    "FormattedString": "cpe:2.3:a:netapp:snapmanager:-:*:*:*:*:oracle:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:oncommand_workflow_automation:-",
+                    "FormattedString": "cpe:2.3:a:netapp:oncommand_workflow_automation:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:oncommand_unified_manager:::~~~windows~~",
+                    "FormattedString": "cpe:2.3:a:netapp:oncommand_unified_manager:*:*:*:*:*:windows:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "7.1"
+                },
+                {
+                    "URI": "cpe:/a:netapp:oncommand_unified_manager:::~~~vsphere~~",
+                    "FormattedString": "cpe:2.3:a:netapp:oncommand_unified_manager:*:*:*:*:*:vsphere:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "7.1"
+                },
+                {
+                    "URI": "cpe:/a:netapp:oncommand_unified_manager:-::~~~7-mode~~",
+                    "FormattedString": "cpe:2.3:a:netapp:oncommand_unified_manager:-:*:*:*:*:7-mode:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:oncommand_shift:-",
+                    "FormattedString": "cpe:2.3:a:netapp:oncommand_shift:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:oncommand_performance_manager:-::~~~vmware_vsphere~~",
+                    "FormattedString": "cpe:2.3:a:netapp:oncommand_performance_manager:-:*:*:*:*:vmware_vsphere:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:oncommand_insight:-",
+                    "FormattedString": "cpe:2.3:a:netapp:oncommand_insight:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:oncommand_balance:-",
+                    "FormattedString": "cpe:2.3:a:netapp:oncommand_balance:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:e-series_santricity_web_services:-::~~~web_services_proxy~~",
+                    "FormattedString": "cpe:2.3:a:netapp:e-series_santricity_web_services:-:*:*:*:*:web_services_proxy:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:e-series_santricity_storage_manager:-",
+                    "FormattedString": "cpe:2.3:a:netapp:e-series_santricity_storage_manager:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:e-series_santricity_os_controller",
+                    "FormattedString": "cpe:2.3:a:netapp:e-series_santricity_os_controller:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "11.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "11.70.1"
+                },
+                {
+                    "URI": "cpe:/a:netapp:e-series_santricity_management:-::~~~vmware_vcenter~~",
+                    "FormattedString": "cpe:2.3:a:netapp:e-series_santricity_management:-:*:*:*:*:vmware_vcenter:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:e-series_santricity_management:-::~~~vmware_vasa~~",
+                    "FormattedString": "cpe:2.3:a:netapp:e-series_santricity_management:-:*:*:*:*:vmware_vasa:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:e-series_santricity_management:-::~~~vmware_sra~~",
+                    "FormattedString": "cpe:2.3:a:netapp:e-series_santricity_management:-:*:*:*:*:vmware_sra:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:cloud_backup:-",
+                    "FormattedString": "cpe:2.3:a:netapp:cloud_backup:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:active_iq_unified_manager:::~~~windows~~",
+                    "FormattedString": "cpe:2.3:a:netapp:active_iq_unified_manager:*:*:*:*:*:windows:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.3",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:active_iq_unified_manager:::~~~vmware_vsphere~~",
+                    "FormattedString": "cpe:2.3:a:netapp:active_iq_unified_manager:*:*:*:*:*:vmware_vsphere:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "9.5",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.8.2": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/7.json"
+                ]
+            },
+            "6.10.2": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/7.json"
+                ]
+            },
+            "7.6.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/7.json"
+                ]
+            }
+        }
+    },
+    "CVE-2016-9842": {
+        "CVE-ID": "CVE-2016-9842",
+        "NVD": {
+            "Descriptions": "The inflateMark function in inflate.c in zlib 1.2.8 might allow context-dependent attackers to have unspecified impact via vectors involving left shifts of negative integers.",
+            "Cvss2_BaseScore": 6.8,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:6.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:6.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.5",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:6.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.2",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:leap:42.2",
+                    "FormattedString": "cpe:2.3:o:opensuse:leap:42.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:leap:42.1",
+                    "FormattedString": "cpe:2.3:o:opensuse:leap:42.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:8.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:18.04::~~lts~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:18.04:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:16.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:16.04:*:*:*:esm:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:apple:watchos",
+                    "FormattedString": "cpe:2.3:o:apple:watchos:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:apple:tvos",
+                    "FormattedString": "cpe:2.3:o:apple:tvos:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "11.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:apple:mac_os_x",
+                    "FormattedString": "cpe:2.3:o:apple:mac_os_x:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.13.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:apple:iphone_os",
+                    "FormattedString": "cpe:2.3:o:apple:iphone_os:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:satellite:5.8",
+                    "FormattedString": "cpe:2.3:a:redhat:satellite:5.8:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "5.5.61"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.6.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "5.6.41"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.7.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "5.7.23"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.0.12"
+                },
+                {
+                    "URI": "cpe:/a:oracle:jre:1.8.0:update144",
+                    "FormattedString": "cpe:2.3:a:oracle:jre:1.8.0:update144:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jre:1.7.0:update151",
+                    "FormattedString": "cpe:2.3:a:oracle:jre:1.7.0:update151:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jre:1.6.0:update161",
+                    "FormattedString": "cpe:2.3:a:oracle:jre:1.6.0:update161:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jdk:1.8.0:update144",
+                    "FormattedString": "cpe:2.3:a:oracle:jdk:1.8.0:update144:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jdk:1.7.0:update151",
+                    "FormattedString": "cpe:2.3:a:oracle:jdk:1.7.0:update151:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jdk:1.6.0:update161",
+                    "FormattedString": "cpe:2.3:a:oracle:jdk:1.6.0:update161:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:database_server:18c",
+                    "FormattedString": "cpe:2.3:a:oracle:database_server:18c:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:gnu:zlib",
+                    "FormattedString": "cpe:2.3:a:gnu:zlib:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.2.3.4",
+                    "VersionEndExcluding": "1.2.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.8.2": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/7.json"
+                ]
+            },
+            "6.10.2": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/7.json"
+                ]
+            },
+            "7.6.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/7.json"
+                ]
+            }
+        }
+    },
+    "CVE-2016-9843": {
+        "CVE-ID": "CVE-2016-9843",
+        "NVD": {
+            "Descriptions": "The crc32_big function in crc32.c in zlib 1.2.8 might allow context-dependent attackers to have unspecified impact via vectors involving big-endian CRC calculation.",
+            "Cvss2_BaseScore": 7.5,
+            "Cvss3_BaseScore": 9.8,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:6.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:6.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.5",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:6.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.2",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:leap:42.2",
+                    "FormattedString": "cpe:2.3:o:opensuse:leap:42.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:leap:42.1",
+                    "FormattedString": "cpe:2.3:o:opensuse:leap:42.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:8.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:18.04::~~lts~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:18.04:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:16.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:16.04:*:*:*:esm:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:apple:watchos",
+                    "FormattedString": "cpe:2.3:o:apple:watchos:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:apple:tvos",
+                    "FormattedString": "cpe:2.3:o:apple:tvos:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "11.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:apple:mac_os_x",
+                    "FormattedString": "cpe:2.3:o:apple:mac_os_x:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.13.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:apple:iphone_os",
+                    "FormattedString": "cpe:2.3:o:apple:iphone_os:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:zlib:zlib",
+                    "FormattedString": "cpe:2.3:a:zlib:zlib:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.2.0",
+                    "VersionEndExcluding": "1.2.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:satellite:5.8",
+                    "FormattedString": "cpe:2.3:a:redhat:satellite:5.8:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "5.5.61"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.6.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "5.6.41"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.7.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "5.7.23"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.0.12"
+                },
+                {
+                    "URI": "cpe:/a:oracle:jre:1.8.0:update144",
+                    "FormattedString": "cpe:2.3:a:oracle:jre:1.8.0:update144:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jre:1.7.0:update151",
+                    "FormattedString": "cpe:2.3:a:oracle:jre:1.7.0:update151:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jre:1.6.0:update161",
+                    "FormattedString": "cpe:2.3:a:oracle:jre:1.6.0:update161:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jdk:1.8.0:update144",
+                    "FormattedString": "cpe:2.3:a:oracle:jdk:1.8.0:update144:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jdk:1.7.0:update151",
+                    "FormattedString": "cpe:2.3:a:oracle:jdk:1.7.0:update151:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:jdk:1.6.0:update161",
+                    "FormattedString": "cpe:2.3:a:oracle:jdk:1.6.0:update161:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:database_server:18c",
+                    "FormattedString": "cpe:2.3:a:oracle:database_server:18c:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:snapcenter:-",
+                    "FormattedString": "cpe:2.3:a:netapp:snapcenter:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:oncommand_workflow_automation:-",
+                    "FormattedString": "cpe:2.3:a:netapp:oncommand_workflow_automation:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:oncommand_insight:-",
+                    "FormattedString": "cpe:2.3:a:netapp:oncommand_insight:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:active_iq_unified_manager:::~~~windows~~",
+                    "FormattedString": "cpe:2.3:a:netapp:active_iq_unified_manager:*:*:*:*:*:windows:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.3",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:active_iq_unified_manager:::~~~vmware_vsphere~~",
+                    "FormattedString": "cpe:2.3:a:netapp:active_iq_unified_manager:*:*:*:*:*:vmware_vsphere:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "9.5",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.37",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.1.0",
+                    "VersionEndExcluding": "10.1.37",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.2.0",
+                    "VersionEndExcluding": "10.2.19",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.3.0",
+                    "VersionEndExcluding": "10.3.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.62",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.8.2": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/7.json"
+                ]
+            },
+            "6.10.2": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/7.json"
+                ]
+            },
+            "7.6.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/7.json"
                 ]
             }
         }
@@ -25886,26 +28095,6 @@
                 {
                     "URI": "cpe:/a:nodejs:node.js:4.0.0",
                     "FormattedString": "cpe:2.3:a:nodejs:node.js:4.0.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        }
-    },
-    "CVE-2017-14849": {
-        "CVE-ID": "CVE-2017-14849",
-        "NVD": {
-            "Descriptions": "Node.js 8.5.0 before 8.6.0 allows remote attackers to access unintended files, because a change to \"..\" handling was incompatible with the pathname validation used by unspecified community modules.",
-            "Cvss2_BaseScore": 5,
-            "Cvss3_BaseScore": 7.5,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
-            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:nodejs:node.js:8.5.0",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:8.5.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",

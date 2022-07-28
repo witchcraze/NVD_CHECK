@@ -18,6 +18,7 @@ Get NVD data via [go-cve-dictionary](https://github.com/vulsio/go-cve-dictionary
 
 - Official
   - `https://github.com/nodejs/node/tree/main/doc/changelogs/*`
+  - `https://github.com/nodejs/security-wg/tree/main/vuln/core/*`
 - CPE
   - `cpe:/a:iojs:io.js`
   - `cpe:/a:nodejs:node.js`
