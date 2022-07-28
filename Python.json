@@ -8111,8 +8111,32 @@
                     "URI": "cpe:/a:python:python",
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "2.7.12",
+                    "VersionStartIncluding": "2.7.0",
+                    "VersionEndExcluding": "2.7.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.3.0",
+                    "VersionEndExcluding": "3.3.7",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.4.0",
+                    "VersionEndExcluding": "3.4.6",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.5.0",
+                    "VersionEndExcluding": "3.5.3",
                     "VersionEndIncluding": ""
                 }
             ]
@@ -8201,7 +8225,7 @@
             "Cvss2_BaseScore": 5,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
-            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/o:redhat:enterprise_linux:7.0",
@@ -8260,35 +8284,27 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:python:python:3.6.0",
-                    "FormattedString": "cpe:2.3:a:python:python:3.6.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionStartIncluding": "2.7.0",
+                    "VersionEndExcluding": "2.7.13",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:python:python:3.5.0",
-                    "FormattedString": "cpe:2.3:a:python:python:3.5.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionStartIncluding": "3.4.0",
+                    "VersionEndExcluding": "3.4.7",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:python:python:3.4.0",
-                    "FormattedString": "cpe:2.3:a:python:python:3.4.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python:python:3.3",
-                    "FormattedString": "cpe:2.3:a:python:python:3.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionStartIncluding": "3.5.0",
+                    "VersionEndExcluding": "3.5.3",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -9845,6 +9861,191 @@
             ]
         }
     },
+    "CVE-2017-9233": {
+        "CVE-ID": "CVE-2017-9233",
+        "NVD": {
+            "Descriptions": "XML External Entity vulnerability in libexpat 2.2.0 and earlier (Expat XML Parser Library) allows attackers to put the parser in an infinite loop using a malformed external entity definition from an external DTD.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:debian:debian_linux:9.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:9.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:8.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:10.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:10.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.7.0",
+                    "VersionEndExcluding": "2.7.15",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.3.0",
+                    "VersionEndExcluding": "3.3.7",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.4.0",
+                    "VersionEndExcluding": "3.4.7",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.5.0",
+                    "VersionEndExcluding": "3.5.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:libexpat_project:libexpat",
+                    "FormattedString": "cpe:2.3:a:libexpat_project:libexpat:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "2.2.0"
+                }
+            ]
+        },
+        "Official": {
+            "2.7.15rc1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v2.7.15rc1/Misc/NEWS.d/2.7.15rc1.rst"
+                ],
+                "BTS": {
+                    "bpo30694": {
+                        "ID": "bpo30694",
+                        "url": "https://bugs.python.org/issue30694",
+                        "date": "059",
+                        "nonce": "WkMWM_",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.3.7rc1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.3/Misc/NEWS.d/3.3.7rc1.rst"
+                ],
+                "BTS": {
+                    "bpo30694": {
+                        "ID": "bpo30694",
+                        "url": "https://bugs.python.org/issue30694",
+                        "date": "021",
+                        "nonce": "WkMWM_",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.4.7rc1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.4/Misc/NEWS.d/3.4.7rc1.rst"
+                ],
+                "BTS": {
+                    "bpo30694": {
+                        "ID": "bpo30694",
+                        "url": "https://bugs.python.org/issue30694",
+                        "date": "2017-07-11-22-25-24",
+                        "nonce": "oOf3Er",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.5.4rc1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.8.0rc1/Misc/NEWS.d/3.5.4rc1.rst"
+                ],
+                "BTS": {
+                    "bpo30694": {
+                        "ID": "bpo30694",
+                        "url": "https://bugs.python.org/issue30694",
+                        "date": "083",
+                        "nonce": "WkMWM_",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.6.2rc2": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.6.6rc1/Misc/NEWS.d/3.6.2rc2.rst",
+                    "https://github.com/python/cpython/blob/v3.6.2rc2/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo30694": {
+                        "ID": "bpo30694",
+                        "url": "https://bugs.python.org/issue30694",
+                        "date": "9991",
+                        "nonce": "WkMWM_",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.7.0a1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.8.0rc1/Misc/NEWS.d/3.7.0a1.rst"
+                ],
+                "BTS": {
+                    "bpo30694": {
+                        "ID": "bpo30694",
+                        "url": "https://bugs.python.org/issue30694",
+                        "date": "0344",
+                        "nonce": "WkMWM_",
+                        "section": "Security"
+                    }
+                }
+            },
+            "2.7.14rc1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v2.7.14rc1/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo30694": {
+                        "ID": "bpo30694",
+                        "url": "https://bugs.python.org/issue30694",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    }
+                }
+            }
+        }
+    },
     "CVE-2018-1000030": {
         "CVE-ID": "CVE-2018-1000030",
         "NVD": {
@@ -10184,7 +10385,7 @@
             "Cvss2_BaseScore": 5,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
@@ -10294,7 +10495,7 @@
                     "URI": "cpe:/a:python:python",
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
+                    "VersionStartIncluding": "2.7.0",
                     "VersionEndExcluding": "2.7.15",
                     "VersionEndIncluding": ""
                 },
@@ -10302,7 +10503,7 @@
                     "URI": "cpe:/a:python:python",
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "3.0",
+                    "VersionStartIncluding": "3.0.0",
                     "VersionEndExcluding": "3.4.9",
                     "VersionEndIncluding": ""
                 },
@@ -10311,15 +10512,7 @@
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "3.5.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "3.5.5"
-                },
-                {
-                    "URI": "cpe:/a:python:python",
-                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "3.6.5",
-                    "VersionEndExcluding": "3.7.0",
+                    "VersionEndExcluding": "3.5.6",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -10327,8 +10520,8 @@
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "3.6.0",
                     "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "3.6.4"
+                    "VersionEndExcluding": "3.6.5",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -11857,6 +12050,144 @@
             ]
         }
     },
+    "CVE-2019-15903": {
+        "CVE-ID": "CVE-2019-15903",
+        "NVD": {
+            "Descriptions": "In libexpat before 2.2.8, crafted XML input could fool the parser into changing from DTD parsing to document parsing too early; a consecutive call to XML_GetCurrentLineNumber (or XML_GetCurrentColumnNumber) then resulted in a heap-based buffer over-read.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.7.0",
+                    "VersionEndExcluding": "2.7.17",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.5.0",
+                    "VersionEndExcluding": "3.5.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.7.0",
+                    "VersionEndExcluding": "3.7.5",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:libexpat_project:libexpat",
+                    "FormattedString": "cpe:2.3:a:libexpat_project:libexpat:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2.2.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "2.7.17rc1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/2.7/Misc/NEWS.d/2.7.17rc1.rst"
+                ],
+                "BTS": {
+                    "bpo38174": {
+                        "ID": "bpo38174",
+                        "url": "https://bugs.python.org/issue38174",
+                        "date": "2019-09-23-21-02-46",
+                        "nonce": "MeWuJd",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.5.8rc2": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.5/Misc/NEWS.d/3.5.8rc2.rst"
+                ],
+                "BTS": {
+                    "bpo38174": {
+                        "ID": "bpo38174",
+                        "url": "https://bugs.python.org/issue38174",
+                        "date": "2019-09-23-21-02-46",
+                        "nonce": "MeWuJd",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.6.10rc1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.6/Misc/NEWS.d/3.6.10rc1.rst"
+                ],
+                "BTS": {
+                    "bpo38174": {
+                        "ID": "bpo38174",
+                        "url": "https://bugs.python.org/issue38174",
+                        "date": "2019-09-23-21-02-46",
+                        "nonce": "MeWuJd",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.7.5rc1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.7.5rc1/Misc/NEWS.d/3.7.5rc1.rst"
+                ],
+                "BTS": {
+                    "bpo38174": {
+                        "ID": "bpo38174",
+                        "url": "https://bugs.python.org/issue38174",
+                        "date": "2019-09-23-21-02-46",
+                        "nonce": "MeWuJd",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.8.0rc1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.8.0rc1/Misc/NEWS.d/3.8.0rc1.rst"
+                ],
+                "BTS": {
+                    "bpo38174": {
+                        "ID": "bpo38174",
+                        "url": "https://bugs.python.org/issue38174",
+                        "date": "2019-09-23-21-02-46",
+                        "nonce": "MeWuJd",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.9.0a1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.10.0/Misc/NEWS.d/3.9.0a1.rst"
+                ],
+                "BTS": {
+                    "bpo38174": {
+                        "ID": "bpo38174",
+                        "url": "https://bugs.python.org/issue38174",
+                        "date": "2019-09-23-21-02-46",
+                        "nonce": "MeWuJd",
+                        "section": "Security"
+                    }
+                }
+            }
+        }
+    },
     "CVE-2019-16056": {
         "CVE-ID": "CVE-2019-16056",
         "NVD": {
@@ -12486,8 +12817,32 @@
                     "URI": "cpe:/a:python:python",
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
+                    "VersionStartIncluding": "3.5.0",
+                    "VersionEndExcluding": "3.5.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.7.0",
                     "VersionEndExcluding": "3.7.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.8.0",
+                    "VersionEndExcluding": "3.8.5",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -12720,17 +13075,41 @@
                     "URI": "cpe:/a:python:python",
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.7.11"
+                    "VersionStartIncluding": "2.7.0",
+                    "VersionEndExcluding": "2.7.16",
+                    "VersionEndIncluding": ""
                 },
                 {
                     "URI": "cpe:/a:python:python",
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "3.0.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "3.6.6"
+                    "VersionStartIncluding": "3.4.0",
+                    "VersionEndExcluding": "3.4.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.5.0",
+                    "VersionEndExcluding": "3.5.7",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.7.0",
+                    "VersionEndExcluding": "3.7.3",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -18397,127 +18776,6 @@
             ]
         }
     },
-    "CVE-2017-9233": {
-        "CVE-ID": "CVE-2017-9233",
-        "NVD": {
-            "Descriptions": "XML External Entity vulnerability in libexpat 2.2.0 and earlier (Expat XML Parser Library) allows attackers to put the parser in an infinite loop using a malformed external entity definition from an external DTD.",
-            "Cvss2_BaseScore": 5,
-            "Cvss3_BaseScore": 7.5,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:libexpat_project:libexpat",
-                    "FormattedString": "cpe:2.3:a:libexpat_project:libexpat:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.2.0"
-                }
-            ]
-        },
-        "Official": {
-            "2.7.15rc1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v2.7.15rc1/Misc/NEWS.d/2.7.15rc1.rst"
-                ],
-                "BTS": {
-                    "bpo30694": {
-                        "ID": "bpo30694",
-                        "url": "https://bugs.python.org/issue30694",
-                        "date": "059",
-                        "nonce": "WkMWM_",
-                        "section": "Security"
-                    }
-                }
-            },
-            "3.3.7rc1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/3.3/Misc/NEWS.d/3.3.7rc1.rst"
-                ],
-                "BTS": {
-                    "bpo30694": {
-                        "ID": "bpo30694",
-                        "url": "https://bugs.python.org/issue30694",
-                        "date": "021",
-                        "nonce": "WkMWM_",
-                        "section": "Security"
-                    }
-                }
-            },
-            "3.4.7rc1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/3.4/Misc/NEWS.d/3.4.7rc1.rst"
-                ],
-                "BTS": {
-                    "bpo30694": {
-                        "ID": "bpo30694",
-                        "url": "https://bugs.python.org/issue30694",
-                        "date": "2017-07-11-22-25-24",
-                        "nonce": "oOf3Er",
-                        "section": "Security"
-                    }
-                }
-            },
-            "3.5.4rc1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v3.8.0rc1/Misc/NEWS.d/3.5.4rc1.rst"
-                ],
-                "BTS": {
-                    "bpo30694": {
-                        "ID": "bpo30694",
-                        "url": "https://bugs.python.org/issue30694",
-                        "date": "083",
-                        "nonce": "WkMWM_",
-                        "section": "Security"
-                    }
-                }
-            },
-            "3.6.2rc2": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v3.6.6rc1/Misc/NEWS.d/3.6.2rc2.rst",
-                    "https://github.com/python/cpython/blob/v3.6.2rc2/Misc/NEWS"
-                ],
-                "BTS": {
-                    "bpo30694": {
-                        "ID": "bpo30694",
-                        "url": "https://bugs.python.org/issue30694",
-                        "date": "9991",
-                        "nonce": "WkMWM_",
-                        "section": "Security"
-                    }
-                }
-            },
-            "3.7.0a1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v3.8.0rc1/Misc/NEWS.d/3.7.0a1.rst"
-                ],
-                "BTS": {
-                    "bpo30694": {
-                        "ID": "bpo30694",
-                        "url": "https://bugs.python.org/issue30694",
-                        "date": "0344",
-                        "nonce": "WkMWM_",
-                        "section": "Security"
-                    }
-                }
-            },
-            "2.7.14rc1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v2.7.14rc1/Misc/NEWS"
-                ],
-                "BTS": {
-                    "bpo30694": {
-                        "ID": "bpo30694",
-                        "url": "https://bugs.python.org/issue30694",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    }
-                }
-            }
-        }
-    },
     "CVE-2012-0876": {
         "CVE-ID": "CVE-2012-0876",
         "NVD": {
@@ -19220,112 +19478,6 @@
                         "date": "",
                         "nonce": "",
                         "section": ""
-                    }
-                }
-            }
-        }
-    },
-    "CVE-2019-15903": {
-        "CVE-ID": "CVE-2019-15903",
-        "NVD": {
-            "Descriptions": "In libexpat before 2.2.8, crafted XML input could fool the parser into changing from DTD parsing to document parsing too early; a consecutive call to XML_GetCurrentLineNumber (or XML_GetCurrentColumnNumber) then resulted in a heap-based buffer over-read.",
-            "Cvss2_BaseScore": 5,
-            "Cvss3_BaseScore": 7.5,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:libexpat_project:libexpat",
-                    "FormattedString": "cpe:2.3:a:libexpat_project:libexpat:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "2.2.8",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        },
-        "Official": {
-            "2.7.17rc1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/2.7/Misc/NEWS.d/2.7.17rc1.rst"
-                ],
-                "BTS": {
-                    "bpo38174": {
-                        "ID": "bpo38174",
-                        "url": "https://bugs.python.org/issue38174",
-                        "date": "2019-09-23-21-02-46",
-                        "nonce": "MeWuJd",
-                        "section": "Security"
-                    }
-                }
-            },
-            "3.5.8rc2": {
-                "source": [
-                    "https://github.com/python/cpython/blob/3.5/Misc/NEWS.d/3.5.8rc2.rst"
-                ],
-                "BTS": {
-                    "bpo38174": {
-                        "ID": "bpo38174",
-                        "url": "https://bugs.python.org/issue38174",
-                        "date": "2019-09-23-21-02-46",
-                        "nonce": "MeWuJd",
-                        "section": "Security"
-                    }
-                }
-            },
-            "3.6.10rc1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/3.6/Misc/NEWS.d/3.6.10rc1.rst"
-                ],
-                "BTS": {
-                    "bpo38174": {
-                        "ID": "bpo38174",
-                        "url": "https://bugs.python.org/issue38174",
-                        "date": "2019-09-23-21-02-46",
-                        "nonce": "MeWuJd",
-                        "section": "Security"
-                    }
-                }
-            },
-            "3.7.5rc1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v3.7.5rc1/Misc/NEWS.d/3.7.5rc1.rst"
-                ],
-                "BTS": {
-                    "bpo38174": {
-                        "ID": "bpo38174",
-                        "url": "https://bugs.python.org/issue38174",
-                        "date": "2019-09-23-21-02-46",
-                        "nonce": "MeWuJd",
-                        "section": "Security"
-                    }
-                }
-            },
-            "3.8.0rc1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v3.8.0rc1/Misc/NEWS.d/3.8.0rc1.rst"
-                ],
-                "BTS": {
-                    "bpo38174": {
-                        "ID": "bpo38174",
-                        "url": "https://bugs.python.org/issue38174",
-                        "date": "2019-09-23-21-02-46",
-                        "nonce": "MeWuJd",
-                        "section": "Security"
-                    }
-                }
-            },
-            "3.9.0a1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v3.10.0/Misc/NEWS.d/3.9.0a1.rst"
-                ],
-                "BTS": {
-                    "bpo38174": {
-                        "ID": "bpo38174",
-                        "url": "https://bugs.python.org/issue38174",
-                        "date": "2019-09-23-21-02-46",
-                        "nonce": "MeWuJd",
-                        "section": "Security"
                     }
                 }
             }
