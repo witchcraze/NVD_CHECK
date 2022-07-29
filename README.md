@@ -62,6 +62,16 @@ Get NVD data via [go-cve-dictionary](https://github.com/vulsio/go-cve-dictionary
   - `cpe:/a:f5:nginx`
   - `cpe:/a:nginx:nginx`
 
+### Redis
+
+- Official
+  - `https://github.com/redis/redis/releases`
+  - `https://github.com/redis/redis/blob/*/00-RELEASENOTES`
+- CPE
+  - `cpe:/a:pivotal_software:redis`
+  - `cpe:/a:redislabs:redis`
+  - `cpe:/a:redis:redis`
+
 ### Database
 
 #### MariaDB
