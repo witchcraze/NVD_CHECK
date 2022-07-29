@@ -47766,6 +47766,22 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.7.0",
+                    "VersionEndExcluding": "2.7.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.4.0",
+                    "VersionEndExcluding": "3.4.2",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:openssl:openssl",
                     "FormattedString": "cpe:2.3:a:openssl:openssl:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
