@@ -1,0 +1,2275 @@
+{
+    "CVE-2022-24272": {
+        "CVE-ID": "CVE-2022-24272",
+        "NVD": {
+            "Descriptions": "An authenticated user may trigger an invariant assertion during command dispatch due to incorrect validation on the $external database. This may result in mongod denial of service or server crash. This issue affects: MongoDB Inc. MongoDB Server v5.0 versions, prior to and including v5.0.6.",
+            "Cvss2_BaseScore": 4,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "5.0.6"
+                }
+            ]
+        },
+        "Official": {
+            "5.0.6": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2021-32040": {
+        "CVE-ID": "CVE-2021-32040",
+        "NVD": {
+            "Descriptions": "It may be possible to have an extremely long aggregation pipeline in conjunction with a specific stage/operator and cause a stack overflow due to the size of the stack frames used by that stage. If an attacker could cause such an aggregation to occur, they could maliciously crash MongoDB in a DoS attack. This vulnerability affects MongoDB versions prior to 5.0.4, 4.4.11, 4.2.16.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.2.0",
+                    "VersionEndExcluding": "4.2.16",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.4.0",
+                    "VersionEndExcluding": "4.4.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.0.0",
+                    "VersionEndExcluding": "5.0.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "5.0.4": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.4.11": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.2.16": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2021-32036": {
+        "CVE-ID": "CVE-2021-32036",
+        "NVD": {
+            "Descriptions": "An authenticated user without any specific authorizations may be able to repeatedly invoke the features command where at a high volume may lead to resource depletion or generate high lock contention. This may result in denial of service and in rare cases could result in id field collisions.",
+            "Cvss2_BaseScore": 5.5,
+            "Cvss3_BaseScore": 7.1,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:P/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.0.0",
+                    "VersionEndExcluding": "4.2.18",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.4.0",
+                    "VersionEndExcluding": "4.4.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.0.0",
+                    "VersionEndExcluding": "5.0.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "5.0.3": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.4.9": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.2.16": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.0.28": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2021-20330": {
+        "CVE-ID": "CVE-2021-20330",
+        "NVD": {
+            "Descriptions": "An attacker with basic CRUD permissions on a replicated collection can run the applyOps command with specially malformed oplog entries, resulting in a potential denial of service on secondaries. This issue affects MongoDB Server v4.0 versions prior to 4.0.25; MongoDB Server v4.2 versions prior to 4.2.14; MongoDB Server v4.4 versions prior to 4.4.6.",
+            "Cvss2_BaseScore": 4,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.0.25",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.2.0",
+                    "VersionEndExcluding": "4.2.14",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.4.0",
+                    "VersionEndExcluding": "4.4.6",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.0.27": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.2.16": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.4.9": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2021-32037": {
+        "CVE-ID": "CVE-2021-32037",
+        "NVD": {
+            "Descriptions": "An authorized user may trigger an invariant which may result in denial of service or server exit if a relevant aggregation request is sent to a shard. Usually, the requests are sent via mongos and special privileges are required in order to know the address of the shards and to log in to the shards of an auth enabled environment.",
+            "Cvss2_BaseScore": 4,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "5.0.2"
+                }
+            ]
+        },
+        "Official": {
+            "5.0.2": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2021-20333": {
+        "CVE-ID": "CVE-2021-20333",
+        "NVD": {
+            "Descriptions": "Sending specially crafted commands to a MongoDB Server may result in artificial log entries being generated or for log entries to be split. This issue affects MongoDB Server v3.6 versions prior to 3.6.20; MongoDB Server v4.0 versions prior to 4.0.21; MongoDB Server v4.2 versions prior to 4.2.10;",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.20",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.0.21",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.2.0",
+                    "VersionEndExcluding": "4.2.10",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "3.6.20": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.0.21": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.2.10": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2021-20326": {
+        "CVE-ID": "CVE-2021-20326",
+        "NVD": {
+            "Descriptions": "A user authorized to performing a specific type of find query may trigger a denial of service. This issue affects: MongoDB Inc. MongoDB Server v4.4 versions prior to 4.4.4.",
+            "Cvss2_BaseScore": 4,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.4.0",
+                    "VersionEndExcluding": "4.4.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.4.4": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2020-7929": {
+        "CVE-ID": "CVE-2020-7929",
+        "NVD": {
+            "Descriptions": "A user authorized to perform database queries may trigger denial of service by issuing specially crafted query contain a type of regex. This issue affects: MongoDB Inc. MongoDB Server v3.6 versions prior to 3.6.21 and MongoDB Server v4.0 versions prior to 4.0.20.",
+            "Cvss2_BaseScore": 4,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.21",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.0.20",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "3.6.21": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.0.20": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2018-25004": {
+        "CVE-ID": "CVE-2018-25004",
+        "NVD": {
+            "Descriptions": "A user authorized to performing a specific type of query may trigger a denial of service by issuing a generic explain command on a find query. This issue affects: MongoDB Inc. MongoDB Server v4.0 versions prior to 4.0.6; MongoDB Server v3.6 versions prior to 3.6.11.",
+            "Cvss2_BaseScore": 4,
+            "Cvss3_BaseScore": 4.9,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.0.6",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "3.6.11": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.0.6": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2019-20924": {
+        "CVE-ID": "CVE-2019-20924",
+        "NVD": {
+            "Descriptions": "A user authorized to perform database queries may trigger denial of service by issuing specially crafted queries which trigger an invariant in the IndexBoundsBuilder. This issue affects: MongoDB Inc. MongoDB Server v4.2 versions prior to 4.2.2.",
+            "Cvss2_BaseScore": 4,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.2.0",
+                    "VersionEndExcluding": "4.2.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.2.2": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2020-7925": {
+        "CVE-ID": "CVE-2020-7925",
+        "NVD": {
+            "Descriptions": "Incorrect validation of user input in the role name parser may lead to use of uninitialized memory allowing an unauthenticated attacker to use a specially crafted request to cause a denial of service. This issue affects: MongoDB Inc. MongoDB Server v4.4 versions prior to 4.4.0-rc12; v4.2 versions prior to 4.2.9.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:4.4.0:rc9",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:4.4.0:rc9:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:4.4.0:rc8",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:4.4.0:rc8:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:4.4.0:rc7",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:4.4.0:rc7:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:4.4.0:rc6",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:4.4.0:rc6:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:4.4.0:rc5",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:4.4.0:rc5:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:4.4.0:rc4",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:4.4.0:rc4:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:4.4.0:rc3",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:4.4.0:rc3:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:4.4.0:rc2",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:4.4.0:rc2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:4.4.0:rc11",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:4.4.0:rc11:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:4.4.0:rc10",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:4.4.0:rc10:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:4.4.0:rc1",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:4.4.0:rc1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.2.0",
+                    "VersionEndExcluding": "4.2.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.2.9": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.4.0-rc12": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2020-7926": {
+        "CVE-ID": "CVE-2020-7926",
+        "NVD": {
+            "Descriptions": "A user authorized to perform database queries may cause denial of service by issuing a specially crafted query which violates an invariant in the server selection subsystem. This issue affects: MongoDB Server version 4.4 prior to 4.4.1. Versions before 4.4 are not affected.",
+            "Cvss2_BaseScore": 4,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.4.0",
+                    "VersionEndExcluding": "4.4.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.4.1": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2019-2392": {
+        "CVE-ID": "CVE-2019-2392",
+        "NVD": {
+            "Descriptions": "A user authorized to perform database queries may trigger denial of service by issuing specially crafted queries, which use the $mod operator to overflow negative values. This issue affects: MongoDB Inc. MongoDB Server v4.4 versions prior to 4.4.1; v4.2 versions prior to 4.2.9; v4.0 versions prior to 4.0.20; v3.6 versions prior to 3.6.20.",
+            "Cvss2_BaseScore": 4,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.20",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.0.20",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.2.0",
+                    "VersionEndExcluding": "4.2.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.4.0",
+                    "VersionEndExcluding": "4.4.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "3.6.20": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.0.20": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.2.9": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.4.1": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2019-2393": {
+        "CVE-ID": "CVE-2019-2393",
+        "NVD": {
+            "Descriptions": "A user authorized to perform database queries may trigger denial of service by issuing specially crafted queries, which use $lookup and collations. This issue affects: MongoDB Inc. MongoDB Server v4.2 versions prior to 4.2.1; v4.0 versions prior to 4.0.13; v3.6 versions prior to 3.6.15.",
+            "Cvss2_BaseScore": 4,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.15",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.0.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.2.0",
+                    "VersionEndExcluding": "4.2.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "3.6.15": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.0.13": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.2.1": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2019-20923": {
+        "CVE-ID": "CVE-2019-20923",
+        "NVD": {
+            "Descriptions": "A user authorized to perform database queries may trigger denial of service by issuing specially crafted queries, which throw unhandled Javascript exceptions containing types intended to be scoped to the Javascript engine's internals. This issue affects: MongoDB Inc. MongoDB Server v4.0 versions prior to 4.0.7.",
+            "Cvss2_BaseScore": 4,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.0.7",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.0.7": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2018-20802": {
+        "CVE-ID": "CVE-2018-20802",
+        "NVD": {
+            "Descriptions": "A user authorized to perform database queries may trigger denial of service by issuing specially crafted queries with compound indexes affecting QueryPlanner. This issue affects: MongoDB Inc. MongoDB Server v3.6 versions prior to 3.6.9, v4.0 versions prior to 4.0.3.",
+            "Cvss2_BaseScore": 4,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.0.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "3.6.9": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.0.3": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2018-20804": {
+        "CVE-ID": "CVE-2018-20804",
+        "NVD": {
+            "Descriptions": "A user authorized to perform database queries may trigger denial of service by issuing specially crafted applyOps invocations. This issue affects: MongoDB Inc. MongoDB Server v4.0 versions prior to 4.0.10; v3.6 versions prior to 3.6.13.",
+            "Cvss2_BaseScore": 4,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.0.10",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "3.6.13": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.0.10": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2018-20805": {
+        "CVE-ID": "CVE-2018-20805",
+        "NVD": {
+            "Descriptions": "A user authorized to perform database queries may trigger denial of service by issuing specially crafted queries, which perform an $elemMatch This issue affects: MongoDB Inc. MongoDB Server v4.0 versions prior to 4.0.5; v3.6 versions prior to 3.6.10. This issue affects: MongoDB Inc. MongoDB Server 3.6 versions prior to 3.6.10; 4.0 versions prior to 4.0.5.",
+            "Cvss2_BaseScore": 4,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.0.5",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "3.6.10": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.0.5": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2019-20925": {
+        "CVE-ID": "CVE-2019-20925",
+        "NVD": {
+            "Descriptions": "An unauthenticated client can trigger denial of service by issuing specially crafted wire protocol messages, which cause the message decompressor to incorrectly allocate memory. This issue affects: MongoDB Inc. MongoDB Server v4.2 versions prior to 4.2.1; v4.0 versions prior to 4.0.13; v3.6 versions prior to 3.6.15; v3.4 versions prior to 3.4.24.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.4.0",
+                    "VersionEndExcluding": "3.4.24",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.15",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.0.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.2.0",
+                    "VersionEndExcluding": "4.2.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.2.1": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.0.13": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "3.6.15": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "3.4.24": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2020-7928": {
+        "CVE-ID": "CVE-2020-7928",
+        "NVD": {
+            "Descriptions": "A user authorized to perform database queries may trigger a read overrun and access arbitrary memory by issuing specially crafted queries. This issue affects: MongoDB Inc. MongoDB Server v4.4 versions prior to 4.4.1; v4.2 versions prior to 4.2.9; v4.0 versions prior to 4.0.20; v3.6 versions prior to 3.6.20.",
+            "Cvss2_BaseScore": 4,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.20",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.0.20",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.2.0",
+                    "VersionEndExcluding": "4.2.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.4.0",
+                    "VersionEndExcluding": "4.4.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.5.0",
+                    "VersionEndExcluding": "4.5.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.4.1": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.2.9": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.0.20": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "3.6.20": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2018-20803": {
+        "CVE-ID": "CVE-2018-20803",
+        "NVD": {
+            "Descriptions": "A user authorized to perform database queries may trigger denial of service by issuing specially crafted queries, which loop indefinitely in mathematics processing while retaining locks. This issue affects: MongoDB Inc. MongoDB Server v4.0 versions prior to 4.0.5; v3.6 versions prior to 3.6.10; v3.4 versions prior to 3.4.19.",
+            "Cvss2_BaseScore": 4,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.4.0",
+                    "VersionEndExcluding": "3.4.19",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.0.5",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.0.5": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "3.6.10": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "3.4.19": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2020-7923": {
+        "CVE-ID": "CVE-2020-7923",
+        "NVD": {
+            "Descriptions": "A user authorized to perform database queries may cause denial of service by issuing specially crafted queries, which violate an invariant in the query subsystem's support for geoNear. This issue affects: MongoDB Inc. MongoDB Server v4.4 versions prior to 4.4.0-rc7; v4.2 versions prior to 4.2.8; v4.0 versions prior to 4.0.19.",
+            "Cvss2_BaseScore": 4,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:debian:debian_linux:9.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:9.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0",
+                    "VersionEndExcluding": "4.0.19",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.2",
+                    "VersionEndExcluding": "4.2.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.4",
+                    "VersionEndExcluding": "4.4.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.5",
+                    "VersionEndExcluding": "4.5.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.4.0-rc7": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.2.8": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.0.19": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2020-7921": {
+        "CVE-ID": "CVE-2020-7921",
+        "NVD": {
+            "Descriptions": "Improper serialization of internal state in the authorization subsystem in MongoDB Server's authorization subsystem permits a user with valid credentials to bypass IP whitelisting protection mechanisms following administrative action. This issue affects: MongoDB Inc. MongoDB Server 4.2 versions prior to 4.2.3; 4.0 versions prior to 4.0.15; 4.3 versions prior to 4.3.3; 3.6 versions prior to 3.6.18.",
+            "Cvss2_BaseScore": 3.5,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.18",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.0.15",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.2.0",
+                    "VersionEndExcluding": "4.2.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.3.0",
+                    "VersionEndExcluding": "4.3.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.2.3": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.0.15": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "3.6.18": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "4.3.3": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2019-2390": {
+        "CVE-ID": "CVE-2019-2390",
+        "NVD": {
+            "Descriptions": "An unprivileged user or program on Microsoft Windows which can create OpenSSL configuration files in a fixed location may cause utility programs shipped with MongoDB server to run attacker defined code as the user running the utility. This issue affects: MongoDB Inc. MongoDB Server 4.0 prior to 4.0.11; 3.6 prior to 3.6.14; 3.4 prior to 3.4.22.",
+            "Cvss2_BaseScore": 6.8,
+            "Cvss3_BaseScore": 7.8,
+            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.4.0",
+                    "VersionEndExcluding": "3.4.22",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.14",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.0.11",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.0.11": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "3.6.14": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "3.4.22": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2019-2389": {
+        "CVE-ID": "CVE-2019-2389",
+        "NVD": {
+            "Descriptions": "Incorrect scoping of kill operations in MongoDB Server's packaged SysV init scripts allow users with write access to the PID file to insert arbitrary PIDs to be killed when the root user stops the MongoDB process via SysV init. This issue affects: MongoDB Inc. MongoDB Server v4.0 versions prior to 4.0.11; v3.6 versions prior to 3.6.14; v3.4 versions prior to 3.4.22.",
+            "Cvss2_BaseScore": 1.9,
+            "Cvss3_BaseScore": 4.2,
+            "Cvss2_VectorString": "AV:L/AC:M/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.4.0",
+                    "VersionEndExcluding": "3.4.22",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.14",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.0.11",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.0.11": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "3.6.14": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "3.4.22": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2019-2386": {
+        "CVE-ID": "CVE-2019-2386",
+        "NVD": {
+            "Descriptions": "After user deletion in MongoDB Server the improper invalidation of authorization sessions allows an authenticated user's session to persist and become conflated with new accounts, if those accounts reuse the names of deleted ones. This issue affects: MongoDB Inc. MongoDB Server v4.0 versions prior to 4.0.9; v3.6 versions prior to 3.6.13; v3.4 versions prior to 3.4.22.",
+            "Cvss2_BaseScore": 6,
+            "Cvss3_BaseScore": 7.1,
+            "Cvss2_VectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.4.0",
+                    "VersionEndExcluding": "3.4.22",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.0.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.0.9": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "3.6.13": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            },
+            "3.4.22": {
+                "source": [
+                    "https://www.mongodb.com/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2012-6619": {
+        "CVE-ID": "CVE-2012-6619",
+        "NVD": {
+            "Descriptions": "The default configuration for MongoDB before 2.3.2 does not validate objects, which allows remote authenticated users to cause a denial of service (crash) or read system memory via a crafted BSON object in the column name in an insert command, which triggers a buffer over-read.",
+            "Cvss2_BaseScore": 6.4,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.3.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.3.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.2.7",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.2.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.2.6",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.2.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.2.5",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.2.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.2.4",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.2.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.2.3",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.2.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.2.2",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.2.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.2.1",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.2.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.2.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.2.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.0.8",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.0.8:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.0.7",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.0.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.0.6",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.0.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.0.5",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.0.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.0.4",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.0.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.0.3",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.0.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.0.2",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.0.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.0.1",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.0.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.0.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.0.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:1.8.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:1.8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:1.6.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:1.6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:1.4.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:1.4.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:1.2.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:1.2.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "2.3.1"
+                }
+            ]
+        }
+    },
+    "CVE-2013-1892": {
+        "CVE-ID": "CVE-2013-1892",
+        "NVD": {
+            "Descriptions": "MongoDB before 2.0.9 and 2.2.x before 2.2.4 does not properly validate requests to the nativeHelper function in SpiderMonkey, which allows remote authenticated users to cause a denial of service (invalid memory access and server crash) or execute arbitrary code via a crafted memory address in the first argument.",
+            "Cvss2_BaseScore": 6,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:redhat:enterprise_mrg:2.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_mrg:2.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.2.3",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.2.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.2.2",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.2.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.2.1",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.2.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.2.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.2.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.0.7",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.0.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.0.6",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.0.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.0.5",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.0.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.0.4",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.0.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.0.3",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.0.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.0.2",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.0.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.0.1",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.0.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.0.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.0.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:1.8.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:1.8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:1.6.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:1.6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:1.4.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:1.4.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:1.2.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:1.2.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "2.0.8"
+                }
+            ]
+        }
+    },
+    "CVE-2013-2132": {
+        "CVE-ID": "CVE-2013-2132",
+        "NVD": {
+            "Descriptions": "bson/_cbsonmodule.c in the mongo-python-driver (aka. pymongo) before 2.5.2, as used in MongoDB, allows context-dependent attackers to cause a denial of service (NULL pointer dereference and crash) via vectors related to decoding of an \"invalid DBRef.\"",
+            "Cvss2_BaseScore": 4.3,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:12.3",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:12.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:13.04",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:13.04:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:12.10",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.10:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04:-:lts",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:-:lts:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.5.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.4.5",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.4.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.4.4",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.4.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.4.3",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.4.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.4.2",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.4.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.4.1",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.4.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.4.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.4.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.2.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.2.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.0.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.0.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:1.8.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:1.8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:1.6.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:1.6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:1.4.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:1.4.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:1.2.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:1.2.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "2.5.1"
+                }
+            ]
+        }
+    },
+    "CVE-2013-3969": {
+        "CVE-ID": "CVE-2013-3969",
+        "NVD": {
+            "Descriptions": "The find prototype in scripting/engine_v8.h in MongoDB 2.4.0 through 2.4.4 allows remote authenticated users to cause a denial of service (uninitialized pointer dereference and server crash) or possibly execute arbitrary code via an invalid RefDB object.",
+            "Cvss2_BaseScore": 6.5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.4.4",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.4.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.4.3",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.4.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.4.2",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.4.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.4.1",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.4.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.4.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.4.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2013-4650": {
+        "CVE-ID": "CVE-2013-4650",
+        "NVD": {
+            "Descriptions": "MongoDB 2.4.x before 2.4.5 and 2.5.x before 2.5.1 allows remote authenticated users to obtain internal system privileges by leveraging a username of __system in an arbitrary database.",
+            "Cvss2_BaseScore": 6.5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.5.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.4.4",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.4.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.4.3",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.4.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.4.2",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.4.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.4.1",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.4.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.4.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.4.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2014-3971": {
+        "CVE-ID": "CVE-2014-3971",
+        "NVD": {
+            "Descriptions": "The CmdAuthenticate::_authenticateX509 function in db/commands/authentication_commands.cpp in mongod in MongoDB 2.6.x before 2.6.2 allows remote attackers to cause a denial of service (daemon crash) by attempting authentication with an invalid X.509 client certificate.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.6.1",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.6.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.6.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2014-8180": {
+        "CVE-ID": "CVE-2014-8180",
+        "NVD": {
+            "Descriptions": "MongoDB on Red Hat Satellite 6 allows local users to bypass authentication by logging in with an empty password and delete information which can cause a Denial of Service.",
+            "Cvss2_BaseScore": 2.1,
+            "Cvss3_BaseScore": 5.5,
+            "Cvss2_VectorString": "AV:L/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2015-1609": {
+        "CVE-ID": "CVE-2015-1609",
+        "NVD": {
+            "Descriptions": "MongoDB before 2.4.13 and 2.6.x before 2.6.8 allows remote attackers to cause a denial of service via a crafted UTF-8 string in a BSON request.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:21",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:21:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.6.7",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.6.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.6.6",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.6.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.6.5",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.6.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.6.4",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.6.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.6.3",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.6.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.6.2",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.6.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.6.1",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.6.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.6.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "2.4.12"
+                }
+            ]
+        }
+    },
+    "CVE-2015-7882": {
+        "CVE-ID": "CVE-2015-7882",
+        "NVD": {
+            "Descriptions": "Improper handling of LDAP authentication in MongoDB Server versions 3.0.0 to 3.0.6 allows an unauthenticated client to gain unauthorized access.",
+            "Cvss2_BaseScore": 6.8,
+            "Cvss3_BaseScore": 8.1,
+            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~enterprise~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:enterprise:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "3.0.6"
+                }
+            ]
+        }
+    },
+    "CVE-2016-3104": {
+        "CVE-ID": "CVE-2016-3104",
+        "NVD": {
+            "Descriptions": "mongod in MongoDB 2.6, when using 2.4-style users, and 2.4 allow remote attackers to cause a denial of service (memory consumption and process termination) by leveraging in-memory database representation when authenticating against a non-existent database.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.6.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:2.4.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:2.4.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2016-6494": {
+        "CVE-ID": "CVE-2016-6494",
+        "NVD": {
+            "Descriptions": "The client in MongoDB uses world-readable permissions on .dbshell history files, which might allow local users to obtain sensitive information by reading these files.",
+            "Cvss2_BaseScore": 2.1,
+            "Cvss3_BaseScore": 5.5,
+            "Cvss2_VectorString": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:25",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:25:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "3.0.15",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.2",
+                    "VersionEndExcluding": "3.2.14",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.3",
+                    "VersionEndExcluding": "3.3.14",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2017-14227": {
+        "CVE-ID": "CVE-2017-14227",
+        "NVD": {
+            "Descriptions": "In MongoDB libbson 1.7.0, the bson_iter_codewscope function in bson-iter.c miscalculates a bson_utf8_validate length argument, which allows remote attackers to cause a denial of service (heap-based buffer over-read in the bson_utf8_validate function in bson-utf8.c), as demonstrated by bson-to-json.c.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:1.7.0",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:1.7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2017-15535": {
+        "CVE-ID": "CVE-2017-15535",
+        "NVD": {
+            "Descriptions": "MongoDB 3.4.x before 3.4.10, and 3.5.x-development, has a disabled-by-default configuration setting, networkMessageCompressors (aka wire protocol compression), which exposes a vulnerability when enabled that could be exploited by a malicious attacker to deny service or modify memory.",
+            "Cvss2_BaseScore": 6.4,
+            "Cvss3_BaseScore": 9.1,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:P",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.4.0",
+                    "VersionEndExcluding": "3.4.10",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2017-18381": {
+        "CVE-ID": "CVE-2017-18381",
+        "NVD": {
+            "Descriptions": "The installation process in Open edX before 2017-01-10 exposes a MongoDB instance to external connections with default credentials.",
+            "Cvss2_BaseScore": 6.5,
+            "Cvss3_BaseScore": 9.1,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:-",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:edx:edx-platform",
+                    "FormattedString": "cpe:2.3:a:edx:edx-platform:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2017-01-10",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2017-2665": {
+        "CVE-ID": "CVE-2017-2665",
+        "NVD": {
+            "Descriptions": "The skyring-setup command creates random password for mongodb skyring database but it writes password in plain text to /etc/skyring/skyring.conf file which is owned by root but read by local user. Any local user who has access to system running skyring service will be able to get password in plain text.",
+            "Cvss2_BaseScore": 1.9,
+            "Cvss3_BaseScore": 7,
+            "Cvss2_VectorString": "AV:L/AC:M/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:redhat:storage_console:2.0",
+                    "FormattedString": "cpe:2.3:a:redhat:storage_console:2.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:-",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2021-32039": {
+        "CVE-ID": "CVE-2021-32039",
+        "NVD": {
+            "Descriptions": "Users with appropriate file access may be able to access unencrypted user credentials saved by MongoDB Extension for VS Code in a binary file. These credentials may be used by malicious attackers to perform unauthorized actions. This vulnerability affects all MongoDB Extension for VS Code including and prior to version 0.7.0",
+            "Cvss2_BaseScore": 2.1,
+            "Cvss3_BaseScore": 5.5,
+            "Cvss2_VectorString": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~~visual_studio_code~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:visual_studio_code:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "0.7.0"
+                }
+            ]
+        }
+    }
+}

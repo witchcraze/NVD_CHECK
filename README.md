@@ -62,7 +62,7 @@ Get NVD data via [go-cve-dictionary](https://github.com/vulsio/go-cve-dictionary
   - `cpe:/a:f5:nginx`
   - `cpe:/a:nginx:nginx`
 
-### Redis
+#### Redis
 
 - Official
   - `https://github.com/redis/redis/releases`
@@ -82,3 +82,10 @@ Get NVD data via [go-cve-dictionary](https://github.com/vulsio/go-cve-dictionary
 - CPE
   - `cpe:/a:mariadb:mariadb`
   - `cpe:/a:mariadb_project:mariadb`
+
+#### MongoDB
+
+- Official
+  - `https://www.mongodb.com/alerts`
+- CPE
+  - `cpe:/a:mongodb:mongodb`
