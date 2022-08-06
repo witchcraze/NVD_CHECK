@@ -14463,6 +14463,30 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.16.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.16.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "12.0.0",
+                    "VersionEndExcluding": "12.8.1",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:mcafee:web_gateway",
                     "FormattedString": "cpe:2.3:a:mcafee:web_gateway:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -19977,6 +20001,14 @@
                     "VersionStartIncluding": "16.0.0",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": "16.12.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0.0",
+                    "VersionEndExcluding": "18.0.5",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
