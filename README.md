@@ -72,6 +72,14 @@ Get NVD data via [go-cve-dictionary](https://github.com/vulsio/go-cve-dictionary
   - `cpe:/a:redislabs:redis`
   - `cpe:/a:redis:redis`
 
+#### Samba
+
+- Official
+  - `https://www.samba.org/samba/security/CVE-*.html`
+  - `https://www.samba.org/samba/history/samba-*.html`
+- CPE
+  - `cpe:/a:samba:samba`
+
 ### Database
 
 #### MariaDB
