@@ -2433,7 +2433,7 @@
     "CVE-2020-28367": {
         "CVE-ID": "CVE-2020-28367",
         "NVD": {
-            "Descriptions": "Go before 1.14.12 and 1.15.x before 1.15.5 allows Argument Injection.",
+            "Descriptions": "Code injection in the go command with cgo before Go 1.14.12 and Go 1.15.5 allows arbitrary code execution at build time via malicious gcc flags specified via a #cgo directive.",
             "Cvss2_BaseScore": 5.1,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
@@ -4354,6 +4354,14 @@
     },
     "CVE-2022-1962": {
         "CVE-ID": "CVE-2022-1962",
+        "NVD": {
+            "Descriptions": "Uncontrolled recursion in the Parse functions in go/parser before Go 1.17.12 and Go 1.18.4 allow an attacker to cause a panic due to stack exhaustion via deeply nested types or declarations.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.19": {
                 "source": {
@@ -4374,6 +4382,14 @@
     },
     "CVE-2022-30635": {
         "CVE-ID": "CVE-2022-30635",
+        "NVD": {
+            "Descriptions": "Uncontrolled recursion in Decoder.Decode in encoding/gob before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via a message which contains deeply nested structures.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.19": {
                 "source": {
@@ -4394,6 +4410,14 @@
     },
     "CVE-2022-28131": {
         "CVE-ID": "CVE-2022-28131",
+        "NVD": {
+            "Descriptions": "Uncontrolled recursion in Decoder.Skip in encoding/xml before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via a deeply nested XML document.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.19": {
                 "source": {
@@ -4414,6 +4438,14 @@
     },
     "CVE-2022-30633": {
         "CVE-ID": "CVE-2022-30633",
+        "NVD": {
+            "Descriptions": "Uncontrolled recursion in Unmarshal in encoding/xml before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via unmarshalling an XML document into a Go struct which has a nested field that uses the 'any' field tag.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.19": {
                 "source": {
@@ -4434,6 +4466,14 @@
     },
     "CVE-2022-30632": {
         "CVE-ID": "CVE-2022-30632",
+        "NVD": {
+            "Descriptions": "Uncontrolled recursion in Glob in path/filepath before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via a path containing a large number of path separators.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.19": {
                 "source": {
@@ -4454,6 +4494,14 @@
     },
     "CVE-2022-30630": {
         "CVE-ID": "CVE-2022-30630",
+        "NVD": {
+            "Descriptions": "Uncontrolled recursion in Glob in io/fs before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via a path which contains a large number of path separators.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.19": {
                 "source": {
@@ -4474,6 +4522,14 @@
     },
     "CVE-2022-30631": {
         "CVE-ID": "CVE-2022-30631",
+        "NVD": {
+            "Descriptions": "Uncontrolled recursion in Reader.Read in compress/gzip before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via an archive containing a large number of concatenated 0-length compressed files.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.19": {
                 "source": {
@@ -4495,6 +4551,11 @@
     "CVE-2022-27664": {
         "CVE-ID": "CVE-2022-27664",
         "Official": {
+            "1.19.1": {
+                "source": {
+                    "54376": "https://github.com/golang/go/issues/54376"
+                }
+            },
             "1.18.6": {
                 "source": {
                     "53977": "https://github.com/golang/go/issues/53977"
