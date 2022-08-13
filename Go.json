@@ -1931,6 +1931,147 @@
             }
         }
     },
+    "CVE-2020-0601": {
+        "CVE-ID": "CVE-2020-0601",
+        "NVD": {
+            "Descriptions": "A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) validates Elliptic Curve Cryptography (ECC) certificates.An attacker could exploit the vulnerability by using a spoofed code-signing certificate to sign a malicious executable, making it appear the file was from a trusted, legitimate source, aka 'Windows CryptoAPI Spoofing Vulnerability'.",
+            "Cvss2_BaseScore": 5.8,
+            "Cvss3_BaseScore": 8.1,
+            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:N",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2019:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2019:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2016:1909",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2016:1909:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2016:1903",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2016:1903:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2016:1803",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2016:1803:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2016:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2016:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10:1909",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:1909:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10:1903",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:1903:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10:1809",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:1809:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10:1803",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:1803:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10:1709",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:1709:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10:1607",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:1607:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.12",
+                    "VersionEndExcluding": "1.12.16",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.13",
+                    "VersionEndExcluding": "1.13.7",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.14": {
+                "source": {
+                    "36834": "https://github.com/golang/go/issues/36834"
+                }
+            },
+            "1.12.16": {
+                "source": {
+                    "36836": "https://github.com/golang/go/issues/36836"
+                }
+            },
+            "1.13.7": {
+                "source": {
+                    "36835": "https://github.com/golang/go/issues/36835"
+                }
+            }
+        }
+    },
     "CVE-2020-14039": {
         "CVE-ID": "CVE-2020-14039",
         "NVD": {
@@ -4307,6 +4448,34 @@
             }
         }
     },
+    "CVE-2022-30580": {
+        "CVE-ID": "CVE-2022-30580",
+        "NVD": {
+            "Descriptions": "Code injection in Cmd.Start in os/exec before Go 1.17.11 and Go 1.18.3 allows execution of any binaries in the working directory named either \"..com\" or \"..exe\" by calling Cmd.Run, Cmd.Start, Cmd.Output, or Cmd.CombinedOutput when Cmd.Path is unset.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.17.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.18.0",
+                    "VersionEndExcluding": "1.18.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
     "CVE-2022-30634": {
         "CVE-ID": "CVE-2022-30634",
         "NVD": {
@@ -5238,131 +5407,6 @@
             }
         }
     },
-    "CVE-2020-0601": {
-        "CVE-ID": "CVE-2020-0601",
-        "NVD": {
-            "Descriptions": "A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) validates Elliptic Curve Cryptography (ECC) certificates.An attacker could exploit the vulnerability by using a spoofed code-signing certificate to sign a malicious executable, making it appear the file was from a trusted, legitimate source, aka 'Windows CryptoAPI Spoofing Vulnerability'.",
-            "Cvss2_BaseScore": 5.8,
-            "Cvss3_BaseScore": 8.1,
-            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:N",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
-            "CPEs": [
-                {
-                    "URI": "cpe:/o:microsoft:windows_server_2019:-",
-                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2019:-:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:microsoft:windows_server_2016:1909",
-                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2016:1909:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:microsoft:windows_server_2016:1903",
-                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2016:1903:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:microsoft:windows_server_2016:1803",
-                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2016:1803:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:microsoft:windows_server_2016:-",
-                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2016:-:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:microsoft:windows_10:1909",
-                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:1909:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:microsoft:windows_10:1903",
-                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:1903:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:microsoft:windows_10:1809",
-                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:1809:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:microsoft:windows_10:1803",
-                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:1803:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:microsoft:windows_10:1709",
-                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:1709:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:microsoft:windows_10:1607",
-                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:1607:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:microsoft:windows_10:-",
-                    "FormattedString": "cpe:2.3:o:microsoft:windows_10:-:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        },
-        "Official": {
-            "1.14": {
-                "source": {
-                    "36834": "https://github.com/golang/go/issues/36834"
-                }
-            },
-            "1.12.16": {
-                "source": {
-                    "36836": "https://github.com/golang/go/issues/36836"
-                }
-            },
-            "1.13.7": {
-                "source": {
-                    "36835": "https://github.com/golang/go/issues/36835"
-                }
-            }
-        }
-    },
     "CVE-2022-30636": {
         "CVE-ID": "CVE-2022-30636",
         "Official": {
@@ -5380,7 +5424,7 @@
             "Cvss2_BaseScore": 7.8,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:C",
-            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:debian:debian_linux:10.0",
@@ -5389,6 +5433,46 @@
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.13.0",
+                    "VersionEndExcluding": "10.16.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.9.0",
+                    "VersionEndExcluding": "8.16.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "10.12.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "12.0.0",
+                    "VersionEndExcluding": "12.8.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.8.1"
                 },
                 {
                     "URI": "cpe:/a:apple:swiftnio",
@@ -5696,6 +5780,46 @@
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.13.0",
+                    "VersionEndExcluding": "10.16.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.9.0",
+                    "VersionEndExcluding": "8.16.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "10.12.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "12.0.0",
+                    "VersionEndExcluding": "12.8.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.8.1"
                 },
                 {
                     "URI": "cpe:/a:netapp:trident:-",
