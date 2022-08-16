@@ -802,11 +802,27 @@
             "Cvss3_VectorString": "",
             "CPEs": [
                 {
-                    "URI": "cpe:/a:python:python:3.2",
-                    "FormattedString": "cpe:2.3:a:python:python:3.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionStartIncluding": "2.5.0",
+                    "VersionEndExcluding": "2.5.6",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.6.0",
+                    "VersionEndExcluding": "2.6.6",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.1.0",
+                    "VersionEndExcluding": "3.1.3",
                     "VersionEndIncluding": ""
                 }
             ]
@@ -5677,6 +5693,14 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.10.29",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:mariadb:mariadb",
                     "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -9212,6 +9236,46 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.2.0",
+                    "VersionEndExcluding": "4.6.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.1.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "6.0.0",
+                    "VersionEndExcluding": "6.7.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "0.10.0",
+                    "VersionEndExcluding": "0.10.47",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "0.12.0",
+                    "VersionEndExcluding": "0.12.16",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:cisco:content_security_management_appliance:9.7.0-006",
                     "FormattedString": "cpe:2.3:a:cisco:content_security_management_appliance:9.7.0-006:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -9286,6 +9350,130 @@
                         "date": "9524",
                         "nonce": "kIVQ0m",
                         "section": "Library"
+                    }
+                }
+            }
+        }
+    },
+    "CVE-2016-3189": {
+        "CVE-ID": "CVE-2016-3189",
+        "NVD": {
+            "Descriptions": "Use-after-free vulnerability in bzip2recover in bzip2 1.0.6 allows remote attackers to cause a denial of service (crash) via a crafted bzip2 file, related to block ends set to before the start of the block.",
+            "Cvss2_BaseScore": 4.3,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.10.0",
+                    "VersionEndExcluding": "3.10.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.7.0",
+                    "VersionEndExcluding": "3.7.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.8.0",
+                    "VersionEndExcluding": "3.8.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.9.0",
+                    "VersionEndExcluding": "3.9.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:bzip:bzip2:1.0.6",
+                    "FormattedString": "cpe:2.3:a:bzip:bzip2:1.0.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "3.7.13": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.7.13/Misc/NEWS.d/3.7.13.rst"
+                ],
+                "BTS": {
+                    "bpo44549": {
+                        "ID": "bpo44549",
+                        "url": "https://bugs.python.org/issue44549",
+                        "date": "2022-03-07-17-46-40",
+                        "nonce": "SPrGS9",
+                        "section": "Windows"
+                    }
+                }
+            },
+            "3.8.13": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.8.13/Misc/NEWS.d/3.8.13.rst"
+                ],
+                "BTS": {
+                    "bpo44549": {
+                        "ID": "bpo44549",
+                        "url": "https://bugs.python.org/issue44549",
+                        "date": "2022-03-07-17-46-40",
+                        "nonce": "SPrGS9",
+                        "section": "Windows"
+                    }
+                }
+            },
+            "3.9.11": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.9.11/Misc/NEWS.d/3.9.11.rst"
+                ],
+                "BTS": {
+                    "bpo44549": {
+                        "ID": "bpo44549",
+                        "url": "https://bugs.python.org/issue44549",
+                        "date": "2022-03-07-17-46-40",
+                        "nonce": "SPrGS9",
+                        "section": "Windows"
+                    }
+                }
+            },
+            "3.10.3": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.10.3/Misc/NEWS.d/3.10.3.rst"
+                ],
+                "BTS": {
+                    "bpo44549": {
+                        "ID": "bpo44549",
+                        "url": "https://bugs.python.org/issue44549",
+                        "date": "2022-03-07-17-46-40",
+                        "nonce": "SPrGS9",
+                        "section": "Windows"
+                    }
+                }
+            },
+            "3.11.0a7": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.11.0a7/Misc/NEWS.d/3.11.0a7.rst"
+                ],
+                "BTS": {
+                    "bpo44549": {
+                        "ID": "bpo44549",
+                        "url": "https://bugs.python.org/issue44549",
+                        "date": "2022-03-07-17-46-40",
+                        "nonce": "SPrGS9",
+                        "section": "Windows"
                     }
                 }
             }
@@ -14659,23 +14847,39 @@
             "Cvss2_BaseScore": 4.3,
             "Cvss3_BaseScore": 6.1,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
-            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/a:python:python",
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "2.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.7.16"
+                    "VersionEndExcluding": "2.7.17",
+                    "VersionEndIncluding": ""
                 },
                 {
                     "URI": "cpe:/a:python:python",
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "3.0.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "3.7.2"
+                    "VersionStartIncluding": "3.5.0",
+                    "VersionEndExcluding": "3.5.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.7.0",
+                    "VersionEndExcluding": "3.7.4",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -14759,31 +14963,39 @@
             "Cvss2_BaseScore": 4.3,
             "Cvss3_BaseScore": 6.1,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
-            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
             "CPEs": [
                 {
-                    "URI": "cpe:/a:python:python:2.7.16:-",
-                    "FormattedString": "cpe:2.3:a:python:python:2.7.16:-:*:*:*:*:*:*",
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionStartIncluding": "2.7.0",
+                    "VersionEndExcluding": "2.7.17",
                     "VersionEndIncluding": ""
                 },
                 {
                     "URI": "cpe:/a:python:python",
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "2.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.7.15"
+                    "VersionStartIncluding": "3.5.0",
+                    "VersionEndExcluding": "3.5.8",
+                    "VersionEndIncluding": ""
                 },
                 {
                     "URI": "cpe:/a:python:python",
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "3.0.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "3.7.2"
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "3.6.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.7.0",
+                    "VersionEndExcluding": "3.7.4",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -20413,98 +20625,6 @@
                         "date": "2018-03-25-12-05-43",
                         "nonce": "TzSN4x",
                         "section": "Security"
-                    }
-                }
-            }
-        }
-    },
-    "CVE-2016-3189": {
-        "CVE-ID": "CVE-2016-3189",
-        "NVD": {
-            "Descriptions": "Use-after-free vulnerability in bzip2recover in bzip2 1.0.6 allows remote attackers to cause a denial of service (crash) via a crafted bzip2 file, related to block ends set to before the start of the block.",
-            "Cvss2_BaseScore": 4.3,
-            "Cvss3_BaseScore": 6.5,
-            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:bzip:bzip2:1.0.6",
-                    "FormattedString": "cpe:2.3:a:bzip:bzip2:1.0.6:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        },
-        "Official": {
-            "3.7.13": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v3.7.13/Misc/NEWS.d/3.7.13.rst"
-                ],
-                "BTS": {
-                    "bpo44549": {
-                        "ID": "bpo44549",
-                        "url": "https://bugs.python.org/issue44549",
-                        "date": "2022-03-07-17-46-40",
-                        "nonce": "SPrGS9",
-                        "section": "Windows"
-                    }
-                }
-            },
-            "3.8.13": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v3.8.13/Misc/NEWS.d/3.8.13.rst"
-                ],
-                "BTS": {
-                    "bpo44549": {
-                        "ID": "bpo44549",
-                        "url": "https://bugs.python.org/issue44549",
-                        "date": "2022-03-07-17-46-40",
-                        "nonce": "SPrGS9",
-                        "section": "Windows"
-                    }
-                }
-            },
-            "3.9.11": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v3.9.11/Misc/NEWS.d/3.9.11.rst"
-                ],
-                "BTS": {
-                    "bpo44549": {
-                        "ID": "bpo44549",
-                        "url": "https://bugs.python.org/issue44549",
-                        "date": "2022-03-07-17-46-40",
-                        "nonce": "SPrGS9",
-                        "section": "Windows"
-                    }
-                }
-            },
-            "3.10.3": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v3.10.3/Misc/NEWS.d/3.10.3.rst"
-                ],
-                "BTS": {
-                    "bpo44549": {
-                        "ID": "bpo44549",
-                        "url": "https://bugs.python.org/issue44549",
-                        "date": "2022-03-07-17-46-40",
-                        "nonce": "SPrGS9",
-                        "section": "Windows"
-                    }
-                }
-            },
-            "3.11.0a7": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v3.11.0a7/Misc/NEWS.d/3.11.0a7.rst"
-                ],
-                "BTS": {
-                    "bpo44549": {
-                        "ID": "bpo44549",
-                        "url": "https://bugs.python.org/issue44549",
-                        "date": "2022-03-07-17-46-40",
-                        "nonce": "SPrGS9",
-                        "section": "Windows"
                     }
                 }
             }

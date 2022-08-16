@@ -19,6 +19,12 @@
             ]
         },
         "Official": {
+            "10.9.2_EXCLUDE": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-1092-release-notes/"
+                ]
+            },
             "10.8.4": {
                 "source": [
                     "https://mariadb.com/kb/en/security/",
@@ -93,6 +99,12 @@
             ]
         },
         "Official": {
+            "10.9.2_EXCLUDE": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-1092-release-notes/"
+                ]
+            },
             "10.8.4": {
                 "source": [
                     "https://mariadb.com/kb/en/security/",
@@ -529,6 +541,12 @@
             ]
         },
         "Official": {
+            "10.9.2_EXCLUDE": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-1092-release-notes/"
+                ]
+            },
             "10.8.4": {
                 "source": [
                     "https://mariadb.com/kb/en/security/",
@@ -717,6 +735,12 @@
             ]
         },
         "Official": {
+            "10.9.2_EXCLUDE": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-1092-release-notes/"
+                ]
+            },
             "10.8.4": {
                 "source": [
                     "https://mariadb.com/kb/en/security/",
@@ -787,6 +811,12 @@
             ]
         },
         "Official": {
+            "10.9.2_EXCLUDE": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-1092-release-notes/"
+                ]
+            },
             "10.8.4": {
                 "source": [
                     "https://mariadb.com/kb/en/security/",
@@ -18748,6 +18778,12 @@
             ]
         },
         "Official": {
+            "10.9.2_EXCLUDE": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-1092-release-notes/"
+                ]
+            },
             "10.8.4": {
                 "source": [
                     "https://mariadb.com/kb/en/security/",
@@ -24455,6 +24491,46 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.2.0",
+                    "VersionEndExcluding": "4.8.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "6.9.0",
+                    "VersionEndExcluding": "6.10.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "4.1.2"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "6.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "6.8.1"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.6.0",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -52147,6 +52223,14 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "1.0.1",
                     "VersionEndExcluding": "1.0.1h",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.10.29",
                     "VersionEndIncluding": ""
                 },
                 {
