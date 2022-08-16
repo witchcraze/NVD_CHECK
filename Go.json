@@ -4358,6 +4358,51 @@
             }
         }
     },
+    "CVE-2022-28131": {
+        "CVE-ID": "CVE-2022-28131",
+        "NVD": {
+            "Descriptions": "Uncontrolled recursion in Decoder.Skip in encoding/xml before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via a deeply nested XML document.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.17.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.18.0",
+                    "VersionEndExcluding": "1.18.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.19": {
+                "source": {
+                    "53614": "https://github.com/golang/go/issues/53614"
+                }
+            },
+            "1.17.12": {
+                "source": {
+                    "53711": "https://github.com/golang/go/issues/53711"
+                }
+            },
+            "1.18.4": {
+                "source": {
+                    "53712": "https://github.com/golang/go/issues/53712"
+                }
+            }
+        }
+    },
     "CVE-2022-28327": {
         "CVE-ID": "CVE-2022-28327",
         "NVD": {
@@ -4448,6 +4493,51 @@
             }
         }
     },
+    "CVE-2022-29804": {
+        "CVE-ID": "CVE-2022-29804",
+        "NVD": {
+            "Descriptions": "Incorrect conversion of certain invalid paths to valid, absolute paths in Clean in path/filepath before Go 1.17.11 and Go 1.18.3 on Windows allows potential directory traversal attack.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.17.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.18.0",
+                    "VersionEndExcluding": "1.18.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.19": {
+                "source": {
+                    "52476": "https://github.com/golang/go/issues/52476"
+                }
+            },
+            "1.17.11": {
+                "source": {
+                    "52478": "https://github.com/golang/go/issues/52478"
+                }
+            },
+            "1.18.3": {
+                "source": {
+                    "52479": "https://github.com/golang/go/issues/52479"
+                }
+            }
+        }
+    },
     "CVE-2022-30580": {
         "CVE-ID": "CVE-2022-30580",
         "NVD": {
@@ -4489,6 +4579,186 @@
             "1.18.3": {
                 "source": {
                     "53057": "https://github.com/golang/go/issues/53057"
+                }
+            }
+        }
+    },
+    "CVE-2022-30630": {
+        "CVE-ID": "CVE-2022-30630",
+        "NVD": {
+            "Descriptions": "Uncontrolled recursion in Glob in io/fs before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via a path which contains a large number of path separators.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.17.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.18.0",
+                    "VersionEndExcluding": "1.18.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.19": {
+                "source": {
+                    "53415": "https://github.com/golang/go/issues/53415"
+                }
+            },
+            "1.17.12": {
+                "source": {
+                    "53719": "https://github.com/golang/go/issues/53719"
+                }
+            },
+            "1.18.4": {
+                "source": {
+                    "53720": "https://github.com/golang/go/issues/53720"
+                }
+            }
+        }
+    },
+    "CVE-2022-30631": {
+        "CVE-ID": "CVE-2022-30631",
+        "NVD": {
+            "Descriptions": "Uncontrolled recursion in Reader.Read in compress/gzip before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via an archive containing a large number of concatenated 0-length compressed files.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.17.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.18.0",
+                    "VersionEndExcluding": "1.18.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.19": {
+                "source": {
+                    "53168": "https://github.com/golang/go/issues/53168"
+                }
+            },
+            "1.17.12": {
+                "source": {
+                    "53717": "https://github.com/golang/go/issues/53717"
+                }
+            },
+            "1.18.4": {
+                "source": {
+                    "53718": "https://github.com/golang/go/issues/53718"
+                }
+            }
+        }
+    },
+    "CVE-2022-30632": {
+        "CVE-ID": "CVE-2022-30632",
+        "NVD": {
+            "Descriptions": "Uncontrolled recursion in Glob in path/filepath before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via a path containing a large number of path separators.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.17.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.18.0",
+                    "VersionEndExcluding": "1.18.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.19": {
+                "source": {
+                    "53416": "https://github.com/golang/go/issues/53416"
+                }
+            },
+            "1.17.12": {
+                "source": {
+                    "53713": "https://github.com/golang/go/issues/53713"
+                }
+            },
+            "1.18.4": {
+                "source": {
+                    "53714": "https://github.com/golang/go/issues/53714"
+                }
+            }
+        }
+    },
+    "CVE-2022-30633": {
+        "CVE-ID": "CVE-2022-30633",
+        "NVD": {
+            "Descriptions": "Uncontrolled recursion in Unmarshal in encoding/xml before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via unmarshalling an XML document into a Go struct which has a nested field that uses the 'any' field tag.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.17.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.18.0",
+                    "VersionEndExcluding": "1.18.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.19": {
+                "source": {
+                    "53611": "https://github.com/golang/go/issues/53611"
+                }
+            },
+            "1.17.12": {
+                "source": {
+                    "53715": "https://github.com/golang/go/issues/53715"
+                }
+            },
+            "1.18.4": {
+                "source": {
+                    "53716": "https://github.com/golang/go/issues/53716"
                 }
             }
         }
@@ -4538,6 +4808,149 @@
             }
         }
     },
+    "CVE-2022-30635": {
+        "CVE-ID": "CVE-2022-30635",
+        "NVD": {
+            "Descriptions": "Uncontrolled recursion in Decoder.Decode in encoding/gob before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via a message which contains deeply nested structures.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.17.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.18.0",
+                    "VersionEndExcluding": "1.18.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.19": {
+                "source": {
+                    "53615": "https://github.com/golang/go/issues/53615"
+                }
+            },
+            "1.17.12": {
+                "source": {
+                    "53709": "https://github.com/golang/go/issues/53709"
+                }
+            },
+            "1.18.4": {
+                "source": {
+                    "53710": "https://github.com/golang/go/issues/53710"
+                }
+            }
+        }
+    },
+    "CVE-2022-32148": {
+        "CVE-ID": "CVE-2022-32148",
+        "NVD": {
+            "Descriptions": "Improper exposure of client IP addresses in net/http before Go 1.17.12 and Go 1.18.4 can be triggered by calling httputil.ReverseProxy.ServeHTTP with a Request.Header map containing a nil value for the X-Forwarded-For header, which causes ReverseProxy to set the client IP as the value of the X-Forwarded-For header.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.17.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.18.0",
+                    "VersionEndExcluding": "1.18.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.19": {
+                "source": {
+                    "53423": "https://github.com/golang/go/issues/53423"
+                }
+            },
+            "1.17.12": {
+                "source": {
+                    "53620": "https://github.com/golang/go/issues/53620"
+                }
+            },
+            "1.18.4": {
+                "source": {
+                    "53621": "https://github.com/golang/go/issues/53621"
+                }
+            }
+        }
+    },
+    "CVE-2022-32189": {
+        "CVE-ID": "CVE-2022-32189",
+        "NVD": {
+            "Descriptions": "A too-short encoded message can cause a panic in Float.GobDecode and Rat GobDecode in math/big in Go before 1.17.13 and 1.18.5, potentially allowing a denial of service.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:36",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:36:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.17.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.18.0",
+                    "VersionEndExcluding": "1.18.5",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.19": {
+                "source": {
+                    "53871": "https://github.com/golang/go/issues/53871"
+                }
+            },
+            "1.18.5": {
+                "source": {
+                    "54095": "https://github.com/golang/go/issues/54095"
+                }
+            },
+            "1.17.13": {
+                "source": {
+                    "54094": "https://github.com/golang/go/issues/54094"
+                }
+            }
+        }
+    },
     "CVE-2022-1962": {
         "CVE-ID": "CVE-2022-1962",
         "NVD": {
@@ -4562,174 +4975,6 @@
             "1.18.4": {
                 "source": {
                     "53708": "https://github.com/golang/go/issues/53708"
-                }
-            }
-        }
-    },
-    "CVE-2022-30635": {
-        "CVE-ID": "CVE-2022-30635",
-        "NVD": {
-            "Descriptions": "Uncontrolled recursion in Decoder.Decode in encoding/gob before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via a message which contains deeply nested structures.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.19": {
-                "source": {
-                    "53615": "https://github.com/golang/go/issues/53615"
-                }
-            },
-            "1.17.12": {
-                "source": {
-                    "53709": "https://github.com/golang/go/issues/53709"
-                }
-            },
-            "1.18.4": {
-                "source": {
-                    "53710": "https://github.com/golang/go/issues/53710"
-                }
-            }
-        }
-    },
-    "CVE-2022-28131": {
-        "CVE-ID": "CVE-2022-28131",
-        "NVD": {
-            "Descriptions": "Uncontrolled recursion in Decoder.Skip in encoding/xml before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via a deeply nested XML document.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.19": {
-                "source": {
-                    "53614": "https://github.com/golang/go/issues/53614"
-                }
-            },
-            "1.17.12": {
-                "source": {
-                    "53711": "https://github.com/golang/go/issues/53711"
-                }
-            },
-            "1.18.4": {
-                "source": {
-                    "53712": "https://github.com/golang/go/issues/53712"
-                }
-            }
-        }
-    },
-    "CVE-2022-30633": {
-        "CVE-ID": "CVE-2022-30633",
-        "NVD": {
-            "Descriptions": "Uncontrolled recursion in Unmarshal in encoding/xml before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via unmarshalling an XML document into a Go struct which has a nested field that uses the 'any' field tag.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.19": {
-                "source": {
-                    "53611": "https://github.com/golang/go/issues/53611"
-                }
-            },
-            "1.17.12": {
-                "source": {
-                    "53715": "https://github.com/golang/go/issues/53715"
-                }
-            },
-            "1.18.4": {
-                "source": {
-                    "53716": "https://github.com/golang/go/issues/53716"
-                }
-            }
-        }
-    },
-    "CVE-2022-30632": {
-        "CVE-ID": "CVE-2022-30632",
-        "NVD": {
-            "Descriptions": "Uncontrolled recursion in Glob in path/filepath before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via a path containing a large number of path separators.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.19": {
-                "source": {
-                    "53416": "https://github.com/golang/go/issues/53416"
-                }
-            },
-            "1.17.12": {
-                "source": {
-                    "53713": "https://github.com/golang/go/issues/53713"
-                }
-            },
-            "1.18.4": {
-                "source": {
-                    "53714": "https://github.com/golang/go/issues/53714"
-                }
-            }
-        }
-    },
-    "CVE-2022-30630": {
-        "CVE-ID": "CVE-2022-30630",
-        "NVD": {
-            "Descriptions": "Uncontrolled recursion in Glob in io/fs before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via a path which contains a large number of path separators.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.19": {
-                "source": {
-                    "53415": "https://github.com/golang/go/issues/53415"
-                }
-            },
-            "1.17.12": {
-                "source": {
-                    "53719": "https://github.com/golang/go/issues/53719"
-                }
-            },
-            "1.18.4": {
-                "source": {
-                    "53720": "https://github.com/golang/go/issues/53720"
-                }
-            }
-        }
-    },
-    "CVE-2022-30631": {
-        "CVE-ID": "CVE-2022-30631",
-        "NVD": {
-            "Descriptions": "Uncontrolled recursion in Reader.Read in compress/gzip before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via an archive containing a large number of concatenated 0-length compressed files.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.19": {
-                "source": {
-                    "53168": "https://github.com/golang/go/issues/53168"
-                }
-            },
-            "1.17.12": {
-                "source": {
-                    "53717": "https://github.com/golang/go/issues/53717"
-                }
-            },
-            "1.18.4": {
-                "source": {
-                    "53718": "https://github.com/golang/go/issues/53718"
                 }
             }
         }
