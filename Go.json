@@ -3973,6 +3973,96 @@
             }
         }
     },
+    "CVE-2022-1705": {
+        "CVE-ID": "CVE-2022-1705",
+        "NVD": {
+            "Descriptions": "Acceptance of some invalid Transfer-Encoding headers in the HTTP/1 client in net/http before Go 1.17.12 and Go 1.18.4 allows HTTP request smuggling if combined with an intermediate server that also improperly fails to reject the header as invalid.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.17.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.18.0",
+                    "VersionEndExcluding": "1.18.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.19": {
+                "source": {
+                    "53188": "https://github.com/golang/go/issues/53188"
+                }
+            },
+            "1.17.12": {
+                "source": {
+                    "53432": "https://github.com/golang/go/issues/53432"
+                }
+            },
+            "1.18.4": {
+                "source": {
+                    "53433": "https://github.com/golang/go/issues/53433"
+                }
+            }
+        }
+    },
+    "CVE-2022-1962": {
+        "CVE-ID": "CVE-2022-1962",
+        "NVD": {
+            "Descriptions": "Uncontrolled recursion in the Parse functions in go/parser before Go 1.17.12 and Go 1.18.4 allow an attacker to cause a panic due to stack exhaustion via deeply nested types or declarations.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.17.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.18.0",
+                    "VersionEndExcluding": "1.18.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.19": {
+                "source": {
+                    "53616": "https://github.com/golang/go/issues/53616"
+                }
+            },
+            "1.17.12": {
+                "source": {
+                    "53707": "https://github.com/golang/go/issues/53707"
+                }
+            },
+            "1.18.4": {
+                "source": {
+                    "53708": "https://github.com/golang/go/issues/53708"
+                }
+            }
+        }
+    },
     "CVE-2022-23772": {
         "CVE-ID": "CVE-2022-23772",
         "NVD": {
@@ -4947,34 +5037,6 @@
             "1.17.13": {
                 "source": {
                     "54094": "https://github.com/golang/go/issues/54094"
-                }
-            }
-        }
-    },
-    "CVE-2022-1962": {
-        "CVE-ID": "CVE-2022-1962",
-        "NVD": {
-            "Descriptions": "Uncontrolled recursion in the Parse functions in go/parser before Go 1.17.12 and Go 1.18.4 allow an attacker to cause a panic due to stack exhaustion via deeply nested types or declarations.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.19": {
-                "source": {
-                    "53616": "https://github.com/golang/go/issues/53616"
-                }
-            },
-            "1.17.12": {
-                "source": {
-                    "53707": "https://github.com/golang/go/issues/53707"
-                }
-            },
-            "1.18.4": {
-                "source": {
-                    "53708": "https://github.com/golang/go/issues/53708"
                 }
             }
         }
