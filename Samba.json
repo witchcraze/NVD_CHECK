@@ -1,6 +1,14 @@
 {
     "CVE-2022-2031": {
         "CVE-ID": "CVE-2022-2031",
+        "NVD": {
+            "Descriptions": "A flaw was found in Samba. The security vulnerability occurs when KDC and the kpasswd service share a single account and set of keys, allowing them to decrypt each other's tickets. A user who has been requested to change their password, can exploit this flaw to obtain and use tickets to other services.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "-": {
                 "source": [
@@ -26,6 +34,14 @@
     },
     "CVE-2022-32742": {
         "CVE-ID": "CVE-2022-32742",
+        "NVD": {
+            "Descriptions": "A flaw was found in Samba. Some SMB1 write requests were not correctly range-checked to ensure the client had sent enough data to fulfill the write, allowing server memory contents to be written into the file (or printer) instead of client-supplied data. The client cannot control the area of the server memory written to the file (or printer).",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "-": {
                 "source": [
@@ -51,6 +67,14 @@
     },
     "CVE-2022-32744": {
         "CVE-ID": "CVE-2022-32744",
+        "NVD": {
+            "Descriptions": "A flaw was found in Samba. The KDC accepts kpasswd requests encrypted with any key known to it. By encrypting forged kpasswd requests with its own key, a user can change other users' passwords, enabling full domain takeover.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "-": {
                 "source": [
@@ -76,6 +100,14 @@
     },
     "CVE-2022-32745": {
         "CVE-ID": "CVE-2022-32745",
+        "NVD": {
+            "Descriptions": "A flaw was found in Samba. Samba AD users can cause the server to access uninitialized data with an LDAP add or modify the request, usually resulting in a segmentation fault.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "-": {
                 "source": [
@@ -101,6 +133,14 @@
     },
     "CVE-2022-32746": {
         "CVE-ID": "CVE-2022-32746",
+        "NVD": {
+            "Descriptions": "A flaw was found in the Samba AD LDAP server. The AD DC database audit logging module can access LDAP message values freed by a preceding database module, resulting in a use-after-free issue. This issue is only possible when modifying certain privileged attributes, such as userAccountControl.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "-": {
                 "source": [
