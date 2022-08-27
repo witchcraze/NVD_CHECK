@@ -20277,13 +20277,61 @@
         "NVD": {
             "Descriptions": "AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn't written. In the special case of \"in place\" encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).",
             "Cvss2_BaseScore": 5,
-            "Cvss3_BaseScore": 7.5,
+            "Cvss3_BaseScore": 5.3,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
             "CPEs": [
+                {
+                    "URI": "cpe:/o:netapp:h700s_firmware:-",
+                    "FormattedString": "cpe:2.3:o:netapp:h700s_firmware:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:netapp:h500s_firmware:-",
+                    "FormattedString": "cpe:2.3:o:netapp:h500s_firmware:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:netapp:h410s_firmware:-",
+                    "FormattedString": "cpe:2.3:o:netapp:h410s_firmware:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:netapp:h410c_firmware:-",
+                    "FormattedString": "cpe:2.3:o:netapp:h410c_firmware:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:netapp:h300s_firmware:-",
+                    "FormattedString": "cpe:2.3:o:netapp:h300s_firmware:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
                 {
                     "URI": "cpe:/o:fedoraproject:fedora:36",
                     "FormattedString": "cpe:2.3:o:fedoraproject:fedora:36:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:35",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -20303,6 +20351,22 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "3.0.0",
                     "VersionEndExcluding": "3.0.5",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:clustered_data_ontap_antivirus_connector:-",
+                    "FormattedString": "cpe:2.3:a:netapp:clustered_data_ontap_antivirus_connector:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:active_iq_unified_manager:-::~~~vmware_vsphere~~",
+                    "FormattedString": "cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:vmware_vsphere:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 }
             ]
