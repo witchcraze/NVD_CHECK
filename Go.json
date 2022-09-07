@@ -4483,7 +4483,7 @@
     "CVE-2022-28131": {
         "CVE-ID": "CVE-2022-28131",
         "NVD": {
-            "Descriptions": "Uncontrolled recursion in Decoder.Skip in encoding/xml before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via a deeply nested XML document.",
+            "Descriptions": "In Decoder.Skip in encoding/xml in Go before 1.17.12 and 1.18.x before 1.18.4, stack exhaustion and a panic can occur via a deeply nested XML document.",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
@@ -4642,7 +4642,7 @@
     "CVE-2022-29804": {
         "CVE-ID": "CVE-2022-29804",
         "NVD": {
-            "Descriptions": "Incorrect conversion of certain invalid paths to valid, absolute paths in Clean in path/filepath before Go 1.17.11 and Go 1.18.3 on Windows allows potential directory traversal attack.",
+            "Descriptions": "In filepath.Clean in path/filepath in Go before 1.17.11 and 1.18.x before 1.18.3 on Windows, invalid paths such as .\\c: could be converted to valid paths (such as c: in this example).",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
@@ -4665,23 +4665,6 @@
                     "VersionEndIncluding": ""
                 }
             ]
-        },
-        "Official": {
-            "1.19": {
-                "source": {
-                    "52476": "https://github.com/golang/go/issues/52476"
-                }
-            },
-            "1.18.3": {
-                "source": {
-                    "52479": "https://github.com/golang/go/issues/52479"
-                }
-            },
-            "1.17.11": {
-                "source": {
-                    "52478": "https://github.com/golang/go/issues/52478"
-                }
-            }
         }
     },
     "CVE-2022-30580": {
@@ -5162,6 +5145,14 @@
     },
     "CVE-2022-27664": {
         "CVE-ID": "CVE-2022-27664",
+        "NVD": {
+            "Descriptions": "In net/http in Go before 1.18.6 and 1.19.x before 1.19.1, attackers can cause a denial of service because an HTTP/2 connection can hang during closing if shutdown were preempted by a fatal error.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.20": {
                 "source": {

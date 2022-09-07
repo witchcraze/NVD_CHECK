@@ -12470,6 +12470,34 @@
             ]
         },
         "Official": {
+            "3.7.14": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.7.14/Misc/NEWS.d/3.7.14.rst"
+                ],
+                "BTS": {
+                    "bpo47194": {
+                        "ID": "bpo47194",
+                        "url": "https://bugs.python.org/issue47194",
+                        "date": "2022-04-01-14-57-40",
+                        "nonce": "IB0XL4",
+                        "section": "Windows"
+                    }
+                }
+            },
+            "3.8.14": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.8.14/Misc/NEWS.d/3.8.14.rst"
+                ],
+                "BTS": {
+                    "bpo47194": {
+                        "ID": "bpo47194",
+                        "url": "https://bugs.python.org/issue47194",
+                        "date": "2022-04-01-14-57-40",
+                        "nonce": "IB0XL4",
+                        "section": "Windows"
+                    }
+                }
+            },
             "3.9.13": {
                 "source": [
                     "https://github.com/python/cpython/blob/v3.9.13/Misc/NEWS.d/3.9.13.rst"
@@ -20825,6 +20853,48 @@
     "CVE-2020-10735": {
         "CVE-ID": "CVE-2020-10735",
         "Official": {
+            "3.7.14": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.7.14/Misc/NEWS.d/3.7.14.rst"
+                ],
+                "BTS": {
+                    "gh-issue95778": {
+                        "ID": "gh-issue95778",
+                        "url": "https://github.com/python/cpython/issues/95778",
+                        "date": "2022-08-07-16-53-38",
+                        "nonce": "ch010gps",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.8.14": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.8.14/Misc/NEWS.d/3.8.14.rst"
+                ],
+                "BTS": {
+                    "gh-issue95778": {
+                        "ID": "gh-issue95778",
+                        "url": "https://github.com/python/cpython/issues/95778",
+                        "date": "2022-08-07-16-53-38",
+                        "nonce": "ch010gps",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.9.14": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.9.14/Misc/NEWS.d/3.9.14.rst"
+                ],
+                "BTS": {
+                    "gh-issue95778": {
+                        "ID": "gh-issue95778",
+                        "url": "https://github.com/python/cpython/issues/95778",
+                        "date": "2022-08-07-16-53-38",
+                        "nonce": "ch010gps",
+                        "section": "Security"
+                    }
+                }
+            },
             "3.10.7": {
                 "source": [
                     "https://github.com/python/cpython/blob/v3.10.7/Misc/NEWS.d/3.10.7.rst"
