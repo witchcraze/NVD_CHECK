@@ -4665,6 +4665,23 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "1.19": {
+                "source": {
+                    "52476": "https://github.com/golang/go/issues/52476"
+                }
+            },
+            "1.18.3": {
+                "source": {
+                    "52479": "https://github.com/golang/go/issues/52479"
+                }
+            },
+            "1.17.11": {
+                "source": {
+                    "52478": "https://github.com/golang/go/issues/52478"
+                }
+            }
         }
     },
     "CVE-2022-30580": {
