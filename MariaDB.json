@@ -34569,13 +34569,21 @@
         "NVD": {
             "Descriptions": "Unspecified vulnerability in Oracle MySQL 5.5.31 and earlier and 5.6.11 and earlier allows remote authenticated users to affect availability via unknown vectors related to Optimizer.",
             "Cvss2_BaseScore": 4,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
-            "Cvss3_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:opensuse:opensuse:13.2",
                     "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.1",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.1:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -34604,6 +34612,22 @@
                     "VersionStartIncluding": "5.6.0",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": "5.6.11"
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.32",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -35226,16 +35250,56 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_server_eus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_eus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.7:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.3:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -35250,16 +35314,56 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_hpc_node_eus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_hpc_node_eus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.7:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_hpc_node:7.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_hpc_node:7.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.5",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.2",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.1",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.1:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -35274,22 +35378,6 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux:7.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:redhat:enterprise_linux:6.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:6.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/o:oracle:solaris:11.3",
                     "FormattedString": "cpe:2.3:o:oracle:solaris:11.3:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -35298,8 +35386,24 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:oracle:linux:7",
-                    "FormattedString": "cpe:2.3:o:oracle:linux:7:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:oracle:linux:7:-",
+                    "FormattedString": "cpe:2.3:o:oracle:linux:7:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.2",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.1",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.1:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -35314,32 +35418,56 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_workstation_extension:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_workstation_extension:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:fedoraproject:fedora:23",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:23:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_software_development_kit:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_software_development_kit:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:debian:debian_linux:8.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_server:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_server:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:debian:debian_linux:7.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:7.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_desktop:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_desktop:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:15.10",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:15.10:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:15.04",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:15.04:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~-~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -35360,6 +35488,30 @@
                     "VersionStartIncluding": "5.6.0",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": "5.6.26"
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.22",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.1.0",
+                    "VersionEndExcluding": "10.1.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.46",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -35394,12 +35546,60 @@
             "Cvss3_VectorString": "",
             "CPEs": [
                 {
-                    "URI": "cpe:/a:oracle:mysql",
-                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:15.10",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:15.10:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:15.04",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:15.04:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~-~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.6.0",
+                    "VersionEndExcluding": "",
                     "VersionEndIncluding": "5.6.23"
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.18",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.1.0",
+                    "VersionEndExcluding": "10.1.8",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -35700,16 +35900,56 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_server_eus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_eus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.7:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.3:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -35724,16 +35964,56 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_hpc_node_eus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_hpc_node_eus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.7:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_hpc_node:7.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_hpc_node:7.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.5",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.2",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.1",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.1:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -35748,22 +36028,6 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux:7.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:redhat:enterprise_linux:6.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:6.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/o:oracle:solaris:11.3",
                     "FormattedString": "cpe:2.3:o:oracle:solaris:11.3:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -35772,8 +36036,24 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:oracle:linux:7",
-                    "FormattedString": "cpe:2.3:o:oracle:linux:7:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:oracle:linux:7:-",
+                    "FormattedString": "cpe:2.3:o:oracle:linux:7:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.2",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.1",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.1:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -35788,32 +36068,56 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_workstation_extension:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_workstation_extension:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:fedoraproject:fedora:23",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:23:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_software_development_kit:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_software_development_kit:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:debian:debian_linux:8.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_server:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_server:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:debian:debian_linux:7.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:7.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_desktop:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_desktop:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:15.10",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:15.10:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:15.04",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:15.04:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~-~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -35834,6 +36138,30 @@
                     "VersionStartIncluding": "5.6.0",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": "5.6.26"
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.22",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.1.0",
+                    "VersionEndExcluding": "10.1.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.46",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -36044,6 +36372,38 @@
             "Cvss3_VectorString": "",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:suse:linux_enterprise_software_development_kit:11:sp3",
+                    "FormattedString": "cpe:2.3:o:suse:linux_enterprise_software_development_kit:11:sp3:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:linux_enterprise_server:11:sp3:~~~vmware~~",
+                    "FormattedString": "cpe:2.3:o:suse:linux_enterprise_server:11:sp3:*:*:*:vmware:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:linux_enterprise_server:11:sp3:~~~-~~",
+                    "FormattedString": "cpe:2.3:o:suse:linux_enterprise_server:11:sp3:*:*:*:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:linux_enterprise_desktop:11:sp3",
+                    "FormattedString": "cpe:2.3:o:suse:linux_enterprise_desktop:11:sp3:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
                     "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:7.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -36052,16 +36412,56 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_server_eus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_eus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.7:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.3:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -36076,16 +36476,56 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_hpc_node_eus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_hpc_node_eus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.7:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_hpc_node:7.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_hpc_node:7.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.5",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.2",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.1",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.1:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -36100,24 +36540,24 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux:7.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:redhat:enterprise_linux:6.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:6.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/o:oracle:solaris:11.3",
                     "FormattedString": "cpe:2.3:o:oracle:solaris:11.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.2",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.1",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.1:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -36132,24 +36572,56 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_workstation_extension:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_workstation_extension:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:fedoraproject:fedora:23",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:23:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_server:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_server:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:debian:debian_linux:8.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_desktop:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_desktop:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:debian:debian_linux:7.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:15.10",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:15.10:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:15.04",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:15.04:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~-~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -36172,11 +36644,27 @@
                     "VersionEndIncluding": "5.6.26"
                 },
                 {
-                    "URI": "cpe:/a:novell:suse_linux_enterprise_software_development_kit:12.0:sp1",
-                    "FormattedString": "cpe:2.3:a:novell:suse_linux_enterprise_software_development_kit:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.22",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.1.0",
+                    "VersionEndExcluding": "10.1.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.46",
                     "VersionEndIncluding": ""
                 }
             ]
@@ -36220,16 +36708,56 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_server_eus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_eus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.7:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.3:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -36244,16 +36772,56 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_hpc_node_eus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_hpc_node_eus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.7:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_hpc_node:7.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_hpc_node:7.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.5",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.2",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.1",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.1:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -36268,24 +36836,24 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux:7.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:redhat:enterprise_linux:6.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:6.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/o:oracle:solaris:11.3",
                     "FormattedString": "cpe:2.3:o:oracle:solaris:11.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.2",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.1",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.1:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -36300,32 +36868,56 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_workstation_extension:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_workstation_extension:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:fedoraproject:fedora:23",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:23:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_software_development_kit:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_software_development_kit:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:debian:debian_linux:8.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_server:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_server:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:debian:debian_linux:7.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:7.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_desktop:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_desktop:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:15.10",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:15.10:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:15.04",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:15.04:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~-~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -36346,6 +36938,30 @@
                     "VersionStartIncluding": "5.6.0",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": "5.6.26"
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.22",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.1.0",
+                    "VersionEndExcluding": "10.1.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.46",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -36612,16 +37228,64 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_server_eus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_eus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:5.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.3:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -36636,16 +37300,64 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_hpc_node_eus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_hpc_node_eus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:5.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_hpc_node:7.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_hpc_node:7.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.5",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.2",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.1",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.1:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -36660,6 +37372,14 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/o:oracle:solaris:11.3",
                     "FormattedString": "cpe:2.3:o:oracle:solaris:11.3:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -36668,8 +37388,64 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:oracle:linux:7",
-                    "FormattedString": "cpe:2.3:o:oracle:linux:7:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:oracle:linux:7:-",
+                    "FormattedString": "cpe:2.3:o:oracle:linux:7:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:23",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:23:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:8.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:7.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:15.10",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:15.10:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:15.04",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:15.04:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~-~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -36679,9 +37455,33 @@
                     "URI": "cpe:/a:oracle:mysql",
                     "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
+                    "VersionStartIncluding": "5.5.0",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": "5.5.44"
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.21",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.1.0",
+                    "VersionEndExcluding": "10.1.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.45",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -36724,16 +37524,56 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_server_eus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_eus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.7:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.3:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -36748,16 +37588,56 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_hpc_node_eus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_hpc_node_eus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.7:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_hpc_node:7.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_hpc_node:7.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.5",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.2",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.1",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.1:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -36772,22 +37652,6 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux:7.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:redhat:enterprise_linux:6.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:6.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/o:oracle:solaris:11.3",
                     "FormattedString": "cpe:2.3:o:oracle:solaris:11.3:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -36796,8 +37660,24 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:oracle:linux:7",
-                    "FormattedString": "cpe:2.3:o:oracle:linux:7:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:oracle:linux:7:-",
+                    "FormattedString": "cpe:2.3:o:oracle:linux:7:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.2",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.1",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.1:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -36806,6 +37686,62 @@
                 {
                     "URI": "cpe:/o:opensuse:leap:42.1",
                     "FormattedString": "cpe:2.3:o:opensuse:leap:42.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:23",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:23:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:8.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:7.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:15.10",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:15.10:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:15.04",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:15.04:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~-~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -36826,6 +37762,30 @@
                     "VersionStartIncluding": "5.6.0",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": "5.6.26"
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.22",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.1.0",
+                    "VersionEndExcluding": "10.1.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.46",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -36932,16 +37892,56 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_server_eus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_eus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.7:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.3:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -36956,16 +37956,56 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_hpc_node_eus:7.2",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_hpc_node_eus:7.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.7:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux_hpc_node:7.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_hpc_node:7.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.5",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.2",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.1",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.1:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -36980,22 +38020,6 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux:7.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:redhat:enterprise_linux:6.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:6.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/o:oracle:solaris:11.3",
                     "FormattedString": "cpe:2.3:o:oracle:solaris:11.3:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -37004,8 +38028,24 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:oracle:linux:7",
-                    "FormattedString": "cpe:2.3:o:oracle:linux:7:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:oracle:linux:7:-",
+                    "FormattedString": "cpe:2.3:o:oracle:linux:7:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.2",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.1",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.1:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -37020,32 +38060,56 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_workstation_extension:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_workstation_extension:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:fedoraproject:fedora:23",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:23:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_software_development_kit:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_software_development_kit:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:debian:debian_linux:8.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_server:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_server:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:debian:debian_linux:7.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:7.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:novell:suse_linux_enterprise_desktop:12.0:sp1",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_enterprise_desktop:12.0:sp1:*:*:*:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:15.10",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:15.10:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:15.04",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:15.04:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~-~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -37066,6 +38130,22 @@
                     "VersionStartIncluding": "5.6.0",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": "5.6.26"
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.20",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.44",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -37358,16 +38438,160 @@
             "Cvss3_VectorString": "",
             "CPEs": [
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux:7.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:7.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux:6.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:6.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.5",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.2",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.1",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:5.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -37382,6 +38606,22 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/o:opensuse:opensuse:13.2",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.1",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/o:debian:debian_linux:8.0",
                     "FormattedString": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -37390,8 +38630,24 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:debian:debian_linux:7.1",
-                    "FormattedString": "cpe:2.3:o:debian:debian_linux:7.1:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:debian:debian_linux:8.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:7.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:7.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:7.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -37414,16 +38670,16 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~lts~~~",
-                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~lts~~~",
-                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~-~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -37444,6 +38700,22 @@
                     "VersionStartIncluding": "5.6.0",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": "5.6.24"
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.20",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.44",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -37714,6 +38986,166 @@
             "Cvss3_VectorString": "",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.5",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.2",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.1",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/o:oracle:solaris:11.3",
                     "FormattedString": "cpe:2.3:o:oracle:solaris:11.3:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -37722,8 +39154,32 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/o:opensuse:opensuse:13.2",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.1",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/o:debian:debian_linux:8.0",
                     "FormattedString": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:7.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:7.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -37746,16 +39202,16 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~lts~~~",
-                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~lts~~~",
-                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~-~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -37776,6 +39232,22 @@
                     "VersionStartIncluding": "5.6.0",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": "5.6.24"
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.20",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.44",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -37804,16 +39276,160 @@
             "Cvss3_VectorString": "",
             "CPEs": [
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux:7.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:7.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:redhat:enterprise_linux:6.0",
-                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:6.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.5",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.2",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.1",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:5.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -37828,8 +39444,32 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/o:opensuse:opensuse:13.2",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:opensuse:13.1",
+                    "FormattedString": "cpe:2.3:o:opensuse:opensuse:13.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/o:debian:debian_linux:8.0",
                     "FormattedString": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:7.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:7.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -37852,16 +39492,16 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~lts~~~",
-                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~lts~~~",
-                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~-~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -37882,6 +39522,22 @@
                     "VersionStartIncluding": "5.6.0",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": "5.6.24"
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.20",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.44",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -38192,16 +39848,16 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~lts~~~",
-                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~lts~~~",
-                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~-~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -38222,6 +39878,22 @@
                     "VersionStartIncluding": "5.6.0",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": "5.6.24"
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.20",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.44",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -38250,122 +39922,200 @@
             "Cvss3_VectorString": "",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:suse:linux_enterprise_software_development_kit:11:sp3",
+                    "FormattedString": "cpe:2.3:o:suse:linux_enterprise_software_development_kit:11:sp3:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:linux_enterprise_server:11:sp3:~~~vmware~~",
+                    "FormattedString": "cpe:2.3:o:suse:linux_enterprise_server:11:sp3:*:*:*:vmware:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:linux_enterprise_server:11:sp3:~~~-~~",
+                    "FormattedString": "cpe:2.3:o:suse:linux_enterprise_server:11:sp3:*:*:*:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:linux_enterprise_desktop:11:sp3",
+                    "FormattedString": "cpe:2.3:o:suse:linux_enterprise_desktop:11:sp3:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.5",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.2",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.1",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/o:oracle:solaris:11.3",
                     "FormattedString": "cpe:2.3:o:oracle:solaris:11.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:novell:suse_linux_sdk:11.0:sp3",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_sdk:11.0:sp3:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:novell:suse_linux_for_vmware:11.0:sp3:~~server~~~",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_for_vmware:11.0:sp3:*:*:server:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:novell:suse_linux:11.0:sp3:~~server~~~",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux:11.0:sp3:*:*:server:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:novell:suse_linux:11.0:sp3:~~desktop~~~",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux:11.0:sp3:*:*:desktop:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:oracle:mysql",
-                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "5.5.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "5.5.41"
-                },
-                {
-                    "URI": "cpe:/a:oracle:mysql",
-                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "5.6.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "5.6.22"
-                }
-            ]
-        },
-        "Official": {
-            "5.5.42": {
-                "source": [
-                    "https://mariadb.com/kb/en/security/",
-                    "https://mariadb.com//kb/en/mariadb-5542-release-notes/"
-                ]
-            },
-            "10.0.17": {
-                "source": [
-                    "https://mariadb.com/kb/en/security/",
-                    "https://mariadb.com//kb/en/mariadb-10017-release-notes/"
-                ]
-            }
-        }
-    },
-    "CVE-2015-2571": {
-        "CVE-ID": "CVE-2015-2571",
-        "NVD": {
-            "Descriptions": "Unspecified vulnerability in Oracle MySQL Server 5.5.42 and earlier, and 5.6.23 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : Optimizer.",
-            "Cvss2_BaseScore": 4,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
-            "Cvss3_VectorString": "",
-            "CPEs": [
-                {
-                    "URI": "cpe:/o:oracle:solaris:11.3",
-                    "FormattedString": "cpe:2.3:o:oracle:solaris:11.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:novell:suse_linux_sdk:11.0:sp3",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_sdk:11.0:sp3:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:novell:suse_linux_for_vmware:11.0:sp3:~~server~~~",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux_for_vmware:11.0:sp3:*:*:server:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:novell:suse_linux:11.0:sp3:~~server~~~",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux:11.0:sp3:*:*:server:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:novell:suse_linux:11.0:sp3:~~desktop~~~",
-                    "FormattedString": "cpe:2.3:o:novell:suse_linux:11.0:sp3:*:*:desktop:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -38396,16 +40146,314 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~lts~~~",
-                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~lts~~~",
-                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~-~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "5.5.41"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.6.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "5.6.22"
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.17",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.42",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "5.5.42": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-5542-release-notes/"
+                ]
+            },
+            "10.0.17": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-10017-release-notes/"
+                ]
+            }
+        }
+    },
+    "CVE-2015-2571": {
+        "CVE-ID": "CVE-2015-2571",
+        "NVD": {
+            "Descriptions": "Unspecified vulnerability in Oracle MySQL Server 5.5.42 and earlier, and 5.6.23 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : Optimizer.",
+            "Cvss2_BaseScore": 4,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:suse:linux_enterprise_software_development_kit:11:sp3",
+                    "FormattedString": "cpe:2.3:o:suse:linux_enterprise_software_development_kit:11:sp3:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:linux_enterprise_server:11:sp3:~~~vmware~~",
+                    "FormattedString": "cpe:2.3:o:suse:linux_enterprise_server:11:sp3:*:*:*:vmware:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:linux_enterprise_server:11:sp3:~~~-~~",
+                    "FormattedString": "cpe:2.3:o:suse:linux_enterprise_server:11:sp3:*:*:*:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:linux_enterprise_desktop:11:sp3",
+                    "FormattedString": "cpe:2.3:o:suse:linux_enterprise_desktop:11:sp3:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.7",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.5",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.3",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.2",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:7.1",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:7.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:5.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:oracle:solaris:11.3",
+                    "FormattedString": "cpe:2.3:o:oracle:solaris:11.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:8.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:7.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:14.10",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.10:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~-~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -38426,6 +40474,22 @@
                     "VersionStartIncluding": "5.6.0",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": "5.6.23"
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.18",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.43",
+                    "VersionEndIncluding": ""
                 }
             ]
         },

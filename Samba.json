@@ -50379,6 +50379,26 @@
             ]
         }
     },
+    "CVE-2022-1615": {
+        "CVE-ID": "CVE-2022-1615",
+        "NVD": {
+            "Descriptions": "In Samba, GnuTLS gnutls_rnd() can fail and give predictable random values.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
     "CVE-2022-32743": {
         "CVE-ID": "CVE-2022-32743",
         "NVD": {
