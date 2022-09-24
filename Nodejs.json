@@ -20766,6 +20766,212 @@
             }
         }
     },
+    "CVE-2022-32212": {
+        "CVE-ID": "CVE-2022-32212",
+        "NVD": {
+            "Descriptions": "A OS Command Injection vulnerability exists in Node.js versions <14.20.0, <16.16.0, <18.5.0 due to an insufficient IsAllowedHost check that can easily be bypassed because IsIPAddress does not properly check if an IP address is invalid before making DBS requests allowing rebinding attacks.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.15.0",
+                    "VersionEndExcluding": "14.20.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.13.0",
+                    "VersionEndExcluding": "16.16.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.14.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.12.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0.0",
+                    "VersionEndExcluding": "18.5.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "14.20.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                ]
+            },
+            "16.17.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                ]
+            },
+            "18.9.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            },
+            "18.5.0": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/96.json"
+                ]
+            },
+            "14.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/96.json"
+                ]
+            },
+            "16.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/96.json"
+                ]
+            }
+        }
+    },
+    "CVE-2022-32213": {
+        "CVE-ID": "CVE-2022-32213",
+        "NVD": {
+            "Descriptions": "The llhttp parser in the http module in Node.js v17.x does not correctly parse and validate Transfer-Encoding headers and can lead to HTTP Request Smuggling (HRS).",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 9.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.15.0",
+                    "VersionEndExcluding": "14.20.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.13.0",
+                    "VersionEndExcluding": "16.16.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.14.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.12.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0.0",
+                    "VersionEndExcluding": "18.5.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:llhttp:llhttp:::~~~node.js~~",
+                    "FormattedString": "cpe:2.3:a:llhttp:llhttp:*:*:*:*:*:node.js:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2.1.5",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:llhttp:llhttp:::~~~node.js~~",
+                    "FormattedString": "cpe:2.3:a:llhttp:llhttp:*:*:*:*:*:node.js:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "6.0.0",
+                    "VersionEndExcluding": "6.0.7",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "14.20.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                ]
+            },
+            "16.17.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                ]
+            },
+            "18.9.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            },
+            "18.5.0": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/97.json"
+                ]
+            },
+            "14.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/97.json"
+                ]
+            },
+            "16.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/97.json"
+                ]
+            }
+        }
+    },
+    "CVE-2022-35256": {
+        "CVE-ID": "CVE-2022-35256",
+        "Official": {
+            "14.20.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md"
+                ]
+            },
+            "16.17.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                ]
+            },
+            "18.9.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            }
+        }
+    },
     "CVE-2021-21148": {
         "CVE-ID": "CVE-2021-21148",
         "NVD": {
@@ -20849,6 +21055,21 @@
                 "source": [
                     "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V14.md",
                     "https://github.com/nodejs/security-wg/blob/main/vuln/core/67.json"
+                ]
+            }
+        }
+    },
+    "CVE-2022-35255": {
+        "CVE-ID": "CVE-2022-35255",
+        "Official": {
+            "16.17.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                ]
+            },
+            "18.9.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
                 ]
             }
         }
@@ -21016,6 +21237,140 @@
             }
         }
     },
+    "CVE-2022-32222": {
+        "CVE-ID": "CVE-2022-32222",
+        "NVD": {
+            "Descriptions": "A cryptographic vulnerability exists on Node.js on linux in versions of 18.x prior to 18.40.0 which allowed a default path for openssl.cnf that might be accessible under some circumstances to a non-admin user instead of /etc/ssl as was the case in versions prior to the upgrade to OpenSSL 3.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0.0",
+                    "VersionEndExcluding": "18.5.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "18.9.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            },
+            "18.5.0": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/99.json"
+                ]
+            },
+            "14.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/99.json"
+                ]
+            },
+            "16.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/99.json"
+                ]
+            }
+        }
+    },
+    "CVE-2022-32215": {
+        "CVE-ID": "CVE-2022-32215",
+        "NVD": {
+            "Descriptions": "The llhttp parser in the http module in Node v17.6.0 does not correctly handle multi-line Transfer-Encoding headers. This can lead to HTTP Request Smuggling (HRS).",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 9.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.15.0",
+                    "VersionEndExcluding": "14.20.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.13.0",
+                    "VersionEndExcluding": "16.16.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.14.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.12.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0.0",
+                    "VersionEndExcluding": "18.5.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:llhttp:llhttp:::~~~node.js~~",
+                    "FormattedString": "cpe:2.3:a:llhttp:llhttp:*:*:*:*:*:node.js:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2.1.5",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:llhttp:llhttp:::~~~node.js~~",
+                    "FormattedString": "cpe:2.3:a:llhttp:llhttp:*:*:*:*:*:node.js:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "6.0.0",
+                    "VersionEndExcluding": "6.0.7",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "18.9.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            },
+            "18.5.0": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/94.json"
+                ]
+            },
+            "14.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/94.json"
+                ]
+            },
+            "16.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/94.json"
+                ]
+            }
+        }
+    },
     "CVE-2022-2097": {
         "CVE-ID": "CVE-2022-2097",
         "NVD": {
@@ -21123,162 +21478,6 @@
             }
         }
     },
-    "CVE-2022-32212": {
-        "CVE-ID": "CVE-2022-32212",
-        "NVD": {
-            "Descriptions": "A OS Command Injection vulnerability exists in Node.js versions <14.20.0, <16.16.0, <18.5.0 due to an insufficient IsAllowedHost check that can easily be bypassed because IsIPAddress does not properly check if an IP address is invalid before making DBS requests allowing rebinding attacks.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 8.1,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "14.15.0",
-                    "VersionEndExcluding": "14.20.0",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "16.13.0",
-                    "VersionEndExcluding": "16.16.0",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "14.0.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "14.14.0"
-                },
-                {
-                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "16.0.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "16.12.0"
-                },
-                {
-                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "18.0.0",
-                    "VersionEndExcluding": "18.5.0",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        },
-        "Official": {
-            "18.5.0": {
-                "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
-                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/96.json"
-                ]
-            },
-            "14.20.0": {
-                "source": [
-                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/96.json"
-                ]
-            },
-            "16.20.0": {
-                "source": [
-                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/96.json"
-                ]
-            }
-        }
-    },
-    "CVE-2022-32213": {
-        "CVE-ID": "CVE-2022-32213",
-        "NVD": {
-            "Descriptions": "The llhttp parser in the http module in Node.js v17.x does not correctly parse and validate Transfer-Encoding headers and can lead to HTTP Request Smuggling (HRS).",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 9.1,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "14.15.0",
-                    "VersionEndExcluding": "14.20.0",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "16.13.0",
-                    "VersionEndExcluding": "16.16.0",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "14.0.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "14.14.0"
-                },
-                {
-                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "16.0.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "16.12.0"
-                },
-                {
-                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "18.0.0",
-                    "VersionEndExcluding": "18.5.0",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:llhttp:llhttp:::~~~node.js~~",
-                    "FormattedString": "cpe:2.3:a:llhttp:llhttp:*:*:*:*:*:node.js:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "2.1.5",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:llhttp:llhttp:::~~~node.js~~",
-                    "FormattedString": "cpe:2.3:a:llhttp:llhttp:*:*:*:*:*:node.js:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "6.0.0",
-                    "VersionEndExcluding": "6.0.7",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        },
-        "Official": {
-            "18.5.0": {
-                "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
-                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/97.json"
-                ]
-            },
-            "14.20.0": {
-                "source": [
-                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/97.json"
-                ]
-            },
-            "16.20.0": {
-                "source": [
-                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/97.json"
-                ]
-            }
-        }
-    },
     "CVE-2022-32214": {
         "CVE-ID": "CVE-2022-32214",
         "NVD": {
@@ -21361,130 +21560,6 @@
             "16.20.0": {
                 "source": [
                     "https://github.com/nodejs/security-wg/blob/main/vuln/core/95.json"
-                ]
-            }
-        }
-    },
-    "CVE-2022-32215": {
-        "CVE-ID": "CVE-2022-32215",
-        "NVD": {
-            "Descriptions": "The llhttp parser in the http module in Node v17.6.0 does not correctly handle multi-line Transfer-Encoding headers. This can lead to HTTP Request Smuggling (HRS).",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 9.1,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "14.15.0",
-                    "VersionEndExcluding": "14.20.0",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "16.13.0",
-                    "VersionEndExcluding": "16.16.0",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "14.0.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "14.14.0"
-                },
-                {
-                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "16.0.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "16.12.0"
-                },
-                {
-                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "18.0.0",
-                    "VersionEndExcluding": "18.5.0",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:llhttp:llhttp:::~~~node.js~~",
-                    "FormattedString": "cpe:2.3:a:llhttp:llhttp:*:*:*:*:*:node.js:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "2.1.5",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:llhttp:llhttp:::~~~node.js~~",
-                    "FormattedString": "cpe:2.3:a:llhttp:llhttp:*:*:*:*:*:node.js:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "6.0.0",
-                    "VersionEndExcluding": "6.0.7",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        },
-        "Official": {
-            "18.5.0": {
-                "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
-                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/94.json"
-                ]
-            },
-            "14.20.0": {
-                "source": [
-                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/94.json"
-                ]
-            },
-            "16.20.0": {
-                "source": [
-                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/94.json"
-                ]
-            }
-        }
-    },
-    "CVE-2022-32222": {
-        "CVE-ID": "CVE-2022-32222",
-        "NVD": {
-            "Descriptions": "A cryptographic vulnerability exists on Node.js on linux in versions of 18.x prior to 18.40.0 which allowed a default path for openssl.cnf that might be accessible under some circumstances to a non-admin user instead of /etc/ssl as was the case in versions prior to the upgrade to OpenSSL 3.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 5.3,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:nodejs:node.js",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "18.0.0",
-                    "VersionEndExcluding": "18.5.0",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        },
-        "Official": {
-            "18.5.0": {
-                "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
-                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/99.json"
-                ]
-            },
-            "14.20.0": {
-                "source": [
-                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/99.json"
-                ]
-            },
-            "16.20.0": {
-                "source": [
-                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/99.json"
                 ]
             }
         }
