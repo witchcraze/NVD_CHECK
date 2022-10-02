@@ -5,6 +5,20 @@ Get NVD data via [go-cve-dictionary](https://github.com/vulsio/go-cve-dictionary
 
 ## Target
 
+### OS
+
+#### Kernel
+
+- Official
+  - `https://www.kernel.org/`
+- CPE
+  - `cpe:/a:linux:kernel`
+  - `cpe:/o:linux:kernel`
+  - `cpe:/a:linux:linux_kernel`
+  - `cpe:/o:linux:linux_kernel`
+  - `cpe:/a:kernel:linux_kernel`
+  - `cpe:/o:kernel:linux_kernel`
+
 ### Language
 
 #### Go
