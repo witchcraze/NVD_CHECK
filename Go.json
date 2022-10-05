@@ -2800,26 +2800,6 @@
             ]
         }
     },
-    "CVE-2020-29652": {
-        "CVE-ID": "CVE-2020-29652",
-        "NVD": {
-            "Descriptions": "A nil pointer dereference in the golang.org/x/crypto/ssh component through v0.0.0-20201203163018-be400aefbc4c for Go allows remote attackers to cause a denial of service against SSH servers.",
-            "Cvss2_BaseScore": 5,
-            "Cvss3_BaseScore": 7.5,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:golang:go",
-                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "0.0.0-20201203163018-be400aefbc4c"
-                }
-            ]
-        }
-    },
     "CVE-2020-7919": {
         "CVE-ID": "CVE-2020-7919",
         "NVD": {
