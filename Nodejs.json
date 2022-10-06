@@ -13575,6 +13575,14 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:oracle:communications_cloud_native_core_network_function_cloud_native_environment:1.4.0",
+                    "FormattedString": "cpe:2.3:a:oracle:communications_cloud_native_core_network_function_cloud_native_environment:1.4.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
                     "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
                     "VersionStartExcluding": "",
@@ -18016,6 +18024,94 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
             "CPEs": [
                 {
+                    "URI": "cpe:/a:oracle:peoplesoft_enterprise_peopletools:8.59",
+                    "FormattedString": "cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.59:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:peoplesoft_enterprise_peopletools:8.58",
+                    "FormattedString": "cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.58:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql_workbench",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql_workbench:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.0.28"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql_server",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "5.7.37"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql_server",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.0.28"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql_enterprise_monitor",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql_enterprise_monitor:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.0.29"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql_connectors",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql_connectors:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.0.28"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql_cluster",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql_cluster:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.0.29"
+                },
+                {
+                    "URI": "cpe:/a:oracle:graalvm:22.0.0.2::~~enterprise~~~",
+                    "FormattedString": "cpe:2.3:a:oracle:graalvm:22.0.0.2:*:*:*:enterprise:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:graalvm:21.3.1::~~enterprise~~~",
+                    "FormattedString": "cpe:2.3:a:oracle:graalvm:21.3.1:*:*:*:enterprise:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:graalvm:20.3.5::~~enterprise~~~",
+                    "FormattedString": "cpe:2.3:a:oracle:graalvm:20.3.5:*:*:*:enterprise:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
                     "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
@@ -18085,6 +18181,102 @@
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
             "CPEs": [
+                {
+                    "URI": "cpe:/o:debian:debian_linux:11.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:11.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:peoplesoft_enterprise_peopletools:8.59",
+                    "FormattedString": "cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.59:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:peoplesoft_enterprise_peopletools:8.58",
+                    "FormattedString": "cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.58:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql_workbench",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql_workbench:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.0.28"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql_server",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "5.7.37"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql_server",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.0.28"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql_enterprise_monitor",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql_enterprise_monitor:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.0.29"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql_connectors",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql_connectors:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.0.28"
+                },
+                {
+                    "URI": "cpe:/a:oracle:mysql_cluster",
+                    "FormattedString": "cpe:2.3:a:oracle:mysql_cluster:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.0.29"
+                },
+                {
+                    "URI": "cpe:/a:oracle:graalvm:22.0.0.2::~~enterprise~~~",
+                    "FormattedString": "cpe:2.3:a:oracle:graalvm:22.0.0.2:*:*:*:enterprise:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:graalvm:21.3.1::~~enterprise~~~",
+                    "FormattedString": "cpe:2.3:a:oracle:graalvm:21.3.1:*:*:*:enterprise:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:oracle:graalvm:20.3.5::~~enterprise~~~",
+                    "FormattedString": "cpe:2.3:a:oracle:graalvm:20.3.5:*:*:*:enterprise:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
                 {
                     "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
                     "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
