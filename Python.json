@@ -15673,6 +15673,20 @@
                         "section": "Security"
                     }
                 }
+            },
+            "3.7.15": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.7.15/Misc/NEWS.d/3.7.15.rst"
+                ],
+                "BTS": {
+                    "gh-issue95778": {
+                        "ID": "gh-issue95778",
+                        "url": "https://github.com/python/cpython/issues/95778",
+                        "date": "2022-09-22-14-35-02",
+                        "nonce": "cJmnst",
+                        "section": "Core and Builtins"
+                    }
+                }
             }
         }
     },
