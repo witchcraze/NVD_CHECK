@@ -6063,6 +6063,16 @@
             }
         }
     },
+    "CVE-2022-32149": {
+        "CVE-ID": "CVE-2022-32149",
+        "Official": {
+            "Unreleased": {
+                "source": {
+                    "56152": "https://github.com/golang/go/issues/56152"
+                }
+            }
+        }
+    },
     "CVE-2022-30636": {
         "CVE-ID": "CVE-2022-30636",
         "Official": {
