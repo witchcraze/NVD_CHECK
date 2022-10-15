@@ -4624,6 +4624,30 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:fedoraproject:fedora:36",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:36:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:35",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:34",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:34:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -4637,6 +4661,22 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "1.18.0",
                     "VersionEndExcluding": "1.18.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:fedoraproject:extra_packages_for_enterprise_linux:8.0",
+                    "FormattedString": "cpe:2.3:a:fedoraproject:extra_packages_for_enterprise_linux:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:fedoraproject:extra_packages_for_enterprise_linux:7.0",
+                    "FormattedString": "cpe:2.3:a:fedoraproject:extra_packages_for_enterprise_linux:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 }
             ]
@@ -5310,6 +5350,14 @@
     },
     "CVE-2022-41715": {
         "CVE-ID": "CVE-2022-41715",
+        "NVD": {
+            "Descriptions": "Programs which compile regular expressions from untrusted sources may be vulnerable to memory exhaustion or denial of service. The parsed regexp representation is linear in the size of the input, but in some cases the constant factor can be as high as 40,000, making relatively small regexps consume much larger amounts of memory. After fix, each regexp being parsed is limited to a 256 MB memory footprint. Regular expressions whose representation would use more space than that are rejected. Normal use of regular expressions is unaffected.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.20": {
                 "source": {
@@ -5330,6 +5378,14 @@
     },
     "CVE-2022-2879": {
         "CVE-ID": "CVE-2022-2879",
+        "NVD": {
+            "Descriptions": "Reader.Read does not set a limit on the maximum size of file headers. A maliciously crafted archive could cause Read to allocate unbounded amounts of memory, potentially causing resource exhaustion or panics. After fix, Reader.Read limits the maximum size of header blocks to 1 MiB.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.20": {
                 "source": {
@@ -6065,6 +6121,14 @@
     },
     "CVE-2022-32149": {
         "CVE-ID": "CVE-2022-32149",
+        "NVD": {
+            "Descriptions": "An attacker may cause a denial of service by crafting an Accept-Language header which ParseAcceptLanguage will take significant time to parse.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "Unreleased": {
                 "source": {
