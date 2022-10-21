@@ -19546,6 +19546,14 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:pgbouncer:pgbouncer",
+                    "FormattedString": "cpe:2.3:a:pgbouncer:pgbouncer:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "1.17.0"
+                },
+                {
                     "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
                     "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
                     "VersionStartExcluding": "",
@@ -21193,7 +21201,7 @@
                     "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "18.0.0",
-                    "VersionEndExcluding": "18.19.1",
+                    "VersionEndExcluding": "18.9.1",
                     "VersionEndIncluding": ""
                 },
                 {

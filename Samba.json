@@ -43264,6 +43264,16 @@
             }
         }
     },
+    "CVE-2021-20251": {
+        "CVE-ID": "CVE-2021-20251",
+        "Official": {
+            "4.17.1": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.1.html"
+                ]
+            }
+        }
+    },
     "CVE-2002-1318": {
         "CVE-ID": "CVE-2002-1318",
         "NVD": {

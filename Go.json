@@ -4699,6 +4699,112 @@
             }
         }
     },
+    "CVE-2022-2879": {
+        "CVE-ID": "CVE-2022-2879",
+        "NVD": {
+            "Descriptions": "Reader.Read does not set a limit on the maximum size of file headers. A maliciously crafted archive could cause Read to allocate unbounded amounts of memory, potentially causing resource exhaustion or panics. After fix, Reader.Read limits the maximum size of header blocks to 1 MiB.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:37",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.18.7",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.19.0",
+                    "VersionEndExcluding": "1.19.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.20": {
+                "source": {
+                    "54853": "https://github.com/golang/go/issues/54853"
+                }
+            },
+            "1.18.7": {
+                "source": {
+                    "55925": "https://github.com/golang/go/issues/55925"
+                }
+            },
+            "1.19.2": {
+                "source": {
+                    "55926": "https://github.com/golang/go/issues/55926"
+                }
+            }
+        }
+    },
+    "CVE-2022-2880": {
+        "CVE-ID": "CVE-2022-2880",
+        "NVD": {
+            "Descriptions": "Requests forwarded by ReverseProxy include the raw query parameters from the inbound request, including unparseable parameters rejected by net/http. This could permit query parameter smuggling when a Go proxy forwards a parameter with an unparseable value. After fix, ReverseProxy sanitizes the query parameters in the forwarded query when the outbound request's Form field is set after the ReverseProxy. Director function returns, indicating that the proxy has parsed the query parameters. Proxies which do not parse query parameters continue to forward the original query parameters unchanged.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:37",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.18.7",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.19.0",
+                    "VersionEndExcluding": "1.19.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.20": {
+                "source": {
+                    "54663": "https://github.com/golang/go/issues/54663"
+                }
+            },
+            "1.18.7": {
+                "source": {
+                    "55842": "https://github.com/golang/go/issues/55842"
+                }
+            },
+            "1.19.2": {
+                "source": {
+                    "55843": "https://github.com/golang/go/issues/55843"
+                }
+            }
+        }
+    },
     "CVE-2022-29526": {
         "CVE-ID": "CVE-2022-29526",
         "NVD": {
@@ -5353,10 +5459,35 @@
         "NVD": {
             "Descriptions": "Programs which compile regular expressions from untrusted sources may be vulnerable to memory exhaustion or denial of service. The parsed regexp representation is linear in the size of the input, but in some cases the constant factor can be as high as 40,000, making relatively small regexps consume much larger amounts of memory. After fix, each regexp being parsed is limited to a 256 MB memory footprint. Regular expressions whose representation would use more space than that are rejected. Normal use of regular expressions is unaffected.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:37",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.18.7",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.19.0",
+                    "VersionEndExcluding": "1.19.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "1.20": {
@@ -5376,30 +5507,22 @@
             }
         }
     },
-    "CVE-2022-2879": {
-        "CVE-ID": "CVE-2022-2879",
-        "NVD": {
-            "Descriptions": "Reader.Read does not set a limit on the maximum size of file headers. A maliciously crafted archive could cause Read to allocate unbounded amounts of memory, potentially causing resource exhaustion or panics. After fix, Reader.Read limits the maximum size of header blocks to 1 MiB.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
+    "CVE-2022-41716": {
+        "CVE-ID": "CVE-2022-41716",
         "Official": {
             "1.20": {
                 "source": {
-                    "54853": "https://github.com/golang/go/issues/54853"
+                    "56284": "https://github.com/golang/go/issues/56284"
                 }
             },
-            "1.18.7": {
+            "1.19.3": {
                 "source": {
-                    "55925": "https://github.com/golang/go/issues/55925"
+                    "56328": "https://github.com/golang/go/issues/56328"
                 }
             },
-            "1.19.2": {
+            "1.18.8": {
                 "source": {
-                    "55926": "https://github.com/golang/go/issues/55926"
+                    "56327": "https://github.com/golang/go/issues/56327"
                 }
             }
         }
@@ -6119,15 +6242,34 @@
             }
         }
     },
+    "CVE-2022-41717": {
+        "CVE-ID": "CVE-2022-41717",
+        "Official": {
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "56350": "https://github.com/golang/go/issues/56350"
+                }
+            }
+        }
+    },
     "CVE-2022-32149": {
         "CVE-ID": "CVE-2022-32149",
         "NVD": {
             "Descriptions": "An attacker may cause a denial of service by crafting an Accept-Language header which ParseAcceptLanguage will take significant time to parse.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:text",
+                    "FormattedString": "cpe:2.3:a:golang:text:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "Unreleased": {
