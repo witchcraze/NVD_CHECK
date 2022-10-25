@@ -1,4 +1,44 @@
 {
+    "CVE-2022-3437": {
+        "CVE-ID": "CVE-2022-3437",
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2022-3437.html"
+                ]
+            },
+            "4.15.11": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.15.11.html"
+                ]
+            },
+            "4.16.6": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.16.6.html"
+                ]
+            },
+            "4.17.2": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.2.html"
+                ]
+            }
+        }
+    },
+    "CVE-2022-3592": {
+        "CVE-ID": "CVE-2022-3592",
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2022-3592.html"
+                ]
+            },
+            "4.17.2": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.2.html"
+                ]
+            }
+        }
+    },
     "CVE-2022-2031": {
         "CVE-ID": "CVE-2022-2031",
         "NVD": {
