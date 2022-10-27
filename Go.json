@@ -4011,6 +4011,14 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:fedoraproject:fedora:35",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -4055,6 +4063,14 @@
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:35",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
                 {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
@@ -4403,14 +4419,14 @@
                     "51853": "https://github.com/golang/go/issues/51853"
                 }
             },
-            "1.17.9": {
-                "source": {
-                    "52036": "https://github.com/golang/go/issues/52036"
-                }
-            },
             "1.18.1": {
                 "source": {
                     "52037": "https://github.com/golang/go/issues/52037"
+                }
+            },
+            "1.17.9": {
+                "source": {
+                    "52036": "https://github.com/golang/go/issues/52036"
                 }
             }
         }
@@ -4690,14 +4706,14 @@
             ]
         },
         "Official": {
-            "1.17.9": {
-                "source": {
-                    "52076": "https://github.com/golang/go/issues/52076"
-                }
-            },
             "1.18.1": {
                 "source": {
                     "52077": "https://github.com/golang/go/issues/52077"
+                }
+            },
+            "1.17.9": {
+                "source": {
+                    "52076": "https://github.com/golang/go/issues/52076"
                 }
             },
             "1.19": {
@@ -5034,6 +5050,14 @@
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:35",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
                 {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",

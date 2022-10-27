@@ -18126,8 +18126,8 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:redhat:codeready_linux_builder_for_ibm_z_server:8.0",
-                    "FormattedString": "cpe:2.3:a:redhat:codeready_linux_builder_for_ibm_z_server:8.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:redhat:codeready_linux_builder_for_ibm_z_systems:8.0",
+                    "FormattedString": "cpe:2.3:a:redhat:codeready_linux_builder_for_ibm_z_systems:8.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
