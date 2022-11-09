@@ -19166,6 +19166,56 @@
             }
         }
     },
+    "CVE-2022-42919": {
+        "CVE-ID": "CVE-2022-42919",
+        "NVD": {
+            "Descriptions": "Python 3.9.x and 3.10.x through 3.10.8 on Linux allows local privilege escalation in a non-default configuration. The Python multiprocessing library, when used with the forkserver start method on Linux, allows pickles to be deserialized from any user in the same machine local network namespace, which in many system configurations means any user on the same machine. Pickles can execute arbitrary code. Thus, this allows for local user privilege escalation to the user that any forkserver process is running as. Setting multiprocessing.util.abstract_sockets_supported to False is a workaround. The forkserver start method for multiprocessing is not the default start method. This issue is Linux specific because only Linux supports abstract namespace sockets. CPython before 3.9 does not make use of Linux abstract namespace sockets by default. Support for users manually specifying an abstract namespace socket was added as a bugfix in 3.7.8 and 3.8.4, but users would need to make specific uncommon API calls in order to do that in CPython before 3.9.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.9.0",
+                    "VersionEndExcluding": "3.10.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "3.11.0": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.11.0/Misc/NEWS.d/3.11.0.rst"
+                ],
+                "BTS": {
+                    "gh-issue97514": {
+                        "ID": "gh-issue97514",
+                        "url": "https://github.com/python/cpython/issues/97514",
+                        "date": "2022-09-07-10-42-00",
+                        "nonce": "Yggdsl",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.12.0a1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.12.0a1/Misc/NEWS.d/3.12.0a1.rst"
+                ],
+                "BTS": {
+                    "gh-issue97514": {
+                        "ID": "gh-issue97514",
+                        "url": "https://github.com/python/cpython/issues/97514",
+                        "date": "2022-09-07-10-42-00",
+                        "nonce": "Yggdsl",
+                        "section": "Security"
+                    }
+                }
+            }
+        }
+    },
     "CVE-2002-1119": {
         "CVE-ID": "CVE-2002-1119",
         "NVD": {
@@ -21344,47 +21394,6 @@
                         "url": "https://bugs.python.org/issue33136",
                         "date": "2018-03-25-12-05-43",
                         "nonce": "TzSN4x",
-                        "section": "Security"
-                    }
-                }
-            }
-        }
-    },
-    "CVE-2022-42919": {
-        "CVE-ID": "CVE-2022-42919",
-        "NVD": {
-            "Descriptions": "Python 3.9.x and 3.10.x through 3.10.8 on Linux allows local privilege escalation in a non-default configuration. The Python multiprocessing library, when used with the forkserver start method on Linux, allows pickles to be deserialized from any user in the same machine local network namespace, which in many system configurations means any user on the same machine. Pickles can execute arbitrary code. Thus, this allows for local user privilege escalation to the user that any forkserver process is running as. Setting multiprocessing.util.abstract_sockets_supported to False is a workaround. The forkserver start method for multiprocessing is not the default start method. This issue is Linux specific because only Linux supports abstract namespace sockets. CPython before 3.9 does not make use of Linux abstract namespace sockets by default. Support for users manually specifying an abstract namespace socket was added as a bugfix in 3.7.8 and 3.8.4, but users would need to make specific uncommon API calls in order to do that in CPython before 3.9.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "3.11.0": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v3.11.0/Misc/NEWS.d/3.11.0.rst"
-                ],
-                "BTS": {
-                    "gh-issue97514": {
-                        "ID": "gh-issue97514",
-                        "url": "https://github.com/python/cpython/issues/97514",
-                        "date": "2022-09-07-10-42-00",
-                        "nonce": "Yggdsl",
-                        "section": "Security"
-                    }
-                }
-            },
-            "3.12.0a1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0a1/Misc/NEWS.d/3.12.0a1.rst"
-                ],
-                "BTS": {
-                    "gh-issue97514": {
-                        "ID": "gh-issue97514",
-                        "url": "https://github.com/python/cpython/issues/97514",
-                        "date": "2022-09-07-10-42-00",
-                        "nonce": "Yggdsl",
                         "section": "Security"
                     }
                 }
