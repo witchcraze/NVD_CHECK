@@ -8723,25 +8723,5 @@
                 }
             ]
         }
-    },
-    "CVE-2022-38890": {
-        "CVE-ID": "CVE-2022-38890",
-        "NVD": {
-            "Descriptions": "Nginx NJS v0.7.7 was discovered to contain a segmentation violation via njs_utf8_next at src/njs_utf8.h",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 7.5,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:f5:nginx:0.7.7",
-                    "FormattedString": "cpe:2.3:a:f5:nginx:0.7.7:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        }
     }
 }
