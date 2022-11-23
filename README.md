@@ -3,6 +3,9 @@
 Trial to check NVD data<br>
 Get NVD data via [go-cve-dictionary](https://github.com/vulsio/go-cve-dictionary)
 
+![GitHub issue custom search in repo](https://img.shields.io/github/issues-search/witchcraze/NVD_CHECK?color=%23C2E0C6&label=NVD%20Data%20Updated&query=label%3A0_ADOPTED)
+![GitHub issue custom search in repo](https://img.shields.io/github/issues-search/witchcraze/NVD_CHECK?color=%23F9D0C4&label=Waiting%20NVD%20side%20review&query=label%3A0_REQUESTED)
+
 ## Target
 
 ### OS
