@@ -6234,11 +6234,67 @@
                     "VersionEndIncluding": "8.0.25"
                 },
                 {
+                    "URI": "cpe:/a:netapp:snapcenter:-",
+                    "FormattedString": "cpe:2.3:a:netapp:snapcenter:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:oncommand_workflow_automation:-",
+                    "FormattedString": "cpe:2.3:a:netapp:oncommand_workflow_automation:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:netapp:oncommand_insight:-",
                     "FormattedString": "cpe:2.3:a:netapp:oncommand_insight:-:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:active_iq_unified_manager:-::~~~windows~~",
+                    "FormattedString": "cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:windows:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:active_iq_unified_manager:-::~~~vmware_vsphere~~",
+                    "FormattedString": "cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:vmware_vsphere:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.28",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.1.0",
+                    "VersionEndExcluding": "10.1.19",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.53",
                     "VersionEndIncluding": ""
                 }
             ]
@@ -11699,8 +11755,160 @@
             "Cvss2_BaseScore": 3.5,
             "Cvss3_BaseScore": 4.4,
             "Cvss2_VectorString": "AV:N/AC:M/Au:S/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_workstation:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:8.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:8.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:8.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:8.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_tus:8.2",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_tus:8.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:8.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:8.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:8.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:8.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server_aus:8.2",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server_aus:8.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:8.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_server:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_server:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:8.6",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:8.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:8.4",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:8.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:8.2",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:8.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_eus:8.1",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_eus:8.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:8.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux_desktop:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux_desktop:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:leap:15.1",
+                    "FormattedString": "cpe:2.3:o:opensuse:leap:15.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:opensuse:leap:15.0",
+                    "FormattedString": "cpe:2.3:o:opensuse:leap:15.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:30",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:30:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:29",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:29:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
                 {
                     "URI": "cpe:/o:canonical:ubuntu_linux:19.04",
                     "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:19.04:*:*:*:*:*:*:*",
@@ -11726,8 +11934,8 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:canonical:ubuntu_linux:16.04::~~lts~~~",
-                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:16.04:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:16.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:16.04:*:*:*:esm:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -11764,6 +11972,46 @@
                     "VersionStartIncluding": "8.0.0",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": "8.0.15"
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.1.0",
+                    "VersionEndExcluding": "10.1.39",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.2.0",
+                    "VersionEndExcluding": "10.2.24",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.3.0",
+                    "VersionEndExcluding": "10.3.15",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.4.0",
+                    "VersionEndExcluding": "10.4.5",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.64",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -13339,7 +13587,7 @@
             "Cvss2_BaseScore": 3.5,
             "Cvss3_BaseScore": 4.4,
             "Cvss2_VectorString": "AV:N/AC:M/Au:S/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:canonical:ubuntu_linux:18.10",
@@ -13358,16 +13606,16 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:canonical:ubuntu_linux:16.04::~~lts~~~",
-                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:16.04:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:16.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:16.04:*:*:*:esm:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~lts~~~",
-                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -13390,14 +13638,6 @@
                     "VersionEndIncluding": "8.0.12"
                 },
                 {
-                    "URI": "cpe:/a:netapp:storage_automation_store:-",
-                    "FormattedString": "cpe:2.3:a:netapp:storage_automation_store:-:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/a:netapp:snapcenter:-",
                     "FormattedString": "cpe:2.3:a:netapp:snapcenter:-:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -13414,27 +13654,43 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:netapp:oncommand_unified_manager:::~~~vmware_vsphere~~",
-                    "FormattedString": "cpe:2.3:a:netapp:oncommand_unified_manager:*:*:*:*:*:vmware_vsphere:*:*",
+                    "URI": "cpe:/a:netapp:oncommand_insight:-",
+                    "FormattedString": "cpe:2.3:a:netapp:oncommand_insight:-:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "9.4",
+                    "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:netapp:oncommand_unified_manager",
-                    "FormattedString": "cpe:2.3:a:netapp:oncommand_unified_manager:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:netapp:active_iq_unified_manager:::~~~windows~~",
+                    "FormattedString": "cpe:2.3:a:netapp:active_iq_unified_manager:*:*:*:*:*:windows:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "7.3",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:netapp:oncommand_insight:-",
-                    "FormattedString": "cpe:2.3:a:netapp:oncommand_insight:-:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:netapp:active_iq_unified_manager:::~~~vmware_vsphere~~",
+                    "FormattedString": "cpe:2.3:a:netapp:active_iq_unified_manager:*:*:*:*:*:vmware_vsphere:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
+                    "VersionStartIncluding": "9.5",
                     "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.2.0",
+                    "VersionEndExcluding": "10.2.19",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.3.0",
+                    "VersionEndExcluding": "10.3.11",
                     "VersionEndIncluding": ""
                 }
             ]
@@ -14285,7 +14541,7 @@
             "Cvss2_BaseScore": 1.9,
             "Cvss3_BaseScore": 5.3,
             "Cvss2_VectorString": "AV:L/AC:M/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:H/PR:H/UI:N/S:C/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:N/I:N/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:debian:debian_linux:9.0",
@@ -14320,24 +14576,24 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:canonical:ubuntu_linux:16.04::~~lts~~~",
-                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:16.04:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:16.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:16.04:*:*:*:esm:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~lts~~~",
-                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~esm~~~",
-                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:esm:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~-~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -14376,14 +14632,6 @@
                     "VersionEndIncluding": "8.0.12"
                 },
                 {
-                    "URI": "cpe:/a:netapp:storage_automation_store:-",
-                    "FormattedString": "cpe:2.3:a:netapp:storage_automation_store:-:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/a:netapp:snapcenter:-",
                     "FormattedString": "cpe:2.3:a:netapp:snapcenter:-:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -14400,27 +14648,67 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:netapp:oncommand_unified_manager:::~~~vmware_vsphere~~",
-                    "FormattedString": "cpe:2.3:a:netapp:oncommand_unified_manager:*:*:*:*:*:vmware_vsphere:*:*",
+                    "URI": "cpe:/a:netapp:oncommand_insight:-",
+                    "FormattedString": "cpe:2.3:a:netapp:oncommand_insight:-:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "9.4",
+                    "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:netapp:oncommand_unified_manager",
-                    "FormattedString": "cpe:2.3:a:netapp:oncommand_unified_manager:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:netapp:active_iq_unified_manager:::~~~windows~~",
+                    "FormattedString": "cpe:2.3:a:netapp:active_iq_unified_manager:*:*:*:*:*:windows:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "7.3",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:netapp:oncommand_insight:-",
-                    "FormattedString": "cpe:2.3:a:netapp:oncommand_insight:-:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:netapp:active_iq_unified_manager:::~~~vmware_vsphere~~",
+                    "FormattedString": "cpe:2.3:a:netapp:active_iq_unified_manager:*:*:*:*:*:vmware_vsphere:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
+                    "VersionStartIncluding": "9.5",
                     "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.37",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.1.0",
+                    "VersionEndExcluding": "10.1.37",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.2.0",
+                    "VersionEndExcluding": "10.2.19",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.3.0",
+                    "VersionEndExcluding": "10.3.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.62",
                     "VersionEndIncluding": ""
                 }
             ]

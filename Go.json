@@ -2613,46 +2613,6 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
-                    "URI": "cpe:/o:fedoraproject:fedora:33",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:33:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:fedoraproject:fedora:32",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:32:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:debian:debian_linux:9.0",
-                    "FormattedString": "cpe:2.3:o:debian:debian_linux:9.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:netapp:trident:-",
-                    "FormattedString": "cpe:2.3:a:netapp:trident:-:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:netapp:cloud_insights_telegraf_agent:-",
-                    "FormattedString": "cpe:2.3:a:netapp:cloud_insights_telegraf_agent:-:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -5640,29 +5600,14 @@
             }
         }
     },
-    "CVE-2022-41717": {
-        "CVE-ID": "CVE-2022-41717",
-        "Official": {
-            "1.18.10": {
-                "source": {
-                    "57008": "https://github.com/golang/go/issues/57008"
-                }
-            },
-            "1.19.5": {
-                "source": {
-                    "57009": "https://github.com/golang/go/issues/57009"
-                }
-            },
-            "NOT_IN_MILESTONE": {
-                "source": {
-                    "56350": "https://github.com/golang/go/issues/56350"
-                }
-            }
-        }
-    },
     "CVE-2022-41720": {
         "CVE-ID": "CVE-2022-41720",
         "Official": {
+            "1.20": {
+                "source": {
+                    "56694": "https://github.com/golang/go/issues/56694"
+                }
+            },
             "1.18.10": {
                 "source": {
                     "57005": "https://github.com/golang/go/issues/57005"
@@ -5672,10 +5617,25 @@
                 "source": {
                     "57006": "https://github.com/golang/go/issues/57006"
                 }
-            },
-            "NOT_IN_MILESTONE": {
+            }
+        }
+    },
+    "CVE-2022-41717": {
+        "CVE-ID": "CVE-2022-41717",
+        "Official": {
+            "1.20": {
                 "source": {
-                    "56694": "https://github.com/golang/go/issues/56694"
+                    "56350": "https://github.com/golang/go/issues/56350"
+                }
+            },
+            "1.19.4": {
+                "source": {
+                    "57009": "https://github.com/golang/go/issues/57009"
+                }
+            },
+            "1.18.9": {
+                "source": {
+                    "57008": "https://github.com/golang/go/issues/57008"
                 }
             }
         }
