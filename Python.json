@@ -18780,6 +18780,14 @@
                     "VersionStartIncluding": "3.9.0",
                     "VersionEndExcluding": "3.9.3",
                     "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:ontap_select_deploy_administration_utility:-",
+                    "FormattedString": "cpe:2.3:a:netapp:ontap_select_deploy_administration_utility:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -19541,6 +19549,22 @@
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:37",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:36",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:36:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
                 {
                     "URI": "cpe:/a:python:python:3.11.0:rc2",
                     "FormattedString": "cpe:2.3:a:python:python:3.11.0:rc2:*:*:*:*:*:*",
