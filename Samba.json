@@ -1,4 +1,289 @@
 {
+    "CVE-2022-38023": {
+        "CVE-ID": "CVE-2022-38023",
+        "NVD": {
+            "Descriptions": "Netlogon RPC Elevation of Privilege Vulnerability.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2022:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2022:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2019:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2019:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2016:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2016:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2012:r2",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2012:r2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2012:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2012:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2008:r2:sp1:~~~~x64~",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2008:r2:sp1:*:*:*:*:x64:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2008:-:sp2",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2008:-:sp2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2022-38023.html"
+                ]
+            },
+            "4.15.13": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.15.13.html"
+                ]
+            },
+            "4.16.8": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.16.8.html"
+                ]
+            },
+            "4.17.4": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.4.html"
+                ]
+            }
+        }
+    },
+    "CVE-2022-37966": {
+        "CVE-ID": "CVE-2022-37966",
+        "NVD": {
+            "Descriptions": "Windows Kerberos RC4-HMAC Elevation of Privilege Vulnerability.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2022:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2022:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2019:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2019:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2016:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2016:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2012:r2",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2012:r2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2012:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2012:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2008:r2:sp1:~~~~x64~",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2008:r2:sp1:*:*:*:*:x64:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2008:-:sp2",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2008:-:sp2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2022-37966.html"
+                ]
+            },
+            "4.15.13": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.15.13.html"
+                ]
+            },
+            "4.16.8": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.16.8.html"
+                ]
+            },
+            "4.17.4": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.4.html"
+                ]
+            }
+        }
+    },
+    "CVE-2022-37967": {
+        "CVE-ID": "CVE-2022-37967",
+        "NVD": {
+            "Descriptions": "Windows Kerberos Elevation of Privilege Vulnerability.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.2,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2022:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2022:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2019:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2019:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2016:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2016:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2012:r2",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2012:r2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2012:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2012:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2008:r2:sp1:~~~~x64~",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2008:r2:sp1:*:*:*:*:x64:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2008:-:sp2",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2008:-:sp2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2022-37967.html"
+                ]
+            },
+            "4.15.13": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.15.13.html"
+                ]
+            },
+            "4.16.8": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.16.8.html"
+                ]
+            },
+            "4.17.4": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.4.html"
+                ]
+            }
+        }
+    },
+    "CVE-2022-45141": {
+        "CVE-ID": "CVE-2022-45141",
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2022-45141.html"
+                ]
+            },
+            "4.15.13": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.15.13.html"
+                ]
+            }
+        }
+    },
     "CVE-2022-42898": {
         "CVE-ID": "CVE-2022-42898",
         "Official": {
@@ -12,14 +297,29 @@
                     "https://www.samba.org/samba/history/samba-4.15.12.html"
                 ]
             },
+            "4.15.13": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.15.13.html"
+                ]
+            },
             "4.16.7": {
                 "source": [
                     "https://www.samba.org/samba/history/samba-4.16.7.html"
                 ]
             },
+            "4.16.8": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.16.8.html"
+                ]
+            },
             "4.17.3": {
                 "source": [
                     "https://www.samba.org/samba/history/samba-4.17.3.html"
+                ]
+            },
+            "4.17.4": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.4.html"
                 ]
             }
         }
@@ -41881,12 +42181,42 @@
             }
         }
     },
+    "CVE-2022-44640": {
+        "CVE-ID": "CVE-2022-44640",
+        "Official": {
+            "4.15.13": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.15.13.html"
+                ]
+            },
+            "4.16.8": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.16.8.html"
+                ]
+            },
+            "4.17.4": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.4.html"
+                ]
+            }
+        }
+    },
     "CVE-2021-20251": {
         "CVE-ID": "CVE-2021-20251",
         "Official": {
+            "4.16.8": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.16.8.html"
+                ]
+            },
             "4.17.1": {
                 "source": [
                     "https://www.samba.org/samba/history/samba-4.17.1.html"
+                ]
+            },
+            "4.17.4": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.4.html"
                 ]
             }
         }
