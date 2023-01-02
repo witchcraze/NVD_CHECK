@@ -2524,7 +2524,7 @@
     "CVE-2020-28366": {
         "CVE-ID": "CVE-2020-28366",
         "NVD": {
-            "Descriptions": "Go before 1.14.12 and 1.15.x before 1.15.5 allows Code Injection.",
+            "Descriptions": "Code injection in the go command with cgo before Go 1.14.12 and Go 1.15.5 allows arbitrary code execution at build time via a malicious unquoted symbol name in a linked object file.",
             "Cvss2_BaseScore": 5.1,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
@@ -4548,7 +4548,7 @@
     "CVE-2022-28131": {
         "CVE-ID": "CVE-2022-28131",
         "NVD": {
-            "Descriptions": "In Decoder.Skip in encoding/xml in Go before 1.17.12 and 1.18.x before 1.18.4, stack exhaustion and a panic can occur via a deeply nested XML document.",
+            "Descriptions": "Uncontrolled recursion in Decoder.Skip in encoding/xml before Go 1.17.12 and Go 1.18.4 allows an attacker to cause a panic due to stack exhaustion via a deeply nested XML document.",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
@@ -4869,7 +4869,7 @@
     "CVE-2022-29804": {
         "CVE-ID": "CVE-2022-29804",
         "NVD": {
-            "Descriptions": "In filepath.Clean in path/filepath in Go before 1.17.11 and 1.18.x before 1.18.3 on Windows, invalid paths such as .\\c: could be converted to valid paths (such as c: in this example).",
+            "Descriptions": "Incorrect conversion of certain invalid paths to valid, absolute paths in Clean in path/filepath before Go 1.17.11 and Go 1.18.3 on Windows allows potential directory traversal attack.",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
