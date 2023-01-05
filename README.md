@@ -108,6 +108,14 @@ Get NVD data via [go-cve-dictionary](https://github.com/vulsio/go-cve-dictionary
   - `cpe:/a:mariadb:mariadb`
   - `cpe:/a:mariadb_project:mariadb`
 
+#### PostgreSQL
+
+- Official
+  - `https://www.postgresql.org/support/security/`
+  - `https://www.postgresql.org/docs/release/`
+- CPE
+  - `cpe:/a:postgresql:postgresql`
+
 #### MongoDB
 
 - Official
