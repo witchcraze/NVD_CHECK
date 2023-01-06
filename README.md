@@ -70,6 +70,14 @@ Get NVD data via [go-cve-dictionary](https://github.com/vulsio/go-cve-dictionary
 
 ### Midleware
 
+#### Apache HTTP Server
+
+- Official
+  - `https://httpd.apache.org/security/vulnerabilities_*.html`
+  - `http://archive.apache.org/dist/httpd/CHANGES_*`
+- CPE
+  - `cpe:/a:apache:http_server`
+
 #### nginx
 
 - Official
