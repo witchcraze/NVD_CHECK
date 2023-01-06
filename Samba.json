@@ -289,10 +289,67 @@
         "NVD": {
             "Descriptions": "PAC parsing in MIT Kerberos 5 (aka krb5) before 1.19.4 and 1.20.x before 1.20.1 has integer overflows that may lead to remote code execution (in KDC, kadmind, or a GSS or Kerberos application server) on 32-bit platforms (which have a resultant heap-based buffer overflow), and cause a denial of service on other platforms. This occurs in krb5_pac_parse in lib/krb5/krb/pac.c. Heimdal before 7.7.1 has \"a similar bug.\"",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "4.15.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.16.0",
+                    "VersionEndExcluding": "4.16.7",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.17.0",
+                    "VersionEndExcluding": "4.17.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mit:kerberos_5:1.20:beta1",
+                    "FormattedString": "cpe:2.3:a:mit:kerberos_5:1.20:beta1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mit:kerberos_5:1.20:-",
+                    "FormattedString": "cpe:2.3:a:mit:kerberos_5:1.20:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mit:kerberos_5",
+                    "FormattedString": "cpe:2.3:a:mit:kerberos_5:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.8",
+                    "VersionEndExcluding": "1.19.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:heimdal_project:heimdal",
+                    "FormattedString": "cpe:2.3:a:heimdal_project:heimdal:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "7.7.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "-": {
