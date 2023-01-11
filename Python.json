@@ -3906,8 +3906,8 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:apple:ipad_os",
-                    "FormattedString": "cpe:2.3:o:apple:ipad_os:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:apple:ipados",
+                    "FormattedString": "cpe:2.3:o:apple:ipados:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "14.8",
@@ -19816,7 +19816,7 @@
             },
             "3.12.0a2": {
                 "source": [
-                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.12.0a2.rst"
+                    "https://github.com/python/cpython/blob/v3.12.0a4/Misc/NEWS.d/3.12.0a2.rst"
                 ],
                 "BTS": {
                     "gh-issue98433": {
@@ -22264,8 +22264,8 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:apple:ipad_os",
-                    "FormattedString": "cpe:2.3:o:apple:ipad_os:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:apple:ipados",
+                    "FormattedString": "cpe:2.3:o:apple:ipados:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "15.7.1",
@@ -22376,7 +22376,7 @@
             },
             "3.12.0a2": {
                 "source": [
-                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.12.0a2.rst"
+                    "https://github.com/python/cpython/blob/v3.12.0a4/Misc/NEWS.d/3.12.0a2.rst"
                 ],
                 "BTS": {
                     "gh-issue98689": {
