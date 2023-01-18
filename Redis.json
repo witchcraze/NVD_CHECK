@@ -1,4 +1,44 @@
 {
+    "CVE-2022-35977": {
+        "CVE-ID": "CVE-2022-35977",
+        "Official": {
+            "6.0.17": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/6.0.17",
+                    "https://raw.githubusercontent.com/redis/redis/6.0/00-RELEASENOTES"
+                ]
+            },
+            "7.0.8": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/7.0.8",
+                    "https://raw.githubusercontent.com/redis/redis/7.0/00-RELEASENOTES"
+                ]
+            },
+            "6.2.9": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/6.2.9",
+                    "https://raw.githubusercontent.com/redis/redis/6.2/00-RELEASENOTES"
+                ]
+            }
+        }
+    },
+    "CVE-2023-22458": {
+        "CVE-ID": "CVE-2023-22458",
+        "Official": {
+            "7.0.8": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/7.0.8",
+                    "https://raw.githubusercontent.com/redis/redis/7.0/00-RELEASENOTES"
+                ]
+            },
+            "6.2.9": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/6.2.9",
+                    "https://raw.githubusercontent.com/redis/redis/6.2/00-RELEASENOTES"
+                ]
+            }
+        }
+    },
     "CVE-2022-35951": {
         "CVE-ID": "CVE-2022-35951",
         "NVD": {
