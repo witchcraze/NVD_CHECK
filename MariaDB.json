@@ -43442,6 +43442,30 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:php:php",
+                    "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.4.0",
+                    "VersionEndExcluding": "5.4.41",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:php:php",
+                    "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.5.0",
+                    "VersionEndExcluding": "5.5.26",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:php:php",
+                    "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.6.0",
+                    "VersionEndExcluding": "5.6.9",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:pcre:pcre",
                     "FormattedString": "cpe:2.3:a:pcre:pcre:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
