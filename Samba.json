@@ -394,10 +394,51 @@
         "NVD": {
             "Descriptions": "A heap-based buffer overflow vulnerability was found in Samba within the GSSAPI unwrap_des() and unwrap_des3() routines of Heimdal. The DES and Triple-DES decryption routines in the Heimdal GSSAPI library allow a length-limited write buffer overflow on malloc() allocated memory when presented with a maliciously small packet. This flaw allows a remote user to send specially crafted malicious data to the application, possibly resulting in a denial of service (DoS) attack.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:37",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:36",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:36:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.15.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.16.0",
+                    "VersionEndExcluding": "4.16.6",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.17.0",
+                    "VersionEndExcluding": "4.17.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "-": {
