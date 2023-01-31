@@ -5736,6 +5736,26 @@
             }
         }
     },
+    "CVE-2022-41725": {
+        "CVE-ID": "CVE-2022-41725",
+        "Official": {
+            "1.21": {
+                "source": {
+                    "58006": "https://github.com/golang/go/issues/58006"
+                }
+            }
+        }
+    },
+    "CVE-2022-41727": {
+        "CVE-ID": "CVE-2022-41727",
+        "Official": {
+            "1.21": {
+                "source": {
+                    "58003": "https://github.com/golang/go/issues/58003"
+                }
+            }
+        }
+    },
     "CVE-2022-41724": {
         "CVE-ID": "CVE-2022-41724",
         "Official": {
@@ -6457,26 +6477,6 @@
             "1.11": {
                 "source": {
                     "22543": "https://github.com/golang/go/issues/22543"
-                }
-            }
-        }
-    },
-    "CVE-2022-41725": {
-        "CVE-ID": "CVE-2022-41725",
-        "Official": {
-            "NOT_IN_MILESTONE": {
-                "source": {
-                    "58006": "https://github.com/golang/go/issues/58006"
-                }
-            }
-        }
-    },
-    "CVE-2022-41727": {
-        "CVE-ID": "CVE-2022-41727",
-        "Official": {
-            "NOT_IN_MILESTONE": {
-                "source": {
-                    "58003": "https://github.com/golang/go/issues/58003"
                 }
             }
         }
