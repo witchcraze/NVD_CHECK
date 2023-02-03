@@ -1962,7 +1962,7 @@
     "CVE-2016-2183": {
         "CVE-ID": "CVE-2016-2183",
         "NVD": {
-            "Descriptions": "The DES and Triple DES ciphers, as used in the TLS, SSH, and IPSec protocols and other protocols and products, have a birthday bound of approximately four billion blocks, which makes it easier for remote attackers to obtain cleartext data via a birthday attack against a long-duration encrypted session, as demonstrated by an HTTPS session using Triple DES in CBC mode, aka a \"Sweet32\" attack.",
+            "Descriptions": "A flaw was found in the way the DES/3DES cipher was used as part of the TLS/SSL protocol. A man-in-the-middle attacker could use this flaw to recover some plaintext data by capturing large amounts of encrypted traffic between TLS/SSL server and client if the communication used a DES/3DES based ciphersuite.",
             "Cvss2_BaseScore": 5,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
