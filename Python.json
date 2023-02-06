@@ -19712,11 +19712,59 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:fedoraproject:fedora:37",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:36",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:36:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:35",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.10.0",
+                    "VersionEndExcluding": "3.10.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.7.3",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "3.7.15"
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.8.3",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "3.8.15"
+                },
+                {
                     "URI": "cpe:/a:python:python",
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "3.9.0",
-                    "VersionEndExcluding": "3.10.8",
+                    "VersionEndExcluding": "3.9.16",
                     "VersionEndIncluding": ""
                 }
             ]
