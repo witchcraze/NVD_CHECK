@@ -5713,6 +5713,16 @@
                 "source": {
                     "58006": "https://github.com/golang/go/issues/58006"
                 }
+            },
+            "1.19.6": {
+                "source": {
+                    "58362": "https://github.com/golang/go/issues/58362"
+                }
+            },
+            "1.20.1": {
+                "source": {
+                    "58363": "https://github.com/golang/go/issues/58363"
+                }
             }
         }
     },
@@ -5733,6 +5743,16 @@
                 "source": {
                     "58001": "https://github.com/golang/go/issues/58001"
                 }
+            },
+            "1.19.6": {
+                "source": {
+                    "58358": "https://github.com/golang/go/issues/58358"
+                }
+            },
+            "1.20.1": {
+                "source": {
+                    "58359": "https://github.com/golang/go/issues/58359"
+                }
             }
         }
     },
@@ -5742,6 +5762,16 @@
             "1.21": {
                 "source": {
                     "57855": "https://github.com/golang/go/issues/57855"
+                }
+            },
+            "1.19.6": {
+                "source": {
+                    "58355": "https://github.com/golang/go/issues/58355"
+                }
+            },
+            "1.20.1": {
+                "source": {
+                    "58356": "https://github.com/golang/go/issues/58356"
                 }
             }
         }
@@ -5754,12 +5784,12 @@
                     "57274": "https://github.com/golang/go/issues/57274"
                 }
             },
-            "1.18.11": {
+            "1.19.6": {
                 "source": {
                     "57275": "https://github.com/golang/go/issues/57275"
                 }
             },
-            "1.19.6": {
+            "1.20.1": {
                 "source": {
                     "57276": "https://github.com/golang/go/issues/57276"
                 }
