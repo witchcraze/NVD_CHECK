@@ -31825,6 +31825,35 @@
             }
         }
     },
+    "CVE-2022-41862": {
+        "CVE-ID": "CVE-2022-41862",
+        "Official": {
+            "12.14": {
+                "source": [
+                    "https://www.postgresql.org/support/security/12/",
+                    "https://www.postgresql.org/docs/release/12.14/"
+                ]
+            },
+            "13.10": {
+                "source": [
+                    "https://www.postgresql.org/support/security/13/",
+                    "https://www.postgresql.org/docs/release/13.10/"
+                ]
+            },
+            "14.7": {
+                "source": [
+                    "https://www.postgresql.org/support/security/14/",
+                    "https://www.postgresql.org/docs/release/14.7/"
+                ]
+            },
+            "15.2": {
+                "source": [
+                    "https://www.postgresql.org/support/security/15/",
+                    "https://www.postgresql.org/docs/release/15.2/"
+                ]
+            }
+        }
+    },
     "CVE-2021-20229": {
         "CVE-ID": "CVE-2021-20229",
         "NVD": {
