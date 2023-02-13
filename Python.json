@@ -567,7 +567,7 @@
     "CVE-2010-1449": {
         "CVE-ID": "CVE-2010-1449",
         "NVD": {
-            "Descriptions": "Integer overflow in rgbimgmodule.c in the rgbimg module in Python 2.5 allows remote attackers to have an unspecified impact via a large image that triggers a buffer overflow.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2008-3143.12.",
+            "Descriptions": "Integer overflow in rgbimgmodule.c in the rgbimg module in Python 2.5 allows remote attackers to have an unspecified impact via a large image that triggers a buffer overflow. NOTE: this vulnerability exists because of an incomplete fix for CVE-2008-3143.12.",
             "Cvss2_BaseScore": 7.5,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
@@ -607,7 +607,7 @@
     "CVE-2010-1634": {
         "CVE-ID": "CVE-2010-1634",
         "NVD": {
-            "Descriptions": "CVE-2010-1634 python: audioop: incorrect integer overflow checks",
+            "Descriptions": "Multiple integer overflows in audioop.c in the audioop module in Python 2.6, 2.7, 3.1, and 3.2 allow context-dependent attackers to cause a denial of service (application crash) via a large fragment, as demonstrated by a call to audioop.lin2lin with a long string in the first argument, leading to a buffer overflow. NOTE: this vulnerability exists because of an incorrect fix for CVE-2008-3143.5.",
             "Cvss2_BaseScore": 5,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
@@ -1552,7 +1552,7 @@
     "CVE-2011-4940": {
         "CVE-ID": "CVE-2011-4940",
         "NVD": {
-            "Descriptions": "CVE-2011-4940 python: potential XSS in SimpleHTTPServer's list_directory()",
+            "Descriptions": "The list_directory function in Lib/SimpleHTTPServer.py in SimpleHTTPServer in Python before 2.5.6c1, 2.6.x before 2.6.7 rc2, and 2.7.x before 2.7.2 does not place a charset parameter in the Content-Type HTTP header, which makes it easier for remote attackers to conduct cross-site scripting (XSS) attacks against Internet Explorer 7 via UTF-7 encoding.",
             "Cvss2_BaseScore": 2.6,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:H/Au:N/C:N/I:P/A:N",
@@ -3867,7 +3867,7 @@
     "CVE-2013-0340": {
         "CVE-ID": "CVE-2013-0340",
         "NVD": {
-            "Descriptions": "expat 2.1.0 and earlier does not properly handle entities expansion unless an application developer uses the XML_SetEntityDeclHandler function, which allows remote attackers to cause a denial of service (resource consumption), send HTTP requests to intranet servers, or read arbitrary files via a crafted XML document, aka an XML External Entity (XXE) issue.  NOTE: it could be argued that because expat already provides the ability to disable external entity expansion, the responsibility for resolving this issue lies with application developers; according to this argument, this entry should be REJECTed, and each affected application would need its own CVE.",
+            "Descriptions": "expat 2.1.0 and earlier does not properly handle entities expansion unless an application developer uses the XML_SetEntityDeclHandler function, which allows remote attackers to cause a denial of service (resource consumption), send HTTP requests to intranet servers, or read arbitrary files via a crafted XML document, aka an XML External Entity (XXE) issue. NOTE: it could be argued that because expat already provides the ability to disable external entity expansion, the responsibility for resolving this issue lies with application developers; according to this argument, this entry should be REJECTed, and each affected application would need its own CVE.",
             "Cvss2_BaseScore": 6.8,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
@@ -4191,7 +4191,7 @@
     "CVE-2013-2099": {
         "CVE-ID": "CVE-2013-2099",
         "NVD": {
-            "Descriptions": "A denial of service flaw was found in the way Python's SSL module implementation performed matching of certain certificate names. A remote attacker able to obtain a valid certificate that contained multiple wildcard characters could use this flaw to issue a request to validate such a certificate, resulting in excessive consumption of CPU.",
+            "Descriptions": "Algorithmic complexity vulnerability in the ssl.match_hostname function in Python 3.2.x, 3.3.x, and earlier, and unspecified versions of python-backports-ssl_match_hostname as used for older Python versions, allows remote attackers to cause a denial of service (CPU consumption) via multiple wildcard characters in the common name in a certificate.",
             "Cvss2_BaseScore": 4.3,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
@@ -8257,7 +8257,7 @@
     "CVE-2016-0718": {
         "CVE-ID": "CVE-2016-0718",
         "NVD": {
-            "Descriptions": "An out-of-bounds read flaw was found in the way Expat processed certain input. A remote attacker could send specially crafted XML that, when parsed by an application using the Expat library, would cause that application to crash or, possibly, execute arbitrary code with the permission of the user running the application.",
+            "Descriptions": "Expat allows context-dependent attackers to cause a denial of service (crash) or possibly execute arbitrary code via a malformed input document, which triggers a buffer overflow.",
             "Cvss2_BaseScore": 7.5,
             "Cvss3_BaseScore": 9.8,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
@@ -9075,7 +9075,7 @@
     "CVE-2016-2183": {
         "CVE-ID": "CVE-2016-2183",
         "NVD": {
-            "Descriptions": "A flaw was found in the way the DES/3DES cipher was used as part of the TLS/SSL protocol. A man-in-the-middle attacker could use this flaw to recover some plaintext data by capturing large amounts of encrypted traffic between TLS/SSL server and client if the communication used a DES/3DES based ciphersuite.",
+            "Descriptions": "The DES and Triple DES ciphers, as used in the TLS, SSH, and IPSec protocols and other protocols and products, have a birthday bound of approximately four billion blocks, which makes it easier for remote attackers to obtain cleartext data via a birthday attack against a long-duration encrypted session, as demonstrated by an HTTPS session using Triple DES in CBC mode, aka a \"Sweet32\" attack.",
             "Cvss2_BaseScore": 5,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
@@ -9632,7 +9632,7 @@
     "CVE-2016-4472": {
         "CVE-ID": "CVE-2016-4472",
         "NVD": {
-            "Descriptions": "The overflow protection in Expat is removed by compilers with certain optimization settings, which allows remote attackers to cause a denial of service (crash) or possibly execute arbitrary code via crafted XML data.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2015-1283 and CVE-2015-2716.",
+            "Descriptions": "The overflow protection in Expat is removed by compilers with certain optimization settings, which allows remote attackers to cause a denial of service (crash) or possibly execute arbitrary code via crafted XML data. NOTE: this vulnerability exists because of an incomplete fix for CVE-2015-1283 and CVE-2015-2716.",
             "Cvss2_BaseScore": 6.8,
             "Cvss3_BaseScore": 8.1,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
@@ -10133,7 +10133,7 @@
     "CVE-2016-5699": {
         "CVE-ID": "CVE-2016-5699",
         "NVD": {
-            "Descriptions": "It was found that the Python's httplib library (used by urllib, urllib2 and others) did not properly check HTTPConnection.putheader() function arguments. An attacker could use this flaw to inject additional headers in a Python application that allowed user provided header names or values.",
+            "Descriptions": "CRLF injection vulnerability in the HTTPConnection.putheader function in urllib2 and urllib in CPython (aka Python) before 2.7.10 and 3.x before 3.4.4 allows remote attackers to inject arbitrary HTTP headers via CRLF sequences in a URL.",
             "Cvss2_BaseScore": 4.3,
             "Cvss3_BaseScore": 6.1,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
@@ -12863,7 +12863,7 @@
     "CVE-2019-10160": {
         "CVE-ID": "CVE-2019-10160",
         "NVD": {
-            "Descriptions": "A security regression of CVE-2019-9636 was discovered in python, since commit d537ab0ff9767ef024f26246899728f0116b1ec3, which still allows an attacker to exploit CVE-2019-9636 by abusing the user and password parts of a URL. When an application parses user-supplied URLs to store cookies, authentication credentials, or other kind of information, it is possible for an attacker to provide specially crafted URLs to make the application locate host-related information (e.g. cookies, authentication data) and send them to a different host than where it should, unlike if the URLs had been correctly parsed. The result of an attack may vary based on the application.",
+            "Descriptions": "A security regression of CVE-2019-9636 was discovered in python since commit d537ab0ff9767ef024f26246899728f0116b1ec3 affecting versions 2.7, 3.5, 3.6, 3.7 and from v3.8.0a4 through v3.8.0b1, which still allows an attacker to exploit CVE-2019-9636 by abusing the user and password parts of a URL. When an application parses user-supplied URLs to store cookies, authentication credentials, or other kind of information, it is possible for an attacker to provide specially crafted URLs to make the application locate host-related information (e.g. cookies, authentication data) and send them to a different host than where it should, unlike if the URLs had been correctly parsed. The result of an attack may vary based on the application.",
             "Cvss2_BaseScore": 5,
             "Cvss3_BaseScore": 9.8,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",

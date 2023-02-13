@@ -58433,7 +58433,7 @@
     "CVE-2012-5615": {
         "CVE-ID": "CVE-2012-5615",
         "NVD": {
-            "Descriptions": "CVE-2012-5615 mysql: Remote Preauth User Enumeration flaw",
+            "Descriptions": "Oracle MySQL 5.5.38 and earlier, 5.6.19 and earlier, and MariaDB 5.5.28a, 5.3.11, 5.2.13, 5.1.66, and possibly other versions, generates different error messages with different time delays depending on whether a user name exists, which allows remote attackers to enumerate valid usernames.",
             "Cvss2_BaseScore": 5,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
@@ -59383,7 +59383,7 @@
     "CVE-2012-4414": {
         "CVE-ID": "CVE-2012-4414",
         "NVD": {
-            "Descriptions": "Multiple SQL injection vulnerabilities in the replication code in Oracle MySQL possibly before 5.5.29, and MariaDB 5.1.x through 5.1.62, 5.2.x through 5.2.12, 5.3.x through 5.3.7, and 5.5.x through 5.5.25, allow remote authenticated users to execute arbitrary SQL commands via vectors related to the binary log.  NOTE: as of 20130116, Oracle has not commented on claims from a downstream vendor that the fix in MySQL 5.5.29 is incomplete.",
+            "Descriptions": "Multiple SQL injection vulnerabilities in the replication code in Oracle MySQL possibly before 5.5.29, and MariaDB 5.1.x through 5.1.62, 5.2.x through 5.2.12, 5.3.x through 5.3.7, and 5.5.x through 5.5.25, allow remote authenticated users to execute arbitrary SQL commands via vectors related to the binary log. NOTE: as of 20130116, Oracle has not commented on claims from a downstream vendor that the fix in MySQL 5.5.29 is incomplete.",
             "Cvss2_BaseScore": 6.5,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
@@ -63901,7 +63901,7 @@
     "CVE-2012-5613": {
         "CVE-ID": "CVE-2012-5613",
         "NVD": {
-            "Descriptions": "** DISPUTED **  MySQL 5.5.19 and possibly other versions, and MariaDB 5.5.28a and possibly other versions, when configured to assign the FILE privilege to users who should not have administrative privileges, allows remote authenticated users to gain privileges by leveraging the FILE privilege to create files as the MySQL administrator.  NOTE: the vendor disputes this issue, stating that this is only a vulnerability when the administrator does not follow recommendations in the product's installation documentation.  NOTE: it could be argued that this should not be included in CVE because it is a configuration issue.",
+            "Descriptions": "** DISPUTED ** MySQL 5.5.19 and possibly other versions, and MariaDB 5.5.28a and possibly other versions, when configured to assign the FILE privilege to users who should not have administrative privileges, allows remote authenticated users to gain privileges by leveraging the FILE privilege to create files as the MySQL administrator. NOTE: the vendor disputes this issue, stating that this is only a vulnerability when the administrator does not follow recommendations in the product's installation documentation. NOTE: it could be argued that this should not be included in CVE because it is a configuration issue.",
             "Cvss2_BaseScore": 6,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:P",

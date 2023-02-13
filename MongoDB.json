@@ -1487,7 +1487,7 @@
     "CVE-2013-1892": {
         "CVE-ID": "CVE-2013-1892",
         "NVD": {
-            "Descriptions": "CVE-2013-1892 MongoDB: Server Side JavaScript Includes allow Remote Code Execution",
+            "Descriptions": "MongoDB before 2.0.9 and 2.2.x before 2.2.4 does not properly validate requests to the nativeHelper function in SpiderMonkey, which allows remote authenticated users to cause a denial of service (invalid memory access and server crash) or execute arbitrary code via a crafted memory address in the first argument.",
             "Cvss2_BaseScore": 6,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:P",
@@ -1643,7 +1643,7 @@
     "CVE-2013-2132": {
         "CVE-ID": "CVE-2013-2132",
         "NVD": {
-            "Descriptions": "CVE-2013-2132 pymongo: null pointer when decoding invalid DBRef",
+            "Descriptions": "bson/_cbsonmodule.c in the mongo-python-driver (aka. pymongo) before 2.5.2, as used in MongoDB, allows context-dependent attackers to cause a denial of service (NULL pointer dereference and crash) via vectors related to decoding of an \"invalid DBRef.\"",
             "Cvss2_BaseScore": 4.3,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:N/A:P",

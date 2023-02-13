@@ -15651,7 +15651,7 @@
     "CVE-2014-0066": {
         "CVE-ID": "CVE-2014-0066",
         "NVD": {
-            "Descriptions": "CVE-2014-0066 postgresql: NULL pointer dereference",
+            "Descriptions": "The chkpass extension in PostgreSQL before 8.4.20, 9.0.x before 9.0.16, 9.1.x before 9.1.12, 9.2.x before 9.2.7, and 9.3.x before 9.3.3 does not properly check the return value of the crypt library function, which allows remote authenticated users to cause a denial of service (NULL pointer dereference and crash) via unspecified vectors.",
             "Cvss2_BaseScore": 4,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
@@ -16651,7 +16651,7 @@
     "CVE-2014-0064": {
         "CVE-ID": "CVE-2014-0064",
         "NVD": {
-            "Descriptions": "CVE-2014-0064 postgresql: integer overflows leading to buffer overflows",
+            "Descriptions": "Multiple integer overflows in the path_in and other unspecified functions in PostgreSQL before 8.4.20, 9.0.x before 9.0.16, 9.1.x before 9.1.12, 9.2.x before 9.2.7, and 9.3.x before 9.3.3 allow remote authenticated users to have unspecified impact and attack vectors, which trigger a buffer overflow. NOTE: this identifier has been SPLIT due to different affected versions; use CVE-2014-2669 for the hstore vector.",
             "Cvss2_BaseScore": 6.5,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
@@ -17151,7 +17151,7 @@
     "CVE-2014-0063": {
         "CVE-ID": "CVE-2014-0063",
         "NVD": {
-            "Descriptions": "CVE-2014-0063 postgresql: stack-based buffer overflow in datetime input/output",
+            "Descriptions": "Multiple stack-based buffer overflows in PostgreSQL before 8.4.20, 9.0.x before 9.0.16, 9.1.x before 9.1.12, 9.2.x before 9.2.7, and 9.3.x before 9.3.3 allow remote authenticated users to cause a denial of service (crash) or possibly execute arbitrary code via vectors related to an incorrect MAXDATELEN constant and datetime values involving (1) intervals, (2) timestamps, or (3) timezones, a different vulnerability than CVE-2014-0065.",
             "Cvss2_BaseScore": 6.5,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
@@ -33353,7 +33353,7 @@
     "CVE-2015-7499": {
         "CVE-ID": "CVE-2015-7499",
         "NVD": {
-            "Descriptions": "A denial of service flaw was found in libxml2. A remote attacker could provide a specially crafted XML or HTML file that, when processed by an application using libxml2, would cause that application to leak potentially sensitive information.",
+            "Descriptions": "Heap-based buffer overflow in the xmlGROW function in parser.c in libxml2 before 2.9.3 allows context-dependent attackers to obtain sensitive process memory information via unspecified vectors.",
             "Cvss2_BaseScore": 5,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
@@ -34501,7 +34501,7 @@
     "CVE-2009-3555": {
         "CVE-ID": "CVE-2009-3555",
         "NVD": {
-            "Descriptions": "CVE-2009-3555 TLS: MITM attacks via session renegotiation",
+            "Descriptions": "The TLS protocol, and the SSL protocol 3.0 and possibly earlier, as used in Microsoft Internet Information Services (IIS) 7.0, mod_ssl in the Apache HTTP Server 2.2.14 and earlier, OpenSSL before 0.9.8l, GnuTLS 2.8.5 and earlier, Mozilla Network Security Services (NSS) 3.12.4 and earlier, multiple Cisco products, and other products, does not properly associate renegotiation handshakes with an existing connection, which allows man-in-the-middle attackers to insert data into HTTPS sessions, and possibly other types of sessions protected by TLS or SSL, by sending an unauthenticated request that is processed retroactively by a server in a post-renegotiation context, related to a \"plaintext injection\" attack, aka the \"Project Mogul\" issue.",
             "Cvss2_BaseScore": 5.8,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:P",
@@ -36110,7 +36110,7 @@
     "CVE-2010-0733": {
         "CVE-ID": "CVE-2010-0733",
         "NVD": {
-            "Descriptions": "CVE-2010-0733 postgresql: Integer overflow in hash table size calculation",
+            "Descriptions": "Integer overflow in src/backend/executor/nodeHash.c in PostgreSQL 8.4.1 and earlier, and 8.5 through 8.5alpha2, allows remote authenticated users to cause a denial of service (daemon crash) via a SELECT statement with many LEFT JOIN clauses, related to certain hashtable size calculations.",
             "Cvss2_BaseScore": 3.5,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:M/Au:S/C:N/I:N/A:P",
@@ -37670,7 +37670,7 @@
     "CVE-2012-1618": {
         "CVE-ID": "CVE-2012-1618",
         "NVD": {
-            "Descriptions": "Interaction error in the PostgreSQL JDBC driver before 8.2, when used with a PostgreSQL server with the \"standard_conforming_strings\" option enabled, such as the default configuration of PostgreSQL 9.1, does not properly escape unspecified JDBC statement parameters, which allows remote attackers to perform SQL injection attacks.  NOTE: as of 20120330, it was claimed that the upstream developer planned to dispute this issue, but an official dispute has not been posted as of 20121005.",
+            "Descriptions": "Interaction error in the PostgreSQL JDBC driver before 8.2, when used with a PostgreSQL server with the \"standard_conforming_strings\" option enabled, such as the default configuration of PostgreSQL 9.1, does not properly escape unspecified JDBC statement parameters, which allows remote attackers to perform SQL injection attacks. NOTE: as of 20120330, it was claimed that the upstream developer planned to dispute this issue, but an official dispute has not been posted as of 20121005.",
             "Cvss2_BaseScore": 7.5,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",

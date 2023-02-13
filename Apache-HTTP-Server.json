@@ -7004,7 +7004,7 @@
     "CVE-2008-2939": {
         "CVE-ID": "CVE-2008-2939",
         "NVD": {
-            "Descriptions": "CVE-2008-2939 httpd: mod_proxy_ftp globbing XSS",
+            "Descriptions": "Cross-site scripting (XSS) vulnerability in proxy_ftp.c in the mod_proxy_ftp module in Apache 2.0.63 and earlier, and mod_proxy_ftp.c in the mod_proxy_ftp module in Apache 2.2.9 and earlier 2.2 versions, allows remote attackers to inject arbitrary web script or HTML via a wildcard in the last directory component in the pathname in an FTP URI.",
             "Cvss2_BaseScore": 4.3,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
@@ -7312,7 +7312,7 @@
     "CVE-2009-2412": {
         "CVE-ID": "CVE-2009-2412",
         "NVD": {
-            "Descriptions": "CVE-2009-2412 apr, apr-util: Integer overflows in memory pool (apr) and relocatable memory (apr-util) management",
+            "Descriptions": "Multiple integer overflows in the Apache Portable Runtime (APR) library and the Apache Portable Utility library (aka APR-util) 0.9.x and 1.3.x allow remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via vectors that trigger crafted calls to the (1) allocator_alloc or (2) apr_palloc function in memory/unix/apr_pools.c in APR; or crafted calls to the (3) apr_rmm_malloc, (4) apr_rmm_calloc, or (5) apr_rmm_realloc function in misc/apr_rmm.c in APR-util; leading to buffer overflows. NOTE: some of these details are obtained from third party information.",
             "Cvss2_BaseScore": 10,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
@@ -9508,7 +9508,7 @@
     "CVE-2007-3847": {
         "CVE-ID": "CVE-2007-3847",
         "NVD": {
-            "Descriptions": "CVE-2007-3847 httpd: out of bounds read",
+            "Descriptions": "The date handling code in modules/proxy/proxy_util.c (mod_proxy) in Apache 2.3.0, when using a threaded MPM, allows remote origin servers to cause a denial of service (caching forward proxy process crash) via crafted date headers that trigger a buffer over-read.",
             "Cvss2_BaseScore": 5,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
@@ -19385,7 +19385,7 @@
     "CVE-2009-1890": {
         "CVE-ID": "CVE-2009-1890",
         "NVD": {
-            "Descriptions": "CVE-2009-1890 httpd: mod_proxy reverse proxy DoS (infinite loop)",
+            "Descriptions": "The stream_reqbody_cl function in mod_proxy_http.c in the mod_proxy module in the Apache HTTP Server before 2.3.3, when a reverse proxy is configured, does not properly handle an amount of streamed data that exceeds the Content-Length value, which allows remote attackers to cause a denial of service (CPU consumption) via crafted requests.",
             "Cvss2_BaseScore": 7.1,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:N/A:C",
@@ -19824,7 +19824,7 @@
     "CVE-2010-2791": {
         "CVE-ID": "CVE-2010-2791",
         "NVD": {
-            "Descriptions": "mod_proxy in httpd in Apache HTTP Server 2.2.9, when running on Unix, does not close the backend connection if a timeout occurs when reading a response from a persistent connection, which allows remote attackers to obtain a potentially sensitive response intended for a different client in opportunistic circumstances via a normal HTTP request.  NOTE: this is the same issue as CVE-2010-2068, but for a different OS and set of affected versions.",
+            "Descriptions": "mod_proxy in httpd in Apache HTTP Server 2.2.9, when running on Unix, does not close the backend connection if a timeout occurs when reading a response from a persistent connection, which allows remote attackers to obtain a potentially sensitive response intended for a different client in opportunistic circumstances via a normal HTTP request. NOTE: this is the same issue as CVE-2010-2068, but for a different OS and set of affected versions.",
             "Cvss2_BaseScore": 5,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
@@ -30426,7 +30426,7 @@
     "CVE-2009-3555": {
         "CVE-ID": "CVE-2009-3555",
         "NVD": {
-            "Descriptions": "CVE-2009-3555 TLS: MITM attacks via session renegotiation",
+            "Descriptions": "The TLS protocol, and the SSL protocol 3.0 and possibly earlier, as used in Microsoft Internet Information Services (IIS) 7.0, mod_ssl in the Apache HTTP Server 2.2.14 and earlier, OpenSSL before 0.9.8l, GnuTLS 2.8.5 and earlier, Mozilla Network Security Services (NSS) 3.12.4 and earlier, multiple Cisco products, and other products, does not properly associate renegotiation handshakes with an existing connection, which allows man-in-the-middle attackers to insert data into HTTPS sessions, and possibly other types of sessions protected by TLS or SSL, by sending an unauthenticated request that is processed retroactively by a server in a post-renegotiation context, related to a \"plaintext injection\" attack, aka the \"Project Mogul\" issue.",
             "Cvss2_BaseScore": 5.8,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:P",
@@ -33747,7 +33747,7 @@
     "CVE-2007-1742": {
         "CVE-ID": "CVE-2007-1742",
         "NVD": {
-            "Descriptions": "suexec in Apache HTTP Server (httpd) 2.2.3 uses a partial comparison for verifying whether the current directory is within the document root, which might allow local users to perform unauthorized operations on incorrect directories, as demonstrated using \"html_backup\" and \"htmleditor\" under an \"html\" directory.  NOTE: the researcher, who is reliable, claims that the vendor disputes the issue because \"the attacks described rely on an insecure server configuration\" in which the user \"has write access to the document root.\"",
+            "Descriptions": "suexec in Apache HTTP Server (httpd) 2.2.3 uses a partial comparison for verifying whether the current directory is within the document root, which might allow local users to perform unauthorized operations on incorrect directories, as demonstrated using \"html_backup\" and \"htmleditor\" under an \"html\" directory. NOTE: the researcher, who is reliable, claims that the vendor disputes the issue because \"the attacks described rely on an insecure server configuration\" in which the user \"has write access to the document root.\"",
             "Cvss2_BaseScore": 3.7,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:L/AC:H/Au:N/C:P/I:P/A:P",
@@ -33767,7 +33767,7 @@
     "CVE-2007-1743": {
         "CVE-ID": "CVE-2007-1743",
         "NVD": {
-            "Descriptions": "suexec in Apache HTTP Server (httpd) 2.2.3 does not verify combinations of user and group IDs on the command line, which might allow local users to leverage other vulnerabilities to create arbitrary UID/GID owned files if /proc is mounted.  NOTE: the researcher, who is reliable, claims that the vendor disputes the issue because \"the attacks described rely on an insecure server configuration\" in which the user \"has write access to the document root.\"  In addition, because this is dependent on other vulnerabilities, perhaps this is resultant and should not be included in CVE.",
+            "Descriptions": "suexec in Apache HTTP Server (httpd) 2.2.3 does not verify combinations of user and group IDs on the command line, which might allow local users to leverage other vulnerabilities to create arbitrary UID/GID owned files if /proc is mounted. NOTE: the researcher, who is reliable, claims that the vendor disputes the issue because \"the attacks described rely on an insecure server configuration\" in which the user \"has write access to the document root.\" In addition, because this is dependent on other vulnerabilities, perhaps this is resultant and should not be included in CVE.",
             "Cvss2_BaseScore": 4.4,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:L/AC:M/Au:N/C:P/I:P/A:P",
@@ -35527,7 +35527,7 @@
     "CVE-2011-1928": {
         "CVE-ID": "CVE-2011-1928",
         "NVD": {
-            "Descriptions": "The fnmatch implementation in apr_fnmatch.c in the Apache Portable Runtime (APR) library 1.4.3 and 1.4.4, and the Apache HTTP Server 2.2.18, allows remote attackers to cause a denial of service (infinite loop) via a URI that does not match unspecified types of wildcard patterns, as demonstrated by attacks against mod_autoindex in httpd when a /*/WEB-INF/ configuration pattern is used.  NOTE: this issue exists because of an incorrect fix for CVE-2011-0419.",
+            "Descriptions": "The fnmatch implementation in apr_fnmatch.c in the Apache Portable Runtime (APR) library 1.4.3 and 1.4.4, and the Apache HTTP Server 2.2.18, allows remote attackers to cause a denial of service (infinite loop) via a URI that does not match unspecified types of wildcard patterns, as demonstrated by attacks against mod_autoindex in httpd when a /*/WEB-INF/ configuration pattern is used. NOTE: this issue exists because of an incorrect fix for CVE-2011-0419.",
             "Cvss2_BaseScore": 4.3,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
@@ -35563,7 +35563,7 @@
     "CVE-2011-3639": {
         "CVE-ID": "CVE-2011-3639",
         "NVD": {
-            "Descriptions": "The mod_proxy module in the Apache HTTP Server 2.0.x through 2.0.64 and 2.2.x before 2.2.18, when the Revision 1179239 patch is in place, does not properly interact with use of (1) RewriteRule and (2) ProxyPassMatch pattern matches for configuration of a reverse proxy, which allows remote attackers to send requests to intranet servers by using the HTTP/0.9 protocol with a malformed URI containing an initial @ (at sign) character.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2011-3368.",
+            "Descriptions": "The mod_proxy module in the Apache HTTP Server 2.0.x through 2.0.64 and 2.2.x before 2.2.18, when the Revision 1179239 patch is in place, does not properly interact with use of (1) RewriteRule and (2) ProxyPassMatch pattern matches for configuration of a reverse proxy, which allows remote attackers to send requests to intranet servers by using the HTTP/0.9 protocol with a malformed URI containing an initial @ (at sign) character. NOTE: this vulnerability exists because of an incomplete fix for CVE-2011-3368.",
             "Cvss2_BaseScore": 4.3,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
@@ -36663,7 +36663,7 @@
     "CVE-2016-8612": {
         "CVE-ID": "CVE-2016-8612",
         "NVD": {
-            "Descriptions": "An error was found in protocol parsing logic of mod_cluster load balancer Apache HTTP Server modules. An attacker could use this flaw to cause a Segmentation Fault in the serving httpd process.",
+            "Descriptions": "Apache HTTP Server mod_cluster before version httpd 2.4.23 is vulnerable to an Improper Input Validation in the protocol parsing logic in the load balancer resulting in a Segmentation Fault in the serving httpd process.",
             "Cvss2_BaseScore": 3.3,
             "Cvss3_BaseScore": 4.3,
             "Cvss2_VectorString": "AV:A/AC:L/Au:N/C:N/I:N/A:P",
@@ -36707,7 +36707,7 @@
     "CVE-2017-12171": {
         "CVE-ID": "CVE-2017-12171",
         "NVD": {
-            "Descriptions": "A regression was found in the Red Hat Enterprise Linux 6.9 version of httpd, causing comments in the \"Allow\" and \"Deny\" configuration lines to be parsed incorrectly. A web administrator could unintentionally allow any client to access a restricted HTTP resource.",
+            "Descriptions": "A regression was found in the Red Hat Enterprise Linux 6.9 version of httpd 2.2.15-60, causing comments in the \"Allow\" and \"Deny\" configuration lines to be parsed incorrectly. A web administrator could unintentionally allow any client to access a restricted HTTP resource.",
             "Cvss2_BaseScore": 6.4,
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:N",
