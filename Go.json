@@ -3260,7 +3260,6 @@
             },
             "1.17": {
                 "source": {
-                    "46504": "https://github.com/golang/go/issues/46504",
                     "46241": "https://github.com/golang/go/issues/46241"
                 }
             }
@@ -6181,11 +6180,6 @@
             "1.10": {
                 "source": {
                     "21144": "https://github.com/golang/go/issues/21144"
-                }
-            },
-            "1.17": {
-                "source": {
-                    "41476": "https://github.com/golang/go/issues/41476"
                 }
             }
         }
