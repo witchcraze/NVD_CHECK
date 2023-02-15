@@ -5705,6 +5705,16 @@
             }
         }
     },
+    "CVE-2023-24531": {
+        "CVE-ID": "CVE-2023-24531",
+        "Official": {
+            "1.21": {
+                "source": {
+                    "58508": "https://github.com/golang/go/issues/58508"
+                }
+            }
+        }
+    },
     "CVE-2022-41725": {
         "CVE-ID": "CVE-2022-41725",
         "Official": {
