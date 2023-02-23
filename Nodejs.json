@@ -19410,6 +19410,14 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/o:debian:debian_linux:10.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:10.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:siemens:sinec_infrastructure_network_services",
                     "FormattedString": "cpe:2.3:a:siemens:sinec_infrastructure_network_services:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -21464,6 +21472,14 @@
     },
     "CVE-2023-23918": {
         "CVE-ID": "CVE-2023-23918",
+        "NVD": {
+            "Descriptions": "A privilege escalation vulnerability exists in Node.js <19.6.1, <18.14.1, <16.19.1 and <14.21.3 that made it possible to bypass the experimental Permissions (https://nodejs.org/api/permissions.html) feature in Node.js and access non authorized modules by using process.mainModule.require(). This only affects users who had enabled the experimental permissions option with --experimental-policy.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "14.21.3": {
                 "source": [
@@ -21493,6 +21509,14 @@
     },
     "CVE-2023-23920": {
         "CVE-ID": "CVE-2023-23920",
+        "NVD": {
+            "Descriptions": "An untrusted search path vulnerability exists in Node.js. <19.6.1, <18.14.1, <16.19.1, and <14.21.3 that could allow an attacker to search and potentially load ICU data when running with elevated privileges.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "14.21.3": {
                 "source": [
@@ -21617,7 +21641,7 @@
     "CVE-2022-32212": {
         "CVE-ID": "CVE-2022-32212",
         "NVD": {
-            "Descriptions": "A OS Command Injection vulnerability exists in Node.js versions <14.20.0, <16.16.0, <18.5.0 due to an insufficient IsAllowedHost check that can easily be bypassed because IsIPAddress does not properly check if an IP address is invalid before making DBS requests allowing rebinding attacks.",
+            "Descriptions": "A OS Command Injection vulnerability exists in Node.js versions <14.20.0, <16.20.0, <18.5.0 due to an insufficient IsAllowedHost check that can easily be bypassed because IsIPAddress does not properly check if an IP address is invalid before making DBS requests allowing rebinding attacks.",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 8.1,
             "Cvss2_VectorString": "",
@@ -21764,6 +21788,62 @@
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
             "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:37",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:36",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:36:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:35",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:11.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:11.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:sp2",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:sp2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:sp1",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:sp1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:-",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
                 {
                     "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
                     "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
@@ -22017,6 +22097,14 @@
     },
     "CVE-2023-23919": {
         "CVE-ID": "CVE-2023-23919",
+        "NVD": {
+            "Descriptions": "A cryptographic vulnerability exists in Node.js <19.2.0, <18.14.1, <16.19.1, <14.21.3 that in some cases did does not clear the OpenSSL error stack after operations that may set it. This may lead to false positive errors during subsequent cryptographic operations that happen to be on the same thread. This in turn could be used to cause a denial of service.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "16.19.1": {
                 "source": [
@@ -22508,12 +22596,44 @@
     "CVE-2022-32222": {
         "CVE-ID": "CVE-2022-32222",
         "NVD": {
-            "Descriptions": "A cryptographic vulnerability exists on Node.js on linux in versions of 18.x prior to 18.4.0 which allowed a default path for openssl.cnf that might be accessible under some circumstances to a non-admin user instead of /etc/ssl as was the case in versions prior to the upgrade to OpenSSL 3.",
+            "Descriptions": "A cryptographic vulnerability exists on Node.js on linux in versions of 18.x prior to 18.40.0 which allowed a default path for openssl.cnf that might be accessible under some circumstances to a non-admin user instead of /etc/ssl as was the case in versions prior to the upgrade to OpenSSL 3.",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 5.3,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
             "CPEs": [
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:sp2",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:sp2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:sp1",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:sp1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:-",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.0",
+                    "VersionEndIncluding": ""
+                },
                 {
                     "URI": "cpe:/a:nodejs:node.js",
                     "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
@@ -22557,6 +22677,62 @@
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
             "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:37",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:36",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:36:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:35",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:11.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:11.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:sp2",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:sp2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:sp1",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:sp1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:-",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
                 {
                     "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
                     "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
@@ -22713,6 +22889,54 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/o:debian:debian_linux:11.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:11.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:10.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:10.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:sp2",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:sp2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:sp1",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:sp1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:-",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.0",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:openssl:openssl",
                     "FormattedString": "cpe:2.3:a:openssl:openssl:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -22763,6 +22987,14 @@
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
             "CPEs": [
+                {
+                    "URI": "cpe:/o:debian:debian_linux:11.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:11.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
                 {
                     "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
                     "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
