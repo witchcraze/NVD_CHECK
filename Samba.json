@@ -42487,6 +42487,30 @@
                     "VersionStartIncluding": "4.14.0",
                     "VersionEndExcluding": "4.14.8",
                     "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:ontap_select_deploy_administration_utility:-",
+                    "FormattedString": "cpe:2.3:a:netapp:ontap_select_deploy_administration_utility:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:management_services_for_netapp_hci:-",
+                    "FormattedString": "cpe:2.3:a:netapp:management_services_for_netapp_hci:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:management_services_for_element_software:-",
+                    "FormattedString": "cpe:2.3:a:netapp:management_services_for_element_software:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
