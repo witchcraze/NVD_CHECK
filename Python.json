@@ -15354,12 +15354,60 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:20.04::~~lts~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:20.04:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:18.04::~~lts~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:18.04:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:16.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:16.04:*:*:*:esm:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:14.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:esm:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:12.04::~~-~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:12.04:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:python:python",
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": "3.7.2"
+                },
+                {
+                    "URI": "cpe:/a:netapp:active_iq_unified_manager:-::~~~vmware_vsphere~~",
+                    "FormattedString": "cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:vmware_vsphere:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
                 }
             ]
         },

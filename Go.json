@@ -4023,14 +4023,6 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
-                    "URI": "cpe:/o:fedoraproject:fedora:35",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -5026,14 +5018,6 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
-                    "URI": "cpe:/o:fedoraproject:fedora:35",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -5078,14 +5062,6 @@
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
-                {
-                    "URI": "cpe:/o:fedoraproject:fedora:35",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
                 {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
@@ -5132,14 +5108,6 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
-                    "URI": "cpe:/o:fedoraproject:fedora:35",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -5184,14 +5152,6 @@
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
-                {
-                    "URI": "cpe:/o:fedoraproject:fedora:35",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
                 {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
@@ -5290,14 +5250,6 @@
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
-                {
-                    "URI": "cpe:/o:fedoraproject:fedora:35",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
                 {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
