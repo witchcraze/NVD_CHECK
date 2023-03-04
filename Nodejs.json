@@ -21499,10 +21499,67 @@
         "NVD": {
             "Descriptions": "A privilege escalation vulnerability exists in Node.js <19.6.1, <18.14.1, <16.19.1 and <14.21.3 that made it possible to bypass the experimental Permissions (https://nodejs.org/api/permissions.html) feature in Node.js and access non authorized modules by using process.mainModule.require(). This only affects users who had enabled the experimental permissions option with --experimental-policy.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.0.0",
+                    "VersionEndExcluding": "14.21.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.0.0",
+                    "VersionEndExcluding": "16.19.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0.0",
+                    "VersionEndExcluding": "18.14.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.14.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.12.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "18.11.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "19.0.0",
+                    "VersionEndExcluding": "19.6.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "14.21.3": {
@@ -21536,10 +21593,75 @@
         "NVD": {
             "Descriptions": "An untrusted search path vulnerability exists in Node.js. <19.6.1, <18.14.1, <16.19.1, and <14.21.3 that could allow an attacker to search and potentially load ICU data when running with elevated privileges.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 4.2,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:debian:debian_linux:10.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:10.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.0.0",
+                    "VersionEndExcluding": "14.21.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.0.0",
+                    "VersionEndExcluding": "16.19.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0.0",
+                    "VersionEndExcluding": "18.14.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.14.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.12.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "18.11.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "19.0.0",
+                    "VersionEndExcluding": "19.6.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "14.21.3": {
@@ -22180,10 +22302,67 @@
         "NVD": {
             "Descriptions": "A cryptographic vulnerability exists in Node.js <19.2.0, <18.14.1, <16.19.1, <14.21.3 that in some cases did does not clear the OpenSSL error stack after operations that may set it. This may lead to false positive errors during subsequent cryptographic operations that happen to be on the same thread. This in turn could be used to cause a denial of service.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.0.0",
+                    "VersionEndExcluding": "14.21.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.0.0",
+                    "VersionEndExcluding": "16.19.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0.0",
+                    "VersionEndExcluding": "18.14.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.14.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.12.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "18.11.0"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "19.0.0",
+                    "VersionEndExcluding": "19.2.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "16.19.1": {

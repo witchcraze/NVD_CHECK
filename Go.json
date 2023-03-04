@@ -3970,14 +3970,6 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
             "CPEs": [
                 {
-                    "URI": "cpe:/o:fedoraproject:fedora:35",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -4692,14 +4684,6 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
-                    "URI": "cpe:/o:fedoraproject:fedora:37",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -4744,14 +4728,6 @@
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
             "CPEs": [
-                {
-                    "URI": "cpe:/o:fedoraproject:fedora:37",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
                 {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
@@ -4956,22 +4932,6 @@
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N",
             "CPEs": [
-                {
-                    "URI": "cpe:/o:fedoraproject:fedora:35",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:netapp:cloud_insights_telegraf_agent:-",
-                    "FormattedString": "cpe:2.3:a:netapp:cloud_insights_telegraf_agent:-:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
                 {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
@@ -5341,14 +5301,6 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
-                    "URI": "cpe:/o:fedoraproject:fedora:36",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:36:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -5393,14 +5345,6 @@
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
             "CPEs": [
-                {
-                    "URI": "cpe:/o:fedoraproject:fedora:37",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
                 {
                     "URI": "cpe:/a:golang:go:1.19.0:rc2",
                     "FormattedString": "cpe:2.3:a:golang:go:1.19.0:rc2:*:*:*:*:*:*",
@@ -5470,14 +5414,6 @@
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
-                {
-                    "URI": "cpe:/o:fedoraproject:fedora:37",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
                 {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
@@ -5653,6 +5589,26 @@
             "1.18.9": {
                 "source": {
                     "57005": "https://github.com/golang/go/issues/57005"
+                }
+            }
+        }
+    },
+    "CVE-2023-24532": {
+        "CVE-ID": "CVE-2023-24532",
+        "Official": {
+            "1.21": {
+                "source": {
+                    "58647": "https://github.com/golang/go/issues/58647"
+                }
+            },
+            "1.19.7": {
+                "source": {
+                    "58719": "https://github.com/golang/go/issues/58719"
+                }
+            },
+            "1.20.2": {
+                "source": {
+                    "58720": "https://github.com/golang/go/issues/58720"
                 }
             }
         }
