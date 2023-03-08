@@ -377,6 +377,14 @@
     },
     "CVE-2022-45141": {
         "CVE-ID": "CVE-2022-45141",
+        "NVD": {
+            "Descriptions": "Since the Windows Kerberos RC4-HMAC Elevation of Privilege Vulnerability was disclosed by Microsoft on Nov 8 2022 and per RFC8429 it is assumed that rc4-hmac is weak, Vulnerable Samba Active Directory DCs will issue rc4-hmac encrypted tickets despite the target server supporting better encryption (eg aes256-cts-hmac-sha1-96).",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "-": {
                 "source": [
@@ -42561,6 +42569,14 @@
     },
     "CVE-2021-20251": {
         "CVE-ID": "CVE-2021-20251",
+        "NVD": {
+            "Descriptions": "A flaw was found in samba. A race condition in the password lockout code may lead to the risk of brute force attacks being successful if special conditions are met.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "4.16.8": {
                 "source": [
