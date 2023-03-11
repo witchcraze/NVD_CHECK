@@ -2,7 +2,7 @@
     "CVE-2022-38023": {
         "CVE-ID": "CVE-2022-38023",
         "NVD": {
-            "Descriptions": "Netlogon RPC Elevation of Privilege Vulnerability.",
+            "Descriptions": "Netlogon RPC Elevation of Privilege Vulnerability",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 8.1,
             "Cvss2_VectorString": "",
@@ -134,7 +134,7 @@
     "CVE-2022-37966": {
         "CVE-ID": "CVE-2022-37966",
         "NVD": {
-            "Descriptions": "Windows Kerberos RC4-HMAC Elevation of Privilege Vulnerability.",
+            "Descriptions": "Windows Kerberos RC4-HMAC Elevation of Privilege Vulnerability",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 8.1,
             "Cvss2_VectorString": "",
@@ -256,7 +256,7 @@
     "CVE-2022-37967": {
         "CVE-ID": "CVE-2022-37967",
         "NVD": {
-            "Descriptions": "Windows Kerberos Elevation of Privilege Vulnerability.",
+            "Descriptions": "Windows Kerberos Elevation of Privilege Vulnerability",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 7.2,
             "Cvss2_VectorString": "",
