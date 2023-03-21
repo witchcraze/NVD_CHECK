@@ -1,4 +1,23 @@
 {
+    "CVE-2023-28425": {
+        "CVE-ID": "CVE-2023-28425",
+        "NVD": {
+            "Descriptions": "Redis is an in-memory database that persists on disk. Starting in version 7.0.8 and prior to version 7.0.10, authenticated users can use the MSETNX command to trigger a runtime assertion and termination of the Redis server process. The problem is fixed in Redis version 7.0.10.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "7.0.10": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/7.0.10",
+                    "https://raw.githubusercontent.com/redis/redis/7.0/00-RELEASENOTES"
+                ]
+            }
+        }
+    },
     "CVE-2023-25155": {
         "CVE-ID": "CVE-2023-25155",
         "NVD": {
