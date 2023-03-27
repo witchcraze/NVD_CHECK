@@ -12,7 +12,7 @@
                     "URI": "cpe:/a:redis:redis",
                     "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
+                    "VersionStartIncluding": "7.0.8",
                     "VersionEndExcluding": "7.0.10",
                     "VersionEndIncluding": ""
                 }
