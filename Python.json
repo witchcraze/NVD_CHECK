@@ -22960,7 +22960,7 @@
         "Official": {
             "3.12.0a6": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0a6/Misc/NEWS.d/3.12.0a6.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.12.0a6.rst"
                 ],
                 "BTS": {
                     "gh-issue101727": {
@@ -22996,7 +22996,7 @@
         "Official": {
             "3.12.0a6": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0a6/Misc/NEWS.d/3.12.0a6.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.12.0a6.rst"
                 ],
                 "BTS": {
                     "gh-issue101727": {
