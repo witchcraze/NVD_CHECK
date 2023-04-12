@@ -36355,5 +36355,25 @@
                 }
             ]
         }
+    },
+    "CVE-2023-28625": {
+        "CVE-ID": "CVE-2023-28625",
+        "NVD": {
+            "Descriptions": "mod_auth_openidc is an authentication and authorization module for the Apache 2.x HTTP server that implements the OpenID Connect Relying Party functionality. In versions 2.0.0 through 2.4.13.1, when `OIDCStripCookies` is set and a crafted cookie supplied, a NULL pointer dereference would occur, resulting in a segmentation fault. This could be used in a Denial-of-Service attack and thus presents an availability risk. Version 2.4.13.2 contains a patch for this issue. As a workaround, avoid using `OIDCStripCookies`.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.0.0",
+                    "VersionEndExcluding": "2.4.13.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
     }
 }

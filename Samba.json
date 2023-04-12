@@ -4,10 +4,59 @@
         "NVD": {
             "Descriptions": "A flaw was found in Samba. An incomplete access check on dnsHostName allows authenticated but otherwise unprivileged users to delete this attribute from any object in the directory.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 4.3,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:samba:samba:4.18.0:rc4",
+                    "FormattedString": "cpe:2.3:a:samba:samba:4.18.0:rc4:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba:4.18.0:rc3",
+                    "FormattedString": "cpe:2.3:a:samba:samba:4.18.0:rc3:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba:4.18.0:rc2",
+                    "FormattedString": "cpe:2.3:a:samba:samba:4.18.0:rc2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba:4.18.0:rc1",
+                    "FormattedString": "cpe:2.3:a:samba:samba:4.18.0:rc1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba:4.18.0:-",
+                    "FormattedString": "cpe:2.3:a:samba:samba:4.18.0:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.17.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "4.17.7"
+                }
+            ]
         },
         "Official": {
             "-": {
@@ -32,10 +81,67 @@
         "NVD": {
             "Descriptions": "The Samba AD DC administration tool, when operating against a remote LDAP server, will by default send new or reset passwords over a signed-only connection.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 5.9,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:samba:samba:4.18.0:rc4",
+                    "FormattedString": "cpe:2.3:a:samba:samba:4.18.0:rc4:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba:4.18.0:rc3",
+                    "FormattedString": "cpe:2.3:a:samba:samba:4.18.0:rc3:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba:4.18.0:rc2",
+                    "FormattedString": "cpe:2.3:a:samba:samba:4.18.0:rc2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba:4.18.0:rc1",
+                    "FormattedString": "cpe:2.3:a:samba:samba:4.18.0:rc1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba:4.18.0:-",
+                    "FormattedString": "cpe:2.3:a:samba:samba:4.18.0:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.16.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.17.0",
+                    "VersionEndExcluding": "4.17.7",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "-": {
@@ -65,10 +171,43 @@
         "NVD": {
             "Descriptions": "The fix in 4.6.16, 4.7.9, 4.8.4 and 4.9.7 for CVE-2018-10919 Confidential attribute disclosure vi LDAP filters was insufficient and an attacker may be able to obtain confidential BitLocker recovery keys from a Samba AD DC.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.6.16",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.7.0",
+                    "VersionEndExcluding": "4.7.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.8.0",
+                    "VersionEndExcluding": "4.8.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.9.0",
+                    "VersionEndExcluding": "4.9.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "-": {
