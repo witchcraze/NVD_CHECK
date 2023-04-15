@@ -5880,6 +5880,51 @@
             }
         }
     },
+    "CVE-2023-24537": {
+        "CVE-ID": "CVE-2023-24537",
+        "NVD": {
+            "Descriptions": "Calling any of the Parse functions on Go source code which contains //line directives with very large line numbers can cause an infinite loop due to integer overflow.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.19.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.20.0",
+                    "VersionEndExcluding": "1.20.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.21": {
+                "source": {
+                    "59180": "https://github.com/golang/go/issues/59180"
+                }
+            },
+            "1.19.8": {
+                "source": {
+                    "59273": "https://github.com/golang/go/issues/59273"
+                }
+            },
+            "1.20.3": {
+                "source": {
+                    "59274": "https://github.com/golang/go/issues/59274"
+                }
+            }
+        }
+    },
     "CVE-2023-24538": {
         "CVE-ID": "CVE-2023-24538",
         "NVD": {
@@ -5904,34 +5949,6 @@
             "1.20.3": {
                 "source": {
                     "59272": "https://github.com/golang/go/issues/59272"
-                }
-            }
-        }
-    },
-    "CVE-2023-24537": {
-        "CVE-ID": "CVE-2023-24537",
-        "NVD": {
-            "Descriptions": "Calling any of the Parse functions on Go source code which contains //line directives with very large line numbers can cause an infinite loop due to integer overflow.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.21": {
-                "source": {
-                    "59180": "https://github.com/golang/go/issues/59180"
-                }
-            },
-            "1.19.8": {
-                "source": {
-                    "59273": "https://github.com/golang/go/issues/59273"
-                }
-            },
-            "1.20.3": {
-                "source": {
-                    "59274": "https://github.com/golang/go/issues/59274"
                 }
             }
         }
