@@ -3069,7 +3069,7 @@
             },
             "3.7.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.8.0rc1/Misc/NEWS.d/3.7.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.7.0a1.rst"
                 ],
                 "BTS": {
                     "bpo30694": {
@@ -8590,7 +8590,7 @@
             },
             "3.7.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.8.0rc1/Misc/NEWS.d/3.7.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.7.0a1.rst"
                 ],
                 "BTS": {
                     "bpo30694": {
@@ -9778,7 +9778,7 @@
             },
             "3.7.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.8.0rc1/Misc/NEWS.d/3.7.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.7.0a1.rst"
                 ],
                 "BTS": {
                     "bpo29591": {
@@ -10643,7 +10643,7 @@
             },
             "3.7.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.8.0rc1/Misc/NEWS.d/3.7.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.7.0a1.rst"
                 ],
                 "BTS": {
                     "bpo30694": {
@@ -11036,7 +11036,7 @@
             },
             "3.7.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.8.0rc1/Misc/NEWS.d/3.7.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.7.0a1.rst"
                 ],
                 "BTS": {
                     "bpo30694": {
@@ -22145,7 +22145,7 @@
             },
             "3.7.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.8.0rc1/Misc/NEWS.d/3.7.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.7.0a1.rst"
                 ],
                 "BTS": {
                     "bpo30694": {
