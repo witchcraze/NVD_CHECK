@@ -1,4 +1,67 @@
 {
+    "CVE-2022-47015": {
+        "CVE-ID": "CVE-2022-47015",
+        "NVD": {
+            "Descriptions": "MariaDB Server before 10.3.34 thru 10.9.3 is vulnerable to Denial of Service. It is possible for function spider_db_mbase::print_warnings to dereference a null pointer.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.3.34",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "10.9.3"
+                }
+            ]
+        },
+        "Official": {
+            "10.9.6": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-10-9-6-release-notes/"
+                ]
+            },
+            "10.8.8_EXCLUDE": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/"
+                ]
+            },
+            "10.6.13_EXCLUDE": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/"
+                ]
+            },
+            "10.5.20_EXCLUDE": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/"
+                ]
+            },
+            "10.4.29_EXCLUDE": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/"
+                ]
+            },
+            "10.3.39_EXCLUDE": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/"
+                ]
+            },
+            "10.11.3_EXCLUDE": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/"
+                ]
+            },
+            "10.10.4_EXCLUDE": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/"
+                ]
+            }
+        }
+    },
     "CVE-2022-32091": {
         "CVE-ID": "CVE-2022-32091",
         "NVD": {
@@ -64814,26 +64877,6 @@
                     "VersionStartIncluding": "10.8.0",
                     "VersionEndExcluding": "10.8.4",
                     "VersionEndIncluding": ""
-                }
-            ]
-        }
-    },
-    "CVE-2022-47015": {
-        "CVE-ID": "CVE-2022-47015",
-        "NVD": {
-            "Descriptions": "MariaDB Server before 10.3.34 thru 10.9.3 is vulnerable to Denial of Service. It is possible for function spider_db_mbase::print_warnings to dereference a null pointer.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 6.5,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:mariadb:mariadb",
-                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "10.3.34",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "10.9.3"
                 }
             ]
         }
