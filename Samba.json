@@ -42884,6 +42884,11 @@
                 "source": [
                     "https://www.samba.org/samba/history/samba-4.17.7.html"
                 ]
+            },
+            "4.17.8": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.8.html"
+                ]
             }
         }
     },
