@@ -31177,6 +31177,76 @@
             }
         }
     },
+    "CVE-2023-2455": {
+        "CVE-ID": "CVE-2023-2455",
+        "Official": {
+            "11.20": {
+                "source": [
+                    "https://www.postgresql.org/support/security/11/",
+                    "https://www.postgresql.org/docs/release/11.20/"
+                ]
+            },
+            "12.15": {
+                "source": [
+                    "https://www.postgresql.org/support/security/12/",
+                    "https://www.postgresql.org/docs/release/12.15/"
+                ]
+            },
+            "13.11": {
+                "source": [
+                    "https://www.postgresql.org/support/security/13/",
+                    "https://www.postgresql.org/docs/release/13.11/"
+                ]
+            },
+            "14.8": {
+                "source": [
+                    "https://www.postgresql.org/support/security/14/",
+                    "https://www.postgresql.org/docs/release/14.8/"
+                ]
+            },
+            "15.3": {
+                "source": [
+                    "https://www.postgresql.org/support/security/15/",
+                    "https://www.postgresql.org/docs/release/15.3/"
+                ]
+            }
+        }
+    },
+    "CVE-2023-2454": {
+        "CVE-ID": "CVE-2023-2454",
+        "Official": {
+            "11.20": {
+                "source": [
+                    "https://www.postgresql.org/support/security/11/",
+                    "https://www.postgresql.org/docs/release/11.20/"
+                ]
+            },
+            "12.15": {
+                "source": [
+                    "https://www.postgresql.org/support/security/12/",
+                    "https://www.postgresql.org/docs/release/12.15/"
+                ]
+            },
+            "13.11": {
+                "source": [
+                    "https://www.postgresql.org/support/security/13/",
+                    "https://www.postgresql.org/docs/release/13.11/"
+                ]
+            },
+            "14.8": {
+                "source": [
+                    "https://www.postgresql.org/support/security/14/",
+                    "https://www.postgresql.org/docs/release/14.8/"
+                ]
+            },
+            "15.3": {
+                "source": [
+                    "https://www.postgresql.org/support/security/15/",
+                    "https://www.postgresql.org/docs/release/15.3/"
+                ]
+            }
+        }
+    },
     "CVE-2021-32029": {
         "CVE-ID": "CVE-2021-32029",
         "NVD": {
