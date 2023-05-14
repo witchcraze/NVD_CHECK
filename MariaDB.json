@@ -25,9 +25,10 @@
                     "https://mariadb.com//kb/en/mariadb-10-9-6-release-notes/"
                 ]
             },
-            "10.8.8_EXCLUDE": {
+            "10.8.8": {
                 "source": [
-                    "https://mariadb.com/kb/en/security/"
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-10-8-8-release-notes/"
                 ]
             },
             "10.6.13_EXCLUDE": {
