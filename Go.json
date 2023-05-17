@@ -5503,8 +5503,8 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
             "CPEs": [
                 {
-                    "URI": "cpe:/a:golang:http2",
-                    "FormattedString": "cpe:2.3:a:golang:http2:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:golang:http2:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:http2:*:*:*:*:*:go:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "0.4.0",
@@ -5646,16 +5646,16 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
-                    "URI": "cpe:/a:golang:http2",
-                    "FormattedString": "cpe:2.3:a:golang:http2:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:golang:http2:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:http2:*:*:*:*:*:go:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "0.7.0",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:golang:hpack",
-                    "FormattedString": "cpe:2.3:a:golang:hpack:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:golang:hpack:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:hpack:*:*:*:*:*:go:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "0.7.0",
@@ -6210,16 +6210,16 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
-                    "URI": "cpe:/a:golang:tiff:-",
-                    "FormattedString": "cpe:2.3:a:golang:tiff:-:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:golang:tiff:-::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:tiff:-:*:*:*:*:go:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:golang:image",
-                    "FormattedString": "cpe:2.3:a:golang:image:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:golang:image:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:image:*:*:*:*:*:go:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "0.5.0",
