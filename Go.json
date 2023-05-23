@@ -6060,6 +6060,96 @@
             }
         }
     },
+    "CVE-2023-24539": {
+        "CVE-ID": "CVE-2023-24539",
+        "NVD": {
+            "Descriptions": "Angle brackets (<>) are not considered dangerous characters when inserted into CSS contexts. Templates containing multiple actions separated by a '/' character can result in unexpectedly closing the CSS context and allowing for injection of unexpected HTML, if executed with untrusted input.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.19.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.20.0",
+                    "VersionEndExcluding": "1.20.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.21": {
+                "source": {
+                    "59720": "https://github.com/golang/go/issues/59720"
+                }
+            },
+            "1.20.4": {
+                "source": {
+                    "59812": "https://github.com/golang/go/issues/59812"
+                }
+            },
+            "1.19.9": {
+                "source": {
+                    "59811": "https://github.com/golang/go/issues/59811"
+                }
+            }
+        }
+    },
+    "CVE-2023-24540": {
+        "CVE-ID": "CVE-2023-24540",
+        "NVD": {
+            "Descriptions": "Not all valid JavaScript whitespace characters are considered to be whitespace. Templates containing whitespace characters outside of the character set \"\\t\\n\\f\\r\\u0020\\u2028\\u2029\" in JavaScript contexts that also contain actions may not be properly sanitized during execution.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 9.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.19.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.20.0",
+                    "VersionEndExcluding": "1.20.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.21": {
+                "source": {
+                    "59721": "https://github.com/golang/go/issues/59721"
+                }
+            },
+            "1.20.4": {
+                "source": {
+                    "59814": "https://github.com/golang/go/issues/59814"
+                }
+            },
+            "1.19.9": {
+                "source": {
+                    "59813": "https://github.com/golang/go/issues/59813"
+                }
+            }
+        }
+    },
     "CVE-2023-29013": {
         "CVE-ID": "CVE-2023-29013",
         "NVD": {
@@ -6094,6 +6184,51 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        }
+    },
+    "CVE-2023-29400": {
+        "CVE-ID": "CVE-2023-29400",
+        "NVD": {
+            "Descriptions": "Templates containing actions in unquoted HTML attributes (e.g. \"attr={{.}}\") executed with empty input can result in output with unexpected results when parsed due to HTML normalization rules. This may allow injection of arbitrary attributes into tags.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.19.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.20.0",
+                    "VersionEndExcluding": "1.20.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.21": {
+                "source": {
+                    "59722": "https://github.com/golang/go/issues/59722"
+                }
+            },
+            "1.20.4": {
+                "source": {
+                    "59816": "https://github.com/golang/go/issues/59816"
+                }
+            },
+            "1.19.9": {
+                "source": {
+                    "59815": "https://github.com/golang/go/issues/59815"
+                }
+            }
         }
     },
     "CVE-2023-29405": {
@@ -6132,90 +6267,6 @@
             "1.21": {
                 "source": {
                     "60167": "https://github.com/golang/go/issues/60167"
-                }
-            }
-        }
-    },
-    "CVE-2023-29400": {
-        "CVE-ID": "CVE-2023-29400",
-        "NVD": {
-            "Descriptions": "Templates containing actions in unquoted HTML attributes (e.g. \"attr={{.}}\") executed with empty input can result in output with unexpected results when parsed due to HTML normalization rules. This may allow injection of arbitrary attributes into tags.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.21": {
-                "source": {
-                    "59722": "https://github.com/golang/go/issues/59722"
-                }
-            },
-            "1.20.4": {
-                "source": {
-                    "59816": "https://github.com/golang/go/issues/59816"
-                }
-            },
-            "1.19.9": {
-                "source": {
-                    "59815": "https://github.com/golang/go/issues/59815"
-                }
-            }
-        }
-    },
-    "CVE-2023-24540": {
-        "CVE-ID": "CVE-2023-24540",
-        "NVD": {
-            "Descriptions": "Not all valid JavaScript whitespace characters are considered to be whitespace. Templates containing whitespace characters outside of the character set \"\\t\\n\\f\\r\\u0020\\u2028\\u2029\" in JavaScript contexts that also contain actions may not be properly sanitized during execution.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.21": {
-                "source": {
-                    "59721": "https://github.com/golang/go/issues/59721"
-                }
-            },
-            "1.20.4": {
-                "source": {
-                    "59814": "https://github.com/golang/go/issues/59814"
-                }
-            },
-            "1.19.9": {
-                "source": {
-                    "59813": "https://github.com/golang/go/issues/59813"
-                }
-            }
-        }
-    },
-    "CVE-2023-24539": {
-        "CVE-ID": "CVE-2023-24539",
-        "NVD": {
-            "Descriptions": "Angle brackets (<>) are not considered dangerous characters when inserted into CSS contexts. Templates containing multiple actions separated by a '/' character can result in unexpectedly closing the CSS context and allowing for injection of unexpected HTML, if executed with untrusted input.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.21": {
-                "source": {
-                    "59720": "https://github.com/golang/go/issues/59720"
-                }
-            },
-            "1.20.4": {
-                "source": {
-                    "59812": "https://github.com/golang/go/issues/59812"
-                }
-            },
-            "1.19.9": {
-                "source": {
-                    "59811": "https://github.com/golang/go/issues/59811"
                 }
             }
         }
