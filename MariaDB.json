@@ -60,9 +60,10 @@
                     "https://mariadb.com//kb/en/mariadb-10-11-3-release-notes/"
                 ]
             },
-            "10.10.4_EXCLUDE": {
+            "10.10.4": {
                 "source": [
-                    "https://mariadb.com/kb/en/security/"
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-10-10-4-release-notes/"
                 ]
             }
         }
