@@ -4720,7 +4720,7 @@
     "CVE-2022-2880": {
         "CVE-ID": "CVE-2022-2880",
         "NVD": {
-            "Descriptions": "Requests forwarded by ReverseProxy include the raw query parameters from the inbound request, including unparseable parameters rejected by net/http. This could permit query parameter smuggling when a Go proxy forwards a parameter with an unparseable value. After fix, ReverseProxy sanitizes the query parameters in the forwarded query when the outbound request's Form field is set after the ReverseProxy. Director function returns, indicating that the proxy has parsed the query parameters. Proxies which do not parse query parameters continue to forward the original query parameters unchanged.",
+            "Descriptions": "Requests forwarded by ReverseProxy include the raw query parameters from the inbound request, including unparsable parameters rejected by net/http. This could permit query parameter smuggling when a Go proxy forwards a parameter with an unparsable value. After fix, ReverseProxy sanitizes the query parameters in the forwarded query when the outbound request's Form field is set after the ReverseProxy. Director function returns, indicating that the proxy has parsed the query parameters. Proxies which do not parse query parameters continue to forward the original query parameters unchanged.",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
@@ -6197,6 +6197,14 @@
     },
     "CVE-2023-29405": {
         "CVE-ID": "CVE-2023-29405",
+        "NVD": {
+            "Descriptions": "The go command may execute arbitrary code at build time when using cgo. This may occur when running \"go get\" on a malicious module, or when running any other command which builds untrusted code. This is can by triggered by linker flags, specified via a \"#cgo LDFLAGS\" directive. Flags containing embedded spaces are mishandled, allowing disallowed flags to be smuggled through the LDFLAGS sanitization by including them in the argument of another flag. This only affects usage of the gccgo compiler.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.21": {
                 "source": {
@@ -6220,6 +6228,14 @@
     },
     "CVE-2023-29404": {
         "CVE-ID": "CVE-2023-29404",
+        "NVD": {
+            "Descriptions": "The go command may execute arbitrary code at build time when using cgo. This may occur when running \"go get\" on a malicious module, or when running any other command which builds untrusted code. This is can by triggered by linker flags, specified via a \"#cgo LDFLAGS\" directive. The arguments for a number of flags which are non-optional are incorrectly considered optional, allowing disallowed flags to be smuggled through the LDFLAGS sanitization. This affects usage of both the gc and gccgo compilers.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.21": {
                 "source": {
@@ -6243,6 +6259,14 @@
     },
     "CVE-2023-29403": {
         "CVE-ID": "CVE-2023-29403",
+        "NVD": {
+            "Descriptions": "On Unix platforms, the Go runtime does not behave differently when a binary is run with the setuid/setgid bits. This can be dangerous in certain cases, such as when dumping memory state, or assuming the status of standard i/o file descriptors. If a setuid/setgid binary is executed with standard I/O file descriptors closed, opening any files can result in unexpected content being read or written with elevated privileges. Similarly, if a setuid/setgid program is terminated, either via panic or signal, it may leak the contents of its registers.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.21": {
                 "source": {
@@ -6263,6 +6287,14 @@
     },
     "CVE-2023-29402": {
         "CVE-ID": "CVE-2023-29402",
+        "NVD": {
+            "Descriptions": "The go command may generate unexpected code at build time when using cgo. This may result in unexpected behavior when running a go program which uses cgo. This may occur when running an untrusted module which contains directories with newline characters in their names. Modules which are retrieved using the go command, i.e. via \"go get\", are not affected (modules retrieved using GOPATH-mode, i.e. GO111MODULE=off, may be affected).",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.21": {
                 "source": {

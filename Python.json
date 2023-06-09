@@ -20473,7 +20473,7 @@
     "CVE-2023-24329": {
         "CVE-ID": "CVE-2023-24329",
         "NVD": {
-            "Descriptions": "An issue in the urllib.parse component of Python before v3.11 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.",
+            "Descriptions": "An issue in the urllib.parse component of Python before 3.11.4 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
