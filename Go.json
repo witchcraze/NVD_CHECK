@@ -6195,6 +6195,51 @@
             }
         }
     },
+    "CVE-2023-29402": {
+        "CVE-ID": "CVE-2023-29402",
+        "NVD": {
+            "Descriptions": "The go command may generate unexpected code at build time when using cgo. This may result in unexpected behavior when running a go program which uses cgo. This may occur when running an untrusted module which contains directories with newline characters in their names. Modules which are retrieved using the go command, i.e. via \"go get\", are not affected (modules retrieved using GOPATH-mode, i.e. GO111MODULE=off, may be affected).",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 9.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.19.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.20.0",
+                    "VersionEndExcluding": "1.20.5",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.21": {
+                "source": {
+                    "60167": "https://github.com/golang/go/issues/60167"
+                }
+            },
+            "1.20.5": {
+                "source": {
+                    "60516": "https://github.com/golang/go/issues/60516"
+                }
+            },
+            "1.19.10": {
+                "source": {
+                    "60515": "https://github.com/golang/go/issues/60515"
+                }
+            }
+        }
+    },
     "CVE-2023-29403": {
         "CVE-ID": "CVE-2023-29403",
         "NVD": {
@@ -6240,46 +6285,32 @@
             }
         }
     },
-    "CVE-2023-29405": {
-        "CVE-ID": "CVE-2023-29405",
-        "NVD": {
-            "Descriptions": "The go command may execute arbitrary code at build time when using cgo. This may occur when running \"go get\" on a malicious module, or when running any other command which builds untrusted code. This is can by triggered by linker flags, specified via a \"#cgo LDFLAGS\" directive. Flags containing embedded spaces are mishandled, allowing disallowed flags to be smuggled through the LDFLAGS sanitization by including them in the argument of another flag. This only affects usage of the gccgo compiler.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.21": {
-                "source": {
-                    "60306": "https://github.com/golang/go/issues/60306",
-                    "60305": "https://github.com/golang/go/issues/60305"
-                }
-            },
-            "1.20.5": {
-                "source": {
-                    "60514": "https://github.com/golang/go/issues/60514",
-                    "60512": "https://github.com/golang/go/issues/60512"
-                }
-            },
-            "1.19.10": {
-                "source": {
-                    "60513": "https://github.com/golang/go/issues/60513",
-                    "60511": "https://github.com/golang/go/issues/60511"
-                }
-            }
-        }
-    },
     "CVE-2023-29404": {
         "CVE-ID": "CVE-2023-29404",
         "NVD": {
             "Descriptions": "The go command may execute arbitrary code at build time when using cgo. This may occur when running \"go get\" on a malicious module, or when running any other command which builds untrusted code. This is can by triggered by linker flags, specified via a \"#cgo LDFLAGS\" directive. The arguments for a number of flags which are non-optional are incorrectly considered optional, allowing disallowed flags to be smuggled through the LDFLAGS sanitization. This affects usage of both the gc and gccgo compilers.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 9.8,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.19.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.20.0",
+                    "VersionEndExcluding": "1.20.5",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "1.21": {
@@ -6302,30 +6333,50 @@
             }
         }
     },
-    "CVE-2023-29402": {
-        "CVE-ID": "CVE-2023-29402",
+    "CVE-2023-29405": {
+        "CVE-ID": "CVE-2023-29405",
         "NVD": {
-            "Descriptions": "The go command may generate unexpected code at build time when using cgo. This may result in unexpected behavior when running a go program which uses cgo. This may occur when running an untrusted module which contains directories with newline characters in their names. Modules which are retrieved using the go command, i.e. via \"go get\", are not affected (modules retrieved using GOPATH-mode, i.e. GO111MODULE=off, may be affected).",
+            "Descriptions": "The go command may execute arbitrary code at build time when using cgo. This may occur when running \"go get\" on a malicious module, or when running any other command which builds untrusted code. This is can by triggered by linker flags, specified via a \"#cgo LDFLAGS\" directive. Flags containing embedded spaces are mishandled, allowing disallowed flags to be smuggled through the LDFLAGS sanitization by including them in the argument of another flag. This only affects usage of the gccgo compiler.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 9.8,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.19.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.20.0",
+                    "VersionEndExcluding": "1.20.5",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "1.21": {
                 "source": {
-                    "60167": "https://github.com/golang/go/issues/60167"
+                    "60306": "https://github.com/golang/go/issues/60306",
+                    "60305": "https://github.com/golang/go/issues/60305"
                 }
             },
             "1.20.5": {
                 "source": {
-                    "60516": "https://github.com/golang/go/issues/60516"
+                    "60514": "https://github.com/golang/go/issues/60514",
+                    "60512": "https://github.com/golang/go/issues/60512"
                 }
             },
             "1.19.10": {
                 "source": {
-                    "60515": "https://github.com/golang/go/issues/60515"
+                    "60513": "https://github.com/golang/go/issues/60513",
+                    "60511": "https://github.com/golang/go/issues/60511"
                 }
             }
         }
