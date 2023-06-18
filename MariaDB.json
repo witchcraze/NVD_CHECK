@@ -49,9 +49,10 @@
                     "https://mariadb.com//kb/en/mariadb-10-4-29-release-notes/"
                 ]
             },
-            "10.3.39_EXCLUDE": {
+            "10.3.39": {
                 "source": [
-                    "https://mariadb.com/kb/en/security/"
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-10-3-39-release-notes/"
                 ]
             },
             "10.11.3": {
