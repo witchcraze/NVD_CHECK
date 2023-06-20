@@ -1066,7 +1066,7 @@
     "CVE-2020-7921": {
         "CVE-ID": "CVE-2020-7921",
         "NVD": {
-            "Descriptions": "Improper serialization of internal state in the authorization subsystem in MongoDB Server's authorization subsystem permits a user with valid credentials to bypass IP whitelisting protection mechanisms following administrative action. This issue affects: MongoDB Inc. MongoDB Server 4.2 versions prior to 4.2.3; 4.0 versions prior to 4.0.15; 4.3 versions prior to 4.3.3; 3.6 versions prior to 3.6.18.",
+            "Descriptions": "Improper serialization of internal state in the authorization subsystem in MongoDB Server's authorization subsystem permits a user with valid credentials to bypass IP whitelisting protection mechanisms following administrative action. This issue affects: MongoDB Inc. MongoDB Server 4.2 versions prior to 4.2.3; 4.0 versions prior to 4.0.15; 4.3 versions prior to 4.3.3; 3.6 versions prior to 3.6.18.\n\n",
             "Cvss2_BaseScore": 3.5,
             "Cvss3_BaseScore": 5.3,
             "Cvss2_VectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
@@ -1132,7 +1132,7 @@
     "CVE-2019-2390": {
         "CVE-ID": "CVE-2019-2390",
         "NVD": {
-            "Descriptions": "An unprivileged user or program on Microsoft Windows which can create OpenSSL configuration files in a fixed location may cause utility programs shipped with MongoDB server to run attacker defined code as the user running the utility. This issue affects: MongoDB Inc. MongoDB Server 4.0 prior to 4.0.11; 3.6 prior to 3.6.14; 3.4 prior to 3.4.22.",
+            "Descriptions": "An unprivileged user or program on Microsoft Windows which can create OpenSSL configuration files in a fixed location may cause utility programs shipped with MongoDB server to run attacker defined code as the user running the utility. This issue affects: MongoDB Inc. MongoDB Server 4.0 prior to 4.0.11; 3.6 prior to 3.6.14; 3.4 prior to 3.4.22.\n\n",
             "Cvss2_BaseScore": 6.8,
             "Cvss3_BaseScore": 7.8,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
@@ -1185,7 +1185,7 @@
     "CVE-2019-2389": {
         "CVE-ID": "CVE-2019-2389",
         "NVD": {
-            "Descriptions": "Incorrect scoping of kill operations in MongoDB Server's packaged SysV init scripts allow users with write access to the PID file to insert arbitrary PIDs to be killed when the root user stops the MongoDB process via SysV init. This issue affects: MongoDB Inc. MongoDB Server v4.0 versions prior to 4.0.11; v3.6 versions prior to 3.6.14; v3.4 versions prior to 3.4.22.",
+            "Descriptions": "Incorrect scoping of kill operations in MongoDB Server's packaged SysV init scripts allow users with write access to the PID file to insert arbitrary PIDs to be killed when the root user stops the MongoDB process via SysV init. This issue affects: MongoDB Inc. MongoDB Server v4.0 versions prior to 4.0.11; v3.6 versions prior to 3.6.14; v3.4 versions prior to 3.4.22.\n\n",
             "Cvss2_BaseScore": 1.9,
             "Cvss3_BaseScore": 4.2,
             "Cvss2_VectorString": "AV:L/AC:M/Au:N/C:N/I:N/A:P",
@@ -1238,7 +1238,7 @@
     "CVE-2019-2386": {
         "CVE-ID": "CVE-2019-2386",
         "NVD": {
-            "Descriptions": "After user deletion in MongoDB Server the improper invalidation of authorization sessions allows an authenticated user's session to persist and become conflated with new accounts, if those accounts reuse the names of deleted ones. This issue affects: MongoDB Inc. MongoDB Server v4.0 versions prior to 4.0.9; v3.6 versions prior to 3.6.13; v3.4 versions prior to 3.4.22.",
+            "Descriptions": "After user deletion in MongoDB Server the improper invalidation of authorization sessions allows an authenticated user's session to persist and become conflated with new accounts, if those accounts reuse the names of deleted ones. This issue affects: MongoDB Inc. MongoDB Server v4.0 versions prior to 4.0.9; v3.6 versions prior to 3.6.13; v3.4 versions prior to 3.4.22.\n\n",
             "Cvss2_BaseScore": 6,
             "Cvss3_BaseScore": 7.1,
             "Cvss2_VectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:P",
