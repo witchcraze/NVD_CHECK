@@ -43004,6 +43004,33 @@
             }
         }
     },
+    "CVE-2007-4559": {
+        "CVE-ID": "CVE-2007-4559",
+        "NVD": {
+            "Descriptions": "Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.",
+            "Cvss2_BaseScore": 6.8,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python_software_foundation:python",
+                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.18.4": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.18.4.html"
+                ]
+            }
+        }
+    },
     "CVE-2002-1318": {
         "CVE-ID": "CVE-2002-1318",
         "NVD": {
