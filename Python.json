@@ -22970,6 +22970,54 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H",
             "CPEs": [
                 {
+                    "URI": "cpe:/a:stormshield:stormshield_network_security",
+                    "FormattedString": "cpe:2.3:a:stormshield:stormshield_network_security:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.7.0",
+                    "VersionEndExcluding": "2.7.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:stormshield:stormshield_network_security",
+                    "FormattedString": "cpe:2.3:a:stormshield:stormshield_network_security:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.8.0",
+                    "VersionEndExcluding": "3.7.34",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:stormshield:stormshield_network_security",
+                    "FormattedString": "cpe:2.3:a:stormshield:stormshield_network_security:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.8.0",
+                    "VersionEndExcluding": "3.11.22",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:stormshield:stormshield_network_security",
+                    "FormattedString": "cpe:2.3:a:stormshield:stormshield_network_security:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.3.16",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:stormshield:stormshield_network_security",
+                    "FormattedString": "cpe:2.3:a:stormshield:stormshield_network_security:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.4.0",
+                    "VersionEndExcluding": "4.6.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:stormshield:stormshield_management_center",
+                    "FormattedString": "cpe:2.3:a:stormshield:stormshield_management_center:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "3.3.3",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:openssl:openssl",
                     "FormattedString": "cpe:2.3:a:openssl:openssl:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -23324,6 +23372,38 @@
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": "1.2.12"
+                },
+                {
+                    "URI": "cpe:/a:stormshield:stormshield_network_security",
+                    "FormattedString": "cpe:2.3:a:stormshield:stormshield_network_security:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.11.0",
+                    "VersionEndExcluding": "3.11.22",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:stormshield:stormshield_network_security",
+                    "FormattedString": "cpe:2.3:a:stormshield:stormshield_network_security:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.7.31",
+                    "VersionEndExcluding": "3.7.34",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:stormshield:stormshield_network_security",
+                    "FormattedString": "cpe:2.3:a:stormshield:stormshield_network_security:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.3.0",
+                    "VersionEndExcluding": "4.3.16",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:stormshield:stormshield_network_security",
+                    "FormattedString": "cpe:2.3:a:stormshield:stormshield_network_security:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.6.0",
+                    "VersionEndExcluding": "4.6.3",
+                    "VersionEndIncluding": ""
                 },
                 {
                     "URI": "cpe:/a:netapp:storagegrid:-",

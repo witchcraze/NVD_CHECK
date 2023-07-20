@@ -1,4 +1,157 @@
 {
+    "CVE-2022-2031": {
+        "CVE-ID": "CVE-2022-2031",
+        "NVD": {
+            "Descriptions": "A flaw was found in Samba. The security vulnerability occurs when KDC and the kpasswd service share a single account and set of keys, allowing them to decrypt each other's tickets. A user who has been requested to change their password, can exploit this flaw to obtain and use tickets to other services.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "4.14.14",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.15.0",
+                    "VersionEndExcluding": "4.15.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.16.0",
+                    "VersionEndExcluding": "4.16.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2022-2031.html"
+                ]
+            },
+            "4.14.14": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.14.14.html"
+                ]
+            },
+            "4.15.9": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.15.9.html"
+                ]
+            },
+            "4.16.4": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.16.4.html"
+                ]
+            }
+        }
+    },
+    "CVE-2023-3347": {
+        "CVE-ID": "CVE-2023-3347",
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2023-3347.html"
+                ]
+            },
+            "4.17.10": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.10.html"
+                ]
+            },
+            "4.18.5": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.18.5.html"
+                ]
+            }
+        }
+    },
+    "CVE-2023-34966": {
+        "CVE-ID": "CVE-2023-34966",
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2023-34966.html"
+                ]
+            },
+            "4.16.11": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.16.11.html"
+                ]
+            },
+            "4.17.10": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.10.html"
+                ]
+            },
+            "4.18.5": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.18.5.html"
+                ]
+            }
+        }
+    },
+    "CVE-2023-34967": {
+        "CVE-ID": "CVE-2023-34967",
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2023-34967.html"
+                ]
+            },
+            "4.16.11": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.16.11.html"
+                ]
+            },
+            "4.17.10": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.10.html"
+                ]
+            },
+            "4.18.5": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.18.5.html"
+                ]
+            }
+        }
+    },
+    "CVE-2023-34968": {
+        "CVE-ID": "CVE-2023-34968",
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2023-34968.html"
+                ]
+            },
+            "4.16.11": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.16.11.html"
+                ]
+            },
+            "4.17.10": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.10.html"
+                ]
+            },
+            "4.18.5": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.18.5.html"
+                ]
+            }
+        }
+    },
     "CVE-2023-0225": {
         "CVE-ID": "CVE-2023-0225",
         "NVD": {
@@ -895,64 +1048,6 @@
             "4.17.2": {
                 "source": [
                     "https://www.samba.org/samba/history/samba-4.17.2.html"
-                ]
-            }
-        }
-    },
-    "CVE-2022-2031": {
-        "CVE-ID": "CVE-2022-2031",
-        "NVD": {
-            "Descriptions": "A flaw was found in Samba. The security vulnerability occurs when KDC and the kpasswd service share a single account and set of keys, allowing them to decrypt each other's tickets. A user who has been requested to change their password, can exploit this flaw to obtain and use tickets to other services.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 8.8,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:samba:samba",
-                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "4.14.14",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:samba:samba",
-                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "4.15.0",
-                    "VersionEndExcluding": "4.15.9",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:samba:samba",
-                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "4.16.0",
-                    "VersionEndExcluding": "4.16.4",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        },
-        "Official": {
-            "-": {
-                "source": [
-                    "https://www.samba.org/samba/security/CVE-2022-2031.html"
-                ]
-            },
-            "4.14.14": {
-                "source": [
-                    "https://www.samba.org/samba/history/samba-4.14.14.html"
-                ]
-            },
-            "4.15.9": {
-                "source": [
-                    "https://www.samba.org/samba/history/samba-4.15.9.html"
-                ]
-            },
-            "4.16.4": {
-                "source": [
-                    "https://www.samba.org/samba/history/samba-4.16.4.html"
                 ]
             }
         }
@@ -42985,6 +43080,26 @@
             "4.17.4": {
                 "source": [
                     "https://www.samba.org/samba/history/samba-4.17.4.html"
+                ]
+            }
+        }
+    },
+    "CVE-2022-2127": {
+        "CVE-ID": "CVE-2022-2127",
+        "Official": {
+            "4.16.11": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.16.11.html"
+                ]
+            },
+            "4.17.10": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.10.html"
+                ]
+            },
+            "4.18.5": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.18.5.html"
                 ]
             }
         }
