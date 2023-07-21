@@ -3069,7 +3069,7 @@
             },
             "3.7.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.11.4/Misc/NEWS.d/3.7.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.7.0a1.rst"
                 ],
                 "BTS": {
                     "bpo30694": {
@@ -8590,7 +8590,7 @@
             },
             "3.7.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.11.4/Misc/NEWS.d/3.7.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.7.0a1.rst"
                 ],
                 "BTS": {
                     "bpo30694": {
@@ -9778,7 +9778,7 @@
             },
             "3.7.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.11.4/Misc/NEWS.d/3.7.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.7.0a1.rst"
                 ],
                 "BTS": {
                     "bpo29591": {
@@ -10416,7 +10416,7 @@
             },
             "3.8.0a4": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0a1/Misc/NEWS.d/3.8.0a4.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.8.0a4.rst"
                 ],
                 "BTS": {
                     "bpo30458": {
@@ -10643,7 +10643,7 @@
             },
             "3.7.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.11.4/Misc/NEWS.d/3.7.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.7.0a1.rst"
                 ],
                 "BTS": {
                     "bpo30694": {
@@ -11036,7 +11036,7 @@
             },
             "3.7.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.11.4/Misc/NEWS.d/3.7.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.7.0a1.rst"
                 ],
                 "BTS": {
                     "bpo30694": {
@@ -13202,7 +13202,7 @@
             },
             "3.8.0a4": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0a1/Misc/NEWS.d/3.8.0a4.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.8.0a4.rst"
                 ],
                 "BTS": {
                     "bpo36742": {
@@ -14492,7 +14492,7 @@
             },
             "3.8.0a4": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0a1/Misc/NEWS.d/3.8.0a4.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.8.0a4.rst"
                 ],
                 "BTS": {
                     "bpo30458": {
@@ -15600,7 +15600,7 @@
             },
             "3.8.0a4": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0a1/Misc/NEWS.d/3.8.0a4.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.8.0a4.rst"
                 ],
                 "BTS": {
                     "bpo30458": {
@@ -15716,7 +15716,7 @@
             },
             "3.8.0a4": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0a1/Misc/NEWS.d/3.8.0a4.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.8.0a4.rst"
                 ],
                 "BTS": {
                     "bpo30458": {
@@ -17248,7 +17248,7 @@
             },
             "3.10.0a2": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0a7/Misc/NEWS.d/3.10.0a2.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.10.0a2.rst"
                 ],
                 "BTS": {
                     "bpo41944": {
@@ -17810,7 +17810,7 @@
             },
             "3.10.0a6": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.10.1/Misc/NEWS.d/3.10.0a6.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.10.0a6.rst"
                 ],
                 "BTS": {
                     "bpo42967": {
@@ -18592,7 +18592,7 @@
             },
             "3.10.0a7": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.11.0a2/Misc/NEWS.d/3.10.0a7.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.10.0a7.rst"
                 ],
                 "BTS": {
                     "bpo42988": {
@@ -19370,7 +19370,7 @@
             },
             "3.10.0a7": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.11.0a2/Misc/NEWS.d/3.10.0a7.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.10.0a7.rst"
                 ],
                 "BTS": {
                     "bpo43285": {
@@ -20456,7 +20456,7 @@
             },
             "3.12.0a2": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0a7/Misc/NEWS.d/3.12.0a2.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.12.0a2.rst"
                 ],
                 "BTS": {
                     "gh-issue98433": {
@@ -20480,11 +20480,107 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:fedoraproject:fedora:38",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:38:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:37",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:36",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:36:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:python:python",
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
-                    "VersionEndExcluding": "3.11",
+                    "VersionEndExcluding": "3.7.17",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.10.0",
+                    "VersionEndExcluding": "3.10.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.11.0",
+                    "VersionEndExcluding": "3.11.14",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.8.0",
+                    "VersionEndExcluding": "3.8.17",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.9.0",
+                    "VersionEndExcluding": "3.9.17",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:ontap_select_deploy_administration_utility:-",
+                    "FormattedString": "cpe:2.3:a:netapp:ontap_select_deploy_administration_utility:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:management_services_for_netapp_hci:-",
+                    "FormattedString": "cpe:2.3:a:netapp:management_services_for_netapp_hci:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:management_services_for_element_software:-",
+                    "FormattedString": "cpe:2.3:a:netapp:management_services_for_element_software:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:active_iq_unified_manager:-::~~~windows~~",
+                    "FormattedString": "cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:windows:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:active_iq_unified_manager:-::~~~vmware_vsphere~~",
+                    "FormattedString": "cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:vmware_vsphere:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 }
             ]
@@ -20562,7 +20658,7 @@
             },
             "3.12.0b1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.12.0b1.rst"
+                    "https://github.com/python/cpython/blob/3.12/Misc/NEWS.d/3.12.0b1.rst"
                 ],
                 "BTS": {
                     "gh-issue102153": {
@@ -22339,7 +22435,7 @@
             },
             "3.7.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.11.4/Misc/NEWS.d/3.7.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.7.0a1.rst"
                 ],
                 "BTS": {
                     "bpo30694": {
@@ -23116,7 +23212,7 @@
             },
             "3.12.0a6": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0a7/Misc/NEWS.d/3.12.0a6.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.12.0a6.rst"
                 ],
                 "BTS": {
                     "gh-issue101727": {
@@ -23222,7 +23318,7 @@
             },
             "3.12.0a6": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0a7/Misc/NEWS.d/3.12.0a6.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.12.0a6.rst"
                 ],
                 "BTS": {
                     "gh-issue101727": {
@@ -23494,7 +23590,7 @@
             },
             "3.12.0a2": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0a7/Misc/NEWS.d/3.12.0a2.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.12.0a2.rst"
                 ],
                 "BTS": {
                     "gh-issue98689": {
