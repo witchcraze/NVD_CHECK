@@ -18332,7 +18332,7 @@
             },
             "3.10.0a5": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.10.1/Misc/NEWS.d/3.10.0a5.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.10.0a5.rst"
                 ],
                 "BTS": {
                     "bpo42938": {
