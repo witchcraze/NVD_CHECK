@@ -4,10 +4,51 @@
         "NVD": {
             "Descriptions": "Redis is an in-memory database that persists on disk. A specially crafted Lua script executing in Redis can trigger a heap overflow in the cjson library, and result with heap corruption and potentially remote code execution. The problem exists in all versions of Redis with Lua scripting support, starting from 2.6, and affects only authenticated and authorized users. The problem is fixed in versions 7.0.12, 6.2.13, and 6.0.20.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:38",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:38:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:37",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.6.0",
+                    "VersionEndExcluding": "6.0.20",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "6.2.0",
+                    "VersionEndExcluding": "6.2.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.12",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "7.0.12": {
@@ -3171,6 +3212,26 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "6.0.0",
                     "VersionEndExcluding": "6.0.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2021-31294": {
+        "CVE-ID": "CVE-2021-31294",
+        "NVD": {
+            "Descriptions": "Redis before 6cbea7d allows a replica to cause an assertion failure in a primary server by sending a non-administrative command (specifically, a SET command). NOTE: this was fixed for Redis 6.2.x and 7.x in 2021. Versions before 6.2 were not intended to have safety guarantees related to this.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "6.2.0",
                     "VersionEndIncluding": ""
                 }
             ]
