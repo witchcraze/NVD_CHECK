@@ -2504,14 +2504,14 @@
             ]
         },
         "Official": {
-            "1.14.12": {
-                "source": {
-                    "42553": "https://github.com/golang/go/issues/42553"
-                }
-            },
             "1.15.5": {
                 "source": {
                     "42554": "https://github.com/golang/go/issues/42554"
+                }
+            },
+            "1.14.12": {
+                "source": {
+                    "42553": "https://github.com/golang/go/issues/42553"
                 }
             },
             "1.16": {
@@ -2581,11 +2581,6 @@
             ]
         },
         "Official": {
-            "1.14.12": {
-                "source": {
-                    "42560": "https://github.com/golang/go/issues/42560"
-                }
-            },
             "1.15.5": {
                 "source": {
                     "42562": "https://github.com/golang/go/issues/42562"
@@ -2594,6 +2589,11 @@
             "NOT_IN_MILESTONE": {
                 "source": {
                     "42561": "https://github.com/golang/go/issues/42561"
+                }
+            },
+            "1.14.12": {
+                "source": {
+                    "42560": "https://github.com/golang/go/issues/42560"
                 }
             },
             "1.16": {
@@ -2631,14 +2631,14 @@
             ]
         },
         "Official": {
-            "1.14.12": {
-                "source": {
-                    "42557": "https://github.com/golang/go/issues/42557"
-                }
-            },
             "1.15.5": {
                 "source": {
                     "42558": "https://github.com/golang/go/issues/42558"
+                }
+            },
+            "1.14.12": {
+                "source": {
+                    "42557": "https://github.com/golang/go/issues/42557"
                 }
             },
             "1.16": {
@@ -2698,7 +2698,7 @@
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionEndExcluding": "1.17",
                     "VersionEndIncluding": ""
                 }
             ]
@@ -2754,7 +2754,7 @@
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionEndExcluding": "1.17",
                     "VersionEndIncluding": ""
                 }
             ]
@@ -7208,6 +7208,16 @@
             "1.11": {
                 "source": {
                     "22543": "https://github.com/golang/go/issues/22543"
+                }
+            }
+        }
+    },
+    "CVE-2023-3978": {
+        "CVE-ID": "CVE-2023-3978",
+        "Official": {
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "61615": "https://github.com/golang/go/issues/61615"
                 }
             }
         }
