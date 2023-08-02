@@ -6427,26 +6427,6 @@
             }
         }
     },
-    "CVE-2023-29409": {
-        "CVE-ID": "CVE-2023-29409",
-        "Official": {
-            "1.21": {
-                "source": {
-                    "61460": "https://github.com/golang/go/issues/61460"
-                }
-            },
-            "1.20.7": {
-                "source": {
-                    "61580": "https://github.com/golang/go/issues/61580"
-                }
-            },
-            "1.19.12": {
-                "source": {
-                    "61579": "https://github.com/golang/go/issues/61579"
-                }
-            }
-        }
-    },
     "CVE-2023-24531": {
         "CVE-ID": "CVE-2023-24531",
         "Official": {
@@ -6498,6 +6478,26 @@
             "Unreleased": {
                 "source": {
                     "58003": "https://github.com/golang/go/issues/58003"
+                }
+            }
+        }
+    },
+    "CVE-2023-29409": {
+        "CVE-ID": "CVE-2023-29409",
+        "Official": {
+            "1.22": {
+                "source": {
+                    "61460": "https://github.com/golang/go/issues/61460"
+                }
+            },
+            "1.20.7": {
+                "source": {
+                    "61580": "https://github.com/golang/go/issues/61580"
+                }
+            },
+            "1.19.12": {
+                "source": {
+                    "61579": "https://github.com/golang/go/issues/61579"
                 }
             }
         }
@@ -7215,7 +7215,7 @@
     "CVE-2023-3978": {
         "CVE-ID": "CVE-2023-3978",
         "Official": {
-            "NOT_IN_MILESTONE": {
+            "Unreleased": {
                 "source": {
                     "61615": "https://github.com/golang/go/issues/61615"
                 }
@@ -7225,7 +7225,7 @@
     "CVE-2023-29408": {
         "CVE-ID": "CVE-2023-29408",
         "Official": {
-            "NOT_IN_MILESTONE": {
+            "Unreleased": {
                 "source": {
                     "61582": "https://github.com/golang/go/issues/61582"
                 }
@@ -7235,7 +7235,7 @@
     "CVE-2023-29407": {
         "CVE-ID": "CVE-2023-29407",
         "Official": {
-            "NOT_IN_MILESTONE": {
+            "Unreleased": {
                 "source": {
                     "61581": "https://github.com/golang/go/issues/61581"
                 }
