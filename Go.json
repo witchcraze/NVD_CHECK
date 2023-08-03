@@ -5503,6 +5503,22 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:fedoraproject:fedora:38",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:38:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:37",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:golang:http2:::~~~go~~",
                     "FormattedString": "cpe:2.3:a:golang:http2:*:*:*:*:*:go:*:*",
                     "VersionStartExcluding": "",
@@ -6205,6 +6221,14 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:fedoraproject:fedora:38",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:38:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -6250,6 +6274,14 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:fedoraproject:fedora:38",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:38:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -6294,6 +6326,14 @@
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:38",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:38:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
                 {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
@@ -6342,6 +6382,14 @@
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:38",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:38:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
                 {
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
@@ -6427,6 +6475,34 @@
             }
         }
     },
+    "CVE-2023-29409": {
+        "CVE-ID": "CVE-2023-29409",
+        "NVD": {
+            "Descriptions": "Extremely large RSA keys in certificate chains can cause a client/server to expend significant CPU time verifying signatures. With fix, the size of RSA keys transmitted during handshakes is restricted to <= 8192 bits. Based on a survey of publicly trusted RSA keys, there are currently only three certificates in circulation with keys larger than this, and all three appear to be test certificates that are not actively deployed. It is possible there are larger keys in use in private PKIs, but we target the web PKI, so causing breakage here in the interests of increasing the default safety of users of crypto/tls seems reasonable.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "1.21": {
+                "source": {
+                    "61460": "https://github.com/golang/go/issues/61460"
+                }
+            },
+            "1.20.7": {
+                "source": {
+                    "61580": "https://github.com/golang/go/issues/61580"
+                }
+            },
+            "1.19.12": {
+                "source": {
+                    "61579": "https://github.com/golang/go/issues/61579"
+                }
+            }
+        }
+    },
     "CVE-2023-24531": {
         "CVE-ID": "CVE-2023-24531",
         "Official": {
@@ -6478,26 +6554,6 @@
             "Unreleased": {
                 "source": {
                     "58003": "https://github.com/golang/go/issues/58003"
-                }
-            }
-        }
-    },
-    "CVE-2023-29409": {
-        "CVE-ID": "CVE-2023-29409",
-        "Official": {
-            "1.22": {
-                "source": {
-                    "61460": "https://github.com/golang/go/issues/61460"
-                }
-            },
-            "1.20.7": {
-                "source": {
-                    "61580": "https://github.com/golang/go/issues/61580"
-                }
-            },
-            "1.19.12": {
-                "source": {
-                    "61579": "https://github.com/golang/go/issues/61579"
                 }
             }
         }
@@ -7214,6 +7270,14 @@
     },
     "CVE-2023-3978": {
         "CVE-ID": "CVE-2023-3978",
+        "NVD": {
+            "Descriptions": "Text nodes not in the HTML namespace are incorrectly literally rendered, causing text which should be escaped to not be. This could lead to an XSS attack.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "Unreleased": {
                 "source": {
@@ -7224,6 +7288,14 @@
     },
     "CVE-2023-29408": {
         "CVE-ID": "CVE-2023-29408",
+        "NVD": {
+            "Descriptions": "The TIFF decoder does not place a limit on the size of compressed tile data. A maliciously-crafted image can exploit this to cause a small image (both in terms of pixel width/height, and encoded size) to make the decoder decode large amounts of compressed data, consuming excessive memory and CPU.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "Unreleased": {
                 "source": {
@@ -7234,6 +7306,14 @@
     },
     "CVE-2023-29407": {
         "CVE-ID": "CVE-2023-29407",
+        "NVD": {
+            "Descriptions": "A maliciously-crafted image can cause excessive CPU consumption in decoding. A tiled image with a height of 0 and a very large width can cause excessive CPU consumption, despite the image size (width * height) appearing to be zero.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "Unreleased": {
                 "source": {

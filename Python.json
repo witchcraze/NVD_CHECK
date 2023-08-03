@@ -1,4 +1,329 @@
 {
+    "CVE-2002-1119": {
+        "CVE-ID": "CVE-2002-1119",
+        "NVD": {
+            "Descriptions": "os._execvpe from os.py in Python 2.2.1 and earlier creates temporary files with predictable names, which could allow local users to execute arbitrary code via a symlink attack.",
+            "Cvss2_BaseScore": 4.6,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2.2.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2004-0150": {
+        "CVE-ID": "CVE-2004-0150",
+        "NVD": {
+            "Descriptions": "Buffer overflow in the getaddrinfo function in Python 2.2 before 2.2.2, when IPv6 support is disabled, allows remote attackers to execute arbitrary code via an IPv6 address that is obtained using DNS.",
+            "Cvss2_BaseScore": 7.5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.2.0",
+                    "VersionEndExcluding": "2.2.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2005-0089": {
+        "CVE-ID": "CVE-2005-0089",
+        "NVD": {
+            "Descriptions": "The SimpleXMLRPCServer library module in Python 2.2, 2.3 before 2.3.5, and 2.4, when used by XML-RPC servers that use the register_instance method to register an object without a _dispatch method, allows remote attackers to read or modify globals of the associated module, and possibly execute arbitrary code, via dotted attributes.",
+            "Cvss2_BaseScore": 7.5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python:2.4.0",
+                    "FormattedString": "cpe:2.3:a:python:python:2.4.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2.3.5",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2006-1542": {
+        "CVE-ID": "CVE-2006-1542",
+        "NVD": {
+            "Descriptions": "Stack-based buffer overflow in Python 2.4.2 and earlier, running on Linux 2.6.12.5 under gcc 4.0.3 with libc 2.3.5, allows local users to cause a \"stack overflow,\" and possibly gain privileges, by running a script from a current working directory that has a long name, related to the realpath function.  NOTE: this might not be a vulnerability. However, the fact that it appears in a programming language interpreter could mean that some applications are affected, although attack scenarios might be limited because the attacker might already need to cross privilege boundaries to cause an exploitable program to be placed in a directory with a long name; or, depending on the method that Python uses to determine the current working directory, setuid applications might be affected.",
+            "Cvss2_BaseScore": 3.7,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:L/AC:H/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "2.4.2"
+                }
+            ]
+        }
+    },
+    "CVE-2006-4980": {
+        "CVE-ID": "CVE-2006-4980",
+        "NVD": {
+            "Descriptions": "Buffer overflow in the repr function in Python 2.3 through 2.6 before 20060822 allows context-dependent attackers to cause a denial of service and possibly execute arbitrary code via crafted wide character UTF-32/UCS-4 strings to certain scripts.",
+            "Cvss2_BaseScore": 7.5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2.3.6",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.4.0",
+                    "VersionEndExcluding": "2.4.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2007-2052": {
+        "CVE-ID": "CVE-2007-2052",
+        "NVD": {
+            "Descriptions": "Off-by-one error in the PyLocale_strxfrm function in Modules/_localemodule.c for Python 2.4 and 2.5 causes an incorrect buffer size to be used for the strxfrm function, which allows context-dependent attackers to read portions of memory via unknown manipulations that trigger a buffer over-read due to missing null termination.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python:2.5.0",
+                    "FormattedString": "cpe:2.3:a:python:python:2.5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:2.4.0",
+                    "FormattedString": "cpe:2.3:a:python:python:2.4.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2007-4559": {
+        "CVE-ID": "CVE-2007-4559",
+        "NVD": {
+            "Descriptions": "Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.",
+            "Cvss2_BaseScore": 6.8,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "3.6.16",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.10.0",
+                    "VersionEndExcluding": "3.10.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.11.0",
+                    "VersionEndExcluding": "3.11.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.7.0",
+                    "VersionEndExcluding": "3.8.17",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.9.0",
+                    "VersionEndExcluding": "3.9.17",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2007-4965": {
+        "CVE-ID": "CVE-2007-4965",
+        "NVD": {
+            "Descriptions": "Multiple integer overflows in the imageop module in Python 2.5.1 and earlier allow context-dependent attackers to cause a denial of service (application crash) and possibly obtain sensitive information (memory contents) via crafted arguments to (1) the tovideo method, and unspecified other vectors related to (2) imageop.c, (3) rbgimgmodule.c, and other files, which trigger heap-based buffer overflows.",
+            "Cvss2_BaseScore": 5.8,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:N/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "2.5.1"
+                }
+            ]
+        },
+        "Official": {
+            "2.6b1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/2.7/Misc/NEWS.d/2.6b1.rst",
+                    "https://github.com/python/cpython/blob/2.6/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo1179": {
+                        "ID": "bpo1179",
+                        "url": "https://bugs.python.org/issue1179",
+                        "date": "7003",
+                        "nonce": "ZiG6Oq",
+                        "section": "Library"
+                    }
+                }
+            },
+            "2.4.6c1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/2.4/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo1179": {
+                        "ID": "bpo1179",
+                        "url": "https://bugs.python.org/issue1179",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    }
+                }
+            },
+            "2.5.3c1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/2.5/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo1179": {
+                        "ID": "bpo1179",
+                        "url": "https://bugs.python.org/issue1179",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    }
+                }
+            }
+        }
+    },
+    "CVE-2008-1679": {
+        "CVE-ID": "CVE-2008-1679",
+        "NVD": {
+            "Descriptions": "Multiple integer overflows in imageop.c in Python before 2.5.3 allow context-dependent attackers to cause a denial of service (crash) and possibly execute arbitrary code via crafted images that trigger heap-based buffer overflows.  NOTE: this issue is due to an incomplete fix for CVE-2007-4965.",
+            "Cvss2_BaseScore": 6.8,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2.5.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "2.4.6c1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/2.4/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo1179": {
+                        "ID": "bpo1179",
+                        "url": "https://bugs.python.org/issue1179",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    }
+                }
+            },
+            "2.6b1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/2.7/Misc/NEWS.d/2.6b1.rst"
+                ],
+                "BTS": {
+                    "bpo1179": {
+                        "ID": "bpo1179",
+                        "url": "https://bugs.python.org/issue1179",
+                        "date": "7003",
+                        "nonce": "ZiG6Oq",
+                        "section": "Library"
+                    }
+                }
+            },
+            "2.5.3c1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/2.5/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo1179": {
+                        "ID": "bpo1179",
+                        "url": "https://bugs.python.org/issue1179",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    }
+                }
+            }
+        }
+    },
     "CVE-2008-1721": {
         "CVE-ID": "CVE-2008-1721",
         "NVD": {
@@ -173,6 +498,83 @@
             }
         }
     },
+    "CVE-2008-2315": {
+        "CVE-ID": "CVE-2008-2315",
+        "NVD": {
+            "Descriptions": "Multiple integer overflows in Python 2.5.2 and earlier allow context-dependent attackers to have an unknown impact via vectors related to the (1) stringobject, (2) unicodeobject, (3) bufferobject, (4) longobject, (5) tupleobject, (6) stropmodule, (7) gcmodule, and (8) mmapmodule modules.  NOTE: The expandtabs integer overflows in stringobject and unicodeobject in 2.5.2 are covered by CVE-2008-5031.",
+            "Cvss2_BaseScore": 7.5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "2.5.2"
+                }
+            ]
+        },
+        "Official": {
+            "2.4.6c1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/2.4/Misc/NEWS"
+                ]
+            }
+        }
+    },
+    "CVE-2008-2316": {
+        "CVE-ID": "CVE-2008-2316",
+        "NVD": {
+            "Descriptions": "Integer overflow in _hashopenssl.c in the hashlib module in Python 2.5.2 and earlier might allow context-dependent attackers to defeat cryptographic digests, related to \"partial hashlib hashing of data exceeding 4GB.\"",
+            "Cvss2_BaseScore": 7.5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "2.5.2"
+                }
+            ]
+        },
+        "Official": {
+            "2.5.3c1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/2.5/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo3886": {
+                        "ID": "bpo3886",
+                        "url": "https://bugs.python.org/issue3886",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    }
+                }
+            },
+            "2.6rc2": {
+                "source": [
+                    "https://github.com/python/cpython/blob/2.7/Misc/NEWS.d/2.6rc2.rst"
+                ],
+                "BTS": {
+                    "bpo3886": {
+                        "ID": "bpo3886",
+                        "url": "https://bugs.python.org/issue3886",
+                        "date": "7167",
+                        "nonce": "l6kzFl",
+                        "section": "Library"
+                    }
+                }
+            }
+        }
+    },
     "CVE-2008-3142": {
         "CVE-ID": "CVE-2008-3142",
         "NVD": {
@@ -277,6 +679,90 @@
                     "bpo2620": {
                         "ID": "bpo2620",
                         "url": "https://bugs.python.org/issue2620",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    }
+                }
+            }
+        }
+    },
+    "CVE-2008-3143": {
+        "CVE-ID": "CVE-2008-3143",
+        "NVD": {
+            "Descriptions": "Multiple integer overflows in Python before 2.5.2 might allow context-dependent attackers to have an unknown impact via vectors related to (1) Include/pymem.h; (2) _csv.c, (3) _struct.c, (4) arraymodule.c, (5) audioop.c, (6) binascii.c, (7) cPickle.c, (8) cStringIO.c, (9) cjkcodecs/multibytecodec.c, (10) datetimemodule.c, (11) md5.c, (12) rgbimgmodule.c, and (13) stropmodule.c in Modules/; (14) bufferobject.c, (15) listobject.c, and (16) obmalloc.c in Objects/; (17) Parser/node.c; and (18) asdl.c, (19) ast.c, (20) bltinmodule.c, and (21) compile.c in Python/, as addressed by \"checks for integer overflows, contributed by Google.\"",
+            "Cvss2_BaseScore": 7.5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2.5.12",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2008-3144": {
+        "CVE-ID": "CVE-2008-3144",
+        "NVD": {
+            "Descriptions": "Multiple integer overflows in the PyOS_vsnprintf function in Python/mysnprintf.c in Python 2.5.2 and earlier allow context-dependent attackers to cause a denial of service (memory corruption) or have unspecified other impact via crafted input to string formatting operations.  NOTE: the handling of certain integer values is also affected by related integer underflows and an off-by-one error.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "2.5.2"
+                }
+            ]
+        },
+        "Official": {
+            "2.4.6c1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/2.4/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo2588": {
+                        "ID": "bpo2588",
+                        "url": "https://bugs.python.org/issue2588",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    },
+                    "bpo2589": {
+                        "ID": "bpo2589",
+                        "url": "https://bugs.python.org/issue2589",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    }
+                }
+            },
+            "2.5.3c1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/2.5/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo2588": {
+                        "ID": "bpo2588",
+                        "url": "https://bugs.python.org/issue2588",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    },
+                    "bpo2589": {
+                        "ID": "bpo2589",
+                        "url": "https://bugs.python.org/issue2589",
                         "date": "",
                         "nonce": "",
                         "section": ""
@@ -17838,42 +18324,6 @@
             }
         }
     },
-    "CVE-2021-28359": {
-        "CVE-ID": "CVE-2021-28359",
-        "NVD": {
-            "Descriptions": "The \"origin\" parameter passed to some of the endpoints like '/trigger' was vulnerable to XSS exploit. This issue affects Apache Airflow versions <1.10.15 in 1.x series and affects 2.0.0 and 2.0.1 and 2.x series. This is the same as CVE-2020-13944 & CVE-2020-17515 but the implemented fix did not fix the issue completely. Update to Airflow 1.10.15 or 2.0.2. Please also update your Python version to the latest available PATCH releases of the installed MINOR versions, example update to Python 3.6.13 if you are on Python 3.6. (Those contain the fix for CVE-2021-23336 https://nvd.nist.gov/vuln/detail/CVE-2021-23336).",
-            "Cvss2_BaseScore": 4.3,
-            "Cvss3_BaseScore": 6.1,
-            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:python:python",
-                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "3.6.0",
-                    "VersionEndExcluding": "3.6.13",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:airflow",
-                    "FormattedString": "cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "1.0.0",
-                    "VersionEndExcluding": "1.10.15",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:airflow",
-                    "FormattedString": "cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "2.0.0",
-                    "VersionEndExcluding": "2.0.2",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        }
-    },
     "CVE-2021-28861": {
         "CVE-ID": "CVE-2021-28861",
         "NVD": {
@@ -20524,7 +20974,7 @@
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "3.11.0",
-                    "VersionEndExcluding": "3.11.14",
+                    "VersionEndExcluding": "3.11.4",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -20736,354 +21186,6 @@
             ]
         }
     },
-    "CVE-2002-1119": {
-        "CVE-ID": "CVE-2002-1119",
-        "NVD": {
-            "Descriptions": "os._execvpe from os.py in Python 2.2.1 and earlier creates temporary files with predictable names, which could allow local users to execute arbitrary code via a symlink attack.",
-            "Cvss2_BaseScore": 4.6,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:python_software_foundation:python",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.2.1"
-                }
-            ]
-        }
-    },
-    "CVE-2004-0150": {
-        "CVE-ID": "CVE-2004-0150",
-        "NVD": {
-            "Descriptions": "Buffer overflow in the getaddrinfo function in Python 2.2 before 2.2.2, when IPv6 support is disabled, allows remote attackers to execute arbitrary code via an IPv6 address that is obtained using DNS.",
-            "Cvss2_BaseScore": 7.5,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        }
-    },
-    "CVE-2005-0089": {
-        "CVE-ID": "CVE-2005-0089",
-        "NVD": {
-            "Descriptions": "The SimpleXMLRPCServer library module in Python 2.2, 2.3 before 2.3.5, and 2.4, when used by XML-RPC servers that use the register_instance method to register an object without a _dispatch method, allows remote attackers to read or modify globals of the associated module, and possibly execute arbitrary code, via dotted attributes.",
-            "Cvss2_BaseScore": 7.5,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.4",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        }
-    },
-    "CVE-2006-1542": {
-        "CVE-ID": "CVE-2006-1542",
-        "NVD": {
-            "Descriptions": "Stack-based buffer overflow in Python 2.4.2 and earlier, running on Linux 2.6.12.5 under gcc 4.0.3 with libc 2.3.5, allows local users to cause a \"stack overflow,\" and possibly gain privileges, by running a script from a current working directory that has a long name, related to the realpath function.  NOTE: this might not be a vulnerability. However, the fact that it appears in a programming language interpreter could mean that some applications are affected, although attack scenarios might be limited because the attacker might already need to cross privilege boundaries to cause an exploitable program to be placed in a directory with a long name; or, depending on the method that Python uses to determine the current working directory, setuid applications might be affected.",
-            "Cvss2_BaseScore": 3.7,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "AV:L/AC:H/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.4",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.4.2"
-                }
-            ]
-        }
-    },
-    "CVE-2006-4980": {
-        "CVE-ID": "CVE-2006-4980",
-        "NVD": {
-            "Descriptions": "Buffer overflow in the repr function in Python 2.3 through 2.6 before 20060822 allows context-dependent attackers to cause a denial of service and possibly execute arbitrary code via crafted wide character UTF-32/UCS-4 strings to certain scripts.",
-            "Cvss2_BaseScore": 7.5,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.5_release_candidate_2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.5_release_candidate_2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.5_release_candidate_1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.5_release_candidate_1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.5_final",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.5_final:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.5_beta_3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.5_beta_3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.5_beta_2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.5_beta_2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.5_beta_1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.5_beta_1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.5_alpha_2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.5_alpha_2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.5_alpha_1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.5_alpha_1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.5",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.5:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.4",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        }
-    },
     "CVE-2007-1657": {
         "CVE-ID": "CVE-2007-1657",
         "NVD": {
@@ -21102,1144 +21204,6 @@
                     "VersionEndIncluding": ""
                 }
             ]
-        }
-    },
-    "CVE-2007-2052": {
-        "CVE-ID": "CVE-2007-2052",
-        "NVD": {
-            "Descriptions": "Off-by-one error in the PyLocale_strxfrm function in Modules/_localemodule.c for Python 2.4 and 2.5 causes an incorrect buffer size to be used for the strxfrm function, which allows context-dependent attackers to read portions of memory via unknown manipulations that trigger a buffer over-read due to missing null termination.",
-            "Cvss2_BaseScore": 5,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
-            "Cvss3_VectorString": "",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.5",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.5:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        }
-    },
-    "CVE-2007-4559": {
-        "CVE-ID": "CVE-2007-4559",
-        "NVD": {
-            "Descriptions": "Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.",
-            "Cvss2_BaseScore": 6.8,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:python_software_foundation:python",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        }
-    },
-    "CVE-2007-4965": {
-        "CVE-ID": "CVE-2007-4965",
-        "NVD": {
-            "Descriptions": "Multiple integer overflows in the imageop module in Python 2.5.1 and earlier allow context-dependent attackers to cause a denial of service (application crash) and possibly obtain sensitive information (memory contents) via crafted arguments to (1) the tovideo method, and unspecified other vectors related to (2) imageop.c, (3) rbgimgmodule.c, and other files, which trigger heap-based buffer overflows.",
-            "Cvss2_BaseScore": 5.8,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:N/A:P",
-            "Cvss3_VectorString": "",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.5.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.5.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.5",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.5:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4.4",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.6",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.6:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.5",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.5:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.4",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.1.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.1.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.1.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.1.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.1.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.1.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.0.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.0.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.0",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:1.6.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:1.6.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:1.6",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:1.6:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:1.5.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:1.5.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        },
-        "Official": {
-            "2.6b1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/2.7/Misc/NEWS.d/2.6b1.rst",
-                    "https://github.com/python/cpython/blob/2.6/Misc/NEWS"
-                ],
-                "BTS": {
-                    "bpo1179": {
-                        "ID": "bpo1179",
-                        "url": "https://bugs.python.org/issue1179",
-                        "date": "7003",
-                        "nonce": "ZiG6Oq",
-                        "section": "Library"
-                    }
-                }
-            },
-            "2.4.6c1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/2.4/Misc/NEWS"
-                ],
-                "BTS": {
-                    "bpo1179": {
-                        "ID": "bpo1179",
-                        "url": "https://bugs.python.org/issue1179",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    }
-                }
-            },
-            "2.5.3c1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/2.5/Misc/NEWS"
-                ],
-                "BTS": {
-                    "bpo1179": {
-                        "ID": "bpo1179",
-                        "url": "https://bugs.python.org/issue1179",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    }
-                }
-            }
-        }
-    },
-    "CVE-2008-1679": {
-        "CVE-ID": "CVE-2008-1679",
-        "NVD": {
-            "Descriptions": "Multiple integer overflows in imageop.c in Python before 2.5.3 allow context-dependent attackers to cause a denial of service (crash) and possibly execute arbitrary code via crafted images that trigger heap-based buffer overflows.  NOTE: this issue is due to an incomplete fix for CVE-2007-4965.",
-            "Cvss2_BaseScore": 6.8,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.5.2"
-                }
-            ]
-        },
-        "Official": {
-            "2.4.6c1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/2.4/Misc/NEWS"
-                ],
-                "BTS": {
-                    "bpo1179": {
-                        "ID": "bpo1179",
-                        "url": "https://bugs.python.org/issue1179",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    }
-                }
-            },
-            "2.6b1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/2.7/Misc/NEWS.d/2.6b1.rst"
-                ],
-                "BTS": {
-                    "bpo1179": {
-                        "ID": "bpo1179",
-                        "url": "https://bugs.python.org/issue1179",
-                        "date": "7003",
-                        "nonce": "ZiG6Oq",
-                        "section": "Library"
-                    }
-                }
-            },
-            "2.5.3c1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/2.5/Misc/NEWS"
-                ],
-                "BTS": {
-                    "bpo1179": {
-                        "ID": "bpo1179",
-                        "url": "https://bugs.python.org/issue1179",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    }
-                }
-            }
-        }
-    },
-    "CVE-2008-2315": {
-        "CVE-ID": "CVE-2008-2315",
-        "NVD": {
-            "Descriptions": "Multiple integer overflows in Python 2.5.2 and earlier allow context-dependent attackers to have an unknown impact via vectors related to the (1) stringobject, (2) unicodeobject, (3) bufferobject, (4) longobject, (5) tupleobject, (6) stropmodule, (7) gcmodule, and (8) mmapmodule modules.  NOTE: The expandtabs integer overflows in stringobject and unicodeobject in 2.5.2 are covered by CVE-2008-5031.",
-            "Cvss2_BaseScore": 7.5,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.5.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.5.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.5",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.5:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4.5",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4.5:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4.4",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.7",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.7:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.6",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.6:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.5",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.5:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.4",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.1.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.1.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.1.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.1.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.1.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.1.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.0.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.0.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.0",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:1.6.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:1.6.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:1.6",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:1.6:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:1.5.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:1.5.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.5.2"
-                }
-            ]
-        },
-        "Official": {
-            "2.4.6c1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/2.4/Misc/NEWS"
-                ]
-            }
-        }
-    },
-    "CVE-2008-2316": {
-        "CVE-ID": "CVE-2008-2316",
-        "NVD": {
-            "Descriptions": "Integer overflow in _hashopenssl.c in the hashlib module in Python 2.5.2 and earlier might allow context-dependent attackers to defeat cryptographic digests, related to \"partial hashlib hashing of data exceeding 4GB.\"",
-            "Cvss2_BaseScore": 7.5,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.5.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.5.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.5.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.5.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4.5",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4.5:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.7",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.7:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.1.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.1.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.0.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.0.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:1.6.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:1.6.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:1.5.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:1.5.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        },
-        "Official": {
-            "2.5.3c1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/2.5/Misc/NEWS"
-                ],
-                "BTS": {
-                    "bpo3886": {
-                        "ID": "bpo3886",
-                        "url": "https://bugs.python.org/issue3886",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    }
-                }
-            },
-            "2.6rc2": {
-                "source": [
-                    "https://github.com/python/cpython/blob/2.7/Misc/NEWS.d/2.6rc2.rst"
-                ],
-                "BTS": {
-                    "bpo3886": {
-                        "ID": "bpo3886",
-                        "url": "https://bugs.python.org/issue3886",
-                        "date": "7167",
-                        "nonce": "l6kzFl",
-                        "section": "Library"
-                    }
-                }
-            }
-        }
-    },
-    "CVE-2008-3143": {
-        "CVE-ID": "CVE-2008-3143",
-        "NVD": {
-            "Descriptions": "Multiple integer overflows in Python before 2.5.2 might allow context-dependent attackers to have an unknown impact via vectors related to (1) Include/pymem.h; (2) _csv.c, (3) _struct.c, (4) arraymodule.c, (5) audioop.c, (6) binascii.c, (7) cPickle.c, (8) cStringIO.c, (9) cjkcodecs/multibytecodec.c, (10) datetimemodule.c, (11) md5.c, (12) rgbimgmodule.c, and (13) stropmodule.c in Modules/; (14) bufferobject.c, (15) listobject.c, and (16) obmalloc.c in Objects/; (17) Parser/node.c; and (18) asdl.c, (19) ast.c, (20) bltinmodule.c, and (21) compile.c in Python/, as addressed by \"checks for integer overflows, contributed by Google.\"",
-            "Cvss2_BaseScore": 7.5,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4.5",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4.5:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.7",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.7:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.1.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.1.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.0.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.0.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:1.6.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:1.6.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:1.5.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:1.5.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.5.1"
-                }
-            ]
-        }
-    },
-    "CVE-2008-3144": {
-        "CVE-ID": "CVE-2008-3144",
-        "NVD": {
-            "Descriptions": "Multiple integer overflows in the PyOS_vsnprintf function in Python/mysnprintf.c in Python 2.5.2 and earlier allow context-dependent attackers to cause a denial of service (memory corruption) or have unspecified other impact via crafted input to string formatting operations.  NOTE: the handling of certain integer values is also affected by related integer underflows and an off-by-one error.",
-            "Cvss2_BaseScore": 5,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.5.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.5.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.5.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.5.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.5",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.5:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4.5",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4.5:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4.4",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.4",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.7",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.7:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.6",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.6:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.5",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.5:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.4",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.1.3",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.1.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.1.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.1.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.1.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.1.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.0.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.0.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:2.0",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:2.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:1.6.1",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:1.6.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:1.6",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:1.6:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:python_software_foundation:python:1.5.2",
-                    "FormattedString": "cpe:2.3:a:python_software_foundation:python:1.5.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        },
-        "Official": {
-            "2.4.6c1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/2.4/Misc/NEWS"
-                ],
-                "BTS": {
-                    "bpo2588": {
-                        "ID": "bpo2588",
-                        "url": "https://bugs.python.org/issue2588",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    },
-                    "bpo2589": {
-                        "ID": "bpo2589",
-                        "url": "https://bugs.python.org/issue2589",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    }
-                }
-            },
-            "2.5.3c1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/2.5/Misc/NEWS"
-                ],
-                "BTS": {
-                    "bpo2588": {
-                        "ID": "bpo2588",
-                        "url": "https://bugs.python.org/issue2588",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    },
-                    "bpo2589": {
-                        "ID": "bpo2589",
-                        "url": "https://bugs.python.org/issue2589",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    }
-                }
-            }
         }
     },
     "CVE-2008-4108": {
