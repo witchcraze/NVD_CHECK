@@ -13272,6 +13272,14 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:goto:gotoassist",
+                    "FormattedString": "cpe:2.3:a:goto:gotoassist:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "11.9.18",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:azul:zulu:8.60",
                     "FormattedString": "cpe:2.3:a:azul:zulu:8.60:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",

@@ -9666,6 +9666,38 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.24.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "12.0.0",
+                    "VersionEndExcluding": "12.22.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.0.0",
+                    "VersionEndExcluding": "14.16.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.0.0",
+                    "VersionEndExcluding": "15.14.0",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:netapp:storagegrid:-",
                     "FormattedString": "cpe:2.3:a:netapp:storagegrid:-:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
