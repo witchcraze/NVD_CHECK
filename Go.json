@@ -6472,6 +6472,16 @@
                 "source": {
                     "61075": "https://github.com/golang/go/issues/61075"
                 }
+            },
+            "1.20.8": {
+                "source": {
+                    "61826": "https://github.com/golang/go/issues/61826"
+                }
+            },
+            "1.19.13": {
+                "source": {
+                    "61825": "https://github.com/golang/go/issues/61825"
+                }
             }
         }
     },
@@ -7273,10 +7283,19 @@
         "NVD": {
             "Descriptions": "Text nodes not in the HTML namespace are incorrectly literally rendered, causing text which should be escaped to not be. This could lead to an XSS attack.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 6.1,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:networking:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:networking:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.13.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "Unreleased": {
@@ -7291,10 +7310,19 @@
         "NVD": {
             "Descriptions": "The TIFF decoder does not place a limit on the size of compressed tile data. A maliciously-crafted image can exploit this to cause a small image (both in terms of pixel width/height, and encoded size) to make the decoder decode large amounts of compressed data, consuming excessive memory and CPU.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:image:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:image:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.10.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "Unreleased": {
@@ -7309,10 +7337,19 @@
         "NVD": {
             "Descriptions": "A maliciously-crafted image can cause excessive CPU consumption in decoding. A tiled image with a height of 0 and a very large width can cause excessive CPU consumption, despite the image size (width * height) appearing to be zero.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:image:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:image:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.10.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "Unreleased": {
