@@ -22337,6 +22337,66 @@
             }
         }
     },
+    "CVE-2023-32002": {
+        "CVE-ID": "CVE-2023-32002",
+        "Official": {
+            "16.20.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                ]
+            },
+            "18.17.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            },
+            "20.5.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            }
+        }
+    },
+    "CVE-2023-32006": {
+        "CVE-ID": "CVE-2023-32006",
+        "Official": {
+            "16.20.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                ]
+            },
+            "18.17.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            },
+            "20.5.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            }
+        }
+    },
+    "CVE-2023-32559": {
+        "CVE-ID": "CVE-2023-32559",
+        "Official": {
+            "16.20.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md"
+                ]
+            },
+            "18.17.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            },
+            "20.5.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            }
+        }
+    },
     "CVE-2023-30581": {
         "CVE-ID": "CVE-2023-30581",
         "Official": {
@@ -23707,6 +23767,46 @@
             "16.20.0": {
                 "source": [
                     "https://github.com/nodejs/security-wg/blob/main/vuln/core/98.json"
+                ]
+            }
+        }
+    },
+    "CVE-2023-32558": {
+        "CVE-ID": "CVE-2023-32558",
+        "Official": {
+            "20.5.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            }
+        }
+    },
+    "CVE-2023-32004": {
+        "CVE-ID": "CVE-2023-32004",
+        "Official": {
+            "20.5.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            }
+        }
+    },
+    "CVE-2023-32005": {
+        "CVE-ID": "CVE-2023-32005",
+        "Official": {
+            "20.5.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            }
+        }
+    },
+    "CVE-2023-32003": {
+        "CVE-ID": "CVE-2023-32003",
+        "Official": {
+            "20.5.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
                 ]
             }
         }

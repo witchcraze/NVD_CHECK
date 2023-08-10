@@ -6482,6 +6482,11 @@
                 "source": {
                     "61825": "https://github.com/golang/go/issues/61825"
                 }
+            },
+            "1.21.1": {
+                "source": {
+                    "61904": "https://github.com/golang/go/issues/61904"
+                }
             }
         }
     },
