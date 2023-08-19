@@ -727,6 +727,30 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.16.0",
+                    "VersionEndExcluding": "4.16.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.17.0",
+                    "VersionEndExcluding": "4.17.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "4.15.13",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:netapp:management_services_for_netapp_hci:-",
                     "FormattedString": "cpe:2.3:a:netapp:management_services_for_netapp_hci:-:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -859,6 +883,30 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.16.0",
+                    "VersionEndExcluding": "4.16.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.17.0",
+                    "VersionEndExcluding": "4.17.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "4.15.13",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:netapp:management_services_for_netapp_hci:-",
                     "FormattedString": "cpe:2.3:a:netapp:management_services_for_netapp_hci:-:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -976,6 +1024,30 @@
                     "URI": "cpe:/o:fedoraproject:fedora:36",
                     "FormattedString": "cpe:2.3:o:fedoraproject:fedora:36:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.16.0",
+                    "VersionEndExcluding": "4.16.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.17.0",
+                    "VersionEndExcluding": "4.17.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "4.15.13",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
@@ -43297,7 +43369,15 @@
                     "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "4.1.0",
-                    "VersionEndExcluding": "4.12.2",
+                    "VersionEndExcluding": "4.16.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.17.0",
+                    "VersionEndExcluding": "4.17.4",
                     "VersionEndIncluding": ""
                 }
             ]
