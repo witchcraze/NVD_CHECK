@@ -14916,7 +14916,7 @@
             },
             "3.9.0a5": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0a1/Misc/NEWS.d/3.9.0a5.rst"
+                    "https://github.com/python/cpython/blob/3.11/Misc/NEWS.d/3.9.0a5.rst"
                 ],
                 "BTS": {
                     "bpo38576": {
@@ -21206,6 +21206,42 @@
                     "VersionEndIncluding": "3.11.4"
                 }
             ]
+        }
+    },
+    "CVE-2023-38898": {
+        "CVE-ID": "CVE-2023-38898",
+        "NVD": {
+            "Descriptions": "An issue in Python cpython v.3.7 allows an attacker to obtain sensitive information via the _asyncio._swap_current_task component.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python:3.13.0:alpha0",
+                    "FormattedString": "cpe:2.3:a:python:python:3.13.0:alpha0:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "3.12.0b4": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.12.0b4/Misc/NEWS.d/3.12.0b4.rst"
+                ],
+                "BTS": {
+                    "gh-issue105987": {
+                        "ID": "gh-issue105987",
+                        "url": "https://github.com/python/cpython/issues/105987",
+                        "date": "2023-06-21-19-04-27",
+                        "nonce": "T7Kzrb",
+                        "section": "Library"
+                    }
+                }
+            }
         }
     },
     "CVE-2007-1657": {
