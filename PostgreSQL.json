@@ -39252,6 +39252,26 @@
             ]
         }
     },
+    "CVE-2020-21469": {
+        "CVE-ID": "CVE-2020-21469",
+        "NVD": {
+            "Descriptions": "An issue was discovered in PostgreSQL 12.2 allows attackers to cause a denial of service via repeatedly sending SIGHUP signals.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:postgresql:postgresql:12.2",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:12.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
     "CVE-2021-43767": {
         "CVE-ID": "CVE-2021-43767",
         "NVD": {
