@@ -21098,6 +21098,218 @@
             }
         }
     },
+    "CVE-2022-48565": {
+        "CVE-ID": "CVE-2022-48565",
+        "NVD": {
+            "Descriptions": "An XML External Entity (XXE) issue was discovered in Python through 3.9.1. The plistlib module no longer accepts entity declarations in XML plist files to avoid XML vulnerabilities.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 9.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "3.9.1"
+                }
+            ]
+        },
+        "Official": {
+            "3.6.13": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.6/Misc/NEWS.d/3.6.13.rst"
+                ],
+                "BTS": {
+                    "bpo42051": {
+                        "ID": "bpo42051",
+                        "url": "https://bugs.python.org/issue42051",
+                        "date": "2020-10-19-10-56-27",
+                        "nonce": "EU_B7u",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.7.10": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.7/Misc/NEWS.d/3.7.10.rst"
+                ],
+                "BTS": {
+                    "bpo42051": {
+                        "ID": "bpo42051",
+                        "url": "https://bugs.python.org/issue42051",
+                        "date": "2020-10-19-10-56-27",
+                        "nonce": "EU_B7u",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.8.7rc1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.8.7/Misc/NEWS.d/3.8.7rc1.rst"
+                ],
+                "BTS": {
+                    "bpo42051": {
+                        "ID": "bpo42051",
+                        "url": "https://bugs.python.org/issue42051",
+                        "date": "2020-10-19-10-56-27",
+                        "nonce": "EU_B7u",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.9.1rc1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.9.8/Misc/NEWS.d/3.9.1rc1.rst"
+                ],
+                "BTS": {
+                    "bpo42051": {
+                        "ID": "bpo42051",
+                        "url": "https://bugs.python.org/issue42051",
+                        "date": "2020-10-19-10-56-27",
+                        "nonce": "EU_B7u",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.10.0a2": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.12.0rc1/Misc/NEWS.d/3.10.0a2.rst"
+                ],
+                "BTS": {
+                    "bpo42051": {
+                        "ID": "bpo42051",
+                        "url": "https://bugs.python.org/issue42051",
+                        "date": "2020-10-19-10-56-27",
+                        "nonce": "EU_B7u",
+                        "section": "Security"
+                    }
+                }
+            }
+        }
+    },
+    "CVE-2022-48566": {
+        "CVE-ID": "CVE-2022-48566",
+        "NVD": {
+            "Descriptions": "An issue was discovered in compare_digest in Lib/hmac.py in Python through 3.9.1. Constant-time-defeating optimisations were possible in the accumulator variable in hmac.compare_digest.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.6.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "3.9.1"
+                }
+            ]
+        },
+        "Official": {
+            "3.6.13": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.6/Misc/NEWS.d/3.6.13.rst"
+                ],
+                "BTS": {
+                    "bpo40791": {
+                        "ID": "bpo40791",
+                        "url": "https://bugs.python.org/issue40791",
+                        "date": "2020-05-28-06-06-47",
+                        "nonce": "QGZClX",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.7.10": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.7/Misc/NEWS.d/3.7.10.rst"
+                ],
+                "BTS": {
+                    "bpo40791": {
+                        "ID": "bpo40791",
+                        "url": "https://bugs.python.org/issue40791",
+                        "date": "2020-05-28-06-06-47",
+                        "nonce": "QGZClX",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.8.7rc1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.8.7/Misc/NEWS.d/3.8.7rc1.rst"
+                ],
+                "BTS": {
+                    "bpo40791": {
+                        "ID": "bpo40791",
+                        "url": "https://bugs.python.org/issue40791",
+                        "date": "2020-05-28-06-06-47",
+                        "nonce": "QGZClX",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.9.0b2": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.9.0b2/Misc/NEWS.d/3.9.0b2.rst"
+                ],
+                "BTS": {
+                    "bpo40791": {
+                        "ID": "bpo40791",
+                        "url": "https://bugs.python.org/issue40791",
+                        "date": "2020-05-27-18-04-52",
+                        "nonce": "IzpNor",
+                        "section": "Library"
+                    }
+                }
+            },
+            "3.9.1rc1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.9.8/Misc/NEWS.d/3.9.1rc1.rst"
+                ],
+                "BTS": {
+                    "bpo40791": {
+                        "ID": "bpo40791",
+                        "url": "https://bugs.python.org/issue40791",
+                        "date": "2020-05-28-06-06-47",
+                        "nonce": "QGZClX",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.10.0a1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.10.0a1.rst"
+                ],
+                "BTS": {
+                    "bpo40791": {
+                        "ID": "bpo40791",
+                        "url": "https://bugs.python.org/issue40791",
+                        "date": "2020-05-27-18-04-52",
+                        "nonce": "IzpNor",
+                        "section": "Library"
+                    }
+                }
+            },
+            "3.10.0a3": {
+                "source": [
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.10.0a3.rst"
+                ],
+                "BTS": {
+                    "bpo40791": {
+                        "ID": "bpo40791",
+                        "url": "https://bugs.python.org/issue40791",
+                        "date": "2020-05-28-06-06-47",
+                        "nonce": "QGZClX",
+                        "section": "Security"
+                    }
+                }
+            }
+        }
+    },
     "CVE-2023-24329": {
         "CVE-ID": "CVE-2023-24329",
         "NVD": {
@@ -21511,6 +21723,42 @@
                         "date": "2023-08-22-17-39-12",
                         "nonce": "fVM3sg",
                         "section": "Security"
+                    }
+                }
+            }
+        }
+    },
+    "CVE-2023-41105": {
+        "CVE-ID": "CVE-2023-41105",
+        "NVD": {
+            "Descriptions": "An issue was discovered in Python 3.11 through 3.11.4. If a path containing '\\0' bytes is passed to os.path.normpath(), the path will be truncated unexpectedly at the first '\\0' byte. There are plausible cases in which an application would have rejected a filename for security reasons in Python 3.10.x or earlier, but that filename is no longer rejected in Python 3.11.x.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.11.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "3.11.4"
+                }
+            ]
+        },
+        "Official": {
+            "3.11.5": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.11/Misc/NEWS.d/3.11.5.rst"
+                ],
+                "BTS": {
+                    "gh-issue106242": {
+                        "ID": "gh-issue106242",
+                        "url": "https://github.com/python/cpython/issues/106242",
+                        "date": "2023-07-18-13-01-26",
+                        "nonce": "q24ITw",
+                        "section": "Windows"
                     }
                 }
             }
