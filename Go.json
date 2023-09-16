@@ -6563,6 +6563,197 @@
             }
         }
     },
+    "CVE-2023-39318": {
+        "CVE-ID": "CVE-2023-39318",
+        "NVD": {
+            "Descriptions": "The html/template package does not properly handle HTML-like \"\" comment tokens, nor hashbang \"#!\" comment tokens, in <script> contexts. This may cause the template parser to improperly interpret the contents of <script> contexts, causing actions to be improperly escaped. This may be leveraged to perform an XSS attack.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.20.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.21.0",
+                    "VersionEndExcluding": "1.21.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.22": {
+                "source": {
+                    "62196": "https://github.com/golang/go/issues/62196"
+                }
+            },
+            "1.20.8": {
+                "source": {
+                    "62395": "https://github.com/golang/go/issues/62395"
+                }
+            },
+            "1.21.1": {
+                "source": {
+                    "62396": "https://github.com/golang/go/issues/62396"
+                }
+            }
+        }
+    },
+    "CVE-2023-39319": {
+        "CVE-ID": "CVE-2023-39319",
+        "NVD": {
+            "Descriptions": "The html/template package does not apply the proper rules for handling occurrences of \"<script\", \"<!--\", and \"</script\" within JS literals in <script> contexts. This may cause the template parser to improperly consider script contexts to be terminated early, causing actions to be improperly escaped. This could be leveraged to perform an XSS attack.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.20.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.21.0",
+                    "VersionEndExcluding": "1.21.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.22": {
+                "source": {
+                    "62197": "https://github.com/golang/go/issues/62197"
+                }
+            },
+            "1.20.8": {
+                "source": {
+                    "62397": "https://github.com/golang/go/issues/62397"
+                }
+            },
+            "1.21.1": {
+                "source": {
+                    "62398": "https://github.com/golang/go/issues/62398"
+                }
+            }
+        }
+    },
+    "CVE-2023-39320": {
+        "CVE-ID": "CVE-2023-39320",
+        "NVD": {
+            "Descriptions": "The go.mod toolchain directive, introduced in Go 1.21, can be leveraged to execute scripts and binaries relative to the root of the module when the \"go\" command was executed within the module. This applies to modules downloaded using the \"go\" command from the module proxy, as well as modules downloaded directly using VCS software.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 9.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.21.0",
+                    "VersionEndExcluding": "1.21.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.22": {
+                "source": {
+                    "62198": "https://github.com/golang/go/issues/62198"
+                }
+            },
+            "1.20.8": {
+                "source": {
+                    "62393": "https://github.com/golang/go/issues/62393"
+                }
+            },
+            "1.21.1": {
+                "source": {
+                    "62394": "https://github.com/golang/go/issues/62394"
+                }
+            }
+        }
+    },
+    "CVE-2023-39321": {
+        "CVE-ID": "CVE-2023-39321",
+        "NVD": {
+            "Descriptions": "Processing an incomplete post-handshake message for a QUIC connection can cause a panic.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.21.0",
+                    "VersionEndExcluding": "1.21.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.22": {
+                "source": {
+                    "62266": "https://github.com/golang/go/issues/62266"
+                }
+            },
+            "1.21.1": {
+                "source": {
+                    "62290": "https://github.com/golang/go/issues/62290"
+                }
+            }
+        }
+    },
+    "CVE-2023-39322": {
+        "CVE-ID": "CVE-2023-39322",
+        "NVD": {
+            "Descriptions": "QUIC connections do not set an upper bound on the amount of data buffered when reading post-handshake messages, allowing a malicious QUIC connection to cause unbounded memory growth. With fix, connections now consistently reject messages larger than 65KiB in size.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.21.0",
+                    "VersionEndExcluding": "1.21.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.22": {
+                "source": {
+                    "62266": "https://github.com/golang/go/issues/62266"
+                }
+            },
+            "1.21.1": {
+                "source": {
+                    "62290": "https://github.com/golang/go/issues/62290"
+                }
+            }
+        }
+    },
     "CVE-2023-39533": {
         "CVE-ID": "CVE-2023-39533",
         "NVD": {
@@ -6681,136 +6872,6 @@
             "Unreleased": {
                 "source": {
                     "58003": "https://github.com/golang/go/issues/58003"
-                }
-            }
-        }
-    },
-    "CVE-2023-39321": {
-        "CVE-ID": "CVE-2023-39321",
-        "NVD": {
-            "Descriptions": "Processing an incomplete post-handshake message for a QUIC connection can cause a panic.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.22": {
-                "source": {
-                    "62266": "https://github.com/golang/go/issues/62266"
-                }
-            },
-            "1.21.1": {
-                "source": {
-                    "62290": "https://github.com/golang/go/issues/62290"
-                }
-            }
-        }
-    },
-    "CVE-2023-39322": {
-        "CVE-ID": "CVE-2023-39322",
-        "NVD": {
-            "Descriptions": "QUIC connections do not set an upper bound on the amount of data buffered when reading post-handshake messages, allowing a malicious QUIC connection to cause unbounded memory growth. With fix, connections now consistently reject messages larger than 65KiB in size.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.22": {
-                "source": {
-                    "62266": "https://github.com/golang/go/issues/62266"
-                }
-            },
-            "1.21.1": {
-                "source": {
-                    "62290": "https://github.com/golang/go/issues/62290"
-                }
-            }
-        }
-    },
-    "CVE-2023-39320": {
-        "CVE-ID": "CVE-2023-39320",
-        "NVD": {
-            "Descriptions": "The go.mod toolchain directive, introduced in Go 1.21, can be leveraged to execute scripts and binaries relative to the root of the module when the \"go\" command was executed within the module. This applies to modules downloaded using the \"go\" command from the module proxy, as well as modules downloaded directly using VCS software.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.22": {
-                "source": {
-                    "62198": "https://github.com/golang/go/issues/62198"
-                }
-            },
-            "1.20.8": {
-                "source": {
-                    "62393": "https://github.com/golang/go/issues/62393"
-                }
-            },
-            "1.21.1": {
-                "source": {
-                    "62394": "https://github.com/golang/go/issues/62394"
-                }
-            }
-        }
-    },
-    "CVE-2023-39319": {
-        "CVE-ID": "CVE-2023-39319",
-        "NVD": {
-            "Descriptions": "The html/template package does not apply the proper rules for handling occurrences of \"<script\", \"<!--\", and \"</script\" within JS literals in <script> contexts. This may cause the template parser to improperly consider script contexts to be terminated early, causing actions to be improperly escaped. This could be leveraged to perform an XSS attack.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.22": {
-                "source": {
-                    "62197": "https://github.com/golang/go/issues/62197"
-                }
-            },
-            "1.20.8": {
-                "source": {
-                    "62397": "https://github.com/golang/go/issues/62397"
-                }
-            },
-            "1.21.1": {
-                "source": {
-                    "62398": "https://github.com/golang/go/issues/62398"
-                }
-            }
-        }
-    },
-    "CVE-2023-39318": {
-        "CVE-ID": "CVE-2023-39318",
-        "NVD": {
-            "Descriptions": "The html/template package does not properly handle HTML-like \"\" comment tokens, nor hashbang \"#!\" comment tokens, in <script> contexts. This may cause the template parser to improperly interpret the contents of <script> contexts, causing actions to be improperly escaped. This may be leveraged to perform an XSS attack.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.22": {
-                "source": {
-                    "62196": "https://github.com/golang/go/issues/62196"
-                }
-            },
-            "1.20.8": {
-                "source": {
-                    "62395": "https://github.com/golang/go/issues/62395"
-                }
-            },
-            "1.21.1": {
-                "source": {
-                    "62396": "https://github.com/golang/go/issues/62396"
                 }
             }
         }
