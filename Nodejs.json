@@ -24024,7 +24024,7 @@
                     "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
                     "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
+                    "VersionStartIncluding": "20.0.0",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": "20.5.0"
                 }
