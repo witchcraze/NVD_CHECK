@@ -10902,7 +10902,7 @@
             },
             "3.8.0a4": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.12/Misc/NEWS.d/3.8.0a4.rst"
+                    "https://github.com/python/cpython/blob/3.11/Misc/NEWS.d/3.8.0a4.rst"
                 ],
                 "BTS": {
                     "bpo30458": {
@@ -13696,7 +13696,7 @@
             },
             "3.8.0a4": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.12/Misc/NEWS.d/3.8.0a4.rst"
+                    "https://github.com/python/cpython/blob/3.11/Misc/NEWS.d/3.8.0a4.rst"
                 ],
                 "BTS": {
                     "bpo36742": {
@@ -14986,7 +14986,7 @@
             },
             "3.8.0a4": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.12/Misc/NEWS.d/3.8.0a4.rst"
+                    "https://github.com/python/cpython/blob/3.11/Misc/NEWS.d/3.8.0a4.rst"
                 ],
                 "BTS": {
                     "bpo30458": {
@@ -16094,7 +16094,7 @@
             },
             "3.8.0a4": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.12/Misc/NEWS.d/3.8.0a4.rst"
+                    "https://github.com/python/cpython/blob/3.11/Misc/NEWS.d/3.8.0a4.rst"
                 ],
                 "BTS": {
                     "bpo30458": {
@@ -16210,7 +16210,7 @@
             },
             "3.8.0a4": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.12/Misc/NEWS.d/3.8.0a4.rst"
+                    "https://github.com/python/cpython/blob/3.11/Misc/NEWS.d/3.8.0a4.rst"
                 ],
                 "BTS": {
                     "bpo30458": {
@@ -20938,12 +20938,52 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:debian:debian_linux:10.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:10.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.9.0:alpha2",
+                    "FormattedString": "cpe:2.3:a:python:python:3.9.0:alpha2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.9.0:alpha1",
+                    "FormattedString": "cpe:2.3:a:python:python:3.9.0:alpha1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "3.6.11",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:python:python",
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "3.7.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "3.9.0"
+                    "VersionEndExcluding": "3.7.7",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.8.0",
+                    "VersionEndExcluding": "3.8.2",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -21016,12 +21056,36 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
+                    "URI": "cpe:/a:python:python:3.10.0:alpha1",
+                    "FormattedString": "cpe:2.3:a:python:python:3.10.0:alpha1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:python:python",
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "3.4.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "3.10.0"
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "3.7.7",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.8.0",
+                    "VersionEndExcluding": "3.8.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.9.0",
+                    "VersionEndExcluding": "3.9.1",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -21108,12 +21172,44 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:debian:debian_linux:10.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:10.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:python:python",
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "3.6.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "3.9.1"
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "3.6.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.7.0",
+                    "VersionEndExcluding": "3.7.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.8.0",
+                    "VersionEndExcluding": "3.8.7",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.9.0",
+                    "VersionEndExcluding": "3.9.1",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -21200,12 +21296,44 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:debian:debian_linux:10.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:10.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:python:python",
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "3.6.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "3.9.1"
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "3.6.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.7.0",
+                    "VersionEndExcluding": "3.7.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.8.0",
+                    "VersionEndExcluding": "3.8.7",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.9.0",
+                    "VersionEndExcluding": "3.9.1",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
