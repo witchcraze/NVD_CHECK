@@ -2427,14 +2427,14 @@
             ]
         },
         "Official": {
-            "1.14.8": {
-                "source": {
-                    "41164": "https://github.com/golang/go/issues/41164"
-                }
-            },
             "1.15.1": {
                 "source": {
                     "41165": "https://github.com/golang/go/issues/41165"
+                }
+            },
+            "1.14.8": {
+                "source": {
+                    "41164": "https://github.com/golang/go/issues/41164"
                 }
             },
             "1.16": {
@@ -6868,6 +6868,26 @@
             }
         }
     },
+    "CVE-2023-39325": {
+        "CVE-ID": "CVE-2023-39325",
+        "Official": {
+            "1.22": {
+                "source": {
+                    "63417": "https://github.com/golang/go/issues/63417"
+                }
+            },
+            "1.21.3": {
+                "source": {
+                    "63427": "https://github.com/golang/go/issues/63427"
+                }
+            },
+            "1.20.10": {
+                "source": {
+                    "63426": "https://github.com/golang/go/issues/63426"
+                }
+            }
+        }
+    },
     "CVE-2023-39324": {
         "CVE-ID": "CVE-2023-39324",
         "Official": {
@@ -6876,20 +6896,28 @@
                     "63212": "https://github.com/golang/go/issues/63212"
                 }
             },
-            "1.20.9": {
-                "source": {
-                    "63215": "https://github.com/golang/go/issues/63215"
-                }
-            },
-            "1.21.2": {
+            "1.21.3": {
                 "source": {
                     "63216": "https://github.com/golang/go/issues/63216"
+                }
+            },
+            "1.20.10": {
+                "source": {
+                    "63215": "https://github.com/golang/go/issues/63215"
                 }
             }
         }
     },
     "CVE-2023-39323": {
         "CVE-ID": "CVE-2023-39323",
+        "NVD": {
+            "Descriptions": "Line directives (\"//line\") can be used to bypass the restrictions on \"//go:cgo_\" directives, allowing blocked linker and compiler flags to be passed during compilation. This can result in unexpected execution of arbitrary code when running \"go build\". The line directive requires the absolute path of the file in which the directive lives, which makes exploiting this issue significantly more complex.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.22": {
                 "source": {
