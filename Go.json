@@ -6888,6 +6888,24 @@
             }
         }
     },
+    "CVE-2023-44487": {
+        "CVE-ID": "CVE-2023-44487",
+        "NVD": {
+            "Descriptions": "The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "1.22": {
+                "source": {
+                    "63417": "https://github.com/golang/go/issues/63417"
+                }
+            }
+        }
+    },
     "CVE-2023-39324": {
         "CVE-ID": "CVE-2023-39324",
         "Official": {
@@ -6896,12 +6914,12 @@
                     "63212": "https://github.com/golang/go/issues/63212"
                 }
             },
-            "1.21.3": {
+            "1.21.4": {
                 "source": {
                     "63216": "https://github.com/golang/go/issues/63216"
                 }
             },
-            "1.20.10": {
+            "1.20.11": {
                 "source": {
                     "63215": "https://github.com/golang/go/issues/63215"
                 }

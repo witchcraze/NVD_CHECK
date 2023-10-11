@@ -1,4 +1,129 @@
 {
+    "CVE-2023-3961": {
+        "CVE-ID": "CVE-2023-3961",
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2023-3961.html"
+                ]
+            },
+            "4.17.12": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.12.html"
+                ]
+            },
+            "4.18.8": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.18.8.html"
+                ]
+            },
+            "4.19.1": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.19.1.html"
+                ]
+            }
+        }
+    },
+    "CVE-2023-4154": {
+        "CVE-ID": "CVE-2023-4154",
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2023-4154.html"
+                ]
+            },
+            "4.17.12": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.12.html"
+                ]
+            },
+            "4.18.8": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.18.8.html"
+                ]
+            },
+            "4.19.1": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.19.1.html"
+                ]
+            }
+        }
+    },
+    "CVE-2023-4091": {
+        "CVE-ID": "CVE-2023-4091",
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2023-4091.html"
+                ]
+            },
+            "4.17.12": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.12.html"
+                ]
+            },
+            "4.18.8": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.18.8.html"
+                ]
+            },
+            "4.19.1": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.19.1.html"
+                ]
+            }
+        }
+    },
+    "CVE-2023-42669": {
+        "CVE-ID": "CVE-2023-42669",
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2023-42669.html"
+                ]
+            },
+            "4.17.12": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.12.html"
+                ]
+            },
+            "4.18.8": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.18.8.html"
+                ]
+            },
+            "4.19.1": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.19.1.html"
+                ]
+            }
+        }
+    },
+    "CVE-2023-42670": {
+        "CVE-ID": "CVE-2023-42670",
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2023-42670.html"
+                ]
+            },
+            "4.17.12": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.17.12.html"
+                ]
+            },
+            "4.18.8": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.18.8.html"
+                ]
+            },
+            "4.19.1": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.19.1.html"
+                ]
+            }
+        }
+    },
     "CVE-2022-2031": {
         "CVE-ID": "CVE-2022-2031",
         "NVD": {
