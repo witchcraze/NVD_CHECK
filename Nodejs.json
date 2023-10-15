@@ -23162,6 +23162,99 @@
             }
         }
     },
+    "CVE-2023-44487": {
+        "CVE-ID": "CVE-2023-44487",
+        "NVD": {
+            "Descriptions": "The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:ietf:http:2.0",
+                    "FormattedString": "cpe:2.3:a:ietf:http:2.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "18.18.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/126.json"
+                ]
+            },
+            "20.8.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/126.json"
+                ]
+            }
+        }
+    },
+    "CVE-2023-45143": {
+        "CVE-ID": "CVE-2023-45143",
+        "NVD": {
+            "Descriptions": "Undici is an HTTP/1.1 client written from scratch for Node.js. Prior to version 5.26.2, Undici already cleared Authorization headers on cross-origin redirects, but did not clear `Cookie` headers. By design, `cookie` headers are forbidden request headers, disallowing them to be set in RequestInit.headers in browser environments. Since undici handles headers more liberally than the spec, there was a disconnect from the assumptions the spec made, and undici's implementation of fetch. As such this may lead to accidental leakage of cookie to a third-party site or a malicious attacker who can control the redirection target (ie. an open redirector) to leak the cookie to the third party site. This was patched in version 5.26.2. There are no known workarounds.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "18.18.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/125.json"
+                ]
+            },
+            "20.8.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/125.json"
+                ]
+            }
+        }
+    },
+    "CVE-2023-38552": {
+        "CVE-ID": "CVE-2023-38552",
+        "Official": {
+            "18.18.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/129.json"
+                ]
+            },
+            "20.8.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/129.json"
+                ]
+            }
+        }
+    },
+    "CVE-2023-39333": {
+        "CVE-ID": "CVE-2023-39333",
+        "Official": {
+            "18.18.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/130.json"
+                ]
+            },
+            "20.8.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/130.json"
+                ]
+            }
+        }
+    },
     "CVE-2022-3602": {
         "CVE-ID": "CVE-2022-3602",
         "NVD": {
@@ -23891,6 +23984,28 @@
             "16.20.0": {
                 "source": [
                     "https://github.com/nodejs/security-wg/blob/main/vuln/core/98.json"
+                ]
+            }
+        }
+    },
+    "CVE-2023-39332": {
+        "CVE-ID": "CVE-2023-39332",
+        "Official": {
+            "20.8.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/128.json"
+                ]
+            }
+        }
+    },
+    "CVE-2023-39331": {
+        "CVE-ID": "CVE-2023-39331",
+        "Official": {
+            "20.8.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/127.json"
                 ]
             }
         }
