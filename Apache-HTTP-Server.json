@@ -19656,6 +19656,36 @@
             }
         }
     },
+    "CVE-2023-31122": {
+        "CVE-ID": "CVE-2023-31122",
+        "Official": {
+            "2.4.58": {
+                "source": [
+                    "https://httpd.apache.org/security/vulnerabilities_24.html"
+                ]
+            }
+        }
+    },
+    "CVE-2023-43622": {
+        "CVE-ID": "CVE-2023-43622",
+        "Official": {
+            "2.4.58": {
+                "source": [
+                    "https://httpd.apache.org/security/vulnerabilities_24.html"
+                ]
+            }
+        }
+    },
+    "CVE-2023-45802": {
+        "CVE-ID": "CVE-2023-45802",
+        "Official": {
+            "2.4.58": {
+                "source": [
+                    "https://httpd.apache.org/security/vulnerabilities_24.html"
+                ]
+            }
+        }
+    },
     "CVE-2023-25690": {
         "CVE-ID": "CVE-2023-25690",
         "NVD": {
