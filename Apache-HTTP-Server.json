@@ -19661,7 +19661,8 @@
         "Official": {
             "2.4.58": {
                 "source": [
-                    "https://httpd.apache.org/security/vulnerabilities_24.html"
+                    "https://httpd.apache.org/security/vulnerabilities_24.html",
+                    "http://archive.apache.org/dist/httpd/CHANGES_2.4"
                 ]
             }
         }
@@ -19671,7 +19672,8 @@
         "Official": {
             "2.4.58": {
                 "source": [
-                    "https://httpd.apache.org/security/vulnerabilities_24.html"
+                    "https://httpd.apache.org/security/vulnerabilities_24.html",
+                    "http://archive.apache.org/dist/httpd/CHANGES_2.4"
                 ]
             }
         }
@@ -19681,7 +19683,8 @@
         "Official": {
             "2.4.58": {
                 "source": [
-                    "https://httpd.apache.org/security/vulnerabilities_24.html"
+                    "https://httpd.apache.org/security/vulnerabilities_24.html",
+                    "http://archive.apache.org/dist/httpd/CHANGES_2.4"
                 ]
             }
         }
@@ -30694,6 +30697,2001 @@
             "2.2.6": {
                 "source": [
                     "http://archive.apache.org/dist/httpd/CHANGES_2.2"
+                ]
+            }
+        }
+    },
+    "CVE-2023-44487": {
+        "CVE-ID": "CVE-2023-44487",
+        "NVD": {
+            "Descriptions": "The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux:9.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:9.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux:8.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux:6.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2022:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2022:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2019:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2019:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_server_2016:-",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_server_2016:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_11_22h2",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_11_22h2:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "10.0.22621.2428",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_11_21h2",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_11_21h2:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "10.0.22000.2538",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10_22h2",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10_22h2:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "10.0.19045.3570",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10_21h2",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10_21h2:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "10.0.19044.3570",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10_1809",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10_1809:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "10.0.17763.4974",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10_1607:::~~~~x86~",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10_1607:*:*:*:*:*:*:x86:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "10.0.14393.6351",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:microsoft:windows_10_1607:::~~~~x64~",
+                    "FormattedString": "cpe:2.3:o:microsoft:windows_10_1607:*:*:*:*:*:*:x64:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "10.0.14393.6351",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:38",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:38:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:12.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:12.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:11.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:11.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:10.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:10.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:varnish_cache_project:varnish_cache",
+                    "FormattedString": "cpe:2.3:a:varnish_cache_project:varnish_cache:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2023-10-10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:traefik:traefik:3.0.0:beta3",
+                    "FormattedString": "cpe:2.3:a:traefik:traefik:3.0.0:beta3:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:traefik:traefik:3.0.0:beta2",
+                    "FormattedString": "cpe:2.3:a:traefik:traefik:3.0.0:beta2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:traefik:traefik:3.0.0:beta1",
+                    "FormattedString": "cpe:2.3:a:traefik:traefik:3.0.0:beta1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:traefik:traefik",
+                    "FormattedString": "cpe:2.3:a:traefik:traefik:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2.10.5",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:web_terminal:-",
+                    "FormattedString": "cpe:2.3:a:redhat:web_terminal:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:support_for_spring_boot:-",
+                    "FormattedString": "cpe:2.3:a:redhat:support_for_spring_boot:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:single_sign-on:7.0",
+                    "FormattedString": "cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:service_telemetry_framework:1.5",
+                    "FormattedString": "cpe:2.3:a:redhat:service_telemetry_framework:1.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:service_interconnect:1.0",
+                    "FormattedString": "cpe:2.3:a:redhat:service_interconnect:1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:self_node_remediation_operator:-",
+                    "FormattedString": "cpe:2.3:a:redhat:self_node_remediation_operator:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:satellite:6.0",
+                    "FormattedString": "cpe:2.3:a:redhat:satellite:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:run_once_duration_override_operator:-",
+                    "FormattedString": "cpe:2.3:a:redhat:run_once_duration_override_operator:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:quay:3.0.0",
+                    "FormattedString": "cpe:2.3:a:redhat:quay:3.0.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:process_automation:7.0",
+                    "FormattedString": "cpe:2.3:a:redhat:process_automation:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openstack_platform:17.1",
+                    "FormattedString": "cpe:2.3:a:redhat:openstack_platform:17.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openstack_platform:16.2",
+                    "FormattedString": "cpe:2.3:a:redhat:openstack_platform:16.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openstack_platform:16.1",
+                    "FormattedString": "cpe:2.3:a:redhat:openstack_platform:16.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openshift_virtualization:4",
+                    "FormattedString": "cpe:2.3:a:redhat:openshift_virtualization:4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openshift_service_mesh:2.0",
+                    "FormattedString": "cpe:2.3:a:redhat:openshift_service_mesh:2.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openshift_serverless:-",
+                    "FormattedString": "cpe:2.3:a:redhat:openshift_serverless:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openshift_secondary_scheduler_operator:-",
+                    "FormattedString": "cpe:2.3:a:redhat:openshift_secondary_scheduler_operator:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openshift_sandboxed_containers:-",
+                    "FormattedString": "cpe:2.3:a:redhat:openshift_sandboxed_containers:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openshift_pipelines:-",
+                    "FormattedString": "cpe:2.3:a:redhat:openshift_pipelines:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openshift_gitops:-",
+                    "FormattedString": "cpe:2.3:a:redhat:openshift_gitops:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openshift_distributed_tracing:-",
+                    "FormattedString": "cpe:2.3:a:redhat:openshift_distributed_tracing:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openshift_developer_tools_and_services:-",
+                    "FormattedString": "cpe:2.3:a:redhat:openshift_developer_tools_and_services:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openshift_dev_spaces:-",
+                    "FormattedString": "cpe:2.3:a:redhat:openshift_dev_spaces:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openshift_data_science:-",
+                    "FormattedString": "cpe:2.3:a:redhat:openshift_data_science:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openshift_container_platform_assisted_installer:-",
+                    "FormattedString": "cpe:2.3:a:redhat:openshift_container_platform_assisted_installer:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openshift_container_platform:4.0",
+                    "FormattedString": "cpe:2.3:a:redhat:openshift_container_platform:4.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openshift_api_for_data_protection:-",
+                    "FormattedString": "cpe:2.3:a:redhat:openshift_api_for_data_protection:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openshift:-::~~~aws~~",
+                    "FormattedString": "cpe:2.3:a:redhat:openshift:-:*:*:*:*:aws:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:node_maintenance_operator:-",
+                    "FormattedString": "cpe:2.3:a:redhat:node_maintenance_operator:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:node_healthcheck_operator:-",
+                    "FormattedString": "cpe:2.3:a:redhat:node_healthcheck_operator:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:network_observability_operator:-",
+                    "FormattedString": "cpe:2.3:a:redhat:network_observability_operator:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:migration_toolkit_for_virtualization:-",
+                    "FormattedString": "cpe:2.3:a:redhat:migration_toolkit_for_virtualization:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:migration_toolkit_for_containers:-",
+                    "FormattedString": "cpe:2.3:a:redhat:migration_toolkit_for_containers:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:migration_toolkit_for_applications:6.0",
+                    "FormattedString": "cpe:2.3:a:redhat:migration_toolkit_for_applications:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:machine_deletion_remediation_operator:-",
+                    "FormattedString": "cpe:2.3:a:redhat:machine_deletion_remediation_operator:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:logging_subsystem_for_red_hat_openshift:-",
+                    "FormattedString": "cpe:2.3:a:redhat:logging_subsystem_for_red_hat_openshift:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:jboss_fuse:7.0.0",
+                    "FormattedString": "cpe:2.3:a:redhat:jboss_fuse:7.0.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:jboss_fuse:6.0.0",
+                    "FormattedString": "cpe:2.3:a:redhat:jboss_fuse:6.0.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:jboss_enterprise_application_platform:7.0.0",
+                    "FormattedString": "cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:jboss_enterprise_application_platform:6.0.0",
+                    "FormattedString": "cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.0.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:jboss_data_grid:7.0.0",
+                    "FormattedString": "cpe:2.3:a:redhat:jboss_data_grid:7.0.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:jboss_core_services:-",
+                    "FormattedString": "cpe:2.3:a:redhat:jboss_core_services:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:jboss_a-mq_streams:-",
+                    "FormattedString": "cpe:2.3:a:redhat:jboss_a-mq_streams:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:jboss_a-mq:7",
+                    "FormattedString": "cpe:2.3:a:redhat:jboss_a-mq:7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:integration_service_registry:-",
+                    "FormattedString": "cpe:2.3:a:redhat:integration_service_registry:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:integration_camel_k:-",
+                    "FormattedString": "cpe:2.3:a:redhat:integration_camel_k:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:integration_camel_for_spring_boot:-",
+                    "FormattedString": "cpe:2.3:a:redhat:integration_camel_for_spring_boot:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:fence_agents_remediation_operator:-",
+                    "FormattedString": "cpe:2.3:a:redhat:fence_agents_remediation_operator:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:decision_manager:7.0",
+                    "FormattedString": "cpe:2.3:a:redhat:decision_manager:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:cryostat:2.0",
+                    "FormattedString": "cpe:2.3:a:redhat:cryostat:2.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:cost_management:-",
+                    "FormattedString": "cpe:2.3:a:redhat:cost_management:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:certification_for_red_hat_enterprise_linux:9.0",
+                    "FormattedString": "cpe:2.3:a:redhat:certification_for_red_hat_enterprise_linux:9.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:certification_for_red_hat_enterprise_linux:8.0",
+                    "FormattedString": "cpe:2.3:a:redhat:certification_for_red_hat_enterprise_linux:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:cert-manager_operator_for_red_hat_openshift:-",
+                    "FormattedString": "cpe:2.3:a:redhat:cert-manager_operator_for_red_hat_openshift:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:ceph_storage:5.0",
+                    "FormattedString": "cpe:2.3:a:redhat:ceph_storage:5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:build_of_quarkus:-",
+                    "FormattedString": "cpe:2.3:a:redhat:build_of_quarkus:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:build_of_optaplanner:8.0",
+                    "FormattedString": "cpe:2.3:a:redhat:build_of_optaplanner:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:ansible_automation_platform:2.0",
+                    "FormattedString": "cpe:2.3:a:redhat:ansible_automation_platform:2.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:advanced_cluster_security:4.0",
+                    "FormattedString": "cpe:2.3:a:redhat:advanced_cluster_security:4.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:advanced_cluster_security:3.0",
+                    "FormattedString": "cpe:2.3:a:redhat:advanced_cluster_security:3.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:advanced_cluster_management_for_kubernetes:2.0",
+                    "FormattedString": "cpe:2.3:a:redhat:advanced_cluster_management_for_kubernetes:2.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:3scale_api_management_platform:2.0",
+                    "FormattedString": "cpe:2.3:a:redhat:3scale_api_management_platform:2.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:projectcontour:contour:::~~~kubernetes~~",
+                    "FormattedString": "cpe:2.3:a:projectcontour:contour:*:*:*:*:*:kubernetes:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2023-10-11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "21.0.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nghttp2:nghttp2",
+                    "FormattedString": "cpe:2.3:a:nghttp2:nghttp2:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.57.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netty:netty",
+                    "FormattedString": "cpe:2.3:a:netty:netty:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "4.1.100",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:astra_control_center:-",
+                    "FormattedString": "cpe:2.3:a:netapp:astra_control_center:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:visual_studio_2022",
+                    "FormattedString": "cpe:2.3:a:microsoft:visual_studio_2022:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "17.0",
+                    "VersionEndExcluding": "17.2.20",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:visual_studio_2022",
+                    "FormattedString": "cpe:2.3:a:microsoft:visual_studio_2022:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "17.4",
+                    "VersionEndExcluding": "17.4.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:visual_studio_2022",
+                    "FormattedString": "cpe:2.3:a:microsoft:visual_studio_2022:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "17.6",
+                    "VersionEndExcluding": "17.6.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:visual_studio_2022",
+                    "FormattedString": "cpe:2.3:a:microsoft:visual_studio_2022:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "17.7",
+                    "VersionEndExcluding": "17.7.5",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:cbl-mariner",
+                    "FormattedString": "cpe:2.3:a:microsoft:cbl-mariner:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2023-10-11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:azure_kubernetes_service",
+                    "FormattedString": "cpe:2.3:a:microsoft:azure_kubernetes_service:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2023-10-08",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:asp.net_core",
+                    "FormattedString": "cpe:2.3:a:microsoft:asp.net_core:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "6.0.0",
+                    "VersionEndExcluding": "6.0.23",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:asp.net_core",
+                    "FormattedString": "cpe:2.3:a:microsoft:asp.net_core:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:.net",
+                    "FormattedString": "cpe:2.3:a:microsoft:.net:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "6.0.0",
+                    "VersionEndExcluding": "6.0.23",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:.net",
+                    "FormattedString": "cpe:2.3:a:microsoft:.net:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:linkerd:linkerd:2.14.1",
+                    "FormattedString": "cpe:2.3:a:linkerd:linkerd:2.14.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:linkerd:linkerd:2.14.0",
+                    "FormattedString": "cpe:2.3:a:linkerd:linkerd:2.14.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:linkerd:linkerd:2.13.1",
+                    "FormattedString": "cpe:2.3:a:linkerd:linkerd:2.13.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:linkerd:linkerd:2.13.0",
+                    "FormattedString": "cpe:2.3:a:linkerd:linkerd:2.13.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:linkerd:linkerd",
+                    "FormattedString": "cpe:2.3:a:linkerd:linkerd:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.12.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "2.12.5"
+                },
+                {
+                    "URI": "cpe:/a:linecorp:armeria",
+                    "FormattedString": "cpe:2.3:a:linecorp:armeria:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.26.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:konghq:kong_gateway:::~~enterprise~~~",
+                    "FormattedString": "cpe:2.3:a:konghq:kong_gateway:*:*:*:*:enterprise:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "3.4.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:kazu-yamamoto:http2",
+                    "FormattedString": "cpe:2.3:a:kazu-yamamoto:http2:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "4.2.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:istio:istio",
+                    "FormattedString": "cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.17.6",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:istio:istio",
+                    "FormattedString": "cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.18.0",
+                    "VersionEndExcluding": "1.18.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:istio:istio",
+                    "FormattedString": "cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.19.0",
+                    "VersionEndExcluding": "1.19.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:ietf:http:2.0",
+                    "FormattedString": "cpe:2.3:a:ietf:http:2.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:grpc:grpc:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:grpc:grpc:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.56.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:grpc:grpc:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:grpc:grpc:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.58.0",
+                    "VersionEndExcluding": "1.58.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:grpc:grpc:1.57.0:-:~~~go~~",
+                    "FormattedString": "cpe:2.3:a:grpc:grpc:1.57.0:-:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:networking:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:networking:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.17.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:http2:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:http2:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.17.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.20.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.21.0",
+                    "VersionEndExcluding": "1.21.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:facebook:proxygen",
+                    "FormattedString": "cpe:2.3:a:facebook:proxygen:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2023.10.16.00",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:nginx_plus:r30:-",
+                    "FormattedString": "cpe:2.3:a:f5:nginx_plus:r30:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:nginx_plus:r29:-",
+                    "FormattedString": "cpe:2.3:a:f5:nginx_plus:r29:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:nginx_plus",
+                    "FormattedString": "cpe:2.3:a:f5:nginx_plus:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "r25",
+                    "VersionEndExcluding": "r29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:nginx_ingress_controller",
+                    "FormattedString": "cpe:2.3:a:f5:nginx_ingress_controller:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "2.4.2"
+                },
+                {
+                    "URI": "cpe:/a:f5:nginx_ingress_controller",
+                    "FormattedString": "cpe:2.3:a:f5:nginx_ingress_controller:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "3.3.0"
+                },
+                {
+                    "URI": "cpe:/a:f5:nginx",
+                    "FormattedString": "cpe:2.3:a:f5:nginx:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.9.5",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "1.25.2"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_websafe:17.1.0",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_websafe:17.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_websafe",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_websafe:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "13.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "13.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_websafe",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_websafe:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_websafe",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_websafe:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "15.1.10"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_websafe",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_websafe:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.1.4"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_webaccelerator:17.1.0",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_webaccelerator:17.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_webaccelerator",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_webaccelerator:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "13.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "13.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_webaccelerator",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_webaccelerator:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_webaccelerator",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_webaccelerator:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "15.1.10"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_webaccelerator",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_webaccelerator:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.1.4"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_ssl_orchestrator:17.1.0",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_ssl_orchestrator:17.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_ssl_orchestrator",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_ssl_orchestrator:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "13.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "13.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_ssl_orchestrator",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_ssl_orchestrator:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_ssl_orchestrator",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_ssl_orchestrator:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "15.1.10"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_ssl_orchestrator",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_ssl_orchestrator:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.1.4"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_policy_enforcement_manager:17.1.0",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_policy_enforcement_manager:17.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_policy_enforcement_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_policy_enforcement_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "13.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "13.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_policy_enforcement_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_policy_enforcement_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_policy_enforcement_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_policy_enforcement_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "15.1.10"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_policy_enforcement_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_policy_enforcement_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.1.4"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_next_service_proxy_for_kubernetes",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_next_service_proxy_for_kubernetes:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.5.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "1.8.2"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_next:20.0.1",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_next:20.0.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_local_traffic_manager:17.1.0",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_local_traffic_manager:17.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_local_traffic_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_local_traffic_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "13.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "13.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_local_traffic_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_local_traffic_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_local_traffic_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_local_traffic_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "15.1.10"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_local_traffic_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_local_traffic_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.1.4"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_link_controller:17.1.0",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_link_controller:17.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_link_controller",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_link_controller:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "13.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "13.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_link_controller",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_link_controller:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_link_controller",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_link_controller:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "15.1.10"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_link_controller",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_link_controller:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.1.4"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_global_traffic_manager:17.1.0",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_global_traffic_manager:17.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_global_traffic_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_global_traffic_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "13.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "13.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_global_traffic_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_global_traffic_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_global_traffic_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_global_traffic_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "15.1.10"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_global_traffic_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_global_traffic_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.1.4"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_fraud_protection_service:17.1.0",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_fraud_protection_service:17.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_fraud_protection_service",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_fraud_protection_service:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "13.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "13.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_fraud_protection_service",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_fraud_protection_service:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_fraud_protection_service",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_fraud_protection_service:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "15.1.10"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_fraud_protection_service",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_fraud_protection_service:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.1.4"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_domain_name_system:17.1.0",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_domain_name_system:17.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_domain_name_system",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_domain_name_system:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "13.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "13.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_domain_name_system",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_domain_name_system:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_domain_name_system",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_domain_name_system:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "15.1.10"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_domain_name_system",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_domain_name_system:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.1.4"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_ddos_hybrid_defender:17.1.0",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_ddos_hybrid_defender:17.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_ddos_hybrid_defender",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_ddos_hybrid_defender:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "13.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "13.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_ddos_hybrid_defender",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_ddos_hybrid_defender:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_ddos_hybrid_defender",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_ddos_hybrid_defender:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "15.1.10"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_ddos_hybrid_defender",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_ddos_hybrid_defender:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.1.4"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_carrier-grade_nat:17.1.0",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_carrier-grade_nat:17.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_carrier-grade_nat",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_carrier-grade_nat:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "13.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "13.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_carrier-grade_nat",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_carrier-grade_nat:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_carrier-grade_nat",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_carrier-grade_nat:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "15.1.10"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_carrier-grade_nat",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_carrier-grade_nat:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.1.4"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_application_visibility_and_reporting:17.1.0",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_application_visibility_and_reporting:17.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_application_visibility_and_reporting",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_application_visibility_and_reporting:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "13.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "13.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_application_visibility_and_reporting",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_application_visibility_and_reporting:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_application_visibility_and_reporting",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_application_visibility_and_reporting:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "15.1.10"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_application_visibility_and_reporting",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_application_visibility_and_reporting:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.1.4"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_application_security_manager:17.1.0",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_application_security_manager:17.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_application_security_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_application_security_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "13.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "13.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_application_security_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_application_security_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_application_security_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_application_security_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "15.1.10"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_application_security_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_application_security_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.1.4"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_application_acceleration_manager:17.1.0",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_application_acceleration_manager:17.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_application_acceleration_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_application_acceleration_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "13.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "13.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_application_acceleration_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_application_acceleration_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_application_acceleration_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_application_acceleration_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "15.1.10"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_application_acceleration_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_application_acceleration_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.1.4"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_analytics:17.1.0",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_analytics:17.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_analytics",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_analytics:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "13.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "13.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_analytics",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_analytics:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_analytics",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_analytics:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "15.1.10"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_analytics",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_analytics:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.1.4"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_advanced_web_application_firewall:17.1.0",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_advanced_web_application_firewall:17.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_advanced_web_application_firewall",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_advanced_web_application_firewall:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "13.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "13.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_advanced_web_application_firewall",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_advanced_web_application_firewall:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_advanced_web_application_firewall",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_advanced_web_application_firewall:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "15.1.10"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_advanced_web_application_firewall",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_advanced_web_application_firewall:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.1.4"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_advanced_firewall_manager:17.1.0",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_advanced_firewall_manager:17.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_advanced_firewall_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_advanced_firewall_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "13.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "13.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_advanced_firewall_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_advanced_firewall_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_advanced_firewall_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_advanced_firewall_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "15.1.10"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_advanced_firewall_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_advanced_firewall_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.1.4"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_access_policy_manager:17.1.0",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_access_policy_manager:17.1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_access_policy_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_access_policy_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "13.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "13.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_access_policy_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_access_policy_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "14.1.5"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_access_policy_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_access_policy_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "15.1.10"
+                },
+                {
+                    "URI": "cpe:/a:f5:big-ip_access_policy_manager",
+                    "FormattedString": "cpe:2.3:a:f5:big-ip_access_policy_manager:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.1.4"
+                },
+                {
+                    "URI": "cpe:/a:envoyproxy:envoy:1.27.0",
+                    "FormattedString": "cpe:2.3:a:envoyproxy:envoy:1.27.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:envoyproxy:envoy:1.26.4",
+                    "FormattedString": "cpe:2.3:a:envoyproxy:envoy:1.26.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:envoyproxy:envoy:1.25.9",
+                    "FormattedString": "cpe:2.3:a:envoyproxy:envoy:1.25.9:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:envoyproxy:envoy:1.24.10",
+                    "FormattedString": "cpe:2.3:a:envoyproxy:envoy:1.24.10:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:eclipse:jetty",
+                    "FormattedString": "cpe:2.3:a:eclipse:jetty:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "9.4.53",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:eclipse:jetty",
+                    "FormattedString": "cpe:2.3:a:eclipse:jetty:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.17",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:eclipse:jetty",
+                    "FormattedString": "cpe:2.3:a:eclipse:jetty:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "11.0.0",
+                    "VersionEndExcluding": "11.0.17",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:eclipse:jetty",
+                    "FormattedString": "cpe:2.3:a:eclipse:jetty:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "12.0.0",
+                    "VersionEndExcluding": "12.0.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:dena:h2o",
+                    "FormattedString": "cpe:2.3:a:dena:h2o:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2023-10-10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:caddyserver:caddy",
+                    "FormattedString": "cpe:2.3:a:caddyserver:caddy:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2.7.5",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apple:swiftnio_http%2f2:::~~~swift~~",
+                    "FormattedString": "cpe:2.3:a:apple:swiftnio_http\\/2:*:*:*:*:*:swift:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.28.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:traffic_server",
+                    "FormattedString": "cpe:2.3:a:apache:traffic_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.1.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:traffic_server",
+                    "FormattedString": "cpe:2.3:a:apache:traffic_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "9.0.0",
+                    "VersionEndExcluding": "9.2.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:tomcat:11.0.0:milestone9",
+                    "FormattedString": "cpe:2.3:a:apache:tomcat:11.0.0:milestone9:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:tomcat:11.0.0:milestone8",
+                    "FormattedString": "cpe:2.3:a:apache:tomcat:11.0.0:milestone8:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:tomcat:11.0.0:milestone7",
+                    "FormattedString": "cpe:2.3:a:apache:tomcat:11.0.0:milestone7:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:tomcat:11.0.0:milestone6",
+                    "FormattedString": "cpe:2.3:a:apache:tomcat:11.0.0:milestone6:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:tomcat:11.0.0:milestone5",
+                    "FormattedString": "cpe:2.3:a:apache:tomcat:11.0.0:milestone5:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:tomcat:11.0.0:milestone4",
+                    "FormattedString": "cpe:2.3:a:apache:tomcat:11.0.0:milestone4:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:tomcat:11.0.0:milestone3",
+                    "FormattedString": "cpe:2.3:a:apache:tomcat:11.0.0:milestone3:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:tomcat:11.0.0:milestone2",
+                    "FormattedString": "cpe:2.3:a:apache:tomcat:11.0.0:milestone2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:tomcat:11.0.0:milestone11",
+                    "FormattedString": "cpe:2.3:a:apache:tomcat:11.0.0:milestone11:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:tomcat:11.0.0:milestone10",
+                    "FormattedString": "cpe:2.3:a:apache:tomcat:11.0.0:milestone10:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:tomcat:11.0.0:milestone1",
+                    "FormattedString": "cpe:2.3:a:apache:tomcat:11.0.0:milestone1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:tomcat",
+                    "FormattedString": "cpe:2.3:a:apache:tomcat:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "10.1.13"
+                },
+                {
+                    "URI": "cpe:/a:apache:tomcat",
+                    "FormattedString": "cpe:2.3:a:apache:tomcat:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.5.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.5.93"
+                },
+                {
+                    "URI": "cpe:/a:apache:tomcat",
+                    "FormattedString": "cpe:2.3:a:apache:tomcat:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "9.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "9.0.80"
+                },
+                {
+                    "URI": "cpe:/a:apache:apisix",
+                    "FormattedString": "cpe:2.3:a:apache:apisix:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "3.6.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:amazon:opensearch_data_prepper",
+                    "FormattedString": "cpe:2.3:a:amazon:opensearch_data_prepper:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2.5.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:akka:http_server",
+                    "FormattedString": "cpe:2.3:a:akka:http_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "10.5.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "2.4.58": {
+                "source": [
+                    "http://archive.apache.org/dist/httpd/CHANGES_2.4"
                 ]
             }
         }
