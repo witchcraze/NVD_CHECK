@@ -19658,6 +19658,14 @@
     },
     "CVE-2023-31122": {
         "CVE-ID": "CVE-2023-31122",
+        "NVD": {
+            "Descriptions": "Out-of-bounds Read vulnerability in mod_macro of Apache HTTP Server.This issue affects Apache HTTP Server: through 2.4.57.\n\n",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "2.4.58": {
                 "source": [
@@ -19669,6 +19677,14 @@
     },
     "CVE-2023-43622": {
         "CVE-ID": "CVE-2023-43622",
+        "NVD": {
+            "Descriptions": "An attacker, opening a HTTP/2 connection with an initial window size of 0, was able to block handling of that connection indefinitely in Apache HTTP Server. This could be used to exhaust worker resources in the server, similar to the well known \"slow loris\" attack pattern.\nThis has been fixed in version 2.4.58, so that such connection are terminated properly after the configured connection timeout.\n\nThis issue affects Apache HTTP Server: from 2.4.55 through 2.4.57.\n\nUsers are recommended to upgrade to version 2.4.58, which fixes the issue.\n\n",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "2.4.58": {
                 "source": [
@@ -19680,6 +19696,14 @@
     },
     "CVE-2023-45802": {
         "CVE-ID": "CVE-2023-45802",
+        "NVD": {
+            "Descriptions": "When a HTTP/2 stream was reset (RST frame) by a client, there was a time window were the request's memory resources were not reclaimed immediately. Instead, de-allocation was deferred to connection close. A client could send new requests and resets, keeping the connection busy and open and causing the memory footprint to keep on growing. On connection close, all resources were reclaimed, but the process might run out of memory before that.\n\nThis was found by the reporter during testing of\u00a0CVE-2023-44487 (HTTP/2 Rapid Reset Exploit) with their own test client. During \"normal\" HTTP/2 use, the probability to hit this bug is very low. The kept memory would not become noticeable before the connection closes or times out.\n\nUsers are recommended to upgrade to version 2.4.58, which fixes the issue.\n",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "2.4.58": {
                 "source": [
