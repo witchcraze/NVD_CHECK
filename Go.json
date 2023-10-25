@@ -6980,6 +6980,14 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/o:fedoraproject:fedora:37",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/o:debian:debian_linux:12.0",
                     "FormattedString": "cpe:2.3:o:debian:debian_linux:12.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -7660,44 +7668,44 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:linkerd:linkerd:2.14.1",
-                    "FormattedString": "cpe:2.3:a:linkerd:linkerd:2.14.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:linkerd:linkerd:2.14.0",
-                    "FormattedString": "cpe:2.3:a:linkerd:linkerd:2.14.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:linkerd:linkerd:2.13.1",
-                    "FormattedString": "cpe:2.3:a:linkerd:linkerd:2.13.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:linkerd:linkerd:2.13.0",
-                    "FormattedString": "cpe:2.3:a:linkerd:linkerd:2.13.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:linkerd:linkerd",
-                    "FormattedString": "cpe:2.3:a:linkerd:linkerd:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:linkerd:linkerd:::~~stable~kubernetes~~",
+                    "FormattedString": "cpe:2.3:a:linkerd:linkerd:*:*:*:*:stable:kubernetes:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "2.12.0",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": "2.12.5"
+                },
+                {
+                    "URI": "cpe:/a:linkerd:linkerd:2.14.1::~~stable~kubernetes~~",
+                    "FormattedString": "cpe:2.3:a:linkerd:linkerd:2.14.1:*:*:*:stable:kubernetes:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:linkerd:linkerd:2.14.0::~~stable~kubernetes~~",
+                    "FormattedString": "cpe:2.3:a:linkerd:linkerd:2.14.0:*:*:*:stable:kubernetes:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:linkerd:linkerd:2.13.1::~~stable~kubernetes~~",
+                    "FormattedString": "cpe:2.3:a:linkerd:linkerd:2.13.1:*:*:*:stable:kubernetes:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:linkerd:linkerd:2.13.0::~~stable~kubernetes~~",
+                    "FormattedString": "cpe:2.3:a:linkerd:linkerd:2.13.0:*:*:*:stable:kubernetes:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
                 },
                 {
                     "URI": "cpe:/a:linecorp:armeria",
@@ -7722,6 +7730,22 @@
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "4.2.2",
                     "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:jenkins:jenkins:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "2.414.2"
+                },
+                {
+                    "URI": "cpe:/a:jenkins:jenkins:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:jenkins:jenkins:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "2.427"
                 },
                 {
                     "URI": "cpe:/a:istio:istio",
@@ -8820,6 +8844,14 @@
                     "VersionEndIncluding": "9.0.80"
                 },
                 {
+                    "URI": "cpe:/a:apache:solr",
+                    "FormattedString": "cpe:2.3:a:apache:solr:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "9.4.0",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:apache:apisix",
                     "FormattedString": "cpe:2.3:a:apache:apisix:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -8904,6 +8936,46 @@
             "Unreleased": {
                 "source": {
                     "58003": "https://github.com/golang/go/issues/58003"
+                }
+            }
+        }
+    },
+    "CVE-2023-45283": {
+        "CVE-ID": "CVE-2023-45283",
+        "Official": {
+            "1.22": {
+                "source": {
+                    "63713": "https://github.com/golang/go/issues/63713"
+                }
+            },
+            "1.21.4": {
+                "source": {
+                    "63715": "https://github.com/golang/go/issues/63715"
+                }
+            },
+            "1.20.11": {
+                "source": {
+                    "63714": "https://github.com/golang/go/issues/63714"
+                }
+            }
+        }
+    },
+    "CVE-2023-45284": {
+        "CVE-ID": "CVE-2023-45284",
+        "Official": {
+            "1.22": {
+                "source": {
+                    "63713": "https://github.com/golang/go/issues/63713"
+                }
+            },
+            "1.21.4": {
+                "source": {
+                    "63715": "https://github.com/golang/go/issues/63715"
+                }
+            },
+            "1.20.11": {
+                "source": {
+                    "63714": "https://github.com/golang/go/issues/63714"
                 }
             }
         }
