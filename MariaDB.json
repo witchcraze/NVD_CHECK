@@ -273,7 +273,8 @@
             },
             "10.4.26": {
                 "source": [
-                    "https://mariadb.com/kb/en/security/"
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-10426-release-notes/"
                 ]
             }
         }

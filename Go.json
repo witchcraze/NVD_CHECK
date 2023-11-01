@@ -6791,53 +6791,37 @@
             }
         }
     },
-    "CVE-2023-39533": {
-        "CVE-ID": "CVE-2023-39533",
+    "CVE-2023-39325": {
+        "CVE-ID": "CVE-2023-39325",
         "NVD": {
-            "Descriptions": "go-libp2p is the Go implementation of the libp2p Networking Stack. Prior to versions 0.27.8, 0.28.2, and 0.29.1 malicious peer can use large RSA keys to run a resource exhaustion attack & force a node to spend time doing signature verification of the large key. This vulnerability is present in the core/crypto module of go-libp2p and can occur during the Noise handshake and the libp2p x509 extension verification step. To prevent this attack, go-libp2p versions 0.27.8, 0.28.2, and 0.29.1 restrict RSA keys to <= 8192 bits. To protect one's application, it is necessary to update to these patch releases and to use the updated Go compiler in 1.20.7 or 1.19.12. There are no known workarounds for this issue.",
+            "Descriptions": "A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
-                    "URI": "cpe:/a:quic_project:quic:::~~~go~~",
-                    "FormattedString": "cpe:2.3:a:quic_project:quic:*:*:*:*:*:go:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "0.37.2",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:libp2p:go-libp2p:::~~~go~~",
-                    "FormattedString": "cpe:2.3:a:libp2p:go-libp2p:*:*:*:*:*:go:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "0.27.8",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:libp2p:go-libp2p:::~~~go~~",
-                    "FormattedString": "cpe:2.3:a:libp2p:go-libp2p:*:*:*:*:*:go:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "0.28.0",
-                    "VersionEndExcluding": "0.28.2",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:libp2p:go-libp2p:0.29.0::~~~go~~",
-                    "FormattedString": "cpe:2.3:a:libp2p:go-libp2p:0.29.0:*:*:*:*:go:*:*",
+                    "URI": "cpe:/o:fedoraproject:fedora:38",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:38:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:golang:go",
-                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/o:fedoraproject:fedora:37",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
-                    "VersionEndExcluding": "1.19.12",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:http2:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:http2:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.17.0",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -6845,15 +6829,33 @@
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "1.20.0",
-                    "VersionEndExcluding": "1.20.7",
+                    "VersionEndExcluding": "1.20.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.21.0",
+                    "VersionEndExcluding": "1.21.3",
                     "VersionEndIncluding": ""
                 }
             ]
         },
         "Official": {
-            "1.21": {
+            "1.22": {
                 "source": {
-                    "61460": "https://github.com/golang/go/issues/61460"
+                    "63417": "https://github.com/golang/go/issues/63417"
+                }
+            },
+            "1.21.3": {
+                "source": {
+                    "63427": "https://github.com/golang/go/issues/63427"
+                }
+            },
+            "1.20.10": {
+                "source": {
+                    "63426": "https://github.com/golang/go/issues/63426"
                 }
             }
         }
@@ -7556,11 +7558,19 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0.0",
+                    "VersionEndExcluding": "18.18.2",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:nodejs:node.js",
                     "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "21.0.0",
+                    "VersionStartIncluding": "20.0.0",
+                    "VersionEndExcluding": "20.8.1",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -8882,6 +8892,11 @@
                 "source": {
                     "63417": "https://github.com/golang/go/issues/63417"
                 }
+            },
+            "Unreleased": {
+                "source": {
+                    "63805": "https://github.com/golang/go/issues/63805"
+                }
             }
         }
     },
@@ -8980,34 +8995,6 @@
             }
         }
     },
-    "CVE-2023-39325": {
-        "CVE-ID": "CVE-2023-39325",
-        "NVD": {
-            "Descriptions": "A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.22": {
-                "source": {
-                    "63417": "https://github.com/golang/go/issues/63417"
-                }
-            },
-            "1.21.3": {
-                "source": {
-                    "63427": "https://github.com/golang/go/issues/63427"
-                }
-            },
-            "1.20.10": {
-                "source": {
-                    "63426": "https://github.com/golang/go/issues/63426"
-                }
-            }
-        }
-    },
     "CVE-2023-39324": {
         "CVE-ID": "CVE-2023-39324",
         "Official": {
@@ -9016,14 +9003,14 @@
                     "63212": "https://github.com/golang/go/issues/63212"
                 }
             },
-            "1.21.4": {
-                "source": {
-                    "63216": "https://github.com/golang/go/issues/63216"
-                }
-            },
-            "1.20.11": {
+            "1.20.12": {
                 "source": {
                     "63215": "https://github.com/golang/go/issues/63215"
+                }
+            },
+            "1.21.5": {
+                "source": {
+                    "63216": "https://github.com/golang/go/issues/63216"
                 }
             }
         }
@@ -9760,6 +9747,7 @@
         "Official": {
             "Unreleased": {
                 "source": {
+                    "63805": "https://github.com/golang/go/issues/63805",
                     "61615": "https://github.com/golang/go/issues/61615"
                 }
             }

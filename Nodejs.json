@@ -23860,11 +23860,19 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0.0",
+                    "VersionEndExcluding": "18.18.2",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:nodejs:node.js",
                     "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "21.0.0",
+                    "VersionStartIncluding": "20.0.0",
+                    "VersionEndExcluding": "20.8.1",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -25235,10 +25243,27 @@
         "NVD": {
             "Descriptions": "When the Node.js policy feature checks the integrity of a resource against a trusted manifest, the application can intercept the operation and return a forged checksum to the node's policy implementation, thus effectively disabling the integrity check.\nImpacts:\nThis vulnerability affects all users using the experimental policy mechanism in all active release lines: 18.x and, 20.x.\nPlease note that at the time this CVE was issued, the policy mechanism is an experimental feature of Node.js.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "18.18.1"
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "20.1.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "20.8.0"
+                }
+            ]
         },
         "Official": {
             "18.18.2": {
@@ -26010,10 +26035,19 @@
         "NVD": {
             "Descriptions": "Various `node:fs` functions allow specifying paths as either strings or `Uint8Array` objects. In Node.js environments, the `Buffer` class extends the `Uint8Array` class. Node.js prevents path traversal through strings (see CVE-2023-30584) and `Buffer` objects (see CVE-2023-32004), but not through non-`Buffer` `Uint8Array` objects.\n\nThis is distinct from CVE-2023-32004 ([report 2038134](https://hackerone.com/reports/2038134)), which only referred to `Buffer` objects. However, the vulnerability follows the same pattern using `Uint8Array` instead of `Buffer`.\n\nImpacts:\n\nThis vulnerability affects all users using the experimental permission model in Node.js 20.\n\nPlease note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 9.8,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "20.8.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "20.8.1": {
@@ -26029,10 +26063,19 @@
         "NVD": {
             "Descriptions": "A previously disclosed vulnerability (CVE-2023-30584) was patched insufficiently in commit 205f1e6. The new path traversal vulnerability arises because the implementation does not protect itself against the application overwriting built-in utility functions with user-defined implementations.\n\nPlease note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "20.8.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "20.8.1": {
