@@ -452,7 +452,7 @@
     "CVE-2022-36021": {
         "CVE-ID": "CVE-2022-36021",
         "NVD": {
-            "Descriptions": "Redis is an in-memory database that persists on disk. Authenticated users can use string matching commands (like `SCAN` or `KEYS`) with a specially crafted pattern to trigger a denial-of-service attack on Redis, causing it to hang and consume 100% CPU time. The problem is fixed in Redis versions 6.0.18, 6.2.11, 7.0.9.",
+            "Descriptions": "Redis is an in-memory database that persists on disk. Authenticated users can use string matching commands (like `SCAN` or `KEYS`) with a specially crafted pattern to trigger a denial-of-service attack on Redis, causing it to hang and consume 100% CPU time. The problem is fixed in Redis versions 6.0.18, 6.2.11, 7.0.9.\n",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 5.5,
             "Cvss2_VectorString": "",
@@ -3300,7 +3300,7 @@
     "CVE-2020-21468": {
         "CVE-ID": "CVE-2020-21468",
         "NVD": {
-            "Descriptions": "** DISPUTED ** A segmentation fault in the redis-server component of Redis 5.0.7 leads to a denial of service (DOS). NOTE: the vendor cannot reproduce this issue in a released version, such as 5.0.7.",
+            "Descriptions": "A segmentation fault in the redis-server component of Redis 5.0.7 leads to a denial of service (DOS). NOTE: the vendor cannot reproduce this issue in a released version, such as 5.0.7",
             "Cvss2_BaseScore": 5,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
@@ -3432,7 +3432,7 @@
     "CVE-2022-3647": {
         "CVE-ID": "CVE-2022-3647",
         "NVD": {
-            "Descriptions": "** DISPUTED ** A vulnerability, which was classified as problematic, was found in Redis. Affected is the function sigsegvHandler of the file debug.c of the component Crash Report. The manipulation leads to denial of service. The real existence of this vulnerability is still doubted at the moment. The name of the patch is 0bf90d944313919eb8e63d3588bf63a367f020a3. It is recommended to apply a patch to fix this issue. VDB-211962 is the identifier assigned to this vulnerability. NOTE: The vendor claims that this is not a DoS because it applies to the crash logging mechanism which is triggered after a crash has occurred.",
+            "Descriptions": "A vulnerability, which was classified as problematic, was found in Redis. Affected is the function sigsegvHandler of the file debug.c of the component Crash Report. The manipulation leads to denial of service. The real existence of this vulnerability is still doubted at the moment. The name of the patch is 0bf90d944313919eb8e63d3588bf63a367f020a3. It is recommended to apply a patch to fix this issue. VDB-211962 is the identifier assigned to this vulnerability. NOTE: The vendor claims that this is not a DoS because it applies to the crash logging mechanism which is triggered after a crash has occurred.",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 3.3,
             "Cvss2_VectorString": "",
@@ -3452,7 +3452,7 @@
     "CVE-2022-3734": {
         "CVE-ID": "CVE-2022-3734",
         "NVD": {
-            "Descriptions": "** DISPUTED ** A vulnerability was found in a port or fork of Redis. It has been declared as critical. This vulnerability affects unknown code in the library C:/Program Files/Redis/dbghelp.dll. The manipulation leads to uncontrolled search path. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. The identifier of this vulnerability is VDB-212416. NOTE: The official Redis release is not affected. This issue might affect an unofficial fork or port on Windows only.",
+            "Descriptions": "A vulnerability was found in a port or fork of Redis. It has been declared as critical. This vulnerability affects unknown code in the library C:/Program Files/Redis/dbghelp.dll. The manipulation leads to uncontrolled search path. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. The identifier of this vulnerability is VDB-212416. NOTE: The official Redis release is not affected. This issue might affect an unofficial fork or port on Windows only.",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 9.8,
             "Cvss2_VectorString": "",

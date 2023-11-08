@@ -6976,7 +6976,7 @@
     "CVE-2009-2412": {
         "CVE-ID": "CVE-2009-2412",
         "NVD": {
-            "Descriptions": "Multiple integer overflows in the Apache Portable Runtime (APR) library and the Apache Portable Utility library (aka APR-util) 0.9.x and 1.3.x allow remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via vectors that trigger crafted calls to the (1) allocator_alloc or (2) apr_palloc function in memory/unix/apr_pools.c in APR; or crafted calls to the (3) apr_rmm_malloc, (4) apr_rmm_calloc, or (5) apr_rmm_realloc function in misc/apr_rmm.c in APR-util; leading to buffer overflows. NOTE: some of these details are obtained from third party information.",
+            "Descriptions": "Multiple integer overflows in the Apache Portable Runtime (APR) library and the Apache Portable Utility library (aka APR-util) 0.9.x and 1.3.x allow remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via vectors that trigger crafted calls to the (1) allocator_alloc or (2) apr_palloc function in memory/unix/apr_pools.c in APR; or crafted calls to the (3) apr_rmm_malloc, (4) apr_rmm_calloc, or (5) apr_rmm_realloc function in misc/apr_rmm.c in APR-util; leading to buffer overflows.  NOTE: some of these details are obtained from third party information.",
             "Cvss2_BaseScore": 10,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
@@ -19024,7 +19024,7 @@
     "CVE-2010-2791": {
         "CVE-ID": "CVE-2010-2791",
         "NVD": {
-            "Descriptions": "mod_proxy in httpd in Apache HTTP Server 2.2.9, when running on Unix, does not close the backend connection if a timeout occurs when reading a response from a persistent connection, which allows remote attackers to obtain a potentially sensitive response intended for a different client in opportunistic circumstances via a normal HTTP request. NOTE: this is the same issue as CVE-2010-2068, but for a different OS and set of affected versions.",
+            "Descriptions": "mod_proxy in httpd in Apache HTTP Server 2.2.9, when running on Unix, does not close the backend connection if a timeout occurs when reading a response from a persistent connection, which allows remote attackers to obtain a potentially sensitive response intended for a different client in opportunistic circumstances via a normal HTTP request.  NOTE: this is the same issue as CVE-2010-2068, but for a different OS and set of affected versions.",
             "Cvss2_BaseScore": 5,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
@@ -33422,7 +33422,7 @@
     "CVE-2003-1307": {
         "CVE-ID": "CVE-2003-1307",
         "NVD": {
-            "Descriptions": "** DISPUTED **  The mod_php module for the Apache HTTP Server allows local users with write access to PHP scripts to send signals to the server's process group and use the server's file descriptors, as demonstrated by sending a STOP signal, then intercepting incoming connections on the server's TCP port.  NOTE: the PHP developer has disputed this vulnerability, saying \"The opened file descriptors are opened by Apache. It is the job of Apache to protect them ... Not a bug in PHP.\"",
+            "Descriptions": "The mod_php module for the Apache HTTP Server allows local users with write access to PHP scripts to send signals to the server's process group and use the server's file descriptors, as demonstrated by sending a STOP signal, then intercepting incoming connections on the server's TCP port.  NOTE: the PHP developer has disputed this vulnerability, saying \"The opened file descriptors are opened by Apache. It is the job of Apache to protect them ... Not a bug in PHP.",
             "Cvss2_BaseScore": 4.3,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:L/AC:L/Au:S/C:P/I:P/A:P",
@@ -34638,7 +34638,7 @@
     "CVE-2004-2343": {
         "CVE-ID": "CVE-2004-2343",
         "NVD": {
-            "Descriptions": "** DISPUTED ** Apache HTTP Server 2.0.47 and earlier allows local users to bypass .htaccess file restrictions, as specified in httpd.conf with directives such as Deny From All, by using an ErrorDocument directive. NOTE: the vendor has disputed this issue, since the .htaccess mechanism is only intended to restrict external web access, and a local user already has the privileges to perform the same operations without using ErrorDocument.",
+            "Descriptions": "Apache HTTP Server 2.0.47 and earlier allows local users to bypass .htaccess file restrictions, as specified in httpd.conf with directives such as Deny From All, by using an ErrorDocument directive. NOTE: the vendor has disputed this issue, since the .htaccess mechanism is only intended to restrict external web access, and a local user already has the privileges to perform the same operations without using ErrorDocument",
             "Cvss2_BaseScore": 7.2,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
@@ -35078,7 +35078,7 @@
     "CVE-2007-0086": {
         "CVE-ID": "CVE-2007-0086",
         "NVD": {
-            "Descriptions": "** DISPUTED **  The Apache HTTP Server, when accessed through a TCP connection with a large window size, allows remote attackers to cause a denial of service (network bandwidth consumption) via a Range header that specifies multiple copies of the same fragment.  NOTE: the severity of this issue has been disputed by third parties, who state that the large window size required by the attack is not normally supported or configured by the server, or that a DDoS-style attack would accomplish the same goal.",
+            "Descriptions": "The Apache HTTP Server, when accessed through a TCP connection with a large window size, allows remote attackers to cause a denial of service (network bandwidth consumption) via a Range header that specifies multiple copies of the same fragment.  NOTE: the severity of this issue has been disputed by third parties, who state that the large window size required by the attack is not normally supported or configured by the server, or that a DDoS-style attack would accomplish the same goal",
             "Cvss2_BaseScore": 7.8,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:C",
@@ -35154,7 +35154,7 @@
     "CVE-2007-1742": {
         "CVE-ID": "CVE-2007-1742",
         "NVD": {
-            "Descriptions": "suexec in Apache HTTP Server (httpd) 2.2.3 uses a partial comparison for verifying whether the current directory is within the document root, which might allow local users to perform unauthorized operations on incorrect directories, as demonstrated using \"html_backup\" and \"htmleditor\" under an \"html\" directory. NOTE: the researcher, who is reliable, claims that the vendor disputes the issue because \"the attacks described rely on an insecure server configuration\" in which the user \"has write access to the document root.\"",
+            "Descriptions": "suexec in Apache HTTP Server (httpd) 2.2.3 uses a partial comparison for verifying whether the current directory is within the document root, which might allow local users to perform unauthorized operations on incorrect directories, as demonstrated using \"html_backup\" and \"htmleditor\" under an \"html\" directory.  NOTE: the researcher, who is reliable, claims that the vendor disputes the issue because \"the attacks described rely on an insecure server configuration\" in which the user \"has write access to the document root.\"",
             "Cvss2_BaseScore": 3.7,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:L/AC:H/Au:N/C:P/I:P/A:P",
@@ -35174,7 +35174,7 @@
     "CVE-2007-1743": {
         "CVE-ID": "CVE-2007-1743",
         "NVD": {
-            "Descriptions": "suexec in Apache HTTP Server (httpd) 2.2.3 does not verify combinations of user and group IDs on the command line, which might allow local users to leverage other vulnerabilities to create arbitrary UID/GID owned files if /proc is mounted. NOTE: the researcher, who is reliable, claims that the vendor disputes the issue because \"the attacks described rely on an insecure server configuration\" in which the user \"has write access to the document root.\" In addition, because this is dependent on other vulnerabilities, perhaps this is resultant and should not be included in CVE.",
+            "Descriptions": "suexec in Apache HTTP Server (httpd) 2.2.3 does not verify combinations of user and group IDs on the command line, which might allow local users to leverage other vulnerabilities to create arbitrary UID/GID owned files if /proc is mounted.  NOTE: the researcher, who is reliable, claims that the vendor disputes the issue because \"the attacks described rely on an insecure server configuration\" in which the user \"has write access to the document root.\"  In addition, because this is dependent on other vulnerabilities, perhaps this is resultant and should not be included in CVE.",
             "Cvss2_BaseScore": 4.4,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:L/AC:M/Au:N/C:P/I:P/A:P",
@@ -35434,7 +35434,7 @@
     "CVE-2007-6423": {
         "CVE-ID": "CVE-2007-6423",
         "NVD": {
-            "Descriptions": "** DISPUTED **  Unspecified vulnerability in mod_proxy_balancer for Apache HTTP Server 2.2.x before 2.2.7-dev, when running on Windows, allows remote attackers to trigger memory corruption via a long URL.  NOTE: the vendor could not reproduce this issue.",
+            "Descriptions": "Unspecified vulnerability in mod_proxy_balancer for Apache HTTP Server 2.2.x before 2.2.7-dev, when running on Windows, allows remote attackers to trigger memory corruption via a long URL.  NOTE: the vendor could not reproduce this issue",
             "Cvss2_BaseScore": 7.8,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:C",
@@ -36934,7 +36934,7 @@
     "CVE-2011-1928": {
         "CVE-ID": "CVE-2011-1928",
         "NVD": {
-            "Descriptions": "The fnmatch implementation in apr_fnmatch.c in the Apache Portable Runtime (APR) library 1.4.3 and 1.4.4, and the Apache HTTP Server 2.2.18, allows remote attackers to cause a denial of service (infinite loop) via a URI that does not match unspecified types of wildcard patterns, as demonstrated by attacks against mod_autoindex in httpd when a /*/WEB-INF/ configuration pattern is used. NOTE: this issue exists because of an incorrect fix for CVE-2011-0419.",
+            "Descriptions": "The fnmatch implementation in apr_fnmatch.c in the Apache Portable Runtime (APR) library 1.4.3 and 1.4.4, and the Apache HTTP Server 2.2.18, allows remote attackers to cause a denial of service (infinite loop) via a URI that does not match unspecified types of wildcard patterns, as demonstrated by attacks against mod_autoindex in httpd when a /*/WEB-INF/ configuration pattern is used.  NOTE: this issue exists because of an incorrect fix for CVE-2011-0419.",
             "Cvss2_BaseScore": 4.3,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
@@ -36970,7 +36970,7 @@
     "CVE-2011-3639": {
         "CVE-ID": "CVE-2011-3639",
         "NVD": {
-            "Descriptions": "The mod_proxy module in the Apache HTTP Server 2.0.x through 2.0.64 and 2.2.x before 2.2.18, when the Revision 1179239 patch is in place, does not properly interact with use of (1) RewriteRule and (2) ProxyPassMatch pattern matches for configuration of a reverse proxy, which allows remote attackers to send requests to intranet servers by using the HTTP/0.9 protocol with a malformed URI containing an initial @ (at sign) character. NOTE: this vulnerability exists because of an incomplete fix for CVE-2011-3368.",
+            "Descriptions": "The mod_proxy module in the Apache HTTP Server 2.0.x through 2.0.64 and 2.2.x before 2.2.18, when the Revision 1179239 patch is in place, does not properly interact with use of (1) RewriteRule and (2) ProxyPassMatch pattern matches for configuration of a reverse proxy, which allows remote attackers to send requests to intranet servers by using the HTTP/0.9 protocol with a malformed URI containing an initial @ (at sign) character.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2011-3368.",
             "Cvss2_BaseScore": 4.3,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",

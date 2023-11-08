@@ -7944,7 +7944,7 @@
     "CVE-2008-2376": {
         "CVE-ID": "CVE-2008-2376",
         "NVD": {
-            "Descriptions": "Integer overflow in the rb_ary_fill function in array.c in Ruby before revision 17756 allows context-dependent attackers to cause a denial of service (crash) or possibly have unspecified other impact via a call to the Array#fill method with a start (aka beg) argument greater than ARY_MAX_SIZE. NOTE: this issue exists because of an incomplete fix for other closely related integer overflows.",
+            "Descriptions": "Integer overflow in the rb_ary_fill function in array.c in Ruby before revision 17756 allows context-dependent attackers to cause a denial of service (crash) or possibly have unspecified other impact via a call to the Array#fill method with a start (aka beg) argument greater than ARY_MAX_SIZE.  NOTE: this issue exists because of an incomplete fix for other closely related integer overflows.",
             "Cvss2_BaseScore": 7.5,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
@@ -10336,7 +10336,7 @@
     "CVE-2008-4310": {
         "CVE-ID": "CVE-2008-4310",
         "NVD": {
-            "Descriptions": "httputils.rb in WEBrick in Ruby 1.8.1 and 1.8.5, as used in Red Hat Enterprise Linux 4 and 5, allows remote attackers to cause a denial of service (CPU consumption) via a crafted HTTP request. NOTE: this issue exists because of an incomplete fix for CVE-2008-3656.",
+            "Descriptions": "httputils.rb in WEBrick in Ruby 1.8.1 and 1.8.5, as used in Red Hat Enterprise Linux 4 and 5, allows remote attackers to cause a denial of service (CPU consumption) via a crafted HTTP request.  NOTE: this issue exists because of an incomplete fix for CVE-2008-3656.",
             "Cvss2_BaseScore": 7.8,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:C",
@@ -11040,7 +11040,7 @@
     "CVE-2011-2686": {
         "CVE-ID": "CVE-2011-2686",
         "NVD": {
-            "Descriptions": "Ruby before 1.8.7-p352 does not reset the random seed upon forking, which makes it easier for context-dependent attackers to predict the values of random numbers by leveraging knowledge of the number sequence obtained in a different child process, a related issue to CVE-2003-0900. NOTE: this issue exists because of a regression during Ruby 1.8.6 development.",
+            "Descriptions": "Ruby before 1.8.7-p352 does not reset the random seed upon forking, which makes it easier for context-dependent attackers to predict the values of random numbers by leveraging knowledge of the number sequence obtained in a different child process, a related issue to CVE-2003-0900.  NOTE: this issue exists because of a regression during Ruby 1.8.6 development.",
             "Cvss2_BaseScore": 5,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
@@ -11576,7 +11576,7 @@
     "CVE-2012-4481": {
         "CVE-ID": "CVE-2012-4481",
         "NVD": {
-            "Descriptions": "The safe-level feature in Ruby 1.8.7 allows context-dependent attackers to modify strings via the NameError#to_s method when operating on Ruby objects. NOTE: this issue is due to an incomplete fix for CVE-2011-1005.",
+            "Descriptions": "The safe-level feature in Ruby 1.8.7 allows context-dependent attackers to modify strings via the NameError#to_s method when operating on Ruby objects.  NOTE: this issue is due to an incomplete fix for CVE-2011-1005.",
             "Cvss2_BaseScore": 4.3,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
@@ -11708,7 +11708,7 @@
     "CVE-2012-5380": {
         "CVE-ID": "CVE-2012-5380",
         "NVD": {
-            "Descriptions": "** DISPUTED ** Untrusted search path vulnerability in the installation functionality in Ruby 1.9.3-p194, when installed in the top-level C:\\ directory, might allow local users to gain privileges via a Trojan horse DLL in the C:\\Ruby193\\bin directory, which may be added to the PATH system environment variable by an administrator, as demonstrated by a Trojan horse wlbsctrl.dll file used by the \"IKE and AuthIP IPsec Keying Modules\" system service in Windows Vista SP1, Windows Server 2008 SP2, Windows 7 SP1, and Windows 8 Release Preview.  NOTE: CVE disputes this issue because the unsafe PATH is established only by a separate administrative action that is not a default part of the Ruby installation.",
+            "Descriptions": "Untrusted search path vulnerability in the installation functionality in Ruby 1.9.3-p194, when installed in the top-level C:\\ directory, might allow local users to gain privileges via a Trojan horse DLL in the C:\\Ruby193\\bin directory, which may be added to the PATH system environment variable by an administrator, as demonstrated by a Trojan horse wlbsctrl.dll file used by the \"IKE and AuthIP IPsec Keying Modules\" system service in Windows Vista SP1, Windows Server 2008 SP2, Windows 7 SP1, and Windows 8 Release Preview.  NOTE: CVE disputes this issue because the unsafe PATH is established only by a separate administrative action that is not a default part of the Ruby installation",
             "Cvss2_BaseScore": 6,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:L/AC:H/Au:S/C:C/I:C/A:C",
@@ -12940,7 +12940,7 @@
     "CVE-2014-2734": {
         "CVE-ID": "CVE-2014-2734",
         "NVD": {
-            "Descriptions": "** DISPUTED ** The openssl extension in Ruby 2.x does not properly maintain the state of process memory after a file is reopened, which allows remote attackers to spoof signatures within the context of a Ruby script that attempts signature verification after performing a certain sequence of filesystem operations.  NOTE: this issue has been disputed by the Ruby OpenSSL team and third parties, who state that the original demonstration PoC contains errors and redundant or unnecessarily-complex code that does not appear to be related to a demonstration of the issue. As of 20140502, CVE is not aware of any public comment by the original researcher.",
+            "Descriptions": "The openssl extension in Ruby 2.x does not properly maintain the state of process memory after a file is reopened, which allows remote attackers to spoof signatures within the context of a Ruby script that attempts signature verification after performing a certain sequence of filesystem operations.  NOTE: this issue has been disputed by the Ruby OpenSSL team and third parties, who state that the original demonstration PoC contains errors and redundant or unnecessarily-complex code that does not appear to be related to a demonstration of the issue. As of 20140502, CVE is not aware of any public comment by the original researcher",
             "Cvss2_BaseScore": 5.8,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:N",

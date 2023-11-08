@@ -16363,7 +16363,7 @@
     "CVE-2014-0064": {
         "CVE-ID": "CVE-2014-0064",
         "NVD": {
-            "Descriptions": "Multiple integer overflows in the path_in and other unspecified functions in PostgreSQL before 8.4.20, 9.0.x before 9.0.16, 9.1.x before 9.1.12, 9.2.x before 9.2.7, and 9.3.x before 9.3.3 allow remote authenticated users to have unspecified impact and attack vectors, which trigger a buffer overflow. NOTE: this identifier has been SPLIT due to different affected versions; use CVE-2014-2669 for the hstore vector.",
+            "Descriptions": "Multiple integer overflows in the path_in and other unspecified functions in PostgreSQL before 8.4.20, 9.0.x before 9.0.16, 9.1.x before 9.1.12, 9.2.x before 9.2.7, and 9.3.x before 9.3.3 allow remote authenticated users to have unspecified impact and attack vectors, which trigger a buffer overflow.  NOTE: this identifier has been SPLIT due to different affected versions; use CVE-2014-2669 for the hstore vector.",
             "Cvss2_BaseScore": 6.5,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
@@ -37447,7 +37447,7 @@
     "CVE-2012-1618": {
         "CVE-ID": "CVE-2012-1618",
         "NVD": {
-            "Descriptions": "Interaction error in the PostgreSQL JDBC driver before 8.2, when used with a PostgreSQL server with the \"standard_conforming_strings\" option enabled, such as the default configuration of PostgreSQL 9.1, does not properly escape unspecified JDBC statement parameters, which allows remote attackers to perform SQL injection attacks. NOTE: as of 20120330, it was claimed that the upstream developer planned to dispute this issue, but an official dispute has not been posted as of 20121005.",
+            "Descriptions": "Interaction error in the PostgreSQL JDBC driver before 8.2, when used with a PostgreSQL server with the \"standard_conforming_strings\" option enabled, such as the default configuration of PostgreSQL 9.1, does not properly escape unspecified JDBC statement parameters, which allows remote attackers to perform SQL injection attacks.  NOTE: as of 20120330, it was claimed that the upstream developer planned to dispute this issue, but an official dispute has not been posted as of 20121005.",
             "Cvss2_BaseScore": 7.5,
             "Cvss3_BaseScore": 0,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
@@ -38987,7 +38987,7 @@
     "CVE-2019-9193": {
         "CVE-ID": "CVE-2019-9193",
         "NVD": {
-            "Descriptions": "** DISPUTED ** In PostgreSQL 9.3 through 11.2, the \"COPY TO/FROM PROGRAM\" function allows superusers and users in the 'pg_execute_server_program' group to execute arbitrary code in the context of the database's operating system user. This functionality is enabled by default and can be abused to run arbitrary operating system commands on Windows, Linux, and macOS. NOTE: Third parties claim/state this is not an issue because PostgreSQL functionality for \u2018COPY TO/FROM PROGRAM\u2019 is acting as intended. References state that in PostgreSQL, a superuser can execute commands as the server user without using the \u2018COPY FROM PROGRAM\u2019.",
+            "Descriptions": "In PostgreSQL 9.3 through 11.2, the \"COPY TO/FROM PROGRAM\" function allows superusers and users in the 'pg_execute_server_program' group to execute arbitrary code in the context of the database's operating system user. This functionality is enabled by default and can be abused to run arbitrary operating system commands on Windows, Linux, and macOS. NOTE: Third parties claim/state this is not an issue because PostgreSQL functionality for \u2018COPY TO/FROM PROGRAM\u2019 is acting as intended. References state that in PostgreSQL, a superuser can execute commands as the server user without using the \u2018COPY FROM PROGRAM\u2019.",
             "Cvss2_BaseScore": 9,
             "Cvss3_BaseScore": 7.2,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
@@ -39007,7 +39007,7 @@
     "CVE-2020-21469": {
         "CVE-ID": "CVE-2020-21469",
         "NVD": {
-            "Descriptions": "** DISPUTED ** An issue was discovered in PostgreSQL 12.2 allows attackers to cause a denial of service via repeatedly sending SIGHUP signals. NOTE: this is disputed by the vendor because untrusted users cannot send SIGHUP signals; they can only be sent by a PostgreSQL superuser, a user with pg_reload_conf access, or a user with sufficient privileges at the OS level (the postgres account or the root account).",
+            "Descriptions": "An issue was discovered in PostgreSQL 12.2 allows attackers to cause a denial of service via repeatedly sending SIGHUP signals. NOTE: this is disputed by the vendor because untrusted users cannot send SIGHUP signals; they can only be sent by a PostgreSQL superuser, a user with pg_reload_conf access, or a user with sufficient privileges at the OS level (the postgres account or the root account).",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
@@ -39087,7 +39087,7 @@
     "CVE-2022-24844": {
         "CVE-ID": "CVE-2022-24844",
         "NVD": {
-            "Descriptions": "Gin-vue-admin is a backstage management system based on vue and gin, which separates the front and rear of the full stack. The problem occurs in the following code in server/service/system/sys_auto_code_pgsql.go, which means that PostgreSQL must be used as the database for this vulnerability to occur. Users must: Require JWT login? and be using PostgreSQL to be affected. This issue has been resolved in version 2.5.1. There are no known workarounds.",
+            "Descriptions": "Gin-vue-admin is a backstage management system based on vue and gin, which separates the front and rear of the full stack. The problem occurs in the following code in server/service/system/sys_auto_code_pgsql.go, which means that PostgreSQL must be used as the database for this vulnerability to occur. Users must: Require JWT login) and be using PostgreSQL to be affected. This issue has been resolved in version 2.5.1. There are no known workarounds.",
             "Cvss2_BaseScore": 6.5,
             "Cvss3_BaseScore": 8.8,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
