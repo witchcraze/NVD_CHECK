@@ -8924,6 +8924,96 @@
             }
         }
     },
+    "CVE-2023-45283": {
+        "CVE-ID": "CVE-2023-45283",
+        "NVD": {
+            "Descriptions": "The filepath package does not recognize paths with a \\??\\ prefix as special. On Windows, a path beginning with \\??\\ is a Root Local Device path equivalent to a path beginning with \\\\?\\. Paths with a \\??\\ prefix may be used to access arbitrary locations on the system. For example, the path \\??\\c:\\x is equivalent to the more common path c:\\x. Before fix, Clean could convert a rooted path such as \\a\\..\\??\\b into the root local device path \\??\\b. Clean will now convert this to .\\??\\b. Similarly, Join(\\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \\??\\b. Join will now convert this to \\.\\??\\b. In addition, with fix, IsAbs now correctly reports paths beginning with \\??\\ as absolute, and VolumeName correctly reports the \\??\\ prefix as a volume name.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.20.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.21.0-0",
+                    "VersionEndExcluding": "1.21.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.22": {
+                "source": {
+                    "63713": "https://github.com/golang/go/issues/63713"
+                }
+            },
+            "1.21.4": {
+                "source": {
+                    "63715": "https://github.com/golang/go/issues/63715"
+                }
+            },
+            "1.20.11": {
+                "source": {
+                    "63714": "https://github.com/golang/go/issues/63714"
+                }
+            }
+        }
+    },
+    "CVE-2023-45284": {
+        "CVE-ID": "CVE-2023-45284",
+        "NVD": {
+            "Descriptions": "On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as \"COM1 \", and reserved names \"COM\" and \"LPT\" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these names as non-local.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.20.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.21.0-0",
+                    "VersionEndExcluding": "1.21.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.22": {
+                "source": {
+                    "63713": "https://github.com/golang/go/issues/63713"
+                }
+            },
+            "1.21.4": {
+                "source": {
+                    "63715": "https://github.com/golang/go/issues/63715"
+                }
+            },
+            "1.20.11": {
+                "source": {
+                    "63714": "https://github.com/golang/go/issues/63714"
+                }
+            }
+        }
+    },
     "CVE-2023-24531": {
         "CVE-ID": "CVE-2023-24531",
         "Official": {
@@ -8991,62 +9081,6 @@
             "Unreleased": {
                 "source": {
                     "58003": "https://github.com/golang/go/issues/58003"
-                }
-            }
-        }
-    },
-    "CVE-2023-45283": {
-        "CVE-ID": "CVE-2023-45283",
-        "NVD": {
-            "Descriptions": "The filepath package does not recognize paths with a \\??\\ prefix as special. On Windows, a path beginning with \\??\\ is a Root Local Device path equivalent to a path beginning with \\\\?\\. Paths with a \\??\\ prefix may be used to access arbitrary locations on the system. For example, the path \\??\\c:\\x is equivalent to the more common path c:\\x. Before fix, Clean could convert a rooted path such as \\a\\..\\??\\b into the root local device path \\??\\b. Clean will now convert this to .\\??\\b. Similarly, Join(\\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \\??\\b. Join will now convert this to \\.\\??\\b. In addition, with fix, IsAbs now correctly reports paths beginning with \\??\\ as absolute, and VolumeName correctly reports the \\??\\ prefix as a volume name.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.22": {
-                "source": {
-                    "63713": "https://github.com/golang/go/issues/63713"
-                }
-            },
-            "1.21.4": {
-                "source": {
-                    "63715": "https://github.com/golang/go/issues/63715"
-                }
-            },
-            "1.20.11": {
-                "source": {
-                    "63714": "https://github.com/golang/go/issues/63714"
-                }
-            }
-        }
-    },
-    "CVE-2023-45284": {
-        "CVE-ID": "CVE-2023-45284",
-        "NVD": {
-            "Descriptions": "On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as \"COM1 \", and reserved names \"COM\" and \"LPT\" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these names as non-local.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.22": {
-                "source": {
-                    "63713": "https://github.com/golang/go/issues/63713"
-                }
-            },
-            "1.21.4": {
-                "source": {
-                    "63715": "https://github.com/golang/go/issues/63715"
-                }
-            },
-            "1.20.11": {
-                "source": {
-                    "63714": "https://github.com/golang/go/issues/63714"
                 }
             }
         }
