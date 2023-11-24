@@ -317,7 +317,7 @@
             ]
         },
         "Official": {
-            "11.2.2_EXCLUDE": {
+            "11.2.2": {
                 "source": [
                     "https://mariadb.com/kb/en/security/",
                     "https://mariadb.com//kb/en/mariadb-11-2-2-release-notes/"
@@ -431,6 +431,135 @@
                 "source": [
                     "https://mariadb.com/kb/en/security/",
                     "https://mariadb.com//kb/en/mariadb-10-10-4-release-notes/"
+                ]
+            }
+        }
+    },
+    "CVE-2022-38791": {
+        "CVE-ID": "CVE-2022-38791",
+        "NVD": {
+            "Descriptions": "In MariaDB before 10.9.2, compress_write in extra/mariabackup/ds_compress.cc does not release data_mutex upon a stream write failure, which allows local users to trigger a deadlock.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:37",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:36",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:36:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:35",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb:10.9.1",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:10.9.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.3.0",
+                    "VersionEndExcluding": "10.3.36",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.4.0",
+                    "VersionEndExcluding": "10.4.26",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.5.0",
+                    "VersionEndExcluding": "10.5.17",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.6.0",
+                    "VersionEndExcluding": "10.6.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.7.0",
+                    "VersionEndExcluding": "10.7.5",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.8.0",
+                    "VersionEndExcluding": "10.8.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "10.9.2": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/"
+                ]
+            },
+            "10.8.4": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/"
+                ]
+            },
+            "10.7.5": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/"
+                ]
+            },
+            "10.6.9": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/"
+                ]
+            },
+            "10.5.17": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/"
+                ]
+            },
+            "10.4.26": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/"
+                ]
+            },
+            "10.3.36": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/"
                 ]
             }
         }
@@ -65181,98 +65310,6 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "10.7.0",
                     "VersionEndExcluding": "10.7.2",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        }
-    },
-    "CVE-2022-38791": {
-        "CVE-ID": "CVE-2022-38791",
-        "NVD": {
-            "Descriptions": "In MariaDB before 10.9.2, compress_write in extra/mariabackup/ds_compress.cc does not release data_mutex upon a stream write failure, which allows local users to trigger a deadlock.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 5.5,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/o:fedoraproject:fedora:37",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:fedoraproject:fedora:36",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:36:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:fedoraproject:fedora:35",
-                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:mariadb:mariadb:10.9.1",
-                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:10.9.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:mariadb:mariadb",
-                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "10.3.0",
-                    "VersionEndExcluding": "10.3.36",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:mariadb:mariadb",
-                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "10.4.0",
-                    "VersionEndExcluding": "10.4.26",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:mariadb:mariadb",
-                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "10.5.0",
-                    "VersionEndExcluding": "10.5.17",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:mariadb:mariadb",
-                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "10.6.0",
-                    "VersionEndExcluding": "10.6.9",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:mariadb:mariadb",
-                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "10.7.0",
-                    "VersionEndExcluding": "10.7.5",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:mariadb:mariadb",
-                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "10.8.0",
-                    "VersionEndExcluding": "10.8.4",
                     "VersionEndIncluding": ""
                 }
             ]

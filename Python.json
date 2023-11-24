@@ -19050,7 +19050,7 @@
             },
             "3.10.0a7": {
                 "source": [
-                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.10.0a7.rst"
+                    "https://github.com/python/cpython/blob/v3.13.0a2/Misc/NEWS.d/3.10.0a7.rst"
                 ],
                 "BTS": {
                     "bpo42988": {
@@ -19828,7 +19828,7 @@
             },
             "3.10.0a7": {
                 "source": [
-                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.10.0a7.rst"
+                    "https://github.com/python/cpython/blob/v3.13.0a2/Misc/NEWS.d/3.10.0a7.rst"
                 ],
                 "BTS": {
                     "bpo43285": {
