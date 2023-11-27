@@ -270,7 +270,8 @@
             },
             "10.5.17": {
                 "source": [
-                    "https://mariadb.com/kb/en/security/"
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-10517-release-notes/"
                 ]
             },
             "10.4.26": {
@@ -549,12 +550,14 @@
             },
             "10.5.17": {
                 "source": [
-                    "https://mariadb.com/kb/en/security/"
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-10517-release-notes/"
                 ]
             },
             "10.4.26": {
                 "source": [
-                    "https://mariadb.com/kb/en/security/"
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-10426-release-notes/"
                 ]
             },
             "10.3.36": {
