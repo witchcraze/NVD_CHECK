@@ -44006,33 +44006,6 @@
             }
         }
     },
-    "CVE-2023-5568": {
-        "CVE-ID": "CVE-2023-5568",
-        "NVD": {
-            "Descriptions": "A heap-based Buffer Overflow flaw was discovered in Samba. It could allow a remote, authenticated attacker to exploit this vulnerability to cause a denial of service.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 6.5,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:samba:samba",
-                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "4.19.2",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        },
-        "Official": {
-            "4.19.2": {
-                "source": [
-                    "https://www.samba.org/samba/history/samba-4.19.2.html"
-                ]
-            }
-        }
-    },
     "CVE-2018-14628": {
         "CVE-ID": "CVE-2018-14628",
         "NVD": {
@@ -44061,9 +44034,41 @@
             ]
         },
         "Official": {
+            "4.18.9": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.18.9.html"
+                ]
+            },
             "4.19.3": {
                 "source": [
                     "https://www.samba.org/samba/history/samba-4.19.3.html"
+                ]
+            }
+        }
+    },
+    "CVE-2023-5568": {
+        "CVE-ID": "CVE-2023-5568",
+        "NVD": {
+            "Descriptions": "A heap-based Buffer Overflow flaw was discovered in Samba. It could allow a remote, authenticated attacker to exploit this vulnerability to cause a denial of service.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "4.19.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "4.19.2": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.19.2.html"
                 ]
             }
         }
