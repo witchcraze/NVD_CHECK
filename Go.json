@@ -7830,6 +7830,14 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:grpc:grpc:::~~~-~~",
+                    "FormattedString": "cpe:2.3:a:grpc:grpc:*:*:*:*:*:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "1.59.2"
+                },
+                {
                     "URI": "cpe:/a:grpc:grpc:1.57.0:-:~~~go~~",
                     "FormattedString": "cpe:2.3:a:grpc:grpc:1.57.0:-:*:*:*:go:*:*",
                     "VersionStartExcluding": "",
