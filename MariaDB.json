@@ -253,7 +253,8 @@
         "Official": {
             "10.8.4": {
                 "source": [
-                    "https://mariadb.com/kb/en/security/"
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-1084-release-notes/"
                 ]
             },
             "10.7.5": {
@@ -537,7 +538,8 @@
             },
             "10.8.4": {
                 "source": [
-                    "https://mariadb.com/kb/en/security/"
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-1084-release-notes/"
                 ]
             },
             "10.7.5": {
