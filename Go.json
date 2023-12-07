@@ -978,9 +978,9 @@
         "NVD": {
             "Descriptions": "In Go before 1.10.6 and 1.11.x before 1.11.3, the \"go get\" command is vulnerable to remote code execution when executed with the -u flag and the import path of a malicious Go package, or a package that imports it directly or indirectly. Specifically, it is only vulnerable in GOPATH mode, but not in module mode (the distinction is documented at https://golang.org/cmd/go/#hdr-Module_aware_go_get). Using custom domains, it's possible to arrange things so that a Git repository is cloned to a folder named \".git\" by using a vanity import path that ends with \"/.git\". If the Git repository root contains a \"HEAD\" file, a \"config\" file, an \"objects\" directory, a \"refs\" directory, with some work to ensure the proper ordering of operations, \"go get -u\" can be tricked into considering the parent directory as a repository root, and running Git commands on it. That will use the \"config\" file in the original Git repository root for its configuration, and if that config file contains malicious commands, they will execute on the system running \"go get -u\".",
             "Cvss2_BaseScore": 6.8,
-            "Cvss3_BaseScore": 8.1,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:suse:linux_enterprise_server:12:-",
@@ -1071,9 +1071,9 @@
         "NVD": {
             "Descriptions": "In Go before 1.10.6 and 1.11.x before 1.11.3, the \"go get\" command is vulnerable to directory traversal when executed with the import path of a malicious Go package which contains curly braces (both '{' and '}' characters). Specifically, it is only vulnerable in GOPATH mode, but not in module mode (the distinction is documented at https://golang.org/cmd/go/#hdr-Module_aware_go_get). The attacker can cause an arbitrary filesystem write, which can lead to code execution.",
             "Cvss2_BaseScore": 6.8,
-            "Cvss3_BaseScore": 8.1,
+            "Cvss3_BaseScore": 6.8,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/o:suse:linux_enterprise_server:12:-",
@@ -2958,14 +2958,14 @@
             ]
         },
         "Official": {
-            "NOT_IN_MILESTONE": {
-                "source": {
-                    "43389": "https://github.com/golang/go/issues/43389"
-                }
-            },
             "1.17": {
                 "source": {
                     "30999": "https://github.com/golang/go/issues/30999"
+                }
+            },
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "43389": "https://github.com/golang/go/issues/43389"
                 }
             }
         }
@@ -8935,7 +8935,7 @@
     "CVE-2023-45283": {
         "CVE-ID": "CVE-2023-45283",
         "NVD": {
-            "Descriptions": "The filepath package does not recognize paths with a \\??\\ prefix as special. On Windows, a path beginning with \\??\\ is a Root Local Device path equivalent to a path beginning with \\\\?\\. Paths with a \\??\\ prefix may be used to access arbitrary locations on the system. For example, the path \\??\\c:\\x is equivalent to the more common path c:\\x. Before fix, Clean could convert a rooted path such as \\a\\..\\??\\b into the root local device path \\??\\b. Clean will now convert this to .\\??\\b. Similarly, Join(\\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \\??\\b. Join will now convert this to \\.\\??\\b. In addition, with fix, IsAbs now correctly reports paths beginning with \\??\\ as absolute, and VolumeName correctly reports the \\??\\ prefix as a volume name.",
+            "Descriptions": "The filepath package does not recognize paths with a \\??\\ prefix as special. On Windows, a path beginning with \\??\\ is a Root Local Device path equivalent to a path beginning with \\\\?\\. Paths with a \\??\\ prefix may be used to access arbitrary locations on the system. For example, the path \\??\\c:\\x is equivalent to the more common path c:\\x. Before fix, Clean could convert a rooted path such as \\a\\..\\??\\b into the root local device path \\??\\b. Clean will now convert this to .\\??\\b. Similarly, Join(\\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \\??\\b. Join will now convert this to \\.\\??\\b. In addition, with fix, IsAbs now correctly reports paths beginning with \\??\\ as absolute, and VolumeName correctly reports the \\??\\ prefix as a volume name. UPDATE: Go 1.20.11 and Go 1.21.4 inadvertently changed the definition of the volume name in Windows paths starting with \\?, resulting in filepath.Clean(\\?\\c:) returning \\?\\c: rather than \\?\\c:\\ (among other effects). The previous behavior has been restored.",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
@@ -8962,7 +8962,8 @@
         "Official": {
             "1.22": {
                 "source": {
-                    "63713": "https://github.com/golang/go/issues/63713"
+                    "63713": "https://github.com/golang/go/issues/63713",
+                    "64028": "https://github.com/golang/go/issues/64028"
                 }
             },
             "1.21.4": {
@@ -8973,6 +8974,16 @@
             "1.20.11": {
                 "source": {
                     "63714": "https://github.com/golang/go/issues/63714"
+                }
+            },
+            "1.20.12": {
+                "source": {
+                    "64040": "https://github.com/golang/go/issues/64040"
+                }
+            },
+            "1.21.5": {
+                "source": {
+                    "64041": "https://github.com/golang/go/issues/64041"
                 }
             }
         }
@@ -9095,6 +9106,14 @@
     },
     "CVE-2023-39326": {
         "CVE-ID": "CVE-2023-39326",
+        "NVD": {
+            "Descriptions": "A malicious HTTP sender can use chunk extensions to cause a receiver reading from a request or response body to read many more bytes from the network than are in the body. A malicious HTTP client can further exploit this to cause a server to automatically read a large amount of data (up to about 1GiB) when a handler fails to read the entire body of a request. Chunk extensions are a little-used HTTP feature which permit including additional metadata in a request or response body sent using the chunked encoding. The net/http chunked encoding reader discards this metadata. A sender can exploit this by inserting a large metadata segment with each byte transferred. The chunk reader now produces an error if the ratio of real body to encoded bytes grows too small.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.22": {
                 "source": {
@@ -11604,7 +11623,7 @@
             "Cvss2_BaseScore": 7.8,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:C",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:debian:debian_linux:10.0",
@@ -11703,7 +11722,7 @@
             "Cvss2_BaseScore": 7.8,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:C",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:synology:vs960hd_firmware:-",

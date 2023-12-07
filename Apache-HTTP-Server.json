@@ -24424,7 +24424,7 @@
             "Cvss2_BaseScore": 7.8,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:C",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:synology:vs960hd_firmware:-",
@@ -38039,34 +38039,6 @@
                 {
                     "URI": "cpe:/a:apache:http_server:2.0",
                     "FormattedString": "cpe:2.3:a:apache:http_server:2.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        }
-    },
-    "CVE-2012-1181": {
-        "CVE-ID": "CVE-2012-1181",
-        "NVD": {
-            "Descriptions": "fcgid_spawn_ctl.c in the mod_fcgid module 2.3.6 for the Apache HTTP Server does not recognize the FcgidMaxProcessesPerClass directive for a virtual host, which makes it easier for remote attackers to cause a denial of service (memory consumption) via a series of HTTP requests that triggers a process count higher than the intended limit.",
-            "Cvss2_BaseScore": 5,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:apache:mod_fcgid:2.3.6",
-                    "FormattedString": "cpe:2.3:a:apache:mod_fcgid:2.3.6:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.3.6",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.3.6:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",

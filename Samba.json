@@ -5838,7 +5838,7 @@
             "Cvss2_BaseScore": 3.5,
             "Cvss3_BaseScore": 5.3,
             "Cvss2_VectorString": "AV:N/AC:M/Au:S/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:opensuse:leap:15.1",
@@ -5968,7 +5968,7 @@
             "Cvss2_BaseScore": 6.4,
             "Cvss3_BaseScore": 5.4,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:N",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/o:opensuse:leap:15.1",
@@ -6104,9 +6104,9 @@
         "NVD": {
             "Descriptions": "A flaw was found in the samba client, all samba versions before samba 4.11.2, 4.10.10 and 4.9.15, where a malicious server can supply a pathname to the client with separators. This could allow the client to access files and folders outside of the SMB network pathnames. An attacker could use this vulnerability to create files outside of the current working directory using the privileges of the client user.",
             "Cvss2_BaseScore": 4.3,
-            "Cvss3_BaseScore": 6.5,
+            "Cvss3_BaseScore": 5.3,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/o:fedoraproject:fedora:31",
@@ -6178,9 +6178,9 @@
         "NVD": {
             "Descriptions": "A flaw was found in Samba, all versions starting samba 4.5.0 before samba 4.9.15, samba 4.10.10, samba 4.11.2, in the way it handles a user password change or a new password for a samba user. The Samba Active Directory Domain Controller can be configured to use a custom script to check for password complexity. This configuration can fail to verify password complexity when non-ASCII characters are used in the password, which could lead to weak passwords being set for samba users, making it vulnerable to dictionary attacks.",
             "Cvss2_BaseScore": 4.9,
-            "Cvss3_BaseScore": 5.4,
+            "Cvss3_BaseScore": 4.2,
             "Cvss2_VectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:N",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/o:opensuse:leap:15.0",
@@ -6270,7 +6270,7 @@
             "Cvss2_BaseScore": 4,
             "Cvss3_BaseScore": 4.9,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:opensuse:leap:15.0",
@@ -6665,7 +6665,7 @@
             "Cvss2_BaseScore": 3.6,
             "Cvss3_BaseScore": 6.1,
             "Cvss2_VectorString": "AV:L/AC:L/Au:N/C:N/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:synology:vs960hd_firmware",
@@ -6780,9 +6780,9 @@
         "NVD": {
             "Descriptions": "A flaw was found in the way samba implemented an RPC endpoint emulating the Windows registry service API. An unprivileged attacker could use this flaw to create a new registry hive file anywhere they have unix permissions which could lead to creation of a new file in the Samba share. Versions before 4.8.11, 4.9.6 and 4.10.2 are vulnerable.",
             "Cvss2_BaseScore": 5.5,
-            "Cvss3_BaseScore": 5.4,
+            "Cvss3_BaseScore": 4.2,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:L",
             "CPEs": [
                 {
                     "URI": "cpe:/o:redhat:enterprise_linux:7.0",
@@ -7033,9 +7033,9 @@
         "NVD": {
             "Descriptions": "Samba from version 4.3.0 and before versions 4.7.12, 4.8.7 and 4.9.3 are vulnerable to a denial of service. When configured to accept smart-card authentication, Samba's KDC will call talloc_free() twice on the same memory if the principal in a validly signed certificate does not match the principal in the AS-REQ. This is only possible after authentication with a trusted certificate. talloc is robust against further corruption from a double-free with talloc_free() and directly calls abort(), terminating the KDC process.",
             "Cvss2_BaseScore": 4,
-            "Cvss3_BaseScore": 6.5,
+            "Cvss3_BaseScore": 5.7,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:debian:debian_linux:9.0",
@@ -7141,7 +7141,7 @@
             "Cvss2_BaseScore": 4,
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:debian:debian_linux:9.0",
@@ -7704,9 +7704,9 @@
         "NVD": {
             "Descriptions": "A flaw was found in the way samba before 4.7.9 and 4.8.4 allowed the use of weak NTLMv1 authentication even when NTLMv1 was explicitly disabled. A man-in-the-middle attacker could use this flaw to read the credential and other details passed between the samba server and client.",
             "Cvss2_BaseScore": 4.3,
-            "Cvss3_BaseScore": 8.1,
+            "Cvss3_BaseScore": 5.4,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
@@ -8419,7 +8419,7 @@
             "Cvss2_BaseScore": 5.8,
             "Cvss3_BaseScore": 7.4,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:N",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
@@ -9112,9 +9112,9 @@
         "NVD": {
             "Descriptions": "A flaw was found in samba versions 4.0.0 to 4.5.2. The Samba routine ndr_pull_dnsp_name contains an integer wrap problem, leading to an attacker-controlled memory overwrite. ndr_pull_dnsp_name parses data from the Samba Active Directory ldb database. Any user who can write to the dnsRecord attribute over LDAP can trigger this memory corruption. By default, all authenticated LDAP users can write to the dnsRecord attribute on new DNS objects. This makes the defect a remote privilege escalation.",
             "Cvss2_BaseScore": 6.5,
-            "Cvss3_BaseScore": 8.8,
+            "Cvss3_BaseScore": 8.1,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/a:samba:samba",
@@ -9194,9 +9194,9 @@
         "NVD": {
             "Descriptions": "It was found that Samba before versions 4.5.3, 4.4.8, 4.3.13 always requested forwardable tickets when using Kerberos authentication. A service to which Samba authenticated using Kerberos could subsequently use the ticket to impersonate Samba to other services or domain users.",
             "Cvss2_BaseScore": 3.3,
-            "Cvss3_BaseScore": 6.5,
+            "Cvss3_BaseScore": 6.4,
             "Cvss2_VectorString": "AV:A/AC:L/Au:N/C:P/I:N/A:N",
-            "Cvss3_VectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "Cvss3_VectorString": "CVSS:3.0/AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",

@@ -1492,33 +1492,19 @@
                     "https://github.com/python/cpython/blob/2.7/Misc/NEWS.d/2.7.1rc1.rst"
                 ],
                 "BTS": {
-                    "bpo9129": {
-                        "ID": "bpo9129",
-                        "url": "https://bugs.python.org/issue9129",
-                        "date": "8203",
-                        "nonce": "AYXAAf",
-                        "section": "Library"
-                    },
                     "bpo6706": {
                         "ID": "bpo6706",
                         "url": "https://bugs.python.org/issue6706",
                         "date": "8243",
                         "nonce": "Es-Yrw",
                         "section": "Library"
-                    }
-                }
-            },
-            "2.6.7rc1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/2.6/Misc/NEWS"
-                ],
-                "BTS": {
+                    },
                     "bpo9129": {
                         "ID": "bpo9129",
                         "url": "https://bugs.python.org/issue9129",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
+                        "date": "8203",
+                        "nonce": "AYXAAf",
+                        "section": "Library"
                     }
                 }
             },
@@ -1527,27 +1513,13 @@
                     "https://github.com/python/cpython/blob/3.1/Misc/NEWS"
                 ],
                 "BTS": {
-                    "bpo9129": {
-                        "ID": "bpo9129",
-                        "url": "https://bugs.python.org/issue9129",
-                        "date": "",
-                        "nonce": "",
-                        "section": ""
-                    },
                     "bpo6706": {
                         "ID": "bpo6706",
                         "url": "https://bugs.python.org/issue6706",
                         "date": "",
                         "nonce": "",
                         "section": ""
-                    }
-                }
-            },
-            "3.2a2": {
-                "source": [
-                    "https://github.com/python/cpython/blob/3.2/Misc/NEWS"
-                ],
-                "BTS": {
+                    },
                     "bpo9129": {
                         "ID": "bpo9129",
                         "url": "https://bugs.python.org/issue9129",
@@ -1565,6 +1537,34 @@
                     "bpo6706": {
                         "ID": "bpo6706",
                         "url": "https://bugs.python.org/issue6706",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    }
+                }
+            },
+            "2.6.7rc1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/2.6/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo9129": {
+                        "ID": "bpo9129",
+                        "url": "https://bugs.python.org/issue9129",
+                        "date": "",
+                        "nonce": "",
+                        "section": ""
+                    }
+                }
+            },
+            "3.2a2": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.2/Misc/NEWS"
+                ],
+                "BTS": {
+                    "bpo9129": {
+                        "ID": "bpo9129",
+                        "url": "https://bugs.python.org/issue9129",
                         "date": "",
                         "nonce": "",
                         "section": ""
@@ -11557,7 +11557,7 @@
             "Cvss2_BaseScore": 3.3,
             "Cvss3_BaseScore": 3.6,
             "Cvss2_VectorString": "AV:L/AC:M/Au:N/C:P/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:L",
+            "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:L",
             "CPEs": [
                 {
                     "URI": "cpe:/o:canonical:ubuntu_linux:18.04::~~lts~~~",
@@ -11887,9 +11887,9 @@
         "NVD": {
             "Descriptions": "python before versions 2.7.15, 3.4.9, 3.5.6rc1, 3.6.5rc1 and 3.7.0 is vulnerable to catastrophic backtracking in pop3lib's apop() method. An attacker could use this flaw to cause denial of service.",
             "Cvss2_BaseScore": 5,
-            "Cvss3_BaseScore": 7.5,
+            "Cvss3_BaseScore": 4.3,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
             "CPEs": [
                 {
                     "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
@@ -12435,9 +12435,9 @@
         "NVD": {
             "Descriptions": "Python's elementtree C accelerator failed to initialise Expat's hash salt during initialization. This could make it easy to conduct denial of service attacks against Expat by constructing an XML document that would cause pathological hash collisions in Expat's internal data structures, consuming large amounts CPU and RAM. The vulnerability exists in Python versions 3.7.0, 3.6.0 through 3.6.6, 3.5.0 through 3.5.6, 3.4.0 through 3.4.9, 2.7.0 through 2.7.15.",
             "Cvss2_BaseScore": 5,
-            "Cvss3_BaseScore": 7.5,
+            "Cvss3_BaseScore": 5.3,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
             "CPEs": [
                 {
                     "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
@@ -13417,7 +13417,7 @@
             "Cvss2_BaseScore": 5,
             "Cvss3_BaseScore": 9.8,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
@@ -15239,9 +15239,9 @@
         "NVD": {
             "Descriptions": "An exploitable denial-of-service vulnerability exists in the X509 certificate parser of Python.org Python 2.7.11 / 3.6.6. A specially crafted X509 certificate can cause a NULL pointer dereference, resulting in a denial of service. An attacker can initiate or accept TLS connections using crafted certificates to trigger this vulnerability.",
             "Cvss2_BaseScore": 5,
-            "Cvss3_BaseScore": 7.5,
+            "Cvss3_BaseScore": 5.9,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:redhat:enterprise_linux_server_tus:8.6",
@@ -17466,14 +17466,6 @@
                 {
                     "URI": "cpe:/h:netapp:hci_storage_node:-",
                     "FormattedString": "cpe:2.3:h:netapp:hci_storage_node:-:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/h:netapp:hci_compute_node:-",
-                    "FormattedString": "cpe:2.3:h:netapp:hci_compute_node:-:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",

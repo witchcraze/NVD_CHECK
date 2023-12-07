@@ -2570,9 +2570,9 @@
         "NVD": {
             "Descriptions": "A buffer overflow in Redis 3.2.x prior to 3.2.4 causes arbitrary code execution when a crafted command is sent. An out of bounds write vulnerability exists in the handling of the client-output-buffer-limit option during the CONFIG SET command for the Redis data structure store. A crafted CONFIG SET command can lead to an out of bounds write potentially resulting in code execution.",
             "Cvss2_BaseScore": 7.5,
-            "Cvss3_BaseScore": 9.8,
+            "Cvss3_BaseScore": 6.6,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/a:redislabs:redis:3.2.3",
@@ -2844,7 +2844,7 @@
             "Cvss2_BaseScore": 6.5,
             "Cvss3_BaseScore": 7.2,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:redhat:enterprise_linux_server_tus:8.4",
@@ -3040,7 +3040,7 @@
             "Cvss2_BaseScore": 6.5,
             "Cvss3_BaseScore": 7.2,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:redhat:enterprise_linux_server_tus:8.4",

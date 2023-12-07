@@ -12354,30 +12354,6 @@
             "Cvss3_VectorString": "",
             "CPEs": [
                 {
-                    "URI": "cpe:/a:postgresql:postgresql:9.2.2",
-                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:9.2.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:postgresql:postgresql:9.2.1",
-                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:9.2.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:postgresql:postgresql:9.2",
-                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:9.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/a:postgresql:postgresql:9.1.7",
                     "FormattedString": "cpe:2.3:a:postgresql:postgresql:9.1.7:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -28102,9 +28078,9 @@
         "NVD": {
             "Descriptions": "Postgresql Windows installer before versions 11.5, 10.10, 9.6.15, 9.5.19, 9.4.24 is vulnerable via bundled OpenSSL executing code from unprotected directory.",
             "Cvss2_BaseScore": 7.5,
-            "Cvss3_BaseScore": 9.8,
+            "Cvss3_BaseScore": 7.8,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/a:postgresql:postgresql",
@@ -28181,9 +28157,9 @@
         "NVD": {
             "Descriptions": "Postgresql Windows installer before versions 11.5, 10.10, 9.6.15, 9.5.19, 9.4.24 is vulnerable via superuser writing password to unprotected temporary file.",
             "Cvss2_BaseScore": 1.9,
-            "Cvss3_BaseScore": 7,
+            "Cvss3_BaseScore": 6.7,
             "Cvss2_VectorString": "AV:L/AC:M/Au:N/C:P/I:N/A:N",
-            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/a:postgresql:postgresql",
@@ -28260,9 +28236,9 @@
         "NVD": {
             "Descriptions": "A flaw was discovered in postgresql versions 9.4.x before 9.4.24, 9.5.x before 9.5.19, 9.6.x before 9.6.15, 10.x before 10.10 and 11.x before 11.5 where arbitrary SQL statements can be executed given a suitable SECURITY DEFINER function. An attacker, with EXECUTE permission on the function, can execute arbitrary SQL as the owner of the function.",
             "Cvss2_BaseScore": 6.5,
-            "Cvss3_BaseScore": 8.8,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/a:postgresql:postgresql",
@@ -29203,9 +29179,9 @@
         "NVD": {
             "Descriptions": "A vulnerability was found in PostgreSQL versions 11.x up to excluding 11.3, 10.x up to excluding 10.8, 9.6.x up to, excluding 9.6.13, 9.5.x up to, excluding 9.5.17. PostgreSQL maintains column statistics for tables. Certain statistics, such as histograms and lists of most common values, contain values taken from the column. PostgreSQL does not evaluate row security policies before consulting those statistics during query planning; an attacker can exploit this to read the most common values of certain columns. Affected columns are those for which the attacker has SELECT privilege and for which, in an ordinary query, row-level security prunes the set of rows visible to the attacker.",
             "Cvss2_BaseScore": 4,
-            "Cvss3_BaseScore": 4.3,
+            "Cvss3_BaseScore": 3.1,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/o:opensuse:leap:15.1",
@@ -29281,9 +29257,9 @@
         "NVD": {
             "Descriptions": "It was discovered that PostgreSQL versions before 10.5, 9.6.10, 9.5.14, 9.4.19, and 9.3.24 failed to properly check authorization on certain statements involved with \"INSERT ... ON CONFLICT DO UPDATE\". An attacker with \"CREATE TABLE\" privileges could exploit this to read arbitrary bytes server memory. If the attacker also had certain \"INSERT\" and limited \"UPDATE\" privileges to a particular table, they could exploit this to update other columns in the same table.",
             "Cvss2_BaseScore": 5.5,
-            "Cvss3_BaseScore": 8.1,
+            "Cvss3_BaseScore": 7.1,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:N",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/o:debian:debian_linux:9.0",
@@ -30155,9 +30131,9 @@
         "NVD": {
             "Descriptions": "postgresql before versions 10.4, 9.6.9 is vulnerable in the adminpack extension, the pg_catalog.pg_logfile_rotate() function doesn't follow the same ACLs than pg_rorate_logfile. If the adminpack is added to a database, an attacker able to connect to it could exploit this to force log rotation.",
             "Cvss2_BaseScore": 6.4,
-            "Cvss3_BaseScore": 9.1,
+            "Cvss3_BaseScore": 4.2,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:L",
             "CPEs": [
                 {
                     "URI": "cpe:/o:opensuse:leap:15.1",
@@ -30526,9 +30502,9 @@
         "NVD": {
             "Descriptions": "PostgreSQL versions 10.x before 10.9 and versions 11.x before 11.4 are vulnerable to a stack-based buffer overflow. Any authenticated user can overflow a stack-based buffer by changing the user's own password to a purpose-crafted value. This often suffices to execute arbitrary code as the PostgreSQL operating system account.",
             "Cvss2_BaseScore": 9,
-            "Cvss3_BaseScore": 8.8,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:redhat:enterprise_linux:8.0",
@@ -30608,9 +30584,9 @@
         "NVD": {
             "Descriptions": "postgresql before versions 11.1, 10.6 is vulnerable to a to SQL injection in pg_upgrade and pg_dump via CREATE TRIGGER ... REFERENCING. Using a purpose-crafted trigger definition, an attacker can cause arbitrary SQL statements to run, with superuser privileges.",
             "Cvss2_BaseScore": 7.5,
-            "Cvss3_BaseScore": 9.8,
+            "Cvss3_BaseScore": 8,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:redhat:enterprise_linux:7.6",
@@ -31445,9 +31421,9 @@
         "NVD": {
             "Descriptions": "Postgresql, versions 11.x before 11.5, is vulnerable to a memory disclosure in cross-type comparison for hashed subplan.",
             "Cvss2_BaseScore": 3.5,
-            "Cvss3_BaseScore": 2.2,
+            "Cvss3_BaseScore": 3.1,
             "Cvss2_VectorString": "AV:N/AC:M/Au:S/C:P/I:N/A:N",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:N",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/a:postgresql:postgresql",
@@ -31475,7 +31451,7 @@
             "Cvss2_BaseScore": 4,
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/a:postgresql:postgresql",
@@ -36513,14 +36489,6 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:postgresql:postgresql:8.0.24",
-                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:8.0.24:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/a:postgresql:postgresql:8.0.23",
                     "FormattedString": "cpe:2.3:a:postgresql:postgresql:8.0.23:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -39202,34 +39170,6 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "9.6.0",
                     "VersionEndExcluding": "9.6.24",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        }
-    },
-    "CVE-2022-24844": {
-        "CVE-ID": "CVE-2022-24844",
-        "NVD": {
-            "Descriptions": "Gin-vue-admin is a backstage management system based on vue and gin, which separates the front and rear of the full stack. The problem occurs in the following code in server/service/system/sys_auto_code_pgsql.go, which means that PostgreSQL must be used as the database for this vulnerability to occur. Users must: Require JWT login) and be using PostgreSQL to be affected. This issue has been resolved in version 2.5.1. There are no known workarounds.",
-            "Cvss2_BaseScore": 6.5,
-            "Cvss3_BaseScore": 8.8,
-            "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:postgresql:postgresql:-",
-                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:-:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:gin-vue-admin_project:gin-vue-admin",
-                    "FormattedString": "cpe:2.3:a:gin-vue-admin_project:gin-vue-admin:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "2.5.1",
                     "VersionEndIncluding": ""
                 }
             ]
