@@ -4514,7 +4514,7 @@
             },
             "3.11.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.12/Misc/NEWS.d/3.11.0a1.rst"
+                    "https://github.com/python/cpython/blob/v3.13.0a2/Misc/NEWS.d/3.11.0a1.rst"
                 ],
                 "BTS": {
                     "bpo44394": {
@@ -11331,7 +11331,7 @@
             },
             "3.8.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.12/Misc/NEWS.d/3.8.0a1.rst"
+                    "https://github.com/python/cpython/blob/v3.13.0a2/Misc/NEWS.d/3.8.0a1.rst"
                 ],
                 "BTS": {
                     "bpo32056": {
@@ -11752,7 +11752,7 @@
             },
             "3.8.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.12/Misc/NEWS.d/3.8.0a1.rst"
+                    "https://github.com/python/cpython/blob/v3.13.0a2/Misc/NEWS.d/3.8.0a1.rst"
                 ],
                 "BTS": {
                     "bpo33001": {
@@ -12102,7 +12102,7 @@
             },
             "3.8.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.12/Misc/NEWS.d/3.8.0a1.rst"
+                    "https://github.com/python/cpython/blob/v3.13.0a2/Misc/NEWS.d/3.8.0a1.rst"
                 ],
                 "BTS": {
                     "bpo32981": {
@@ -12416,7 +12416,7 @@
             },
             "3.8.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.12/Misc/NEWS.d/3.8.0a1.rst"
+                    "https://github.com/python/cpython/blob/v3.13.0a2/Misc/NEWS.d/3.8.0a1.rst"
                 ],
                 "BTS": {
                     "bpo32981": {
@@ -12642,7 +12642,7 @@
             },
             "3.8.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.12/Misc/NEWS.d/3.8.0a1.rst"
+                    "https://github.com/python/cpython/blob/v3.13.0a2/Misc/NEWS.d/3.8.0a1.rst"
                 ],
                 "BTS": {
                     "bpo34623": {
@@ -15462,7 +15462,7 @@
             },
             "3.8.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.12/Misc/NEWS.d/3.8.0a1.rst"
+                    "https://github.com/python/cpython/blob/v3.13.0a2/Misc/NEWS.d/3.8.0a1.rst"
                 ],
                 "BTS": {
                     "bpo35746": {
@@ -19656,7 +19656,7 @@
             },
             "3.11.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.12/Misc/NEWS.d/3.11.0a1.rst"
+                    "https://github.com/python/cpython/blob/v3.13.0a2/Misc/NEWS.d/3.11.0a1.rst"
                 ],
                 "BTS": {
                     "bpo44022": {
@@ -22828,7 +22828,7 @@
             },
             "3.8.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.12/Misc/NEWS.d/3.8.0a1.rst"
+                    "https://github.com/python/cpython/blob/v3.13.0a2/Misc/NEWS.d/3.8.0a1.rst"
                 ],
                 "BTS": {
                     "bpo33136": {
@@ -23385,6 +23385,25 @@
                         "date": "2022-11-01-11-07-33",
                         "nonce": "0f6e_N",
                         "section": "Windows"
+                    }
+                }
+            }
+        }
+    },
+    "CVE-2023-6507": {
+        "CVE-ID": "CVE-2023-6507",
+        "Official": {
+            "3.12.1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.12.1/Misc/NEWS.d/3.12.1.rst"
+                ],
+                "BTS": {
+                    "gh-issue112334": {
+                        "ID": "gh-issue112334",
+                        "url": "https://github.com/python/cpython/issues/112334",
+                        "date": "2023-12-01-21-05-46",
+                        "nonce": "DmNXKh",
+                        "section": "Library"
                     }
                 }
             }
