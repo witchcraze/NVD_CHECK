@@ -30823,6 +30823,14 @@
     },
     "CVE-2023-5870": {
         "CVE-ID": "CVE-2023-5870",
+        "NVD": {
+            "Descriptions": "A flaw was found in PostgreSQL involving the pg_cancel_backend role that signals background workers, including the logical replication launcher, autovacuum workers, and the autovacuum launcher. Successful exploitation requires a non-core extension with a less-resilient background worker and would affect that specific background worker only. This issue may allow a remote high privileged user to launch a denial of service (DoS) attack.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 2.2,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:L",
+            "CPEs": []
+        },
         "Official": {
             "11.22": {
                 "source": [
@@ -30864,6 +30872,14 @@
     },
     "CVE-2023-5869": {
         "CVE-ID": "CVE-2023-5869",
+        "NVD": {
+            "Descriptions": "A flaw was found in PostgreSQL that allows authenticated database users to execute arbitrary code through missing overflow checks during SQL array value modification. This issue exists due to an integer overflow during array modification where a remote user can trigger the overflow by providing specially crafted data. This enables the execution of arbitrary code on the target system, allowing users to write arbitrary bytes to memory and extensively read the server's memory.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
         "Official": {
             "11.22": {
                 "source": [
@@ -30905,6 +30921,14 @@
     },
     "CVE-2023-5868": {
         "CVE-ID": "CVE-2023-5868",
+        "NVD": {
+            "Descriptions": "A memory disclosure vulnerability was found in PostgreSQL that allows remote users to access sensitive information by exploiting certain aggregate function calls with 'unknown'-type arguments. Handling 'unknown'-type values from string literals without type designation can disclose bytes, potentially revealing notable and confidential information. This issue exists due to excessive data output in aggregate function calls, enabling remote users to read some portion of system memory.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 4.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+            "CPEs": []
+        },
         "Official": {
             "11.22": {
                 "source": [
