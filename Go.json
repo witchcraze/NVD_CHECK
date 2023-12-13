@@ -6884,6 +6884,51 @@
             }
         }
     },
+    "CVE-2023-39326": {
+        "CVE-ID": "CVE-2023-39326",
+        "NVD": {
+            "Descriptions": "A malicious HTTP sender can use chunk extensions to cause a receiver reading from a request or response body to read many more bytes from the network than are in the body. A malicious HTTP client can further exploit this to cause a server to automatically read a large amount of data (up to about 1GiB) when a handler fails to read the entire body of a request. Chunk extensions are a little-used HTTP feature which permit including additional metadata in a request or response body sent using the chunked encoding. The net/http chunked encoding reader discards this metadata. A sender can exploit this by inserting a large metadata segment with each byte transferred. The chunk reader now produces an error if the ratio of real body to encoded bytes grows too small.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.20.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.21.0-0",
+                    "VersionEndExcluding": "1.21.5",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.22": {
+                "source": {
+                    "64433": "https://github.com/golang/go/issues/64433"
+                }
+            },
+            "1.20.12": {
+                "source": {
+                    "64434": "https://github.com/golang/go/issues/64434"
+                }
+            },
+            "1.21.5": {
+                "source": {
+                    "64435": "https://github.com/golang/go/issues/64435"
+                }
+            }
+        }
+    },
     "CVE-2023-44487": {
         "CVE-ID": "CVE-2023-44487",
         "NVD": {
@@ -9033,6 +9078,78 @@
             }
         }
     },
+    "CVE-2023-45285": {
+        "CVE-ID": "CVE-2023-45285",
+        "NVD": {
+            "Descriptions": "Using go get to fetch a module with the \".git\" suffix may unexpectedly fallback to the insecure \"git://\" protocol if the module is unavailable via the secure \"https://\" and \"git+ssh://\" protocols, even if GOINSECURE is not set for said module. This only affects users who are not using the module proxy and are fetching modules directly (i.e. GOPROXY=off).",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.20.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.21.0-0",
+                    "VersionEndExcluding": "1.21.5",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.22": {
+                "source": {
+                    "63845": "https://github.com/golang/go/issues/63845"
+                }
+            },
+            "1.20.12": {
+                "source": {
+                    "63972": "https://github.com/golang/go/issues/63972"
+                }
+            },
+            "1.21.5": {
+                "source": {
+                    "63973": "https://github.com/golang/go/issues/63973"
+                }
+            }
+        }
+    },
+    "CVE-2023-45287": {
+        "CVE-ID": "CVE-2023-45287",
+        "NVD": {
+            "Descriptions": "Before Go 1.20, the RSA based TLS key exchanges used the math/big library, which is not constant time. RSA blinding was applied to prevent timing attacks, but analysis shows this may not have been fully effective. In particular it appears as if the removal of PKCS#1 padding may leak timing information, which in turn could be used to recover session key bits. In Go 1.20, the crypto/tls library switched to a fully constant time RSA implementation, which we do not believe exhibits any timing side channels.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.20.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "Proposal": {
+                "source": {
+                    "20654": "https://github.com/golang/go/issues/20654"
+                }
+            }
+        }
+    },
     "CVE-2023-24531": {
         "CVE-ID": "CVE-2023-24531",
         "Official": {
@@ -9100,34 +9217,6 @@
             "Unreleased": {
                 "source": {
                     "58003": "https://github.com/golang/go/issues/58003"
-                }
-            }
-        }
-    },
-    "CVE-2023-39326": {
-        "CVE-ID": "CVE-2023-39326",
-        "NVD": {
-            "Descriptions": "A malicious HTTP sender can use chunk extensions to cause a receiver reading from a request or response body to read many more bytes from the network than are in the body. A malicious HTTP client can further exploit this to cause a server to automatically read a large amount of data (up to about 1GiB) when a handler fails to read the entire body of a request. Chunk extensions are a little-used HTTP feature which permit including additional metadata in a request or response body sent using the chunked encoding. The net/http chunked encoding reader discards this metadata. A sender can exploit this by inserting a large metadata segment with each byte transferred. The chunk reader now produces an error if the ratio of real body to encoded bytes grows too small.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.22": {
-                "source": {
-                    "64433": "https://github.com/golang/go/issues/64433"
-                }
-            },
-            "1.20.12": {
-                "source": {
-                    "64434": "https://github.com/golang/go/issues/64434"
-                }
-            },
-            "1.21.5": {
-                "source": {
-                    "64435": "https://github.com/golang/go/issues/64435"
                 }
             }
         }
