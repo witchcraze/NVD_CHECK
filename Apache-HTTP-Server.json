@@ -14875,9 +14875,17 @@
                     "URI": "cpe:/a:apache:http_server",
                     "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.4.13"
+                    "VersionStartIncluding": "2.2.0",
+                    "VersionEndExcluding": "2.2.31",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.4.0",
+                    "VersionEndExcluding": "2.4.16",
+                    "VersionEndIncluding": ""
                 }
             ]
         },

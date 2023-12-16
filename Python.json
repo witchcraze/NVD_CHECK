@@ -8505,7 +8505,7 @@
             },
             "3.6.0a2": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.8.0a1/Misc/NEWS.d/3.6.0a2.rst",
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.6.0a2.rst",
                     "https://github.com/python/cpython/blob/v3.6.0a2/Misc/NEWS"
                 ],
                 "BTS": {
@@ -8706,7 +8706,7 @@
             },
             "3.12.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.13.0a1/Misc/NEWS.d/3.12.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.12.0a1.rst"
                 ],
                 "BTS": {
                     "gh-issue68966": {
@@ -9401,7 +9401,7 @@
             },
             "3.6.0a2": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.8.0a1/Misc/NEWS.d/3.6.0a2.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.6.0a2.rst"
                 ]
             }
         }
@@ -14242,7 +14242,7 @@
             },
             "3.9.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.13.0a1/Misc/NEWS.d/3.9.0a1.rst"
+                    "https://github.com/python/cpython/blob/3.11/Misc/NEWS.d/3.9.0a1.rst"
                 ],
                 "BTS": {
                     "bpo38174": {
@@ -14564,7 +14564,7 @@
             },
             "3.9.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.13.0a1/Misc/NEWS.d/3.9.0a1.rst"
+                    "https://github.com/python/cpython/blob/3.11/Misc/NEWS.d/3.9.0a1.rst"
                 ],
                 "BTS": {
                     "bpo34155": {
@@ -14742,7 +14742,7 @@
             },
             "3.9.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.13.0a1/Misc/NEWS.d/3.9.0a1.rst"
+                    "https://github.com/python/cpython/blob/3.11/Misc/NEWS.d/3.9.0a1.rst"
                 ],
                 "BTS": {
                     "bpo38243": {
@@ -15220,7 +15220,7 @@
             },
             "3.10.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0/Misc/NEWS.d/3.10.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.10.0a1.rst"
                 ],
                 "BTS": {
                     "bpo39017": {
@@ -15978,7 +15978,7 @@
             },
             "3.9.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.13.0a1/Misc/NEWS.d/3.9.0a1.rst"
+                    "https://github.com/python/cpython/blob/3.11/Misc/NEWS.d/3.9.0a1.rst"
                 ],
                 "BTS": {
                     "bpo36260": {
@@ -16878,7 +16878,7 @@
             },
             "3.12.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.13.0a1/Misc/NEWS.d/3.12.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.12.0a1.rst"
                 ],
                 "BTS": {
                     "gh-issue95778": {
@@ -17048,7 +17048,7 @@
             },
             "3.10.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0/Misc/NEWS.d/3.10.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.10.0a1.rst"
                 ],
                 "BTS": {
                     "bpo41004": {
@@ -17274,7 +17274,7 @@
             },
             "3.10.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0/Misc/NEWS.d/3.10.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.10.0a1.rst"
                 ],
                 "BTS": {
                     "bpo29778": {
@@ -17368,7 +17368,7 @@
             },
             "3.10.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0/Misc/NEWS.d/3.10.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.10.0a1.rst"
                 ],
                 "BTS": {
                     "bpo41304": {
@@ -17594,7 +17594,7 @@
             },
             "3.10.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0/Misc/NEWS.d/3.10.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.10.0a1.rst"
                 ],
                 "BTS": {
                     "bpo39603": {
@@ -20568,7 +20568,7 @@
             },
             "3.12.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.13.0a1/Misc/NEWS.d/3.12.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.12.0a1.rst"
                 ],
                 "BTS": {
                     "gh-issue97514": {
@@ -21048,19 +21048,19 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
-                    "URI": "cpe:/a:python:python:3.10.0:alpha1",
-                    "FormattedString": "cpe:2.3:a:python:python:3.10.0:alpha1:*:*:*:*:*:*",
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionEndExcluding": "3.6.13",
                     "VersionEndIncluding": ""
                 },
                 {
                     "URI": "cpe:/a:python:python",
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "3.7.7",
+                    "VersionStartIncluding": "3.7.0",
+                    "VersionEndExcluding": "3.7.10",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -21068,7 +21068,7 @@
                     "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "3.8.0",
-                    "VersionEndExcluding": "3.8.2",
+                    "VersionEndExcluding": "3.8.7",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -21077,6 +21077,22 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "3.9.0",
                     "VersionEndExcluding": "3.9.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:active_iq_unified_manager:-::~~~windows~~",
+                    "FormattedString": "cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:windows:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:active_iq_unified_manager:-::~~~vmware_vsphere~~",
+                    "FormattedString": "cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:vmware_vsphere:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 }
             ]
@@ -21426,7 +21442,7 @@
             },
             "3.10.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.12.0/Misc/NEWS.d/3.10.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.10.0a1.rst"
                 ],
                 "BTS": {
                     "bpo40791": {
@@ -21642,7 +21658,7 @@
             },
             "3.12.0b1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.13.0a1/Misc/NEWS.d/3.12.0b1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.12.0b1.rst"
                 ],
                 "BTS": {
                     "gh-issue102153": {
@@ -22015,6 +22031,58 @@
                         "date": "2023-08-18-00-01-21",
                         "nonce": "q24ITw",
                         "section": "Windows"
+                    }
+                }
+            }
+        }
+    },
+    "CVE-2023-6507": {
+        "CVE-ID": "CVE-2023-6507",
+        "NVD": {
+            "Descriptions": "An issue was found in CPython 3.12.0 `subprocess` module on POSIX platforms. The issue was fixed in CPython 3.12.1 and does not affect other stable releases.\n\nWhen using the `extra_groups=` parameter with an empty list as a value (ie `extra_groups=[]`) the logic regressed to not call `setgroups(0, NULL)` before calling `exec()`, thus not dropping the original processes' groups before starting the new process. There is no issue when the parameter isn't used or when any value is used besides an empty list.\n\nThis issue only impacts CPython processes run with sufficient privilege to make the `setgroups` system call (typically `root`).\n\n",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 4.9,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python:3.13.0:alpha2",
+                    "FormattedString": "cpe:2.3:a:python:python:3.13.0:alpha2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.13.0:alpha1",
+                    "FormattedString": "cpe:2.3:a:python:python:3.13.0:alpha1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.12.0:-",
+                    "FormattedString": "cpe:2.3:a:python:python:3.12.0:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "3.12.1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.12.1/Misc/NEWS.d/3.12.1.rst"
+                ],
+                "BTS": {
+                    "gh-issue112334": {
+                        "ID": "gh-issue112334",
+                        "url": "https://github.com/python/cpython/issues/112334",
+                        "date": "2023-12-01-21-05-46",
+                        "nonce": "DmNXKh",
+                        "section": "Library"
                     }
                 }
             }
@@ -23405,33 +23473,6 @@
                         "date": "2022-11-01-11-07-33",
                         "nonce": "0f6e_N",
                         "section": "Windows"
-                    }
-                }
-            }
-        }
-    },
-    "CVE-2023-6507": {
-        "CVE-ID": "CVE-2023-6507",
-        "NVD": {
-            "Descriptions": "An issue was found in CPython 3.12.0 `subprocess` module on POSIX platforms. The issue was fixed in CPython 3.12.1 and does not affect other stable releases.\n\nWhen using the `extra_groups=` parameter with an empty list as a value (ie `extra_groups=[]`) the logic regressed to not call `setgroups(0, NULL)` before calling `exec()`, thus not dropping the original processes' groups before starting the new process. There is no issue when the parameter isn't used or when any value is used besides an empty list.\n\nThis issue only impacts CPython processes run with sufficient privilege to make the `setgroups` system call (typically `root`).\n\n",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 6.1,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
-            "CPEs": []
-        },
-        "Official": {
-            "3.12.1": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v3.12.1/Misc/NEWS.d/3.12.1.rst"
-                ],
-                "BTS": {
-                    "gh-issue112334": {
-                        "ID": "gh-issue112334",
-                        "url": "https://github.com/python/cpython/issues/112334",
-                        "date": "2023-12-01-21-05-46",
-                        "nonce": "DmNXKh",
-                        "section": "Library"
                     }
                 }
             }
