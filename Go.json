@@ -6751,9 +6751,9 @@
         "NVD": {
             "Descriptions": "Line directives (\"//line\") can be used to bypass the restrictions on \"//go:cgo_\" directives, allowing blocked linker and compiler flags to be passed during compilation. This can result in unexpected execution of arbitrary code when running \"go build\". The line directive requires the absolute path of the file in which the directive lives, which makes exploiting this issue significantly more complex.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 9.8,
+            "Cvss3_BaseScore": 8.1,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:fedoraproject:fedora:39",
