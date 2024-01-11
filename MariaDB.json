@@ -365,6 +365,12 @@
             ]
         },
         "Official": {
+            "11.2.3_EXCLUDE": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-11-2-3-release-notes/"
+                ]
+            },
             "11.2.2": {
                 "source": [
                     "https://mariadb.com/kb/en/security/",
