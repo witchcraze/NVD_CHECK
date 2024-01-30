@@ -3587,19 +3587,19 @@
             "Cvss3_VectorString": "",
             "CPEs": [
                 {
-                    "URI": "cpe:/a:apache:http_server:2.0.28:beta",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.28:beta:*:*:*:*:*:*",
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionEndExcluding": "1.3.24",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:apache:http_server:1.3.23",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.23:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionStartIncluding": "2.0.0",
+                    "VersionEndExcluding": "2.0.34",
                     "VersionEndIncluding": ""
                 }
             ]
