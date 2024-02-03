@@ -8934,6 +8934,70 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/o:cisco:secure_web_appliance_firmware",
+                    "FormattedString": "cpe:2.3:o:cisco:secure_web_appliance_firmware:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "15.1.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:cisco:nx-os",
+                    "FormattedString": "cpe:2.3:o:cisco:nx-os:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "10.2\\(7\\)",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:cisco:nx-os",
+                    "FormattedString": "cpe:2.3:o:cisco:nx-os:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "10.2\\(7\\)",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:cisco:nx-os",
+                    "FormattedString": "cpe:2.3:o:cisco:nx-os:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.3\\(1\\)",
+                    "VersionEndExcluding": "10.3\\(5\\)",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:cisco:nx-os",
+                    "FormattedString": "cpe:2.3:o:cisco:nx-os:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.3\\(1\\)",
+                    "VersionEndExcluding": "10.3\\(5\\)",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:cisco:ios_xr",
+                    "FormattedString": "cpe:2.3:o:cisco:ios_xr:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "7.11.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:cisco:ios_xe",
+                    "FormattedString": "cpe:2.3:o:cisco:ios_xe:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "17.15.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:cisco:fog_director",
+                    "FormattedString": "cpe:2.3:o:cisco:fog_director:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.22",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:varnish_cache_project:varnish_cache",
                     "FormattedString": "cpe:2.3:a:varnish_cache_project:varnish_cache:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -10643,6 +10707,206 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "2023-10-10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:unified_contact_center_management_portal:-",
+                    "FormattedString": "cpe:2.3:a:cisco:unified_contact_center_management_portal:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:unified_contact_center_enterprise_-_live_data_server",
+                    "FormattedString": "cpe:2.3:a:cisco:unified_contact_center_enterprise_-_live_data_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "12.6.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:unified_contact_center_enterprise:-",
+                    "FormattedString": "cpe:2.3:a:cisco:unified_contact_center_enterprise:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:unified_contact_center_domain_manager:-",
+                    "FormattedString": "cpe:2.3:a:cisco:unified_contact_center_domain_manager:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:unified_attendant_console_advanced:-",
+                    "FormattedString": "cpe:2.3:a:cisco:unified_attendant_console_advanced:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:ultra_cloud_core_-_session_management_function",
+                    "FormattedString": "cpe:2.3:a:cisco:ultra_cloud_core_-_session_management_function:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2024.02.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:ultra_cloud_core_-_serving_gateway_function",
+                    "FormattedString": "cpe:2.3:a:cisco:ultra_cloud_core_-_serving_gateway_function:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2024.02.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:ultra_cloud_core_-_policy_control_function:2024.01.0",
+                    "FormattedString": "cpe:2.3:a:cisco:ultra_cloud_core_-_policy_control_function:2024.01.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:ultra_cloud_core_-_policy_control_function",
+                    "FormattedString": "cpe:2.3:a:cisco:ultra_cloud_core_-_policy_control_function:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2024.01.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:telepresence_video_communication_server",
+                    "FormattedString": "cpe:2.3:a:cisco:telepresence_video_communication_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "x14.3.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:secure_malware_analytics",
+                    "FormattedString": "cpe:2.3:a:cisco:secure_malware_analytics:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2.19.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:secure_dynamic_attributes_connector",
+                    "FormattedString": "cpe:2.3:a:cisco:secure_dynamic_attributes_connector:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2.2.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:prime_network_registrar",
+                    "FormattedString": "cpe:2.3:a:cisco:prime_network_registrar:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "11.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:prime_infrastructure",
+                    "FormattedString": "cpe:2.3:a:cisco:prime_infrastructure:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "3.10.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:prime_cable_provisioning",
+                    "FormattedString": "cpe:2.3:a:cisco:prime_cable_provisioning:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "7.2.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:prime_access_registrar",
+                    "FormattedString": "cpe:2.3:a:cisco:prime_access_registrar:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "9.3.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:iot_field_network_director",
+                    "FormattedString": "cpe:2.3:a:cisco:iot_field_network_director:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "4.11.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:firepower_threat_defense",
+                    "FormattedString": "cpe:2.3:a:cisco:firepower_threat_defense:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "7.4.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:expressway",
+                    "FormattedString": "cpe:2.3:a:cisco:expressway:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "x14.3.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:enterprise_chat_and_email:-",
+                    "FormattedString": "cpe:2.3:a:cisco:enterprise_chat_and_email:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:data_center_network_manager:-",
+                    "FormattedString": "cpe:2.3:a:cisco:data_center_network_manager:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:crosswork_zero_touch_provisioning",
+                    "FormattedString": "cpe:2.3:a:cisco:crosswork_zero_touch_provisioning:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "6.0.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:crosswork_data_gateway:5.0",
+                    "FormattedString": "cpe:2.3:a:cisco:crosswork_data_gateway:5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:crosswork_data_gateway",
+                    "FormattedString": "cpe:2.3:a:cisco:crosswork_data_gateway:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "4.1.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:connected_mobile_experiences",
+                    "FormattedString": "cpe:2.3:a:cisco:connected_mobile_experiences:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "11.1",
                     "VersionEndIncluding": ""
                 },
                 {

@@ -3023,27 +3023,19 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:postgresql:postgresql:7.4.5",
-                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:7.4.5:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionStartIncluding": "7.3.0",
+                    "VersionEndExcluding": "7.3.8",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:postgresql:postgresql:7.4.3",
-                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:7.4.3:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:postgresql:postgresql:7.2.1",
-                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:7.2.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionStartIncluding": "7.4.0",
+                    "VersionEndExcluding": "7.4.6",
                     "VersionEndIncluding": ""
                 }
             ]

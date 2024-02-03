@@ -549,484 +549,28 @@
             "Cvss3_VectorString": "",
             "CPEs": [
                 {
-                    "URI": "cpe:/a:apache:http_server:2.2.6",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.2.6:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
+                    "VersionStartIncluding": "1.3.2",
                     "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
+                    "VersionEndIncluding": "1.3.39"
                 },
                 {
-                    "URI": "cpe:/a:apache:http_server:2.2.4",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.2.4:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
+                    "VersionStartIncluding": "2.0.35",
                     "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
+                    "VersionEndIncluding": "2.0.61"
                 },
                 {
-                    "URI": "cpe:/a:apache:http_server:2.2.3",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.2.3:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
+                    "VersionStartIncluding": "2.2.0",
                     "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.2.2",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.2.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.2.1",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.2.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.2",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.61",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.61:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.60",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.60:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.59",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.59:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.58",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.58:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.57",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.57:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.56",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.56:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.55",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.55:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.54",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.54:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.53",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.53:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.52",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.52:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.51",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.51:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.50",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.50:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.49",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.49:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.48",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.48:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.47",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.47:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.46",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.46:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.45",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.45:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.44",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.44:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.43",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.43:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.42",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.42:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.41",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.41:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.40",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.40:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.39",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.39:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.38",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.38:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.37",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.37:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.36",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.36:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:2.0.35",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0.35:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.9",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.9:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.8",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.8:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.7",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.7:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.6",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.6:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.5",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.5:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.4",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.39",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.39:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.38",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.38:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.37",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.37:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.33",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.33:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.32",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.32:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.31",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.31:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.30",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.30:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.3",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.29",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.29:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.28",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.28:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.27",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.27:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.26",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.26:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.25",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.25:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.24",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.24:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.23",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.23:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.22",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.22:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.2",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.12",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.12:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.11",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.11:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.1",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:-",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:-:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
+                    "VersionEndIncluding": "2.2.6"
                 }
             ]
         },
@@ -1573,9 +1117,9 @@
         "NVD": {
             "Descriptions": "Buffer overflow in the get_tag function in mod_include for Apache 1.3.x to 1.3.32 allows local users who can create SSI documents to execute arbitrary code as the apache user via SSI (XSSI) documents that trigger a length calculation error.",
             "Cvss2_BaseScore": 6.9,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 7.8,
             "Cvss2_VectorString": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
-            "Cvss3_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:trustix:secure_linux:1.5",
@@ -1596,14 +1140,6 @@
                 {
                     "URI": "cpe:/o:suse:suse_linux:9.1",
                     "FormattedString": "cpe:2.3:o:suse:suse_linux:9.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:suse:suse_linux:9.0::x86_64",
-                    "FormattedString": "cpe:2.3:o:suse:suse_linux:9.0:*:x86_64:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -1722,14 +1258,6 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:openpkg:openpkg:current",
-                    "FormattedString": "cpe:2.3:a:openpkg:openpkg:current:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/a:openpkg:openpkg:2.2",
                     "FormattedString": "cpe:2.3:a:openpkg:openpkg:2.2:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -1754,196 +1282,12 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:apache:http_server:1.3.9",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.9:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
+                    "VersionStartIncluding": "1.3",
                     "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.7::dev",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.7:*:dev:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.6",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.6:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.4",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.4:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.32",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.32:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.31",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.31:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.3",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.29",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.29:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.28",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.28:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.27",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.27:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.26",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.26:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.25",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.25:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.24",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.24:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.23",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.23:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.22",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.22:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.20",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.20:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.19",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.19:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.18",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.18:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.17",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.17:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.14",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.14:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.12",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.12:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.11",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.11:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3.1",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:1.3",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
+                    "VersionEndIncluding": "1.3.32"
                 }
             ]
         },
@@ -9706,9 +9050,9 @@
         "NVD": {
             "Descriptions": "Buffer overflow in Apache 2.0.50 and earlier allows local users to gain apache privileges via a .htaccess file that causes the overflow during expansion of environment variables.",
             "Cvss2_BaseScore": 4.6,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 7.8,
             "Cvss2_VectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/a:apache:http_server",
@@ -17639,6 +16983,14 @@
             "Cvss3_VectorString": "",
             "CPEs": [
                 {
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.2.0",
+                    "VersionEndExcluding": "2.2.12",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:apache:apr-util:1.3.3",
                     "FormattedString": "cpe:2.3:a:apache:apr-util:1.3.3:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -18164,9 +17516,9 @@
         "NVD": {
             "Descriptions": "The expat XML parser in the apr_xml_* interface in xml/apr_xml.c in Apache APR-util before 1.3.7, as used in the mod_dav and mod_dav_svn modules in the Apache HTTP Server, allows remote attackers to cause a denial of service (memory consumption) via a crafted XML document containing a large number of nested entity references, as demonstrated by a PROPFIND request, a similar issue to CVE-2003-1564.",
             "Cvss2_BaseScore": 5,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:suse:linux_enterprise_server:9",
@@ -29514,6 +28866,70 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/o:cisco:secure_web_appliance_firmware",
+                    "FormattedString": "cpe:2.3:o:cisco:secure_web_appliance_firmware:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "15.1.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:cisco:nx-os",
+                    "FormattedString": "cpe:2.3:o:cisco:nx-os:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "10.2\\(7\\)",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:cisco:nx-os",
+                    "FormattedString": "cpe:2.3:o:cisco:nx-os:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "10.2\\(7\\)",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:cisco:nx-os",
+                    "FormattedString": "cpe:2.3:o:cisco:nx-os:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.3\\(1\\)",
+                    "VersionEndExcluding": "10.3\\(5\\)",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:cisco:nx-os",
+                    "FormattedString": "cpe:2.3:o:cisco:nx-os:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.3\\(1\\)",
+                    "VersionEndExcluding": "10.3\\(5\\)",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:cisco:ios_xr",
+                    "FormattedString": "cpe:2.3:o:cisco:ios_xr:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "7.11.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:cisco:ios_xe",
+                    "FormattedString": "cpe:2.3:o:cisco:ios_xe:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "17.15.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:cisco:fog_director",
+                    "FormattedString": "cpe:2.3:o:cisco:fog_director:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.22",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:varnish_cache_project:varnish_cache",
                     "FormattedString": "cpe:2.3:a:varnish_cache_project:varnish_cache:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -31223,6 +30639,206 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "2023-10-10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:unified_contact_center_management_portal:-",
+                    "FormattedString": "cpe:2.3:a:cisco:unified_contact_center_management_portal:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:unified_contact_center_enterprise_-_live_data_server",
+                    "FormattedString": "cpe:2.3:a:cisco:unified_contact_center_enterprise_-_live_data_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "12.6.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:unified_contact_center_enterprise:-",
+                    "FormattedString": "cpe:2.3:a:cisco:unified_contact_center_enterprise:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:unified_contact_center_domain_manager:-",
+                    "FormattedString": "cpe:2.3:a:cisco:unified_contact_center_domain_manager:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:unified_attendant_console_advanced:-",
+                    "FormattedString": "cpe:2.3:a:cisco:unified_attendant_console_advanced:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:ultra_cloud_core_-_session_management_function",
+                    "FormattedString": "cpe:2.3:a:cisco:ultra_cloud_core_-_session_management_function:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2024.02.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:ultra_cloud_core_-_serving_gateway_function",
+                    "FormattedString": "cpe:2.3:a:cisco:ultra_cloud_core_-_serving_gateway_function:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2024.02.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:ultra_cloud_core_-_policy_control_function:2024.01.0",
+                    "FormattedString": "cpe:2.3:a:cisco:ultra_cloud_core_-_policy_control_function:2024.01.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:ultra_cloud_core_-_policy_control_function",
+                    "FormattedString": "cpe:2.3:a:cisco:ultra_cloud_core_-_policy_control_function:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2024.01.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:telepresence_video_communication_server",
+                    "FormattedString": "cpe:2.3:a:cisco:telepresence_video_communication_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "x14.3.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:secure_malware_analytics",
+                    "FormattedString": "cpe:2.3:a:cisco:secure_malware_analytics:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2.19.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:secure_dynamic_attributes_connector",
+                    "FormattedString": "cpe:2.3:a:cisco:secure_dynamic_attributes_connector:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2.2.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:prime_network_registrar",
+                    "FormattedString": "cpe:2.3:a:cisco:prime_network_registrar:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "11.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:prime_infrastructure",
+                    "FormattedString": "cpe:2.3:a:cisco:prime_infrastructure:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "3.10.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:prime_cable_provisioning",
+                    "FormattedString": "cpe:2.3:a:cisco:prime_cable_provisioning:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "7.2.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:prime_access_registrar",
+                    "FormattedString": "cpe:2.3:a:cisco:prime_access_registrar:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "9.3.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:iot_field_network_director",
+                    "FormattedString": "cpe:2.3:a:cisco:iot_field_network_director:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "4.11.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:firepower_threat_defense",
+                    "FormattedString": "cpe:2.3:a:cisco:firepower_threat_defense:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "7.4.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:expressway",
+                    "FormattedString": "cpe:2.3:a:cisco:expressway:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "x14.3.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:enterprise_chat_and_email:-",
+                    "FormattedString": "cpe:2.3:a:cisco:enterprise_chat_and_email:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:data_center_network_manager:-",
+                    "FormattedString": "cpe:2.3:a:cisco:data_center_network_manager:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:crosswork_zero_touch_provisioning",
+                    "FormattedString": "cpe:2.3:a:cisco:crosswork_zero_touch_provisioning:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "6.0.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:crosswork_data_gateway:5.0",
+                    "FormattedString": "cpe:2.3:a:cisco:crosswork_data_gateway:5.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:crosswork_data_gateway",
+                    "FormattedString": "cpe:2.3:a:cisco:crosswork_data_gateway:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "4.1.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:connected_mobile_experiences",
+                    "FormattedString": "cpe:2.3:a:cisco:connected_mobile_experiences:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "11.1",
                     "VersionEndIncluding": ""
                 },
                 {
