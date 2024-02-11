@@ -367,8 +367,7 @@
         "Official": {
             "11.2.3": {
                 "source": [
-                    "https://mariadb.com/kb/en/security/",
-                    "https://mariadb.com//kb/en/mariadb-11-2-3-release-notes/"
+                    "https://mariadb.com/kb/en/security/"
                 ]
             },
             "11.2.2": {
