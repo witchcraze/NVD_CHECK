@@ -23286,6 +23286,118 @@
             }
         }
     },
+    "CVE-2024-21892": {
+        "CVE-ID": "CVE-2024-21892",
+        "Official": {
+            "18.19.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            },
+            "20.11.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            },
+            "21.6.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
+                ]
+            }
+        }
+    },
+    "CVE-2024-22019": {
+        "CVE-ID": "CVE-2024-22019",
+        "Official": {
+            "18.19.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            },
+            "20.11.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            },
+            "21.6.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
+                ]
+            }
+        }
+    },
+    "CVE-2023-46809": {
+        "CVE-ID": "CVE-2023-46809",
+        "Official": {
+            "18.19.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            },
+            "20.11.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            },
+            "21.6.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
+                ]
+            }
+        }
+    },
+    "CVE-2024-22025": {
+        "CVE-ID": "CVE-2024-22025",
+        "Official": {
+            "18.19.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            },
+            "20.11.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            },
+            "21.6.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
+                ]
+            }
+        }
+    },
+    "CVE-2024-24806": {
+        "CVE-ID": "CVE-2024-24806",
+        "NVD": {
+            "Descriptions": "libuv is a multi-platform support library with a focus on asynchronous I/O. The `uv_getaddrinfo` function in `src/unix/getaddrinfo.c` (and its windows counterpart `src/win/getaddrinfo.c`), truncates hostnames to 256 characters before calling `getaddrinfo`. This behavior can be exploited to create addresses like `0x00007f000001`, which are considered valid by `getaddrinfo` and could allow an attacker to craft payloads that resolve to unintended IP addresses, bypassing developer checks. The vulnerability arises due to how the `hostname_ascii` variable (with a length of 256 bytes) is handled in `uv_getaddrinfo` and subsequently in `uv__idna_toascii`. When the hostname exceeds 256 characters, it gets truncated without a terminating null byte. As a result attackers may be able to access internal APIs or for websites (similar to MySpace) that allows users to have `username.example.com` pages. Internal services that crawl or cache these user pages can be exposed to SSRF attacks if a malicious user chooses a long vulnerable username. This issue has been addressed in release version 1.48.0. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 9.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:libuv:libuv",
+                    "FormattedString": "cpe:2.3:a:libuv:libuv:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.24.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "1.48.0"
+                }
+            ]
+        },
+        "Official": {
+            "18.19.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            },
+            "20.11.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            }
+        }
+    },
     "CVE-2023-44487": {
         "CVE-ID": "CVE-2023-44487",
         "NVD": {
@@ -26430,6 +26542,66 @@
             "16.20.0": {
                 "source": [
                     "https://github.com/nodejs/security-wg/blob/main/vuln/core/98.json"
+                ]
+            }
+        }
+    },
+    "CVE-2024-21896": {
+        "CVE-ID": "CVE-2024-21896",
+        "Official": {
+            "20.11.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            },
+            "21.6.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
+                ]
+            }
+        }
+    },
+    "CVE-2024-22017": {
+        "CVE-ID": "CVE-2024-22017",
+        "Official": {
+            "20.11.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            },
+            "21.6.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
+                ]
+            }
+        }
+    },
+    "CVE-2024-21891": {
+        "CVE-ID": "CVE-2024-21891",
+        "Official": {
+            "20.11.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            },
+            "21.6.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
+                ]
+            }
+        }
+    },
+    "CVE-2024-21890": {
+        "CVE-ID": "CVE-2024-21890",
+        "Official": {
+            "20.11.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            },
+            "21.6.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
                 ]
             }
         }
