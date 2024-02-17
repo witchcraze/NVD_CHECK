@@ -4676,16 +4676,16 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:hp:helion_openstack:2.1",
-                    "FormattedString": "cpe:2.3:a:hp:helion_openstack:2.1:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:hp:helion_openstack:2.1.0",
+                    "FormattedString": "cpe:2.3:a:hp:helion_openstack:2.1.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:hp:helion_openstack:2.0",
-                    "FormattedString": "cpe:2.3:a:hp:helion_openstack:2.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:hp:helion_openstack:2.0.0",
+                    "FormattedString": "cpe:2.3:a:hp:helion_openstack:2.0.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -23291,17 +23291,20 @@
         "Official": {
             "18.19.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/134.json"
                 ]
             },
             "20.11.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/134.json"
                 ]
             },
             "21.6.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/134.json"
                 ]
             }
         }
@@ -23311,17 +23314,20 @@
         "Official": {
             "18.19.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/135.json"
                 ]
             },
             "20.11.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/135.json"
                 ]
             },
             "21.6.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/135.json"
                 ]
             }
         }
@@ -23331,17 +23337,20 @@
         "Official": {
             "18.19.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/131.json"
                 ]
             },
             "20.11.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/131.json"
                 ]
             },
             "21.6.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/131.json"
                 ]
             }
         }
@@ -23351,17 +23360,20 @@
         "Official": {
             "18.19.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/138.json"
                 ]
             },
             "20.11.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/138.json"
                 ]
             },
             "21.6.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/138.json"
                 ]
             }
         }
@@ -25730,6 +25742,30 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:fedoraproject:fedora:39",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:39:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:38",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:38:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:37",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:nodejs:undici:::~~~node.js~~",
                     "FormattedString": "cpe:2.3:a:nodejs:undici:*:*:*:*:*:node.js:*:*",
                     "VersionStartExcluding": "",
@@ -25763,6 +25799,30 @@
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
             "CPEs": [
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:39",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:39:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:38",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:38:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:fedoraproject:fedora:37",
+                    "FormattedString": "cpe:2.3:o:fedoraproject:fedora:37:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
                 {
                     "URI": "cpe:/a:nodejs:node.js",
                     "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
@@ -26551,12 +26611,14 @@
         "Official": {
             "20.11.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/136.json"
                 ]
             },
             "21.6.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/136.json"
                 ]
             }
         }
@@ -26566,12 +26628,14 @@
         "Official": {
             "20.11.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/137.json"
                 ]
             },
             "21.6.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/137.json"
                 ]
             }
         }
@@ -26581,12 +26645,14 @@
         "Official": {
             "20.11.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/132.json"
                 ]
             },
             "21.6.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/132.json"
                 ]
             }
         }
@@ -26596,12 +26662,14 @@
         "Official": {
             "20.11.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/133.json"
                 ]
             },
             "21.6.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/133.json"
                 ]
             }
         }
