@@ -6326,8 +6326,8 @@
             "Cvss3_VectorString": "",
             "CPEs": [
                 {
-                    "URI": "cpe:/a:james_clark:expat:2.0.1",
-                    "FormattedString": "cpe:2.3:a:james_clark:expat:2.0.1:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:libexpat_project:libexpat:2.0.1",
+                    "FormattedString": "cpe:2.3:a:libexpat_project:libexpat:2.0.1:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",

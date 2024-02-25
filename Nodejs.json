@@ -23407,9 +23407,9 @@
                     "URI": "cpe:/a:libuv:libuv",
                     "FormattedString": "cpe:2.3:a:libuv:libuv:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "1.24.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "1.48.0"
+                    "VersionStartIncluding": "1.45.0",
+                    "VersionEndExcluding": "1.48.0",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
