@@ -9453,6 +9453,14 @@
     },
     "CVE-2024-24783": {
         "CVE-ID": "CVE-2024-24783",
+        "NVD": {
+            "Descriptions": "Verifying a certificate chain which contains a certificate with an unknown public key algorithm will cause Certificate.Verify to panic. This affects all crypto/tls clients, and servers that set Config.ClientAuth to VerifyClientCertIfGiven or RequireAndVerifyClientCert. The default behavior is for TLS servers to not verify client certificates.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.23": {
                 "source": {
@@ -9478,6 +9486,14 @@
     },
     "CVE-2023-45290": {
         "CVE-ID": "CVE-2023-45290",
+        "NVD": {
+            "Descriptions": "When parsing a multipart form (either explicitly with Request.ParseMultipartForm or implicitly with Request.FormValue, Request.PostFormValue, or Request.FormFile), limits on the total size of the parsed form were not applied to the memory consumed while reading a single form line. This permits a maliciously crafted input containing very long lines to cause allocation of arbitrarily large amounts of memory, potentially leading to memory exhaustion. With fix, the ParseMultipartForm function now correctly limits the maximum size of form lines.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.23": {
                 "source": {
@@ -9503,6 +9519,14 @@
     },
     "CVE-2023-45289": {
         "CVE-ID": "CVE-2023-45289",
+        "NVD": {
+            "Descriptions": "When following an HTTP redirect to a domain which is not a subdomain match or exact match of the initial domain, an http.Client does not forward sensitive headers such as \"Authorization\" or \"Cookie\". For example, a redirect from foo.com to www.foo.com will forward the Authorization header, but a redirect to bar.com will not. A maliciously crafted HTTP redirect could cause sensitive headers to be unexpectedly forwarded.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.23": {
                 "source": {
