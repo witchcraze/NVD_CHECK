@@ -13647,8 +13647,8 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "13.0.0",
                     "VersionEndExcluding": "13.8.0",
@@ -13887,8 +13887,8 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "13.0.0",
                     "VersionEndExcluding": "13.8.0",
@@ -14079,8 +14079,8 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "13.0.0",
                     "VersionEndExcluding": "13.8.0",
@@ -16682,14 +16682,6 @@
                     "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
                     "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "11.0.0",
-                    "VersionEndExcluding": "11.10.1",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
-                    "VersionStartExcluding": "",
                     "VersionStartIncluding": "6.0.0",
                     "VersionEndExcluding": "6.17.0",
                     "VersionEndIncluding": ""
@@ -16700,6 +16692,14 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "8.0.0",
                     "VersionEndExcluding": "8.15.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "11.0.0",
+                    "VersionEndExcluding": "11.10.1",
                     "VersionEndIncluding": ""
                 }
             ]
