@@ -21975,6 +21975,20 @@
                         "section": "Security"
                     }
                 }
+            },
+            "3.8.19": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.8.19/Misc/NEWS.d/3.8.19.rst"
+                ],
+                "BTS": {
+                    "gh-issue108310": {
+                        "ID": "gh-issue108310",
+                        "url": "https://github.com/python/cpython/issues/108310",
+                        "date": "2024-02-01-14-35-05",
+                        "nonce": "URRe8Y",
+                        "section": "Tests"
+                    }
+                }
             }
         }
     },
@@ -23250,6 +23264,126 @@
             }
         }
     },
+    "CVE-2023-52425": {
+        "CVE-ID": "CVE-2023-52425",
+        "NVD": {
+            "Descriptions": "libexpat through 2.5.0 allows a denial of service (resource consumption) because many full reparsings are required in the case of a large token for which multiple buffer fills are needed.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:libexpat_project:libexpat",
+                    "FormattedString": "cpe:2.3:a:libexpat_project:libexpat:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "2.5.0"
+                }
+            ]
+        },
+        "Official": {
+            "3.8.19": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.8.19/Misc/NEWS.d/3.8.19.rst"
+                ],
+                "BTS": {
+                    "gh-issue115398": {
+                        "ID": "gh-issue115398",
+                        "url": "https://github.com/python/cpython/issues/115398",
+                        "date": "2024-02-18-03-14-40",
+                        "nonce": "tzvxH8",
+                        "section": "Security"
+                    },
+                    "gh-issue115399": {
+                        "ID": "gh-issue115399",
+                        "url": "https://github.com/python/cpython/issues/115399",
+                        "date": "2024-02-14-20-17-04",
+                        "nonce": "fb9a0R",
+                        "section": "Documentation"
+                    }
+                }
+            },
+            "3.9.19": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.9.19/Misc/NEWS.d/3.9.19.rst"
+                ],
+                "BTS": {
+                    "gh-issue115398": {
+                        "ID": "gh-issue115398",
+                        "url": "https://github.com/python/cpython/issues/115398",
+                        "date": "2024-02-18-03-14-40",
+                        "nonce": "tzvxH8",
+                        "section": "Security"
+                    },
+                    "gh-issue115399": {
+                        "ID": "gh-issue115399",
+                        "url": "https://github.com/python/cpython/issues/115399",
+                        "date": "2024-02-14-20-17-04",
+                        "nonce": "fb9a0R",
+                        "section": "Documentation"
+                    }
+                }
+            },
+            "3.10.14": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.10.14/Misc/NEWS.d/3.10.14.rst"
+                ],
+                "BTS": {
+                    "gh-issue115398": {
+                        "ID": "gh-issue115398",
+                        "url": "https://github.com/python/cpython/issues/115398",
+                        "date": "2024-02-18-03-14-40",
+                        "nonce": "tzvxH8",
+                        "section": "Security"
+                    },
+                    "gh-issue115399": {
+                        "ID": "gh-issue115399",
+                        "url": "https://github.com/python/cpython/issues/115399",
+                        "date": "2024-02-14-20-17-04",
+                        "nonce": "fb9a0R",
+                        "section": "Documentation"
+                    }
+                }
+            },
+            "3.13.0a5": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.13.0a5/Misc/NEWS.d/3.13.0a5.rst"
+                ],
+                "BTS": {
+                    "gh-issue115398": {
+                        "ID": "gh-issue115398",
+                        "url": "https://github.com/python/cpython/issues/115398",
+                        "date": "2024-02-18-03-14-40",
+                        "nonce": "tzvxH8",
+                        "section": "Security"
+                    },
+                    "gh-issue115399": {
+                        "ID": "gh-issue115399",
+                        "url": "https://github.com/python/cpython/issues/115399",
+                        "date": "2024-02-14-20-17-04",
+                        "nonce": "fb9a0R",
+                        "section": "Documentation"
+                    }
+                }
+            },
+            "3.13.0a4": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.13.0a4/Misc/NEWS.d/3.13.0a4.rst"
+                ],
+                "BTS": {
+                    "gh-issue115399": {
+                        "ID": "gh-issue115399",
+                        "url": "https://github.com/python/cpython/issues/115399",
+                        "date": "2024-02-12-00-33-01",
+                        "nonce": "xT-scP",
+                        "section": "Security"
+                    }
+                }
+            }
+        }
+    },
     "CVE-2022-37434": {
         "CVE-ID": "CVE-2022-37434",
         "NVD": {
@@ -23517,63 +23651,6 @@
                         "date": "2022-11-01-11-07-33",
                         "nonce": "0f6e_N",
                         "section": "Windows"
-                    }
-                }
-            }
-        }
-    },
-    "CVE-2023-52425": {
-        "CVE-ID": "CVE-2023-52425",
-        "NVD": {
-            "Descriptions": "libexpat through 2.5.0 allows a denial of service (resource consumption) because many full reparsings are required in the case of a large token for which multiple buffer fills are needed.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 7.5,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:libexpat_project:libexpat",
-                    "FormattedString": "cpe:2.3:a:libexpat_project:libexpat:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.5.0"
-                }
-            ]
-        },
-        "Official": {
-            "3.13.0a5": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v3.13.0a5/Misc/NEWS.d/3.13.0a5.rst"
-                ],
-                "BTS": {
-                    "gh-issue115398": {
-                        "ID": "gh-issue115398",
-                        "url": "https://github.com/python/cpython/issues/115398",
-                        "date": "2024-02-18-03-14-40",
-                        "nonce": "tzvxH8",
-                        "section": "Security"
-                    },
-                    "gh-issue115399": {
-                        "ID": "gh-issue115399",
-                        "url": "https://github.com/python/cpython/issues/115399",
-                        "date": "2024-02-14-20-17-04",
-                        "nonce": "fb9a0R",
-                        "section": "Documentation"
-                    }
-                }
-            },
-            "3.13.0a4": {
-                "source": [
-                    "https://github.com/python/cpython/blob/v3.13.0a4/Misc/NEWS.d/3.13.0a4.rst"
-                ],
-                "BTS": {
-                    "gh-issue115399": {
-                        "ID": "gh-issue115399",
-                        "url": "https://github.com/python/cpython/issues/115399",
-                        "date": "2024-02-12-00-33-01",
-                        "nonce": "xT-scP",
-                        "section": "Security"
                     }
                 }
             }

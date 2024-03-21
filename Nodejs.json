@@ -23373,6 +23373,14 @@
     },
     "CVE-2024-22025": {
         "CVE-ID": "CVE-2024-22025",
+        "NVD": {
+            "Descriptions": "A vulnerability in Node.js has been identified, allowing for a Denial of Service (DoS) attack through resource exhaustion when using the fetch() function to retrieve content from an untrusted URL.\nThe vulnerability stems from the fact that the fetch() function in Node.js always decodes Brotli, making it possible for an attacker to cause resource exhaustion when fetching content from an untrusted URL.\nAn attacker controlling the URL passed into fetch() can exploit this vulnerability to exhaust memory, potentially leading to process termination, depending on the system configuration.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
         "Official": {
             "18.19.1": {
                 "source": [
@@ -26649,6 +26657,14 @@
     },
     "CVE-2024-22017": {
         "CVE-ID": "CVE-2024-22017",
+        "NVD": {
+            "Descriptions": "setuid() does not affect libuv's internal io_uring operations if initialized before the call to setuid().\nThis allows the process to perform privileged operations despite presumably having dropped such privileges through a call to setuid().\nThis vulnerability affects all users using version greater or equal than Node.js 18.18.0, Node.js 20.4.0 and Node.js 21.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:H/A:L",
+            "CPEs": []
+        },
         "Official": {
             "20.11.1": {
                 "source": [
