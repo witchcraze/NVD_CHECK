@@ -1588,6 +1588,11 @@
                 "source": [
                     "https://www.samba.org/samba/history/samba-4.17.4.html"
                 ]
+            },
+            "4.20.0": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.20.0.html"
+                ]
             }
         }
     },
