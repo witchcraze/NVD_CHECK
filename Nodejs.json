@@ -23286,6 +23286,26 @@
             }
         }
     },
+    "CVE-2024-27980": {
+        "CVE-ID": "CVE-2024-27980",
+        "Official": {
+            "18.20.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            },
+            "20.12.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            },
+            "21.7.3": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
+                ]
+            }
+        }
+    },
     "CVE-2024-27983": {
         "CVE-ID": "CVE-2024-27983",
         "NVD": {
