@@ -2959,6 +2959,23 @@
     },
     "CVE-2001-0729": {
         "CVE-ID": "CVE-2001-0729",
+        "NVD": {
+            "Descriptions": "Apache 1.3.20 on Windows servers allows remote attackers to bypass the default index page and list directory contents via a URL with a large number of / (slash) characters.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.20",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.20:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
         "Official": {
             "1.3.22": {
                 "source": [
@@ -2974,6 +2991,23 @@
     },
     "CVE-2001-0730": {
         "CVE-ID": "CVE-2001-0730",
+        "NVD": {
+            "Descriptions": "split-logfile in Apache 1.3.20 allows remote attackers to overwrite arbitrary files that end in the .log extension via an HTTP request with a / (slash) in the Host: header.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.20",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.20:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
         "Official": {
             "1.3.22": {
                 "source": [
@@ -2989,6 +3023,23 @@
     },
     "CVE-2001-0731": {
         "CVE-ID": "CVE-2001-0731",
+        "NVD": {
+            "Descriptions": "Apache 1.3.20 with Multiviews enabled allows remote attackers to view directory contents and bypass the index page via a URL containing the \"M=D\" query string.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.20",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.20:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
         "Official": {
             "1.3.22": {
                 "source": [
@@ -3004,6 +3055,71 @@
     },
     "CVE-2001-1342": {
         "CVE-ID": "CVE-2001-1342",
+        "NVD": {
+            "Descriptions": "Apache before 1.3.20 on Windows and OS/2 systems allows remote attackers to cause a denial of service (GPF) via an HTTP request for a URI that contains a large number of / (slash) or other characters, which causes certain functions to dereference a null pointer.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.19::win32",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.19:*:win32:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.18::win32",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.18:*:win32:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.17::win32",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.17:*:win32:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.16::win32",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.16:*:win32:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.15::win32",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.15:*:win32:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.14::win32",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.14:*:win32:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.12::win32",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.12:*:win32:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
         "Official": {
             "1.3.20": {
                 "source": [
@@ -3015,6 +3131,55 @@
     },
     "CVE-2001-0925": {
         "CVE-ID": "CVE-2001-0925",
+        "NVD": {
+            "Descriptions": "The default installation of Apache before 1.3.19 allows remote attackers to list directories instead of the multiview index.html file via an HTTP request for a path that contains many / (slash) characters, which causes the path to be mishandled by (1) mod_negotiation, (2) mod_dir, or (3) mod_autoindex.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:debian:debian_linux:2.2",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:2.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.17",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.17:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.14",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.14:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.12",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.12:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.11",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.11:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
         "Official": {
             "1.3.19": {
                 "source": [
@@ -3026,6 +3191,63 @@
     },
     "CVE-2000-0505": {
         "CVE-ID": "CVE-2000-0505",
+        "NVD": {
+            "Descriptions": "The Apache 1.3.x HTTP server for Windows platforms allows remote attackers to list directory contents by requesting a URL containing a large number of / characters.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:ibm:http_server:1.3.6.2::win32",
+                    "FormattedString": "cpe:2.3:a:ibm:http_server:1.3.6.2:*:win32:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:ibm:http_server:1.3.3::win32",
+                    "FormattedString": "cpe:2.3:a:ibm:http_server:1.3.3:*:win32:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.9::win32",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.9:*:win32:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.6::win32",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.6:*:win32:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.12::win32",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.12:*:win32:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.11::win32",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.11:*:win32:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
         "Official": {
             "1.3.14": {
                 "source": [
@@ -3037,6 +3259,95 @@
     },
     "CVE-2000-0913": {
         "CVE-ID": "CVE-2000-0913",
+        "NVD": {
+            "Descriptions": "mod_rewrite in Apache 1.3.12 and earlier allows remote attackers to read arbitrary files if a RewriteRule directive is expanded to include a filename whose name contains a regular expression.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.12",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.12:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.11::win32",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.11:*:win32:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.1.1",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.1.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.1",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.0.5",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.0.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.0.3",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.0.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.0.2",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.0.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.0",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:0.8.14",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:0.8.14:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:0.8.11",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:0.8.11:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
         "Official": {
             "1.3.14": {
                 "source": [
@@ -3053,6 +3364,39 @@
     },
     "CVE-2000-1204": {
         "CVE-ID": "CVE-2000-1204",
+        "NVD": {
+            "Descriptions": "Vulnerability in the mod_vhost_alias virtual hosting module for Apache 1.3.9, 1.3.11 and 1.3.12 allows remote attackers to obtain the source code for CGI programs if the cgi-bin directory is under the document root.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.9",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.9:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.12",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.12:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.11",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.11:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
         "Official": {
             "1.3.14": {
                 "source": [
@@ -3069,6 +3413,111 @@
     },
     "CVE-2000-1205": {
         "CVE-ID": "CVE-2000-1205",
+        "NVD": {
+            "Descriptions": "Cross site scripting vulnerabilities in Apache 1.3.0 through 1.3.11 allow remote attackers to execute script as other web site visitors via (1) the printenv CGI (printenv.pl), which does not encode its output, (2) pages generated by the ap_send_error_response function such as a default 404, which does not add an explicit charset, or (3) various messages that are generated by certain Apache modules or core code.  NOTE: the printenv issue might still exist for web browsers that can render text/plain content types as HTML, such as Internet Explorer, but CVE regards this as a design limitation of those browsers, not Apache.  The printenv.pl/acuparam vector, discloser on 20070724, is one such variant.",
+            "Cvss2_BaseScore": 4.3,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.9",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.9:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.8",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.8:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.7",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.7:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.6",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.5",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.4",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.3",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.2",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.11",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.11:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.10",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.10:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.1",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.0",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
         "Official": {
             "1.3.12": {
                 "source": [
@@ -3080,6 +3529,31 @@
     },
     "CVE-2000-1206": {
         "CVE-ID": "CVE-2000-1206",
+        "NVD": {
+            "Descriptions": "Vulnerability in Apache httpd before 1.3.11, when configured for mass virtual hosting using mod_rewrite, or mod_vhost_alias in Apache 1.3.9, allows remote attackers to retrieve arbitrary files.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.9",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.9:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.10",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.10:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
         "Official": {
             "1.3.11": {
                 "source": [
@@ -3095,6 +3569,23 @@
     },
     "CVE-1999-1199": {
         "CVE-ID": "CVE-1999-1199",
+        "NVD": {
+            "Descriptions": "Apache WWW server 1.3.1 and earlier allows remote attackers to cause a denial of service (resource exhaustion) via a large number of MIME headers with the same name, aka the \"sioux\" vulnerability.",
+            "Cvss2_BaseScore": 10,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "1.3.1"
+                }
+            ]
+        },
         "Official": {
             "1.3.2": {
                 "source": [
@@ -17722,8 +18213,48 @@
             "Cvss3_VectorString": "",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:8.04",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:8.04:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:7.10",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:7.10:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:canonical:ubuntu_linux:6.06",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:6.06:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:2.2.8",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:2.2.8:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:apache:http_server:2.2.6",
                     "FormattedString": "cpe:2.3:a:apache:http_server:2.2.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:2.2.5",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:2.2.5:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -17756,14 +18287,6 @@
                 {
                     "URI": "cpe:/a:apache:http_server:2.2.0",
                     "FormattedString": "cpe:2.3:a:apache:http_server:2.2.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:apache:http_server:-",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:-:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -31066,6 +31589,886 @@
                     "https://archive.apache.org/dist/httpd/CHANGES_2.4"
                 ]
             }
+        }
+    },
+    "CVE-1999-0045": {
+        "CVE-ID": "CVE-1999-0045",
+        "NVD": {
+            "Descriptions": "List of arbitrary files on Web host via nph-test-cgi script.",
+            "Cvss2_BaseScore": 7.5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:netscape:enterprise_server:2.0a",
+                    "FormattedString": "cpe:2.3:a:netscape:enterprise_server:2.0a:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netscape:communications_server:1.12",
+                    "FormattedString": "cpe:2.3:a:netscape:communications_server:1.12:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netscape:communications_server:1.1",
+                    "FormattedString": "cpe:2.3:a:netscape:communications_server:1.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netscape:commerce_server:1.12",
+                    "FormattedString": "cpe:2.3:a:netscape:commerce_server:1.12:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.1",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.0.5",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.0.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.0.3",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.0.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.0.2",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.0.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.0",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:0.8.14",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:0.8.14:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:0.8.11",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:0.8.11:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-1999-0067": {
+        "CVE-ID": "CVE-1999-0067",
+        "NVD": {
+            "Descriptions": "phf CGI program allows remote command execution through shell metacharacters.",
+            "Cvss2_BaseScore": 10,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:ncsa:ncsa_httpd:1.5a::export",
+                    "FormattedString": "cpe:2.3:a:ncsa:ncsa_httpd:1.5a:*:export:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.0.3",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.0.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-1999-0070": {
+        "CVE-ID": "CVE-1999-0070",
+        "NVD": {
+            "Descriptions": "test-cgi program allows an attacker to list files on the server.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.3.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-1999-0071": {
+        "CVE-ID": "CVE-1999-0071",
+        "NVD": {
+            "Descriptions": "Apache httpd cookie buffer overflow for versions 1.1.1 and earlier.",
+            "Cvss2_BaseScore": 7.5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server:1.1.1",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.1.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-1999-0107": {
+        "CVE-ID": "CVE-1999-0107",
+        "NVD": {
+            "Descriptions": "Buffer overflow in Apache 1.2.5 and earlier allows a remote attacker to cause a denial of service with a large number of GET requests containing a large number of / characters.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server:1.2.5",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.2.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.1.1",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.1.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.1",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.0.5",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.0.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.0.3",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.0.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.0.2",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.0.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.0",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:0.8.14",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:0.8.14:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:0.8.11",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:0.8.11:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-1999-0236": {
+        "CVE-ID": "CVE-1999-0236",
+        "NVD": {
+            "Descriptions": "ScriptAlias directory in NCSA and Apache httpd allowed attackers to read CGI programs.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:illinois:ncsa_httpd:-",
+                    "FormattedString": "cpe:2.3:a:illinois:ncsa_httpd:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:-",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-1999-0289": {
+        "CVE-ID": "CVE-1999-0289",
+        "NVD": {
+            "Descriptions": "The Apache web server for Win32 may provide access to restricted files when a . (dot) is appended to a requested URL.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server:-",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-1999-0678": {
+        "CVE-ID": "CVE-1999-0678",
+        "NVD": {
+            "Descriptions": "A default configuration of Apache on Debian GNU/Linux sets the ServerRoot to /usr/doc, which allows remote users to read documentation files for the entire server.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server:-",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-1999-0926": {
+        "CVE-ID": "CVE-1999-0926",
+        "NVD": {
+            "Descriptions": "Apache allows remote attackers to conduct a denial of service via a large number of MIME headers.",
+            "Cvss2_BaseScore": 10,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server:1.2.5",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.2.5:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-1999-1053": {
+        "CVE-ID": "CVE-1999-1053",
+        "NVD": {
+            "Descriptions": "guestbook.pl cleanses user-inserted SSI commands by removing text between \"<!--\" and \"-->\" separators, which allows remote attackers to execute arbitrary commands when guestbook.pl is run on Apache 1.3.9 and possibly other versions, since Apache allows other closing sequences besides \"-->\".",
+            "Cvss2_BaseScore": 7.5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:matt_wright:matt_wright_guestbook:2.3",
+                    "FormattedString": "cpe:2.3:a:matt_wright:matt_wright_guestbook:2.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.9",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.9:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-1999-1237": {
+        "CVE-ID": "CVE-1999-1237",
+        "NVD": {
+            "Descriptions": "Multiple buffer overflows in smbvalid/smbval SMB authentication library, as used in Apache::AuthenSmb and possibly other modules, allows remote attackers to execute arbitrary commands via (1) a long username, (2) a long password, and (3) other unspecified methods.",
+            "Cvss2_BaseScore": 10,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server:-",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-1999-1293": {
+        "CVE-ID": "CVE-1999-1293",
+        "NVD": {
+            "Descriptions": "mod_proxy in Apache 1.2.5 and earlier allows remote attackers to cause a denial of service via malformed FTP commands, which causes Apache to dump core.",
+            "Cvss2_BaseScore": 10,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "1.2.5"
+                }
+            ]
+        }
+    },
+    "CVE-1999-1412": {
+        "CVE-ID": "CVE-1999-1412",
+        "NVD": {
+            "Descriptions": "A possible interaction between Apple MacOS X release 1.0 and Apache HTTP server allows remote attackers to cause a denial of service (crash) via a flood of HTTP GET requests to CGI programs, which generates a large number of processes.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:apple:macos:1.0",
+                    "FormattedString": "cpe:2.3:o:apple:macos:1.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:-",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2000-0868": {
+        "CVE-ID": "CVE-2000-0868",
+        "NVD": {
+            "Descriptions": "The default configuration of Apache 1.3.12 in SuSE Linux 6.4 allows remote attackers to read source code for CGI scripts by replacing the /cgi-bin/ in the requested URL with /cgi-bin-sdb/.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:suse:suse_linux:6.4",
+                    "FormattedString": "cpe:2.3:o:suse:suse_linux:6.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:suse_linux:6.3",
+                    "FormattedString": "cpe:2.3:o:suse:suse_linux:6.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.12",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.12:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2000-0869": {
+        "CVE-ID": "CVE-2000-0869",
+        "NVD": {
+            "Descriptions": "The default configuration of Apache 1.3.12 in SuSE Linux 6.4 enables WebDAV, which allows remote attackers to list arbitrary directories via the PROPFIND HTTP request method.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:suse:suse_linux:7.0",
+                    "FormattedString": "cpe:2.3:o:suse:suse_linux:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:suse_linux:6.4:alpha",
+                    "FormattedString": "cpe:2.3:o:suse:suse_linux:6.4:alpha:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:suse_linux:6.4::ppc",
+                    "FormattedString": "cpe:2.3:o:suse:suse_linux:6.4:*:ppc:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:suse_linux:6.4",
+                    "FormattedString": "cpe:2.3:o:suse:suse_linux:6.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:suse_linux:6.3:alpha",
+                    "FormattedString": "cpe:2.3:o:suse:suse_linux:6.3:alpha:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:suse_linux:6.3::ppc",
+                    "FormattedString": "cpe:2.3:o:suse:suse_linux:6.3:*:ppc:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:suse_linux:6.3",
+                    "FormattedString": "cpe:2.3:o:suse:suse_linux:6.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:suse_linux:6.2",
+                    "FormattedString": "cpe:2.3:o:suse:suse_linux:6.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:suse_linux:6.1:alpha",
+                    "FormattedString": "cpe:2.3:o:suse:suse_linux:6.1:alpha:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:suse_linux:6.1",
+                    "FormattedString": "cpe:2.3:o:suse:suse_linux:6.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:suse:suse_linux:6.0",
+                    "FormattedString": "cpe:2.3:o:suse:suse_linux:6.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.12",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.12:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2001-0042": {
+        "CVE-ID": "CVE-2001-0042",
+        "NVD": {
+            "Descriptions": "PHP 3.x (PHP3) on Apache 1.3.6 allows remote attackers to read arbitrary files via a modified .. (dot dot) attack containing \"%5c\" (encoded backslash) sequences.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2001-0131": {
+        "CVE-ID": "CVE-2001-0131",
+        "NVD": {
+            "Descriptions": "htpasswd and htdigest in Apache 2.0a9, 1.3.14, and others allows local users to overwrite arbitrary files via a symlink attack.",
+            "Cvss2_BaseScore": 3.3,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:L/AC:M/Au:N/C:N/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:debian:debian_linux:2.2",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:2.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:2.0:alpha9",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:2.0:alpha9:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.14",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.14:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2001-0766": {
+        "CVE-ID": "CVE-2001-0766",
+        "NVD": {
+            "Descriptions": "Apache on MacOS X Client 10.0.3 with the HFS+ file system allows remote attackers to bypass access restrictions via a URL that contains some characters whose case is not matched by Apache's filters.",
+            "Cvss2_BaseScore": 7.5,
+            "Cvss3_BaseScore": 9.8,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.14",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.14:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2001-1072": {
+        "CVE-ID": "CVE-2001-1072",
+        "NVD": {
+            "Descriptions": "Apache with mod_rewrite enabled on most UNIX systems allows remote attackers to bypass RewriteRules by inserting extra / (slash) characters into the requested path, which causes the regular expression in the RewriteRule to fail.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.19",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.19:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.17",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.17:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.14",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.14:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2001-1449": {
+        "CVE-ID": "CVE-2001-1449",
+        "NVD": {
+            "Descriptions": "The default installation of Apache before 1.3.19 on Mandrake Linux 7.1 through 8.0 and Linux Corporate Server 1.0.1 allows remote attackers to list the directory index of arbitrary web directories.",
+            "Cvss2_BaseScore": 7.5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:mandrakesoft:mandrake_linux_corporate_server:1.0.1",
+                    "FormattedString": "cpe:2.3:o:mandrakesoft:mandrake_linux_corporate_server:1.0.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:mandrakesoft:mandrake_linux:8.0",
+                    "FormattedString": "cpe:2.3:o:mandrakesoft:mandrake_linux:8.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:mandrakesoft:mandrake_linux:7.3",
+                    "FormattedString": "cpe:2.3:o:mandrakesoft:mandrake_linux:7.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:mandrakesoft:mandrake_linux:7.1",
+                    "FormattedString": "cpe:2.3:o:mandrakesoft:mandrake_linux:7.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mandrakesoft:mandrake_single_network_firewall:7.2",
+                    "FormattedString": "cpe:2.3:a:mandrakesoft:mandrake_single_network_firewall:7.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.9",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.9:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.6",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.6:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.4",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.4:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.3",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.18",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.18:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.17",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.17:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.14",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.14:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.12",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.12:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.11",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.11:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3.1",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:1.3",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:1.3:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2001-1534": {
+        "CVE-ID": "CVE-2001-1534",
+        "NVD": {
+            "Descriptions": "mod_usertrack in Apache 1.3.11 through 1.3.20 generates session ID's using predictable information including host IP address, system time and server process ID, which allows local users to obtain session ID's and bypass authentication when these session ID's are used for authentication.",
+            "Cvss2_BaseScore": 2.1,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.3.11",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "1.3.20"
+                }
+            ]
+        }
+    },
+    "CVE-2001-1556": {
+        "CVE-ID": "CVE-2001-1556",
+        "NVD": {
+            "Descriptions": "The log files in Apache web server contain information directly supplied by clients and does not filter or quote control characters, which could allow remote attackers to hide HTTP requests and spoof source IP addresses when logs are viewed with UNIX programs such as cat, tail, and grep.",
+            "Cvss2_BaseScore": 5,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+            "Cvss3_VectorString": "",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.3.0",
+                    "VersionEndExcluding": "1.3.31",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.0.0",
+                    "VersionEndExcluding": "2.0.49",
+                    "VersionEndIncluding": ""
+                }
+            ]
         }
     },
     "CVE-2002-0240": {

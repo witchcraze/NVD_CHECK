@@ -1,4 +1,79 @@
 {
+    "CVE-2024-27282": {
+        "CVE-ID": "CVE-2024-27282",
+        "Official": {
+            "Ruby 3.3.1": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-3-1-released/"
+                ]
+            },
+            "Ruby 3.2.4": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-2-4-released/"
+                ]
+            },
+            "Ruby 3.1.5": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-1-5-released/"
+                ]
+            },
+            "Ruby 3.0.7": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-0-7-released/"
+                ]
+            }
+        }
+    },
+    "CVE-2024-27281": {
+        "CVE-ID": "CVE-2024-27281",
+        "Official": {
+            "Ruby 3.3.1": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-3-1-released/"
+                ]
+            },
+            "Ruby 3.2.4": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-2-4-released/"
+                ]
+            },
+            "Ruby 3.1.5": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-1-5-released/"
+                ]
+            },
+            "Ruby 3.0.7": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-0-7-released/"
+                ]
+            }
+        }
+    },
+    "CVE-2024-27280": {
+        "CVE-ID": "CVE-2024-27280",
+        "Official": {
+            "Ruby 3.3.1": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-3-1-released/"
+                ]
+            },
+            "Ruby 3.2.4": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-2-4-released/"
+                ]
+            },
+            "Ruby 3.1.5": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-1-5-released/"
+                ]
+            },
+            "Ruby 3.0.7": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-0-7-released/"
+                ]
+            }
+        }
+    },
     "CVE-2023-36617": {
         "CVE-ID": "CVE-2023-36617",
         "NVD": {
