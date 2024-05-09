@@ -23344,6 +23344,14 @@
     },
     "CVE-2024-27982": {
         "CVE-ID": "CVE-2024-27982",
+        "NVD": {
+            "Descriptions": "The team has identified a critical vulnerability in the http server of the most recent version of Node, where malformed headers can lead to HTTP request smuggling. Specifically, if a space is placed before a content-length header, it is not interpreted correctly, enabling attackers to smuggle in a second request within the body of the first.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+            "CPEs": []
+        },
         "Official": {
             "18.20.1": {
                 "source": [

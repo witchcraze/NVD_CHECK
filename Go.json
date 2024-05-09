@@ -9453,6 +9453,14 @@
     },
     "CVE-2024-24787": {
         "CVE-ID": "CVE-2024-24787",
+        "NVD": {
+            "Descriptions": "On Darwin, building a Go module which contains CGO can trigger arbitrary code execution when using the Apple version of ld, due to usage of the -lto_library flag in a \"#cgo LDFLAGS\" directive.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.23": {
                 "source": {
