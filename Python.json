@@ -6943,7 +6943,7 @@
             },
             "3.5.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.13.0b1/Misc/NEWS.d/3.5.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.5.0a1.rst"
                 ],
                 "BTS": {
                     "bpo21082": {
@@ -7261,7 +7261,7 @@
             },
             "3.5.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.13.0b1/Misc/NEWS.d/3.5.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.5.0a1.rst"
                 ],
                 "BTS": {
                     "bpo21766": {
@@ -8188,7 +8188,7 @@
             },
             "3.5.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.13.0b1/Misc/NEWS.d/3.5.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.5.0a1.rst"
                 ],
                 "BTS": {
                     "bpo22417": {
@@ -10602,7 +10602,7 @@
             },
             "3.6.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.11.8/Misc/NEWS.d/3.6.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.6.0a1.rst"
                 ],
                 "BTS": {
                     "bpo26171": {
