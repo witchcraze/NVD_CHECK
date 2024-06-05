@@ -10,6 +10,12 @@
             "CPEs": []
         },
         "Official": {
+            "11.4.2": {
+                "source": [
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-11-4-2-release-notes/"
+                ]
+            },
             "11.2.4": {
                 "source": [
                     "https://mariadb.com/kb/en/security/",
