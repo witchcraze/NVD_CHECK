@@ -24,7 +24,8 @@
             },
             "11.1.5": {
                 "source": [
-                    "https://mariadb.com/kb/en/security/"
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-11-1-5-release-notes/"
                 ]
             },
             "11.0.6": {
@@ -39,14 +40,16 @@
                     "https://mariadb.com//kb/en/mariadb-10-6-18-release-notes/"
                 ]
             },
-            "10.5.25_EXCLUDE": {
+            "10.5.25": {
                 "source": [
-                    "https://mariadb.com/kb/en/security/"
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-10-5-25-release-notes/"
                 ]
             },
-            "10.11.8_EXCLUDE": {
+            "10.11.8": {
                 "source": [
-                    "https://mariadb.com/kb/en/security/"
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-10-11-8-release-notes/"
                 ]
             }
         }
@@ -485,9 +488,65 @@
                     "URI": "cpe:/a:mariadb:mariadb",
                     "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "10.3.34",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "10.9.3"
+                    "VersionStartIncluding": "10.10.0",
+                    "VersionEndExcluding": "10.10.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.11.0",
+                    "VersionEndExcluding": "10.11.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.3.0",
+                    "VersionEndExcluding": "10.3.39",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.4.0",
+                    "VersionEndExcluding": "10.4.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.5.0",
+                    "VersionEndExcluding": "10.5.20",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.6.0",
+                    "VersionEndExcluding": "10.6.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.8.0",
+                    "VersionEndExcluding": "10.8.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mariadb:mariadb",
+                    "FormattedString": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.9.0",
+                    "VersionEndExcluding": "10.9.6",
+                    "VersionEndIncluding": ""
                 }
             ]
         },

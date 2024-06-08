@@ -1,4 +1,55 @@
 {
+    "CVE-2024-3374": {
+        "CVE-ID": "CVE-2024-3374",
+        "NVD": {
+            "Descriptions": "An unauthenticated user can trigger a fatal assertion in the server while generating ftdc diagnostic metrics due to attempting to build a BSON object that exceeds certain memory sizes. This issue affects MongoDB Server v5.0 versions prior to and including 5.0.16 and MongoDB Server v6.0 versions prior to and including 6.0.5.\n",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "CPEs": []
+        },
+        "Official": {
+            "5.0.16": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "6.0.5": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2024-3372": {
+        "CVE-ID": "CVE-2024-3372",
+        "NVD": {
+            "Descriptions": "Improper validation of certain metadata input may result in the server not correctly serialising BSON. This can be performed pre-authentication and may cause unexpected application behavior including unavailability of serverStatus responses. This issue affects MongoDB Server v7.0 versions prior to 7.0.6, MongoDB Server v6.0 versions prior to 6.0.14 and MongoDB Server v.5.0 versions prior to 5.0.25.\n",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "5.0.25": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "6.0.14": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.6": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
     "CVE-2024-1351": {
         "CVE-ID": "CVE-2024-1351",
         "NVD": {
@@ -12,22 +63,22 @@
         "Official": {
             "7.0.5": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "6.0.13": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "5.0.24": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.4.28": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -78,17 +129,17 @@
         "Official": {
             "6.3.2": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "5.0.14": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.4.23": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -115,7 +166,7 @@
         "Official": {
             "5.0.6": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -158,17 +209,17 @@
         "Official": {
             "5.0.4": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.4.11": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.2.16": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -211,22 +262,22 @@
         "Official": {
             "5.0.3": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.4.9": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.2.16": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.0.28": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -269,17 +320,17 @@
         "Official": {
             "4.0.27": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.2.16": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.4.9": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -306,7 +357,7 @@
         "Official": {
             "5.0.2": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -349,17 +400,17 @@
         "Official": {
             "3.6.20": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.0.21": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.2.10": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -386,7 +437,7 @@
         "Official": {
             "4.4.4": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -421,12 +472,12 @@
         "Official": {
             "3.6.21": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.0.20": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -461,12 +512,12 @@
         "Official": {
             "3.6.11": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.0.6": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -493,7 +544,7 @@
         "Official": {
             "4.2.2": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -608,12 +659,12 @@
         "Official": {
             "4.2.9": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.4.0-rc12": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -640,7 +691,7 @@
         "Official": {
             "4.4.1": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -691,22 +742,22 @@
         "Official": {
             "3.6.20": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.0.20": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.2.9": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.4.1": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -749,17 +800,17 @@
         "Official": {
             "3.6.15": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.0.13": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.2.1": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -786,7 +837,7 @@
         "Official": {
             "4.0.7": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -821,12 +872,12 @@
         "Official": {
             "3.6.9": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.0.3": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -861,12 +912,12 @@
         "Official": {
             "3.6.13": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.0.10": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -901,12 +952,12 @@
         "Official": {
             "3.6.10": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.0.5": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -957,22 +1008,22 @@
         "Official": {
             "4.2.1": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.0.13": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "3.6.15": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "3.4.24": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -1031,22 +1082,22 @@
         "Official": {
             "4.4.1": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.2.9": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.0.20": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "3.6.20": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -1089,17 +1140,17 @@
         "Official": {
             "4.0.5": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "3.6.10": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "3.4.19": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -1142,17 +1193,17 @@
         "Official": {
             "4.4.0-rc7": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.2.8": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.0.19": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -1203,22 +1254,22 @@
         "Official": {
             "4.2.3": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.0.15": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "3.6.18": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "4.3.3": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -1261,17 +1312,17 @@
         "Official": {
             "4.0.11": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "3.6.14": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "3.4.22": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -1314,17 +1365,17 @@
         "Official": {
             "4.0.11": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "3.6.14": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "3.4.22": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }
@@ -1367,17 +1418,17 @@
         "Official": {
             "4.0.9": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "3.6.13": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             },
             "3.4.22": {
                 "source": [
-                    "https://www.mongodb.com/alerts"
+                    "https://www.mongodb.com/resources/products/alerts"
                 ]
             }
         }

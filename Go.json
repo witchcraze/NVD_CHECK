@@ -9453,6 +9453,14 @@
     },
     "CVE-2024-24790": {
         "CVE-ID": "CVE-2024-24790",
+        "NVD": {
+            "Descriptions": "The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.23": {
                 "source": {
@@ -9725,6 +9733,14 @@
     },
     "CVE-2024-24789": {
         "CVE-ID": "CVE-2024-24789",
+        "NVD": {
+            "Descriptions": "The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.21.11": {
                 "source": {
