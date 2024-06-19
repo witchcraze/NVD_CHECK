@@ -26882,7 +26882,7 @@
                     "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "20.0.0",
-                    "VersionEndExcluding": "20.8.0",
+                    "VersionEndExcluding": "20.8.1",
                     "VersionEndIncluding": ""
                 }
             ]

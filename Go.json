@@ -9451,15 +9451,77 @@
             }
         }
     },
+    "CVE-2024-24789": {
+        "CVE-ID": "CVE-2024-24789",
+        "NVD": {
+            "Descriptions": "The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.21.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.22.0",
+                    "VersionEndExcluding": "1.22.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.21.11": {
+                "source": {
+                    "67553": "https://github.com/golang/go/issues/67553"
+                }
+            },
+            "1.22.4": {
+                "source": {
+                    "67554": "https://github.com/golang/go/issues/67554"
+                }
+            },
+            "1.23": {
+                "source": {
+                    "66869": "https://github.com/golang/go/issues/66869"
+                }
+            }
+        }
+    },
     "CVE-2024-24790": {
         "CVE-ID": "CVE-2024-24790",
         "NVD": {
             "Descriptions": "The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 9.8,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.21.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.22.0",
+                    "VersionEndExcluding": "1.22.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "1.23": {
@@ -9727,34 +9789,6 @@
             "1.21.5": {
                 "source": {
                     "63216": "https://github.com/golang/go/issues/63216"
-                }
-            }
-        }
-    },
-    "CVE-2024-24789": {
-        "CVE-ID": "CVE-2024-24789",
-        "NVD": {
-            "Descriptions": "The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.21.11": {
-                "source": {
-                    "67553": "https://github.com/golang/go/issues/67553"
-                }
-            },
-            "1.22.4": {
-                "source": {
-                    "67554": "https://github.com/golang/go/issues/67554"
-                }
-            },
-            "1.23": {
-                "source": {
-                    "66869": "https://github.com/golang/go/issues/66869"
                 }
             }
         }
