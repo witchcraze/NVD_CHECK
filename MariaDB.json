@@ -1945,14 +1945,6 @@
     },
     "CVE-2022-27458": {
         "CVE-ID": "CVE-2022-27458",
-        "NVD": {
-            "Descriptions": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2022-27447. Reason: This candidate is a reservation duplicate of CVE-2022-27447. Notes: All CVE users should reference CVE-2022-27447 instead of this candidate.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
         "Official": {
             "10.7.4": {
                 "source": [
@@ -29945,14 +29937,6 @@
     },
     "CVE-2016-5616": {
         "CVE-ID": "CVE-2016-5616",
-        "NVD": {
-            "Descriptions": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2016-6663. Reason:  This candidate is a reservation duplicate of CVE-2016-6663.  Notes: All CVE users should reference CVE-2016-6663 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
         "Official": {
             "5.5.52": {
                 "source": [
@@ -30250,14 +30234,6 @@
     },
     "CVE-2016-5483": {
         "CVE-ID": "CVE-2016-5483",
-        "NVD": {
-            "Descriptions": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2017-3600.  Reason: This candidate is a reservation duplicate of CVE-2017-3600.  Notes: All CVE users should reference CVE-2017-3600 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
         "Official": {
             "5.5.53": {
                 "source": [
