@@ -32169,6 +32169,7 @@
             },
             "16.2": {
                 "source": [
+                    "https://www.postgresql.org/support/security/16/",
                     "https://www.postgresql.org/docs/release/16.2/"
                 ]
             }
