@@ -9720,6 +9720,14 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:netapp:oncommand_insight:-",
+                    "FormattedString": "cpe:2.3:a:netapp:oncommand_insight:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:netapp:astra_control_center:-",
                     "FormattedString": "cpe:2.3:a:netapp:astra_control_center:-:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
