@@ -18483,6 +18483,158 @@
             }
         }
     },
+    "CVE-2024-36387": {
+        "CVE-ID": "CVE-2024-36387",
+        "NVD": {
+            "Descriptions": "Serving WebSocket protocol upgrades over a HTTP/2 connection could result in a Null Pointer dereference, leading to a crash of the server process, degrading performance.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "2.4.60": {
+                "source": [
+                    "https://httpd.apache.org/security/vulnerabilities_24.html",
+                    "https://archive.apache.org/dist/httpd/CHANGES_2.4"
+                ]
+            }
+        }
+    },
+    "CVE-2024-38472": {
+        "CVE-ID": "CVE-2024-38472",
+        "NVD": {
+            "Descriptions": "SSRF in Apache HTTP Server on Windows allows to potentially leak NTML hashes to a malicious server via SSRF and\u00a0malicious requests or content \nUsers are recommended to upgrade to version 2.4.60 which fixes this issue.\u00a0 Note: Existing configurations that access UNC paths will have to configure new directive \"UNCList\" to allow access during request processing.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "2.4.60": {
+                "source": [
+                    "https://httpd.apache.org/security/vulnerabilities_24.html",
+                    "https://archive.apache.org/dist/httpd/CHANGES_2.4"
+                ]
+            }
+        }
+    },
+    "CVE-2024-38473": {
+        "CVE-ID": "CVE-2024-38473",
+        "NVD": {
+            "Descriptions": "Encoding problem in mod_proxy in Apache HTTP Server 2.4.59 and earlier allows request URLs with incorrect encoding to be sent to backend services, potentially bypassing authentication via crafted requests.\nUsers are recommended to upgrade to version 2.4.60, which fixes this issue.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "2.4.60": {
+                "source": [
+                    "https://httpd.apache.org/security/vulnerabilities_24.html",
+                    "https://archive.apache.org/dist/httpd/CHANGES_2.4"
+                ]
+            }
+        }
+    },
+    "CVE-2024-38474": {
+        "CVE-ID": "CVE-2024-38474",
+        "NVD": {
+            "Descriptions": "Substitution encoding issue in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows attacker to execute scripts in\ndirectories permitted by the configuration but not directly reachable by any\u00a0URL or source disclosure of scripts meant to only to be executed as CGI.\n\nUsers are recommended to upgrade to version 2.4.60, which fixes this issue.\n\nSome RewriteRules that capture and substitute unsafely will now fail unless rewrite flag \"UnsafeAllow3F\" is specified.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "2.4.60": {
+                "source": [
+                    "https://httpd.apache.org/security/vulnerabilities_24.html",
+                    "https://archive.apache.org/dist/httpd/CHANGES_2.4"
+                ]
+            }
+        }
+    },
+    "CVE-2024-38475": {
+        "CVE-ID": "CVE-2024-38475",
+        "NVD": {
+            "Descriptions": "Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to filesystem locations that are\u00a0permitted to be served by the server but are not intentionally/directly reachable by any URL, resulting in code execution or source code disclosure. \n\nSubstitutions in\u00a0server context that use a backreferences or variables as the first segment of the substitution are affected.\u00a0 Some unsafe RewiteRules will be broken by this change and the rewrite flag \"UnsafePrefixStat\" can be used to opt back in once ensuring the substitution is appropriately constrained.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "2.4.60": {
+                "source": [
+                    "https://httpd.apache.org/security/vulnerabilities_24.html",
+                    "https://archive.apache.org/dist/httpd/CHANGES_2.4"
+                ]
+            }
+        }
+    },
+    "CVE-2024-38476": {
+        "CVE-ID": "CVE-2024-38476",
+        "NVD": {
+            "Descriptions": "Vulnerability in core of Apache HTTP Server 2.4.59 and earlier are vulnerably to information disclosure, SSRF or local script execution via\u00a0backend applications whose response headers are malicious or exploitable.\n\nUsers are recommended to upgrade to version 2.4.60, which fixes this issue.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "2.4.60": {
+                "source": [
+                    "https://httpd.apache.org/security/vulnerabilities_24.html",
+                    "https://archive.apache.org/dist/httpd/CHANGES_2.4"
+                ]
+            }
+        }
+    },
+    "CVE-2024-38477": {
+        "CVE-ID": "CVE-2024-38477",
+        "NVD": {
+            "Descriptions": "null pointer dereference in mod_proxy in Apache HTTP Server 2.4.59 and earlier allows an attacker to crash the server via a malicious request.\nUsers are recommended to upgrade to version 2.4.60, which fixes this issue.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "2.4.60": {
+                "source": [
+                    "https://httpd.apache.org/security/vulnerabilities_24.html",
+                    "https://archive.apache.org/dist/httpd/CHANGES_2.4"
+                ]
+            }
+        }
+    },
+    "CVE-2024-39573": {
+        "CVE-ID": "CVE-2024-39573",
+        "NVD": {
+            "Descriptions": "Potential SSRF in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to cause unsafe RewriteRules to unexpectedly setup URL's to be handled by mod_proxy.\nUsers are recommended to upgrade to version 2.4.60, which fixes this issue.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "2.4.60": {
+                "source": [
+                    "https://httpd.apache.org/security/vulnerabilities_24.html",
+                    "https://archive.apache.org/dist/httpd/CHANGES_2.4"
+                ]
+            }
+        }
+    },
     "CVE-2023-38709": {
         "CVE-ID": "CVE-2023-38709",
         "NVD": {
