@@ -9712,6 +9712,14 @@
     },
     "CVE-2023-24531": {
         "CVE-ID": "CVE-2023-24531",
+        "NVD": {
+            "Descriptions": "Command go env is documented as outputting a shell script containing the Go environment. However, go env doesn't sanitize values, so executing its output as a shell script can cause various bad bahaviors, including executing arbitrary commands or inserting new environment variables. This issue is relatively minor because, in general, if an attacker can set arbitrary environment variables on a system, they have better attack vectors than making \"go env\" print them out.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.21": {
                 "source": {
@@ -10571,6 +10579,14 @@
     },
     "CVE-2022-30636": {
         "CVE-ID": "CVE-2022-30636",
+        "NVD": {
+            "Descriptions": "httpTokenCacheKey uses path.Base to extract the expected HTTP-01 token value to lookup in the DirCache implementation. On Windows, path.Base acts differently to filepath.Base, since Windows uses a different path separator (\\ vs. /), allowing a user to provide a relative path, i.e. .well-known/acme-challenge/..\\..\\asd becomes ..\\..\\asd. The extracted path is then suffixed with +http-01, joined with the cache directory, and opened. Since the controlled path is suffixed with +http-01 before opening, the impact of this is significantly limited, since it only allows reading arbitrary files on the system if and only if they have this suffix.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "Unreleased": {
                 "source": {
