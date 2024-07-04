@@ -18483,6 +18483,17 @@
             }
         }
     },
+    "CVE-2024-39884": {
+        "CVE-ID": "CVE-2024-39884",
+        "Official": {
+            "2.4.61": {
+                "source": [
+                    "https://httpd.apache.org/security/vulnerabilities_24.html",
+                    "https://archive.apache.org/dist/httpd/CHANGES_2.4"
+                ]
+            }
+        }
+    },
     "CVE-2024-36387": {
         "CVE-ID": "CVE-2024-36387",
         "NVD": {
@@ -18621,9 +18632,9 @@
         "NVD": {
             "Descriptions": "Potential SSRF in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to cause unsafe RewriteRules to unexpectedly setup URL's to be handled by mod_proxy.\nUsers are recommended to upgrade to version 2.4.60, which fixes this issue.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
             "CPEs": []
         },
         "Official": {
