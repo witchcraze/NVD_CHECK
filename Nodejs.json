@@ -23286,12 +23286,42 @@
             }
         }
     },
+    "CVE-2024-36138": {
+        "CVE-ID": "CVE-2024-36138",
+        "Official": {
+            "18.20.4": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            },
+            "20.15.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            },
+            "22.4.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md"
+                ]
+            }
+        }
+    },
     "CVE-2024-27980": {
         "CVE-ID": "CVE-2024-27980",
         "Official": {
+            "18.20.4": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            },
             "18.20.2": {
                 "source": [
                     "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            },
+            "20.15.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
                 ]
             },
             "20.12.2": {
@@ -23304,7 +23334,40 @@
                     "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
                 ]
             },
+            "22.4.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md"
+                ]
+            },
             "22.0.0": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md"
+                ]
+            }
+        }
+    },
+    "CVE-2024-22020": {
+        "CVE-ID": "CVE-2024-22020",
+        "NVD": {
+            "Descriptions": "A security flaw in Node.js  allows a bypass of network import restrictions.\nBy embedding non-network imports in data URLs, an attacker can execute arbitrary code, compromising system security.\nVerified on various platforms, the vulnerability is mitigated by forbidding data URLs in network imports.\nExploiting this flaw can violate network import security, posing a risk to developers and servers.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "18.20.4": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            },
+            "20.15.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            },
+            "22.4.1": {
                 "source": [
                     "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md"
                 ]
@@ -26736,6 +26799,51 @@
             "16.20.0": {
                 "source": [
                     "https://github.com/nodejs/security-wg/blob/main/vuln/core/98.json"
+                ]
+            }
+        }
+    },
+    "CVE-2024-22018": {
+        "CVE-ID": "CVE-2024-22018",
+        "Official": {
+            "20.15.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            },
+            "22.4.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md"
+                ]
+            }
+        }
+    },
+    "CVE-2024-36137": {
+        "CVE-ID": "CVE-2024-36137",
+        "Official": {
+            "20.15.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            },
+            "22.4.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md"
+                ]
+            }
+        }
+    },
+    "CVE-2024-37372": {
+        "CVE-ID": "CVE-2024-37372",
+        "Official": {
+            "20.15.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            },
+            "22.4.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md"
                 ]
             }
         }
