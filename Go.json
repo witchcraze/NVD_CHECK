@@ -9809,6 +9809,26 @@
             }
         }
     },
+    "CVE-2024-34154": {
+        "CVE-ID": "CVE-2024-34154",
+        "Official": {
+            "1.24": {
+                "source": {
+                    "68654": "https://github.com/golang/go/issues/68654"
+                }
+            },
+            "1.22.6": {
+                "source": {
+                    "68657": "https://github.com/golang/go/issues/68657"
+                }
+            },
+            "1.21.13": {
+                "source": {
+                    "68656": "https://github.com/golang/go/issues/68656"
+                }
+            }
+        }
+    },
     "CVE-2023-48795": {
         "CVE-ID": "CVE-2023-48795",
         "NVD": {
