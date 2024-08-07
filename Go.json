@@ -9817,14 +9817,14 @@
                     "68654": "https://github.com/golang/go/issues/68654"
                 }
             },
-            "1.22.6": {
-                "source": {
-                    "68657": "https://github.com/golang/go/issues/68657"
-                }
-            },
-            "1.21.13": {
+            "1.21.14": {
                 "source": {
                     "68656": "https://github.com/golang/go/issues/68656"
+                }
+            },
+            "1.22.7": {
+                "source": {
+                    "68657": "https://github.com/golang/go/issues/68657"
                 }
             }
         }
