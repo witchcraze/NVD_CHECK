@@ -33300,8 +33300,8 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:canonical:ubuntu_linux:18.04::~~lts~~~",
-                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:18.04:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/o:canonical:ubuntu_linux:18.04::~~esm~~~",
+                    "FormattedString": "cpe:2.3:o:canonical:ubuntu_linux:18.04:*:*:*:esm:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -33345,6 +33345,14 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:zlib:zlib",
+                    "FormattedString": "cpe:2.3:a:zlib:zlib:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.2.3.4",
+                    "VersionEndExcluding": "1.2.9",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -33481,14 +33489,6 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "7.0.0",
                     "VersionEndExcluding": "7.6.0",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:gnu:zlib",
-                    "FormattedString": "cpe:2.3:a:gnu:zlib:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "1.2.3.4",
-                    "VersionEndExcluding": "1.2.9",
                     "VersionEndIncluding": ""
                 }
             ]

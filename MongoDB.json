@@ -1,4 +1,27 @@
 {
+    "CVE-2024-8207": {
+        "CVE-ID": "CVE-2024-8207",
+        "NVD": {
+            "Descriptions": "In certain highly specific configurations of the host system and MongoDB server binary installation on Linux Operating Systems, it may be possible for a unintended actor with host-level access to cause the MongoDB Server binary to load unintended actor-controlled shared libraries when the server binary is started, potentially resulting in the unintended actor gaining full control over the MongoDB server process. This issue affects MongoDB Server v5.0 versions prior to 5.0.14 and MongoDB Server v6.0 versions prior to 6.0.3.\n\nRequired Configuration: Only environments with Linux as the underlying operating system is affected by this issue",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.4,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "6.0.3": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            },
+            "5.0.14": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            }
+        }
+    },
     "CVE-2024-6384": {
         "CVE-ID": "CVE-2024-6384",
         "NVD": {
@@ -37,17 +60,17 @@
         "Official": {
             "6.0.16": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "7.0.11": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "7.3.3": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -65,22 +88,22 @@
         "Official": {
             "5.0.27": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "6.0.16": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "7.0.12": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "7.3.3": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -123,17 +146,17 @@
         "Official": {
             "5.0.22": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "6.0.11": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "7.0.3": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -151,12 +174,12 @@
         "Official": {
             "5.0.16": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "6.0.5": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -174,17 +197,17 @@
         "Official": {
             "5.0.25": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "6.0.14": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "7.0.6": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -202,22 +225,22 @@
         "Official": {
             "7.0.5": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "6.0.13": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "5.0.24": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.4.28": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -268,17 +291,17 @@
         "Official": {
             "6.3.2": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "5.0.14": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.4.23": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -305,7 +328,7 @@
         "Official": {
             "5.0.6": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -348,17 +371,17 @@
         "Official": {
             "5.0.4": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.4.11": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.2.16": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -401,22 +424,22 @@
         "Official": {
             "5.0.3": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.4.9": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.2.16": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.0.28": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -459,17 +482,17 @@
         "Official": {
             "4.0.27": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.2.16": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.4.9": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -496,7 +519,7 @@
         "Official": {
             "5.0.2": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -539,17 +562,17 @@
         "Official": {
             "3.6.20": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.0.21": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.2.10": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -576,7 +599,7 @@
         "Official": {
             "4.4.4": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -611,12 +634,12 @@
         "Official": {
             "3.6.21": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.0.20": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -651,12 +674,12 @@
         "Official": {
             "3.6.11": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.0.6": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -683,7 +706,7 @@
         "Official": {
             "4.2.2": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -798,12 +821,12 @@
         "Official": {
             "4.2.9": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.4.0-rc12": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -830,7 +853,7 @@
         "Official": {
             "4.4.1": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -881,22 +904,22 @@
         "Official": {
             "3.6.20": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.0.20": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.2.9": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.4.1": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -939,17 +962,17 @@
         "Official": {
             "3.6.15": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.0.13": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.2.1": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -976,7 +999,7 @@
         "Official": {
             "4.0.7": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -1011,12 +1034,12 @@
         "Official": {
             "3.6.9": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.0.3": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -1051,12 +1074,12 @@
         "Official": {
             "3.6.13": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.0.10": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -1091,12 +1114,12 @@
         "Official": {
             "3.6.10": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.0.5": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -1147,22 +1170,22 @@
         "Official": {
             "4.2.1": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.0.13": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "3.6.15": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "3.4.24": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -1221,22 +1244,22 @@
         "Official": {
             "4.4.1": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.2.9": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.0.20": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "3.6.20": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -1279,17 +1302,17 @@
         "Official": {
             "4.0.5": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "3.6.10": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "3.4.19": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -1332,17 +1355,17 @@
         "Official": {
             "4.4.0-rc7": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.2.8": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.0.19": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -1393,22 +1416,22 @@
         "Official": {
             "4.2.3": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.0.15": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "3.6.18": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "4.3.3": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -1451,17 +1474,17 @@
         "Official": {
             "4.0.11": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "3.6.14": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "3.4.22": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -1504,17 +1527,17 @@
         "Official": {
             "4.0.11": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "3.6.14": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "3.4.22": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }
@@ -1557,17 +1580,17 @@
         "Official": {
             "4.0.9": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "3.6.13": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
             "3.4.22": {
                 "source": [
-                    "https://www.mongodb.com/resources/products/alerts"
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             }
         }

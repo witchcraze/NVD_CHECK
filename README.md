@@ -127,6 +127,7 @@ Get NVD data via [go-cve-dictionary](https://github.com/vulsio/go-cve-dictionary
 #### MongoDB
 
 - Official
-  - `https://www.mongodb.com/alerts`
+  - `https://www.mongodb.com/resources/products/mongodb-security-bulletins`
+  - `https://www.mongodb.com/alerts/rss`
 - CPE
   - `cpe:/a:mongodb:mongodb`

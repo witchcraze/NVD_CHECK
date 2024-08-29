@@ -18488,10 +18488,27 @@
         "NVD": {
             "Descriptions": "A partial fix for\u00a0 CVE-2024-39884 in the core of Apache HTTP Server 2.4.61 ignores some use of the legacy content-type based configuration of handlers. \"AddType\" and similar configuration, under some circumstances where files are requested indirectly, result in source code disclosure of local content. For example, PHP scripts may be served instead of interpreted.\n\nUsers are recommended to upgrade to version 2.4.62, which fixes this issue.\n\n",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:apache:http_server:2.4.61",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:2.4.61:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:2.4.60",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:2.4.60:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "2.4.62": {
@@ -18616,10 +18633,27 @@
         "NVD": {
             "Descriptions": "Substitution encoding issue in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows attacker to execute scripts in\ndirectories permitted by the configuration but not directly reachable by any\u00a0URL or source disclosure of scripts meant to only to be executed as CGI.\n\nUsers are recommended to upgrade to version 2.4.60, which fixes this issue.\n\nSome RewriteRules that capture and substitute unsafely will now fail unless rewrite flag \"UnsafeAllow3F\" is specified.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 9.8,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:netapp:clustered_data_ontap:9.0",
+                    "FormattedString": "cpe:2.3:o:netapp:clustered_data_ontap:9.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.4.0",
+                    "VersionEndExcluding": "2.4.60",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "2.4.60": {
@@ -18654,10 +18688,27 @@
         "NVD": {
             "Descriptions": "Vulnerability in core of Apache HTTP Server 2.4.59 and earlier are vulnerably to information disclosure, SSRF or local script execution via\u00a0backend applications whose response headers are malicious or exploitable.\n\nUsers are recommended to upgrade to version 2.4.60, which fixes this issue.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 9.8,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:netapp:clustered_data_ontap:9.0",
+                    "FormattedString": "cpe:2.3:o:netapp:clustered_data_ontap:9.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.4.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "2.4.60"
+                }
+            ]
         },
         "Official": {
             "2.4.60": {
@@ -18673,10 +18724,27 @@
         "NVD": {
             "Descriptions": "null pointer dereference in mod_proxy in Apache HTTP Server 2.4.59 and earlier allows an attacker to crash the server via a malicious request.\nUsers are recommended to upgrade to version 2.4.60, which fixes this issue.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:netapp:clustered_data_ontap:9.0",
+                    "FormattedString": "cpe:2.3:o:netapp:clustered_data_ontap:9.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.4.0",
+                    "VersionEndExcluding": "2.4.60",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "2.4.60": {
