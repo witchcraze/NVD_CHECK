@@ -4045,6 +4045,21 @@
                 "source": {
                     "53708": "https://github.com/golang/go/issues/53708"
                 }
+            },
+            "1.24": {
+                "source": {
+                    "69138": "https://github.com/golang/go/issues/69138"
+                }
+            },
+            "1.22.7": {
+                "source": {
+                    "69142": "https://github.com/golang/go/issues/69142"
+                }
+            },
+            "1.23.1": {
+                "source": {
+                    "69143": "https://github.com/golang/go/issues/69143"
+                }
             }
         }
     },
@@ -5240,6 +5255,21 @@
             "1.18.4": {
                 "source": {
                     "53710": "https://github.com/golang/go/issues/53710"
+                }
+            },
+            "1.24": {
+                "source": {
+                    "69139": "https://github.com/golang/go/issues/69139"
+                }
+            },
+            "1.22.7": {
+                "source": {
+                    "69144": "https://github.com/golang/go/issues/69144"
+                }
+            },
+            "1.23.1": {
+                "source": {
+                    "69145": "https://github.com/golang/go/issues/69145"
                 }
             }
         }
@@ -9811,6 +9841,14 @@
     },
     "CVE-2024-34158": {
         "CVE-ID": "CVE-2024-34158",
+        "NVD": {
+            "Descriptions": "Calling Parse on a \"// +build\" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.24": {
                 "source": {
@@ -9851,6 +9889,14 @@
     },
     "CVE-2024-34156": {
         "CVE-ID": "CVE-2024-34156",
+        "NVD": {
+            "Descriptions": "Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.24": {
                 "source": {
@@ -9866,11 +9912,34 @@
                 "source": {
                     "69145": "https://github.com/golang/go/issues/69145"
                 }
+            },
+            "1.19": {
+                "source": {
+                    "53615": "https://github.com/golang/go/issues/53615"
+                }
+            },
+            "1.17.12": {
+                "source": {
+                    "53709": "https://github.com/golang/go/issues/53709"
+                }
+            },
+            "1.18.4": {
+                "source": {
+                    "53710": "https://github.com/golang/go/issues/53710"
+                }
             }
         }
     },
     "CVE-2024-34155": {
         "CVE-ID": "CVE-2024-34155",
+        "NVD": {
+            "Descriptions": "Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.24": {
                 "source": {
@@ -9885,6 +9954,21 @@
             "1.23.1": {
                 "source": {
                     "69143": "https://github.com/golang/go/issues/69143"
+                }
+            },
+            "1.19": {
+                "source": {
+                    "53616": "https://github.com/golang/go/issues/53616"
+                }
+            },
+            "1.17.12": {
+                "source": {
+                    "53707": "https://github.com/golang/go/issues/53707"
+                }
+            },
+            "1.18.4": {
+                "source": {
+                    "53708": "https://github.com/golang/go/issues/53708"
                 }
             }
         }
