@@ -23288,6 +23288,14 @@
     },
     "CVE-2024-36138": {
         "CVE-ID": "CVE-2024-36138",
+        "NVD": {
+            "Descriptions": "Bypass incomplete fix of CVE-2024-27980, that arises from improper handling of batch files with all possible extensions on Windows via child_process.spawn / child_process.spawnSync. A malicious command line argument can inject arbitrary commands and achieve code execution even if the shell option is not enabled.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
         "Official": {
             "18.20.4": {
                 "source": [
@@ -23521,6 +23529,14 @@
     },
     "CVE-2023-46809": {
         "CVE-ID": "CVE-2023-46809",
+        "NVD": {
+            "Descriptions": "Node.js versions which bundle an unpatched version of OpenSSL or run against a dynamically linked version of OpenSSL which are unpatched are vulnerable to the Marvin Attack - https://people.redhat.com/~hkario/marvin/, if PCKS #1 v1.5 padding is allowed when performing RSA descryption using a private key.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.4,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+            "CPEs": []
+        },
         "Official": {
             "18.19.1": {
                 "source": [
@@ -26061,6 +26077,14 @@
     },
     "CVE-2023-39333": {
         "CVE-ID": "CVE-2023-39333",
+        "NVD": {
+            "Descriptions": "Maliciously crafted export names in an imported WebAssembly module can inject JavaScript code. The injected code may be able to access data and functions that the WebAssembly module itself does not have access to, similar to as if the WebAssembly module was a JavaScript module.\n\nThis vulnerability affects users of any active release line of Node.js. The vulnerable feature is only available if Node.js is started with the `--experimental-wasm-modules` command line option.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+            "CPEs": []
+        },
         "Official": {
             "18.18.2": {
                 "source": [
@@ -26836,6 +26860,14 @@
     },
     "CVE-2024-36137": {
         "CVE-ID": "CVE-2024-36137",
+        "NVD": {
+            "Descriptions": "A vulnerability has been identified in Node.js, affecting users of the experimental permission model when the --allow-fs-write flag is used.\r\n\r\nNode.js Permission Model do not operate on file descriptors, however, operations such as fs.fchown or fs.fchmod can use a \"read-only\" file descriptor to change the owner and permissions of a file.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 3.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+            "CPEs": []
+        },
         "Official": {
             "20.15.1": {
                 "source": [
@@ -27178,6 +27210,14 @@
     },
     "CVE-2023-30584": {
         "CVE-ID": "CVE-2023-30584",
+        "NVD": {
+            "Descriptions": "A vulnerability has been discovered in Node.js version 20, specifically within the experimental permission model. This flaw relates to improper handling of path traversal bypass when verifying file permissions.\n\nPlease note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.7,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+            "CPEs": []
+        },
         "Official": {
             "20.3.1": {
                 "source": [
@@ -27189,6 +27229,14 @@
     },
     "CVE-2023-30587": {
         "CVE-ID": "CVE-2023-30587",
+        "NVD": {
+            "Descriptions": "A vulnerability in Node.js version 20 allows for bypassing restrictions set by the --experimental-permission flag using the built-in inspector module (node:inspector).\n\nBy exploiting the Worker class's ability to create an \"internal worker\" with the kIsInternal Symbol, attackers can modify the isInternal value when an inspector is attached within the Worker constructor before initializing a new WorkerImpl. This vulnerability exclusively affects Node.js users employing the permission model mechanism.\n\nPlease note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "CPEs": []
+        },
         "Official": {
             "20.3.1": {
                 "source": [
@@ -27200,6 +27248,14 @@
     },
     "CVE-2023-30582": {
         "CVE-ID": "CVE-2023-30582",
+        "NVD": {
+            "Descriptions": "A vulnerability has been identified in Node.js version 20, affecting users of the experimental permission model when the --allow-fs-read flag is used with a non-* argument. This flaw arises from an inadequate permission model that fails to restrict file watching through the fs.watchFile API. As a result, malicious actors can monitor files that they do not have explicit read access to.\n\nPlease note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "CPEs": []
+        },
         "Official": {
             "20.3.1": {
                 "source": [
@@ -27211,6 +27267,14 @@
     },
     "CVE-2023-30583": {
         "CVE-ID": "CVE-2023-30583",
+        "NVD": {
+            "Descriptions": "fs.openAsBlob() can bypass the experimental permission model when using the file system read restriction with the `--allow-fs-read` flag in Node.js 20. This flaw arises from a missing check in the `fs.openAsBlob()` API.\n\nPlease note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": []
+        },
         "Official": {
             "20.3.1": {
                 "source": [
