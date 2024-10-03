@@ -1,4 +1,69 @@
 {
+    "CVE-2024-31449": {
+        "CVE-ID": "CVE-2024-31449",
+        "Official": {
+            "7.4.1": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/7.4.1"
+                ]
+            },
+            "7.2.6": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/7.2.6"
+                ]
+            },
+            "6.2.16": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/6.2.16"
+                ]
+            },
+            "7.0": {
+                "source": [
+                    "https://raw.githubusercontent.com/redis/redis/6.2/00-RELEASENOTES"
+                ]
+            }
+        }
+    },
+    "CVE-2024-31227": {
+        "CVE-ID": "CVE-2024-31227",
+        "Official": {
+            "7.4.1": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/7.4.1"
+                ]
+            },
+            "7.2.6": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/7.2.6"
+                ]
+            }
+        }
+    },
+    "CVE-2024-31228": {
+        "CVE-ID": "CVE-2024-31228",
+        "Official": {
+            "7.4.1": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/7.4.1"
+                ]
+            },
+            "7.2.6": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/7.2.6"
+                ]
+            },
+            "6.2.16": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/6.2.16"
+                ]
+            },
+            "7.0": {
+                "source": [
+                    "https://raw.githubusercontent.com/redis/redis/6.2/00-RELEASENOTES"
+                ]
+            }
+        }
+    },
     "CVE-2023-41056": {
         "CVE-ID": "CVE-2023-41056",
         "NVD": {
