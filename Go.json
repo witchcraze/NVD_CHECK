@@ -9993,6 +9993,16 @@
             }
         }
     },
+    "CVE-2024-8244": {
+        "CVE-ID": "CVE-2024-8244",
+        "Official": {
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "70007": "https://github.com/golang/go/issues/70007"
+                }
+            }
+        }
+    },
     "CVE-2023-48795": {
         "CVE-ID": "CVE-2023-48795",
         "NVD": {
