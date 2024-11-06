@@ -18779,9 +18779,9 @@
         "NVD": {
             "Descriptions": "Faulty input validation in the core of Apache allows malicious or exploitable backend/content generators to split HTTP responses.\n\nThis issue affects Apache HTTP Server: through 2.4.58.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 7.3,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
             "CPEs": []
         },
         "Official": {
