@@ -18552,9 +18552,9 @@
         "NVD": {
             "Descriptions": "A regression in the core of Apache HTTP Server 2.4.60 ignores some use of the legacy content-type based configuration of handlers.\u00a0 \u00a0\"AddType\" and similar configuration, under some circumstances where files are requested indirectly, result in source code disclosure of local content. For example, PHP scripts may be served instead of interpreted.\n\nUsers are recommended to upgrade to version 2.4.61, which fixes this issue.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 6.2,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
             "CPEs": []
         },
         "Official": {
@@ -18593,7 +18593,7 @@
     "CVE-2024-38472": {
         "CVE-ID": "CVE-2024-38472",
         "NVD": {
-            "Descriptions": "SSRF in Apache HTTP Server on Windows allows to potentially leak NTML hashes to a malicious server via SSRF and\u00a0malicious requests or content \nUsers are recommended to upgrade to version 2.4.60 which fixes this issue.\u00a0 Note: Existing configurations that access UNC paths will have to configure new directive \"UNCList\" to allow access during request processing.",
+            "Descriptions": "SSRF in Apache HTTP Server on Windows allows to potentially leak NTLM hashes to a malicious server via SSRF and\u00a0malicious requests or content \nUsers are recommended to upgrade to version 2.4.60 which fixes this issue.\u00a0 Note: Existing configurations that access UNC paths will have to configure new directive \"UNCList\" to allow access during request processing.",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
