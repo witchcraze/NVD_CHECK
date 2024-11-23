@@ -9993,6 +9993,16 @@
             }
         }
     },
+    "CVE-2024-45336": {
+        "CVE-ID": "CVE-2024-45336",
+        "Official": {
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "70530": "https://github.com/golang/go/issues/70530"
+                }
+            }
+        }
+    },
     "CVE-2024-8244": {
         "CVE-ID": "CVE-2024-8244",
         "Official": {
