@@ -325,9 +325,9 @@
         "NVD": {
             "Descriptions": "Redis is an in-memory database that persists on disk. A specially crafted Lua script executing in Redis can trigger a heap overflow in the cjson library, and result with heap corruption and potentially remote code execution. The problem exists in all versions of Redis with Lua scripting support, starting from 2.6, and affects only authenticated and authorized users. The problem is fixed in versions 7.0.12, 6.2.13, and 6.0.20.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 8.8,
+            "Cvss3_BaseScore": 7,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:fedoraproject:fedora:38",
@@ -402,9 +402,9 @@
         "NVD": {
             "Descriptions": "Redis is an in-memory database that persists on disk. In Redit 7.0 prior to 7.0.12, extracting key names from a command and a list of arguments may, in some cases, trigger a heap overflow and result in reading random heap memory, heap corruption and potentially remote code execution. Several scenarios that may lead to authenticated users executing a specially crafted `COMMAND GETKEYS` or `COMMAND GETKEYSANDFLAGS`and authenticated users who were set with ACL rules that match key names, executing a specially crafted command that refers to a variadic list of key names. The vulnerability is patched in Redis 7.0.12.\n\n",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 8.8,
+            "Cvss3_BaseScore": 7.4,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:fedoraproject:fedora:38",
@@ -451,9 +451,9 @@
         "NVD": {
             "Descriptions": "Redis is an open source, in-memory database that persists on disk. Authenticated users can use the `HINCRBYFLOAT` command to create an invalid hash field that will crash Redis on access in affected versions. This issue has been addressed in in versions 7.0.11, 6.2.12, and 6.0.19. Users are advised to upgrade. There are no known workarounds for this issue.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 6.5,
+            "Cvss3_BaseScore": 5.5,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:fedoraproject:fedora:38",
@@ -567,9 +567,9 @@
         "NVD": {
             "Descriptions": "Redis is an in-memory database that persists on disk. Authenticated users issuing specially crafted `SRANDMEMBER`, `ZRANDMEMBER`, and `HRANDFIELD` commands can trigger an integer overflow, resulting in a runtime assertion and termination of the Redis server process. This problem affects all Redis versions. Patches were released in Redis version(s) 6.0.18, 6.2.11 and 7.0.9.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 6.5,
+            "Cvss3_BaseScore": 5.5,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/a:redis:redis",
@@ -777,9 +777,9 @@
         "NVD": {
             "Descriptions": "Redis is an in-memory database that persists on disk. Versions 7.0.0 and above, prior to 7.0.5 are vulnerable to an Integer Overflow. Executing an `XAUTOCLAIM` command on a stream key in a specific state, with a specially crafted `COUNT` argument may cause an integer overflow, a subsequent heap overflow, and potentially lead to remote code execution. This has been patched in Redis version 7.0.5. No known workarounds exist.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 9.8,
+            "Cvss3_BaseScore": 7,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:fedoraproject:fedora:37",
@@ -813,9 +813,9 @@
         "NVD": {
             "Descriptions": "Redis is an in-memory database that persists on disk. A specially crafted `XAUTOCLAIM` command on a stream key in a specific state may result with heap overflow, and potentially remote code execution. This problem affects versions on the 7.x branch prior to 7.0.4. The patch is released in version 7.0.4.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 8.8,
+            "Cvss3_BaseScore": 7,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/a:redis:redis",
@@ -841,9 +841,9 @@
         "NVD": {
             "Descriptions": "Redis is an in-memory database that persists on disk. Prior to versions 6.2.7 and 7.0.0, an attacker attempting to load a specially crafted Lua script can cause NULL pointer dereference which will result with a crash of the redis-server process. The problem is fixed in Redis versions 7.0.0 and 6.2.7. An additional workaround to mitigate this problem without patching the redis-server executable, if Lua scripting is not being used, is to block access to `SCRIPT LOAD` and `EVAL` commands using ACL rules.",
             "Cvss2_BaseScore": 2.1,
-            "Cvss3_BaseScore": 5.5,
+            "Cvss3_BaseScore": 3.3,
             "Cvss2_VectorString": "AV:L/AC:L/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
             "CPEs": [
                 {
                     "URI": "cpe:/o:fedoraproject:fedora:36",
@@ -963,9 +963,9 @@
         "NVD": {
             "Descriptions": "Redis is an in-memory database that persists on disk. By exploiting weaknesses in the Lua script execution environment, an attacker with access to Redis prior to version 7.0.0 or 6.2.7 can inject Lua code that will execute with the (potentially higher) privileges of another Redis user. The Lua script execution environment in Redis provides some measures that prevent a script from creating side effects that persist and can affect the execution of the same, or different script, at a later time. Several weaknesses of these measures have been publicly known for a long time, but they had no security impact as the Redis security model did not endorse the concept of users or privileges. With the introduction of ACLs in Redis 6.0, these weaknesses can be exploited by a less privileged users to inject Lua code that will execute at a later time, when a privileged user executes a Lua script. The problem is fixed in Redis versions 7.0.0 and 6.2.7. An additional workaround to mitigate this problem without patching the redis-server executable, if Lua scripting is not being used, is to block access to `SCRIPT LOAD` and `EVAL` commands using ACL rules.",
             "Cvss2_BaseScore": 6.8,
-            "Cvss3_BaseScore": 7.8,
+            "Cvss3_BaseScore": 3.9,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/o:fedoraproject:fedora:36",
@@ -1213,9 +1213,9 @@
         "NVD": {
             "Descriptions": "Redis is an open source, in-memory database that persists on disk. The redis-cli command line tool and redis-sentinel service may be vulnerable to integer overflow when parsing specially crafted large multi-bulk network replies. This is a result of a vulnerability in the underlying hiredis library which does not perform an overflow check before calling the calloc() heap allocation function. This issue only impacts systems with heap allocators that do not perform their own overflow checks. Most modern systems do and are therefore not likely to be affected. Furthermore, by default redis-sentinel uses the jemalloc allocator which is also not vulnerable. The problem is fixed in Redis versions 6.2.6, 6.0.16 and 5.0.14.",
             "Cvss2_BaseScore": 9,
-            "Cvss3_BaseScore": 8.8,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:fedoraproject:fedora:35",
@@ -1621,9 +1621,9 @@
         "NVD": {
             "Descriptions": "Redis is an open source, in-memory database that persists on disk. When using the Redis Lua Debugger, users can send malformed requests that cause the debugger\u2019s protocol parser to read data beyond the actual buffer. This issue affects all versions of Redis with Lua debugging support (3.2 or newer). The problem is fixed in versions 6.2.6, 6.0.16 and 5.0.14.",
             "Cvss2_BaseScore": 4,
-            "Cvss3_BaseScore": 4.3,
+            "Cvss3_BaseScore": 5.3,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/o:redhat:enterprise_linux:8.0",
@@ -2045,9 +2045,9 @@
         "NVD": {
             "Descriptions": "Redis is an open source, in-memory database that persists on disk. In affected versions specially crafted Lua scripts executing in Redis can cause the heap-based Lua stack to be overflowed, due to incomplete checks for this condition. This can result with heap corruption and potentially remote code execution. This problem exists in all versions of Redis with Lua scripting support, starting from 2.6. The problem is fixed in versions 6.2.6, 6.0.16 and 5.0.14. For users unable to update an additional workaround to mitigate the problem without patching the redis-server executable is to prevent users from executing Lua scripts. This can be done using ACL to restrict EVAL and EVALSHA commands.",
             "Cvss2_BaseScore": 6.5,
-            "Cvss3_BaseScore": 8.8,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:fedoraproject:fedora:35",
@@ -2277,9 +2277,9 @@
         "NVD": {
             "Descriptions": "Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker. An integer overflow bug in Redis version 6.0 or newer, could be exploited using the STRALGO LCS command to corrupt the heap and potentially result with remote code execution. This is a result of an incomplete fix by CVE-2021-29477. The problem is fixed in version 6.2.4 and 6.0.14. An additional workaround to mitigate the problem without patching the redis-server executable is to use ACL configuration to prevent clients from using the STRALGO LCS command. On 64 bit systems which have the fixes of CVE-2021-29477 (6.2.3 or 6.0.13), it is sufficient to make sure that the proto-max-bulk-len config parameter is smaller than 2GB (default is 512MB).",
             "Cvss2_BaseScore": 6.5,
-            "Cvss3_BaseScore": 8.8,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:fedoraproject:fedora:34",
@@ -2335,9 +2335,9 @@
         "NVD": {
             "Descriptions": "Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker. An integer overflow bug in Redis version 6.0 or newer could be exploited using the `STRALGO LCS` command to corrupt the heap and potentially result with remote code execution. The problem is fixed in version 6.2.3 and 6.0.13. An additional workaround to mitigate the problem without patching the redis-server executable is to use ACL configuration to prevent clients from using the `STRALGO LCS` command.",
             "Cvss2_BaseScore": 6.5,
-            "Cvss3_BaseScore": 8.8,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:fedoraproject:fedora:34",
@@ -2405,9 +2405,9 @@
         "NVD": {
             "Descriptions": "Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker. An integer overflow bug in Redis 6.2 before 6.2.3 could be exploited to corrupt the heap and potentially result with remote code execution. Redis 6.0 and earlier are not directly affected by this issue. The problem is fixed in version 6.2.3. An additional workaround to mitigate the problem without patching the `redis-server` executable is to prevent users from modifying the `set-max-intset-entries` configuration parameter. This can be done using ACL to restrict unprivileged users from using the `CONFIG SET` command.",
             "Cvss2_BaseScore": 6,
-            "Cvss3_BaseScore": 8.8,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:fedoraproject:fedora:34",
@@ -2455,9 +2455,9 @@
         "NVD": {
             "Descriptions": "Redis is an open-source, in-memory database that persists on disk. In affected versions of Redis an integer overflow bug in 32-bit Redis version 4.0 or newer could be exploited to corrupt the heap and potentially result with remote code execution. Redis 4.0 or newer uses a configurable limit for the maximum supported bulk input size. By default, it is 512MB which is a safe value for all platforms. If the limit is significantly increased, receiving a large request from a client may trigger several integer overflow scenarios, which would result with buffer overflow and heap corruption. We believe this could in certain conditions be exploited for remote code execution. By default, authenticated Redis users have access to all configuration parameters and can therefore use the \u201cCONFIG SET proto-max-bulk-len\u201d to change the safe default, making the system vulnerable. **This problem only affects 32-bit Redis (on a 32-bit system, or as a 32-bit executable running on a 64-bit system).** The problem is fixed in version 6.2, and the fix is back ported to 6.0.11 and 5.0.11. Make sure you use one of these versions if you are running 32-bit Redis. An additional workaround to mitigate the problem without patching the redis-server executable is to prevent clients from directly executing `CONFIG SET`: Using Redis 6.0 or newer, ACL configuration can be used to block the command. Using older versions, the `rename-command` configuration directive can be used to rename the command to a random string unknown to users, rendering it inaccessible. Please note that this workaround may have an additional impact on users or operational systems that expect `CONFIG SET` to behave in certain ways.",
             "Cvss2_BaseScore": 6.5,
-            "Cvss3_BaseScore": 8.8,
+            "Cvss3_BaseScore": 5.4,
             "Cvss2_VectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:L",
             "CPEs": [
                 {
                     "URI": "cpe:/a:redislabs:redis",
@@ -3603,9 +3603,9 @@
         "NVD": {
             "Descriptions": "** DISPUTED ** A vulnerability, which was classified as problematic, was found in Redis up to 6.2.7/7.0.5. Affected is the function sigsegvHandler of the file debug.c of the component Crash Report. The manipulation leads to denial of service. The complexity of an attack is rather high. The exploitability is told to be difficult. The real existence of this vulnerability is still doubted at the moment. Upgrading to version 6.2.8 and 7.0.6 is able to address this issue. The patch is identified as 0bf90d944313919eb8e63d3588bf63a367f020a3. It is recommended to apply a patch to fix this issue. VDB-211962 is the identifier assigned to this vulnerability. NOTE: The vendor claims that this is not a DoS because it applies to the crash logging mechanism which is triggered after a crash has occurred.",
             "Cvss2_BaseScore": 1.8,
-            "Cvss3_BaseScore": 3.3,
+            "Cvss3_BaseScore": 3.1,
             "Cvss2_VectorString": "AV:A/AC:H/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+            "Cvss3_VectorString": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
             "CPEs": [
                 {
                     "URI": "cpe:/a:redis:redis",
@@ -3631,9 +3631,9 @@
         "NVD": {
             "Descriptions": "A vulnerability was found in a port or fork of Redis. It has been declared as critical. This vulnerability affects unknown code in the library C:/Program Files/Redis/dbghelp.dll. The manipulation leads to uncontrolled search path. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. The identifier of this vulnerability is VDB-212416. NOTE: The official Redis release is not affected. This issue might affect an unofficial fork or port on Windows only.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 9.8,
+            "Cvss3_BaseScore": 6.3,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
             "CPEs": [
                 {
                     "URI": "cpe:/a:redis:redis:-",

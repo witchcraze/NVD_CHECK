@@ -11350,9 +11350,9 @@
         "NVD": {
             "Descriptions": "A vulnerability classified as problematic was found in Python 2.7.13. This vulnerability affects unknown code of the component pgAdmin4. The manipulation leads to uncontrolled search path. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
             "Cvss2_BaseScore": 4.4,
-            "Cvss3_BaseScore": 7.8,
+            "Cvss3_BaseScore": 5,
             "Cvss2_VectorString": "AV:L/AC:M/Au:N/C:P/I:P/A:P",
-            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L",
             "CPEs": [
                 {
                     "URI": "cpe:/a:python:python:2.7.13",
@@ -12121,9 +12121,9 @@
         "NVD": {
             "Descriptions": "python before versions 2.7.15, 3.4.9, 3.5.6rc1, 3.6.5rc1 and 3.7.0 is vulnerable to catastrophic backtracking in the difflib.IS_LINE_JUNK method.  An attacker could use this flaw to cause denial of service.",
             "Cvss2_BaseScore": 5,
-            "Cvss3_BaseScore": 7.5,
+            "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
-            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/o:redhat:enterprise_linux_workstation:7.0",
@@ -22139,9 +22139,9 @@
         "NVD": {
             "Descriptions": "An issue was found in CPython 3.12.0 `subprocess` module on POSIX platforms. The issue was fixed in CPython 3.12.1 and does not affect other stable releases.\n\nWhen using the `extra_groups=` parameter with an empty list as a value (ie `extra_groups=[]`) the logic regressed to not call `setgroups(0, NULL)` before calling `exec()`, thus not dropping the original processes' groups before starting the new process. There is no issue when the parameter isn't used or when any value is used besides an empty list.\n\nThis issue only impacts CPython processes run with sufficient privilege to make the `setgroups` system call (typically `root`).\n\n",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 4.9,
+            "Cvss3_BaseScore": 6.1,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N",
+            "Cvss3_VectorString": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/a:python:python:3.13.0:alpha2",
