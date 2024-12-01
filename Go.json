@@ -10003,14 +10003,6 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
             "CPEs": [
                 {
-                    "URI": "cpe:/o:paloaltonetworks:pan-os:11.1.2:h3",
-                    "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:11.1.2:h3:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/o:paloaltonetworks:pan-os:11.1.2:h1",
                     "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:11.1.2:h1:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -10027,24 +10019,8 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:paloaltonetworks:pan-os:11.1.1:h1",
-                    "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:11.1.1:h1:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/o:paloaltonetworks:pan-os:11.1.1:-",
                     "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:11.1.1:-:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:paloaltonetworks:pan-os:11.1.0:h3",
-                    "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:11.1.0:h3:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -10075,14 +10051,6 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:paloaltonetworks:pan-os:11.0.4:h1",
-                    "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:11.0.4:h1:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/o:paloaltonetworks:pan-os:11.0.4:-",
                     "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:11.0.4:-:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -10107,14 +10075,6 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:paloaltonetworks:pan-os:11.0.3:h10",
-                    "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:11.0.3:h10:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/o:paloaltonetworks:pan-os:11.0.3:h1",
                     "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:11.0.3:h1:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -10125,14 +10085,6 @@
                 {
                     "URI": "cpe:/o:paloaltonetworks:pan-os:11.0.3:-",
                     "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:11.0.3:-:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:paloaltonetworks:pan-os:11.0.2:h4",
-                    "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:11.0.2:h4:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -10171,14 +10123,6 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:paloaltonetworks:pan-os:11.0.1:h4",
-                    "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:11.0.1:h4:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/o:paloaltonetworks:pan-os:11.0.1:h3",
                     "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:11.0.1:h3:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -10197,14 +10141,6 @@
                 {
                     "URI": "cpe:/o:paloaltonetworks:pan-os:11.0.1:-",
                     "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:11.0.1:-:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:paloaltonetworks:pan-os:11.0.0:h3",
-                    "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:11.0.0:h3:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -10235,14 +10171,6 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.9:h1",
-                    "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.9:h1:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.9:-",
                     "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.9:-:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -10251,24 +10179,8 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.8:h3",
-                    "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.8:h3:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.8:-",
                     "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.8:-:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.7:h8",
-                    "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.7:h8:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -10307,14 +10219,6 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.6:h3",
-                    "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.6:h3:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.6:h1",
                     "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.6:h1:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -10325,14 +10229,6 @@
                 {
                     "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.6:-",
                     "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.6:-:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.5:h6",
-                    "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.5:h6:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -10387,14 +10283,6 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.4:h16",
-                    "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.4:h16:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.4:h10",
                     "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.4:h10:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -10435,14 +10323,6 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.3:h13",
-                    "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.3:h13:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.3:h12",
                     "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.3:h12:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -10461,14 +10341,6 @@
                 {
                     "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.3:-",
                     "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.3:-:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.2:h5",
-                    "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.2:h5:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -10507,14 +10379,6 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.1:h2",
-                    "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.1:h2:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.1:h1",
                     "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.1:h1:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -10525,14 +10389,6 @@
                 {
                     "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.1:-",
                     "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.1:-:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/o:paloaltonetworks:pan-os:10.2.0:h3",
-                    "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:10.2.0:h3:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
