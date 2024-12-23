@@ -20579,6 +20579,20 @@
                         "section": "Security"
                     }
                 }
+            },
+            "3.14.0a3": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.14.0a3/Misc/NEWS.d/3.14.0a3.rst"
+                ],
+                "BTS": {
+                    "gh-issue97514": {
+                        "ID": "gh-issue97514",
+                        "url": "https://github.com/python/cpython/issues/97514",
+                        "date": "2024-11-27-22-56-48",
+                        "nonce": "kzA0zl",
+                        "section": "Library"
+                    }
+                }
             }
         }
     },

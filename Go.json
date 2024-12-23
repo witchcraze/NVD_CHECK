@@ -10428,6 +10428,24 @@
             }
         }
     },
+    "CVE-2024-45338": {
+        "CVE-ID": "CVE-2024-45338",
+        "NVD": {
+            "Descriptions": "An attacker can craft an input to the Parse functions that would be processed non-linearly with respect to its length, resulting in extremely slow parsing. This could cause a denial of service.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "Unreleased": {
+                "source": {
+                    "70906": "https://github.com/golang/go/issues/70906"
+                }
+            }
+        }
+    },
     "CVE-2024-45336": {
         "CVE-ID": "CVE-2024-45336",
         "Official": {
