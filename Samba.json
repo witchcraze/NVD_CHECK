@@ -1228,6 +1228,14 @@
                     "URI": "cpe:/a:samba:samba",
                     "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "4.15.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
                     "VersionStartIncluding": "4.16.0",
                     "VersionEndExcluding": "4.16.8",
                     "VersionEndIncluding": ""
@@ -1238,14 +1246,6 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "4.17.0",
                     "VersionEndExcluding": "4.17.4",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:samba:samba",
-                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "4.15.13",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -1384,6 +1384,14 @@
                     "URI": "cpe:/a:samba:samba",
                     "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "4.15.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
                     "VersionStartIncluding": "4.16.0",
                     "VersionEndExcluding": "4.16.8",
                     "VersionEndIncluding": ""
@@ -1394,14 +1402,6 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "4.17.0",
                     "VersionEndExcluding": "4.17.4",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:samba:samba",
-                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "4.15.13",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -1530,6 +1530,14 @@
                     "URI": "cpe:/a:samba:samba",
                     "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "4.15.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:samba:samba",
+                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
                     "VersionStartIncluding": "4.16.0",
                     "VersionEndExcluding": "4.16.8",
                     "VersionEndIncluding": ""
@@ -1540,14 +1548,6 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "4.17.0",
                     "VersionEndExcluding": "4.17.4",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:samba:samba",
-                    "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "4.15.13",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
