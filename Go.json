@@ -10428,6 +10428,16 @@
             }
         }
     },
+    "CVE-2024-45341": {
+        "CVE-ID": "CVE-2024-45341",
+        "Official": {
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "71156": "https://github.com/golang/go/issues/71156"
+                }
+            }
+        }
+    },
     "CVE-2024-21538": {
         "CVE-ID": "CVE-2024-21538",
         "NVD": {
