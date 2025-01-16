@@ -5626,6 +5626,14 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:synology:diskstation_manager:6.2",
+                    "FormattedString": "cpe:2.3:o:synology:diskstation_manager:6.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/o:redhat:enterprise_linux:8.0",
                     "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:8.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -5714,14 +5722,6 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:synology:diskstation_manager:6.2",
-                    "FormattedString": "cpe:2.3:a:synology:diskstation_manager:6.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
                     "URI": "cpe:/a:synology:directory_server:-",
                     "FormattedString": "cpe:2.3:a:synology:directory_server:-:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -5796,6 +5796,14 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:synology:diskstation_manager:6.2",
+                    "FormattedString": "cpe:2.3:o:synology:diskstation_manager:6.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/o:opensuse:leap:15.1",
                     "FormattedString": "cpe:2.3:o:opensuse:leap:15.1:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -5846,14 +5854,6 @@
                 {
                     "URI": "cpe:/a:synology:router_manager:1.2",
                     "FormattedString": "cpe:2.3:a:synology:router_manager:1.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:synology:diskstation_manager:6.2",
-                    "FormattedString": "cpe:2.3:a:synology:diskstation_manager:6.2:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -6769,6 +6769,30 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/o:synology:diskstation_manager:6.2",
+                    "FormattedString": "cpe:2.3:o:synology:diskstation_manager:6.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:synology:diskstation_manager:6.1",
+                    "FormattedString": "cpe:2.3:o:synology:diskstation_manager:6.1:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:synology:diskstation_manager:5.2",
+                    "FormattedString": "cpe:2.3:o:synology:diskstation_manager:5.2:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/o:fedoraproject:fedora:30",
                     "FormattedString": "cpe:2.3:o:fedoraproject:fedora:30:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -6787,30 +6811,6 @@
                 {
                     "URI": "cpe:/a:synology:router_manager:1.2",
                     "FormattedString": "cpe:2.3:a:synology:router_manager:1.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:synology:diskstation_manager:6.2",
-                    "FormattedString": "cpe:2.3:a:synology:diskstation_manager:6.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:synology:diskstation_manager:6.1",
-                    "FormattedString": "cpe:2.3:a:synology:diskstation_manager:6.1:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:synology:diskstation_manager:5.2",
-                    "FormattedString": "cpe:2.3:a:synology:diskstation_manager:5.2:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
