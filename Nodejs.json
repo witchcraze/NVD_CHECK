@@ -23286,6 +23286,97 @@
             }
         }
     },
+    "CVE-2025-23085": {
+        "CVE-ID": "CVE-2025-23085",
+        "Official": {
+            "18.20.6": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/149.json"
+                ]
+            },
+            "20.18.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/149.json"
+                ]
+            },
+            "22.13.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/149.json"
+                ]
+            },
+            "23.6.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V23.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/149.json"
+                ]
+            }
+        }
+    },
+    "CVE-2025-23084": {
+        "CVE-ID": "CVE-2025-23084",
+        "Official": {
+            "18.20.6": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/148.json"
+                ]
+            },
+            "20.18.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/148.json"
+                ]
+            },
+            "22.13.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/148.json"
+                ]
+            },
+            "23.6.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V23.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/148.json"
+                ]
+            }
+        }
+    },
+    "CVE-2025-22150": {
+        "CVE-ID": "CVE-2025-22150",
+        "NVD": {
+            "Descriptions": "Undici is an HTTP/1.1 client. Starting in version 4.5.0 and prior to versions 5.28.5, 6.21.1, and 7.2.3, undici uses `Math.random()` to choose the boundary for a multipart/form-data request. It is known that the output of `Math.random()` can be predicted if several of its generated values are known. If there is a mechanism in an app that sends multipart requests to an attacker-controlled website, they can use this to leak the necessary values. Therefore, an attacker can tamper with the requests going to the backend APIs if certain conditions are met. This is fixed in versions 5.28.5, 6.21.1, and 7.2.3. As a workaround, do not issue multipart requests to attacker controlled servers.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "18.20.6": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                ]
+            },
+            "20.18.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            },
+            "22.13.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md"
+                ]
+            },
+            "23.6.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V23.md"
+                ]
+            }
+        }
+    },
     "CVE-2024-36138": {
         "CVE-ID": "CVE-2024-36138",
         "NVD": {
@@ -26837,6 +26928,37 @@
             "16.20.0": {
                 "source": [
                     "https://github.com/nodejs/security-wg/blob/main/vuln/core/98.json"
+                ]
+            }
+        }
+    },
+    "CVE-2025-23083": {
+        "CVE-ID": "CVE-2025-23083",
+        "NVD": {
+            "Descriptions": "With the aid of the diagnostics_channel utility, an event can be hooked into whenever a worker thread is created. This is not limited only to workers but also exposes internal workers, where an instance of them can be fetched, and its constructor can be grabbed and reinstated for malicious usage. \r\n\r\nThis vulnerability affects Permission Model users (--permission) on Node.js v20, v22, and v23.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.7,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "20.18.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/147.json"
+                ]
+            },
+            "22.13.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/147.json"
+                ]
+            },
+            "23.6.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V23.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/147.json"
                 ]
             }
         }
