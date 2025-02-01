@@ -9839,8 +9839,26 @@
             }
         }
     },
+    "CVE-2025-22867": {
+        "CVE-ID": "CVE-2025-22867",
+        "Official": {
+            "1.24": {
+                "source": {
+                    "71476": "https://github.com/golang/go/issues/71476"
+                }
+            }
+        }
+    },
     "CVE-2024-45340": {
         "CVE-ID": "CVE-2024-45340",
+        "NVD": {
+            "Descriptions": "Credentials provided via the new GOAUTH feature were not being properly segmented by domain, allowing a malicious server to request credentials they should not have access to. By default, unless otherwise set, this only affected credentials stored in the users .netrc file.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
         "Official": {
             "1.24": {
                 "source": {
@@ -9851,6 +9869,14 @@
     },
     "CVE-2025-22865": {
         "CVE-ID": "CVE-2025-22865",
+        "NVD": {
+            "Descriptions": "Using ParsePKCS1PrivateKey to parse a RSA key that is missing the CRT values would panic when verifying that the key is well formed.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": []
+        },
         "Official": {
             "1.24": {
                 "source": {
@@ -9861,6 +9887,14 @@
     },
     "CVE-2024-45341": {
         "CVE-ID": "CVE-2024-45341",
+        "NVD": {
+            "Descriptions": "A certificate with a URI which has a IPv6 address with a zone ID may incorrectly satisfy a URI name constraint that applies to the certificate chain. Certificates containing URIs are not permitted in the web PKI, so this only affects users of private PKIs which make use of URIs.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "CPEs": []
+        },
         "Official": {
             "1.24": {
                 "source": {
@@ -9886,6 +9920,14 @@
     },
     "CVE-2024-45336": {
         "CVE-ID": "CVE-2024-45336",
+        "NVD": {
+            "Descriptions": "The HTTP client drops sensitive headers after following a cross-domain redirect. For example, a request to a.com/ containing an Authorization header which is redirected to b.com/ will not send that header to b.com. In the event that the client received a subsequent same-domain redirect, however, the sensitive headers would be restored. For example, a chain of redirects from a.com/, to b.com/1, and finally to b.com/2 would incorrectly send the Authorization header to b.com/2.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "CPEs": []
+        },
         "Official": {
             "1.24": {
                 "source": {
@@ -10494,6 +10536,16 @@
             "1.24": {
                 "source": {
                     "67002": "https://github.com/golang/go/issues/67002"
+                }
+            }
+        }
+    },
+    "CVE-2025-22868": {
+        "CVE-ID": "CVE-2025-22868",
+        "Official": {
+            "1.25": {
+                "source": {
+                    "71490": "https://github.com/golang/go/issues/71490"
                 }
             }
         }
