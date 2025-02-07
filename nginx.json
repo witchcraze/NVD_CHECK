@@ -1,4 +1,29 @@
 {
+    "CVE-2025-23419": {
+        "CVE-ID": "CVE-2025-23419",
+        "NVD": {
+            "Descriptions": "When multiple server blocks are configured to share the same IP address and port, an attacker can use session resumption to bypass client certificate authentication requirements on these servers. This vulnerability arises when  TLS Session Tickets https://nginx.org/en/docs/http/ngx_http_ssl_module.html#ssl_session_ticket_key  are used and/or the  SSL session cache https://nginx.org/en/docs/http/ngx_http_ssl_module.html#ssl_session_cache  are used in the default server and the default server is performing client certificate authentication.\u00a0\u00a0\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 4.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "1.27.4": {
+                "source": [
+                    "http://nginx.org/en/security_advisories.html",
+                    "http://nginx.org/en//CHANGES"
+                ]
+            },
+            "1.26.3": {
+                "source": [
+                    "http://nginx.org/en/security_advisories.html",
+                    "http://nginx.org/en//CHANGES-1.26"
+                ]
+            }
+        }
+    },
     "CVE-2024-7347": {
         "CVE-ID": "CVE-2024-7347",
         "NVD": {
