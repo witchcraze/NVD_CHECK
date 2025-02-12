@@ -21828,7 +21828,7 @@
             },
             "3.13.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.13.0rc2/Misc/NEWS.d/3.13.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.13.0a1.rst"
                 ],
                 "BTS": {
                     "gh-issue102988": {
@@ -21918,7 +21918,7 @@
             },
             "3.13.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.13.0rc2/Misc/NEWS.d/3.13.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.13.0a1.rst"
                 ],
                 "BTS": {
                     "gh-issue105987": {
@@ -22134,7 +22134,7 @@
             },
             "3.13.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.13.0rc2/Misc/NEWS.d/3.13.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.13.0a1.rst"
                 ],
                 "BTS": {
                     "gh-issue106242": {
@@ -22704,6 +22704,152 @@
                         "url": "https://github.com/python/cpython/issues/123067",
                         "date": "2024-08-16-16-53-52",
                         "nonce": "Nx9O4R",
+                        "section": "Library"
+                    }
+                }
+            }
+        }
+    },
+    "CVE-2024-9287": {
+        "CVE-ID": "CVE-2024-9287",
+        "NVD": {
+            "Descriptions": "A vulnerability has been found in the CPython `venv` module and CLI where path names provided when creating a virtual environment were not quoted properly, allowing the creator to inject commands into virtual environment \"activation\" scripts (ie \"source venv/bin/activate\"). This means that attacker-controlled virtual environments are able to run commands when the virtual environment is activated. Virtual environments which are not created by an attacker or which aren't activated before being used (ie \"./venv/bin/python\") are not affected.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python:3.14.0:alpha1",
+                    "FormattedString": "cpe:2.3:a:python:python:3.14.0:alpha1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "3.9.21",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.10.0",
+                    "VersionEndExcluding": "3.10.16",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.11.0",
+                    "VersionEndExcluding": "3.11.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.12.0",
+                    "VersionEndExcluding": "3.12.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.13.0",
+                    "VersionEndExcluding": "3.13.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "3.9.21": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.9.21/Misc/NEWS.d/3.9.21.rst"
+                ],
+                "BTS": {
+                    "gh-issue124651": {
+                        "ID": "gh-issue124651",
+                        "url": "https://github.com/python/cpython/issues/124651",
+                        "date": "2023-04-26-09-54-25",
+                        "nonce": "bLBGtH",
+                        "section": "Library"
+                    }
+                }
+            },
+            "3.10.16": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.10.16/Misc/NEWS.d/3.10.16.rst"
+                ],
+                "BTS": {
+                    "gh-issue124651": {
+                        "ID": "gh-issue124651",
+                        "url": "https://github.com/python/cpython/issues/124651",
+                        "date": "2023-04-26-09-54-25",
+                        "nonce": "bLBGtH",
+                        "section": "Library"
+                    }
+                }
+            },
+            "3.11.11": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.11.11/Misc/NEWS.d/3.11.11.rst"
+                ],
+                "BTS": {
+                    "gh-issue124651": {
+                        "ID": "gh-issue124651",
+                        "url": "https://github.com/python/cpython/issues/124651",
+                        "date": "2024-09-28-02-03-04",
+                        "nonce": "bLBGtH",
+                        "section": "Library"
+                    }
+                }
+            },
+            "3.12.8": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.12.8/Misc/NEWS.d/3.12.8.rst"
+                ],
+                "BTS": {
+                    "gh-issue124651": {
+                        "ID": "gh-issue124651",
+                        "url": "https://github.com/python/cpython/issues/124651",
+                        "date": "2024-09-26-13-43-39",
+                        "nonce": "bLBGtH",
+                        "section": "Library"
+                    }
+                }
+            },
+            "3.13.1": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.13.1/Misc/NEWS.d/3.13.1.rst"
+                ],
+                "BTS": {
+                    "gh-issue124651": {
+                        "ID": "gh-issue124651",
+                        "url": "https://github.com/python/cpython/issues/124651",
+                        "date": "2024-09-27-15-16-04",
+                        "nonce": "bLBGtH",
+                        "section": "Library"
+                    }
+                }
+            },
+            "3.14.0a2": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.14.0a3/Misc/NEWS.d/3.14.0a2.rst"
+                ],
+                "BTS": {
+                    "gh-issue124651": {
+                        "ID": "gh-issue124651",
+                        "url": "https://github.com/python/cpython/issues/124651",
+                        "date": "2024-09-27-15-42-55",
+                        "nonce": "bLBGtH",
                         "section": "Library"
                     }
                 }
