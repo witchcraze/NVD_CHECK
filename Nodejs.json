@@ -22692,7 +22692,7 @@
     "CVE-2023-30589": {
         "CVE-ID": "CVE-2023-30589",
         "NVD": {
-            "Descriptions": "The llhttp parser in the http module in Node v20.2.0 does not strictly use the CRLF sequence to delimit HTTP requests. This can lead to HTTP Request Smuggling (HRS).\r\n\r\nThe CR character (without LF) is sufficient to delimit HTTP header fields in the llhttp parser. According to RFC7230 section 3, only the CRLF sequence should delimit each header-field. This impacts all Node.js active versions: v16, v18, and, v20\r\n",
+            "Descriptions": "The llhttp parser in the http module in Node v20.2.0 does not strictly use the CRLF sequence to delimit HTTP requests. This can lead to HTTP Request Smuggling (HRS).\r\n\r\nThe CR character (without LF) is sufficient to delimit HTTP header fields in the llhttp parser. According to RFC7230 section 3, only the CRLF sequence should delimit each header-field. This impacts all Node.js active versions: v16, v18, and, v20",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
@@ -23442,7 +23442,8 @@
             },
             "18.20.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/150.json"
                 ]
             },
             "20.15.1": {
@@ -23452,12 +23453,14 @@
             },
             "20.12.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/150.json"
                 ]
             },
             "21.7.3": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V21.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/150.json"
                 ]
             },
             "22.4.1": {
@@ -23588,7 +23591,32 @@
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0.0",
+                    "VersionEndExcluding": "18.19.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "20.0.0",
+                    "VersionEndExcluding": "20.11.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "21.0.0",
+                    "VersionEndExcluding": "21.6.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "18.19.1": {
@@ -27112,7 +27140,24 @@
             "Cvss3_BaseScore": 7.9,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "20.0.0",
+                    "VersionEndExcluding": "20.11.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "21.0.0",
+                    "VersionEndExcluding": "21.6.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "20.11.1": {
@@ -27137,7 +27182,24 @@
             "Cvss3_BaseScore": 5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "20.0.0",
+                    "VersionEndExcluding": "20.11.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "21.0.0",
+                    "VersionEndExcluding": "21.6.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "20.11.1": {
