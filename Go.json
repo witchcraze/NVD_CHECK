@@ -10113,12 +10113,42 @@
             }
         }
     },
-    "CVE-2025-22868": {
-        "CVE-ID": "CVE-2025-22868",
+    "CVE-2025-22871": {
+        "CVE-ID": "CVE-2025-22871",
         "Official": {
             "1.25": {
                 "source": {
-                    "71490": "https://github.com/golang/go/issues/71490"
+                    "71988": "https://github.com/golang/go/issues/71988"
+                }
+            },
+            "1.23.7": {
+                "source": {
+                    "72010": "https://github.com/golang/go/issues/72010"
+                }
+            },
+            "1.24.1": {
+                "source": {
+                    "72011": "https://github.com/golang/go/issues/72011"
+                }
+            }
+        }
+    },
+    "CVE-2025-22870": {
+        "CVE-ID": "CVE-2025-22870",
+        "Official": {
+            "1.25": {
+                "source": {
+                    "71984": "https://github.com/golang/go/issues/71984"
+                }
+            },
+            "1.23.7": {
+                "source": {
+                    "71985": "https://github.com/golang/go/issues/71985"
+                }
+            },
+            "1.24.1": {
+                "source": {
+                    "71986": "https://github.com/golang/go/issues/71986"
                 }
             }
         }
@@ -10554,6 +10584,42 @@
             "1.25": {
                 "source": {
                     "67002": "https://github.com/golang/go/issues/67002"
+                }
+            }
+        }
+    },
+    "CVE-2025-22869": {
+        "CVE-ID": "CVE-2025-22869",
+        "NVD": {
+            "Descriptions": "SSH servers which implement file transfer protocols are vulnerable to a denial of service attack from clients which complete the key exchange slowly, or not at all, causing pending content to be read into memory, but never transmitted.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "71931": "https://github.com/golang/go/issues/71931"
+                }
+            }
+        }
+    },
+    "CVE-2025-22868": {
+        "CVE-ID": "CVE-2025-22868",
+        "NVD": {
+            "Descriptions": "An attacker can pass a malicious malformed token which causes unexpected memory to be consumed during parsing.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "Unreleased": {
+                "source": {
+                    "71490": "https://github.com/golang/go/issues/71490"
                 }
             }
         }
