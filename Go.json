@@ -10135,6 +10135,14 @@
     },
     "CVE-2025-22870": {
         "CVE-ID": "CVE-2025-22870",
+        "NVD": {
+            "Descriptions": "Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to \"*.example.com\", a request to \"[::1%25.example.com]:80` will incorrectly match and not be proxied.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.25": {
                 "source": {
