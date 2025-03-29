@@ -21,9 +21,10 @@
                     "https://mariadb.com//kb/en/mariadb-11-4-5-release-notes/"
                 ]
             },
-            "10.6.21_EXCLUDE": {
+            "10.6.21": {
                 "source": [
-                    "https://mariadb.com/kb/en/security/"
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-10-6-21-release-notes/"
                 ]
             },
             "10.5.28_EXCLUDE": {
@@ -22857,6 +22858,14 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "3.9.0",
                     "VersionEndExcluding": "3.9.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nokogiri:nokogiri:::~~~ruby~~",
+                    "FormattedString": "cpe:2.3:a:nokogiri:nokogiri:*:*:*:*:*:ruby:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.13.4",
                     "VersionEndIncluding": ""
                 },
                 {

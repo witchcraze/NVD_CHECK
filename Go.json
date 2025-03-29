@@ -10596,6 +10596,16 @@
             }
         }
     },
+    "CVE-2025-22872": {
+        "CVE-ID": "CVE-2025-22872",
+        "Official": {
+            "Unreleased": {
+                "source": {
+                    "73070": "https://github.com/golang/go/issues/73070"
+                }
+            }
+        }
+    },
     "CVE-2025-22869": {
         "CVE-ID": "CVE-2025-22869",
         "NVD": {
