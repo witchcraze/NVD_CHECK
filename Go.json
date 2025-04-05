@@ -10113,6 +10113,16 @@
             }
         }
     },
+    "CVE-2025-22873": {
+        "CVE-ID": "CVE-2025-22873",
+        "Official": {
+            "1.25": {
+                "source": {
+                    "73160": "https://github.com/golang/go/issues/73160"
+                }
+            }
+        }
+    },
     "CVE-2025-22871": {
         "CVE-ID": "CVE-2025-22871",
         "Official": {

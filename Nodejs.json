@@ -23647,7 +23647,40 @@
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0.0",
+                    "VersionEndExcluding": "18.19.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "20.0.0",
+                    "VersionEndExcluding": "20.11.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "21.0.0",
+                    "VersionEndExcluding": "21.6.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:netapp:astra_control_center:-",
+                    "FormattedString": "cpe:2.3:a:netapp:astra_control_center:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "18.19.1": {
@@ -27090,7 +27123,24 @@
             "Cvss3_BaseScore": 7.9,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "20.0.0",
+                    "VersionEndExcluding": "20.11.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "21.0.0",
+                    "VersionEndExcluding": "21.6.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "20.11.1": {
