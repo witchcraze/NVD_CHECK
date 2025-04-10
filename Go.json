@@ -10125,6 +10125,14 @@
     },
     "CVE-2025-22871": {
         "CVE-ID": "CVE-2025-22871",
+        "NVD": {
+            "Descriptions": "The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.25": {
                 "source": {
