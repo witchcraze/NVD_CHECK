@@ -32729,11 +32729,11 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:apache:http_server:-",
-                    "FormattedString": "cpe:2.3:a:apache:http_server:-:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionEndExcluding": "1.0",
                     "VersionEndIncluding": ""
                 }
             ]
