@@ -18672,7 +18672,24 @@
             "Cvss3_BaseScore": 9.1,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:netapp:ontap_9:-",
+                    "FormattedString": "cpe:2.3:a:netapp:ontap_9:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.4.0",
+                    "VersionEndExcluding": "2.4.60",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "2.4.60": {
@@ -19054,8 +19071,8 @@
                     "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "2.4.30",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.4.55"
+                    "VersionEndExcluding": "2.4.56",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -19190,8 +19207,8 @@
                     "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "2.4.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.4.53"
+                    "VersionEndExcluding": "2.4.54",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -19322,8 +19339,8 @@
                     "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.4.53"
+                    "VersionEndExcluding": "2.4.54",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -19478,8 +19495,8 @@
                     "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.4.53"
+                    "VersionEndExcluding": "2.4.54",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -19530,8 +19547,8 @@
                     "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.4.53"
+                    "VersionEndExcluding": "2.4.54",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -20250,8 +20267,8 @@
                     "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "2.4.0",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.4.52"
+                    "VersionEndExcluding": "2.4.53",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -20866,8 +20883,8 @@
                     "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.4.51"
+                    "VersionEndExcluding": "2.4.52",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -21163,6 +21180,14 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/o:debian:debian_linux:10.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:10.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:tenable:tenable.sc",
                     "FormattedString": "cpe:2.3:a:tenable:tenable.sc:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -21191,8 +21216,8 @@
                     "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "2.4.17",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.4.48"
+                    "VersionEndExcluding": "2.4.49",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -21591,8 +21616,8 @@
                     "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "2.4.30",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.4.48"
+                    "VersionEndExcluding": "2.4.49",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -21747,8 +21772,8 @@
                     "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.4.48"
+                    "VersionEndExcluding": "2.4.49",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -23639,8 +23664,8 @@
                     "FormattedString": "cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "2.4.20",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "2.4.43"
+                    "VersionEndExcluding": "2.4.44",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -39023,6 +39048,58 @@
                 {
                     "URI": "cpe:/a:apache:http_server:2.2.15-60",
                     "FormattedString": "cpe:2.3:a:apache:http_server:2.2.15-60:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2025-3891": {
+        "CVE-ID": "CVE-2025-3891",
+        "NVD": {
+            "Descriptions": "A flaw was found in the mod_auth_openidc module for Apache httpd. This flaw allows a remote, unauthenticated attacker to trigger a denial of service by sending an empty POST request when the OIDCPreservePost directive is enabled. The server crashes consistently, affecting availability.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux:9.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:9.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux:8.0::~~-~~~",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:8.0:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:redhat:enterprise_linux:7.0",
+                    "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:11.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:11.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:http_server:-",
+                    "FormattedString": "cpe:2.3:a:apache:http_server:-:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",

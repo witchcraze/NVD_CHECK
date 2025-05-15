@@ -10209,12 +10209,53 @@
             }
         }
     },
+    "CVE-2025-0913": {
+        "CVE-ID": "CVE-2025-0913",
+        "Official": {
+            "1.25": {
+                "source": {
+                    "73702": "https://github.com/golang/go/issues/73702"
+                }
+            },
+            "1.23.10": {
+                "source": {
+                    "73719": "https://github.com/golang/go/issues/73719"
+                }
+            },
+            "1.24.4": {
+                "source": {
+                    "73720": "https://github.com/golang/go/issues/73720"
+                }
+            }
+        }
+    },
+    "CVE-2025-22874": {
+        "CVE-ID": "CVE-2025-22874",
+        "Official": {
+            "1.25": {
+                "source": {
+                    "73612": "https://github.com/golang/go/issues/73612"
+                }
+            },
+            "1.24.4": {
+                "source": {
+                    "73700": "https://github.com/golang/go/issues/73700"
+                }
+            }
+        }
+    },
     "CVE-2025-22873": {
         "CVE-ID": "CVE-2025-22873",
         "Official": {
             "1.25": {
                 "source": {
+                    "73555": "https://github.com/golang/go/issues/73555",
                     "73160": "https://github.com/golang/go/issues/73160"
+                }
+            },
+            "1.24.3": {
+                "source": {
+                    "73556": "https://github.com/golang/go/issues/73556"
                 }
             }
         }
@@ -10736,7 +10777,16 @@
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:go:ssh:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:go:ssh:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.35.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "NOT_IN_MILESTONE": {
@@ -10754,7 +10804,16 @@
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:go:jws:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:go:jws:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.27.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "Unreleased": {

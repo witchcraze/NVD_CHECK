@@ -23554,6 +23554,11 @@
                     "https://github.com/nodejs/security-wg/blob/main/vuln/core/140.json"
                 ]
             },
+            "20.19.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                ]
+            },
             "20.12.1": {
                 "source": [
                     "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
@@ -27005,6 +27010,63 @@
             "16.20.0": {
                 "source": [
                     "https://github.com/nodejs/security-wg/blob/main/vuln/core/98.json"
+                ]
+            }
+        }
+    },
+    "CVE-2025-23166": {
+        "CVE-ID": "CVE-2025-23166",
+        "Official": {
+            "20.19.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/152.json"
+                ]
+            },
+            "22.15.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/152.json"
+                ]
+            },
+            "23.11.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V23.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/152.json"
+                ]
+            },
+            "24.0.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/152.json"
+                ]
+            }
+        }
+    },
+    "CVE-2025-23167": {
+        "CVE-ID": "CVE-2025-23167",
+        "Official": {
+            "20.19.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/153.json"
+                ]
+            }
+        }
+    },
+    "CVE-2025-23165": {
+        "CVE-ID": "CVE-2025-23165",
+        "Official": {
+            "20.19.2": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/151.json"
+                ]
+            },
+            "22.15.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/151.json"
                 ]
             }
         }

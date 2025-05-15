@@ -10,6 +10,11 @@
             "CPEs": []
         },
         "Official": {
+            "8.0.0": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.0.0"
+                ]
+            },
             "7.4.3": {
                 "source": [
                     "https://github.com/redis/redis/releases/tag/7.4.3"
