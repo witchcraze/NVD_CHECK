@@ -10209,6 +10209,16 @@
             }
         }
     },
+    "CVE-2025-4673": {
+        "CVE-ID": "CVE-2025-4673",
+        "Official": {
+            "1.25": {
+                "source": {
+                    "73816": "https://github.com/golang/go/issues/73816"
+                }
+            }
+        }
+    },
     "CVE-2025-0913": {
         "CVE-ID": "CVE-2025-0913",
         "Official": {
@@ -10826,7 +10836,7 @@
     "CVE-2024-21538": {
         "CVE-ID": "CVE-2024-21538",
         "NVD": {
-            "Descriptions": "Versions of the package cross-spawn before 7.0.5 are vulnerable to Regular Expression Denial of Service (ReDoS) due to improper input sanitization. An attacker can increase the CPU usage and crash the program by crafting a very large and well crafted string.",
+            "Descriptions": "Versions of the package cross-spawn before 6.0.6, from 7.0.0 and before 7.0.5 are vulnerable to Regular Expression Denial of Service (ReDoS) due to improper input sanitization. An attacker can increase the CPU usage and crash the program by crafting a very large and well crafted string.",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
