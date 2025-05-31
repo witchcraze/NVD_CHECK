@@ -10216,6 +10216,16 @@
                 "source": {
                     "73816": "https://github.com/golang/go/issues/73816"
                 }
+            },
+            "1.23.10": {
+                "source": {
+                    "73905": "https://github.com/golang/go/issues/73905"
+                }
+            },
+            "1.24.4": {
+                "source": {
+                    "73906": "https://github.com/golang/go/issues/73906"
+                }
             }
         }
     },
