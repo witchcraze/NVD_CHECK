@@ -44182,6 +44182,16 @@
             }
         }
     },
+    "CVE-2025-0620": {
+        "CVE-ID": "CVE-2025-0620",
+        "Official": {
+            "4.21.6": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.21.6.html"
+                ]
+            }
+        }
+    },
     "CVE-1999-0182": {
         "CVE-ID": "CVE-1999-0182",
         "NVD": {

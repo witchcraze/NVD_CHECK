@@ -187,9 +187,10 @@
                     "https://mariadb.com//kb/en/mariadb-10-6-21-release-notes/"
                 ]
             },
-            "10.5.28_EXCLUDE": {
+            "10.5.28": {
                 "source": [
-                    "https://mariadb.com/kb/en/security/"
+                    "https://mariadb.com/kb/en/security/",
+                    "https://mariadb.com//kb/en/mariadb-10-5-28-release-notes/"
                 ]
             },
             "10.11.11": {
