@@ -44189,6 +44189,11 @@
                 "source": [
                     "https://www.samba.org/samba/history/samba-4.21.6.html"
                 ]
+            },
+            "4.22.2": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.22.2.html"
+                ]
             }
         }
     },

@@ -11055,7 +11055,39 @@
                     "FormattedString": "cpe:2.3:a:ssh:ssh:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
-                    "VersionEndExcluding": "5.11",
+                    "VersionEndExcluding": "4.9.1.5",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:ssh:ssh",
+                    "FormattedString": "cpe:2.3:a:ssh:ssh:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.10",
+                    "VersionEndExcluding": "4.11.1.7",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:ssh:ssh",
+                    "FormattedString": "cpe:2.3:a:ssh:ssh:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.12",
+                    "VersionEndExcluding": "4.13.2.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:ssh:ssh",
+                    "FormattedString": "cpe:2.3:a:ssh:ssh:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.14",
+                    "VersionEndExcluding": "4.15.3.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:ssh:ssh",
+                    "FormattedString": "cpe:2.3:a:ssh:ssh:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.0",
+                    "VersionEndExcluding": "5.1.1",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -11347,14 +11379,6 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:microsoft:powershell",
-                    "FormattedString": "cpe:2.3:a:microsoft:powershell:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "11.1.0"
-                },
-                {
                     "URI": "cpe:/a:matez:jsch",
                     "FormattedString": "cpe:2.3:a:matez:jsch:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -11415,6 +11439,38 @@
                     "FormattedString": "cpe:2.3:a:erlang:erlang\\/otp:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
+                    "VersionEndExcluding": "22.3.4.27",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:erlang:erlang%2fotp",
+                    "FormattedString": "cpe:2.3:a:erlang:erlang\\/otp:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "23.0",
+                    "VersionEndExcluding": "23.3.4.20",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:erlang:erlang%2fotp",
+                    "FormattedString": "cpe:2.3:a:erlang:erlang\\/otp:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "24.0",
+                    "VersionEndExcluding": "24.3.4.15",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:erlang:erlang%2fotp",
+                    "FormattedString": "cpe:2.3:a:erlang:erlang\\/otp:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "25.0",
+                    "VersionEndExcluding": "25.3.2.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:erlang:erlang%2fotp",
+                    "FormattedString": "cpe:2.3:a:erlang:erlang\\/otp:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "26.0",
                     "VersionEndExcluding": "26.2.1",
                     "VersionEndIncluding": ""
                 },
