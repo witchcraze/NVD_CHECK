@@ -30811,6 +30811,22 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/o:cisco:nx-os",
+                    "FormattedString": "cpe:2.3:o:cisco:nx-os:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.4\\(1\\)",
+                    "VersionEndExcluding": "10.4\\(2\\)",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:cisco:nx-os",
+                    "FormattedString": "cpe:2.3:o:cisco:nx-os:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.4\\(1\\)",
+                    "VersionEndExcluding": "10.4\\(2\\)",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/o:cisco:ios_xr",
                     "FormattedString": "cpe:2.3:o:cisco:ios_xr:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -31387,8 +31403,8 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:nodejs:node.js:::~~lts~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:lts:*:*:*",
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "18.0.0",
                     "VersionEndExcluding": "18.18.2",
@@ -32731,8 +32747,8 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:cisco:crosswork_data_gateway:5.0",
-                    "FormattedString": "cpe:2.3:a:cisco:crosswork_data_gateway:5.0:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:cisco:crosswork_situation_manager:-",
+                    "FormattedString": "cpe:2.3:a:cisco:crosswork_situation_manager:-:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -32747,11 +32763,27 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:cisco:crosswork_data_gateway",
+                    "FormattedString": "cpe:2.3:a:cisco:crosswork_data_gateway:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "5.0.0",
+                    "VersionEndExcluding": "5.0.2",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:cisco:connected_mobile_experiences",
                     "FormattedString": "cpe:2.3:a:cisco:connected_mobile_experiences:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "11.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:cisco:business_process_automation",
+                    "FormattedString": "cpe:2.3:a:cisco:business_process_automation:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "3.2.003.009",
                     "VersionEndIncluding": ""
                 },
                 {
