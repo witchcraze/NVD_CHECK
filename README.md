@@ -111,8 +111,7 @@ Get NVD data via [go-cve-dictionary](https://github.com/vulsio/go-cve-dictionary
 #### MariaDB
 
 - Official
-  - `https://mariadb.com/kb/en/security/`
-  - `https://mariadb.com/kb/en/mariadb-server-release-dates/`
+  - `https://mariadb.com/docs/server/security/securing-mariadb/security`
 - CPE
   - `cpe:/a:mariadb:mariadb`
   - `cpe:/a:mariadb_project:mariadb`

@@ -1,4 +1,241 @@
 {
+    "CVE-2025-7259": {
+        "CVE-ID": "CVE-2025-7259",
+        "NVD": {
+            "Descriptions": "An authorized user can issue queries with duplicate _id fields, that leads to unexpected behavior in MongoDB Server, which may result to crash. This issue can only be triggered by authorized users and cause Denial of Service. This issue affects MongoDB Server v8.1 version 8.1.0.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.1.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            }
+        }
+    },
+    "CVE-2025-6714": {
+        "CVE-ID": "CVE-2025-6714",
+        "NVD": {
+            "Descriptions": "MongoDB Server's mongos component can become unresponsive to new connections due to incorrect handling of incomplete data. This affects MongoDB when configured with load balancer support. This issue affects MongoDB Server v6.0 prior to 6.0.23, MongoDB Server v7.0 prior to 7.0.20 and MongoDB Server v8.0 prior to 8.0.9\n\nRequired Configuration:\n\nThis affects MongoDB sharded clusters when configured with load balancer support for mongos using HAProxy on specified ports.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "6.0.23": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            },
+            "7.0.20": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            },
+            "8.0.9": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            }
+        }
+    },
+    "CVE-2025-6713": {
+        "CVE-ID": "CVE-2025-6713",
+        "NVD": {
+            "Descriptions": "An unauthorized user may leverage a specially crafted aggregation pipeline to access data without proper authorization due to improper handling of the $mergeCursors stage in MongoDB Server. This may lead to access to data without further authorisation. This issue affects MongoDB Server MongoDB Server v8.0 versions prior to 8.0.7, MongoDB Server v7.0 versions prior to 7.0.20 and MongoDB Server v6.0 versions prior to 6.0.22",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.7,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "6.0.22": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            },
+            "7.0.20": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            },
+            "8.0.7": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            }
+        }
+    },
+    "CVE-2025-6712": {
+        "CVE-ID": "CVE-2025-6712",
+        "NVD": {
+            "Descriptions": "MongoDB Server may be susceptible to disruption caused by high memory usage, potentially leading to server crash. This condition is linked to inefficiencies in memory management related to internal operations. In scenarios where certain internal processes persist longer than anticipated, memory consumption can increase, potentially impacting server stability and availability. This issue affects MongoDB Server v8.0 versions prior to 8.0.10",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.0.10": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            }
+        }
+    },
+    "CVE-2025-6711": {
+        "CVE-ID": "CVE-2025-6711",
+        "NVD": {
+            "Descriptions": "An issue has been identified in MongoDB Server where unredacted queries may inadvertently appear in server logs when certain error conditions are encountered. This issue affects MongoDB Server v8.0 versions prior to 8.0.5, MongoDB Server v7.0 versions prior to 7.0.18 and MongoDB Server v6.0 versions prior to 6.0.21.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 4.4,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "6.0.21": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            },
+            "7.0.18": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            },
+            "8.0.5": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            }
+        }
+    },
+    "CVE-2025-6710": {
+        "CVE-ID": "CVE-2025-6710",
+        "NVD": {
+            "Descriptions": "MongoDB Server may be susceptible to stack overflow due to JSON parsing mechanism, where specifically crafted JSON inputs may induce unwarranted levels of recursion, resulting in excessive stack space consumption. Such inputs can lead to a stack overflow that causes the server to crash which could occur pre-authorisation. This issue affects MongoDB Server v7.0 versions prior to 7.0.17 and MongoDB Server v8.0 versions prior to 8.0.5.\n\nThe same issue affects MongoDB Server v6.0 versions prior to 6.0.21, but an attacker can only induce denial of service after authenticating.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "6.0.21": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            },
+            "7.0.17": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            },
+            "8.0.5": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            }
+        }
+    },
+    "CVE-2025-6709": {
+        "CVE-ID": "CVE-2025-6709",
+        "NVD": {
+            "Descriptions": "The MongoDB Server is susceptible to a denial of service vulnerability due to improper handling of specific date values in JSON input when using OIDC authentication. This can be reproduced using the mongo shell to send a malicious JSON payload leading to an invariant failure and server crash. This issue affects MongoDB Server v7.0 versions prior to 7.0.17 and MongoDB Server v8.0 versions prior to 8.0.5.\n\nThe same issue affects MongoDB Server v6.0 versions prior to 6.0.21, but an attacker can only induce denial of service after authenticating.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "7.0.17": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            },
+            "8.0.5": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            },
+            "6.0.21": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            }
+        }
+    },
+    "CVE-2025-6707": {
+        "CVE-ID": "CVE-2025-6707",
+        "NVD": {
+            "Descriptions": "Under certain conditions, an authenticated user request may execute with stale privileges following an intentional change by an authorized administrator. This issue affects MongoDB Server v5.0 version prior to 5.0.31, MongoDB Server v6.0 version prior to 6.0.24, MongoDB Server v7.0 version prior to 7.0.21 and MongoDB Server v8.0 version prior to 8.0.5.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 4.2,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "5.0.31": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            },
+            "6.0.24": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            },
+            "7.0.21": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            },
+            "8.0.5": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            }
+        }
+    },
+    "CVE-2025-6706": {
+        "CVE-ID": "CVE-2025-6706",
+        "NVD": {
+            "Descriptions": "An authenticated user may trigger a use after free that may result in MongoDB Server crash and other unexpected behavior, even if the user does not have authorization to shut down a server.\nThe crash is triggered on affected versions by issuing an aggregation framework operation using a specific combination of rarely-used aggregation pipeline expressions. This issue affects MongoDB Server v6.0 version prior to 6.0.21, MongoDB Server v7.0 version prior to 7.0.17 and MongoDB Server v8.0 version prior to 8.0.4 when the SBE engine is enabled.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L",
+            "CPEs": []
+        },
+        "Official": {
+            "6.0.21": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            },
+            "7.0.17": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            },
+            "8.0.4": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+                ]
+            }
+        }
+    },
     "CVE-2025-3085": {
         "CVE-ID": "CVE-2025-3085",
         "NVD": {
