@@ -10416,6 +10416,62 @@
             }
         }
     },
+    "CVE-2025-22871": {
+        "CVE-ID": "CVE-2025-22871",
+        "NVD": {
+            "Descriptions": "The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 9.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "1.25": {
+                "source": {
+                    "71988": "https://github.com/golang/go/issues/71988"
+                }
+            },
+            "1.24.2": {
+                "source": {
+                    "72011": "https://github.com/golang/go/issues/72011"
+                }
+            },
+            "1.23.8": {
+                "source": {
+                    "72010": "https://github.com/golang/go/issues/72010"
+                }
+            }
+        }
+    },
+    "CVE-2025-22870": {
+        "CVE-ID": "CVE-2025-22870",
+        "NVD": {
+            "Descriptions": "Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to \"*.example.com\", a request to \"[::1%25.example.com]:80` will incorrectly match and not be proxied.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 4.4,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L",
+            "CPEs": []
+        },
+        "Official": {
+            "1.25": {
+                "source": {
+                    "71984": "https://github.com/golang/go/issues/71984"
+                }
+            },
+            "1.23.7": {
+                "source": {
+                    "71985": "https://github.com/golang/go/issues/71985"
+                }
+            },
+            "1.24.1": {
+                "source": {
+                    "71986": "https://github.com/golang/go/issues/71986"
+                }
+            }
+        }
+    },
     "CVE-2024-3400": {
         "CVE-ID": "CVE-2024-3400",
         "NVD": {
@@ -10851,34 +10907,6 @@
             }
         }
     },
-    "CVE-2025-22870": {
-        "CVE-ID": "CVE-2025-22870",
-        "NVD": {
-            "Descriptions": "Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to \"*.example.com\", a request to \"[::1%25.example.com]:80` will incorrectly match and not be proxied.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 4.4,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L",
-            "CPEs": []
-        },
-        "Official": {
-            "1.23.7": {
-                "source": {
-                    "71985": "https://github.com/golang/go/issues/71985"
-                }
-            },
-            "1.24.1": {
-                "source": {
-                    "71986": "https://github.com/golang/go/issues/71986"
-                }
-            },
-            "1.25": {
-                "source": {
-                    "71984": "https://github.com/golang/go/issues/71984"
-                }
-            }
-        }
-    },
     "CVE-2025-22872": {
         "CVE-ID": "CVE-2025-22872",
         "NVD": {
@@ -10893,34 +10921,6 @@
             "Unreleased": {
                 "source": {
                     "73070": "https://github.com/golang/go/issues/73070"
-                }
-            }
-        }
-    },
-    "CVE-2025-22871": {
-        "CVE-ID": "CVE-2025-22871",
-        "NVD": {
-            "Descriptions": "The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 9.1,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
-            "CPEs": []
-        },
-        "Official": {
-            "1.25": {
-                "source": {
-                    "71988": "https://github.com/golang/go/issues/71988"
-                }
-            },
-            "1.24.2": {
-                "source": {
-                    "72011": "https://github.com/golang/go/issues/72011"
-                }
-            },
-            "1.23.8": {
-                "source": {
-                    "72010": "https://github.com/golang/go/issues/72010"
                 }
             }
         }

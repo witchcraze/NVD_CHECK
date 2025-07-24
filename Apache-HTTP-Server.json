@@ -18483,6 +18483,25 @@
             }
         }
     },
+    "CVE-2025-54090": {
+        "CVE-ID": "CVE-2025-54090",
+        "NVD": {
+            "Descriptions": "A bug in Apache HTTP Server 2.4.64 results in all \"RewriteCond expr ...\" tests evaluating as \"true\".\n\n\n\nUsers are recommended to upgrade to version 2.4.65, which fixes the issue.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+            "CPEs": []
+        },
+        "Official": {
+            "2.4.65": {
+                "source": [
+                    "https://httpd.apache.org/security/vulnerabilities_24.html",
+                    "https://archive.apache.org/dist/httpd/CHANGES_2.4"
+                ]
+            }
+        }
+    },
     "CVE-2024-42516": {
         "CVE-ID": "CVE-2024-42516",
         "NVD": {

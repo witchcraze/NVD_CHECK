@@ -48,7 +48,7 @@
     "CVE-2025-6713": {
         "CVE-ID": "CVE-2025-6713",
         "NVD": {
-            "Descriptions": "An unauthorized user may leverage a specially crafted aggregation pipeline to access data without proper authorization due to improper handling of the $mergeCursors stage in MongoDB Server. This may lead to access to data without further authorisation. This issue affects MongoDB Server MongoDB Server v8.0 versions prior to 8.0.7, MongoDB Server v7.0 versions prior to 7.0.20 and MongoDB Server v6.0 versions prior to 6.0.22",
+            "Descriptions": "An unauthorized user may leverage a specially crafted aggregation pipeline to access data without proper authorization due to improper handling of the $mergeCursors stage in MongoDB Server. This may lead to access to data without further authorisation. This issue affects MongoDB Server MongoDB Server v8.0 versions prior to 8.0.7, MongoDB Server v7.0 versions prior to 7.0.19 and MongoDB Server v6.0 versions prior to 6.0.22",
             "Cvss2_BaseScore": 0,
             "Cvss3_BaseScore": 7.7,
             "Cvss2_VectorString": "",
@@ -61,7 +61,7 @@
                     "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
             },
-            "7.0.20": {
+            "7.0.19": {
                 "source": [
                     "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
                 ]
