@@ -10,6 +10,11 @@
             "CPEs": []
         },
         "Official": {
+            "Ruby 3.3.9": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-3-9-released/"
+                ]
+            },
             "Ruby 3.2.9": {
                 "source": [
                     "https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-2-9-released/"
