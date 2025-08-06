@@ -10301,6 +10301,31 @@
             }
         }
     },
+    "CVE-2025-47907": {
+        "CVE-ID": "CVE-2025-47907",
+        "Official": {
+            "1.25": {
+                "source": {
+                    "74834": "https://github.com/golang/go/issues/74834"
+                }
+            },
+            "1.26": {
+                "source": {
+                    "74831": "https://github.com/golang/go/issues/74831"
+                }
+            },
+            "1.24.6": {
+                "source": {
+                    "74833": "https://github.com/golang/go/issues/74833"
+                }
+            },
+            "1.23.12": {
+                "source": {
+                    "74832": "https://github.com/golang/go/issues/74832"
+                }
+            }
+        }
+    },
     "CVE-2025-4674": {
         "CVE-ID": "CVE-2025-4674",
         "NVD": {
