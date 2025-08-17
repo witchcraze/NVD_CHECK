@@ -14503,6 +14503,31 @@
                     "https://www.postgresql.org/support/security/9.1/",
                     "https://www.postgresql.org/docs/release/9.1.3/"
                 ]
+            },
+            "17.6": {
+                "source": [
+                    "https://www.postgresql.org/docs/release/17.6/"
+                ]
+            },
+            "16.10": {
+                "source": [
+                    "https://www.postgresql.org/docs/release/16.10/"
+                ]
+            },
+            "15.14": {
+                "source": [
+                    "https://www.postgresql.org/docs/release/15.14/"
+                ]
+            },
+            "14.19": {
+                "source": [
+                    "https://www.postgresql.org/docs/release/14.19/"
+                ]
+            },
+            "13.22": {
+                "source": [
+                    "https://www.postgresql.org/docs/release/13.22/"
+                ]
             }
         }
     },
@@ -26203,6 +26228,31 @@
                     "https://www.postgresql.org/docs/release/9.6.3/"
                 ]
             },
+            "17.6": {
+                "source": [
+                    "https://www.postgresql.org/docs/release/17.6/"
+                ]
+            },
+            "16.10": {
+                "source": [
+                    "https://www.postgresql.org/docs/release/16.10/"
+                ]
+            },
+            "15.14": {
+                "source": [
+                    "https://www.postgresql.org/docs/release/15.14/"
+                ]
+            },
+            "14.19": {
+                "source": [
+                    "https://www.postgresql.org/docs/release/14.19/"
+                ]
+            },
+            "13.22": {
+                "source": [
+                    "https://www.postgresql.org/docs/release/13.22/"
+                ]
+            },
             "12.2": {
                 "source": [
                     "https://www.postgresql.org/docs/release/12.2/"
@@ -32884,6 +32934,135 @@
                 "source": [
                     "https://www.postgresql.org/support/security/15/",
                     "https://www.postgresql.org/docs/release/15.2/"
+                ]
+            }
+        }
+    },
+    "CVE-2025-8715": {
+        "CVE-ID": "CVE-2025-8715",
+        "NVD": {
+            "Descriptions": "Improper neutralization of newlines in pg_dump in PostgreSQL allows a user of the origin server to inject arbitrary code for restore-time execution as the client operating system account running psql to restore the dump, via psql meta-commands inside a purpose-crafted object name.  The same attacks can achieve SQL injection as a superuser of the restore target server.  pg_dumpall, pg_restore, and pg_upgrade are also affected.  Versions before PostgreSQL 17.6, 16.10, 15.14, 14.19, and 13.22 are affected.  Versions before 11.20 are unaffected.  CVE-2012-0868 had fixed this class of problem, but version 11.20 reintroduced it.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "13.22": {
+                "source": [
+                    "https://www.postgresql.org/support/security/13/",
+                    "https://www.postgresql.org/docs/release/13.22/"
+                ]
+            },
+            "14.19": {
+                "source": [
+                    "https://www.postgresql.org/support/security/14/",
+                    "https://www.postgresql.org/docs/release/14.19/"
+                ]
+            },
+            "15.14": {
+                "source": [
+                    "https://www.postgresql.org/support/security/15/",
+                    "https://www.postgresql.org/docs/release/15.14/"
+                ]
+            },
+            "16.10": {
+                "source": [
+                    "https://www.postgresql.org/support/security/16/",
+                    "https://www.postgresql.org/docs/release/16.10/"
+                ]
+            },
+            "17.6": {
+                "source": [
+                    "https://www.postgresql.org/support/security/17/",
+                    "https://www.postgresql.org/docs/release/17.6/"
+                ]
+            }
+        }
+    },
+    "CVE-2025-8714": {
+        "CVE-ID": "CVE-2025-8714",
+        "NVD": {
+            "Descriptions": "Untrusted data inclusion in pg_dump in PostgreSQL allows a malicious superuser of the origin server to inject arbitrary code for restore-time execution as the client operating system account running psql to restore the dump, via psql meta-commands.  pg_dumpall is also affected.  pg_restore is affected when used to generate a plain-format dump.  This is similar to MySQL CVE-2024-21096.  Versions before PostgreSQL 17.6, 16.10, 15.14, 14.19, and 13.22 are affected.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "13.22": {
+                "source": [
+                    "https://www.postgresql.org/support/security/13/",
+                    "https://www.postgresql.org/docs/release/13.22/"
+                ]
+            },
+            "14.19": {
+                "source": [
+                    "https://www.postgresql.org/support/security/14/",
+                    "https://www.postgresql.org/docs/release/14.19/"
+                ]
+            },
+            "15.14": {
+                "source": [
+                    "https://www.postgresql.org/support/security/15/",
+                    "https://www.postgresql.org/docs/release/15.14/"
+                ]
+            },
+            "16.10": {
+                "source": [
+                    "https://www.postgresql.org/support/security/16/",
+                    "https://www.postgresql.org/docs/release/16.10/"
+                ]
+            },
+            "17.6": {
+                "source": [
+                    "https://www.postgresql.org/support/security/17/",
+                    "https://www.postgresql.org/docs/release/17.6/"
+                ]
+            }
+        }
+    },
+    "CVE-2025-8713": {
+        "CVE-ID": "CVE-2025-8713",
+        "NVD": {
+            "Descriptions": "PostgreSQL optimizer statistics allow a user to read sampled data within a view that the user cannot access.  Separately, statistics allow a user to read sampled data that a row security policy intended to hide.  PostgreSQL maintains statistics for tables by sampling data available in columns; this data is consulted during the query planning process.  Prior to this release, a user could craft a leaky operator that bypassed view access control lists (ACLs) and bypassed row security policies in partitioning or table inheritance hierarchies.  Reachable statistics data notably included histograms and most-common-values lists.  CVE-2017-7484 and CVE-2019-10130 intended to close this class of vulnerability, but this gap remained.  Versions before PostgreSQL 17.6, 16.10, 15.14, 14.19, and 13.22 are affected.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 3.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "13.22": {
+                "source": [
+                    "https://www.postgresql.org/support/security/13/",
+                    "https://www.postgresql.org/docs/release/13.22/"
+                ]
+            },
+            "14.19": {
+                "source": [
+                    "https://www.postgresql.org/support/security/14/",
+                    "https://www.postgresql.org/docs/release/14.19/"
+                ]
+            },
+            "15.14": {
+                "source": [
+                    "https://www.postgresql.org/support/security/15/",
+                    "https://www.postgresql.org/docs/release/15.14/"
+                ]
+            },
+            "16.10": {
+                "source": [
+                    "https://www.postgresql.org/support/security/16/",
+                    "https://www.postgresql.org/docs/release/16.10/"
+                ]
+            },
+            "17.6": {
+                "source": [
+                    "https://www.postgresql.org/support/security/17/",
+                    "https://www.postgresql.org/docs/release/17.6/"
                 ]
             }
         }

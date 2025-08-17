@@ -9767,6 +9767,51 @@
             ]
         }
     },
+    "CVE-2025-0913": {
+        "CVE-ID": "CVE-2025-0913",
+        "NVD": {
+            "Descriptions": "os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.23.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.24.0",
+                    "VersionEndExcluding": "1.24.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.25": {
+                "source": {
+                    "73702": "https://github.com/golang/go/issues/73702"
+                }
+            },
+            "1.23.10": {
+                "source": {
+                    "73719": "https://github.com/golang/go/issues/73719"
+                }
+            },
+            "1.24.4": {
+                "source": {
+                    "73720": "https://github.com/golang/go/issues/73720"
+                }
+            }
+        }
+    },
     "CVE-2024-24787": {
         "CVE-ID": "CVE-2024-24787",
         "NVD": {
@@ -10303,6 +10348,14 @@
     },
     "CVE-2025-47907": {
         "CVE-ID": "CVE-2025-47907",
+        "NVD": {
+            "Descriptions": "Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L",
+            "CPEs": []
+        },
         "Official": {
             "1.25": {
                 "source": {
@@ -10331,9 +10384,9 @@
         "NVD": {
             "Descriptions": "The go command may execute unexpected commands when operating in untrusted VCS repositories. This occurs when possibly dangerous VCS configuration is present in repositories. This can happen when a repository was fetched via one VCS (e.g. Git), but contains metadata for another VCS (e.g. Mercurial). Modules which are retrieved using the go command line, i.e. via \"go get\", are not affected.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 8.6,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
             "CPEs": []
         },
         "Official": {
@@ -10378,34 +10431,6 @@
             "1.24.4": {
                 "source": {
                     "73906": "https://github.com/golang/go/issues/73906"
-                }
-            }
-        }
-    },
-    "CVE-2025-0913": {
-        "CVE-ID": "CVE-2025-0913",
-        "NVD": {
-            "Descriptions": "os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 5.5,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
-            "CPEs": []
-        },
-        "Official": {
-            "1.25": {
-                "source": {
-                    "73702": "https://github.com/golang/go/issues/73702"
-                }
-            },
-            "1.23.10": {
-                "source": {
-                    "73719": "https://github.com/golang/go/issues/73719"
-                }
-            },
-            "1.24.4": {
-                "source": {
-                    "73720": "https://github.com/golang/go/issues/73720"
                 }
             }
         }
@@ -11050,6 +11075,14 @@
     },
     "CVE-2024-8244": {
         "CVE-ID": "CVE-2024-8244",
+        "NVD": {
+            "Descriptions": "The filepath.Walk and filepath.WalkDir functions are documented as not following symbolic links, but both functions are susceptible to a TOCTOU (time of check/time of use) race condition where a portion of the path being walked is replaced with a symbolic link while the walk is in progress.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+            "CPEs": []
+        },
         "Official": {
             "NOT_IN_MILESTONE": {
                 "source": {
