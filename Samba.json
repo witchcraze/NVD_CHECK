@@ -51664,7 +51664,7 @@
                     "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "4.1.0",
-                    "VersionEndExcluding": "",
+                    "VersionEndExcluding": "4.16.0",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -51700,7 +51700,7 @@
                     "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "4.1.0",
-                    "VersionEndExcluding": "",
+                    "VersionEndExcluding": "4.17.0",
                     "VersionEndIncluding": ""
                 }
             ]
@@ -51728,7 +51728,7 @@
                     "FormattedString": "cpe:2.3:a:samba:samba:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "4.1.0",
-                    "VersionEndExcluding": "",
+                    "VersionEndExcluding": "4.17.0",
                     "VersionEndIncluding": ""
                 }
             ]

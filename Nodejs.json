@@ -23331,7 +23331,40 @@
             "Cvss3_BaseScore": 5.6,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.0/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:L/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0",
+                    "VersionEndExcluding": "18.20.6",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "20.0",
+                    "VersionEndExcluding": "20.18.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "22.0",
+                    "VersionEndExcluding": "22.13.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "23.0",
+                    "VersionEndExcluding": "23.6.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "18.20.6": {

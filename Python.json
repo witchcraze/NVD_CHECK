@@ -13139,7 +13139,7 @@
                     "URI": "cpe:/a:zlib:zlib",
                     "FormattedString": "cpe:2.3:a:zlib:zlib:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
+                    "VersionStartIncluding": "1.2.2.2",
                     "VersionEndExcluding": "1.2.12",
                     "VersionEndIncluding": ""
                 },
