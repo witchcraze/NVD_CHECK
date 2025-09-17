@@ -7,7 +7,40 @@
             "Cvss3_BaseScore": 7,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.8.0",
+                    "VersionEndExcluding": "6.2.19",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.2.0",
+                    "VersionEndExcluding": "7.2.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.4.0",
+                    "VersionEndExcluding": "7.4.5",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.2.0": {
@@ -46,7 +79,40 @@
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "6.2.19",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0",
+                    "VersionEndExcluding": "7.2.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.4.0",
+                    "VersionEndExcluding": "7.4.5",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.2.0": {
@@ -127,7 +193,48 @@
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:debian:debian_linux:11.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:11.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.6.0",
+                    "VersionEndExcluding": "7.4.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:lfprojects:valkey",
+                    "FormattedString": "cpe:2.3:a:lfprojects:valkey:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.2.4",
+                    "VersionEndExcluding": "7.2.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:lfprojects:valkey",
+                    "FormattedString": "cpe:2.3:a:lfprojects:valkey:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:lfprojects:valkey",
+                    "FormattedString": "cpe:2.3:a:lfprojects:valkey:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.1.0",
+                    "VersionEndExcluding": "8.1.1",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.0.0": {
@@ -161,7 +268,40 @@
             "Cvss3_BaseScore": 7,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:debian:debian_linux:11.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:11.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "6.2.0",
+                    "VersionEndExcluding": "6.2.17",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.2.0",
+                    "VersionEndExcluding": "7.2.7",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.4.0",
+                    "VersionEndExcluding": "7.4.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.0-M03": {
@@ -195,7 +335,24 @@
             "Cvss3_BaseScore": 4.4,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.2.7",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.4.0",
+                    "VersionEndExcluding": "7.4.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.0-M03": {
@@ -223,7 +380,48 @@
             "Cvss3_BaseScore": 7,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:redis:redis:7.4.0:rc2",
+                    "FormattedString": "cpe:2.3:a:redis:redis:7.4.0:rc2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis:7.4.0:rc1",
+                    "FormattedString": "cpe:2.3:a:redis:redis:7.4.0:rc1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis:7.4.0:-",
+                    "FormattedString": "cpe:2.3:a:redis:redis:7.4.0:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.8.18",
+                    "VersionEndExcluding": "6.2.16",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.2.0",
+                    "VersionEndExcluding": "7.2.6",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.0-M02": {
@@ -302,7 +500,48 @@
             "Cvss3_BaseScore": 5.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:redis:redis:7.4.0:rc2",
+                    "FormattedString": "cpe:2.3:a:redis:redis:7.4.0:rc2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis:7.4.0:rc1",
+                    "FormattedString": "cpe:2.3:a:redis:redis:7.4.0:rc1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis:7.4.0:-",
+                    "FormattedString": "cpe:2.3:a:redis:redis:7.4.0:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "2.2.5",
+                    "VersionEndExcluding": "6.2.16",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.2.0",
+                    "VersionEndExcluding": "7.2.6",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.0-M02": {
