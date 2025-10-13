@@ -8678,7 +8678,7 @@
             },
             "3.11.0b1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.14.0a6/Misc/NEWS.d/3.11.0b1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.11.0b1.rst"
                 ],
                 "BTS": {
                     "gh-issue68966": {
@@ -22528,7 +22528,7 @@
             },
             "3.14.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.14.0rc3/Misc/NEWS.d/3.14.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.14.0a1.rst"
                 ],
                 "BTS": {
                     "gh-issue121285": {
@@ -22776,7 +22776,7 @@
             },
             "3.14.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.14.0rc3/Misc/NEWS.d/3.14.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.14.0a1.rst"
                 ],
                 "BTS": {
                     "gh-issue123067": {
@@ -24335,7 +24335,7 @@
             },
             "3.14.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.14.0rc3/Misc/NEWS.d/3.14.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.14.0a1.rst"
                 ],
                 "BTS": {
                     "gh-issue118486": {
@@ -24343,6 +24343,33 @@
                         "url": "https://github.com/python/cpython/issues/118486",
                         "date": "2024-10-14-04-44-12",
                         "nonce": "K44KJG",
+                        "section": "Security"
+                    }
+                }
+            }
+        }
+    },
+    "CVE-2024-5642": {
+        "CVE-ID": "CVE-2024-5642",
+        "NVD": {
+            "Descriptions": "CPython 3.9 and earlier doesn't disallow configuring an empty list (\"[]\") for SSLContext.set_npn_protocols() which is an invalid value for the underlying OpenSSL API. This results in a buffer over-read when NPN is used (see CVE-2024-5535 for OpenSSL). This vulnerability is of low severity due to NPN being not widely used and specifying an empty list likely being uncommon in-practice (typically a protocol name would be configured).",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+            "CPEs": []
+        },
+        "Official": {
+            "3.9.24": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.9.24/Misc/NEWS.d/3.9.24.rst"
+                ],
+                "BTS": {
+                    "gh-issue121227": {
+                        "ID": "gh-issue121227",
+                        "url": "https://github.com/python/cpython/issues/121227",
+                        "date": "2025-07-28-10-35-59",
+                        "nonce": "Orp1wf",
                         "section": "Security"
                     }
                 }

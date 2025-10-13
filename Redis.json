@@ -7,7 +7,48 @@
             "Cvss3_BaseScore": 9.9,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "6.2.20",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0",
+                    "VersionEndExcluding": "7.2.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.4.0",
+                    "VersionEndExcluding": "7.4.6",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "8.2.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "7.2.11": {
@@ -46,7 +87,16 @@
             "Cvss3_BaseScore": 7,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "8.2.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "7.2.11": {
@@ -85,7 +135,16 @@
             "Cvss3_BaseScore": 6,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "8.2.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "7.2.11": {
@@ -124,7 +183,16 @@
             "Cvss3_BaseScore": 6.3,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "8.2.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "7.2.11": {
