@@ -1,4 +1,62 @@
 {
+    "CVE-2025-10230": {
+        "CVE-ID": "CVE-2025-10230",
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2025-10230.html"
+                ]
+            },
+            "4.21.9": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.21.9.html"
+                ]
+            },
+            "4.22.5": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.22.5.html"
+                ]
+            },
+            "4.23.2": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.23.2.html"
+                ]
+            }
+        }
+    },
+    "CVE-2025-9640": {
+        "CVE-ID": "CVE-2025-9640",
+        "NVD": {
+            "Descriptions": "A flaw was found in Samba, in the vfs_streams_xattr module, where uninitialized heap memory could be written into alternate data streams. This allows an authenticated user to read residual memory content that may include sensitive data, resulting in an information disclosure vulnerability.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 4.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2025-9640.html"
+                ]
+            },
+            "4.21.9": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.21.9.html"
+                ]
+            },
+            "4.22.5": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.22.5.html"
+                ]
+            },
+            "4.23.2": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.23.2.html"
+                ]
+            }
+        }
+    },
     "CVE-2023-3961": {
         "CVE-ID": "CVE-2023-3961",
         "NVD": {
