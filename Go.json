@@ -10395,14 +10395,14 @@
                     "74380": "https://github.com/golang/go/issues/74380"
                 }
             },
-            "1.23.11": {
-                "source": {
-                    "74382": "https://github.com/golang/go/issues/74382"
-                }
-            },
             "1.24.5": {
                 "source": {
                     "74381": "https://github.com/golang/go/issues/74381"
+                }
+            },
+            "1.23.11": {
+                "source": {
+                    "74382": "https://github.com/golang/go/issues/74382"
                 }
             }
         }
@@ -10967,6 +10967,14 @@
     },
     "CVE-2025-58187": {
         "CVE-ID": "CVE-2025-58187",
+        "NVD": {
+            "Descriptions": "Due to the design of the name constraint checking algorithm, the processing time of some inputs scals non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+            "CPEs": []
+        },
         "Official": {
             "1.26": {
                 "source": {
@@ -10988,6 +10996,14 @@
     },
     "CVE-2025-47912": {
         "CVE-ID": "CVE-2025-47912",
+        "NVD": {
+            "Descriptions": "The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: \"http://[::1]/\". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "CPEs": []
+        },
         "Official": {
             "1.26": {
                 "source": {
@@ -11009,6 +11025,14 @@
     },
     "CVE-2025-61724": {
         "CVE-ID": "CVE-2025-61724",
+        "NVD": {
+            "Descriptions": "The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "CPEs": []
+        },
         "Official": {
             "1.26": {
                 "source": {
@@ -11039,6 +11063,14 @@
     },
     "CVE-2025-61725": {
         "CVE-ID": "CVE-2025-61725",
+        "NVD": {
+            "Descriptions": "The ParseAddress function constructeds domain-literal address components through repeated string concatenation. When parsing large domain-literal components, this can cause excessive CPU consumption.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": []
+        },
         "Official": {
             "1.26": {
                 "source": {
@@ -11059,6 +11091,14 @@
     },
     "CVE-2025-58183": {
         "CVE-ID": "CVE-2025-58183",
+        "NVD": {
+            "Descriptions": "tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 3.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+            "CPEs": []
+        },
         "Official": {
             "1.26": {
                 "source": {
@@ -11079,6 +11119,14 @@
     },
     "CVE-2025-61723": {
         "CVE-ID": "CVE-2025-61723",
+        "NVD": {
+            "Descriptions": "The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+            "CPEs": []
+        },
         "Official": {
             "1.26": {
                 "source": {
@@ -11099,6 +11147,14 @@
     },
     "CVE-2025-58188": {
         "CVE-ID": "CVE-2025-58188",
+        "NVD": {
+            "Descriptions": "Validating certificate chains which contain DSA public keys can cause programs to panic, due to a interface cast that assumes they implement the Equal method. This affects programs which validate arbitrary certificate chains.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
         "Official": {
             "1.26": {
                 "source": {
@@ -11119,6 +11175,14 @@
     },
     "CVE-2025-58186": {
         "CVE-ID": "CVE-2025-58186",
+        "NVD": {
+            "Descriptions": "Despite HTTP headers having a default limit of 1MB, the number of cookies that can be parsed does not have a limit. By sending a lot of very small cookies such as \"a=;\", an attacker can make an HTTP server allocate a large amount of structs, causing large memory consumption.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "CPEs": []
+        },
         "Official": {
             "1.26": {
                 "source": {
@@ -11139,6 +11203,14 @@
     },
     "CVE-2025-58185": {
         "CVE-ID": "CVE-2025-58185",
+        "NVD": {
+            "Descriptions": "Parsing a maliciously crafted DER payload could allocate large amounts of memory, causing memory exhaustion.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "CPEs": []
+        },
         "Official": {
             "1.26": {
                 "source": {
@@ -11159,6 +11231,14 @@
     },
     "CVE-2025-58189": {
         "CVE-ID": "CVE-2025-58189",
+        "NVD": {
+            "Descriptions": "When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "CPEs": []
+        },
         "Official": {
             "1.26": {
                 "source": {

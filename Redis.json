@@ -1,4 +1,14 @@
 {
+    "CVE-2025-62507": {
+        "CVE-ID": "CVE-2025-62507",
+        "Official": {
+            "8.2.3": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.2.3"
+                ]
+            }
+        }
+    },
     "CVE-2025-49844": {
         "CVE-ID": "CVE-2025-49844",
         "NVD": {
