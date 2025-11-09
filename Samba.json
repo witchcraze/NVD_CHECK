@@ -1,6 +1,14 @@
 {
     "CVE-2025-10230": {
         "CVE-ID": "CVE-2025-10230",
+        "NVD": {
+            "Descriptions": "A flaw was found in Samba, in the front-end WINS hook handling: NetBIOS names from registration packets are passed to a shell without proper validation or escaping. Unsanitized NetBIOS name data from WINS registration packets are inserted into a shell command and executed by the Samba Active Directory Domain Controller\u2019s wins hook, allowing an unauthenticated network attacker to achieve remote command execution as the Samba process.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 10,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+            "CPEs": []
+        },
         "Official": {
             "-": {
                 "source": [
