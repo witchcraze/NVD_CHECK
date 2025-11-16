@@ -32938,6 +32938,104 @@
             }
         }
     },
+    "CVE-2025-12818": {
+        "CVE-ID": "CVE-2025-12818",
+        "NVD": {
+            "Descriptions": "Integer wraparound in multiple PostgreSQL libpq client library functions allows an application input provider or network peer to cause libpq to undersize an allocation and write out-of-bounds by hundreds of megabytes.  This results in a segmentation fault for the application using libpq.  Versions before PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 are affected.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.9,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "13.23": {
+                "source": [
+                    "https://www.postgresql.org/support/security/13/",
+                    "https://www.postgresql.org/docs/release/13.23/"
+                ]
+            },
+            "14.20": {
+                "source": [
+                    "https://www.postgresql.org/support/security/14/",
+                    "https://www.postgresql.org/docs/release/14.20/"
+                ]
+            },
+            "15.15": {
+                "source": [
+                    "https://www.postgresql.org/support/security/15/",
+                    "https://www.postgresql.org/docs/release/15.15/"
+                ]
+            },
+            "16.11": {
+                "source": [
+                    "https://www.postgresql.org/support/security/16/",
+                    "https://www.postgresql.org/docs/release/16.11/"
+                ]
+            },
+            "17.7": {
+                "source": [
+                    "https://www.postgresql.org/support/security/17/",
+                    "https://www.postgresql.org/docs/release/17.7/"
+                ]
+            },
+            "18.1": {
+                "source": [
+                    "https://www.postgresql.org/support/security/18/",
+                    "https://www.postgresql.org/docs/release/18.1/"
+                ]
+            }
+        }
+    },
+    "CVE-2025-12817": {
+        "CVE-ID": "CVE-2025-12817",
+        "NVD": {
+            "Descriptions": "Missing authorization in PostgreSQL CREATE STATISTICS command allows a table owner to achieve denial of service against other CREATE STATISTICS users by creating in any schema.  A later CREATE STATISTICS for the same name, from a user having the CREATE privilege, would then fail.  Versions before PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 are affected.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 3.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L",
+            "CPEs": []
+        },
+        "Official": {
+            "13.23": {
+                "source": [
+                    "https://www.postgresql.org/support/security/13/",
+                    "https://www.postgresql.org/docs/release/13.23/"
+                ]
+            },
+            "14.20": {
+                "source": [
+                    "https://www.postgresql.org/support/security/14/",
+                    "https://www.postgresql.org/docs/release/14.20/"
+                ]
+            },
+            "15.15": {
+                "source": [
+                    "https://www.postgresql.org/support/security/15/",
+                    "https://www.postgresql.org/docs/release/15.15/"
+                ]
+            },
+            "16.11": {
+                "source": [
+                    "https://www.postgresql.org/support/security/16/",
+                    "https://www.postgresql.org/docs/release/16.11/"
+                ]
+            },
+            "17.7": {
+                "source": [
+                    "https://www.postgresql.org/support/security/17/",
+                    "https://www.postgresql.org/docs/release/17.7/"
+                ]
+            },
+            "18.1": {
+                "source": [
+                    "https://www.postgresql.org/support/security/18/",
+                    "https://www.postgresql.org/docs/release/18.1/"
+                ]
+            }
+        }
+    },
     "CVE-2025-8715": {
         "CVE-ID": "CVE-2025-8715",
         "NVD": {
