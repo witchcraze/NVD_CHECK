@@ -2,9 +2,13 @@
     "CVE-2025-61594": {
         "CVE-ID": "CVE-2025-61594",
         "Official": {
-            "": {
+            "Ruby 3.3.10": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2025/10/23/ruby-3-3-10-released/",
+                    "https://www.ruby-lang.org/en/news/2025/10/23/ruby-3-3-10-released/"
+                ]
+            },
+            "Ruby 3.4.7": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2025/10/07/ruby-3-4-7-released/"
                 ]
             }
@@ -21,9 +25,13 @@
             "CPEs": []
         },
         "Official": {
-            "": {
+            "Ruby 3.3.9": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-3-9-released/",
+                    "https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-3-9-released/"
+                ]
+            },
+            "Ruby 3.2.9": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-2-9-released/"
                 ]
             }
@@ -73,7 +81,7 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.2.9": {
                 "source": [
                     "https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-2-9-released/"
                 ]
@@ -116,17 +124,13 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.2.8": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-1-7-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-1-7-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-1-7-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-1-7-released/",
+                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/"
+                ]
+            },
+            "Ruby 3.1.7": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-1-7-released/"
                 ]
             }
@@ -168,17 +172,13 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.2.8": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-1-7-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-1-7-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-1-7-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-1-7-released/",
+                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/"
+                ]
+            },
+            "Ruby 3.1.7": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-1-7-released/"
                 ]
             }
@@ -228,17 +228,13 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.2.8": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-1-7-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-1-7-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-1-7-released/",
-                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-1-7-released/",
+                    "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/"
+                ]
+            },
+            "Ruby 3.1.7": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-1-7-released/"
                 ]
             }
@@ -272,7 +268,7 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.2.5": {
                 "source": [
                     "https://www.ruby-lang.org/en/news/2024/07/26/ruby-3-2-5-released/"
                 ]
@@ -290,11 +286,23 @@
             "CPEs": []
         },
         "Official": {
-            "": {
+            "Ruby 3.3.1": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-3-1-released/",
-                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-2-4-released/",
-                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-1-5-released/",
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-3-1-released/"
+                ]
+            },
+            "Ruby 3.2.4": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-2-4-released/"
+                ]
+            },
+            "Ruby 3.1.5": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-1-5-released/"
+                ]
+            },
+            "Ruby 3.0.7": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-0-7-released/"
                 ]
             }
@@ -311,11 +319,23 @@
             "CPEs": []
         },
         "Official": {
-            "": {
+            "Ruby 3.3.1": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-3-1-released/",
-                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-2-4-released/",
-                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-1-5-released/",
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-3-1-released/"
+                ]
+            },
+            "Ruby 3.2.4": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-2-4-released/"
+                ]
+            },
+            "Ruby 3.1.5": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-1-5-released/"
+                ]
+            },
+            "Ruby 3.0.7": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-0-7-released/"
                 ]
             }
@@ -332,9 +352,13 @@
             "CPEs": []
         },
         "Official": {
-            "": {
+            "Ruby 3.1.5": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-1-5-released/",
+                    "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-1-5-released/"
+                ]
+            },
+            "Ruby 3.0.7": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-0-7-released/"
                 ]
             }
@@ -368,9 +392,8 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.2.3": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2024/01/18/ruby-3-2-3-released/",
                     "https://www.ruby-lang.org/en/news/2024/01/18/ruby-3-2-3-released/"
                 ]
             }
@@ -452,11 +475,23 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.2.2": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-2-2-released/",
-                    "https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-1-4-released/",
-                    "https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-0-6-released/",
+                    "https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-2-2-released/"
+                ]
+            },
+            "Ruby 3.1.4": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-1-4-released/"
+                ]
+            },
+            "Ruby 3.0.6": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-0-6-released/"
+                ]
+            },
+            "Ruby 2.7.8": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2023/03/30/ruby-2-7-8-released/"
                 ]
             }
@@ -530,11 +565,23 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.2.2": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-2-2-released/",
-                    "https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-1-4-released/",
-                    "https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-0-6-released/",
+                    "https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-2-2-released/"
+                ]
+            },
+            "Ruby 3.1.4": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-1-4-released/"
+                ]
+            },
+            "Ruby 3.0.6": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-0-6-released/"
+                ]
+            },
+            "Ruby 2.7.8": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2023/03/30/ruby-2-7-8-released/"
                 ]
             }
@@ -624,10 +671,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.1.3": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-1-3-released/",
-                    "https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-0-5-released/",
+                    "https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-1-3-released/"
+                ]
+            },
+            "Ruby 3.0.5": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-0-5-released/"
+                ]
+            },
+            "Ruby 2.7.7": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2022/11/24/ruby-2-7-7-released/"
                 ]
             }
@@ -661,9 +716,13 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.1.2": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-1-2-released/",
+                    "https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-1-2-released/"
+                ]
+            },
+            "Ruby 3.0.4": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-0-4-released/"
                 ]
             }
@@ -753,11 +812,23 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.1.2": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-1-2-released/",
-                    "https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-0-4-released/",
-                    "https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-7-6-released/",
+                    "https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-1-2-released/"
+                ]
+            },
+            "Ruby 3.0.4": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-0-4-released/"
+                ]
+            },
+            "Ruby 2.7.6": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-7-6-released/"
+                ]
+            },
+            "Ruby 2.6.10": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-6-10-released/"
                 ]
             }
@@ -927,10 +998,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.0.3": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2021/11/24/ruby-3-0-3-released/",
-                    "https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-7-5-released/",
+                    "https://www.ruby-lang.org/en/news/2021/11/24/ruby-3-0-3-released/"
+                ]
+            },
+            "Ruby 2.7.5": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-7-5-released/"
+                ]
+            },
+            "Ruby 2.6.9": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-6-9-released/"
                 ]
             }
@@ -988,9 +1067,13 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.0.3": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2021/11/24/ruby-3-0-3-released/",
+                    "https://www.ruby-lang.org/en/news/2021/11/24/ruby-3-0-3-released/"
+                ]
+            },
+            "Ruby 2.7.5": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-7-5-released/"
                 ]
             }
@@ -1152,10 +1235,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.0.3": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2021/11/24/ruby-3-0-3-released/",
-                    "https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-7-5-released/",
+                    "https://www.ruby-lang.org/en/news/2021/11/24/ruby-3-0-3-released/"
+                ]
+            },
+            "Ruby 2.7.5": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-7-5-released/"
+                ]
+            },
+            "Ruby 2.6.9": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-6-9-released/"
                 ]
             }
@@ -1213,10 +1304,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.0.2": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/",
-                    "https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/",
+                    "https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/"
+                ]
+            },
+            "Ruby 2.7.4": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/"
+                ]
+            },
+            "Ruby 2.6.8": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-6-8-released/"
                 ]
             }
@@ -1266,10 +1365,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.0.2": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/",
-                    "https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/",
+                    "https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/"
+                ]
+            },
+            "Ruby 2.7.4": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/"
+                ]
+            },
+            "Ruby 2.6.8": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-6-8-released/"
                 ]
             }
@@ -1319,10 +1426,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.0.2": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/",
-                    "https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/",
+                    "https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/"
+                ]
+            },
+            "Ruby 2.7.4": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/"
+                ]
+            },
+            "Ruby 2.6.8": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-6-8-released/"
                 ]
             }
@@ -1380,11 +1495,23 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.0.1": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2021/04/05/ruby-3-0-1-released/",
-                    "https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-7-3-released/",
-                    "https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-6-7-released/",
+                    "https://www.ruby-lang.org/en/news/2021/04/05/ruby-3-0-1-released/"
+                ]
+            },
+            "Ruby 2.7.3": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-7-3-released/"
+                ]
+            },
+            "Ruby 2.6.7": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-6-7-released/"
+                ]
+            },
+            "Ruby 2.5.9": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-5-9-released/"
                 ]
             }
@@ -1418,9 +1545,13 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 3.0.1": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2021/04/05/ruby-3-0-1-released/",
+                    "https://www.ruby-lang.org/en/news/2021/04/05/ruby-3-0-1-released/"
+                ]
+            },
+            "Ruby 2.7.3": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-7-3-released/"
                 ]
             }
@@ -1486,10 +1617,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.6.7": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-6-7-released/",
-                    "https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-5-9-released/",
+                    "https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-6-7-released/"
+                ]
+            },
+            "Ruby 2.5.9": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-5-9-released/"
+                ]
+            },
+            "Ruby 2.7.2": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2020/10/02/ruby-2-7-2-released/"
                 ]
             }
@@ -1563,11 +1702,23 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.7.1": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-7-1-released/",
-                    "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-6-6-released/",
-                    "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-5-8-released/",
+                    "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-7-1-released/"
+                ]
+            },
+            "Ruby 2.6.6": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-6-6-released/"
+                ]
+            },
+            "Ruby 2.5.8": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-5-8-released/"
+                ]
+            },
+            "Ruby 2.4.10": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-4-10-released/"
                 ]
             }
@@ -1625,10 +1776,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.7.1": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-7-1-released/",
-                    "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-6-6-released/",
+                    "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-7-1-released/"
+                ]
+            },
+            "Ruby 2.6.6": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-6-6-released/"
+                ]
+            },
+            "Ruby 2.5.8": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-5-8-released/"
                 ]
             }
@@ -1702,10 +1861,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.6.5": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-6-5-released/",
-                    "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-5-7-released/",
+                    "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-6-5-released/"
+                ]
+            },
+            "Ruby 2.5.7": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-5-7-released/"
+                ]
+            },
+            "Ruby 2.4.8": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-4-8-released/"
                 ]
             }
@@ -1763,10 +1930,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.6.5": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-6-5-released/",
-                    "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-5-7-released/",
+                    "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-6-5-released/"
+                ]
+            },
+            "Ruby 2.5.7": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-5-7-released/"
+                ]
+            },
+            "Ruby 2.4.8": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-4-8-released/"
                 ]
             }
@@ -1840,10 +2015,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.6.5": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-6-5-released/",
-                    "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-5-7-released/",
+                    "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-6-5-released/"
+                ]
+            },
+            "Ruby 2.5.7": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-5-7-released/"
+                ]
+            },
+            "Ruby 2.4.8": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-4-8-released/"
                 ]
             }
@@ -1893,10 +2076,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.6.5": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-6-5-released/",
-                    "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-5-7-released/",
+                    "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-6-5-released/"
+                ]
+            },
+            "Ruby 2.5.7": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-5-7-released/"
+                ]
+            },
+            "Ruby 2.4.8": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-4-8-released/"
                 ]
             }
@@ -2042,10 +2233,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.5.2": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-5-2-released/",
-                    "https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-4-5-released/",
+                    "https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-5-2-released/"
+                ]
+            },
+            "Ruby 2.4.5": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-4-5-released/"
+                ]
+            },
+            "Ruby 2.3.8": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-3-8-released/"
                 ]
             }
@@ -2167,10 +2366,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.5.2": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-5-2-released/",
-                    "https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-4-5-released/",
+                    "https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-5-2-released/"
+                ]
+            },
+            "Ruby 2.4.5": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-4-5-released/"
+                ]
+            },
+            "Ruby 2.3.8": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-3-8-released/"
                 ]
             }
@@ -2236,11 +2443,23 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.5.1": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/",
-                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-4-4-released/",
-                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-3-7-released/",
+                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/"
+                ]
+            },
+            "Ruby 2.4.4": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-4-4-released/"
+                ]
+            },
+            "Ruby 2.3.7": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-3-7-released/"
+                ]
+            },
+            "Ruby 2.2.10": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-2-10-released/"
                 ]
             }
@@ -2386,11 +2605,23 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.5.1": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/",
-                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-4-4-released/",
-                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-3-7-released/",
+                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/"
+                ]
+            },
+            "Ruby 2.4.4": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-4-4-released/"
+                ]
+            },
+            "Ruby 2.3.7": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-3-7-released/"
+                ]
+            },
+            "Ruby 2.2.10": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-2-10-released/"
                 ]
             }
@@ -2536,11 +2767,23 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.5.1": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/",
-                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-4-4-released/",
-                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-3-7-released/",
+                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/"
+                ]
+            },
+            "Ruby 2.4.4": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-4-4-released/"
+                ]
+            },
+            "Ruby 2.3.7": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-3-7-released/"
+                ]
+            },
+            "Ruby 2.2.10": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-2-10-released/"
                 ]
             }
@@ -2686,11 +2929,23 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.5.1": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/",
-                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-4-4-released/",
-                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-3-7-released/",
+                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/"
+                ]
+            },
+            "Ruby 2.4.4": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-4-4-released/"
+                ]
+            },
+            "Ruby 2.3.7": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-3-7-released/"
+                ]
+            },
+            "Ruby 2.2.10": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-2-10-released/"
                 ]
             }
@@ -2796,11 +3051,23 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.5.1": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/",
-                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-4-4-released/",
-                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-3-7-released/",
+                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/"
+                ]
+            },
+            "Ruby 2.4.4": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-4-4-released/"
+                ]
+            },
+            "Ruby 2.3.7": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-3-7-released/"
+                ]
+            },
+            "Ruby 2.2.10": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-2-10-released/"
                 ]
             }
@@ -2906,11 +3173,23 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.5.1": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/",
-                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-4-4-released/",
-                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-3-7-released/",
+                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/"
+                ]
+            },
+            "Ruby 2.4.4": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-4-4-released/"
+                ]
+            },
+            "Ruby 2.3.7": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-3-7-released/"
+                ]
+            },
+            "Ruby 2.2.10": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-2-10-released/"
                 ]
             }
@@ -3064,10 +3343,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.4.3": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2017/12/14/ruby-2-4-3-released/",
-                    "https://www.ruby-lang.org/en/news/2017/12/14/ruby-2-3-6-released/",
+                    "https://www.ruby-lang.org/en/news/2017/12/14/ruby-2-4-3-released/"
+                ]
+            },
+            "Ruby 2.3.6": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2017/12/14/ruby-2-3-6-released/"
+                ]
+            },
+            "Ruby 2.2.9": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2017/12/14/ruby-2-2-9-released/"
                 ]
             }
@@ -3205,10 +3492,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.4.2": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-4-2-released/",
-                    "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-3-5-released/",
+                    "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-4-2-released/"
+                ]
+            },
+            "Ruby 2.3.5": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-3-5-released/"
+                ]
+            },
+            "Ruby 2.2.8": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-2-8-released/"
                 ]
             }
@@ -3338,10 +3633,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.4.2": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-4-2-released/",
-                    "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-3-5-released/",
+                    "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-4-2-released/"
+                ]
+            },
+            "Ruby 2.3.5": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-3-5-released/"
+                ]
+            },
+            "Ruby 2.2.8": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-2-8-released/"
                 ]
             }
@@ -3551,10 +3854,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.4.2": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-4-2-released/",
-                    "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-3-5-released/",
+                    "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-4-2-released/"
+                ]
+            },
+            "Ruby 2.3.5": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-3-5-released/"
+                ]
+            },
+            "Ruby 2.2.8": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-2-8-released/"
                 ]
             }
@@ -3804,10 +4115,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.4.2": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-4-2-released/",
-                    "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-3-5-released/",
+                    "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-4-2-released/"
+                ]
+            },
+            "Ruby 2.3.5": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-3-5-released/"
+                ]
+            },
+            "Ruby 2.2.8": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-2-8-released/"
                 ]
             }
@@ -3937,10 +4256,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.2.4": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2015/12/16/ruby-2-2-4-released/",
-                    "https://www.ruby-lang.org/en/news/2015/12/16/ruby-2-1-8-released/",
+                    "https://www.ruby-lang.org/en/news/2015/12/16/ruby-2-2-4-released/"
+                ]
+            },
+            "Ruby 2.1.8": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2015/12/16/ruby-2-1-8-released/"
+                ]
+            },
+            "Ruby 2.0.0-p648": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2015/12/16/ruby-2-0-0-p648-released/"
                 ]
             }
@@ -4294,13 +4621,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.2.3": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2015/08/18/ruby-2-2-3-released/",
-                    "https://www.ruby-lang.org/en/news/2015/08/18/ruby-2-2-3-released/",
-                    "https://www.ruby-lang.org/en/news/2015/08/18/ruby-2-1-7-released/",
-                    "https://www.ruby-lang.org/en/news/2015/08/18/ruby-2-1-7-released/",
-                    "https://www.ruby-lang.org/en/news/2015/08/18/ruby-2-0-0-p647-released/",
+                    "https://www.ruby-lang.org/en/news/2015/08/18/ruby-2-2-3-released/"
+                ]
+            },
+            "Ruby 2.1.7": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2015/08/18/ruby-2-1-7-released/"
+                ]
+            },
+            "Ruby 2.0.0-p647": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2015/08/18/ruby-2-0-0-p647-released/"
                 ]
             }
@@ -4470,10 +4802,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.2.2": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2015/04/13/ruby-2-2-2-released/",
-                    "https://www.ruby-lang.org/en/news/2015/04/13/ruby-2-1-6-released/",
+                    "https://www.ruby-lang.org/en/news/2015/04/13/ruby-2-2-2-released/"
+                ]
+            },
+            "Ruby 2.1.6": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2015/04/13/ruby-2-1-6-released/"
+                ]
+            },
+            "Ruby 2.0.0-p645": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2015/04/13/ruby-2-0-0-p645-released/"
                 ]
             }
@@ -4699,10 +5039,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.1.5": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2014/11/13/ruby-2-1-5-is-released/",
-                    "https://www.ruby-lang.org/en/news/2014/11/13/ruby-2-0-0-p598-is-released/",
+                    "https://www.ruby-lang.org/en/news/2014/11/13/ruby-2-1-5-is-released/"
+                ]
+            },
+            "Ruby 2.0.0-p598": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2014/11/13/ruby-2-0-0-p598-is-released/"
+                ]
+            },
+            "Ruby 1.9.3-p551": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2014/11/13/ruby-1-9-3-p551-is-released/"
                 ]
             }
@@ -4968,10 +5316,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.1.4": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-1-4-released/",
-                    "https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-0-0-p594-is-released/",
+                    "https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-1-4-released/"
+                ]
+            },
+            "Ruby 2.0.0-p594": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-0-0-p594-is-released/"
+                ]
+            },
+            "Ruby 1.9.3-p550": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2014/10/27/ruby-1-9-3-p550-is-released/"
                 ]
             }
@@ -6165,7 +6521,7 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.1.4": {
                 "source": [
                     "https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-1-4-released/"
                 ]
@@ -6192,9 +6548,8 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 1.9.2-p330": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2014/08/19/ruby-1-9-2-p330-released/",
                     "https://www.ruby-lang.org/en/news/2014/08/19/ruby-1-9-2-p330-released/"
                 ]
             }
@@ -6284,7 +6639,7 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.0.0-p481 is": {
                 "source": [
                     "https://www.ruby-lang.org/en/news/2014/05/09/ruby-2-0-0-p481-is-released/"
                 ]
@@ -6359,10 +6714,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.1.0-preview2 is": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2013/11/22/ruby-2-1-0-preview2-is-released/",
-                    "https://www.ruby-lang.org/en/news/2013/11/22/ruby-2-0-0-p353-is-released/",
+                    "https://www.ruby-lang.org/en/news/2013/11/22/ruby-2-1-0-preview2-is-released/"
+                ]
+            },
+            "Ruby 2.0.0-p353 is": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2013/11/22/ruby-2-0-0-p353-is-released/"
+                ]
+            },
+            "Ruby 1.9.3-p484 is": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2013/11/22/ruby-1-9-3-p484-is-released/"
                 ]
             }
@@ -6716,10 +7079,18 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.0.0-p247 is": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2013/06/27/ruby-2-0-0-p247-is-released/",
-                    "https://www.ruby-lang.org/en/news/2013/06/27/ruby-1-9-3-p448-is-released/",
+                    "https://www.ruby-lang.org/en/news/2013/06/27/ruby-2-0-0-p247-is-released/"
+                ]
+            },
+            "Ruby 1.9.3-p448 is": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2013/06/27/ruby-1-9-3-p448-is-released/"
+                ]
+            },
+            "Ruby 1.8.7-p374 is": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2013/06/27/ruby-1-8-7-p374-is-released/"
                 ]
             }
@@ -6849,9 +7220,13 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 1.8.7-p374 is": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2013/06/27/ruby-1-8-7-p374-is-released/",
+                    "https://www.ruby-lang.org/en/news/2013/06/27/ruby-1-8-7-p374-is-released/"
+                ]
+            },
+            "Ruby 1.9.3-p392 is": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2013/02/22/ruby-1-9-3-p392-is-released/"
                 ]
             }
@@ -7029,9 +7404,13 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 2.0.0-p195 is": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2013/05/14/ruby-2-0-0-p195-is-released/",
+                    "https://www.ruby-lang.org/en/news/2013/05/14/ruby-2-0-0-p195-is-released/"
+                ]
+            },
+            "Ruby 1.9.3-p429 is": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2013/05/14/ruby-1-9-3-p429-is-released/"
                 ]
             }
@@ -7209,7 +7588,7 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 1.9.3-p392 is": {
                 "source": [
                     "https://www.ruby-lang.org/en/news/2013/02/22/ruby-1-9-3-p392-is-released/"
                 ]
@@ -7316,7 +7695,7 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 1.9.3-p286 is": {
                 "source": [
                     "https://www.ruby-lang.org/en/news/2012/10/12/ruby-1-9-3-p286-is-released/"
                 ]
@@ -7607,7 +7986,7 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 1.9.3-p286 is": {
                 "source": [
                     "https://www.ruby-lang.org/en/news/2012/10/12/ruby-1-9-3-p286-is-released/"
                 ]
@@ -7706,17 +8085,13 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 1.9.1-p430 is": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2010/08/16/ruby-1-9-1-p430-is-released/",
-                    "https://www.ruby-lang.org/en/news/2010/08/16/ruby-1-9-1-p430-is-released/",
-                    "https://www.ruby-lang.org/en/news/2010/08/16/ruby-1-9-1-p430-is-released/",
-                    "https://www.ruby-lang.org/en/news/2010/08/16/ruby-1-9-1-p430-is-released/",
-                    "https://www.ruby-lang.org/en/news/2010/08/16/ruby-1-9-1-p430-is-released/",
-                    "https://www.ruby-lang.org/en/news/2010/08/16/ruby-1-8-7-p302-is-released/",
-                    "https://www.ruby-lang.org/en/news/2010/08/16/ruby-1-8-7-p302-is-released/",
-                    "https://www.ruby-lang.org/en/news/2010/08/16/ruby-1-8-7-p302-is-released/",
-                    "https://www.ruby-lang.org/en/news/2010/08/16/ruby-1-8-7-p302-is-released/",
+                    "https://www.ruby-lang.org/en/news/2010/08/16/ruby-1-9-1-p430-is-released/"
+                ]
+            },
+            "Ruby 1.8.7-p302 is": {
+                "source": [
                     "https://www.ruby-lang.org/en/news/2010/08/16/ruby-1-8-7-p302-is-released/"
                 ]
             }
@@ -7790,13 +8165,8 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 1.9.1-p376 is": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2009/12/07/ruby-1-9-1-p376-is-released/",
-                    "https://www.ruby-lang.org/en/news/2009/12/07/ruby-1-9-1-p376-is-released/",
-                    "https://www.ruby-lang.org/en/news/2009/12/07/ruby-1-9-1-p376-is-released/",
-                    "https://www.ruby-lang.org/en/news/2009/12/07/ruby-1-9-1-p376-is-released/",
-                    "https://www.ruby-lang.org/en/news/2009/12/07/ruby-1-9-1-p376-is-released/",
                     "https://www.ruby-lang.org/en/news/2009/12/07/ruby-1-9-1-p376-is-released/"
                 ]
             }
@@ -7822,9 +8192,8 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 1.8.7-p160 and 1.8.6-p368": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2009/04/18/ruby-1-8-7-p160-and-1-8-6-p368-released/",
                     "https://www.ruby-lang.org/en/news/2009/04/18/ruby-1-8-7-p160-and-1-8-6-p368-released/"
                 ]
             }
@@ -7866,9 +8235,8 @@
             ]
         },
         "Official": {
-            "": {
+            "Ruby 1.8.7-p160 and 1.8.6-p368": {
                 "source": [
-                    "https://www.ruby-lang.org/en/news/2009/04/18/ruby-1-8-7-p160-and-1-8-6-p368-released/",
                     "https://www.ruby-lang.org/en/news/2009/04/18/ruby-1-8-7-p160-and-1-8-6-p368-released/"
                 ]
             }
