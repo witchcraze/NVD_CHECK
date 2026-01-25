@@ -8706,7 +8706,7 @@
             },
             "3.12.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.14.0rc3/Misc/NEWS.d/3.12.0a1.rst"
+                    "https://github.com/python/cpython/blob/3.13/Misc/NEWS.d/3.12.0a1.rst"
                 ],
                 "BTS": {
                     "gh-issue68966": {
@@ -11331,7 +11331,7 @@
             },
             "3.8.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.14.0a1/Misc/NEWS.d/3.8.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.8.0a1.rst"
                 ],
                 "BTS": {
                     "bpo32056": {
@@ -11752,7 +11752,7 @@
             },
             "3.8.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.14.0a1/Misc/NEWS.d/3.8.0a1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.8.0a1.rst"
                 ],
                 "BTS": {
                     "bpo33001": {
@@ -16886,7 +16886,7 @@
             },
             "3.12.0a1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.14.0rc3/Misc/NEWS.d/3.12.0a1.rst"
+                    "https://github.com/python/cpython/blob/3.13/Misc/NEWS.d/3.12.0a1.rst"
                 ],
                 "BTS": {
                     "gh-issue95778": {
@@ -20928,7 +20928,7 @@
             },
             "3.12.0a2": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.13.10/Misc/NEWS.d/3.12.0a2.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.12.0a2.rst"
                 ],
                 "BTS": {
                     "gh-issue98433": {
@@ -24571,7 +24571,7 @@
             },
             "3.13.0b1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.13/Misc/NEWS.d/3.13.0b1.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.13.0b1.rst"
                 ],
                 "BTS": {
                     "gh-issue118486": {
