@@ -146,6 +146,38 @@
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "6.2.20",
                     "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0",
+                    "VersionEndExcluding": "7.2.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.4.0",
+                    "VersionEndExcluding": "7.4.6",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "8.2.2",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -194,6 +226,38 @@
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "6.2.20",
                     "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0",
+                    "VersionEndExcluding": "7.2.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.4.0",
+                    "VersionEndExcluding": "7.4.6",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "8.2.2",
+                    "VersionEndIncluding": ""
                 }
             ]
         },
@@ -241,6 +305,38 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "6.2.20",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0",
+                    "VersionEndExcluding": "7.2.11",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.4.0",
+                    "VersionEndExcluding": "7.4.6",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "8.2.2",
                     "VersionEndIncluding": ""
                 }
             ]
