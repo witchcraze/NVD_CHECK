@@ -1,4 +1,241 @@
 {
+    "CVE-2026-25613": {
+        "CVE-ID": "CVE-2026-25613",
+        "NVD": {
+            "Descriptions": "An authorized user may disable the MongoDB server by issuing a query against a collection that contains an invalid compound wildcard index.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "7.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.18": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.2.4": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-1849": {
+        "CVE-ID": "CVE-2026-1849",
+        "NVD": {
+            "Descriptions": "MongoDB Server may experience an out-of-memory failure while evaluating expressions that produce deeply nested documents. The issue arises in recursive functions because the server does not periodically check the depth of the expression.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.0.18": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.2.2": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-1850": {
+        "CVE-ID": "CVE-2026-1850",
+        "NVD": {
+            "Descriptions": "Complex queries can cause excessive memory usage in MongoDB Query Planner resulting in an Out-Of-Memory Crash.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.0.18": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.2.4": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-25609": {
+        "CVE-ID": "CVE-2026-25609",
+        "NVD": {
+            "Descriptions": "Incorrect validation of the profile command may result in the determination that a request altering the 'filter' is read-only.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.4,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L",
+            "CPEs": []
+        },
+        "Official": {
+            "8.2.4": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.18": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-25610": {
+        "CVE-ID": "CVE-2026-25610",
+        "NVD": {
+            "Descriptions": "An authorized user may trigger a server crash by running a $geoNear pipeline with certain invalid index hints.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.0.13": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-1848": {
+        "CVE-ID": "CVE-2026-1848",
+        "NVD": {
+            "Descriptions": "Connections received from the proxy port may not count towards total accepted connections, resulting in server crashes if the total number of connections exceeds available resources. This only applies to connections accepted from the proxy port, pending the proxy protocol header.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.2.4": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.18": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-1847": {
+        "CVE-ID": "CVE-2026-1847",
+        "NVD": {
+            "Descriptions": "Inserting certain large documents into a replica set could lead to replica set secondaries not being able to fetch the oplog from the primary. This could stall replication inside the replica set leading to server crash.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.0.18": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-25612": {
+        "CVE-ID": "CVE-2026-25612",
+        "NVD": {
+            "Descriptions": "The internal locking mechanism of the MongoDB server uses an internal encoding of the resources in order to choose what lock to take. Collections may inadvertently collide with one another in this representation causing unavailability between them due to conflicting locks.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.2.4": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.18": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-25611": {
+        "CVE-ID": "CVE-2026-25611",
+        "NVD": {
+            "Descriptions": "A series of specifically crafted, unauthenticated messages can exhaust available memory and crash a MongoDB server.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.2.4": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.18": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
     "CVE-2025-14847": {
         "CVE-ID": "CVE-2025-14847",
         "NVD": {

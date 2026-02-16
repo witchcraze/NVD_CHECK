@@ -27193,6 +27193,11 @@
                     "https://github.com/nodejs/security-wg/blob/main/vuln/core/160.json"
                 ]
             },
+            "24.13.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md"
+                ]
+            },
             "24.13.0": {
                 "source": [
                     "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md",
@@ -27438,6 +27443,11 @@
                 "source": [
                     "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md",
                     "https://github.com/nodejs/security-wg/blob/main/vuln/core/163.json"
+                ]
+            },
+            "24.13.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md"
                 ]
             },
             "24.13.0": {

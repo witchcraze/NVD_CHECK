@@ -23010,7 +23010,7 @@
             },
             "3.15.0a3": {
                 "source": [
-                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.15.0a3.rst"
+                    "https://github.com/python/cpython/blob/v3.15.0a6/Misc/NEWS.d/3.15.0a3.rst"
                 ],
                 "BTS": {
                     "gh-issue142145": {
@@ -23058,6 +23058,22 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "3.15.0a6": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.15.0a6/Misc/NEWS.d/3.15.0a6.rst"
+                ],
+                "BTS": {
+                    "gh-issue125346": {
+                        "ID": "gh-issue125346",
+                        "url": "https://github.com/python/cpython/issues/125346",
+                        "date": "2025-10-27-00-13-04",
+                        "nonce": "7Gfpgw",
+                        "section": "Library"
+                    }
+                }
+            }
         }
     },
     "CVE-2025-13836": {
@@ -23065,9 +23081,9 @@
         "NVD": {
             "Descriptions": "When reading an HTTP response from a server, if no read amount is specified, the default behavior will be to use Content-Length. This allows a malicious server to cause the client to read large amounts of data into memory, potentially causing OOM or other DoS.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 9.1,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
                     "URI": "cpe:/a:python:python:3.15.0:alpha2",
@@ -23134,7 +23150,7 @@
             },
             "3.15.0a3": {
                 "source": [
-                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.15.0a3.rst"
+                    "https://github.com/python/cpython/blob/v3.15.0a6/Misc/NEWS.d/3.15.0a3.rst"
                 ],
                 "BTS": {
                     "gh-issue119451": {
@@ -23222,7 +23238,7 @@
             },
             "3.15.0a3": {
                 "source": [
-                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.15.0a3.rst"
+                    "https://github.com/python/cpython/blob/v3.15.0a6/Misc/NEWS.d/3.15.0a3.rst"
                 ],
                 "BTS": {
                     "gh-issue119342": {

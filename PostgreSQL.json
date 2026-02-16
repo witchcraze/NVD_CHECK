@@ -33336,6 +33336,178 @@
             }
         }
     },
+    "CVE-2026-2006": {
+        "CVE-ID": "CVE-2026-2006",
+        "NVD": {
+            "Descriptions": "Missing validation of multibyte character length in PostgreSQL text manipulation allows a database user to issue crafted queries that achieve a buffer overrun.  That suffices to execute arbitrary code as the operating system user running the database.  Versions before PostgreSQL 18.2, 17.8, 16.12, 15.16, and 14.21 are affected.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "14.21": {
+                "source": [
+                    "https://www.postgresql.org/support/security/14/",
+                    "https://www.postgresql.org/docs/release/14.21/"
+                ]
+            },
+            "15.16": {
+                "source": [
+                    "https://www.postgresql.org/support/security/15/",
+                    "https://www.postgresql.org/docs/release/15.16/"
+                ]
+            },
+            "16.12": {
+                "source": [
+                    "https://www.postgresql.org/support/security/16/",
+                    "https://www.postgresql.org/docs/release/16.12/"
+                ]
+            },
+            "17.8": {
+                "source": [
+                    "https://www.postgresql.org/support/security/17/",
+                    "https://www.postgresql.org/docs/release/17.8/"
+                ]
+            },
+            "18.2": {
+                "source": [
+                    "https://www.postgresql.org/support/security/18/",
+                    "https://www.postgresql.org/docs/release/18.2/"
+                ]
+            }
+        }
+    },
+    "CVE-2026-2005": {
+        "CVE-ID": "CVE-2026-2005",
+        "NVD": {
+            "Descriptions": "Heap buffer overflow in PostgreSQL pgcrypto allows a ciphertext provider to execute arbitrary code as the operating system user running the database.  Versions before PostgreSQL 18.2, 17.8, 16.12, 15.16, and 14.21 are affected.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "14.21": {
+                "source": [
+                    "https://www.postgresql.org/support/security/14/",
+                    "https://www.postgresql.org/docs/release/14.21/"
+                ]
+            },
+            "15.16": {
+                "source": [
+                    "https://www.postgresql.org/support/security/15/",
+                    "https://www.postgresql.org/docs/release/15.16/"
+                ]
+            },
+            "16.12": {
+                "source": [
+                    "https://www.postgresql.org/support/security/16/",
+                    "https://www.postgresql.org/docs/release/16.12/"
+                ]
+            },
+            "17.8": {
+                "source": [
+                    "https://www.postgresql.org/support/security/17/",
+                    "https://www.postgresql.org/docs/release/17.8/"
+                ]
+            },
+            "18.2": {
+                "source": [
+                    "https://www.postgresql.org/support/security/18/",
+                    "https://www.postgresql.org/docs/release/18.2/"
+                ]
+            }
+        }
+    },
+    "CVE-2026-2004": {
+        "CVE-ID": "CVE-2026-2004",
+        "NVD": {
+            "Descriptions": "Missing validation of type of input in PostgreSQL intarray extension selectivity estimator function allows an object creator to execute arbitrary code as the operating system user running the database.  Versions before PostgreSQL 18.2, 17.8, 16.12, 15.16, and 14.21 are affected.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "14.21": {
+                "source": [
+                    "https://www.postgresql.org/support/security/14/",
+                    "https://www.postgresql.org/docs/release/14.21/"
+                ]
+            },
+            "15.16": {
+                "source": [
+                    "https://www.postgresql.org/support/security/15/",
+                    "https://www.postgresql.org/docs/release/15.16/"
+                ]
+            },
+            "16.12": {
+                "source": [
+                    "https://www.postgresql.org/support/security/16/",
+                    "https://www.postgresql.org/docs/release/16.12/"
+                ]
+            },
+            "17.8": {
+                "source": [
+                    "https://www.postgresql.org/support/security/17/",
+                    "https://www.postgresql.org/docs/release/17.8/"
+                ]
+            },
+            "18.2": {
+                "source": [
+                    "https://www.postgresql.org/support/security/18/",
+                    "https://www.postgresql.org/docs/release/18.2/"
+                ]
+            }
+        }
+    },
+    "CVE-2026-2003": {
+        "CVE-ID": "CVE-2026-2003",
+        "NVD": {
+            "Descriptions": "Improper validation of type \"oidvector\" in PostgreSQL allows a database user to disclose a few bytes of server memory.  We have not ruled out viability of attacks that arrange for presence of confidential information in disclosed bytes, but they seem unlikely.  Versions before PostgreSQL 18.2, 17.8, 16.12, 15.16, and 14.21 are affected.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 4.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "14.21": {
+                "source": [
+                    "https://www.postgresql.org/support/security/14/",
+                    "https://www.postgresql.org/docs/release/14.21/"
+                ]
+            },
+            "15.16": {
+                "source": [
+                    "https://www.postgresql.org/support/security/15/",
+                    "https://www.postgresql.org/docs/release/15.16/"
+                ]
+            },
+            "16.12": {
+                "source": [
+                    "https://www.postgresql.org/support/security/16/",
+                    "https://www.postgresql.org/docs/release/16.12/"
+                ]
+            },
+            "17.8": {
+                "source": [
+                    "https://www.postgresql.org/support/security/17/",
+                    "https://www.postgresql.org/docs/release/17.8/"
+                ]
+            },
+            "18.2": {
+                "source": [
+                    "https://www.postgresql.org/support/security/18/",
+                    "https://www.postgresql.org/docs/release/18.2/"
+                ]
+            }
+        }
+    },
     "CVE-2024-4317": {
         "CVE-ID": "CVE-2024-4317",
         "NVD": {
@@ -33440,6 +33612,25 @@
                 "source": [
                     "https://www.postgresql.org/support/security/15/",
                     "https://www.postgresql.org/docs/release/15.4/"
+                ]
+            }
+        }
+    },
+    "CVE-2026-2007": {
+        "CVE-ID": "CVE-2026-2007",
+        "NVD": {
+            "Descriptions": "Heap buffer overflow in PostgreSQL pg_trgm allows a database user to achieve unknown impacts via a crafted input string.  The attacker has limited control over the byte patterns to be written, but we have not ruled out the viability of attacks that lead to privilege escalation.  PostgreSQL 18.1 and 18.0 are affected.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.2,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "18.2": {
+                "source": [
+                    "https://www.postgresql.org/support/security/18/",
+                    "https://www.postgresql.org/docs/release/18.2/"
                 ]
             }
         }

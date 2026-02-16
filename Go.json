@@ -9812,6 +9812,47 @@
             }
         }
     },
+    "CVE-2025-22873": {
+        "CVE-ID": "CVE-2025-22873",
+        "NVD": {
+            "Descriptions": "It was possible to improperly access the parent directory of an os.Root by opening a filename ending in \"../\". For example, Root.Open(\"../\") would open the parent directory of the Root. This escape only permits opening the parent directory itself, not ancestors of the parent or files contained within the parent.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 3.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.23.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.24.0",
+                    "VersionEndExcluding": "1.24.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.25": {
+                "source": {
+                    "73555": "https://github.com/golang/go/issues/73555",
+                    "73160": "https://github.com/golang/go/issues/73160"
+                }
+            },
+            "1.24.3": {
+                "source": {
+                    "73556": "https://github.com/golang/go/issues/73556"
+                }
+            }
+        }
+    },
     "CVE-2025-4674": {
         "CVE-ID": "CVE-2025-4674",
         "NVD": {
@@ -10550,6 +10591,51 @@
             }
         }
     },
+    "CVE-2025-61732": {
+        "CVE-ID": "CVE-2025-61732",
+        "NVD": {
+            "Descriptions": "A discrepancy between how Go and C/C++ comments were parsed allowed for code smuggling into the resulting cgo binary.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.6,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.24.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.25.0",
+                    "VersionEndExcluding": "1.25.7",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.26": {
+                "source": {
+                    "76697": "https://github.com/golang/go/issues/76697"
+                }
+            },
+            "1.25.7": {
+                "source": {
+                    "77129": "https://github.com/golang/go/issues/77129"
+                }
+            },
+            "1.24.13": {
+                "source": {
+                    "77128": "https://github.com/golang/go/issues/77128"
+                }
+            }
+        }
+    },
     "CVE-2025-68119": {
         "CVE-ID": "CVE-2025-68119",
         "NVD": {
@@ -10596,6 +10682,88 @@
             "1.24.13": {
                 "source": {
                     "77103": "https://github.com/golang/go/issues/77103"
+                }
+            }
+        }
+    },
+    "CVE-2025-68121": {
+        "CVE-ID": "CVE-2025-68121",
+        "NVD": {
+            "Descriptions": "During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 10,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go:1.26.0:rc2",
+                    "FormattedString": "cpe:2.3:a:golang:go:1.26.0:rc2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go:1.26.0:rc1",
+                    "FormattedString": "cpe:2.3:a:golang:go:1.26.0:rc1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.24.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.25.0",
+                    "VersionEndExcluding": "1.25.7",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.26": {
+                "source": {
+                    "77113": "https://github.com/golang/go/issues/77113",
+                    "77357": "https://github.com/golang/go/issues/77357"
+                }
+            },
+            "1.27": {
+                "source": {
+                    "77354": "https://github.com/golang/go/issues/77354"
+                }
+            },
+            "1.25.6": {
+                "source": {
+                    "77115": "https://github.com/golang/go/issues/77115"
+                }
+            },
+            "1.24.12": {
+                "source": {
+                    "77114": "https://github.com/golang/go/issues/77114"
+                }
+            },
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "77217": "https://github.com/golang/go/issues/77217"
+                }
+            },
+            "1.25.7": {
+                "source": {
+                    "77356": "https://github.com/golang/go/issues/77356"
+                }
+            },
+            "1.24.13": {
+                "source": {
+                    "77355": "https://github.com/golang/go/issues/77355"
                 }
             }
         }
@@ -11185,30 +11353,6 @@
             }
         }
     },
-    "CVE-2025-22873": {
-        "CVE-ID": "CVE-2025-22873",
-        "NVD": {
-            "Descriptions": "It was possible to improperly access the parent directory of an os.Root by opening a filename ending in \"../\". For example, Root.Open(\"../\") would open the parent directory of the Root. This escape only permits opening the parent directory itself, not ancestors of the parent or files contained within the parent.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 3.8,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N",
-            "CPEs": []
-        },
-        "Official": {
-            "1.25": {
-                "source": {
-                    "73555": "https://github.com/golang/go/issues/73555",
-                    "73160": "https://github.com/golang/go/issues/73160"
-                }
-            },
-            "1.24.3": {
-                "source": {
-                    "73556": "https://github.com/golang/go/issues/73556"
-                }
-            }
-        }
-    },
     "CVE-2025-22871": {
         "CVE-ID": "CVE-2025-22871",
         "NVD": {
@@ -11700,86 +11844,14 @@
             }
         }
     },
-    "CVE-2025-68121": {
-        "CVE-ID": "CVE-2025-68121",
-        "NVD": {
-            "Descriptions": "During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 4.8,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
-            "CPEs": []
-        },
-        "Official": {
-            "1.26": {
-                "source": {
-                    "77113": "https://github.com/golang/go/issues/77113",
-                    "77357": "https://github.com/golang/go/issues/77357"
-                }
-            },
-            "1.27": {
-                "source": {
-                    "77354": "https://github.com/golang/go/issues/77354"
-                }
-            },
-            "1.25.6": {
-                "source": {
-                    "77115": "https://github.com/golang/go/issues/77115"
-                }
-            },
-            "1.24.12": {
-                "source": {
-                    "77114": "https://github.com/golang/go/issues/77114"
-                }
-            },
-            "1.25.7": {
-                "source": {
-                    "77356": "https://github.com/golang/go/issues/77356"
-                }
-            },
-            "1.24.13": {
-                "source": {
-                    "77355": "https://github.com/golang/go/issues/77355"
-                }
-            }
-        }
-    },
-    "CVE-2025-61732": {
-        "CVE-ID": "CVE-2025-61732",
-        "NVD": {
-            "Descriptions": "A discrepancy between how Go and C/C++ comments were parsed allowed for code smuggling into the resulting cgo binary.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 8.6,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
-            "CPEs": []
-        },
-        "Official": {
-            "1.26": {
-                "source": {
-                    "76697": "https://github.com/golang/go/issues/76697"
-                }
-            },
-            "1.25.7": {
-                "source": {
-                    "77129": "https://github.com/golang/go/issues/77129"
-                }
-            },
-            "1.24.13": {
-                "source": {
-                    "77128": "https://github.com/golang/go/issues/77128"
-                }
-            }
-        }
-    },
     "CVE-2025-58190": {
         "CVE-ID": "CVE-2025-58190",
         "NVD": {
             "Descriptions": "The html.Parse function in golang.org/x/net/html has an infinite parsing loop when processing certain inputs, which can lead to denial of service (DoS) if an attacker provides specially crafted HTML content.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
             "CPEs": []
         },
         "Official": {
@@ -11874,6 +11946,16 @@
             }
         }
     },
+    "CVE-2025-68123": {
+        "CVE-ID": "CVE-2025-68123",
+        "Official": {
+            "1.27": {
+                "source": {
+                    "77578": "https://github.com/golang/go/issues/77578"
+                }
+            }
+        }
+    },
     "CVE-2025-47914": {
         "CVE-ID": "CVE-2025-47914",
         "NVD": {
@@ -11933,9 +12015,9 @@
         "NVD": {
             "Descriptions": "The html.Parse function in golang.org/x/net/html has quadratic parsing complexity when processing certain inputs, which can lead to denial of service (DoS) if an attacker provides specially crafted HTML content.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
             "CPEs": []
         },
         "Official": {
