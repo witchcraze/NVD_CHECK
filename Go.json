@@ -10114,7 +10114,6 @@
         "Official": {
             "1.26": {
                 "source": {
-                    "75835": "https://github.com/golang/go/issues/75835",
                     "75681": "https://github.com/golang/go/issues/75681"
                 }
             },
@@ -11852,7 +11851,16 @@
             "Cvss3_BaseScore": 5.3,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:go:html:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:go:html:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.45.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "1.26": {
@@ -12018,7 +12026,16 @@
             "Cvss3_BaseScore": 5.3,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:go:html:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:go:html:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.45.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "Unreleased": {

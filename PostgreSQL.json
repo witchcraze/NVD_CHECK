@@ -33344,7 +33344,48 @@
             "Cvss3_BaseScore": 8.8,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.0",
+                    "VersionEndExcluding": "14.21",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.0",
+                    "VersionEndExcluding": "15.16",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.0",
+                    "VersionEndExcluding": "16.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "17.0",
+                    "VersionEndExcluding": "17.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0",
+                    "VersionEndExcluding": "18.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "14.21": {
@@ -33387,7 +33428,48 @@
             "Cvss3_BaseScore": 8.8,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.0",
+                    "VersionEndExcluding": "14.21",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.0",
+                    "VersionEndExcluding": "15.16",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.0",
+                    "VersionEndExcluding": "16.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "17.0",
+                    "VersionEndExcluding": "17.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0",
+                    "VersionEndExcluding": "18.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "14.21": {
@@ -33430,7 +33512,48 @@
             "Cvss3_BaseScore": 8.8,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.0",
+                    "VersionEndExcluding": "14.21",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.0",
+                    "VersionEndExcluding": "15.16",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.0",
+                    "VersionEndExcluding": "16.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "17.0",
+                    "VersionEndExcluding": "17.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0",
+                    "VersionEndExcluding": "18.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "14.21": {
@@ -33473,7 +33596,48 @@
             "Cvss3_BaseScore": 4.3,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "14.0",
+                    "VersionEndExcluding": "14.21",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "15.0",
+                    "VersionEndExcluding": "15.16",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "16.0",
+                    "VersionEndExcluding": "16.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "17.0",
+                    "VersionEndExcluding": "17.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0",
+                    "VersionEndExcluding": "18.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "14.21": {
@@ -33624,7 +33788,16 @@
             "Cvss3_BaseScore": 8.2,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:postgresql:postgresql",
+                    "FormattedString": "cpe:2.3:a:postgresql:postgresql:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "18.0",
+                    "VersionEndExcluding": "18.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "18.2": {
