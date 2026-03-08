@@ -11954,8 +11954,118 @@
             }
         }
     },
+    "CVE-2026-27138": {
+        "CVE-ID": "CVE-2026-27138",
+        "NVD": {
+            "Descriptions": "Certificate verification can panic when a certificate in the chain has an empty DNS name and another certificate in the chain has excluded name constraints. This can crash programs that are either directly verifying X.509 certificate chains, or those that use TLS.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "1.26.1": {
+                "source": {
+                    "77974": "https://github.com/golang/go/issues/77974"
+                }
+            },
+            "1.27": {
+                "source": {
+                    "77953": "https://github.com/golang/go/issues/77953"
+                }
+            }
+        }
+    },
+    "CVE-2026-27137": {
+        "CVE-ID": "CVE-2026-27137",
+        "NVD": {
+            "Descriptions": "When verifying a certificate chain which contains a certificate containing multiple email address constraints which share common local portions but different domain portions, these constraints will not be properly applied, and only the last constraint will be considered.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "1.26.1": {
+                "source": {
+                    "77973": "https://github.com/golang/go/issues/77973"
+                }
+            },
+            "1.27": {
+                "source": {
+                    "77952": "https://github.com/golang/go/issues/77952"
+                }
+            }
+        }
+    },
+    "CVE-2026-27142": {
+        "CVE-ID": "CVE-2026-27142",
+        "NVD": {
+            "Descriptions": "Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value \"refresh\". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow \"url=\" by setting htmlmetacontenturlescape=0.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "1.26.1": {
+                "source": {
+                    "77972": "https://github.com/golang/go/issues/77972"
+                }
+            },
+            "1.25.8": {
+                "source": {
+                    "77971": "https://github.com/golang/go/issues/77971"
+                }
+            },
+            "1.27": {
+                "source": {
+                    "77954": "https://github.com/golang/go/issues/77954"
+                }
+            }
+        }
+    },
+    "CVE-2026-25679": {
+        "CVE-ID": "CVE-2026-25679",
+        "NVD": {
+            "Descriptions": "url.Parse insufficiently validated the host/authority component and accepted some invalid URLs.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "1.26.1": {
+                "source": {
+                    "77970": "https://github.com/golang/go/issues/77970"
+                }
+            },
+            "1.25.8": {
+                "source": {
+                    "77969": "https://github.com/golang/go/issues/77969"
+                }
+            },
+            "1.27": {
+                "source": {
+                    "77578": "https://github.com/golang/go/issues/77578"
+                }
+            }
+        }
+    },
     "CVE-2026-27139": {
         "CVE-ID": "CVE-2026-27139",
+        "NVD": {
+            "Descriptions": "On Unix platforms, when listing the contents of a directory using File.ReadDir or File.Readdir the returned FileInfo could reference a file outside of the Root in which the File was opened. The impact of this escape is limited to reading metadata provided by lstat from arbitrary locations on the filesystem without permitting reading or writing files outside the root.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
             "1.27": {
                 "source": {
@@ -11970,16 +12080,6 @@
             "1.25.8": {
                 "source": {
                     "77833": "https://github.com/golang/go/issues/77833"
-                }
-            }
-        }
-    },
-    "CVE-2026-25679": {
-        "CVE-ID": "CVE-2026-25679",
-        "Official": {
-            "1.27": {
-                "source": {
-                    "77578": "https://github.com/golang/go/issues/77578"
                 }
             }
         }
