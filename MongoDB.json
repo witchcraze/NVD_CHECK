@@ -1,4 +1,60 @@
 {
+    "CVE-2026-4148": {
+        "CVE-ID": "CVE-2026-4148",
+        "NVD": {
+            "Descriptions": "A use-after-free vulnerability can be triggered in sharded clusters by an authenticated user with the read role who issues a specially crafted $lookup or $graphLookup aggregation pipeline.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.2.6": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.20": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.31": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-4147": {
+        "CVE-ID": "CVE-2026-4147",
+        "NVD": {
+            "Descriptions": "An authenticated user with the read role may read limited amounts of uninitialized stack memory via specially-crafted issuances of the filemd5 command.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "8.2.6": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.20": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.31": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
     "CVE-2026-25613": {
         "CVE-ID": "CVE-2026-25613",
         "NVD": {
