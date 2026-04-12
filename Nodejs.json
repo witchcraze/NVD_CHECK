@@ -27080,22 +27080,26 @@
         "Official": {
             "20.20.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/171.json"
                 ]
             },
             "22.22.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/171.json"
                 ]
             },
             "24.14.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/171.json"
                 ]
             },
             "25.8.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/171.json"
                 ]
             }
         }
@@ -27113,22 +27117,26 @@
         "Official": {
             "20.20.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/167.json"
                 ]
             },
             "22.22.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/167.json"
                 ]
             },
             "24.14.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/167.json"
                 ]
             },
             "25.8.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/167.json"
                 ]
             }
         }
@@ -27146,22 +27154,26 @@
         "Official": {
             "20.20.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/164.json"
                 ]
             },
             "22.22.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/164.json"
                 ]
             },
             "24.14.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/164.json"
                 ]
             },
             "25.8.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/164.json"
                 ]
             }
         }
@@ -27179,22 +27191,26 @@
         "Official": {
             "20.20.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/170.json"
                 ]
             },
             "22.22.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/170.json"
                 ]
             },
             "24.14.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/170.json"
                 ]
             },
             "25.8.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/170.json"
                 ]
             }
         }
@@ -27212,22 +27228,26 @@
         "Official": {
             "20.20.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/169.json"
                 ]
             },
             "22.22.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/169.json"
                 ]
             },
             "24.14.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/169.json"
                 ]
             },
             "25.8.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/169.json"
                 ]
             }
         }
@@ -27245,22 +27265,26 @@
         "Official": {
             "20.20.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/168.json"
                 ]
             },
             "22.22.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/168.json"
                 ]
             },
             "24.14.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/168.json"
                 ]
             },
             "25.8.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/168.json"
                 ]
             }
         }
@@ -27311,29 +27335,30 @@
         "Official": {
             "20.20.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
-                ]
-            },
-            "20.20.0": {
-                "source": [
                     "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md",
                     "https://github.com/nodejs/security-wg/blob/main/vuln/core/163.json"
                 ]
             },
-            "22.22.2": {
+            "20.20.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md"
                 ]
             },
-            "22.22.0": {
+            "22.22.2": {
                 "source": [
                     "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md",
                     "https://github.com/nodejs/security-wg/blob/main/vuln/core/163.json"
                 ]
             },
+            "22.22.0": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md"
+                ]
+            },
             "24.14.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/163.json"
                 ]
             },
             "24.13.1": {
@@ -27343,19 +27368,18 @@
             },
             "24.13.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md",
-                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/163.json"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md"
                 ]
             },
             "25.8.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/163.json"
                 ]
             },
             "25.3.0": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md",
-                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/163.json"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md"
                 ]
             }
         }
@@ -28376,12 +28400,14 @@
         "Official": {
             "24.14.1": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/166.json"
                 ]
             },
             "25.8.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/166.json"
                 ]
             }
         }
@@ -28418,7 +28444,8 @@
         "Official": {
             "25.8.2": {
                 "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md"
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/165.json"
                 ]
             }
         }
@@ -33061,7 +33088,17 @@
             ]
         },
         "Official": {
-            "24.12.0": {
+            "20.20.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/159.json"
+                ]
+            },
+            "22.22.0": {
+                "source": [
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/159.json"
+                ]
+            },
+            "24.13.0": {
                 "source": [
                     "https://github.com/nodejs/security-wg/blob/main/vuln/core/159.json"
                 ]
