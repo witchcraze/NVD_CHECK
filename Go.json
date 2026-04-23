@@ -10767,6 +10767,445 @@
             }
         }
     },
+    "CVE-2026-27140": {
+        "CVE-ID": "CVE-2026-27140",
+        "NVD": {
+            "Descriptions": "SWIG file names containing 'cgo' and well-crafted payloads could lead to code smuggling and arbitrary code execution at build time due to trust layer bypass.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.26.2": {
+                "source": {
+                    "78422": "https://github.com/golang/go/issues/78422"
+                }
+            },
+            "1.25.9": {
+                "source": {
+                    "78421": "https://github.com/golang/go/issues/78421"
+                }
+            },
+            "1.27": {
+                "source": {
+                    "78335": "https://github.com/golang/go/issues/78335"
+                }
+            }
+        }
+    },
+    "CVE-2026-27143": {
+        "CVE-ID": "CVE-2026-27143",
+        "NVD": {
+            "Descriptions": "Arithmetic over induction variables in loops were not correctly checked for underflow or overflow. As a result, the compiler would allow for invalid indexing to occur at runtime, potentially leading to memory corruption.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 9.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.26.2": {
+                "source": {
+                    "78420": "https://github.com/golang/go/issues/78420"
+                }
+            },
+            "1.25.9": {
+                "source": {
+                    "78419": "https://github.com/golang/go/issues/78419"
+                }
+            },
+            "1.27": {
+                "source": {
+                    "78333": "https://github.com/golang/go/issues/78333"
+                }
+            }
+        }
+    },
+    "CVE-2026-27144": {
+        "CVE-ID": "CVE-2026-27144",
+        "NVD": {
+            "Descriptions": "The compiler is meant to unwrap pointers which are the operands of a memory move; a no-op interface conversion prevented the compiler from making the correct determination about non-overlapping moves, potentially leading to memory corruption at runtime.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.26.2": {
+                "source": {
+                    "78424": "https://github.com/golang/go/issues/78424"
+                }
+            },
+            "1.25.9": {
+                "source": {
+                    "78423": "https://github.com/golang/go/issues/78423"
+                }
+            },
+            "1.27": {
+                "source": {
+                    "78371": "https://github.com/golang/go/issues/78371"
+                }
+            }
+        }
+    },
+    "CVE-2026-32280": {
+        "CVE-ID": "CVE-2026-32280",
+        "NVD": {
+            "Descriptions": "During chain building, the amount of work that is done is not correctly limited when a large number of intermediate certificates are passed in VerifyOptions.Intermediates, which can lead to a denial of service. This affects both direct users of crypto/x509 and users of crypto/tls.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.26.2": {
+                "source": {
+                    "78362": "https://github.com/golang/go/issues/78362"
+                }
+            },
+            "1.25.9": {
+                "source": {
+                    "78361": "https://github.com/golang/go/issues/78361"
+                }
+            },
+            "1.27": {
+                "source": {
+                    "78291": "https://github.com/golang/go/issues/78291",
+                    "78282": "https://github.com/golang/go/issues/78282"
+                }
+            }
+        }
+    },
+    "CVE-2026-32281": {
+        "CVE-ID": "CVE-2026-32281",
+        "NVD": {
+            "Descriptions": "Validating certificate chains which use policies is unexpectedly inefficient when certificates in the chain contain a very large number of policy mappings, possibly causing denial of service. This only affects validation of otherwise trusted certificate chains, issued by a root CA in the VerifyOptions.Roots CertPool, or in the system certificate pool.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.26.2": {
+                "source": {
+                    "78360": "https://github.com/golang/go/issues/78360"
+                }
+            },
+            "1.25.9": {
+                "source": {
+                    "78359": "https://github.com/golang/go/issues/78359"
+                }
+            },
+            "1.27": {
+                "source": {
+                    "78290": "https://github.com/golang/go/issues/78290",
+                    "78281": "https://github.com/golang/go/issues/78281"
+                }
+            }
+        }
+    },
+    "CVE-2026-32282": {
+        "CVE-ID": "CVE-2026-32282",
+        "NVD": {
+            "Descriptions": "On Linux, if the target of Root.Chmod is replaced with a symlink while the chmod operation is in progress, Chmod can operate on the target of the symlink, even when the target lies outside the root. The Linux fchmodat syscall silently ignores the AT_SYMLINK_NOFOLLOW flag, which Root.Chmod uses to avoid symlink traversal. Root.Chmod checks its target before acting and returns an error if the target is a symlink lying outside the root, so the impact is limited to cases where the target is replaced with a symlink between the check and operation.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.4,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.26.2": {
+                "source": {
+                    "78426": "https://github.com/golang/go/issues/78426"
+                }
+            },
+            "1.25.9": {
+                "source": {
+                    "78425": "https://github.com/golang/go/issues/78425"
+                }
+            },
+            "1.27": {
+                "source": {
+                    "78293": "https://github.com/golang/go/issues/78293"
+                }
+            }
+        }
+    },
+    "CVE-2026-32283": {
+        "CVE-ID": "CVE-2026-32283",
+        "NVD": {
+            "Descriptions": "If one side of the TLS connection sends multiple key update messages post-handshake in a single record, the connection can deadlock, causing uncontrolled consumption of resources. This can lead to a denial of service. This only affects TLS 1.3.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.26.2": {
+                "source": {
+                    "78428": "https://github.com/golang/go/issues/78428"
+                }
+            },
+            "1.25.9": {
+                "source": {
+                    "78427": "https://github.com/golang/go/issues/78427"
+                }
+            },
+            "1.27": {
+                "source": {
+                    "78334": "https://github.com/golang/go/issues/78334"
+                }
+            }
+        }
+    },
+    "CVE-2026-32288": {
+        "CVE-ID": "CVE-2026-32288",
+        "NVD": {
+            "Descriptions": "tar.Reader can allocate an unbounded amount of memory when reading a maliciously-crafted archive containing a large number of sparse regions encoded in the \"old GNU sparse map\" format.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.26.2": {
+                "source": {
+                    "78415": "https://github.com/golang/go/issues/78415"
+                }
+            },
+            "1.25.9": {
+                "source": {
+                    "78414": "https://github.com/golang/go/issues/78414"
+                }
+            },
+            "1.27": {
+                "source": {
+                    "78301": "https://github.com/golang/go/issues/78301"
+                }
+            }
+        }
+    },
+    "CVE-2026-32289": {
+        "CVE-ID": "CVE-2026-32289",
+        "NVD": {
+            "Descriptions": "Context was not properly tracked across template branches for JS template literals, leading to possibly incorrect escaping of content when branches were used. Additionally template actions within JS template literals did not properly track the brace depth, leading to incorrect escaping being applied. These issues could cause actions within JS template literals to be incorrectly or improperly escaped, leading to XSS vulnerabilities.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.26.2": {
+                "source": {
+                    "78417": "https://github.com/golang/go/issues/78417"
+                }
+            },
+            "1.25.9": {
+                "source": {
+                    "78416": "https://github.com/golang/go/issues/78416"
+                }
+            },
+            "1.27": {
+                "source": {
+                    "78331": "https://github.com/golang/go/issues/78331"
+                }
+            }
+        }
+    },
+    "CVE-2026-33810": {
+        "CVE-ID": "CVE-2026-33810",
+        "NVD": {
+            "Descriptions": "When verifying a certificate chain containing excluded DNS constraints, these constraints are not correctly applied to wildcard DNS SANs which use a different case than the constraint. This only affects validation of otherwise trusted certificate chains, issued by a root CA in the VerifyOptions.Roots CertPool, or in the system certificate pool.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.2,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.2",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.26.2": {
+                "source": {
+                    "78418": "https://github.com/golang/go/issues/78418"
+                }
+            },
+            "1.27": {
+                "source": {
+                    "78332": "https://github.com/golang/go/issues/78332"
+                }
+            }
+        }
+    },
     "CVE-2024-24787": {
         "CVE-ID": "CVE-2024-24787",
         "NVD": {
@@ -11954,6 +12393,89 @@
             }
         }
     },
+    "CVE-2026-27142": {
+        "CVE-ID": "CVE-2026-27142",
+        "NVD": {
+            "Descriptions": "Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value \"refresh\". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow \"url=\" by setting htmlmetacontenturlescape=0.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "78913": "https://github.com/golang/go/issues/78913"
+                }
+            },
+            "1.26.1": {
+                "source": {
+                    "77972": "https://github.com/golang/go/issues/77972"
+                }
+            },
+            "1.25.8": {
+                "source": {
+                    "77971": "https://github.com/golang/go/issues/77971"
+                }
+            },
+            "1.27": {
+                "source": {
+                    "77954": "https://github.com/golang/go/issues/77954"
+                }
+            }
+        }
+    },
+    "CVE-2026-39823": {
+        "CVE-ID": "CVE-2026-39823",
+        "Official": {
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "78913": "https://github.com/golang/go/issues/78913"
+                }
+            }
+        }
+    },
+    "CVE-2026-33811": {
+        "CVE-ID": "CVE-2026-33811",
+        "Official": {
+            "1.27": {
+                "source": {
+                    "78803": "https://github.com/golang/go/issues/78803"
+                }
+            },
+            "1.26.3": {
+                "source": {
+                    "78813": "https://github.com/golang/go/issues/78813"
+                }
+            },
+            "1.25.10": {
+                "source": {
+                    "78812": "https://github.com/golang/go/issues/78812"
+                }
+            }
+        }
+    },
+    "CVE-2026-39817": {
+        "CVE-ID": "CVE-2026-39817",
+        "Official": {
+            "1.27": {
+                "source": {
+                    "78778": "https://github.com/golang/go/issues/78778"
+                }
+            },
+            "1.26.3": {
+                "source": {
+                    "78791": "https://github.com/golang/go/issues/78791"
+                }
+            },
+            "1.25.10": {
+                "source": {
+                    "78790": "https://github.com/golang/go/issues/78790"
+                }
+            }
+        }
+    },
     "CVE-2026-39819": {
         "CVE-ID": "CVE-2026-39819",
         "Official": {
@@ -12014,289 +12536,12 @@
             }
         }
     },
-    "CVE-2026-32283": {
-        "CVE-ID": "CVE-2026-32283",
-        "NVD": {
-            "Descriptions": "If one side of the TLS connection sends multiple key update messages post-handshake in a single record, the connection can deadlock, causing uncontrolled consumption of resources. This can lead to a denial of service. This only affects TLS 1.3.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.26.2": {
-                "source": {
-                    "78428": "https://github.com/golang/go/issues/78428"
-                }
-            },
-            "1.25.9": {
-                "source": {
-                    "78427": "https://github.com/golang/go/issues/78427"
-                }
-            },
-            "1.27": {
-                "source": {
-                    "78334": "https://github.com/golang/go/issues/78334"
-                }
-            }
-        }
-    },
-    "CVE-2026-32282": {
-        "CVE-ID": "CVE-2026-32282",
-        "NVD": {
-            "Descriptions": "On Linux, if the target of Root.Chmod is replaced with a symlink while the chmod operation is in progress, Chmod can operate on the target of the symlink, even when the target lies outside the root. The Linux fchmodat syscall silently ignores the AT_SYMLINK_NOFOLLOW flag, which Root.Chmod uses to avoid symlink traversal. Root.Chmod checks its target before acting and returns an error if the target is a symlink lying outside the root, so the impact is limited to cases where the target is replaced with a symlink between the check and operation.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.26.2": {
-                "source": {
-                    "78426": "https://github.com/golang/go/issues/78426"
-                }
-            },
-            "1.25.9": {
-                "source": {
-                    "78425": "https://github.com/golang/go/issues/78425"
-                }
-            },
-            "1.27": {
-                "source": {
-                    "78293": "https://github.com/golang/go/issues/78293"
-                }
-            }
-        }
-    },
-    "CVE-2026-27144": {
-        "CVE-ID": "CVE-2026-27144",
-        "NVD": {
-            "Descriptions": "The compiler is meant to unwrap pointers which are the operands of a memory move; a no-op interface conversion prevented the compiler from making the correct determination about non-overlapping moves, potentially leading to memory corruption at runtime.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.26.2": {
-                "source": {
-                    "78424": "https://github.com/golang/go/issues/78424"
-                }
-            },
-            "1.25.9": {
-                "source": {
-                    "78423": "https://github.com/golang/go/issues/78423"
-                }
-            },
-            "1.27": {
-                "source": {
-                    "78371": "https://github.com/golang/go/issues/78371"
-                }
-            }
-        }
-    },
-    "CVE-2026-27140": {
-        "CVE-ID": "CVE-2026-27140",
-        "NVD": {
-            "Descriptions": "SWIG file names containing 'cgo' and well-crafted payloads could lead to code smuggling and arbitrary code execution at build time due to trust layer bypass.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.26.2": {
-                "source": {
-                    "78422": "https://github.com/golang/go/issues/78422"
-                }
-            },
-            "1.25.9": {
-                "source": {
-                    "78421": "https://github.com/golang/go/issues/78421"
-                }
-            },
-            "1.27": {
-                "source": {
-                    "78335": "https://github.com/golang/go/issues/78335"
-                }
-            }
-        }
-    },
-    "CVE-2026-27143": {
-        "CVE-ID": "CVE-2026-27143",
-        "NVD": {
-            "Descriptions": "Arithmetic over induction variables in loops were not correctly checked for underflow or overflow. As a result, the compiler would allow for invalid indexing to occur at runtime, potentially leading to memory corruption.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.26.2": {
-                "source": {
-                    "78420": "https://github.com/golang/go/issues/78420"
-                }
-            },
-            "1.25.9": {
-                "source": {
-                    "78419": "https://github.com/golang/go/issues/78419"
-                }
-            },
-            "1.27": {
-                "source": {
-                    "78333": "https://github.com/golang/go/issues/78333"
-                }
-            }
-        }
-    },
-    "CVE-2026-33810": {
-        "CVE-ID": "CVE-2026-33810",
-        "NVD": {
-            "Descriptions": "When verifying a certificate chain containing excluded DNS constraints, these constraints are not correctly applied to wildcard DNS SANs which use a different case than the constraint. This only affects validation of otherwise trusted certificate chains, issued by a root CA in the VerifyOptions.Roots CertPool, or in the system certificate pool.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.26.2": {
-                "source": {
-                    "78418": "https://github.com/golang/go/issues/78418"
-                }
-            },
-            "1.27": {
-                "source": {
-                    "78332": "https://github.com/golang/go/issues/78332"
-                }
-            }
-        }
-    },
-    "CVE-2026-32289": {
-        "CVE-ID": "CVE-2026-32289",
-        "NVD": {
-            "Descriptions": "Context was not properly tracked across template branches for JS template literals, leading to possibly incorrect escaping of content when branches were used. Additionally template actions within JS template literals did not properly track the brace depth, leading to incorrect escaping being applied. These issues could cause actions within JS template literals to be incorrectly or improperly escaped, leading to XSS vulnerabilities.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.26.2": {
-                "source": {
-                    "78417": "https://github.com/golang/go/issues/78417"
-                }
-            },
-            "1.25.9": {
-                "source": {
-                    "78416": "https://github.com/golang/go/issues/78416"
-                }
-            },
-            "1.27": {
-                "source": {
-                    "78331": "https://github.com/golang/go/issues/78331"
-                }
-            }
-        }
-    },
-    "CVE-2026-32288": {
-        "CVE-ID": "CVE-2026-32288",
-        "NVD": {
-            "Descriptions": "tar.Reader can allocate an unbounded amount of memory when reading a maliciously-crafted archive containing a large number of sparse regions encoded in the \"old GNU sparse map\" format.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.26.2": {
-                "source": {
-                    "78415": "https://github.com/golang/go/issues/78415"
-                }
-            },
-            "1.25.9": {
-                "source": {
-                    "78414": "https://github.com/golang/go/issues/78414"
-                }
-            },
-            "1.27": {
-                "source": {
-                    "78301": "https://github.com/golang/go/issues/78301"
-                }
-            }
-        }
-    },
     "CVE-2026-33813": {
         "CVE-ID": "CVE-2026-33813",
         "Official": {
             "Unreleased": {
                 "source": {
                     "78407": "https://github.com/golang/go/issues/78407"
-                }
-            }
-        }
-    },
-    "CVE-2026-32280": {
-        "CVE-ID": "CVE-2026-32280",
-        "NVD": {
-            "Descriptions": "During chain building, the amount of work that is done is not correctly limited when a large number of intermediate certificates are passed in VerifyOptions.Intermediates, which can lead to a denial of service. This affects both direct users of crypto/x509 and users of crypto/tls.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 7.5,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
-        },
-        "Official": {
-            "1.26.2": {
-                "source": {
-                    "78362": "https://github.com/golang/go/issues/78362"
-                }
-            },
-            "1.25.9": {
-                "source": {
-                    "78361": "https://github.com/golang/go/issues/78361"
-                }
-            },
-            "1.27": {
-                "source": {
-                    "78291": "https://github.com/golang/go/issues/78291",
-                    "78282": "https://github.com/golang/go/issues/78282"
-                }
-            }
-        }
-    },
-    "CVE-2026-32281": {
-        "CVE-ID": "CVE-2026-32281",
-        "NVD": {
-            "Descriptions": "Validating certificate chains which use policies is unexpectedly inefficient when certificates in the chain contain a very large number of policy mappings, possibly causing denial of service. This only affects validation of otherwise trusted certificate chains, issued by a root CA in the VerifyOptions.Roots CertPool, or in the system certificate pool.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
-        },
-        "Official": {
-            "1.26.2": {
-                "source": {
-                    "78360": "https://github.com/golang/go/issues/78360"
-                }
-            },
-            "1.25.9": {
-                "source": {
-                    "78359": "https://github.com/golang/go/issues/78359"
-                }
-            },
-            "1.27": {
-                "source": {
-                    "78290": "https://github.com/golang/go/issues/78290",
-                    "78281": "https://github.com/golang/go/issues/78281"
                 }
             }
         }
@@ -12343,34 +12588,6 @@
             "1.27": {
                 "source": {
                     "77952": "https://github.com/golang/go/issues/77952"
-                }
-            }
-        }
-    },
-    "CVE-2026-27142": {
-        "CVE-ID": "CVE-2026-27142",
-        "NVD": {
-            "Descriptions": "Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value \"refresh\". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow \"url=\" by setting htmlmetacontenturlescape=0.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 6.1,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-            "CPEs": []
-        },
-        "Official": {
-            "1.26.1": {
-                "source": {
-                    "77972": "https://github.com/golang/go/issues/77972"
-                }
-            },
-            "1.25.8": {
-                "source": {
-                    "77971": "https://github.com/golang/go/issues/77971"
-                }
-            },
-            "1.27": {
-                "source": {
-                    "77954": "https://github.com/golang/go/issues/77954"
                 }
             }
         }
@@ -13483,7 +13700,7 @@
     "CVE-2020-11022": {
         "CVE-ID": "CVE-2020-11022",
         "NVD": {
-            "Descriptions": "In jQuery versions greater than or equal to 1.2 and before 3.5.0, passing HTML from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.",
+            "Descriptions": "In jQuery starting with 1.12.0 and before 3.5.0, passing HTML from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.",
             "Cvss2_BaseScore": 4.3,
             "Cvss3_BaseScore": 6.9,
             "Cvss2_VectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
