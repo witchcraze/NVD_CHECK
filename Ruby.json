@@ -1,22 +1,4 @@
 {
-    "CVE-2026-41316": {
-        "CVE-ID": "CVE-2026-41316",
-        "NVD": {
-            "Descriptions": "ERB is a templating system for Ruby. Ruby 2.7.0 (before ERB 2.2.0 was published on rubygems.org) introduced an `@_init` instance variable guard in `ERB#result` and `ERB#run` to prevent code execution when an ERB object is reconstructed via `Marshal.load` (deserialization). However, three other public methods that also evaluate `@src` via `eval()` were not given the same guard: `ERB#def_method`, `ERB#def_module`, and `ERB#def_class`. An attacker who can trigger `Marshal.load` on untrusted data in a Ruby application that has `erb` loaded can use `ERB#def_module` (zero-arg, default parameters) as a code execution sink, bypassing the `@_init` protection entirely. ERB 4.0.3.1, 4.0.4.1, 6.0.1.1, and 6.0.4 patch the issue.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 8.1,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": []
-        },
-        "Official": {
-            "Ruby 4.0.3": {
-                "source": [
-                    "https://www.ruby-lang.org/en/news/2026/04/21/ruby-4-0-3-released/"
-                ]
-            }
-        }
-    },
     "CVE-2026-27820": {
         "CVE-ID": "CVE-2026-27820",
         "NVD": {
@@ -28,6 +10,11 @@
             "CPEs": []
         },
         "Official": {
+            "Ruby 4.0.4": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2026/05/11/ruby-4-0-4-released/"
+                ]
+            },
             "Ruby 4.0.3": {
                 "source": [
                     "https://www.ruby-lang.org/en/news/2026/04/21/ruby-4-0-3-released/"
@@ -1216,6 +1203,24 @@
             "1.6.7 is": {
                 "source": [
                     "https://www.ruby-lang.org/en/news/2002/03/01/167-is-released/"
+                ]
+            }
+        }
+    },
+    "CVE-2026-41316": {
+        "CVE-ID": "CVE-2026-41316",
+        "NVD": {
+            "Descriptions": "ERB is a templating system for Ruby. Ruby 2.7.0 (before ERB 2.2.0 was published on rubygems.org) introduced an `@_init` instance variable guard in `ERB#result` and `ERB#run` to prevent code execution when an ERB object is reconstructed via `Marshal.load` (deserialization). However, three other public methods that also evaluate `@src` via `eval()` were not given the same guard: `ERB#def_method`, `ERB#def_module`, and `ERB#def_class`. An attacker who can trigger `Marshal.load` on untrusted data in a Ruby application that has `erb` loaded can use `ERB#def_module` (zero-arg, default parameters) as a code execution sink, bypassing the `@_init` protection entirely. ERB 4.0.3.1, 4.0.4.1, 6.0.1.1, and 6.0.4 patch the issue.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "Ruby 4.0.3": {
+                "source": [
+                    "https://www.ruby-lang.org/en/news/2026/04/21/ruby-4-0-3-released/"
                 ]
             }
         }

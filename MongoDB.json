@@ -7,7 +7,32 @@
             "Cvss3_BaseScore": 6.3,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.32",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.21",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "8.2.7",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.2.0": {
@@ -35,7 +60,32 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.32",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.21",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.1.0",
+                    "VersionEndExcluding": "8.2.7",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.2.0": {
@@ -5006,6 +5056,26 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "8.0.0",
                     "VersionEndExcluding": "8.0.15",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
+    "CVE-2026-8063": {
+        "CVE-ID": "CVE-2026-8063",
+        "NVD": {
+            "Descriptions": "An authenticated user can crash mongod when running $rankFusion or $scoreFusion with an empty pipeline on a view.\n\nWhen resolving a view, the server inspects the aggregation pipeline to determine whether it begins with an Atlas Search stage. For $rankFusion and $scoreFusion, this inspection reads the first element on each stage\u2019s input pipeline array without first verifying that the array is non-empty. Supplying an empty pipeline causes a null pointer dereference and crashes the server.\n\nThis issue affects MongoDB Server 8.2 versions\u00a0prior to 8.2.7.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "8.2.7",
                     "VersionEndIncluding": ""
                 }
             ]

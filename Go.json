@@ -12607,8 +12607,64 @@
             }
         }
     },
+    "CVE-2026-42507": {
+        "CVE-ID": "CVE-2026-42507",
+        "Official": {
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "79346": "https://github.com/golang/go/issues/79346"
+                }
+            }
+        }
+    },
+    "CVE-2026-42505": {
+        "CVE-ID": "CVE-2026-42505",
+        "Official": {
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "79282": "https://github.com/golang/go/issues/79282"
+                }
+            }
+        }
+    },
+    "CVE-2026-42504": {
+        "CVE-ID": "CVE-2026-42504",
+        "Official": {
+            "1.27": {
+                "source": {
+                    "79217": "https://github.com/golang/go/issues/79217"
+                }
+            }
+        }
+    },
+    "CVE-2026-42503": {
+        "CVE-ID": "CVE-2026-42503",
+        "NVD": {
+            "Descriptions": "gopls by default communicates via pipe. However, -port and -listen flags are supported as means of debugging.\nIf -listen is given a value without an explicit host (e.g. :8080), or -port is used, gopls will listen on 0.0.0.0.\u00a0\nAs a result, users might\u00a0inadvertently cause gopls to bind 0.0.0.0.\nThis can allow a\u00a0malicious party on the same network to execute code arbitrarily via gopls.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "gopls/v0.22.0": {
+                "source": {
+                    "79211": "https://github.com/golang/go/issues/79211"
+                }
+            }
+        }
+    },
     "CVE-2026-42501": {
         "CVE-ID": "CVE-2026-42501",
+        "NVD": {
+            "Descriptions": "A malicious module proxy can exploit a flaw in the go command's validation of module checksums to bypass checksum database validation. This vulnerability affects any user using an untrusted module proxy (GOMODPROXY) or checksum database (GOSUMDB). A malicious module proxy can serve altered versions of the Go toolchain. When selecting a different version of the Go toolchain than the currently installed toolchain (due to the GOTOOLCHAIN environment variable, or a go.work or go.mod with a toolchain line), the go command will download and execute a toolchain provided by the module proxy. A malicious module proxy can bypass checksum database validation for this downloaded toolchain. Since this vulnerability affects the security of toolchain downloads, setting GOTOOLCHAIN to a fixed version is not sufficient. You must upgrade your base Go toolchain. The go tool always validates the hash of a toolchain before executing it, so fixed versions will refuse to execute any cached, altered versions of the toolchain. The go tool trusts go.sum files to contain accurate hashes of the current module's dependencies. A malicious proxy exploiting this vulnerability to serve an altered module will have caused an incorrect hash to be recorded in the go.sum. Users who have configured a non-trusted GOPROXY can determine if they have been affected by running \"rm go.sum ; go mod tidy ; go mod verify\", which will revalidate all dependencies of the current module. The specific flaw in more detail: The go command consults the checksum database to validate downloaded modules, when a module is not listed in the go.sum file. It verifies that the module hash reported by the checksum database matches the hash of the downloaded module. If, however, the checksum database returns a successful response that contains no entry for the module, the go command incorrectly permitted validation to succeed. A module proxy may mirror or proxy the checksum database, in which case the go command will not connect to the checksum database directly. Checksums reported by the checksum database are cryptographically signed, so a malicious proxy cannot alter the reported checksum for a module. However, a proxy which returns an empty checksum response, or a checksum response for an unrelated module, could cause the go command to proceed as if a downloaded module has been validated.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
         "Official": {
             "1.26.3": {
                 "source": {
@@ -12620,7 +12676,7 @@
                     "79072": "https://github.com/golang/go/issues/79072"
                 }
             },
-            "NOT_IN_MILESTONE": {
+            "1.27": {
                 "source": {
                     "79070": "https://github.com/golang/go/issues/79070"
                 }
@@ -12629,6 +12685,14 @@
     },
     "CVE-2026-39836": {
         "CVE-ID": "CVE-2026-39836",
+        "NVD": {
+            "Descriptions": "The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
         "Official": {
             "1.26.3": {
                 "source": {
@@ -12650,12 +12714,12 @@
     "CVE-2026-39822": {
         "CVE-ID": "CVE-2026-39822",
         "Official": {
-            "1.26.3": {
+            "1.26.4": {
                 "source": {
                     "79027": "https://github.com/golang/go/issues/79027"
                 }
             },
-            "1.25.10": {
+            "1.25.11": {
                 "source": {
                     "79026": "https://github.com/golang/go/issues/79026"
                 }
@@ -12669,6 +12733,14 @@
     },
     "CVE-2026-42499": {
         "CVE-ID": "CVE-2026-42499",
+        "NVD": {
+            "Descriptions": "Pathological inputs could cause DoS through consumePhrase when parsing an email address according to RFC 5322.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
         "Official": {
             "NOT_IN_MILESTONE": {
                 "source": {
@@ -12689,6 +12761,14 @@
     },
     "CVE-2026-39826": {
         "CVE-ID": "CVE-2026-39826",
+        "NVD": {
+            "Descriptions": "If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "CPEs": []
+        },
         "Official": {
             "NOT_IN_MILESTONE": {
                 "source": {
@@ -12709,6 +12789,14 @@
     },
     "CVE-2026-39825": {
         "CVE-ID": "CVE-2026-39825",
+        "NVD": {
+            "Descriptions": "ReverseProxy can forward queries containing parameters not visible to Rewrite functions. When used with a Rewrite function, or a Director function which parses query parameters, ReverseProxy sanitizes the forwarded request to remove query parameters which are not parsed by url.ParseQuery. ReverseProxy does not take ParseQuery's limit on the total number of query parameters (controlled by GODEBUG=urlmaxqueryparams=N) into account. This can permit ReverseProxy to forward a request containing a query parameter that is not visible to the Rewrite function. For example, the query \"a1=x&a2=x&...&a10000=x&hidden=y\" can forward the parameter \"hidden=y\" while hiding it from the proxy's Rewrite function.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "CPEs": []
+        },
         "Official": {
             "NOT_IN_MILESTONE": {
                 "source": {
@@ -12729,6 +12817,14 @@
     },
     "CVE-2026-39823": {
         "CVE-ID": "CVE-2026-39823",
+        "NVD": {
+            "Descriptions": "CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "CPEs": []
+        },
         "Official": {
             "NOT_IN_MILESTONE": {
                 "source": {
@@ -12749,6 +12845,14 @@
     },
     "CVE-2026-33811": {
         "CVE-ID": "CVE-2026-33811",
+        "NVD": {
+            "Descriptions": "When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
         "Official": {
             "1.27": {
                 "source": {
@@ -12769,6 +12873,14 @@
     },
     "CVE-2026-39817": {
         "CVE-ID": "CVE-2026-39817",
+        "NVD": {
+            "Descriptions": "The \"go tool pack\" subcommand (usually used only by the compiler as an internal tool with known-good inputs) does not sanitize output filenames. Extracting a malicious archive file with the \"pack\" subcommand can write files to arbitrary locations on the filesystem.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.9,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:N",
+            "CPEs": []
+        },
         "Official": {
             "1.27": {
                 "source": {
@@ -12789,6 +12901,14 @@
     },
     "CVE-2026-39819": {
         "CVE-ID": "CVE-2026-39819",
+        "NVD": {
+            "Descriptions": "The \"go bug\" command writes to two files with predictable names in the system temporary directory (for example, \"/tmp\"). An attacker with access to the temporary directory can create a symlink in one of these names, causing \"go bug\" to overwrite the target of the symlink.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:N",
+            "CPEs": []
+        },
         "Official": {
             "1.27": {
                 "source": {
@@ -12809,6 +12929,14 @@
     },
     "CVE-2026-39820": {
         "CVE-ID": "CVE-2026-39820",
+        "NVD": {
+            "Descriptions": "Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
         "Official": {
             "1.27": {
                 "source": {
@@ -12829,6 +12957,14 @@
     },
     "CVE-2026-33814": {
         "CVE-ID": "CVE-2026-33814",
+        "NVD": {
+            "Descriptions": "When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
         "Official": {
             "1.27": {
                 "source": {

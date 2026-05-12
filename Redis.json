@@ -1,4 +1,225 @@
 {
+    "CVE-2026-23479": {
+        "CVE-ID": "CVE-2026-23479",
+        "NVD": {
+            "Descriptions": "Redis is an in-memory data structure store. In redis-server from 7.2.0 until 8.6.3, the unblock client flow does not handle an error return from `processCommandAndResetClient` when re-executing a blocked command. If a blocked client is evicted during this flow, an authenticated attacker can trigger a use-after-free that may lead to remote code execution. This has been patched in version 8.6.3.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.2.0",
+                    "VersionEndExcluding": "8.6.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "8.6.3": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.6.3"
+                ]
+            },
+            "8.4.3": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.4.3"
+                ]
+            },
+            "8.2.6": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.2.6"
+                ]
+            },
+            "7.4.9": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/7.4.9"
+                ]
+            },
+            "7.2.14": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/7.2.14"
+                ]
+            }
+        }
+    },
+    "CVE-2026-25243": {
+        "CVE-ID": "CVE-2026-25243",
+        "NVD": {
+            "Descriptions": "Redis is an in-memory data structure store. In versions of redis-server up to 8.6.3, the RESTORE command does not properly validate serialized values. An authenticated attacker with permission to execute RESTORE can supply a crafted serialized payload that triggers invalid memory access and may lead to remote code execution. A workaround is to restrict access to the RESTORE command with ACL rules. This is patched in version 8.6.3.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "8.6.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "8.6.3": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.6.3"
+                ]
+            },
+            "8.4.3": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.4.3"
+                ]
+            },
+            "8.2.6": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.2.6"
+                ]
+            },
+            "7.4.9": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/7.4.9"
+                ]
+            },
+            "7.2.14": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/7.2.14"
+                ]
+            },
+            "6.2.22": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/6.2.22",
+                    "https://raw.githubusercontent.com/redis/redis/6.2/00-RELEASENOTES"
+                ]
+            }
+        }
+    },
+    "CVE-2026-23631": {
+        "CVE-ID": "CVE-2026-23631",
+        "NVD": {
+            "Descriptions": "Redis is an in-memory data structure store. In all versions of redis-server with Lua scripting, an authenticated attacker can exploit the master-replica synchronization mechanism to trigger a use-after-free on replicas where replica-read-only is disabled or can be disabled, which may lead to remote code execution. A workaround is to prevent users from executing Lua scripts or avoid using replicas where replica-read-only is disabled. This is patched in version 8.6.3.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:redis:redis",
+                    "FormattedString": "cpe:2.3:a:redis:redis:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "8.6.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "8.6.3": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.6.3"
+                ]
+            },
+            "8.4.3": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.4.3"
+                ]
+            },
+            "8.2.6": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.2.6"
+                ]
+            },
+            "7.4.9": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/7.4.9"
+                ]
+            },
+            "7.2.14": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/7.2.14"
+                ]
+            }
+        }
+    },
+    "CVE-2026-25588": {
+        "CVE-ID": "CVE-2026-25588",
+        "NVD": {
+            "Descriptions": "RedisTimeSeries is a time-series module for Redis. In all versions before 1.12.14 of RedisTimeSeries, the module does not properly validate serialized values processed through the Redis RESTORE command. An authenticated attacker with permission to execute RESTORE on a server with the RedisTimeSeries module loaded can supply a crafted serialized payload that triggers invalid memory access and may lead to remote code execution. A workaround is to restrict access to the RESTORE command with ACL rules. This has been patched in version 1.12.14.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:redistimeseries:redistimeseries",
+                    "FormattedString": "cpe:2.3:a:redistimeseries:redistimeseries:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.12.14",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "8.6.3": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.6.3"
+                ]
+            },
+            "8.4.3": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.4.3"
+                ]
+            },
+            "8.2.6": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.2.6"
+                ]
+            }
+        }
+    },
+    "CVE-2026-25589": {
+        "CVE-ID": "CVE-2026-25589",
+        "NVD": {
+            "Descriptions": "RedisBloom is a probabilistic data structures module for Redis. In all versions of RedisBloom before 2.8.20, the module does not properly validate serialized values processed through the Redis RESTORE command. An authenticated attacker with permission to execute RESTORE on a server with the RedisBloom module loaded can supply a crafted serialized payload that triggers invalid memory access and may lead to remote code execution. A workaround is to restrict access to the RESTORE command with ACL rules. This issue is fixed in version 2.8.20.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:redisbloom:redisbloom",
+                    "FormattedString": "cpe:2.3:a:redisbloom:redisbloom:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2.8.20",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "8.6.3": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.6.3"
+                ]
+            },
+            "8.4.3": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.4.3"
+                ]
+            },
+            "8.2.6": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.2.6"
+                ]
+            }
+        }
+    },
     "CVE-2025-62507": {
         "CVE-ID": "CVE-2025-62507",
         "NVD": {
