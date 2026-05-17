@@ -7094,6 +7094,38 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:siemens:siplus_s7-1500_cpu_1518-4_pn%2fdp_mfp_firmware",
+                    "FormattedString": "cpe:2.3:o:siemens:siplus_s7-1500_cpu_1518-4_pn\\/dp_mfp_firmware:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.1.5",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:siemens:simatic_s7-1500_cpu_1518f-4_pn%2fdp_mfp_firmware",
+                    "FormattedString": "cpe:2.3:o:siemens:simatic_s7-1500_cpu_1518f-4_pn\\/dp_mfp_firmware:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.1.5",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:siemens:simatic_s7-1500_cpu_1518-4_pn%2fdp_mfp_firmware",
+                    "FormattedString": "cpe:2.3:o:siemens:simatic_s7-1500_cpu_1518-4_pn\\/dp_mfp_firmware:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.1.5",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:siemens:ruggedcom_ape1808_firmware:-",
+                    "FormattedString": "cpe:2.3:o:siemens:ruggedcom_ape1808_firmware:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/o:redhat:enterprise_linux:9.0",
                     "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:9.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -7355,6 +7387,70 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "2.10.5",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:st7_scadaconnect",
+                    "FormattedString": "cpe:2.3:a:siemens:st7_scadaconnect:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_nms",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_nms:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "3.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:sp2_update_2",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:sp2_update_2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:sp2_update_1",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:sp2_update_1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:sp2",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:sp2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:sp1",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:sp1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:-",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.0",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -9707,66 +9803,6 @@
             }
         }
     },
-    "CVE-2024-3566": {
-        "CVE-ID": "CVE-2024-3566",
-        "NVD": {
-            "Descriptions": "A command inject vulnerability allows an attacker to perform command injection on Windows applications that indirectly depend on the CreateProcess function when the specific conditions are satisfied.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 9.8,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:yt-dlp_project:yt-dlp",
-                    "FormattedString": "cpe:2.3:a:yt-dlp_project:yt-dlp:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:rust-lang:rust:1.77.2",
-                    "FormattedString": "cpe:2.3:a:rust-lang:rust:1.77.2:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:php:php",
-                    "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "21.7.2"
-                },
-                {
-                    "URI": "cpe:/a:haskell:process_library:1.6.19.0",
-                    "FormattedString": "cpe:2.3:a:haskell:process_library:1.6.19.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:golang:go",
-                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": ""
-                }
-            ]
-        }
-    },
     "CVE-2025-0913": {
         "CVE-ID": "CVE-2025-0913",
         "NVD": {
@@ -11420,6 +11456,509 @@
             }
         }
     },
+    "CVE-2026-33811": {
+        "CVE-ID": "CVE-2026-33811",
+        "NVD": {
+            "Descriptions": "When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.27": {
+                "source": {
+                    "78803": "https://github.com/golang/go/issues/78803"
+                }
+            },
+            "1.26.3": {
+                "source": {
+                    "78813": "https://github.com/golang/go/issues/78813"
+                }
+            },
+            "1.25.10": {
+                "source": {
+                    "78812": "https://github.com/golang/go/issues/78812"
+                }
+            }
+        }
+    },
+    "CVE-2026-33814": {
+        "CVE-ID": "CVE-2026-33814",
+        "NVD": {
+            "Descriptions": "When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:http2:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:http2:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.53.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.27": {
+                "source": {
+                    "78476": "https://github.com/golang/go/issues/78476"
+                }
+            },
+            "1.26.3": {
+                "source": {
+                    "78478": "https://github.com/golang/go/issues/78478"
+                }
+            },
+            "1.25.10": {
+                "source": {
+                    "78477": "https://github.com/golang/go/issues/78477"
+                }
+            }
+        }
+    },
+    "CVE-2026-39817": {
+        "CVE-ID": "CVE-2026-39817",
+        "NVD": {
+            "Descriptions": "The \"go tool pack\" subcommand (usually used only by the compiler as an internal tool with known-good inputs) does not sanitize output filenames. Extracting a malicious archive file with the \"pack\" subcommand can write files to arbitrary locations on the filesystem.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.9,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.27": {
+                "source": {
+                    "78778": "https://github.com/golang/go/issues/78778"
+                }
+            },
+            "1.26.3": {
+                "source": {
+                    "78791": "https://github.com/golang/go/issues/78791"
+                }
+            },
+            "1.25.10": {
+                "source": {
+                    "78790": "https://github.com/golang/go/issues/78790"
+                }
+            }
+        }
+    },
+    "CVE-2026-39819": {
+        "CVE-ID": "CVE-2026-39819",
+        "NVD": {
+            "Descriptions": "The \"go bug\" command writes to two files with predictable names in the system temporary directory (for example, \"/tmp\"). An attacker with access to the temporary directory can create a symlink in one of these names, causing \"go bug\" to overwrite the target of the symlink.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.27": {
+                "source": {
+                    "78584": "https://github.com/golang/go/issues/78584"
+                }
+            },
+            "1.26.3": {
+                "source": {
+                    "78588": "https://github.com/golang/go/issues/78588"
+                }
+            },
+            "1.25.10": {
+                "source": {
+                    "78587": "https://github.com/golang/go/issues/78587"
+                }
+            }
+        }
+    },
+    "CVE-2026-39820": {
+        "CVE-ID": "CVE-2026-39820",
+        "NVD": {
+            "Descriptions": "Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.27": {
+                "source": {
+                    "78566": "https://github.com/golang/go/issues/78566"
+                }
+            },
+            "1.26.3": {
+                "source": {
+                    "78568": "https://github.com/golang/go/issues/78568"
+                }
+            },
+            "1.25.10": {
+                "source": {
+                    "78567": "https://github.com/golang/go/issues/78567"
+                }
+            }
+        }
+    },
+    "CVE-2026-39823": {
+        "CVE-ID": "CVE-2026-39823",
+        "NVD": {
+            "Descriptions": "CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "78913": "https://github.com/golang/go/issues/78913"
+                }
+            },
+            "1.26.3": {
+                "source": {
+                    "79032": "https://github.com/golang/go/issues/79032"
+                }
+            },
+            "1.25.10": {
+                "source": {
+                    "79031": "https://github.com/golang/go/issues/79031"
+                }
+            }
+        }
+    },
+    "CVE-2026-39825": {
+        "CVE-ID": "CVE-2026-39825",
+        "NVD": {
+            "Descriptions": "ReverseProxy can forward queries containing parameters not visible to Rewrite functions. When used with a Rewrite function, or a Director function which parses query parameters, ReverseProxy sanitizes the forwarded request to remove query parameters which are not parsed by url.ParseQuery. ReverseProxy does not take ParseQuery's limit on the total number of query parameters (controlled by GODEBUG=urlmaxqueryparams=N) into account. This can permit ReverseProxy to forward a request containing a query parameter that is not visible to the Rewrite function. For example, the query \"a1=x&a2=x&...&a10000=x&hidden=y\" can forward the parameter \"hidden=y\" while hiding it from the proxy's Rewrite function.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "78948": "https://github.com/golang/go/issues/78948"
+                }
+            },
+            "1.26.3": {
+                "source": {
+                    "78986": "https://github.com/golang/go/issues/78986"
+                }
+            },
+            "1.25.10": {
+                "source": {
+                    "78985": "https://github.com/golang/go/issues/78985"
+                }
+            }
+        }
+    },
+    "CVE-2026-39826": {
+        "CVE-ID": "CVE-2026-39826",
+        "NVD": {
+            "Descriptions": "If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "78981": "https://github.com/golang/go/issues/78981"
+                }
+            },
+            "1.26.3": {
+                "source": {
+                    "79025": "https://github.com/golang/go/issues/79025"
+                }
+            },
+            "1.25.10": {
+                "source": {
+                    "79024": "https://github.com/golang/go/issues/79024"
+                }
+            }
+        }
+    },
+    "CVE-2026-39836": {
+        "CVE-ID": "CVE-2026-39836",
+        "NVD": {
+            "Descriptions": "The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.26.3": {
+                "source": {
+                    "79029": "https://github.com/golang/go/issues/79029"
+                }
+            },
+            "1.25.10": {
+                "source": {
+                    "79028": "https://github.com/golang/go/issues/79028"
+                }
+            },
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "79006": "https://github.com/golang/go/issues/79006"
+                }
+            }
+        }
+    },
+    "CVE-2026-42499": {
+        "CVE-ID": "CVE-2026-42499",
+        "NVD": {
+            "Descriptions": "Pathological inputs could cause DoS through consumePhrase when parsing an email address according to RFC 5322.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "78987": "https://github.com/golang/go/issues/78987"
+                }
+            },
+            "1.26.3": {
+                "source": {
+                    "79004": "https://github.com/golang/go/issues/79004"
+                }
+            },
+            "1.25.10": {
+                "source": {
+                    "79003": "https://github.com/golang/go/issues/79003"
+                }
+            }
+        }
+    },
+    "CVE-2026-42501": {
+        "CVE-ID": "CVE-2026-42501",
+        "NVD": {
+            "Descriptions": "A malicious module proxy can exploit a flaw in the go command's validation of module checksums to bypass checksum database validation. This vulnerability affects any user using an untrusted module proxy (GOMODPROXY) or checksum database (GOSUMDB). A malicious module proxy can serve altered versions of the Go toolchain. When selecting a different version of the Go toolchain than the currently installed toolchain (due to the GOTOOLCHAIN environment variable, or a go.work or go.mod with a toolchain line), the go command will download and execute a toolchain provided by the module proxy. A malicious module proxy can bypass checksum database validation for this downloaded toolchain. Since this vulnerability affects the security of toolchain downloads, setting GOTOOLCHAIN to a fixed version is not sufficient. You must upgrade your base Go toolchain. The go tool always validates the hash of a toolchain before executing it, so fixed versions will refuse to execute any cached, altered versions of the toolchain. The go tool trusts go.sum files to contain accurate hashes of the current module's dependencies. A malicious proxy exploiting this vulnerability to serve an altered module will have caused an incorrect hash to be recorded in the go.sum. Users who have configured a non-trusted GOPROXY can determine if they have been affected by running \"rm go.sum ; go mod tidy ; go mod verify\", which will revalidate all dependencies of the current module. The specific flaw in more detail: The go command consults the checksum database to validate downloaded modules, when a module is not listed in the go.sum file. It verifies that the module hash reported by the checksum database matches the hash of the downloaded module. If, however, the checksum database returns a successful response that contains no entry for the module, the go command incorrectly permitted validation to succeed. A module proxy may mirror or proxy the checksum database, in which case the go command will not connect to the checksum database directly. Checksums reported by the checksum database are cryptographically signed, so a malicious proxy cannot alter the reported checksum for a module. However, a proxy which returns an empty checksum response, or a checksum response for an unrelated module, could cause the go command to proceed as if a downloaded module has been validated.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.25.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.26.0",
+                    "VersionEndExcluding": "1.26.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "1.26.3": {
+                "source": {
+                    "79073": "https://github.com/golang/go/issues/79073"
+                }
+            },
+            "1.25.10": {
+                "source": {
+                    "79072": "https://github.com/golang/go/issues/79072"
+                }
+            },
+            "1.27": {
+                "source": {
+                    "79070": "https://github.com/golang/go/issues/79070"
+                }
+            }
+        }
+    },
     "CVE-2024-24787": {
         "CVE-ID": "CVE-2024-24787",
         "NVD": {
@@ -12610,9 +13149,19 @@
     "CVE-2026-42507": {
         "CVE-ID": "CVE-2026-42507",
         "Official": {
-            "NOT_IN_MILESTONE": {
+            "1.27": {
                 "source": {
                     "79346": "https://github.com/golang/go/issues/79346"
+                }
+            },
+            "1.26.4": {
+                "source": {
+                    "79426": "https://github.com/golang/go/issues/79426"
+                }
+            },
+            "1.25.11": {
+                "source": {
+                    "79425": "https://github.com/golang/go/issues/79425"
                 }
             }
         }
@@ -12655,62 +13204,6 @@
             }
         }
     },
-    "CVE-2026-42501": {
-        "CVE-ID": "CVE-2026-42501",
-        "NVD": {
-            "Descriptions": "A malicious module proxy can exploit a flaw in the go command's validation of module checksums to bypass checksum database validation. This vulnerability affects any user using an untrusted module proxy (GOMODPROXY) or checksum database (GOSUMDB). A malicious module proxy can serve altered versions of the Go toolchain. When selecting a different version of the Go toolchain than the currently installed toolchain (due to the GOTOOLCHAIN environment variable, or a go.work or go.mod with a toolchain line), the go command will download and execute a toolchain provided by the module proxy. A malicious module proxy can bypass checksum database validation for this downloaded toolchain. Since this vulnerability affects the security of toolchain downloads, setting GOTOOLCHAIN to a fixed version is not sufficient. You must upgrade your base Go toolchain. The go tool always validates the hash of a toolchain before executing it, so fixed versions will refuse to execute any cached, altered versions of the toolchain. The go tool trusts go.sum files to contain accurate hashes of the current module's dependencies. A malicious proxy exploiting this vulnerability to serve an altered module will have caused an incorrect hash to be recorded in the go.sum. Users who have configured a non-trusted GOPROXY can determine if they have been affected by running \"rm go.sum ; go mod tidy ; go mod verify\", which will revalidate all dependencies of the current module. The specific flaw in more detail: The go command consults the checksum database to validate downloaded modules, when a module is not listed in the go.sum file. It verifies that the module hash reported by the checksum database matches the hash of the downloaded module. If, however, the checksum database returns a successful response that contains no entry for the module, the go command incorrectly permitted validation to succeed. A module proxy may mirror or proxy the checksum database, in which case the go command will not connect to the checksum database directly. Checksums reported by the checksum database are cryptographically signed, so a malicious proxy cannot alter the reported checksum for a module. However, a proxy which returns an empty checksum response, or a checksum response for an unrelated module, could cause the go command to proceed as if a downloaded module has been validated.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 7.5,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
-            "CPEs": []
-        },
-        "Official": {
-            "1.26.3": {
-                "source": {
-                    "79073": "https://github.com/golang/go/issues/79073"
-                }
-            },
-            "1.25.10": {
-                "source": {
-                    "79072": "https://github.com/golang/go/issues/79072"
-                }
-            },
-            "1.27": {
-                "source": {
-                    "79070": "https://github.com/golang/go/issues/79070"
-                }
-            }
-        }
-    },
-    "CVE-2026-39836": {
-        "CVE-ID": "CVE-2026-39836",
-        "NVD": {
-            "Descriptions": "The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 7.5,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
-        },
-        "Official": {
-            "1.26.3": {
-                "source": {
-                    "79029": "https://github.com/golang/go/issues/79029"
-                }
-            },
-            "1.25.10": {
-                "source": {
-                    "79028": "https://github.com/golang/go/issues/79028"
-                }
-            },
-            "NOT_IN_MILESTONE": {
-                "source": {
-                    "79006": "https://github.com/golang/go/issues/79006"
-                }
-            }
-        }
-    },
     "CVE-2026-39822": {
         "CVE-ID": "CVE-2026-39822",
         "Official": {
@@ -12731,258 +13224,6 @@
             }
         }
     },
-    "CVE-2026-42499": {
-        "CVE-ID": "CVE-2026-42499",
-        "NVD": {
-            "Descriptions": "Pathological inputs could cause DoS through consumePhrase when parsing an email address according to RFC 5322.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 7.5,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
-        },
-        "Official": {
-            "NOT_IN_MILESTONE": {
-                "source": {
-                    "78987": "https://github.com/golang/go/issues/78987"
-                }
-            },
-            "1.26.3": {
-                "source": {
-                    "79004": "https://github.com/golang/go/issues/79004"
-                }
-            },
-            "1.25.10": {
-                "source": {
-                    "79003": "https://github.com/golang/go/issues/79003"
-                }
-            }
-        }
-    },
-    "CVE-2026-39826": {
-        "CVE-ID": "CVE-2026-39826",
-        "NVD": {
-            "Descriptions": "If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 6.1,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-            "CPEs": []
-        },
-        "Official": {
-            "NOT_IN_MILESTONE": {
-                "source": {
-                    "78981": "https://github.com/golang/go/issues/78981"
-                }
-            },
-            "1.26.3": {
-                "source": {
-                    "79025": "https://github.com/golang/go/issues/79025"
-                }
-            },
-            "1.25.10": {
-                "source": {
-                    "79024": "https://github.com/golang/go/issues/79024"
-                }
-            }
-        }
-    },
-    "CVE-2026-39825": {
-        "CVE-ID": "CVE-2026-39825",
-        "NVD": {
-            "Descriptions": "ReverseProxy can forward queries containing parameters not visible to Rewrite functions. When used with a Rewrite function, or a Director function which parses query parameters, ReverseProxy sanitizes the forwarded request to remove query parameters which are not parsed by url.ParseQuery. ReverseProxy does not take ParseQuery's limit on the total number of query parameters (controlled by GODEBUG=urlmaxqueryparams=N) into account. This can permit ReverseProxy to forward a request containing a query parameter that is not visible to the Rewrite function. For example, the query \"a1=x&a2=x&...&a10000=x&hidden=y\" can forward the parameter \"hidden=y\" while hiding it from the proxy's Rewrite function.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 5.3,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-            "CPEs": []
-        },
-        "Official": {
-            "NOT_IN_MILESTONE": {
-                "source": {
-                    "78948": "https://github.com/golang/go/issues/78948"
-                }
-            },
-            "1.26.3": {
-                "source": {
-                    "78986": "https://github.com/golang/go/issues/78986"
-                }
-            },
-            "1.25.10": {
-                "source": {
-                    "78985": "https://github.com/golang/go/issues/78985"
-                }
-            }
-        }
-    },
-    "CVE-2026-39823": {
-        "CVE-ID": "CVE-2026-39823",
-        "NVD": {
-            "Descriptions": "CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 6.1,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-            "CPEs": []
-        },
-        "Official": {
-            "NOT_IN_MILESTONE": {
-                "source": {
-                    "78913": "https://github.com/golang/go/issues/78913"
-                }
-            },
-            "1.26.3": {
-                "source": {
-                    "79032": "https://github.com/golang/go/issues/79032"
-                }
-            },
-            "1.25.10": {
-                "source": {
-                    "79031": "https://github.com/golang/go/issues/79031"
-                }
-            }
-        }
-    },
-    "CVE-2026-33811": {
-        "CVE-ID": "CVE-2026-33811",
-        "NVD": {
-            "Descriptions": "When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 7.5,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
-        },
-        "Official": {
-            "1.27": {
-                "source": {
-                    "78803": "https://github.com/golang/go/issues/78803"
-                }
-            },
-            "1.26.3": {
-                "source": {
-                    "78813": "https://github.com/golang/go/issues/78813"
-                }
-            },
-            "1.25.10": {
-                "source": {
-                    "78812": "https://github.com/golang/go/issues/78812"
-                }
-            }
-        }
-    },
-    "CVE-2026-39817": {
-        "CVE-ID": "CVE-2026-39817",
-        "NVD": {
-            "Descriptions": "The \"go tool pack\" subcommand (usually used only by the compiler as an internal tool with known-good inputs) does not sanitize output filenames. Extracting a malicious archive file with the \"pack\" subcommand can write files to arbitrary locations on the filesystem.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 5.9,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:N",
-            "CPEs": []
-        },
-        "Official": {
-            "1.27": {
-                "source": {
-                    "78778": "https://github.com/golang/go/issues/78778"
-                }
-            },
-            "1.26.3": {
-                "source": {
-                    "78791": "https://github.com/golang/go/issues/78791"
-                }
-            },
-            "1.25.10": {
-                "source": {
-                    "78790": "https://github.com/golang/go/issues/78790"
-                }
-            }
-        }
-    },
-    "CVE-2026-39819": {
-        "CVE-ID": "CVE-2026-39819",
-        "NVD": {
-            "Descriptions": "The \"go bug\" command writes to two files with predictable names in the system temporary directory (for example, \"/tmp\"). An attacker with access to the temporary directory can create a symlink in one of these names, causing \"go bug\" to overwrite the target of the symlink.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 5.3,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:N",
-            "CPEs": []
-        },
-        "Official": {
-            "1.27": {
-                "source": {
-                    "78584": "https://github.com/golang/go/issues/78584"
-                }
-            },
-            "1.26.3": {
-                "source": {
-                    "78588": "https://github.com/golang/go/issues/78588"
-                }
-            },
-            "1.25.10": {
-                "source": {
-                    "78587": "https://github.com/golang/go/issues/78587"
-                }
-            }
-        }
-    },
-    "CVE-2026-39820": {
-        "CVE-ID": "CVE-2026-39820",
-        "NVD": {
-            "Descriptions": "Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 7.5,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
-        },
-        "Official": {
-            "1.27": {
-                "source": {
-                    "78566": "https://github.com/golang/go/issues/78566"
-                }
-            },
-            "1.26.3": {
-                "source": {
-                    "78568": "https://github.com/golang/go/issues/78568"
-                }
-            },
-            "1.25.10": {
-                "source": {
-                    "78567": "https://github.com/golang/go/issues/78567"
-                }
-            }
-        }
-    },
-    "CVE-2026-33814": {
-        "CVE-ID": "CVE-2026-33814",
-        "NVD": {
-            "Descriptions": "When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 7.5,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
-        },
-        "Official": {
-            "1.27": {
-                "source": {
-                    "78476": "https://github.com/golang/go/issues/78476"
-                }
-            },
-            "1.26.3": {
-                "source": {
-                    "78478": "https://github.com/golang/go/issues/78478"
-                }
-            },
-            "1.25.10": {
-                "source": {
-                    "78477": "https://github.com/golang/go/issues/78477"
-                }
-            }
-        }
-    },
     "CVE-2026-33813": {
         "CVE-ID": "CVE-2026-33813",
         "NVD": {
@@ -12991,7 +13232,16 @@
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:image:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:image:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.39.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "Unreleased": {

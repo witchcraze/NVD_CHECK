@@ -19,6 +19,11 @@
             ]
         },
         "Official": {
+            "8.8-RC1": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.8-rc1"
+                ]
+            },
             "8.6.3": {
                 "source": [
                     "https://github.com/redis/redis/releases/tag/8.6.3"
@@ -66,6 +71,11 @@
             ]
         },
         "Official": {
+            "8.8-RC1": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.8-rc1"
+                ]
+            },
             "8.6.3": {
                 "source": [
                     "https://github.com/redis/redis/releases/tag/8.6.3"
@@ -119,6 +129,11 @@
             ]
         },
         "Official": {
+            "8.8-RC1": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.8-rc1"
+                ]
+            },
             "8.6.3": {
                 "source": [
                     "https://github.com/redis/redis/releases/tag/8.6.3"
@@ -166,6 +181,11 @@
             ]
         },
         "Official": {
+            "8.8-RC1": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.8-rc1"
+                ]
+            },
             "8.6.3": {
                 "source": [
                     "https://github.com/redis/redis/releases/tag/8.6.3"
@@ -203,6 +223,11 @@
             ]
         },
         "Official": {
+            "8.8-RC1": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.8-rc1"
+                ]
+            },
             "8.6.3": {
                 "source": [
                     "https://github.com/redis/redis/releases/tag/8.6.3"

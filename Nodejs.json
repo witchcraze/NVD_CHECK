@@ -23833,6 +23833,38 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": [
                 {
+                    "URI": "cpe:/o:siemens:siplus_s7-1500_cpu_1518-4_pn%2fdp_mfp_firmware",
+                    "FormattedString": "cpe:2.3:o:siemens:siplus_s7-1500_cpu_1518-4_pn\\/dp_mfp_firmware:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.1.5",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:siemens:simatic_s7-1500_cpu_1518f-4_pn%2fdp_mfp_firmware",
+                    "FormattedString": "cpe:2.3:o:siemens:simatic_s7-1500_cpu_1518f-4_pn\\/dp_mfp_firmware:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.1.5",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:siemens:simatic_s7-1500_cpu_1518-4_pn%2fdp_mfp_firmware",
+                    "FormattedString": "cpe:2.3:o:siemens:simatic_s7-1500_cpu_1518-4_pn\\/dp_mfp_firmware:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.1.5",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:siemens:ruggedcom_ape1808_firmware:-",
+                    "FormattedString": "cpe:2.3:o:siemens:ruggedcom_ape1808_firmware:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/o:redhat:enterprise_linux:9.0",
                     "FormattedString": "cpe:2.3:o:redhat:enterprise_linux:9.0:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -24094,6 +24126,70 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "2.10.5",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:st7_scadaconnect",
+                    "FormattedString": "cpe:2.3:a:siemens:st7_scadaconnect:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_nms",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_nms:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "3.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:sp2_update_2",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:sp2_update_2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:sp2_update_1",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:sp2_update_1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:sp2",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:sp2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:sp1",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:sp1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins:1.0:-",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:1.0:-:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:sinec_ins",
+                    "FormattedString": "cpe:2.3:a:siemens:sinec_ins:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.0",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -37165,16 +37261,16 @@
                     "URI": "cpe:/a:yt-dlp_project:yt-dlp",
                     "FormattedString": "cpe:2.3:a:yt-dlp_project:yt-dlp:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionStartIncluding": "2021.04.11",
+                    "VersionEndExcluding": "2024.04.09",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:rust-lang:rust:1.77.2",
-                    "FormattedString": "cpe:2.3:a:rust-lang:rust:1.77.2:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:rust-lang:rust",
+                    "FormattedString": "cpe:2.3:a:rust-lang:rust:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionEndExcluding": "1.77.2",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -37182,31 +37278,55 @@
                     "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionEndExcluding": "8.1.28",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
-                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "URI": "cpe:/a:php:php",
+                    "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
-                    "VersionEndIncluding": "21.7.2"
-                },
-                {
-                    "URI": "cpe:/a:haskell:process_library:1.6.19.0",
-                    "FormattedString": "cpe:2.3:a:haskell:process_library:1.6.19.0:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "8.2.18",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:golang:go",
-                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:php:php",
+                    "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.6",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
-                    "VersionEndExcluding": "",
+                    "VersionEndExcluding": "18.20.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "19.0.0",
+                    "VersionEndExcluding": "20.12.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "21.0.0",
+                    "VersionEndExcluding": "21.7.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:haskell:process_library",
+                    "FormattedString": "cpe:2.3:a:haskell:process_library:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.6.19.0",
                     "VersionEndIncluding": ""
                 }
             ]
