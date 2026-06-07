@@ -19770,6 +19770,20 @@
             ]
         },
         "Official": {
+            "3.15.0b2": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.15/Misc/NEWS.d/3.15.0b2.rst"
+                ],
+                "BTS": {
+                    "gh-issue87451": {
+                        "ID": "gh-issue87451",
+                        "url": "https://github.com/python/cpython/issues/87451",
+                        "date": "2026-05-10-18-05-32",
+                        "nonce": "XkKB6M",
+                        "section": "Security"
+                    }
+                }
+            },
             "3.6.14": {
                 "source": [
                     "https://github.com/python/cpython/blob/v3.6.14/Misc/NEWS.d/3.6.14.rst"
@@ -23118,6 +23132,134 @@
             }
         }
     },
+    "CVE-2025-13462": {
+        "CVE-ID": "CVE-2025-13462",
+        "NVD": {
+            "Descriptions": "The \"tarfile\" module would still apply normalization of AREGTYPE (\\x00) blocks to DIRTYPE, even while processing a multi-block member such as GNUTYPE_LONGNAME or GNUTYPE_LONGLINK. This could result in a crafted tar archive being misinterpreted by the tarfile module compared to other implementations.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 9.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha7",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha7:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha6",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha6:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha5",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha5:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha4",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha4:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha3",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha3:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha2",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha1",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "3.13.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.14.0",
+                    "VersionEndExcluding": "3.14.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "3.13.13": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.13.13/Misc/NEWS.d/3.13.13.rst"
+                ],
+                "BTS": {
+                    "gh-issue141707": {
+                        "ID": "gh-issue141707",
+                        "url": "https://github.com/python/cpython/issues/141707",
+                        "date": "2025-10-11-11-50-59",
+                        "nonce": "DBmQIy",
+                        "section": "Library"
+                    }
+                }
+            },
+            "3.14.4": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.14.4/Misc/NEWS.d/3.14.4.rst"
+                ],
+                "BTS": {
+                    "gh-issue141707": {
+                        "ID": "gh-issue141707",
+                        "url": "https://github.com/python/cpython/issues/141707",
+                        "date": "2025-10-11-11-50-59",
+                        "nonce": "DBmQIy",
+                        "section": "Library"
+                    }
+                }
+            },
+            "3.15.0a8": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.15/Misc/NEWS.d/3.15.0a8.rst"
+                ],
+                "BTS": {
+                    "gh-issue141707": {
+                        "ID": "gh-issue141707",
+                        "url": "https://github.com/python/cpython/issues/141707",
+                        "date": "2025-11-15-23-14-30",
+                        "nonce": "DBmQIy",
+                        "section": "Library"
+                    }
+                }
+            }
+        }
+    },
     "CVE-2025-13836": {
         "CVE-ID": "CVE-2025-13836",
         "NVD": {
@@ -23556,64 +23698,64 @@
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
             "CPEs": [
                 {
-                    "URI": "cpe:/a:python:python:3.15.0:alpha_8",
-                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha_8:*:*:*:*:*:*",
+                    "URI": "cpe:/a:python:python:3.15.0:alpha8",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha8:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:python:python:3.15.0:alpha_7",
-                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha_7:*:*:*:*:*:*",
+                    "URI": "cpe:/a:python:python:3.15.0:alpha7",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha7:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:python:python:3.15.0:alpha_6",
-                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha_6:*:*:*:*:*:*",
+                    "URI": "cpe:/a:python:python:3.15.0:alpha6",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha6:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:python:python:3.15.0:alpha_5",
-                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha_5:*:*:*:*:*:*",
+                    "URI": "cpe:/a:python:python:3.15.0:alpha5",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha5:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:python:python:3.15.0:alpha_4",
-                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha_4:*:*:*:*:*:*",
+                    "URI": "cpe:/a:python:python:3.15.0:alpha4",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha4:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:python:python:3.15.0:alpha_3",
-                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha_3:*:*:*:*:*:*",
+                    "URI": "cpe:/a:python:python:3.15.0:alpha3",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha3:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:python:python:3.15.0:alpha_2",
-                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha_2:*:*:*:*:*:*",
+                    "URI": "cpe:/a:python:python:3.15.0:alpha2",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha2:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:python:python:3.15.0:alpha_1",
-                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha_1:*:*:*:*:*:*",
+                    "URI": "cpe:/a:python:python:3.15.0:alpha1",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha1:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -23654,6 +23796,270 @@
                         "url": "https://github.com/python/cpython/issues/146581",
                         "date": "2026-03-26-01-42-15",
                         "nonce": "4vZfB0",
+                        "section": "Security"
+                    }
+                }
+            }
+        }
+    },
+    "CVE-2026-3644": {
+        "CVE-ID": "CVE-2026-3644",
+        "NVD": {
+            "Descriptions": "The fix for CVE-2026-0672, which rejected control characters in http.cookies.Morsel, was incomplete. The Morsel.update(), |= operator, and unpickling paths were not patched, allowing control characters to bypass input validation. Additionally, BaseCookie.js_output() lacked the output validation applied to BaseCookie.output().",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha7",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha7:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha6",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha6:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha5",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha5:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha4",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha4:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha3",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha3:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha2",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha1",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "3.13.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.14.0",
+                    "VersionEndExcluding": "3.14.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "3.13.13": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.13.13/Misc/NEWS.d/3.13.13.rst"
+                ],
+                "BTS": {
+                    "gh-issue145599": {
+                        "ID": "gh-issue145599",
+                        "url": "https://github.com/python/cpython/issues/145599",
+                        "date": "2026-03-04-18-59-17",
+                        "nonce": "kchwZV",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.14.4": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.14.4/Misc/NEWS.d/3.14.4.rst"
+                ],
+                "BTS": {
+                    "gh-issue145599": {
+                        "ID": "gh-issue145599",
+                        "url": "https://github.com/python/cpython/issues/145599",
+                        "date": "2026-03-04-18-59-17",
+                        "nonce": "kchwZV",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.15.0a8": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.15/Misc/NEWS.d/3.15.0a8.rst"
+                ],
+                "BTS": {
+                    "gh-issue145599": {
+                        "ID": "gh-issue145599",
+                        "url": "https://github.com/python/cpython/issues/145599",
+                        "date": "2026-01-16-12-04-49",
+                        "nonce": "kchwZV",
+                        "section": "Security"
+                    }
+                }
+            }
+        }
+    },
+    "CVE-2026-4224": {
+        "CVE-ID": "CVE-2026-4224",
+        "NVD": {
+            "Descriptions": "When an Expat parser with a registered ElementDeclHandler parses an inline\ndocument type definition containing a deeply nested content model a C stack\noverflow occurs.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha7",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha7:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha6",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha6:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha5",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha5:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha4",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha4:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha3",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha3:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha2",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python:3.15.0:alpha1",
+                    "FormattedString": "cpe:2.3:a:python:python:3.15.0:alpha1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "3.10.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.13.0",
+                    "VersionEndExcluding": "3.13.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python:python",
+                    "FormattedString": "cpe:2.3:a:python:python:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.14.0",
+                    "VersionEndExcluding": "3.14.4",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "3.13.13": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.13.13/Misc/NEWS.d/3.13.13.rst"
+                ],
+                "BTS": {
+                    "gh-issue145986": {
+                        "ID": "gh-issue145986",
+                        "url": "https://github.com/python/cpython/issues/145986",
+                        "date": "2026-03-06-17-03-38",
+                        "nonce": "ifSSr8",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.14.4": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.14.4/Misc/NEWS.d/3.14.4.rst"
+                ],
+                "BTS": {
+                    "gh-issue145986": {
+                        "ID": "gh-issue145986",
+                        "url": "https://github.com/python/cpython/issues/145986",
+                        "date": "2026-03-06-17-03-38",
+                        "nonce": "ifSSr8",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.15.0a8": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.15/Misc/NEWS.d/3.15.0a8.rst"
+                ],
+                "BTS": {
+                    "gh-issue145986": {
+                        "ID": "gh-issue145986",
+                        "url": "https://github.com/python/cpython/issues/145986",
+                        "date": "2026-03-06-17-03-38",
+                        "nonce": "ifSSr8",
                         "section": "Security"
                     }
                 }
@@ -23774,7 +24180,7 @@
             },
             "3.15.0a8": {
                 "source": [
-                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.15.0a8.rst"
+                    "https://github.com/python/cpython/blob/3.15/Misc/NEWS.d/3.15.0a8.rst"
                 ],
                 "BTS": {
                     "gh-issue143930": {
@@ -23856,6 +24262,22 @@
                     "VersionEndIncluding": ""
                 }
             ]
+        },
+        "Official": {
+            "3.15.0b2": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.15/Misc/NEWS.d/3.15.0b2.rst"
+                ],
+                "BTS": {
+                    "gh-issue149018": {
+                        "ID": "gh-issue149018",
+                        "url": "https://github.com/python/cpython/issues/149018",
+                        "date": "2026-05-25-16-00-22",
+                        "nonce": "a9SqWb",
+                        "section": "Security"
+                    }
+                }
+            }
         }
     },
     "CVE-2007-1657": {

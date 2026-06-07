@@ -13478,7 +13478,16 @@
             "Cvss3_BaseScore": 9.1,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:crypto:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:crypto:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.52.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "Unreleased": {
@@ -13496,7 +13505,16 @@
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:crypto:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:crypto:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.52.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "Unreleased": {
@@ -13514,7 +13532,16 @@
             "Cvss3_BaseScore": 9.1,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:crypto:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:crypto:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.52.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "Unreleased": {
@@ -13559,7 +13586,16 @@
             "Cvss3_BaseScore": 6.3,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:crypto:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:crypto:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.52.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "Unreleased": {
@@ -13652,6 +13688,14 @@
     },
     "CVE-2026-42507": {
         "CVE-ID": "CVE-2026-42507",
+        "NVD": {
+            "Descriptions": "When returning errors, functions in the net/textproto package would include its input as part of the error. This might allow an attacker to inject misleading content to errors that are printed or logged.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+            "CPEs": []
+        },
         "Official": {
             "1.27": {
                 "source": {
@@ -13682,6 +13726,14 @@
     },
     "CVE-2026-42504": {
         "CVE-ID": "CVE-2026-42504",
+        "NVD": {
+            "Descriptions": "Decoding a maliciously-crafted MIME header containing many invalid encoded-words can consume excessive CPU.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
         "Official": {
             "1.27": {
                 "source": {
@@ -13721,12 +13773,12 @@
     "CVE-2026-39822": {
         "CVE-ID": "CVE-2026-39822",
         "Official": {
-            "1.26.4": {
+            "1.26.5": {
                 "source": {
                     "79027": "https://github.com/golang/go/issues/79027"
                 }
             },
-            "1.25.11": {
+            "1.25.12": {
                 "source": {
                     "79026": "https://github.com/golang/go/issues/79026"
                 }
