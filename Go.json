@@ -13146,6 +13146,16 @@
             }
         }
     },
+    "CVE-2026-46601": {
+        "CVE-ID": "CVE-2026-46601",
+        "Official": {
+            "Unreleased": {
+                "source": {
+                    "79869": "https://github.com/golang/go/issues/79869"
+                }
+            }
+        }
+    },
     "CVE-2026-46598": {
         "CVE-ID": "CVE-2026-46598",
         "NVD": {

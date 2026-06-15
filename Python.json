@@ -19770,6 +19770,34 @@
             ]
         },
         "Official": {
+            "3.13.14": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.13/Misc/NEWS.d/3.13.14.rst"
+                ],
+                "BTS": {
+                    "gh-issue87451": {
+                        "ID": "gh-issue87451",
+                        "url": "https://github.com/python/cpython/issues/87451",
+                        "date": "2026-05-10-18-05-32",
+                        "nonce": "XkKB6M",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.14.6": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.14.6/Misc/NEWS.d/3.14.6.rst"
+                ],
+                "BTS": {
+                    "gh-issue87451": {
+                        "ID": "gh-issue87451",
+                        "url": "https://github.com/python/cpython/issues/87451",
+                        "date": "2026-05-10-18-05-32",
+                        "nonce": "XkKB6M",
+                        "section": "Security"
+                    }
+                }
+            },
             "3.15.0b2": {
                 "source": [
                     "https://github.com/python/cpython/blob/3.15/Misc/NEWS.d/3.15.0b2.rst"
@@ -23137,9 +23165,9 @@
         "NVD": {
             "Descriptions": "The \"tarfile\" module would still apply normalization of AREGTYPE (\\x00) blocks to DIRTYPE, even while processing a multi-block member such as GNUTYPE_LONGNAME or GNUTYPE_LONGLINK. This could result in a crafted tar archive being misinterpreted by the tarfile module compared to other implementations.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 9.8,
+            "Cvss3_BaseScore": 3.3,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/a:python:python:3.15.0:alpha7",
@@ -23246,7 +23274,7 @@
             },
             "3.15.0a8": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.15/Misc/NEWS.d/3.15.0a8.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.15.0a8.rst"
                 ],
                 "BTS": {
                     "gh-issue141707": {
@@ -23386,7 +23414,7 @@
             },
             "3.14.1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.14.3/Misc/NEWS.d/3.14.1.rst"
+                    "https://github.com/python/cpython/blob/v3.14.6/Misc/NEWS.d/3.14.1.rst"
                 ],
                 "BTS": {
                     "gh-issue119451": {
@@ -23502,7 +23530,7 @@
             },
             "3.13.10": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.13.10/Misc/NEWS.d/3.13.10.rst"
+                    "https://github.com/python/cpython/blob/v3.13.14/Misc/NEWS.d/3.13.10.rst"
                 ],
                 "BTS": {
                     "gh-issue119342": {
@@ -23516,7 +23544,7 @@
             },
             "3.14.1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.14.3/Misc/NEWS.d/3.14.1.rst"
+                    "https://github.com/python/cpython/blob/v3.14.6/Misc/NEWS.d/3.14.1.rst"
                 ],
                 "BTS": {
                     "gh-issue119342": {
@@ -23646,7 +23674,7 @@
             },
             "3.13.10": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.13.10/Misc/NEWS.d/3.13.10.rst"
+                    "https://github.com/python/cpython/blob/v3.13.14/Misc/NEWS.d/3.13.10.rst"
                 ],
                 "BTS": {
                     "gh-issue136065": {
@@ -23660,7 +23688,7 @@
             },
             "3.14.1": {
                 "source": [
-                    "https://github.com/python/cpython/blob/v3.14.3/Misc/NEWS.d/3.14.1.rst"
+                    "https://github.com/python/cpython/blob/v3.14.6/Misc/NEWS.d/3.14.1.rst"
                 ],
                 "BTS": {
                     "gh-issue136065": {
@@ -23772,6 +23800,20 @@
             ]
         },
         "Official": {
+            "3.13.14": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.13/Misc/NEWS.d/3.13.14.rst"
+                ],
+                "BTS": {
+                    "gh-issue146581": {
+                        "ID": "gh-issue146581",
+                        "url": "https://github.com/python/cpython/issues/146581",
+                        "date": "2026-03-25-00-51-03",
+                        "nonce": "4vZfB0",
+                        "section": "Security"
+                    }
+                }
+            },
             "3.14.5rc1": {
                 "source": [
                     "https://github.com/python/cpython/blob/v3.14.5rc1/Misc/NEWS.d/3.14.5rc1.rst"
@@ -23916,7 +23958,7 @@
             },
             "3.15.0a8": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.15/Misc/NEWS.d/3.15.0a8.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.15.0a8.rst"
                 ],
                 "BTS": {
                     "gh-issue145599": {
@@ -24052,7 +24094,7 @@
             },
             "3.15.0a8": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.15/Misc/NEWS.d/3.15.0a8.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.15.0a8.rst"
                 ],
                 "BTS": {
                     "gh-issue145986": {
@@ -24180,7 +24222,7 @@
             },
             "3.15.0a8": {
                 "source": [
-                    "https://github.com/python/cpython/blob/3.15/Misc/NEWS.d/3.15.0a8.rst"
+                    "https://github.com/python/cpython/blob/main/Misc/NEWS.d/3.15.0a8.rst"
                 ],
                 "BTS": {
                     "gh-issue143930": {
@@ -24214,6 +24256,20 @@
             ]
         },
         "Official": {
+            "3.13.14": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.13/Misc/NEWS.d/3.13.14.rst"
+                ],
+                "BTS": {
+                    "gh-issue90309": {
+                        "ID": "gh-issue90309",
+                        "url": "https://github.com/python/cpython/issues/90309",
+                        "date": "2026-04-20-15-31-37",
+                        "nonce": "srvj9q",
+                        "section": "Security"
+                    }
+                }
+            },
             "3.14.5rc1": {
                 "source": [
                     "https://github.com/python/cpython/blob/v3.14.5rc1/Misc/NEWS.d/3.14.5rc1.rst"
@@ -24264,6 +24320,34 @@
             ]
         },
         "Official": {
+            "3.13.14": {
+                "source": [
+                    "https://github.com/python/cpython/blob/3.13/Misc/NEWS.d/3.13.14.rst"
+                ],
+                "BTS": {
+                    "gh-issue149018": {
+                        "ID": "gh-issue149018",
+                        "url": "https://github.com/python/cpython/issues/149018",
+                        "date": "2026-04-26-17-49-58",
+                        "nonce": "a9SqWb",
+                        "section": "Security"
+                    }
+                }
+            },
+            "3.14.6": {
+                "source": [
+                    "https://github.com/python/cpython/blob/v3.14.6/Misc/NEWS.d/3.14.6.rst"
+                ],
+                "BTS": {
+                    "gh-issue149018": {
+                        "ID": "gh-issue149018",
+                        "url": "https://github.com/python/cpython/issues/149018",
+                        "date": "2026-06-09-12-24-35",
+                        "nonce": "a9SqWb",
+                        "section": "Security"
+                    }
+                }
+            },
             "3.15.0b2": {
                 "source": [
                     "https://github.com/python/cpython/blob/3.15/Misc/NEWS.d/3.15.0b2.rst"

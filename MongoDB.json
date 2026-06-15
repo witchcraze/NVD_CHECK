@@ -1,4 +1,408 @@
 {
+    "CVE-2026-9740": {
+        "CVE-ID": "CVE-2026-9740",
+        "NVD": {
+            "Descriptions": "A vulnerability in MongoDB Server's BSON validation logic allows an unauthenticated user to crash the mongod process by sending a specially crafted message. The BSON validator's handling of certain nested binary data structures permits uncontrolled mutual recursion between validation functions, where each re-entry resets internal depth tracking.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.2.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-9735": {
+        "CVE-ID": "CVE-2026-9735",
+        "NVD": {
+            "Descriptions": "MongoDB server may log authentication parameters, including credentials, to the server log during SASL authentication. When connection health metric logging is enabled, the full authentication parameters are written to the log without redaction.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-9753": {
+        "CVE-ID": "CVE-2026-9753",
+        "NVD": {
+            "Descriptions": "The $_internalApplyOplogUpdate aggregation pipeline stage can be used to execute a document diff containing a malformed binary diff to return memory out-of-bounds or crash the server. $_internalApplyOplogUpdate can be executed by any authenticated user with access to the aggregate command.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.2.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-9752": {
+        "CVE-ID": "CVE-2026-9752",
+        "NVD": {
+            "Descriptions": "An authorized user could trigger a server crash by running a query with a 2dsphere index on a field that stores a GeoJSON GeometryCollection containing a Polygon with a strict-winding CRS.\n\nStrict-winding polygons are intentionally unsupported for indexing, but the guard that rejects them does not inspect members of a GeometryCollection, allowing the unsafe path to be reached which ends with an ensuing null-pointer dereference.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.2.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-9751": {
+        "CVE-ID": "CVE-2026-9751",
+        "NVD": {
+            "Descriptions": "The ldapQueryPassword parameter, when set through the runtime setParameter command, will log the new password to the mongod.log file in plain text.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.35",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.24",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "8.2.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.2.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-9750": {
+        "CVE-ID": "CVE-2026-9750",
+        "NVD": {
+            "Descriptions": "An authenticated user can cause a MongoDB server to crash or return incorrect results by creating documents that interfere with internal metadata processing during query execution. This stems from insufficient separation between user-controlled document fields and internal metadata in certain execution paths.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.2.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-9749": {
+        "CVE-ID": "CVE-2026-9749",
+        "NVD": {
+            "Descriptions": "This issue can occur when running an aggregation pipeline that uses the internal $exchange stage configured with key-range partitioning and order-preserving delivery. If a single key range produces enough documents to fill its exchange buffer (that is, many results are routed to the same consumer), the server reaches the code path where a full per-consumer buffer is detected but the internal \"high watermark\" for that key range is not updated as intended.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.2.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-9748": {
+        "CVE-ID": "CVE-2026-9748",
+        "NVD": {
+            "Descriptions": "The $_internalConvertBucketIndexStats stage used PauseExecution as a way to signal \"skip this document\" when an index stats conversion failed. But PauseExecution is not a general purpose skip mechanism, but rather a TeeBuffer-internal signal used solely by $facet to coordinate its sub-pipelines. When this stage is placed before $facet in a pipeline, TeeBuffer receives the unexpected PauseExecution from upstream and hits a hard invariant assertion, crashing mongod.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.2.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-9747": {
+        "CVE-ID": "CVE-2026-9747",
+        "NVD": {
+            "Descriptions": "Adding fromRouter:true and runtimeConstants.userRoles could cause aggregations to crash mongodb server.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.2.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-9746": {
+        "CVE-ID": "CVE-2026-9746",
+        "NVD": {
+            "Descriptions": "When using $changestreams and $_requestReshardingResumeToken with the exchange option the server hits an invariant which causes the server to crash. There are no special privileges needed. The user must be logged in to issue the statement.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.2.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-9742": {
+        "CVE-ID": "CVE-2026-9742",
+        "NVD": {
+            "Descriptions": "When OIDC authentication is enabled in configuration, clients may set specific values in the \"mechanism\" parameter of the \"authenticate\" command that lead to server crash. The authenticate command is accessible to unauthenticated clients, leading to pre-auth denial-of-service in affected product configurations.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.2.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-9741": {
+        "CVE-ID": "CVE-2026-9741",
+        "NVD": {
+            "Descriptions": "A bug in query analysis processing of the $vectorSearch aggregation stage for Queryable Encryption (QE) or Client-Side Field Level Encryption (CSFLE)  results in literal values for encrypted fields within the $vectorSearch stage filter expressions to be sent to the server as plaintext instead of ciphertext.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.2.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
     "CVE-2026-8843": {
         "CVE-ID": "CVE-2026-8843",
         "NVD": {
