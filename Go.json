@@ -13146,8 +13146,26 @@
             }
         }
     },
+    "CVE-2026-46603": {
+        "CVE-ID": "CVE-2026-46603",
+        "Official": {
+            "Unreleased": {
+                "source": {
+                    "80069": "https://github.com/golang/go/issues/80069"
+                }
+            }
+        }
+    },
     "CVE-2026-46602": {
         "CVE-ID": "CVE-2026-46602",
+        "NVD": {
+            "Descriptions": "The TIFF decoder does not set a limit on the size of tiles in tiled images, permitting a malicious or corrupt image containing a very large tile to cause unbounded memory consumption.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
         "Official": {
             "Unreleased": {
                 "source": {
@@ -13158,6 +13176,14 @@
     },
     "CVE-2026-46601": {
         "CVE-ID": "CVE-2026-46601",
+        "NVD": {
+            "Descriptions": "The webp decoder can panic when processing a VP8 chunk with dimensions that do not match the canvas size.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
         "Official": {
             "Unreleased": {
                 "source": {
@@ -13740,6 +13766,16 @@
             "NOT_IN_MILESTONE": {
                 "source": {
                     "79282": "https://github.com/golang/go/issues/79282"
+                }
+            },
+            "1.26.5": {
+                "source": {
+                    "80175": "https://github.com/golang/go/issues/80175"
+                }
+            },
+            "1.25.12": {
+                "source": {
+                    "80174": "https://github.com/golang/go/issues/80174"
                 }
             }
         }
