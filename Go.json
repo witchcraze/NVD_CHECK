@@ -9713,6 +9713,74 @@
             }
         }
     },
+    "CVE-2023-54365": {
+        "CVE-ID": "CVE-2023-54365",
+        "NVD": {
+            "Descriptions": "Traefik before 2.10.5 and 3.0.0-beta4 is affected by a denial-of-service vulnerability in HTTP/2 request handling inherited from the Go standard library's HTTP/2 implementation (CVE-2023-44487 / CVE-2023-39325, the 'Rapid Reset' technique). A remote attacker can rapidly create and cancel HTTP/2 streams to exhaust server resources and cause service unavailability.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:traefik:traefik:3.0.0:beta3",
+                    "FormattedString": "cpe:2.3:a:traefik:traefik:3.0.0:beta3:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:traefik:traefik:3.0.0:beta2",
+                    "FormattedString": "cpe:2.3:a:traefik:traefik:3.0.0:beta2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:traefik:traefik:3.0.0:beta1",
+                    "FormattedString": "cpe:2.3:a:traefik:traefik:3.0.0:beta1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:traefik:traefik",
+                    "FormattedString": "cpe:2.3:a:traefik:traefik:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "2.10.5",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:redhat:openshift_ai:-",
+                    "FormattedString": "cpe:2.3:a:redhat:openshift_ai:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.20.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:golang:go",
+                    "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.21.0",
+                    "VersionEndExcluding": "1.21.3",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        }
+    },
     "CVE-2024-24789": {
         "CVE-ID": "CVE-2024-24789",
         "NVD": {
@@ -13146,6 +13214,74 @@
             }
         }
     },
+    "CVE-2026-46595": {
+        "CVE-ID": "CVE-2026-46595",
+        "NVD": {
+            "Descriptions": "Previously, CVE-2024-45337 fixed an authorization bypass for misused ssh server configurations; if any other type of callback is passed other than public key, then the source-address validation would be skipped.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 10,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:crypto:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:crypto:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.52.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "Unreleased": {
+                "source": {
+                    "80213": "https://github.com/golang/go/issues/80213",
+                    "79570": "https://github.com/golang/go/issues/79570"
+                }
+            }
+        }
+    },
+    "CVE-2026-56854": {
+        "CVE-ID": "CVE-2026-56854",
+        "Official": {
+            "Unreleased": {
+                "source": {
+                    "80213": "https://github.com/golang/go/issues/80213"
+                }
+            }
+        }
+    },
+    "CVE-2026-56853": {
+        "CVE-ID": "CVE-2026-56853",
+        "Official": {
+            "1.27": {
+                "source": {
+                    "80205": "https://github.com/golang/go/issues/80205"
+                }
+            },
+            "1.26.6": {
+                "source": {
+                    "80224": "https://github.com/golang/go/issues/80224"
+                }
+            },
+            "1.25.13": {
+                "source": {
+                    "80223": "https://github.com/golang/go/issues/80223"
+                }
+            }
+        }
+    },
+    "CVE-2026-56852": {
+        "CVE-ID": "CVE-2026-56852",
+        "Official": {
+            "Unreleased": {
+                "source": {
+                    "80142": "https://github.com/golang/go/issues/80142"
+                }
+            }
+        }
+    },
     "CVE-2026-46603": {
         "CVE-ID": "CVE-2026-46603",
         "Official": {
@@ -13426,33 +13562,6 @@
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
             "CPEs": []
-        },
-        "Official": {
-            "Unreleased": {
-                "source": {
-                    "79570": "https://github.com/golang/go/issues/79570"
-                }
-            }
-        }
-    },
-    "CVE-2026-46595": {
-        "CVE-ID": "CVE-2026-46595",
-        "NVD": {
-            "Descriptions": "Previously, CVE-2024-45337 fixed an authorization bypass for misused ssh server configurations; if any other type of callback is passed other than public key, then the source-address validation would be skipped.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 10,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L",
-            "CPEs": [
-                {
-                    "URI": "cpe:/a:golang:crypto:::~~~go~~",
-                    "FormattedString": "cpe:2.3:a:golang:crypto:*:*:*:*:*:go:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "0.52.0",
-                    "VersionEndIncluding": ""
-                }
-            ]
         },
         "Official": {
             "Unreleased": {
@@ -13762,8 +13871,16 @@
     },
     "CVE-2026-42505": {
         "CVE-ID": "CVE-2026-42505",
+        "NVD": {
+            "Descriptions": "Handshakes which used Encrypted Client Hello could be de-anonymized by a passive network observer due to a disclosure of pre-shared key identities in the unencrypted client hello.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "CPEs": []
+        },
         "Official": {
-            "NOT_IN_MILESTONE": {
+            "1.27": {
                 "source": {
                     "79282": "https://github.com/golang/go/issues/79282"
                 }
@@ -13828,6 +13945,14 @@
     },
     "CVE-2026-39822": {
         "CVE-ID": "CVE-2026-39822",
+        "NVD": {
+            "Descriptions": "On Unix systems, opening a file in an os.Root improperly follows symlinks to locations outside of the Root when the final path component of the a path is a symbolic link and the path ends in /. For example, 'root.Open(\"symlink/\")' will open \"symlink\" even when \"symlink\" is a symbolic link pointing outside of the root.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
         "Official": {
             "1.26.5": {
                 "source": {
@@ -13887,6 +14012,16 @@
             "1.27": {
                 "source": {
                     "78760": "https://github.com/golang/go/issues/78760"
+                }
+            },
+            "1.26.6": {
+                "source": {
+                    "80298": "https://github.com/golang/go/issues/80298"
+                }
+            },
+            "1.25.13": {
+                "source": {
+                    "80297": "https://github.com/golang/go/issues/80297"
                 }
             }
         }
