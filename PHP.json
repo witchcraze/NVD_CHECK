@@ -171328,7 +171328,7 @@
             },
             "8.4.23": {
                 "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.4.24/NEWS"
+                    "https://github.com/php/php-src/blob/PHP-8.4/NEWS"
                 ]
             },
             "8.5.8": {
@@ -172926,6 +172926,97 @@
             }
         }
     },
+    "CVE-2026-9672": {
+        "CVE-ID": "CVE-2026-9672",
+        "Official": {
+            "8.2.33": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.2.33/NEWS"
+                ]
+            },
+            "8.3.33": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.3/NEWS"
+                ]
+            },
+            "8.4.24": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.4/NEWS"
+                ]
+            },
+            "8.5.9": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.5/NEWS"
+                ]
+            }
+        }
+    },
+    "CVE-2026-17543": {
+        "CVE-ID": "CVE-2026-17543",
+        "NVD": {
+            "Descriptions": "Improper escaping of backslashes in attacker-provided parameters would allow for trivial SQL injection in PHP versions\u00a0from 8.2.* before 8.2.33, from 8.3.* before 8.3.33, from 8.4.* before 8.4.24, and from 8.5.* before 8.5.9.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "8.2.33": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.2.33/NEWS"
+                ]
+            },
+            "8.3.33": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.3/NEWS"
+                ]
+            },
+            "8.4.24": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.4/NEWS"
+                ]
+            },
+            "8.5.9": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.5/NEWS"
+                ]
+            }
+        }
+    },
+    "CVE-2026-7260": {
+        "CVE-ID": "CVE-2026-7260",
+        "NVD": {
+            "Descriptions": "Circular symbolic links in phar archives could lead to unbounded recursion, exhausting the C stack and crashing the PHP process,\u00a0in PHP versions\u00a0from 8.2.* before 8.2.33, from 8.3.* before 8.3.33, from 8.4.* before 8.4.24, and from 8.5.* before 8.5.9.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "8.2.33": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.2.33/NEWS"
+                ]
+            },
+            "8.3.33": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.3/NEWS"
+                ]
+            },
+            "8.4.24": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.4/NEWS"
+                ]
+            },
+            "8.5.9": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.5/NEWS"
+                ]
+            }
+        }
+    },
     "CVE-2026-12184": {
         "CVE-ID": "CVE-2026-12184",
         "Official": {
@@ -172936,7 +173027,7 @@
             },
             "8.4.21": {
                 "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.4.24/NEWS"
+                    "https://github.com/php/php-src/blob/PHP-8.4/NEWS"
                 ]
             },
             "8.5.6": {
@@ -172946,7 +173037,30 @@
             },
             "8.6.0alpha2": {
                 "source": [
-                    "https://github.com/php/php-src/blob/php-8.6.0alpha2/NEWS"
+                    "https://github.com/php/php-src/blob/php-8.6.0alpha3/NEWS"
+                ]
+            }
+        }
+    },
+    "CVE-2026-17544": {
+        "CVE-ID": "CVE-2026-17544",
+        "NVD": {
+            "Descriptions": "Attacker-provided inputs to bccomp() could lead to an out-of-bounds write with stack and heap corruption in PHP versions from 8.4.* before 8.4.24 and from 8.5.* before 8.5.9.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "8.4.24": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.4/NEWS"
+                ]
+            },
+            "8.5.9": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.5/NEWS"
                 ]
             }
         }

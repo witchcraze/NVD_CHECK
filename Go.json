@@ -13320,6 +13320,56 @@
             }
         }
     },
+    "CVE-2026-56861": {
+        "CVE-ID": "CVE-2026-56861",
+        "Official": {
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "80529": "https://github.com/golang/go/issues/80529"
+                }
+            }
+        }
+    },
+    "CVE-2026-56862": {
+        "CVE-ID": "CVE-2026-56862",
+        "Official": {
+            "1.27": {
+                "source": {
+                    "80528": "https://github.com/golang/go/issues/80528"
+                }
+            },
+            "1.26.6": {
+                "source": {
+                    "80531": "https://github.com/golang/go/issues/80531"
+                }
+            },
+            "1.25.13": {
+                "source": {
+                    "80530": "https://github.com/golang/go/issues/80530"
+                }
+            }
+        }
+    },
+    "CVE-2026-56859": {
+        "CVE-ID": "CVE-2026-56859",
+        "Official": {
+            "1.27": {
+                "source": {
+                    "80481": "https://github.com/golang/go/issues/80481"
+                }
+            },
+            "1.26.6": {
+                "source": {
+                    "80628": "https://github.com/golang/go/issues/80628"
+                }
+            },
+            "1.25.13": {
+                "source": {
+                    "80627": "https://github.com/golang/go/issues/80627"
+                }
+            }
+        }
+    },
     "CVE-2026-56858": {
         "CVE-ID": "CVE-2026-56858",
         "Official": {
@@ -13400,6 +13450,14 @@
     },
     "CVE-2026-56852": {
         "CVE-ID": "CVE-2026-56852",
+        "NVD": {
+            "Descriptions": "A norm.Iter can enter an infinite loop when handling input containing invalid UTF-8 bytes.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
         "Official": {
             "Unreleased": {
                 "source": {
@@ -13411,7 +13469,7 @@
     "CVE-2026-56851": {
         "CVE-ID": "CVE-2026-56851",
         "Official": {
-            "Unreleased": {
+            "1.27": {
                 "source": {
                     "80112": "https://github.com/golang/go/issues/80112"
                 }
@@ -13460,6 +13518,34 @@
             "Unreleased": {
                 "source": {
                     "79869": "https://github.com/golang/go/issues/79869"
+                }
+            }
+        }
+    },
+    "CVE-2026-46600": {
+        "CVE-ID": "CVE-2026-46600",
+        "NVD": {
+            "Descriptions": "Parsing an invalid SVCB or HTTPS RR can panic when the size of a parameter value overflows the message buffer.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "1.27": {
+                "source": {
+                    "79795": "https://github.com/golang/go/issues/79795"
+                }
+            },
+            "1.26.6": {
+                "source": {
+                    "80609": "https://github.com/golang/go/issues/80609"
+                }
+            },
+            "1.25.13": {
+                "source": {
+                    "80608": "https://github.com/golang/go/issues/80608"
                 }
             }
         }

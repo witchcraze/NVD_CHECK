@@ -1,4 +1,178 @@
 {
+    "CVE-2026-6949": {
+        "CVE-ID": "CVE-2026-6949",
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2026-6949.html"
+                ]
+            },
+            "4.22.11": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.22.11.html"
+                ]
+            },
+            "4.23.10": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.23.10.html"
+                ]
+            },
+            "4.24.5": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.24.5.html"
+                ]
+            }
+        }
+    },
+    "CVE-2026-58216": {
+        "CVE-ID": "CVE-2026-58216",
+        "NVD": {
+            "Descriptions": "An out-of-bounds read flaw was found in Samba's Kerberos Key Distribution Center's (KDC) password change (kpasswd) service. When processing malformed ASN.1-encoded Kerberos password change request, Samba server miscalculates the structure size and attempts to read up to six bytes beyond the end of the allocated buffer. While this out-of-bounds read typically results in a harmless decryption failure, if the read hits unmapped memory, it causes the KDC process to crash. An authenticated attacker can send a specially crafted kpasswd request containing malformed ASN.1 data to trigger the out-of-bounds read, which may cause the KDC process to terminate, resulting in a denial of service.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2026-58216.html"
+                ]
+            },
+            "4.22.11": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.22.11.html"
+                ]
+            },
+            "4.23.10": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.23.10.html"
+                ]
+            },
+            "4.24.5": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.24.5.html"
+                ]
+            }
+        }
+    },
+    "CVE-2026-58218": {
+        "CVE-ID": "CVE-2026-58218",
+        "NVD": {
+            "Descriptions": "A flaw was found in Samba's internal DNS server where unauthenticated TKEY registration requests were added to the TKEY name cache before being rejected. A remote, unauthenticated attacker can exploit this behavior by sending a large number of TKEY requests with arbitrary names, exhausting the cache and evicting legitimate TKEY entries. This can prevent legitimate TSIG authentication for signed DNS queries, resulting in a denial of service.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "CPEs": []
+        },
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2026-58218.html"
+                ]
+            },
+            "4.22.11": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.22.11.html"
+                ]
+            },
+            "4.23.10": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.23.10.html"
+                ]
+            },
+            "4.24.5": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.24.5.html"
+                ]
+            }
+        }
+    },
+    "CVE-2026-58221": {
+        "CVE-ID": "CVE-2026-58221",
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2026-58221.html"
+                ]
+            },
+            "4.22.11": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.22.11.html"
+                ]
+            },
+            "4.23.10": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.23.10.html"
+                ]
+            },
+            "4.24.5": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.24.5.html"
+                ]
+            }
+        }
+    },
+    "CVE-2026-58222": {
+        "CVE-ID": "CVE-2026-58222",
+        "NVD": {
+            "Descriptions": "A security flaw combining LDAP filter injection and improper authorization checks was found in Samba Active Directory Domain Controller (AD DC). When processing LDAP Compare requests, Samba fails to properly validate user-supplied attribute names and executes the resulting internal database search in a trusted context, bypassing normal Access Control List (ACL) enforcement. An authenticated low-privilege domain user can exploit these flaws to disclose confidential Active Directory attributes that would normally be inaccessible. The disclosed information may be leveraged to derive sensitive authentication material, potentially leading to privilege escalation and complete domain compromise. For example: In deployments configured with Group Managed Service Accounts (gMSAs), an attacker can extract the \"msKds-RootKeyData\" attribute and derive gMSA passwords offline, potentially leading to complete domain compromise if privileged gMSAs are present.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2026-58222.html"
+                ]
+            },
+            "4.22.11": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.22.11.html"
+                ]
+            },
+            "4.23.10": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.23.10.html"
+                ]
+            },
+            "4.24.5": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.24.5.html"
+                ]
+            }
+        }
+    },
+    "CVE-2026-58224": {
+        "CVE-ID": "CVE-2026-58224",
+        "Official": {
+            "-": {
+                "source": [
+                    "https://www.samba.org/samba/security/CVE-2026-58224.html"
+                ]
+            },
+            "4.22.11": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.22.11.html"
+                ]
+            },
+            "4.23.10": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.23.10.html"
+                ]
+            },
+            "4.24.5": {
+                "source": [
+                    "https://www.samba.org/samba/history/samba-4.24.5.html"
+                ]
+            }
+        }
+    },
     "CVE-2026-4408": {
         "CVE-ID": "CVE-2026-4408",
         "NVD": {
