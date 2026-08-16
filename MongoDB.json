@@ -1,4 +1,616 @@
 {
+    "CVE-2026-18712": {
+        "CVE-ID": "CVE-2026-18712",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server's Queryable Encryption maintenance operations could allow an authenticated user with privileges on one encrypted collection to cause unauthorized modification or destruction of data belonging to a different collection. This is due to insufficient validation of certain internal metadata references before they are used to perform operations on other namespaces.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.40": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18711": {
+        "CVE-ID": "CVE-2026-18711",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server's query execution engine could allow an authenticated user with read and write privileges to cause an internal reference to be used after the underlying memory has been freed, when running certain queries against time-series collections. This could result in a server crash or disclosure of freed memory contents within query results.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18709": {
+        "CVE-ID": "CVE-2026-18709",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server could allow an authenticated user with direct network access to a shard to improperly commit or abort an in-progress prepared transaction, bypassing the intended transaction coordination process. This could result in cross-shard data inconsistency, cluster clock corruption, and violation of transaction atomicity guarantees.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.4,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.40": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18698": {
+        "CVE-ID": "CVE-2026-18698",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server could allow an authenticated user with a limited database-scoped role to perform an action against protected system collections that should require more specific privileges. This could result in exposure of collection metadata and, on certain deployment configurations, unauthorized modification of system collection data.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.4,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.40": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18690": {
+        "CVE-ID": "CVE-2026-18690",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server could allow an authenticated user with a limited database-scoped role to perform an action against protected system collections that their assigned privileges should not permit. This could result in critical system collections being dropped and recreated without proper authorization.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.40": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18699": {
+        "CVE-ID": "CVE-2026-18699",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server's query planner could allow an authenticated user with read-level privileges to cause the server process to terminate unexpectedly by submitting a specially formed query against a collection with a text index. This could result in a denial of service, affecting connected clients and in-flight operations.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.40": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18691": {
+        "CVE-ID": "CVE-2026-18691",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server's intra-cluster connection setup could allow a party with suitable network access to influence which authentication mechanism is used when one replica set member connects to another. Under certain conditions, this could cause the cluster's shared internal credential to be transmitted in a less-protected form, potentially allowing that credential to be recovered. If recovered, the credential could be used to authenticate as the internal superuser to nodes in the deployment.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.40": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18702": {
+        "CVE-ID": "CVE-2026-18702",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server could allow an authenticated user with limited, database-scoped privileges to modify diagnostic logging settings that affect the entire server rather than just the intended database. This could allow suppression of diagnostic logging server-wide, potentially obscuring unauthorized activity, or degrade operational monitoring by causing excessive log volume.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.4,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:L",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.40": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18694": {
+        "CVE-ID": "CVE-2026-18694",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server's geospatial query processing could allow an authenticated user with write privileges to cause certain malformed geometry data to be stored and later processed without proper validation. Subsequent queries against this data could then result in the server accessing memory outside its intended bounds. This could result in a server crash (denial of service) and may expose a limited amount of server process memory.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.40": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18708": {
+        "CVE-ID": "CVE-2026-18708",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server's JavaScript scripting engine could allow an authenticated user with write privileges to cause code they control to be executed within the query scope of other users, through a specially crafted stored value processed during an internal maintenance cycle. This could result in corruption of query results affecting other users and denial of service targeted at their operations on the same database. Impact is limited to the scripting engine's execution sandbox, which does not provide access to database, filesystem, or network resources.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.4,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:L",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.40": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18696": {
+        "CVE-ID": "CVE-2026-18696",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server's applyOps command could allow an authenticated user with specific non-default privileges to perform certain data-definition operations, such as dropping or modifying collections, against collections they do not have permission to manipulate. This is due to an inconsistency in how the target collection is determined between the authorization check and the actual operation.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.40": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18700": {
+        "CVE-ID": "CVE-2026-18700",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server's geospatial validation could allow an authenticated user with write privileges to cause an internal reference to be used after the underlying memory has been freed, through concurrent operations against a collection using a certain type of validator. This could result in a server crash, leading to a denial of service.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.40": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18701": {
+        "CVE-ID": "CVE-2026-18701",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server's query subsystem could allow an authenticated user with read privileges to cause the server process to terminate unexpectedly by submitting a specially formed query filter. This could result in a denial of service.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.40": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18697": {
+        "CVE-ID": "CVE-2026-18697",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server's aggregation framework could allow an unauthenticated party to cause a mongos (router) process to terminate unexpectedly by submitting a specially formed aggregation command. This could result in a denial of service, disrupting client connections routed through the affected mongos instance.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.40": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18693": {
+        "CVE-ID": "CVE-2026-18693",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server's handling of timeseries collections could allow an authenticated user with write privileges to cause an internal data structure to become inconsistent through certain document insertions. A subsequent insert into the affected bucket could then result in the server accessing memory outside its intended bounds, potentially causing a server crash (denial of service), exposure of limited memory contents, or memory corruption.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.6,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.40": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18705": {
+        "CVE-ID": "CVE-2026-18705",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server's Atlas Vector Search feature could allow an authenticated user with read access to one view to retrieve documents from a different, protected view over the same underlying collection. This is due to insufficient handling of certain user-supplied fields when constructing an internal request forwarded to the search process.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.40": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18704": {
+        "CVE-ID": "CVE-2026-18704",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server's aggregation framework could allow an authenticated user with only read privileges to perform write operations against collections they should not be able to modify. This is due to an internal-use aggregation stage being reachable by external clients without an appropriate authorization check on its embedded operations.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18692": {
+        "CVE-ID": "CVE-2026-18692",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server's handling of timeseries bucket lifecycle could allow an authenticated user with write privileges to cause an internal reference to be used after the underlying memory has been freed. Subsequent operations could then result in a server crash or, potentially, execution of unintended code.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18688": {
+        "CVE-ID": "CVE-2026-18688",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server's aggregation framework could allow an authenticated user to trigger an out-of-bounds memory read by providing a specially formed numeric parameter in a certain aggregation pipeline stage. This could result in a server crash (denial of service) and may potentially expose a limited amount of memory contents.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.40": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18695": {
+        "CVE-ID": "CVE-2026-18695",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server's handling of certain query predicates against time-series collections with a metaField could allow an authenticated user with write access to cause the server process to terminate unexpectedly, resulting in a denial of service.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "7.0.40": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18687": {
+        "CVE-ID": "CVE-2026-18687",
+        "NVD": {
+            "Descriptions": "MongoDB Server's handling of a Queryable Encryption maintenance operation did not properly validate certain request parameters against the collection's encrypted field configuration before use. An authenticated user with readWrite privileges could submit a specially formed request that leads to a server crash or excessive internal writes, resulting in resource exhaustion and corruption of encrypted index data.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            },
+            "8.0.29": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18706": {
+        "CVE-ID": "CVE-2026-18706",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server's $graphLookup aggregation stage could allow an authenticated user able to issue aggregation and memory-management commands to cause an internal reference to be used after the underlying memory has been freed. This could result in a server crash or, potentially, execution of unintended code.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.6,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18707": {
+        "CVE-ID": "CVE-2026-18707",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server could allow an authenticated user, including one with no assigned privileges, to cause the server process to terminate unexpectedly by submitting a specially formed aggregation command. This could result in a denial of service.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 4.3,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
+    "CVE-2026-18703": {
+        "CVE-ID": "CVE-2026-18703",
+        "NVD": {
+            "Descriptions": "An issue in MongoDB Server could allow a party with a valid client certificate and a corresponding user account to authenticate using a certificate-based authentication method, even when an administrator has configured the server to restrict authentication to other mechanisms. This could allow authentication through a method the administrator intended to disable.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 4.2,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "8.3.0": {
+                "source": [
+                    "https://www.mongodb.com/resources/products/alerts"
+                ]
+            }
+        }
+    },
     "CVE-2026-13055": {
         "CVE-ID": "CVE-2026-13055",
         "NVD": {

@@ -33991,6 +33991,14 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:cisco:secure_firewall_threat_defense",
+                    "FormattedString": "cpe:2.3:a:cisco:secure_firewall_threat_defense:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "7.4.2",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:cisco:secure_dynamic_attributes_connector",
                     "FormattedString": "cpe:2.3:a:cisco:secure_dynamic_attributes_connector:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -34036,14 +34044,6 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "4.11.0",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:cisco:firepower_threat_defense",
-                    "FormattedString": "cpe:2.3:a:cisco:firepower_threat_defense:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "7.4.2",
                     "VersionEndIncluding": ""
                 },
                 {

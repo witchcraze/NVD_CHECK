@@ -9222,6 +9222,14 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:cisco:secure_firewall_threat_defense",
+                    "FormattedString": "cpe:2.3:a:cisco:secure_firewall_threat_defense:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "7.4.2",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:cisco:secure_dynamic_attributes_connector",
                     "FormattedString": "cpe:2.3:a:cisco:secure_dynamic_attributes_connector:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -9267,14 +9275,6 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "4.11.0",
-                    "VersionEndIncluding": ""
-                },
-                {
-                    "URI": "cpe:/a:cisco:firepower_threat_defense",
-                    "FormattedString": "cpe:2.3:a:cisco:firepower_threat_defense:*:*:*:*:*:*:*:*",
-                    "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
-                    "VersionEndExcluding": "7.4.2",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -13322,6 +13322,14 @@
     },
     "CVE-2026-33818": {
         "CVE-ID": "CVE-2026-33818",
+        "NVD": {
+            "Descriptions": "Enforce a recursion limit in Unmarshal to prevent stack exhaustion when parsing deeply-nested, recursive structures.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
         "Official": {
             "1.26.6": {
                 "source": {
@@ -13342,6 +13350,14 @@
     },
     "CVE-2026-56864": {
         "CVE-ID": "CVE-2026-56864",
+        "NVD": {
+            "Descriptions": "A malicious GOSUMDB was capable of serving arbitrary module content not contained within the transparency log. This attack allows for a coordinating GOPROXY and GOSUMDB to serve a client malicious module content that cannot be detected by evaluating the transparency log. In order to determine if you have been affected:   rm -r go.sum go.work.sum vendor/ && go mod tidy",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": []
+        },
         "Official": {
             "1.26.6": {
                 "source": {
@@ -13353,7 +13369,7 @@
                     "80766": "https://github.com/golang/go/issues/80766"
                 }
             },
-            "NOT_IN_MILESTONE": {
+            "1.27": {
                 "source": {
                     "80745": "https://github.com/golang/go/issues/80745"
                 }
@@ -13362,6 +13378,14 @@
     },
     "CVE-2026-56865": {
         "CVE-ID": "CVE-2026-56865",
+        "NVD": {
+            "Descriptions": "A malicious GOPROXY was previously capable of forging up to two sumdb tiles that allow for a requested module to bypass the GOSUMDB check and persist attacker-controlled module content to a local Go module cache. This attack allows for a malicious GOPROXY to serve malicious module content that cannot be detected by evaluating the transparency log. All tiles are now correctly verified against their parents. In order to determine if you have been affected:   rm -r go.sum go.work.sum vendor/ && go mod tidy",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.4,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
         "Official": {
             "1.26.6": {
                 "source": {
@@ -13373,7 +13397,7 @@
                     "80764": "https://github.com/golang/go/issues/80764"
                 }
             },
-            "NOT_IN_MILESTONE": {
+            "1.27": {
                 "source": {
                     "80744": "https://github.com/golang/go/issues/80744"
                 }
@@ -13392,6 +13416,14 @@
     },
     "CVE-2026-56862": {
         "CVE-ID": "CVE-2026-56862",
+        "NVD": {
+            "Descriptions": "Handshake messages, such as KeyUpdate, are always considered as state-advancing, regardless of whether a handshake has been completed or not. As a result, a malicious client can keep sending KeyUpdate messages to force the server to keep performing key derivation operations indefinitely.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
         "Official": {
             "1.27": {
                 "source": {
@@ -13410,8 +13442,44 @@
             }
         }
     },
+    "CVE-2026-56860": {
+        "CVE-ID": "CVE-2026-56860",
+        "NVD": {
+            "Descriptions": "Previously, resolving relative paths containing parent directory ('..') segments performed string conversions and buffer rewrites on each step, resulting in quadratic time complexity and high memory allocation overhead. Now, path resolution operates on a byte buffer using index-based backtracking for '..' segments, eliminating the quadratic time complexity and significantly reducing memory allocations.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.9,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "1.27": {
+                "source": {
+                    "80494": "https://github.com/golang/go/issues/80494"
+                }
+            },
+            "1.26.6": {
+                "source": {
+                    "80630": "https://github.com/golang/go/issues/80630"
+                }
+            },
+            "1.25.13": {
+                "source": {
+                    "80629": "https://github.com/golang/go/issues/80629"
+                }
+            }
+        }
+    },
     "CVE-2026-56859": {
         "CVE-ID": "CVE-2026-56859",
+        "NVD": {
+            "Descriptions": "Previously, DecodeElement would reset the depth counter causing it to never fire; this could lead to stack exhaustion.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
         "Official": {
             "1.27": {
                 "source": {
@@ -13432,10 +13500,28 @@
     },
     "CVE-2026-56858": {
         "CVE-ID": "CVE-2026-56858",
+        "NVD": {
+            "Descriptions": "Previously, pathological inputs could close an unescaped '/' early, allowing for attack-controlled data to inject arbitrary content, potentially leading to XSS.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "CPEs": []
+        },
         "Official": {
             "1.27": {
                 "source": {
                     "80435": "https://github.com/golang/go/issues/80435"
+                }
+            },
+            "1.26.6": {
+                "source": {
+                    "80867": "https://github.com/golang/go/issues/80867"
+                }
+            },
+            "1.25.13": {
+                "source": {
+                    "80866": "https://github.com/golang/go/issues/80866"
                 }
             }
         }
@@ -13480,6 +13566,14 @@
     },
     "CVE-2026-56853": {
         "CVE-ID": "CVE-2026-56853",
+        "NVD": {
+            "Descriptions": "When a server is configured to support unencrypted HTTP/2, it reads a few bytes from each new connection to see if they contain the HTTP/2 client preface. ReadHeaderTimeout is unexpectedly not being applied when doing this.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
         "Official": {
             "1.27": {
                 "source": {
@@ -13528,6 +13622,14 @@
     },
     "CVE-2026-46603": {
         "CVE-ID": "CVE-2026-46603",
+        "NVD": {
+            "Descriptions": "VP8L decoding in golang.org/x/image/vp8l can allocate an excessive amount of memory when processing a crafted VP8L image containing many unused Huffman tree groups. This allows a remote attacker to cause a denial of service via memory exhaustion.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
         "Official": {
             "Unreleased": {
                 "source": {
@@ -13591,11 +13693,6 @@
             "1.26.6": {
                 "source": {
                     "80609": "https://github.com/golang/go/issues/80609"
-                }
-            },
-            "1.25.13": {
-                "source": {
-                    "80608": "https://github.com/golang/go/issues/80608"
                 }
             }
         }
