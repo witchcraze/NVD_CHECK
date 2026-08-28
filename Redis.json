@@ -1,4 +1,34 @@
 {
+    "CVE-2026-62356": {
+        "CVE-ID": "CVE-2026-62356",
+        "Official": {
+            "8.10.1": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.10.1"
+                ]
+            },
+            "8.8.2": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.8.2"
+                ]
+            },
+            "8.6.6": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.6.6"
+                ]
+            },
+            "8.4.6": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.4.6"
+                ]
+            },
+            "8.2.9": {
+                "source": [
+                    "https://github.com/redis/redis/releases/tag/8.2.9"
+                ]
+            }
+        }
+    },
     "CVE-2026-23479": {
         "CVE-ID": "CVE-2026-23479",
         "NVD": {

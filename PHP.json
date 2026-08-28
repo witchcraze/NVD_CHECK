@@ -2038,8 +2038,8 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:tenable:securitycenter",
-                    "FormattedString": "cpe:2.3:a:tenable:securitycenter:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:tenable:security_center",
+                    "FormattedString": "cpe:2.3:a:tenable:security_center:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "5.19.0",
@@ -2213,8 +2213,8 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:tenable:securitycenter",
-                    "FormattedString": "cpe:2.3:a:tenable:securitycenter:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:tenable:security_center",
+                    "FormattedString": "cpe:2.3:a:tenable:security_center:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "5.19.0",
@@ -2388,8 +2388,8 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:tenable:securitycenter",
-                    "FormattedString": "cpe:2.3:a:tenable:securitycenter:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:tenable:security_center",
+                    "FormattedString": "cpe:2.3:a:tenable:security_center:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "5.19.0",
@@ -2733,8 +2733,8 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:tenable:securitycenter",
-                    "FormattedString": "cpe:2.3:a:tenable:securitycenter:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:tenable:security_center",
+                    "FormattedString": "cpe:2.3:a:tenable:security_center:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "5.19.0",
@@ -2881,8 +2881,8 @@
                     "VersionEndIncluding": ""
                 },
                 {
-                    "URI": "cpe:/a:tenable:securitycenter",
-                    "FormattedString": "cpe:2.3:a:tenable:securitycenter:*:*:*:*:*:*:*:*",
+                    "URI": "cpe:/a:tenable:security_center",
+                    "FormattedString": "cpe:2.3:a:tenable:security_center:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "5.19.0",
@@ -173143,7 +173143,7 @@
             },
             "8.6.0alpha2": {
                 "source": [
-                    "https://github.com/php/php-src/blob/php-8.6.0beta1/NEWS"
+                    "https://github.com/php/php-src/blob/php-8.6.0beta2/NEWS"
                 ]
             }
         }
