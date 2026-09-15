@@ -13320,6 +13320,60 @@
             }
         }
     },
+    "CVE-2026-56855": {
+        "CVE-ID": "CVE-2026-56855",
+        "NVD": {
+            "Descriptions": "Previously, after a channel has been established, a malicious peer could send crafted messages that would deadlock the entire connection. Now, we handle all RFC 4254 channel messages; global requests are handled explicitly. Then, treat all other messages as a protocol error and tear the connection down instead of buffering and blocking.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:crypto:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:crypto:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.56.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "Unreleased": {
+                "source": {
+                    "81317": "https://github.com/golang/go/issues/81317"
+                }
+            }
+        }
+    },
+    "CVE-2026-78662": {
+        "CVE-ID": "CVE-2026-78662",
+        "NVD": {
+            "Descriptions": "Previously, a channel registered in the mux's chanList is not usable until it is established. A malicious peer was able flood the channel's incomingRequests, deadlocking the entire connection. Now, we add an atomic established state, set when a channel becomes usable. Until such a time, handlePacket drops every packet other than the open confirmation/failure, without blocking and without tearing down the connection.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:crypto:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:crypto:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.56.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "Unreleased": {
+                "source": {
+                    "81316": "https://github.com/golang/go/issues/81316"
+                }
+            }
+        }
+    },
     "CVE-2026-33818": {
         "CVE-ID": "CVE-2026-33818",
         "NVD": {
@@ -13556,6 +13610,14 @@
     },
     "CVE-2026-56854": {
         "CVE-ID": "CVE-2026-56854",
+        "NVD": {
+            "Descriptions": "The source-address critical option in the Permissions returned by an authentication callback was only enforced for the PublicKeyCallback and VerifiedPublicKeyCallback paths, extending the fix for CVE-2026-46595. Permissions returned by the PasswordCallback, KeyboardInteractiveCallback, NoClientAuthCallback, and GSSAPIWithMICConfig.AllowLogin callbacks were not validated against the client's remote address, so a source-address restriction set by those callbacks was silently ignored. The check is now applied to the Permissions returned by any authentication callback.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": []
+        },
         "Official": {
             "Unreleased": {
                 "source": {
