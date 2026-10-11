@@ -179,7 +179,7 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
-                    "VersionEndIncluding": "4.2"
+                    "VersionEndIncluding": "4.2.0"
                 }
             ]
         },

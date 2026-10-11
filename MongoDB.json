@@ -7,7 +7,56 @@
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.43",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.32",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.11",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -35,7 +84,56 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.41",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.30",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "8.2.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -63,7 +161,32 @@
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.41",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.30",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -91,7 +214,24 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.41",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.30",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.0.0": {
@@ -114,7 +254,16 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -132,7 +281,16 @@
             "Cvss3_BaseScore": 8.1,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -150,7 +308,64 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -178,7 +393,16 @@
             "Cvss3_BaseScore": 2.7,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -196,7 +420,32 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.41",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.30",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -224,7 +473,32 @@
             "Cvss3_BaseScore": 8.1,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.41",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.30",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -252,7 +526,32 @@
             "Cvss3_BaseScore": 4.3,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.41",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.30",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -280,7 +579,32 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.41",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.30",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -308,7 +632,32 @@
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.41",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.30",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -336,7 +685,32 @@
             "Cvss3_BaseScore": 5.3,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.41",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.30",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -364,7 +738,16 @@
             "Cvss3_BaseScore": 5.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:L",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -382,7 +765,16 @@
             "Cvss3_BaseScore": 8.1,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -400,7 +792,32 @@
             "Cvss3_BaseScore": 5.4,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.41",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.30",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -428,7 +845,32 @@
             "Cvss3_BaseScore": 5.3,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.41",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.30",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -456,7 +898,32 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.41",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.30",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -484,7 +951,16 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -502,7 +978,32 @@
             "Cvss3_BaseScore": 5.3,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.41",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.30",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -530,7 +1031,16 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -548,7 +1058,64 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.41",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.30",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -576,7 +1143,56 @@
             "Cvss3_BaseScore": 8.1,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.41",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.30",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -604,7 +1220,32 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.41",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.30",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.9",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -632,7 +1273,64 @@
             "Cvss3_BaseScore": 8.1,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -660,7 +1358,64 @@
             "Cvss3_BaseScore": 7.1,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "7.0.40"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -683,7 +1438,64 @@
             "Cvss3_BaseScore": 6.4,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -711,7 +1523,64 @@
             "Cvss3_BaseScore": 5.4,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -739,7 +1608,64 @@
             "Cvss3_BaseScore": 8.1,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -767,7 +1693,64 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -795,7 +1778,64 @@
             "Cvss3_BaseScore": 8.8,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -823,7 +1863,64 @@
             "Cvss3_BaseScore": 6.4,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:L",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -851,7 +1948,64 @@
             "Cvss3_BaseScore": 7.1,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -879,7 +2033,64 @@
             "Cvss3_BaseScore": 6.4,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:L",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -907,7 +2118,64 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -935,7 +2203,64 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -963,7 +2288,64 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -991,7 +2373,64 @@
             "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -1019,7 +2458,64 @@
             "Cvss3_BaseScore": 7.6,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -1047,7 +2543,64 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -1075,7 +2628,16 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -1093,7 +2655,56 @@
             "Cvss3_BaseScore": 8.8,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -1111,7 +2722,64 @@
             "Cvss3_BaseScore": 7.1,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -1139,7 +2807,64 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -1167,7 +2892,56 @@
             "Cvss3_BaseScore": 7.1,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -1190,7 +2964,32 @@
             "Cvss3_BaseScore": 6.6,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -1208,7 +3007,64 @@
             "Cvss3_BaseScore": 4.3,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.40",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.29",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -1226,7 +3082,48 @@
             "Cvss3_BaseScore": 4.2,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.8",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "8.3.0": {
@@ -1522,7 +3419,64 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.1.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.1.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha1:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha1:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb:9.0.0:alpha0:~~-~-~~",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:9.0.0:alpha0:*:*:-:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.39",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.28",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "8.2.12"
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.7",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "7.0.39": {
@@ -3354,7 +5308,32 @@
             "Cvss3_BaseScore": 6.5,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "7.0.32",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.21",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mongodb:mongodb",
+                    "FormattedString": "cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "8.2.6",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "7.0.32": {

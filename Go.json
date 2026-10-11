@@ -11778,7 +11778,7 @@
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
+                    "VersionStartIncluding": "1.24.0",
                     "VersionEndExcluding": "1.25.12",
                     "VersionEndIncluding": ""
                 },
@@ -12101,7 +12101,7 @@
                     "URI": "cpe:/a:golang:go",
                     "FormattedString": "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
-                    "VersionStartIncluding": "",
+                    "VersionStartIncluding": "1.23.0",
                     "VersionEndExcluding": "1.25.12",
                     "VersionEndIncluding": ""
                 },
@@ -13320,6 +13320,462 @@
             }
         }
     },
+    "CVE-2026-97032": {
+        "CVE-ID": "CVE-2026-97032",
+        "NVD": {
+            "Descriptions": "HTTP/2 servers could end up crashing due to inadvertently modifying its HPACK encoder concurrently. This happens because the server modifies the HPACK encoder from two goroutines without synchronization: one uses the encoder to encode a HEADERS frame as part of a response sent to a client and the other modifies the encoder's table size when handling a SETTINGS frame containing SETTINGS_HEADER_TABLE_SIZE that a client sends. A malicious client can repeatedly send a request while changing the header table size to crash the server.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "1.27.2": {
+                "source": {
+                    "81922": "https://github.com/golang/go/issues/81922"
+                }
+            },
+            "1.26.9": {
+                "source": {
+                    "81921": "https://github.com/golang/go/issues/81921"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "81867": "https://github.com/golang/go/issues/81867"
+                }
+            }
+        }
+    },
+    "CVE-2026-78667": {
+        "CVE-ID": "CVE-2026-78667",
+        "NVD": {
+            "Descriptions": "When parsing a Range header containing a large number of small ranges, FileServer(FS), ServeContent, and ServeFile(FS) can consume an excessive amount of CPU.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "1.27.2": {
+                "source": {
+                    "81920": "https://github.com/golang/go/issues/81920"
+                }
+            },
+            "1.26.9": {
+                "source": {
+                    "81919": "https://github.com/golang/go/issues/81919"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "81858": "https://github.com/golang/go/issues/81858"
+                }
+            }
+        }
+    },
+    "CVE-2026-78659": {
+        "CVE-ID": "CVE-2026-78659",
+        "NVD": {
+            "Descriptions": "When \"Trailer\" headers are sent by a client, the HTTP server internally uses the header values to populate the Request.Trailer map passed to the server handler. Because Request.Trailer is a map, each entry incurs memory overhead. For HTTP/2 servers, a malicious client can exploit this by sending a \"Trailer\" header that declares a large number of fields, causing the server to allocate a disproportionate amount of memory while bypassing Server.MaxHeaderValueCount and Server.MaxHeaderBytes limits. This exploit is not applicable for HTTP/1 servers, which do not support multiplexing a large number of requests over one TCP connection, and whose Server.MaxHeaderBytes are calculated differently.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "1.27.2": {
+                "source": {
+                    "81918": "https://github.com/golang/go/issues/81918"
+                }
+            },
+            "1.26.9": {
+                "source": {
+                    "81917": "https://github.com/golang/go/issues/81917"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "81857": "https://github.com/golang/go/issues/81857"
+                }
+            }
+        }
+    },
+    "CVE-2026-97031": {
+        "CVE-ID": "CVE-2026-97031",
+        "NVD": {
+            "Descriptions": "Multiple ECH outer extension references are not permitted under RFC 9849; previously, a client could send a well-crafted packet that could trigger memory exhaustion in the server process by specifying multiple references. We now reject these as malformed and curb the memory amplification vector as a result.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "1.27.2": {
+                "source": {
+                    "81916": "https://github.com/golang/go/issues/81916"
+                }
+            },
+            "1.26.9": {
+                "source": {
+                    "81915": "https://github.com/golang/go/issues/81915"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "81855": "https://github.com/golang/go/issues/81855"
+                }
+            }
+        }
+    },
+    "CVE-2026-94439": {
+        "CVE-ID": "CVE-2026-94439",
+        "NVD": {
+            "Descriptions": "When an HTTP server handler sends a 2xx response to an HTTP/1 CONNECT request and returns without hijacking the connection, the server improperly continues to read and serve requests from the connection. Since a 2xx response to an HTTP/1 CONNECT converts the connection into a tunnel, the server should not treat the connection as continuing to contain HTTP. The impact of this misbehavior is mostly limited to potential request smuggling, where an intermediate proxy considers the data on the connection to be tunneled and the server considers it to be HTTP.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "1.27.2": {
+                "source": {
+                    "81908": "https://github.com/golang/go/issues/81908"
+                }
+            },
+            "1.26.9": {
+                "source": {
+                    "81907": "https://github.com/golang/go/issues/81907"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "81744": "https://github.com/golang/go/issues/81744"
+                }
+            }
+        }
+    },
+    "CVE-2026-78663": {
+        "CVE-ID": "CVE-2026-78663",
+        "NVD": {
+            "Descriptions": "The HTTP/2 server can refund connection-level flow control twice for the same data: Once when a client resets a stream (refunding data for any sent-but-unread portion of the stream), and again when a request handler reads the buffered data. A malicious client can exploit this to bypass the configured connection-level flow control limit (MaxReceiveBufferPerConnection). Total buffered data is still limited by the concurrent stream limit and stream-level flow control.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 9.1,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "1.27.2": {
+                "source": {
+                    "81906": "https://github.com/golang/go/issues/81906"
+                }
+            },
+            "1.26.10": {
+                "source": {
+                    "81905": "https://github.com/golang/go/issues/81905"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "81743": "https://github.com/golang/go/issues/81743"
+                }
+            }
+        }
+    },
+    "CVE-2026-78669": {
+        "CVE-ID": "CVE-2026-78669",
+        "NVD": {
+            "Descriptions": "A malicious HTTP/2 peer can cause excessive CPU consumption in the client or server by opening a large number of streams and then sending many small SETTINGS frames containing SETTINGS_INITIAL_WINDOW_SIZE values.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "1.27.2": {
+                "source": {
+                    "81904": "https://github.com/golang/go/issues/81904"
+                }
+            },
+            "1.26.10": {
+                "source": {
+                    "81903": "https://github.com/golang/go/issues/81903"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "81742": "https://github.com/golang/go/issues/81742"
+                }
+            }
+        }
+    },
+    "CVE-2026-94440": {
+        "CVE-ID": "CVE-2026-94440",
+        "NVD": {
+            "Descriptions": "Parsing a multipart form can bypass memory limits and read an arbitrarily long line into memory when the remaining limit at the start of a part is less than 400 bytes.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "1.27.2": {
+                "source": {
+                    "81902": "https://github.com/golang/go/issues/81902"
+                }
+            },
+            "1.26.9": {
+                "source": {
+                    "81901": "https://github.com/golang/go/issues/81901"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "81741": "https://github.com/golang/go/issues/81741"
+                }
+            }
+        }
+    },
+    "CVE-2026-56866": {
+        "CVE-ID": "CVE-2026-56866",
+        "NVD": {
+            "Descriptions": "When http.Transport sends an HTTP/1 CONNECT request with a non-empty Request.Body, it writes the body directly to the connection without framing after the request headers. If the server rejects the CONNECT request with a non-2xx keep-alive response, Transport returns the connection to the idle pool. Because CONNECT requests do not have a request body, the server may interpret the trailing body bytes as a subsequent pipelined HTTP/1.1 request on the connection, leaving the pooled connection desynchronized and causing the next caller that reuses it to read the response to the injected request. In reverse proxies (including httputil.ReverseProxy) that forward CONNECT requests through a shared Transport, this can lead to cross-user response poisoning.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "1.27.2": {
+                "source": {
+                    "81900": "https://github.com/golang/go/issues/81900"
+                }
+            },
+            "1.26.9": {
+                "source": {
+                    "81899": "https://github.com/golang/go/issues/81899"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "81740": "https://github.com/golang/go/issues/81740"
+                }
+            }
+        }
+    },
+    "CVE-2026-56857": {
+        "CVE-ID": "CVE-2026-56857",
+        "NVD": {
+            "Descriptions": "On Windows, when the target of Root.Mkdir or Root.MkdirAll is a junction pointing to an empty location, the operation can create a directory at the junction target even when that target is located outside the root. This only applies to operations where the last path component is a junction (path/to/junction, but not path/junction/target).",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 9.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "1.27.2": {
+                "source": {
+                    "81898": "https://github.com/golang/go/issues/81898"
+                }
+            },
+            "1.26.9": {
+                "source": {
+                    "81897": "https://github.com/golang/go/issues/81897"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "81739": "https://github.com/golang/go/issues/81739"
+                }
+            }
+        }
+    },
+    "CVE-2026-56861": {
+        "CVE-ID": "CVE-2026-56861",
+        "Official": {
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "81894": "https://github.com/golang/go/issues/81894",
+                    "81893": "https://github.com/golang/go/issues/81893"
+                }
+            },
+            "Unreleased": {
+                "source": {
+                    "80529": "https://github.com/golang/go/issues/80529"
+                }
+            }
+        }
+    },
+    "CVE-2026-94446": {
+        "CVE-ID": "CVE-2026-94446",
+        "Official": {
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "81856": "https://github.com/golang/go/issues/81856"
+                }
+            }
+        }
+    },
+    "CVE-2026-94442": {
+        "CVE-ID": "CVE-2026-94442",
+        "Official": {
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "81854": "https://github.com/golang/go/issues/81854"
+                }
+            }
+        }
+    },
+    "CVE-2026-94447": {
+        "CVE-ID": "CVE-2026-94447",
+        "NVD": {
+            "Descriptions": "Previously, a user operating inside of a malicious Go project that defines a bogus golang.org/toolchain go.sum entry and operates a malicious GOMODPROXY the user chooses to use can bypass the intended checksum. We now ensure that golang.org/toolchain always goes to the network for the canonical checksum.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "1.28": {
+                "source": {
+                    "81834": "https://github.com/golang/go/issues/81834"
+                }
+            },
+            "1.27.2": {
+                "source": {
+                    "81914": "https://github.com/golang/go/issues/81914"
+                }
+            },
+            "1.26.9": {
+                "source": {
+                    "81913": "https://github.com/golang/go/issues/81913"
+                }
+            }
+        }
+    },
+    "CVE-2026-94444": {
+        "CVE-ID": "CVE-2026-94444",
+        "NVD": {
+            "Descriptions": "Previously, a user operating inside of a malicious Go project that defines a bogus golang.org/fips140 and operates a malicious GOMODPROXY the user chooses to connect to can serve an arbitrary module in its place. We now unpack the trusted ziphash for the bundled golang.org/fips140 module and construct its entry in the GOMODCACHE such that it can be verified by the toolchain.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "1.28": {
+                "source": {
+                    "81833": "https://github.com/golang/go/issues/81833"
+                }
+            },
+            "1.27.2": {
+                "source": {
+                    "81912": "https://github.com/golang/go/issues/81912"
+                }
+            },
+            "1.26.9": {
+                "source": {
+                    "81911": "https://github.com/golang/go/issues/81911"
+                }
+            }
+        }
+    },
+    "CVE-2026-97030": {
+        "CVE-ID": "CVE-2026-97030",
+        "NVD": {
+            "Descriptions": "A trusted template author may have previously written a valid template wherein the use of the 'yield' keyword would not be correctly escaped. We now ensure that valid keyword uses are escaped and non-keyword uses are not escaped.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "1.28": {
+                "source": {
+                    "81823": "https://github.com/golang/go/issues/81823"
+                }
+            },
+            "1.27.2": {
+                "source": {
+                    "81910": "https://github.com/golang/go/issues/81910"
+                }
+            },
+            "1.26.9": {
+                "source": {
+                    "81909": "https://github.com/golang/go/issues/81909"
+                }
+            }
+        }
+    },
+    "CVE-2026-94448": {
+        "CVE-ID": "CVE-2026-94448",
+        "NVD": {
+            "Descriptions": "When a JavaScript template literal contains consecutive expressions, the context tracking state was not properly reset upon entering a new expression. We now ensure that template-literal expression entries correctly reset context variables so all subsequent regular expression literals are accurately recognized and escaped.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "1.28": {
+                "source": {
+                    "81821": "https://github.com/golang/go/issues/81821"
+                }
+            },
+            "1.27.2": {
+                "source": {
+                    "81924": "https://github.com/golang/go/issues/81924"
+                }
+            },
+            "1.26.9": {
+                "source": {
+                    "81923": "https://github.com/golang/go/issues/81923"
+                }
+            }
+        }
+    },
+    "CVE-2026-94445": {
+        "CVE-ID": "CVE-2026-94445",
+        "NVD": {
+            "Descriptions": "A malicious txtar could escape the intended execution context and force arbitrary writes to the playground host's trusted filesystem.\n\n\n\nDisjointly, one of the three possible paths to invoke\u00a0go vet\u00a0on the playground host did not correctly restrict the execution environment. This permitted a Go process to make a read for an environment configuration file rooted in the playground host's $HOME.\n\n\n\nTogether, a well-crafted go env file and the\u00a0go vet\u00a0invocation could lead to remote code execution in the playground host itself.\n\n\n\n\nThis does not affect users of go.dev/play directly; however, it may affect\u00a0independent deployments of golang.org/x/playground.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 8.8,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "CPEs": []
+        },
+        "Official": {
+            "Unreleased": {
+                "source": {
+                    "81737": "https://github.com/golang/go/issues/81737"
+                }
+            }
+        }
+    },
+    "CVE-2026-94441": {
+        "CVE-ID": "CVE-2026-94441",
+        "Official": {
+            "Unreleased": {
+                "source": {
+                    "81656": "https://github.com/golang/go/issues/81656"
+                }
+            }
+        }
+    },
     "CVE-2026-56855": {
         "CVE-ID": "CVE-2026-56855",
         "NVD": {
@@ -13370,6 +13826,34 @@
             "Unreleased": {
                 "source": {
                     "81316": "https://github.com/golang/go/issues/81316"
+                }
+            }
+        }
+    },
+    "CVE-2026-78660": {
+        "CVE-ID": "CVE-2026-78660",
+        "NVD": {
+            "Descriptions": "Historically, we have been rather lax about malformed framing-related headers in our HTTP/2 implementation, as they cannot interfere with HTTP/2 framing. However, this makes it possible for our HTTP/2 implementation to forward responses containing such headers to an HTTP/1 client when acting as a reverse proxy. If the HTTP/1 client also does not behave strictly enough, this can result in response smuggling.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "CPEs": []
+        },
+        "Official": {
+            "1.28": {
+                "source": {
+                    "81115": "https://github.com/golang/go/issues/81115"
+                }
+            },
+            "1.27.2": {
+                "source": {
+                    "81585": "https://github.com/golang/go/issues/81585"
+                }
+            },
+            "1.26.9": {
+                "source": {
+                    "81584": "https://github.com/golang/go/issues/81584"
                 }
             }
         }
@@ -13454,16 +13938,6 @@
             "1.27": {
                 "source": {
                     "80744": "https://github.com/golang/go/issues/80744"
-                }
-            }
-        }
-    },
-    "CVE-2026-56861": {
-        "CVE-ID": "CVE-2026-56861",
-        "Official": {
-            "NOT_IN_MILESTONE": {
-                "source": {
-                    "80529": "https://github.com/golang/go/issues/80529"
                 }
             }
         }
@@ -13674,6 +14148,14 @@
     },
     "CVE-2026-56851": {
         "CVE-ID": "CVE-2026-56851",
+        "NVD": {
+            "Descriptions": "The Nickname profile can panic with an out-of-bounds slice error when transforming crafted input into a short destination buffer.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "CPEs": []
+        },
         "Official": {
             "1.27": {
                 "source": {
@@ -14336,7 +14818,16 @@
             "Cvss3_BaseScore": 8.8,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:golang:gopls:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:golang:gopls:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "0.22.0",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "gopls/v0.22.0": {
