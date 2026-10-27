@@ -13320,14 +13320,298 @@
             }
         }
     },
+    "CVE-2026-97033": {
+        "CVE-ID": "CVE-2026-97033",
+        "Official": {
+            "1.27.4": {
+                "source": {
+                    "82600": "https://github.com/golang/go/issues/82600"
+                }
+            },
+            "1.26.11": {
+                "source": {
+                    "82599": "https://github.com/golang/go/issues/82599"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "82577": "https://github.com/golang/go/issues/82577"
+                }
+            }
+        }
+    },
+    "CVE-2026-97034": {
+        "CVE-ID": "CVE-2026-97034",
+        "Official": {
+            "1.27.4": {
+                "source": {
+                    "82598": "https://github.com/golang/go/issues/82598"
+                }
+            },
+            "1.26.11": {
+                "source": {
+                    "82597": "https://github.com/golang/go/issues/82597"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "82576": "https://github.com/golang/go/issues/82576"
+                }
+            }
+        }
+    },
+    "CVE-2026-97035": {
+        "CVE-ID": "CVE-2026-97035",
+        "Official": {
+            "1.27.4": {
+                "source": {
+                    "82596": "https://github.com/golang/go/issues/82596"
+                }
+            },
+            "1.26.11": {
+                "source": {
+                    "82595": "https://github.com/golang/go/issues/82595"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "82575": "https://github.com/golang/go/issues/82575"
+                }
+            }
+        }
+    },
+    "CVE-2026-97036": {
+        "CVE-ID": "CVE-2026-97036",
+        "Official": {
+            "1.27.4": {
+                "source": {
+                    "82594": "https://github.com/golang/go/issues/82594"
+                }
+            },
+            "1.26.11": {
+                "source": {
+                    "82593": "https://github.com/golang/go/issues/82593"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "82574": "https://github.com/golang/go/issues/82574"
+                }
+            }
+        }
+    },
+    "CVE-2026-97037": {
+        "CVE-ID": "CVE-2026-97037",
+        "Official": {
+            "1.27.4": {
+                "source": {
+                    "82592": "https://github.com/golang/go/issues/82592"
+                }
+            },
+            "1.26.11": {
+                "source": {
+                    "82591": "https://github.com/golang/go/issues/82591"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "82573": "https://github.com/golang/go/issues/82573"
+                }
+            }
+        }
+    },
+    "CVE-2026-97038": {
+        "CVE-ID": "CVE-2026-97038",
+        "Official": {
+            "1.27.4": {
+                "source": {
+                    "82590": "https://github.com/golang/go/issues/82590"
+                }
+            },
+            "1.26.11": {
+                "source": {
+                    "82589": "https://github.com/golang/go/issues/82589"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "82572": "https://github.com/golang/go/issues/82572"
+                }
+            }
+        }
+    },
+    "CVE-2026-97039": {
+        "CVE-ID": "CVE-2026-97039",
+        "Official": {
+            "1.27.4": {
+                "source": {
+                    "82588": "https://github.com/golang/go/issues/82588"
+                }
+            },
+            "1.26.11": {
+                "source": {
+                    "82587": "https://github.com/golang/go/issues/82587"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "82571": "https://github.com/golang/go/issues/82571"
+                }
+            }
+        }
+    },
+    "CVE-2026-97040": {
+        "CVE-ID": "CVE-2026-97040",
+        "Official": {
+            "1.27.4": {
+                "source": {
+                    "82586": "https://github.com/golang/go/issues/82586"
+                }
+            },
+            "1.26.11": {
+                "source": {
+                    "82585": "https://github.com/golang/go/issues/82585"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "82570": "https://github.com/golang/go/issues/82570"
+                }
+            }
+        }
+    },
+    "CVE-2026-97041": {
+        "CVE-ID": "CVE-2026-97041",
+        "Official": {
+            "1.27.4": {
+                "source": {
+                    "82584": "https://github.com/golang/go/issues/82584"
+                }
+            },
+            "1.26.11": {
+                "source": {
+                    "82583": "https://github.com/golang/go/issues/82583"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "82569": "https://github.com/golang/go/issues/82569"
+                }
+            }
+        }
+    },
+    "CVE-2026-97042": {
+        "CVE-ID": "CVE-2026-97042",
+        "Official": {
+            "1.27.4": {
+                "source": {
+                    "82582": "https://github.com/golang/go/issues/82582"
+                }
+            },
+            "1.26.11": {
+                "source": {
+                    "82581": "https://github.com/golang/go/issues/82581"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "82568": "https://github.com/golang/go/issues/82568"
+                }
+            }
+        }
+    },
+    "CVE-2026-97043": {
+        "CVE-ID": "CVE-2026-97043",
+        "Official": {
+            "1.27.4": {
+                "source": {
+                    "82580": "https://github.com/golang/go/issues/82580"
+                }
+            },
+            "1.26.11": {
+                "source": {
+                    "82579": "https://github.com/golang/go/issues/82579"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "82567": "https://github.com/golang/go/issues/82567"
+                }
+            }
+        }
+    },
+    "CVE-2026-97054": {
+        "CVE-ID": "CVE-2026-97054",
+        "Official": {
+            "1.27.4": {
+                "source": {
+                    "82565": "https://github.com/golang/go/issues/82565"
+                }
+            },
+            "1.26.11": {
+                "source": {
+                    "82564": "https://github.com/golang/go/issues/82564"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "82563": "https://github.com/golang/go/issues/82563"
+                }
+            }
+        }
+    },
+    "CVE-2026-111943": {
+        "CVE-ID": "CVE-2026-111943",
+        "NVD": {
+            "Descriptions": "On most platforms, Go uses the given system root certificates. However, in some narrower cases, the system trust stores may not be updated without further action. To defend against the narrower set of cases that may remain affected, a denylist was added in crypto/x509 to return an error when calling Verify with any of the known intermediate certificates that are no longer considered to be trustworthy.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "1.27.3": {
+                "source": {
+                    "82349": "https://github.com/golang/go/issues/82349"
+                }
+            },
+            "1.26.10": {
+                "source": {
+                    "82348": "https://github.com/golang/go/issues/82348"
+                }
+            },
+            "1.28": {
+                "source": {
+                    "82345": "https://github.com/golang/go/issues/82345"
+                }
+            }
+        }
+    },
+    "CVE-2026-78661": {
+        "CVE-ID": "CVE-2026-78661",
+        "Official": {
+            "1.28": {
+                "source": {
+                    "82224": "https://github.com/golang/go/issues/82224"
+                }
+            },
+            "NOT_IN_MILESTONE": {
+                "source": {
+                    "82367": "https://github.com/golang/go/issues/82367",
+                    "82366": "https://github.com/golang/go/issues/82366"
+                }
+            }
+        }
+    },
     "CVE-2026-97032": {
         "CVE-ID": "CVE-2026-97032",
         "NVD": {
             "Descriptions": "HTTP/2 servers could end up crashing due to inadvertently modifying its HPACK encoder concurrently. This happens because the server modifies the HPACK encoder from two goroutines without synchronization: one uses the encoder to encode a HEADERS frame as part of a response sent to a client and the other modifies the encoder's table size when handling a SETTINGS frame containing SETTINGS_HEADER_TABLE_SIZE that a client sends. A malicious client can repeatedly send a request while changing the header table size to crash the server.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 7.5,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
             "CPEs": []
         },
         "Official": {
@@ -13641,9 +13925,9 @@
         "NVD": {
             "Descriptions": "Previously, a user operating inside of a malicious Go project that defines a bogus golang.org/toolchain go.sum entry and operates a malicious GOMODPROXY the user chooses to use can bypass the intended checksum. We now ensure that golang.org/toolchain always goes to the network for the canonical checksum.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 7.8,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
             "CPEs": []
         },
         "Official": {
@@ -13669,9 +13953,9 @@
         "NVD": {
             "Descriptions": "Previously, a user operating inside of a malicious Go project that defines a bogus golang.org/fips140 and operates a malicious GOMODPROXY the user chooses to connect to can serve an arbitrary module in its place. We now unpack the trusted ziphash for the bundled golang.org/fips140 module and construct its entry in the GOMODCACHE such that it can be verified by the toolchain.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 7.8,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
             "CPEs": []
         },
         "Official": {
@@ -13697,9 +13981,9 @@
         "NVD": {
             "Descriptions": "A trusted template author may have previously written a valid template wherein the use of the 'yield' keyword would not be correctly escaped. We now ensure that valid keyword uses are escaped and non-keyword uses are not escaped.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 6.1,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
             "CPEs": []
         },
         "Official": {
@@ -13725,9 +14009,9 @@
         "NVD": {
             "Descriptions": "When a JavaScript template literal contains consecutive expressions, the context tracking state was not properly reset upon entering a new expression. We now ensure that template-literal expression entries correctly reset context variables so all subsequent regular expression literals are accurately recognized and escaped.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 6.1,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
             "CPEs": []
         },
         "Official": {
