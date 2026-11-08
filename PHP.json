@@ -171424,6 +171424,22 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/o:siemens:blueplanet_360_nx3_m6_wm_od_iisx_firmware:-",
+                    "FormattedString": "cpe:2.3:o:siemens:blueplanet_360_nx3_m6_wm_od_iisx_firmware:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:siemens:blueplanet_360_nx3_m6_wm_od_iisx-s_firmware:-",
+                    "FormattedString": "cpe:2.3:o:siemens:blueplanet_360_nx3_m6_wm_od_iisx-s_firmware:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/o:paloaltonetworks:pan-os:12.2.4:-",
                     "FormattedString": "cpe:2.3:o:paloaltonetworks:pan-os:12.2.4:-:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -173757,6 +173773,54 @@
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "12.2.0",
                     "VersionEndExcluding": "12.2.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:spectrum_power_tg:-",
+                    "FormattedString": "cpe:2.3:a:siemens:spectrum_power_tg:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:spectrum_power_7:-",
+                    "FormattedString": "cpe:2.3:a:siemens:spectrum_power_7:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:spectrum_power_4:-",
+                    "FormattedString": "cpe:2.3:a:siemens:spectrum_power_4:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:energy_engage:3.1:service_pack1",
+                    "FormattedString": "cpe:2.3:a:siemens:energy_engage:3.1:service_pack1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:energy_engage:2.0:service_pack9",
+                    "FormattedString": "cpe:2.3:a:siemens:energy_engage:2.0:service_pack9:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:amis_ts:-",
+                    "FormattedString": "cpe:2.3:a:siemens:amis_ts:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
                     "VersionEndIncluding": ""
                 },
                 {
@@ -173809,7 +173873,7 @@
             },
             "8.3.36": {
                 "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.3.36/NEWS"
+                    "https://github.com/php/php-src/blob/PHP-8.3/NEWS"
                 ]
             },
             "8.4.27": {
@@ -173841,6 +173905,22 @@
                 {
                     "URI": "cpe:/o:siemens:ruggedcom_ape1808_firmware:-",
                     "FormattedString": "cpe:2.3:o:siemens:ruggedcom_ape1808_firmware:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:siemens:blueplanet_360_nx3_m6_wm_od_iisx_firmware:-",
+                    "FormattedString": "cpe:2.3:o:siemens:blueplanet_360_nx3_m6_wm_od_iisx_firmware:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:siemens:blueplanet_360_nx3_m6_wm_od_iisx-s_firmware:-",
+                    "FormattedString": "cpe:2.3:o:siemens:blueplanet_360_nx3_m6_wm_od_iisx-s_firmware:-:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
                     "VersionStartIncluding": "",
                     "VersionEndExcluding": "",
@@ -176183,6 +176263,62 @@
                     "VersionEndIncluding": ""
                 },
                 {
+                    "URI": "cpe:/a:siemens:spectrum_power_tg:-",
+                    "FormattedString": "cpe:2.3:a:siemens:spectrum_power_tg:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:spectrum_power_7:-",
+                    "FormattedString": "cpe:2.3:a:siemens:spectrum_power_7:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:spectrum_power_4:-",
+                    "FormattedString": "cpe:2.3:a:siemens:spectrum_power_4:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:spectrum_power_3:-",
+                    "FormattedString": "cpe:2.3:a:siemens:spectrum_power_3:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:energy_engage:3.1:service_pack1",
+                    "FormattedString": "cpe:2.3:a:siemens:energy_engage:3.1:service_pack1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:energy_engage:2.0:service_pack9",
+                    "FormattedString": "cpe:2.3:a:siemens:energy_engage:2.0:service_pack9:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:amis_ts:-",
+                    "FormattedString": "cpe:2.3:a:siemens:amis_ts:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
                     "URI": "cpe:/a:php:php",
                     "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
                     "VersionStartExcluding": "",
@@ -176232,7 +176368,7 @@
             },
             "8.3.36": {
                 "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.3.36/NEWS"
+                    "https://github.com/php/php-src/blob/PHP-8.3/NEWS"
                 ]
             },
             "8.4.27": {
@@ -177324,6 +177460,148 @@
             }
         }
     },
+    "CVE-2026-91767": {
+        "CVE-ID": "CVE-2026-91767",
+        "NVD": {
+            "Descriptions": "php_openssl_matches_wildcard_name() in ext/openssl/xp_ssl.c underflows the length argument passed to memchr() when a TLS server certificate presents a wildcard name whose literal characters are together longer than the hostname being verified. A malicious server presenting such a certificate makes the PHP client read up to SIZE_MAX bytes past the end of a heap allocation. The path is reachable from any default client stream, because verify_peer_name is enabled by default.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:php:php",
+                    "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "8.2.34",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:php:php",
+                    "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.35",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:php:php",
+                    "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.4.0",
+                    "VersionEndExcluding": "8.4.26",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:php:php",
+                    "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.5.0",
+                    "VersionEndExcluding": "8.5.11",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "8.2.34": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.2/NEWS"
+                ]
+            },
+            "8.3.35": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.3/NEWS"
+                ]
+            },
+            "8.3.34": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.3.34/NEWS"
+                ]
+            },
+            "8.4.26": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.4/NEWS"
+                ]
+            },
+            "8.5.11": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.5/NEWS"
+                ]
+            }
+        }
+    },
+    "CVE-2026-91768": {
+        "CVE-ID": "CVE-2026-91768",
+        "NVD": {
+            "Descriptions": "The IPv6 branch of the FastCGI client access check compares only the first 12 bytes of a 16-byte IPv6 address, so listen.allowed_clients matches on a /96 prefix instead of the exact address. An attacker who can source an address sharing the first 96 bits with an allowed one passes the check and reaches the FastCGI endpoint.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.5,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:php:php",
+                    "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "8.2.34",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:php:php",
+                    "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.35",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:php:php",
+                    "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.4.0",
+                    "VersionEndExcluding": "8.4.26",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:php:php",
+                    "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.5.0",
+                    "VersionEndExcluding": "8.5.11",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "8.2.34": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.2/NEWS"
+                ]
+            },
+            "8.3.35": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.3/NEWS"
+                ]
+            },
+            "8.3.34": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.3.34/NEWS"
+                ]
+            },
+            "8.4.26": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.4/NEWS"
+                ]
+            },
+            "8.5.11": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.5/NEWS"
+                ]
+            }
+        }
+    },
     "CVE-2026-91769": {
         "CVE-ID": "CVE-2026-91769",
         "NVD": {
@@ -177332,6 +177610,77 @@
             "Cvss3_BaseScore": 4.3,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:php:php",
+                    "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.2.0",
+                    "VersionEndExcluding": "8.2.34",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:php:php",
+                    "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.3.0",
+                    "VersionEndExcluding": "8.3.35",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:php:php",
+                    "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.4.0",
+                    "VersionEndExcluding": "8.4.26",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:php:php",
+                    "FormattedString": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.5.0",
+                    "VersionEndExcluding": "8.5.11",
+                    "VersionEndIncluding": ""
+                }
+            ]
+        },
+        "Official": {
+            "8.2.34": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.2/NEWS"
+                ]
+            },
+            "8.3.35": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.3/NEWS"
+                ]
+            },
+            "8.3.34": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.3.34/NEWS"
+                ]
+            },
+            "8.4.26": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.4/NEWS"
+                ]
+            },
+            "8.5.11": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.5/NEWS"
+                ]
+            }
+        }
+    },
+    "CVE-2026-92842": {
+        "CVE-ID": "CVE-2026-92842",
+        "NVD": {
+            "Descriptions": "The convert.base64-encode, convert.quoted-printable-encode and convert.quoted-printable-decode stream filters accept a line-break-chars option whose length is tracked separately from the string itself. The filter constructors duplicate the value with pestrdup(), which stops at the first NUL byte, while keeping the original length. When the filter later emits a line break it copies the recorded length out of the truncated allocation, reading past its end and placing adjacent heap bytes into the filter output.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 5.9,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
             "CPEs": [
                 {
                     "URI": "cpe:/a:php:php",
@@ -178512,120 +178861,6 @@
             }
         }
     },
-    "CVE-2026-91768": {
-        "CVE-ID": "CVE-2026-91768",
-        "NVD": {
-            "Descriptions": "The IPv6 branch of the FastCGI client access check compares only the first 12 bytes of a 16-byte IPv6 address, so listen.allowed_clients matches on a /96 prefix instead of the exact address. An attacker who can source an address sharing the first 96 bits with an allowed one passes the check and reaches the FastCGI endpoint.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 6.5,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-            "CPEs": []
-        },
-        "Official": {
-            "8.2.34": {
-                "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.2/NEWS"
-                ]
-            },
-            "8.3.35": {
-                "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.3/NEWS"
-                ]
-            },
-            "8.3.34": {
-                "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.3.34/NEWS"
-                ]
-            },
-            "8.4.26": {
-                "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.4/NEWS"
-                ]
-            },
-            "8.5.11": {
-                "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.5/NEWS"
-                ]
-            }
-        }
-    },
-    "CVE-2026-91767": {
-        "CVE-ID": "CVE-2026-91767",
-        "NVD": {
-            "Descriptions": "php_openssl_matches_wildcard_name() in ext/openssl/xp_ssl.c underflows the length argument passed to memchr() when a TLS server certificate presents a wildcard name whose literal characters are together longer than the hostname being verified. A malicious server presenting such a certificate makes the PHP client read up to SIZE_MAX bytes past the end of a heap allocation. The path is reachable from any default client stream, because verify_peer_name is enabled by default.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 6.5,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-            "CPEs": []
-        },
-        "Official": {
-            "8.2.34": {
-                "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.2/NEWS"
-                ]
-            },
-            "8.3.35": {
-                "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.3/NEWS"
-                ]
-            },
-            "8.3.34": {
-                "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.3.34/NEWS"
-                ]
-            },
-            "8.4.26": {
-                "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.4/NEWS"
-                ]
-            },
-            "8.5.11": {
-                "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.5/NEWS"
-                ]
-            }
-        }
-    },
-    "CVE-2026-92842": {
-        "CVE-ID": "CVE-2026-92842",
-        "NVD": {
-            "Descriptions": "The convert.base64-encode, convert.quoted-printable-encode and convert.quoted-printable-decode stream filters accept a line-break-chars option whose length is tracked separately from the string itself. The filter constructors duplicate the value with pestrdup(), which stops at the first NUL byte, while keeping the original length. When the filter later emits a line break it copies the recorded length out of the truncated allocation, reading past its end and placing adjacent heap bytes into the filter output.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 5.9,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
-            "CPEs": []
-        },
-        "Official": {
-            "8.2.34": {
-                "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.2/NEWS"
-                ]
-            },
-            "8.3.35": {
-                "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.3/NEWS"
-                ]
-            },
-            "8.3.34": {
-                "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.3.34/NEWS"
-                ]
-            },
-            "8.4.26": {
-                "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.4/NEWS"
-                ]
-            },
-            "8.5.11": {
-                "source": [
-                    "https://github.com/php/php-src/blob/PHP-8.5/NEWS"
-                ]
-            }
-        }
-    },
     "CVE-2026-9672": {
         "CVE-ID": "CVE-2026-9672",
         "Official": {
@@ -178850,6 +179085,26 @@
             "8.5.1": {
                 "source": [
                     "https://github.com/php/php-src/blob/PHP-8.5/NEWS"
+                ]
+            }
+        }
+    },
+    "CVE-2026-48841": {
+        "CVE-ID": "CVE-2026-48841",
+        "Official": {
+            "8.5.13": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.5.13/NEWS"
+                ]
+            },
+            "8.6.0RC5": {
+                "source": [
+                    "https://github.com/php/php-src/blob/PHP-8.6.0/NEWS"
+                ]
+            },
+            "8.5.13RC1": {
+                "source": [
+                    "https://github.com/php/php-src/blob/php-8.5.13RC1/NEWS"
                 ]
             }
         }

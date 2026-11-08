@@ -28827,6 +28827,37 @@
             }
         }
     },
+    "CVE-2026-106072": {
+        "CVE-ID": "CVE-2026-106072",
+        "NVD": {
+            "Descriptions": "A flaw in Node.js TLS hostname verification allows a certificate with only a DNS SAN to authenticate an IP endpoint when the client connects using a non-canonical IPv4 spelling, such as `0177.0.0.1`, `0x7f.0.0.1`, `2130706433` or `127.1`.\n\n`tls.checkServerIdentity()` did not classify these hosts as IP addresses, but normalized them to their canonical form and matched the result against the certificate DNS names. A certificate containing `DNS:127.0.0.1` and no `IP Address:127.0.0.1` SAN was therefore accepted, while the same certificate is correctly rejected for `127.0.0.1`. Exploitation requires a certificate with a numeric DNS SAN issued by a CA trusted by the client, and a platform resolver that accepts these spellings, such as glibc.\n\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 6.7,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:L",
+            "CPEs": []
+        },
+        "Official": {
+            "22.23.4": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V22.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/201.json"
+                ]
+            },
+            "24.22.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V24.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/201.json"
+                ]
+            },
+            "26.12.1": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V26.md",
+                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/201.json"
+                ]
+            }
+        }
+    },
     "CVE-2026-106073": {
         "CVE-ID": "CVE-2026-106073",
         "NVD": {
@@ -28894,10 +28925,371 @@
         "NVD": {
             "Descriptions": "A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.\n\n\n\n\n\nUsers need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 9.8,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
-            "CPEs": []
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "CPEs": [
+                {
+                    "URI": "cpe:/o:siemens:ruggedcom_ape1808_firmware:-",
+                    "FormattedString": "cpe:2.3:o:siemens:ruggedcom_ape1808_firmware:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/o:debian:debian_linux:12.0",
+                    "FormattedString": "cpe:2.3:o:debian:debian_linux:12.0:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:tianocore:edk2",
+                    "FormattedString": "cpe:2.3:a:tianocore:edk2:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "202608"
+                },
+                {
+                    "URI": "cpe:/a:siemens:industrial_edge_management_cloud:-",
+                    "FormattedString": "cpe:2.3:a:siemens:industrial_edge_management_cloud:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:industrial_edge_hub:-",
+                    "FormattedString": "cpe:2.3:a:siemens:industrial_edge_hub:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:industrial_edge_databus_configurator:-",
+                    "FormattedString": "cpe:2.3:a:siemens:industrial_edge_databus_configurator:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:industrial_edge_cloud_connector_configurator:-",
+                    "FormattedString": "cpe:2.3:a:siemens:industrial_edge_cloud_connector_configurator:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:flow_creator_configurator:-",
+                    "FormattedString": "cpe:2.3:a:siemens:flow_creator_configurator:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:edge_opc_ua_server_configurator:-",
+                    "FormattedString": "cpe:2.3:a:siemens:edge_opc_ua_server_configurator:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:data_flow_monitoring:-",
+                    "FormattedString": "cpe:2.3:a:siemens:data_flow_monitoring:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:siemens:common_configurator:-",
+                    "FormattedString": "cpe:2.3:a:siemens:common_configurator:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:python-hyper:brotlicffi:::~~~python~~",
+                    "FormattedString": "cpe:2.3:a:python-hyper:brotlicffi:*:*:*:*:*:python:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.2.1.0",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "22.23.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "23.0.0",
+                    "VersionEndExcluding": "24.22.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:nodejs:node.js:::~~-~~~",
+                    "FormattedString": "cpe:2.3:a:nodejs:node.js:*:*:*:*:-:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "25.0.0",
+                    "VersionEndExcluding": "26.12.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:.net:11.0.0:rc2",
+                    "FormattedString": "cpe:2.3:a:microsoft:.net:11.0.0:rc2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:.net:11.0.0:rc1",
+                    "FormattedString": "cpe:2.3:a:microsoft:.net:11.0.0:rc1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:.net:11.0.0:preview7",
+                    "FormattedString": "cpe:2.3:a:microsoft:.net:11.0.0:preview7:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:.net:11.0.0:preview6",
+                    "FormattedString": "cpe:2.3:a:microsoft:.net:11.0.0:preview6:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:.net:11.0.0:preview5",
+                    "FormattedString": "cpe:2.3:a:microsoft:.net:11.0.0:preview5:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:.net:11.0.0:preview4",
+                    "FormattedString": "cpe:2.3:a:microsoft:.net:11.0.0:preview4:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:.net:11.0.0:preview3",
+                    "FormattedString": "cpe:2.3:a:microsoft:.net:11.0.0:preview3:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:.net:11.0.0:preview2",
+                    "FormattedString": "cpe:2.3:a:microsoft:.net:11.0.0:preview2:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:.net:11.0.0:preview1",
+                    "FormattedString": "cpe:2.3:a:microsoft:.net:11.0.0:preview1:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:.net",
+                    "FormattedString": "cpe:2.3:a:microsoft:.net:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "10.0.0",
+                    "VersionEndExcluding": "10.0.14",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:.net",
+                    "FormattedString": "cpe:2.3:a:microsoft:.net:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "8.0.0",
+                    "VersionEndExcluding": "8.0.33",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:microsoft:.net",
+                    "FormattedString": "cpe:2.3:a:microsoft:.net:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "9.0.0",
+                    "VersionEndExcluding": "9.0.22",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:mcmilk:7-zip-zstd",
+                    "FormattedString": "cpe:2.3:a:mcmilk:7-zip-zstd:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "26.02-1.5.7-r2"
+                },
+                {
+                    "URI": "cpe:/a:istio:istio",
+                    "FormattedString": "cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.29.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:istio:istio",
+                    "FormattedString": "cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.30.0",
+                    "VersionEndExcluding": "1.30.6",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:istio:istio",
+                    "FormattedString": "cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.31.0",
+                    "VersionEndExcluding": "1.31.2",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:google:woff2:-",
+                    "FormattedString": "cpe:2.3:a:google:woff2:-:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:google:brotli:::~~~-~~",
+                    "FormattedString": "cpe:2.3:a:google:brotli:*:*:*:*:*:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.0.3",
+                    "VersionEndExcluding": "1.0.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:google:brotli:::~~~-~~",
+                    "FormattedString": "cpe:2.3:a:google:brotli:*:*:*:*:*:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.1.0",
+                    "VersionEndExcluding": "1.1.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:google:brotli:::~~~-~~",
+                    "FormattedString": "cpe:2.3:a:google:brotli:*:*:*:*:*:-:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.2.0",
+                    "VersionEndExcluding": "1.2.1",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:envoyproxy:envoy",
+                    "FormattedString": "cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.37.8",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:envoyproxy:envoy",
+                    "FormattedString": "cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.38.0",
+                    "VersionEndExcluding": "1.38.6",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:envoyproxy:envoy",
+                    "FormattedString": "cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "1.39.0",
+                    "VersionEndExcluding": "1.39.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:duckdb:duckdb",
+                    "FormattedString": "cpe:2.3:a:duckdb:duckdb:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "2.0.0"
+                },
+                {
+                    "URI": "cpe:/a:clickhouse:clickhouse",
+                    "FormattedString": "cpe:2.3:a:clickhouse:clickhouse:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "26.10.2.103"
+                },
+                {
+                    "URI": "cpe:/a:apache:arrow:27.0.0:dev",
+                    "FormattedString": "cpe:2.3:a:apache:arrow:27.0.0:dev:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:apache:arrow",
+                    "FormattedString": "cpe:2.3:a:apache:arrow:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "26.0.0"
+                },
+                {
+                    "URI": "cpe:/a:anthropic:bun",
+                    "FormattedString": "cpe:2.3:a:anthropic:bun:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.4.4",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:andybalholm:brotli:::~~~go~~",
+                    "FormattedString": "cpe:2.3:a:andybalholm:brotli:*:*:*:*:*:go:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "1.2.7",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:7-zip:p7zip",
+                    "FormattedString": "cpe:2.3:a:7-zip:p7zip:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": "16.02"
+                }
+            ]
         },
         "Official": {
             "22.23.4": {
@@ -29146,6 +29538,11 @@
                 "source": [
                     "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V26.md",
                     "https://github.com/nodejs/security-wg/blob/main/vuln/core/191.json"
+                ]
+            },
+            "27.0.0": {
+                "source": [
+                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V27.md"
                 ]
             }
         }
@@ -30072,35 +30469,6 @@
                 "source": [
                     "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V25.md",
                     "https://github.com/nodejs/security-wg/blob/main/vuln/core/162.json"
-                ]
-            }
-        }
-    },
-    "CVE-2026-106072": {
-        "CVE-ID": "CVE-2026-106072",
-        "NVD": {
-            "Descriptions": "A flaw in Node.js TLS hostname verification allows a certificate with only a DNS SAN to authenticate an IP endpoint when the client connects using a non-canonical IPv4 spelling, such as `0177.0.0.1`, `0x7f.0.0.1`, `2130706433` or `127.1`.\n\n`tls.checkServerIdentity()` did not classify these hosts as IP addresses, but normalized them to their canonical form and matched the result against the certificate DNS names. A certificate containing `DNS:127.0.0.1` and no `IP Address:127.0.0.1` SAN was therefore accepted, while the same certificate is correctly rejected for `127.0.0.1`. Exploitation requires a certificate with a numeric DNS SAN issued by a CA trusted by the client, and a platform resolver that accepts these spellings, such as glibc.\n\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
-            "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 6.7,
-            "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:L",
-            "CPEs": []
-        },
-        "Official": {
-            "26.12.1": {
-                "source": [
-                    "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V26.md",
-                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/201.json"
-                ]
-            },
-            "22.23.4": {
-                "source": [
-                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/201.json"
-                ]
-            },
-            "24.22.1": {
-                "source": [
-                    "https://github.com/nodejs/security-wg/blob/main/vuln/core/201.json"
                 ]
             }
         }

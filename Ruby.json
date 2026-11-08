@@ -7,7 +7,120 @@
             "Cvss3_BaseScore": 10,
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
-            "CPEs": []
+            "CPEs": [
+                {
+                    "URI": "cpe:/a:gitlab:gitlab:::~~enterprise~~~",
+                    "FormattedString": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "19.0.0",
+                    "VersionEndExcluding": "19.0.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:gitlab:gitlab:::~~enterprise~~~",
+                    "FormattedString": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "19.1.0",
+                    "VersionEndExcluding": "19.1.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:gitlab:gitlab:::~~enterprise~~~",
+                    "FormattedString": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "19.2.0",
+                    "VersionEndExcluding": "19.2.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:gitlab:gitlab:::~~enterprise~~~",
+                    "FormattedString": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "19.3.0",
+                    "VersionEndExcluding": "19.3.6",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:gitlab:gitlab:::~~enterprise~~~",
+                    "FormattedString": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "19.4.0",
+                    "VersionEndExcluding": "19.4.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:gitlab:gitlab:::~~enterprise~~~",
+                    "FormattedString": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "18.11.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:gitlab:gitlab:::~~community~~~",
+                    "FormattedString": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "19.0.0",
+                    "VersionEndExcluding": "19.0.10",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:gitlab:gitlab:::~~community~~~",
+                    "FormattedString": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "19.1.0",
+                    "VersionEndExcluding": "19.1.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:gitlab:gitlab:::~~community~~~",
+                    "FormattedString": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "19.2.0",
+                    "VersionEndExcluding": "19.2.9",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:gitlab:gitlab:::~~community~~~",
+                    "FormattedString": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "19.3.0",
+                    "VersionEndExcluding": "19.3.6",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:gitlab:gitlab:::~~community~~~",
+                    "FormattedString": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "19.4.0",
+                    "VersionEndExcluding": "19.4.3",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:gitlab:gitlab:::~~community~~~",
+                    "FormattedString": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "7.0.0",
+                    "VersionEndExcluding": "18.11.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:gitlab:gitlab:19.5.0::~~enterprise~~~",
+                    "FormattedString": "cpe:2.3:a:gitlab:gitlab:19.5.0:*:*:*:enterprise:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:gitlab:gitlab:19.5.0::~~community~~~",
+                    "FormattedString": "cpe:2.3:a:gitlab:gitlab:19.5.0:*:*:*:community:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "",
+                    "VersionEndExcluding": "",
+                    "VersionEndIncluding": ""
+                }
+            ]
         },
         "Official": {
             "Ruby 4.0.9": {
@@ -3895,6 +4008,30 @@
             "Cvss2_VectorString": "",
             "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
             "CPEs": [
+                {
+                    "URI": "cpe:/a:ruby-lang:ruby",
+                    "FormattedString": "cpe:2.3:a:ruby-lang:ruby:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.3.0",
+                    "VersionEndExcluding": "3.3.13",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:ruby-lang:ruby",
+                    "FormattedString": "cpe:2.3:a:ruby-lang:ruby:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "3.4.0",
+                    "VersionEndExcluding": "3.4.12",
+                    "VersionEndIncluding": ""
+                },
+                {
+                    "URI": "cpe:/a:ruby-lang:ruby",
+                    "FormattedString": "cpe:2.3:a:ruby-lang:ruby:*:*:*:*:*:*:*:*",
+                    "VersionStartExcluding": "",
+                    "VersionStartIncluding": "4.0.0",
+                    "VersionEndExcluding": "4.0.8",
+                    "VersionEndIncluding": ""
+                },
                 {
                     "URI": "cpe:/a:gitlab:gitlab:::~~enterprise~~~",
                     "FormattedString": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",

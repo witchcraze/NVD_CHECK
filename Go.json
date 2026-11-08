@@ -13320,6 +13320,24 @@
             }
         }
     },
+    "CVE-2026-97045": {
+        "CVE-ID": "CVE-2026-97045",
+        "NVD": {
+            "Descriptions": "In childTextNodesAreLiteral, walking up the tree previously stopped at the nearest foreign ancestor once an HTML integration point was found. However, that integration point may itself be a descendant of an element that was foster-parented into a foreign namespace (such as <mglyph> or <malignmark> fostered under <mtext>), causing a parser to resolve the subtree in a different foreign namespace upon re-parsing the rendered output. Continue walking the full ancestor chain and verify that every transition from a non-empty namespace occurs at an HTML integration point before emitting literal text.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
+        "Official": {
+            "Unreleased": {
+                "source": {
+                    "82622": "https://github.com/golang/go/issues/82622"
+                }
+            }
+        }
+    },
     "CVE-2026-97033": {
         "CVE-ID": "CVE-2026-97033",
         "Official": {
@@ -13565,9 +13583,9 @@
         "NVD": {
             "Descriptions": "On most platforms, Go uses the given system root certificates. However, in some narrower cases, the system trust stores may not be updated without further action. To defend against the narrower set of cases that may remain affected, a denylist was added in crypto/x509 to return an error when calling Verify with any of the known intermediate certificates that are no longer considered to be trustworthy.",
             "Cvss2_BaseScore": 0,
-            "Cvss3_BaseScore": 0,
+            "Cvss3_BaseScore": 6.8,
             "Cvss2_VectorString": "",
-            "Cvss3_VectorString": "",
+            "Cvss3_VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N",
             "CPEs": []
         },
         "Official": {
@@ -13590,8 +13608,16 @@
     },
     "CVE-2026-78661": {
         "CVE-ID": "CVE-2026-78661",
+        "NVD": {
+            "Descriptions": "When coalescing adjacent text nodes in addText and fosterParent, appending to an existing TextNode's Data via string concatenation (n.Data += text) reallocated and copied the accumulated string on every token. Inputs containing many short text runs separated by ignored end tags (such as \"a</x>\") caused O(n^2) allocations and byte copies. Accumulate coalesced text in per-node byte slices during parsing and materialize Data strings once at the end of parse.",
+            "Cvss2_BaseScore": 0,
+            "Cvss3_BaseScore": 0,
+            "Cvss2_VectorString": "",
+            "Cvss3_VectorString": "",
+            "CPEs": []
+        },
         "Official": {
-            "1.28": {
+            "Unreleased": {
                 "source": {
                     "82224": "https://github.com/golang/go/issues/82224"
                 }
